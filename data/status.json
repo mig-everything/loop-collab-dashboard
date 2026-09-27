@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27T20:26:24Z",
+  "generated_at": "2026-09-27T22:12:51Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -97,9 +97,9 @@
           "role": "GLM Scenarist",
           "model": "zai:glm-5.2",
           "agent_id": "6e6f1e24-3bc5-455a-85d2-cb3fb6c9a672",
-          "state": "meeting",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "BEN-7",
+          "issue_title": "[任务] day-1 环境自检 + Cofi 首批场景生成（对应 GitHub #1）"
         },
         {
           "name": "glm-runner",
@@ -107,47 +107,47 @@
           "role": "GLM Runner & Analyst",
           "model": "zai:glm-5.2",
           "agent_id": "bdaefa9b-7045-4264-95e4-1db664e353d0",
-          "state": "meeting",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "BEN-24",
+          "issue_title": "[任务·第3轮] Cofi 计时批次第 2 轮双端回归 + Android 可达性攻坚（FC142/144/148/16"
         }
       ],
       "issue_counts": {
         "todo": 0,
         "in_progress": 4,
-        "in_review": 12,
-        "done": 4
+        "in_review": 0,
+        "done": 16
       },
       "latest_issues": [
         {
-          "key": "BEN-25",
-          "title": "[早会纪要] 2026-09-28",
-          "status": "in_progress",
-          "updated_at": "2026-09-27T20:16:46Z"
+          "key": "BEN-12",
+          "title": "[任务·第3轮] Cofi 场景 compact + 首批 30 条 ready 审核（对应 Git",
+          "status": "done",
+          "updated_at": "2026-09-27T22:11:01Z"
         },
         {
-          "key": "BEN-24",
-          "title": "[任务·第3轮] Cofi 计时批次第 2 轮双端回归 + Android 可达性攻坚（FC142/",
-          "status": "in_progress",
-          "updated_at": "2026-09-27T12:17:35Z"
+          "key": "BEN-16",
+          "title": "[任务·第1轮] Android cofi APK 构建装机 + 双端冒烟启动回归（对应 GitHu",
+          "status": "done",
+          "updated_at": "2026-09-27T22:10:55Z"
         },
         {
-          "key": "BEN-23",
-          "title": "[任务·第3轮] AntennaPod A1 批次（订阅链路 73 组）审核转 ready + bi",
-          "status": "in_progress",
-          "updated_at": "2026-09-27T12:13:03Z"
+          "key": "BEN-13",
+          "title": "[任务·第3轮] 鸿蒙 function 通道打通：Cofi HAP 构建或已装应用直测旁路（对应 ",
+          "status": "done",
+          "updated_at": "2026-09-27T22:10:55Z"
         },
         {
-          "key": "BEN-22",
-          "title": "[晚会纪要] 2026-09-27 第3轮：核验第2轮成果（被测端通道+87 ready+compa",
-          "status": "in_review",
-          "updated_at": "2026-09-27T12:05:52Z"
+          "key": "BEN-15",
+          "title": "[任务·第1轮] 鸿蒙模拟器语言修复 + function cofi 4/4 回归（对应 GitHu",
+          "status": "done",
+          "updated_at": "2026-09-27T22:10:54Z"
         },
         {
           "key": "BEN-19",
           "title": "[任务·第2轮] 被测端通道打通：test/cofi HAP 构建 + function 首跑 + ",
-          "status": "in_review",
-          "updated_at": "2026-09-27T10:56:28Z"
+          "status": "done",
+          "updated_at": "2026-09-27T22:10:50Z"
         }
       ]
     },
@@ -305,39 +305,39 @@
       "issue_counts": {
         "todo": 2,
         "in_progress": 1,
-        "in_review": 18,
-        "done": 8
+        "in_review": 0,
+        "done": 27
       },
       "latest_issues": [
         {
-          "key": "IPD-41",
-          "title": "[测试·第4轮] REQ-002 TR-Accept 升「通过」收口 — Android 基线 P0",
-          "status": "in_review",
-          "updated_at": "2026-09-27T20:16:07Z"
+          "key": "IPD-20",
+          "title": "[双端编码·第3轮] REQ-001 构建配置收口落地 + ohosTest 模块骨架",
+          "status": "done",
+          "updated_at": "2026-09-27T22:13:08Z"
         },
         {
-          "key": "IPD-38",
-          "title": "[评审] REQ-002 TR-Accept 验收评审 — 结论：有条件通过（鸿蒙全达标 / And",
-          "status": "in_review",
-          "updated_at": "2026-09-27T20:15:37Z"
+          "key": "IPD-18",
+          "title": "[技术收口] REQ-001 鸿蒙 SDK API 版本 + Gradle 口径裁决（API 23/",
+          "status": "done",
+          "updated_at": "2026-09-27T22:12:54Z"
         },
         {
-          "key": "IPD-43",
-          "title": "[TR-Req 评审] REQ-003 灵感速记（Quick Notes）—— 需求评审（PM 主持",
-          "status": "in_review",
-          "updated_at": "2026-09-27T20:10:18Z"
+          "key": "IPD-10",
+          "title": "[TR-Design] 咖啡冲煮计时器（REQ-001）—— 双端架构方案与接口契约",
+          "status": "done",
+          "updated_at": "2026-09-27T22:12:54Z"
         },
         {
-          "key": "IPD-42",
-          "title": "[PRD] REQ-003 灵感速记（Quick Notes）— 元服务直达 + 美观 UI + 主",
-          "status": "in_review",
-          "updated_at": "2026-09-27T20:09:58Z"
+          "key": "IPD-28",
+          "title": "[架构·第1轮] REQ-002 待办清单双端架构方案 + TR-Design 主持 + Andro",
+          "status": "done",
+          "updated_at": "2026-09-27T22:12:53Z"
         },
         {
-          "key": "IPD-37",
-          "title": "[双端编码·第3轮] REQ-002 鸿蒙特性取证收口 — US-7 元服务卡片运行时 + US-8",
-          "status": "in_review",
-          "updated_at": "2026-09-27T20:08:52Z"
+          "key": "IPD-27",
+          "title": "[SE·第1轮] REQ-001 追踪矩阵「设计→代码」列回填 + 完整性核验 + REQ-002 ",
+          "status": "done",
+          "updated_at": "2026-09-27T22:12:53Z"
         }
       ]
     }
