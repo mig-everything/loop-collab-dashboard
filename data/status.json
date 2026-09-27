@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27T20:11:34Z",
+  "generated_at": "2026-09-27T20:16:34Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -18,8 +18,8 @@
           "model": "",
           "agent_id": "58ed4647-32dd-4ca1-8ddc-194b975d6024",
           "state": "working",
-          "issue": "SUR-39",
-          "issue_title": "[晨会纪要] 2026-09-28"
+          "issue": "SUR-40",
+          "issue_title": "[任务][day-4] 66 条核验第三批 [25]–[36] + 返工 batch2 4❌ + 清理 P2 体例"
         },
         {
           "name": "kimi-adversary",
@@ -53,13 +53,13 @@
           "key": "SUR-39",
           "title": "[晨会纪要] 2026-09-28",
           "status": "in_progress",
-          "updated_at": "2026-09-27T20:09:23Z"
+          "updated_at": "2026-09-27T20:12:41Z"
         },
         {
           "key": "SUR-40",
           "title": "[任务][day-4] 66 条核验第三批 [25]–[36] + 返工 batch2 4❌ + 清",
           "status": "in_progress",
-          "updated_at": "2026-09-27T20:09:14Z"
+          "updated_at": "2026-09-27T20:12:40Z"
         },
         {
           "key": "SUR-41",
@@ -303,12 +303,24 @@
         }
       ],
       "issue_counts": {
-        "todo": 3,
+        "todo": 2,
         "in_progress": 1,
-        "in_review": 17,
+        "in_review": 18,
         "done": 8
       },
       "latest_issues": [
+        {
+          "key": "IPD-41",
+          "title": "[测试·第4轮] REQ-002 TR-Accept 升「通过」收口 — Android 基线 P0",
+          "status": "in_review",
+          "updated_at": "2026-09-27T20:16:07Z"
+        },
+        {
+          "key": "IPD-38",
+          "title": "[评审] REQ-002 TR-Accept 验收评审 — 结论：有条件通过（鸿蒙全达标 / And",
+          "status": "in_review",
+          "updated_at": "2026-09-27T20:15:37Z"
+        },
         {
           "key": "IPD-43",
           "title": "[TR-Req 评审] REQ-003 灵感速记（Quick Notes）—— 需求评审（PM 主持",
@@ -326,18 +338,6 @@
           "title": "[双端编码·第3轮] REQ-002 鸿蒙特性取证收口 — US-7 元服务卡片运行时 + US-8",
           "status": "in_review",
           "updated_at": "2026-09-27T20:08:52Z"
-        },
-        {
-          "key": "IPD-40",
-          "title": "[早会纪要] 2026-09-28",
-          "status": "in_progress",
-          "updated_at": "2026-09-27T20:08:23Z"
-        },
-        {
-          "key": "IPD-41",
-          "title": "[测试·第4轮] REQ-002 TR-Accept 升「通过」收口 — Android 基线 P0",
-          "status": "todo",
-          "updated_at": "2026-09-27T20:05:28Z"
         }
       ]
     }
