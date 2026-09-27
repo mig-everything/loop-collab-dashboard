@@ -24,6 +24,8 @@ MultiCA Loop Engineering「国庆七天乐」四任务 Agent 实时状态看板�
 
 另有：任务进度条（红→黄→绿渐变）、Issue 统计（待办/进行/评审/完成）、最近 5 条 Issue 动态、机器在线状态灯、数据更新时间（北京时间）与 60 秒自动刷新倒计时。
 
+**点击跳转 MultiCA**：任务标题 → `multica.ai/<workspace>/issues`（Issue 列表）；Agent 角色 → `multica.ai/<workspace>/agents/<uuid>`（Agent 详情）；Issue 动态与 working 气泡 → `multica.ai/<workspace>/issues/<编号>`（Issue 详情，如 SUR-36）。均新标签页打开（需已登录 MultiCA）。
+
 ## 架构
 
 ```
