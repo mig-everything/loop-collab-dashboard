@@ -81,7 +81,7 @@ echo "$WS_LIST" | while IFS='|' read ws tid tname hostkey machine daily; do
   PROG=""
   if [ -d "$LOOP_COLLAB/daily/$daily" ]; then
     LATEST_MD=$(ls "$LOOP_COLLAB/daily/$daily"/2*.md 2>/dev/null | sort | tail -1)
-    [ -n "$LATEST_MD" ] && PROG=$(grep -o '总进度：\s*[0-9]*' "$LATEST_MD" | grep -o '[0-9]*' | head -1)
+    [ -n "$LATEST_MD" ] && PROG=$(grep -oE '总进度[：:][^0-9]{0,3}[0-9]+' "$LATEST_MD" | grep -oE '[0-9]+' | head -1)
   fi
   PROG=${PROG:-0}
 
