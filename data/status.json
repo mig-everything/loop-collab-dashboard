@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27T14:25:41Z",
+  "generated_at": "2026-09-27T20:01:16Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -97,7 +97,7 @@
           "role": "GLM Scenarist",
           "model": "zai:glm-5.2",
           "agent_id": "6e6f1e24-3bc5-455a-85d2-cb3fb6c9a672",
-          "state": "idle",
+          "state": "working",
           "issue": "",
           "issue_title": ""
         },
@@ -113,12 +113,18 @@
         }
       ],
       "issue_counts": {
-        "todo": 0,
+        "todo": 1,
         "in_progress": 3,
         "in_review": 12,
         "done": 4
       },
       "latest_issues": [
+        {
+          "key": "BEN-25",
+          "title": "[早会纪要] 2026-09-28",
+          "status": "todo",
+          "updated_at": "2026-09-27T20:00:15Z"
+        },
         {
           "key": "BEN-24",
           "title": "[任务·第3轮] Cofi 计时批次第 2 轮双端回归 + Android 可达性攻坚（FC142/",
@@ -142,12 +148,6 @@
           "title": "[任务·第2轮] 被测端通道打通：test/cofi HAP 构建 + function 首跑 + ",
           "status": "in_review",
           "updated_at": "2026-09-27T10:56:28Z"
-        },
-        {
-          "key": "BEN-18",
-          "title": "[午会纪要] 2026-09-27 第2轮：核验晨会产出+派双端执行/差分任务",
-          "status": "in_review",
-          "updated_at": "2026-09-27T10:56:12Z"
         }
       ]
     },
@@ -157,8 +157,8 @@
       "workspace": "ws-dw-migration-loop",
       "machine": "奕棣 MacBook",
       "machine_online": false,
-      "meeting_active": false,
-      "meeting_title": "",
+      "meeting_active": true,
+      "meeting_title": "[早会纪要] 2026-09-28",
       "progress": 55,
       "agents": [
         {
@@ -187,18 +187,24 @@
           "role": "Opus Analyzer",
           "model": "claude-opus-4-1",
           "agent_id": "2f32549c-87c7-4202-8f54-3af79a30afa0",
-          "state": "offline",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "DWM-25",
+          "issue_title": "[早会纪要] 2026-09-28"
         }
       ],
       "issue_counts": {
         "todo": 0,
-        "in_progress": 0,
+        "in_progress": 1,
         "in_review": 17,
         "done": 1
       },
       "latest_issues": [
+        {
+          "key": "DWM-25",
+          "title": "[早会纪要] 2026-09-28",
+          "status": "in_progress",
+          "updated_at": "2026-09-27T20:00:26Z"
+        },
         {
           "key": "DWM-22",
           "title": "[晚会日报] 2026-09-27",
@@ -222,12 +228,6 @@
           "title": "[午会纪要] 2026-09-27 day-2（第 2 轮派单）",
           "status": "in_review",
           "updated_at": "2026-09-27T04:24:31Z"
-        },
-        {
-          "key": "DWM-21",
-          "title": "[任务] Cofi + Omni-Notes 行为等价验收用例设计（ATH 三层，Snowball ",
-          "status": "in_review",
-          "updated_at": "2026-09-27T04:20:43Z"
         }
       ]
     },
@@ -303,12 +303,18 @@
         }
       ],
       "issue_counts": {
-        "todo": 2,
+        "todo": 3,
         "in_progress": 9,
         "in_review": 16,
         "done": 0
       },
       "latest_issues": [
+        {
+          "key": "IPD-40",
+          "title": "[早会纪要] 2026-09-28",
+          "status": "todo",
+          "updated_at": "2026-09-27T20:00:14Z"
+        },
         {
           "key": "IPD-38",
           "title": "[评审] REQ-002 TR-Accept 验收评审 — 结论：有条件通过（鸿蒙全达标 / And",
@@ -332,12 +338,6 @@
           "title": "[双端编码·第3轮] REQ-002 鸿蒙特性取证收口 — US-7 元服务卡片运行时 + US-8",
           "status": "in_progress",
           "updated_at": "2026-09-27T12:34:00Z"
-        },
-        {
-          "key": "IPD-35",
-          "title": "[晚会日报] 2026-09-27",
-          "status": "in_progress",
-          "updated_at": "2026-09-27T12:15:07Z"
         }
       ]
     }
