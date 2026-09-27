@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27T14:11:25Z",
+  "generated_at": "2026-09-27T14:11:46Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -289,41 +289,41 @@
         }
       ],
       "issue_counts": {
-        "todo": 0,
-        "in_progress": 5,
-        "in_review": 11,
-        "done": 3
+        "todo": 2,
+        "in_progress": 9,
+        "in_review": 16,
+        "done": 0
       },
       "latest_issues": [
         {
-          "key": "SUR-36",
-          "title": "[任务][day-3] 独立评审 SUR-34 返工（48b5a80）9 项修复 + 复核 SUR-",
+          "key": "IPD-38",
+          "title": "[评审] REQ-002 TR-Accept 验收评审 — 结论：有条件通过（鸿蒙全达标 / And",
           "status": "in_review",
-          "updated_at": "2026-09-27T12:21:00Z"
+          "updated_at": "2026-09-27T12:47:53Z"
         },
         {
-          "key": "SUR-37",
-          "title": "[任务][day-3] 66 条原文核验第二批 [13]–[24] + ArkTrans 全文核验（",
-          "status": "done",
-          "updated_at": "2026-09-27T12:19:46Z"
+          "key": "IPD-39",
+          "title": "[缺陷修复] REQ-002 Android CLI 基线 P0 — 跨 Activity 状态不刷",
+          "status": "in_review",
+          "updated_at": "2026-09-27T12:39:22Z"
         },
         {
-          "key": "SUR-35",
+          "key": "IPD-36",
+          "title": "[测试·第3轮] REQ-002 TR-Accept 闭环 — Android Appium 差分执",
+          "status": "in_review",
+          "updated_at": "2026-09-27T12:34:12Z"
+        },
+        {
+          "key": "IPD-37",
+          "title": "[双端编码·第3轮] REQ-002 鸿蒙特性取证收口 — US-7 元服务卡片运行时 + US-8",
+          "status": "in_progress",
+          "updated_at": "2026-09-27T12:34:00Z"
+        },
+        {
+          "key": "IPD-35",
           "title": "[晚会日报] 2026-09-27",
           "status": "in_progress",
-          "updated_at": "2026-09-27T12:11:10Z"
-        },
-        {
-          "key": "SUR-33",
-          "title": "[任务][day-3] 对抗评审第1轮产出：SUR-29（4项小修+batch1台账）+ SUR-3",
-          "status": "in_review",
-          "updated_at": "2026-09-27T04:25:19Z"
-        },
-        {
-          "key": "SUR-34",
-          "title": "[任务][day-3] 返工 batch1 核验发现的 5❌+4⚠️ 项（来源混用/数字口径/唯一论",
-          "status": "in_review",
-          "updated_at": "2026-09-27T04:19:48Z"
+          "updated_at": "2026-09-27T12:15:07Z"
         }
       ]
     }
