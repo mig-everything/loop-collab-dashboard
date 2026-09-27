@@ -69,7 +69,7 @@ echo "$WS_LIST" | while IFS='|' read ws tid tname hostkey machine daily; do
     rm -f "$ACTIVE_FILE.run"
   fi
   rm -f "$ACTIVE_FILE"
-  AGENTS_OUT=$(echo "$AGENTS_OUT" | jq -c '[.[] | del(.agent_id, .platform_status)]')
+  AGENTS_OUT=$(echo "$AGENTS_OUT" | jq -c '[.[] | del(.platform_status)]')
 
   # issue 统计与最新动态
   COUNTS=$(echo "$ISSUES" | jq -c '{todo:([.issues[]|select(.status=="backlog" or .status=="todo" or .status=="unstarted")]|length),
