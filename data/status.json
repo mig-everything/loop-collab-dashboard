@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27T20:08:09Z",
+  "generated_at": "2026-09-27T20:11:34Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -9,7 +9,7 @@
       "machine_online": true,
       "meeting_active": true,
       "meeting_title": "[晨会纪要] 2026-09-28",
-      "progress": 33,
+      "progress": 37,
       "agents": [
         {
           "name": "gpt-writer",
@@ -17,9 +17,9 @@
           "role": "GPT Writer（执笔者）",
           "model": "",
           "agent_id": "58ed4647-32dd-4ca1-8ddc-194b975d6024",
-          "state": "meeting",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "SUR-39",
+          "issue_title": "[晨会纪要] 2026-09-28"
         },
         {
           "name": "kimi-adversary",
@@ -37,18 +37,30 @@
           "role": "DeepSeek Task Planner（任务规划+总结）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "04a4e04e-59d5-4f3a-8a16-acf99b80a493",
-          "state": "working",
-          "issue": "SUR-39",
-          "issue_title": "[晨会纪要] 2026-09-28"
+          "state": "meeting",
+          "issue": "",
+          "issue_title": ""
         }
       ],
       "issue_counts": {
         "todo": 0,
-        "in_progress": 2,
+        "in_progress": 3,
         "in_review": 0,
         "done": 20
       },
       "latest_issues": [
+        {
+          "key": "SUR-39",
+          "title": "[晨会纪要] 2026-09-28",
+          "status": "in_progress",
+          "updated_at": "2026-09-27T20:09:23Z"
+        },
+        {
+          "key": "SUR-40",
+          "title": "[任务][day-4] 66 条核验第三批 [25]–[36] + 返工 batch2 4❌ + 清",
+          "status": "in_progress",
+          "updated_at": "2026-09-27T20:09:14Z"
+        },
         {
           "key": "SUR-41",
           "title": "[任务][day-4] 对抗评审 SUR-37 batch2（[13]–[24] 判定 + ArkT",
@@ -66,18 +78,6 @@
           "title": "[任务][day-3] 返工 batch1 核验发现的 5❌+4⚠️ 项（来源混用/数字口径/唯一论",
           "status": "done",
           "updated_at": "2026-09-27T20:04:35Z"
-        },
-        {
-          "key": "SUR-31",
-          "title": "[写作] 第6章补图+第7章补图表——满足'有图有表'硬要求（2026-09-27 负责人新增）",
-          "status": "done",
-          "updated_at": "2026-09-27T20:04:34Z"
-        },
-        {
-          "key": "SUR-33",
-          "title": "[任务][day-3] 对抗评审第1轮产出：SUR-29（4项小修+batch1台账）+ SUR-3",
-          "status": "done",
-          "updated_at": "2026-09-27T20:04:34Z"
         }
       ]
     },
@@ -159,7 +159,7 @@
       "machine_online": false,
       "meeting_active": true,
       "meeting_title": "[早会纪要] 2026-09-28 day-3（第 1 轮派单）",
-      "progress": 55,
+      "progress": 56,
       "agents": [
         {
           "name": "glm-migrator-2",
@@ -167,9 +167,9 @@
           "role": "GLM Migrator-A",
           "model": "zai:glm-5.2",
           "agent_id": "fb3d90b6-92d7-488d-be82-d7d54869c5ac",
-          "state": "offline",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "DWM-26",
+          "issue_title": "[任务] Cofi 首轮 DW 迁移执行 runbook（Snowball 恢复即迁就绪包，离线）"
         },
         {
           "name": "glm-migrator-3",
@@ -193,12 +193,24 @@
         }
       ],
       "issue_counts": {
-        "todo": 2,
-        "in_progress": 2,
+        "todo": 0,
+        "in_progress": 4,
         "in_review": 0,
         "done": 18
       },
       "latest_issues": [
+        {
+          "key": "DWM-27",
+          "title": "[任务] nextplayer + CoolMall ATH 行为等价验收用例设计（L3 切入首选，",
+          "status": "in_progress",
+          "updated_at": "2026-09-27T20:11:03Z"
+        },
+        {
+          "key": "DWM-26",
+          "title": "[任务] Cofi 首轮 DW 迁移执行 runbook（Snowball 恢复即迁就绪包，离线）",
+          "status": "in_progress",
+          "updated_at": "2026-09-27T20:10:24Z"
+        },
         {
           "key": "DWM-25",
           "title": "[早会纪要] 2026-09-28 day-3（第 1 轮派单）",
@@ -210,18 +222,6 @@
           "title": "[任务] DW 建议池 33 条 → 可提交建议落地审计（自领，离线）",
           "status": "in_progress",
           "updated_at": "2026-09-27T20:07:06Z"
-        },
-        {
-          "key": "DWM-27",
-          "title": "[任务] nextplayer + CoolMall ATH 行为等价验收用例设计（L3 切入首选，",
-          "status": "todo",
-          "updated_at": "2026-09-27T20:06:52Z"
-        },
-        {
-          "key": "DWM-26",
-          "title": "[任务] Cofi 首轮 DW 迁移执行 runbook（Snowball 恢复即迁就绪包，离线）",
-          "status": "todo",
-          "updated_at": "2026-09-27T20:06:48Z"
         },
         {
           "key": "DWM-7",
@@ -239,7 +239,7 @@
       "machine_online": true,
       "meeting_active": true,
       "meeting_title": "[早会纪要] 2026-09-28",
-      "progress": 0,
+      "progress": 24,
       "agents": [
         {
           "name": "hermes-pm",
@@ -277,9 +277,9 @@
           "role": "IPD-Dev 开发工程师",
           "model": "",
           "agent_id": "44fcec25-d8b3-4af6-b206-1774a64677ce",
-          "state": "working",
-          "issue": "IPD-37",
-          "issue_title": "[双端编码·第3轮] REQ-002 鸿蒙特性取证收口 — US-7 元服务卡片运行时 + US-8 平板双列复验"
+          "state": "meeting",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "hermes-tester",
@@ -297,18 +297,36 @@
           "role": "IPD-RM 发布经理",
           "model": "",
           "agent_id": "78156461-9644-478e-9c80-53cd18e25e33",
-          "state": "working",
-          "issue": "IPD-40",
-          "issue_title": "[早会纪要] 2026-09-28"
+          "state": "meeting",
+          "issue": "",
+          "issue_title": ""
         }
       ],
       "issue_counts": {
-        "todo": 4,
-        "in_progress": 2,
-        "in_review": 14,
-        "done": 9
+        "todo": 3,
+        "in_progress": 1,
+        "in_review": 17,
+        "done": 8
       },
       "latest_issues": [
+        {
+          "key": "IPD-43",
+          "title": "[TR-Req 评审] REQ-003 灵感速记（Quick Notes）—— 需求评审（PM 主持",
+          "status": "in_review",
+          "updated_at": "2026-09-27T20:10:18Z"
+        },
+        {
+          "key": "IPD-42",
+          "title": "[PRD] REQ-003 灵感速记（Quick Notes）— 元服务直达 + 美观 UI + 主",
+          "status": "in_review",
+          "updated_at": "2026-09-27T20:09:58Z"
+        },
+        {
+          "key": "IPD-37",
+          "title": "[双端编码·第3轮] REQ-002 鸿蒙特性取证收口 — US-7 元服务卡片运行时 + US-8",
+          "status": "in_review",
+          "updated_at": "2026-09-27T20:08:52Z"
+        },
         {
           "key": "IPD-40",
           "title": "[早会纪要] 2026-09-28",
@@ -316,28 +334,10 @@
           "updated_at": "2026-09-27T20:08:23Z"
         },
         {
-          "key": "IPD-37",
-          "title": "[双端编码·第3轮] REQ-002 鸿蒙特性取证收口 — US-7 元服务卡片运行时 + US-8",
-          "status": "in_progress",
-          "updated_at": "2026-09-27T20:05:39Z"
-        },
-        {
-          "key": "IPD-42",
-          "title": "[PRD] REQ-003 灵感速记（Quick Notes）— 元服务直达 + 美观 UI + 主",
-          "status": "todo",
-          "updated_at": "2026-09-27T20:05:30Z"
-        },
-        {
           "key": "IPD-41",
           "title": "[测试·第4轮] REQ-002 TR-Accept 升「通过」收口 — Android 基线 P0",
           "status": "todo",
           "updated_at": "2026-09-27T20:05:28Z"
-        },
-        {
-          "key": "IPD-8",
-          "title": "[PRD] 咖啡冲煮计时器（REQ-001）",
-          "status": "done",
-          "updated_at": "2026-09-27T20:05:02Z"
         }
       ]
     }
