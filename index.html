@@ -67,6 +67,9 @@ header{
   padding:8px 12px;background:#182344;border-bottom:2px solid var(--line);
 }
 .room-name{font-size:15px;font-weight:700;color:var(--cyan);text-shadow:0 0 6px rgba(56,240,255,.5);}
+a.room-name{text-decoration:none;}
+a.room-name:hover{text-decoration:underline;text-underline-offset:3px;color:#9ff5ff;
+  text-shadow:0 0 10px rgba(56,240,255,.9);}
 .room-meta{display:flex;align-items:center;gap:8px;font-size:12px;color:var(--dim);flex-wrap:wrap;}
 .light{display:inline-block;width:10px;height:10px;border-radius:2px;vertical-align:-1px;margin-right:4px;}
 .light.on{background:var(--green);box-shadow:0 0 8px var(--green);animation:pulse 1.6s ease-in-out infinite;}
@@ -218,12 +221,23 @@ header{
 .chip b{margin-left:3px;}
 .chip.c-todo b{color:#9aa4c0;} .chip.c-prog b{color:var(--cyan);}
 .chip.c-rev b{color:var(--yel);} .chip.c-done b{color:var(--green);}
+/* ===== 可点击链接（融入像素风，不改变布局） ===== */
+a{color:inherit;text-decoration:none;}
+.agent-body{display:block;cursor:pointer;}
+.agent-body:hover .face{filter:drop-shadow(0 0 6px rgba(56,240,255,.9));}
+.agent-body:hover .tag{border-color:var(--cyan);color:var(--cyan);}
+a.bub-issue{cursor:pointer;}
+a.bub-issue:hover{background:#e2f9ff;border-color:#b3007a;}
+a.bub-issue:hover b{text-decoration:underline;}
 .issues ul{list-style:none;}
-.issues li{
-  display:flex;align-items:center;gap:6px;font-size:12px;color:var(--dim);
-  padding:2px 0;border-bottom:1px dashed rgba(43,58,94,.5);white-space:nowrap;
-}
+.issues li{border-bottom:1px dashed rgba(43,58,94,.5);}
 .issues li:last-child{border-bottom:none;}
+.irow{
+  display:flex;align-items:center;gap:6px;font-size:12px;color:var(--dim);
+  padding:2px 4px;white-space:nowrap;border-radius:3px;
+}
+a.irow:hover{background:rgba(56,240,255,.08);}
+a.irow:hover .ik{color:var(--cyan);text-decoration:underline;}
 .dot{flex:none;width:8px;height:8px;border-radius:2px;}
 .dot.todo{background:#9aa4c0;} .dot.in_progress{background:var(--cyan);box-shadow:0 0 5px var(--cyan);}
 .dot.in_review{background:var(--yel);box-shadow:0 0 5px var(--yel);} .dot.done{background:var(--green);}
@@ -308,6 +322,9 @@ function hueOf(name){
   return h;
 }
 function sig(o){ return JSON.stringify(o); }
+function mcUrl(ws, path){
+  return 'https://multica.ai/' + encodeURIComponent(ws || '') + path;
+}
 
 /* ---------- 房间骨架 ---------- */
 function buildRoom(task){
@@ -315,7 +332,7 @@ function buildRoom(task){
   el.className = 'room';
   el.innerHTML =
     '<div class="room-top">' +
-      '<span class="room-name"></span>' +
+      '<a class="room-name" target="_blank" rel="noopener"></a>' +
       '<span class="room-meta">' +
         '<span class="mach"><i class="light on"></i><span class="mname"></span></span>' +
         '<span class="badge-meet">🎙 会议中</span>' +
@@ -357,6 +374,8 @@ function buildRoom(task){
 /* ---------- 局部更新（签名比对，避免动画闪烁） ---------- */
 function updateMeta(R, task){
   R.name.textContent = task.title || task.id;
+  R.name.href = mcUrl(task.workspace, '/issues');
+  R.name.title = '打开 MultiCA：' + (task.workspace || '');
   R.mname.textContent = task.machine || '--';
   R.light.className = 'light ' + (task.machine_online ? 'on' : 'off');
   R.el.classList.toggle('meeting', !!task.meeting_active);
@@ -380,16 +399,28 @@ function renderAgents(R, task){
     var d = document.createElement('div');
     d.className = 'agent st-' + st;
     d.style.setProperty('--hue', hueOf(a.name || ''));
-    var html =
+    var agentUrl = (task.workspace && a.agent_id) ?
+      mcUrl(task.workspace, '/agents/' + encodeURIComponent(a.agent_id)) : '';
+    var issueUrl = (task.workspace && a.issue) ?
+      mcUrl(task.workspace, '/issues/' + encodeURIComponent(a.issue)) : '';
+    var bubHtml = issueUrl ?
+      '<a class="bub bub-issue" href="' + issueUrl + '" target="_blank" rel="noopener" title="打开 MultiCA Issue">' +
+        '<b>' + esc(a.issue) + '</b><span class="t">' + esc(trunc(a.issue_title, 26)) + '</span></a>' :
       '<div class="bub bub-issue"><b>' + esc(a.issue || '') + '</b>' +
-        '<span class="t">' + esc(trunc(a.issue_title, 26)) + '</span></div>' +
-      '<div class="bub bub-meet">💬</div>' +
-      '<div class="zzz">Zzz</div>' +
+        '<span class="t">' + esc(trunc(a.issue_title, 26)) + '</span></div>';
+    var bodyHtml =
       '<div class="sprite"><span class="face">' + esc(a.emoji || '🙂') + '</span><div class="torso"></div></div>' +
       '<div class="desk"><div class="monitor"><div class="screen"></div></div></div>' +
       '<div class="sofa"></div>' +
       '<div><span class="tag" title="' + esc(a.role || a.name) + '">' + esc(a.name) +
         '<small>' + (STATE_LABEL[st] || st) + '</small></span></div>';
+    // agent 链接与气泡链接互为兄弟节点，避免 <a> 嵌套与事件冒泡误触
+    var html = bubHtml +
+      '<div class="bub bub-meet">💬</div>' +
+      '<div class="zzz">Zzz</div>' +
+      (agentUrl ?
+        '<a class="agent-body" href="' + agentUrl + '" target="_blank" rel="noopener" title="打开 MultiCA Agent">' + bodyHtml + '</a>' :
+        '<div class="agent-body">' + bodyHtml + '</div>');
     d.innerHTML = html;
     if (st === 'working' && !a.issue) d.querySelector('.bub-issue').style.display = 'none';
     R.agents.appendChild(d);
@@ -405,10 +436,15 @@ function renderIssues(R, task){
   var html = '';
   (task.latest_issues || []).slice(0, 5).forEach(function(i){
     var st = STATUS_LABEL[i.status] ? i.status : 'todo';
-    html += '<li><i class="dot ' + st + '" title="' + STATUS_LABEL[st] + '"></i>' +
+    var url = (task.workspace && i.key) ?
+      mcUrl(task.workspace, '/issues/' + encodeURIComponent(i.key)) : '';
+    var inner = '<i class="dot ' + st + '" title="' + STATUS_LABEL[st] + '"></i>' +
             '<span class="ik">' + esc(i.key) + '</span>' +
             '<span class="it" title="' + esc(i.title) + '">' + esc(trunc(i.title, 34)) + '</span>' +
-            '<span class="tm">' + bjTime(i.updated_at).slice(11) + '</span></li>';
+            '<span class="tm">' + bjTime(i.updated_at).slice(11) + '</span>';
+    html += '<li>' + (url ?
+            '<a class="irow" href="' + url + '" target="_blank" rel="noopener" title="打开 MultiCA Issue">' + inner + '</a>' :
+            '<span class="irow">' + inner + '</span>') + '</li>';
   });
   R.list.innerHTML = html;
 }
@@ -425,7 +461,7 @@ function render(data){
       rooms[task.id] = R;
       grid.appendChild(R.el);
     }
-    var m = sig([task.title, task.machine, task.machine_online, task.meeting_active, task.progress]);
+    var m = sig([task.title, task.workspace, task.machine, task.machine_online, task.meeting_active, task.progress]);
     if (m !== R.metaSig){ updateMeta(R, task); R.metaSig = m; }
     var a = sig(task.agents) + '|' + task.meeting_active;
     if (a !== R.agentSig){ renderAgents(R, task); R.agentSig = a; }
