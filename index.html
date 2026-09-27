@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MultiCA Loop Engineering · 国庆七天乐看板</title>
+<style>
+:root{
+  --bg:#0a0e17; --panel:#121a2c; --panel2:#0d1322; --line:#2b3a5e;
+  --cyan:#38f0ff; --mag:#ff4fd8; --green:#4dff88; --yel:#ffd94d; --red:#ff5a5a;
+  --txt:#dfe7ff; --dim:#8b96b8;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{min-height:100%}
+body{
+  background:var(--bg); color:var(--txt);
+  font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei",system-ui,sans-serif;
+  font-size:14px; padding:14px;
+  background-image:
+    linear-gradient(rgba(56,240,255,.05) 1px,transparent 1px),
+    linear-gradient(90deg,rgba(56,240,255,.05) 1px,transparent 1px);
+  background-size:26px 26px;
+}
+
+/* ===== 顶部全局标题栏 ===== */
+header{
+  display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between;
+  gap:8px 18px; padding:10px 16px; margin-bottom:14px;
+  background:linear-gradient(180deg,#16203a,#101828);
+  border:2px solid var(--line); border-radius:6px;
+  box-shadow:0 0 0 2px #060a12, 0 0 18px rgba(56,240,255,.15);
+}
+.hd-title{font-size:20px;font-weight:800;letter-spacing:1px;
+  color:var(--cyan); text-shadow:0 0 8px rgba(56,240,255,.7),2px 2px 0 #062a33;}
+.hd-title .sub{color:var(--mag);text-shadow:0 0 8px rgba(255,79,216,.7),2px 2px 0 #33062a;}
+.hd-sub{font-size:12px;color:var(--dim);margin-top:2px;}
+.hd-right{display:flex;flex-direction:column;align-items:flex-end;gap:4px;font-size:12px;color:var(--dim);}
+.hd-right b{color:var(--txt);font-weight:600;}
+.hd-right .cd{color:var(--green);}
+.cdbar{width:140px;height:6px;background:#060a12;border:1px solid var(--line);border-radius:3px;overflow:hidden;}
+.cdbar i{display:block;height:100%;background:var(--green);transition:width .5s linear;}
+
+/* ===== 2×2 网格 ===== */
+#grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;}
+@media (max-width:899px){ #grid{grid-template-columns:1fr;} }
+
+/* ===== 等待数据 / 错误占位 ===== */
+#placeholder{
+  border:2px dashed var(--line);border-radius:8px;padding:60px 20px;text-align:center;
+  color:var(--dim);font-size:16px;background:var(--panel2);
+}
+#placeholder .blink{animation:blink 1.2s steps(2) infinite;}
+#errbar{
+  display:none;margin-bottom:12px;padding:8px 14px;font-size:12px;color:#ffdada;
+  background:#3a1220;border:2px solid var(--red);border-radius:6px;
+}
+
+/* ===== 房间 ===== */
+.room{
+  background:linear-gradient(180deg,var(--panel),var(--panel2));
+  border:2px solid var(--line);border-radius:8px;overflow:hidden;
+  box-shadow:0 0 0 2px #060a12, 0 6px 16px rgba(0,0,0,.5);
+  display:flex;flex-direction:column;
+}
+.room-top{
+  display:flex;align-items:center;justify-content:space-between;gap:8px;flex-wrap:wrap;
+  padding:8px 12px;background:#182344;border-bottom:2px solid var(--line);
+}
+.room-name{font-size:15px;font-weight:700;color:var(--cyan);text-shadow:0 0 6px rgba(56,240,255,.5);}
+.room-meta{display:flex;align-items:center;gap:8px;font-size:12px;color:var(--dim);flex-wrap:wrap;}
+.light{display:inline-block;width:10px;height:10px;border-radius:2px;vertical-align:-1px;margin-right:4px;}
+.light.on{background:var(--green);box-shadow:0 0 8px var(--green);animation:pulse 1.6s ease-in-out infinite;}
+.light.off{background:var(--red);box-shadow:0 0 8px var(--red);}
+.badge-meet{
+  display:none;font-size:12px;color:#1a0518;background:var(--mag);
+  padding:1px 8px;border-radius:3px;font-weight:700;box-shadow:0 0 10px rgba(255,79,216,.8);
+  animation:blink 1.4s steps(2) infinite;
+}
+.room.meeting .badge-meet{display:inline-block;}
+
+/* ===== 进度条 ===== */
+.prog{padding:8px 12px 4px;}
+.prog-label{display:flex;justify-content:space-between;font-size:12px;color:var(--dim);margin-bottom:4px;}
+.prog-label b{color:var(--txt);}
+.prog-track{height:14px;background:#060a12;border:2px solid var(--line);border-radius:3px;overflow:hidden;}
+.prog-fill{
+  height:100%;width:0;transition:width 1.2s ease;
+  background-image:repeating-linear-gradient(45deg,rgba(255,255,255,.18) 0 6px,transparent 6px 12px);
+  background-size:24px 24px;animation:stripe 1s linear infinite;
+  box-shadow:0 0 10px currentColor;
+}
+
+/* ===== 像素办公室 ===== */
+.office{
+  position:relative;height:210px;margin:8px 12px 0;overflow:hidden;
+  background:
+    linear-gradient(180deg,#1b2547 0 118px,transparent 118px),
+    repeating-conic-gradient(#232f56 0 25%,#1c2648 0 50%) 0 118px/24px 24px no-repeat,
+    linear-gradient(180deg,#1b2547,#1b2547);
+  border:2px solid var(--line);border-radius:4px;
+}
+/* 墙上装饰:窗户霓虹 */
+.office::before{
+  content:"";position:absolute;top:12px;right:14px;width:44px;height:32px;
+  background:#0b1030;border:2px solid #33436f;box-shadow:inset 0 0 10px rgba(56,240,255,.35),0 0 8px rgba(56,240,255,.25);
+}
+.office.dimmed{filter:brightness(.5) saturate(.6);}
+.offb{
+  display:none;position:absolute;left:50%;top:40%;transform:translate(-50%,-50%);z-index:30;
+  font-size:15px;font-weight:800;color:#fff;background:rgba(120,10,20,.85);
+  border:2px solid var(--red);padding:6px 16px;border-radius:4px;
+  box-shadow:0 0 16px rgba(255,90,90,.8);animation:blink 1.2s steps(2) infinite;
+}
+.room.offline .offb{display:block;}
+.agents{position:absolute;inset:0;display:flex;align-items:flex-end;justify-content:space-evenly;padding-bottom:14px;}
+
+/* ===== 会议桌 ===== */
+.mtable{
+  display:none;position:absolute;left:50%;top:52%;width:86px;height:40px;
+  margin:-20px 0 0 -43px;z-index:5;
+  background:#7a5230;border:3px solid #4c2f18;border-radius:50%;
+  box-shadow:0 4px 0 #3a2410,inset 0 0 0 4px rgba(255,255,255,.08),0 0 14px rgba(255,79,216,.35);
+}
+.mtable::after{
+  content:"📋";position:absolute;left:50%;top:50%;transform:translate(-50%,-55%);font-size:16px;
+}
+.office.meeting .mtable{display:block;}
+.office.meeting .agents{display:block;padding:0;}
+.office.meeting .agent{position:absolute;left:50%;top:52%;width:60px;margin-left:-30px;}
+.office.meeting .tag{max-width:64px;}
+
+/* 会议围坐位置（按人数 2~6） */
+.office.meeting[data-count="2"] .agent:nth-child(1){transform:translate(-50%,-50%) translate(-64px,-8px);}
+.office.meeting[data-count="2"] .agent:nth-child(2){transform:translate(-50%,-50%) translate(64px,-8px);}
+.office.meeting[data-count="3"] .agent:nth-child(1){transform:translate(-50%,-50%) translate(0,-54px);}
+.office.meeting[data-count="3"] .agent:nth-child(2){transform:translate(-50%,-50%) translate(-64px,16px);}
+.office.meeting[data-count="3"] .agent:nth-child(3){transform:translate(-50%,-50%) translate(64px,16px);}
+.office.meeting[data-count="4"] .agent:nth-child(1){transform:translate(-50%,-50%) translate(-66px,-46px);}
+.office.meeting[data-count="4"] .agent:nth-child(2){transform:translate(-50%,-50%) translate(66px,-46px);}
+.office.meeting[data-count="4"] .agent:nth-child(3){transform:translate(-50%,-50%) translate(-66px,22px);}
+.office.meeting[data-count="4"] .agent:nth-child(4){transform:translate(-50%,-50%) translate(66px,22px);}
+.office.meeting[data-count="5"] .agent:nth-child(1){transform:translate(-50%,-50%) translate(0,-56px);}
+.office.meeting[data-count="5"] .agent:nth-child(2){transform:translate(-50%,-50%) translate(-78px,-24px);}
+.office.meeting[data-count="5"] .agent:nth-child(3){transform:translate(-50%,-50%) translate(78px,-24px);}
+.office.meeting[data-count="5"] .agent:nth-child(4){transform:translate(-50%,-50%) translate(-52px,24px);}
+.office.meeting[data-count="5"] .agent:nth-child(5){transform:translate(-50%,-50%) translate(52px,24px);}
+.office.meeting[data-count="6"] .agent:nth-child(1){transform:translate(-50%,-50%) translate(0,-58px);}
+.office.meeting[data-count="6"] .agent:nth-child(2){transform:translate(-50%,-50%) translate(-78px,-30px);}
+.office.meeting[data-count="6"] .agent:nth-child(3){transform:translate(-50%,-50%) translate(78px,-30px);}
+.office.meeting[data-count="6"] .agent:nth-child(4){transform:translate(-50%,-50%) translate(-78px,22px);}
+.office.meeting[data-count="6"] .agent:nth-child(5){transform:translate(-50%,-50%) translate(78px,22px);}
+.office.meeting[data-count="6"] .agent:nth-child(6){transform:translate(-50%,-50%) translate(0,36px);}
+
+/* ===== Agent 角色 ===== */
+.agent{position:relative;width:64px;text-align:center;z-index:10;}
+.sprite{display:inline-block;position:relative;}
+.face{font-size:24px;line-height:1;display:block;filter:drop-shadow(1px 2px 0 rgba(0,0,0,.6));}
+.torso{
+  width:24px;height:15px;margin:0 auto;
+  background:hsl(var(--hue,200),60%,45%);
+  border:2px solid hsl(var(--hue,200),70%,28%);
+  border-radius:3px 3px 0 0;
+  box-shadow:inset -4px 0 0 rgba(0,0,0,.25);
+}
+.tag{
+  margin-top:3px;font-size:12px;line-height:1.25;color:var(--txt);
+  background:rgba(6,10,18,.8);border:1px solid var(--line);border-radius:3px;padding:1px 4px;
+  white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:76px;display:inline-block;
+}
+.tag small{display:block;font-size:12px;color:var(--dim);transform:scale(.92);}
+
+/* 工位:桌子+显示器（working 显示） */
+.desk{display:none;position:relative;width:58px;height:9px;margin:2px auto 0;
+  background:#7a5230;border:2px solid #4c2f18;border-radius:2px;box-shadow:0 3px 0 #3a2410;}
+.monitor{position:absolute;left:50%;top:-15px;transform:translateX(-50%);
+  width:18px;height:13px;background:#1a1f2e;border:2px solid #0a0d16;border-radius:2px;}
+.screen{position:absolute;inset:1px;background:#0c2a33;}
+.agent.st-working .desk{display:block;}
+.agent.st-working .screen{animation:flick .45s steps(2) infinite;}
+
+/* 沙发（idle 显示） */
+.sofa{display:none;width:46px;height:12px;margin:2px auto 0;
+  background:#5a3f7a;border:2px solid #3a2853;border-radius:6px 6px 2px 2px;
+  box-shadow:inset 0 -4px 0 rgba(0,0,0,.3);}
+.agent.st-idle .sofa{display:block;}
+
+/* 气泡 */
+.bub{display:none;position:absolute;left:50%;bottom:100%;transform:translateX(-50%);z-index:20;margin-bottom:4px;}
+.bub-issue{
+  min-width:90px;max-width:170px;background:#f5f7ff;color:#141a2e;font-size:12px;line-height:1.3;
+  border:2px solid #141a2e;border-radius:4px;padding:3px 6px;text-align:left;
+  box-shadow:2px 2px 0 rgba(0,0,0,.5);
+}
+.bub-issue b{color:#b3007a;}
+.bub-issue .t{display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+.bub-issue::after{content:"";position:absolute;left:50%;bottom:-8px;margin-left:-4px;
+  border:4px solid transparent;border-top-color:#141a2e;}
+.agent.st-working .bub-issue{display:block;}
+.bub-meet{font-size:16px;animation:bob 1.8s ease-in-out infinite;}
+.agent.st-meeting .bub-meet{display:block;}
+.zzz{display:none;position:absolute;right:2px;top:-14px;font-size:12px;font-weight:800;
+  color:var(--cyan);text-shadow:0 0 6px rgba(56,240,255,.8);z-index:20;
+  animation:zzz 2.6s ease-out infinite;}
+.agent.st-idle .zzz{display:block;}
+
+/* 状态动画 */
+.agent.st-working .sprite{animation:type .5s ease-in-out infinite;}
+.agent.st-meeting .sprite{animation:sway 2.2s ease-in-out infinite;}
+.agent.st-idle .sprite{animation:breathe 3s ease-in-out infinite;}
+.agent.st-offline{filter:grayscale(1);opacity:.45;}
+.office.meeting .agent{filter:none;}
+.room.offline .agent{filter:grayscale(1);opacity:.5;}
+
+/* ===== Issue 区 ===== */
+.issues{padding:8px 12px 10px;}
+.counts{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:6px;}
+.chip{font-size:12px;padding:1px 8px;border-radius:3px;border:1px solid var(--line);background:#0a0f1c;color:var(--dim);}
+.chip b{margin-left:3px;}
+.chip.c-todo b{color:#9aa4c0;} .chip.c-prog b{color:var(--cyan);}
+.chip.c-rev b{color:var(--yel);} .chip.c-done b{color:var(--green);}
+.issues ul{list-style:none;}
+.issues li{
+  display:flex;align-items:center;gap:6px;font-size:12px;color:var(--dim);
+  padding:2px 0;border-bottom:1px dashed rgba(43,58,94,.5);white-space:nowrap;
+}
+.issues li:last-child{border-bottom:none;}
+.dot{flex:none;width:8px;height:8px;border-radius:2px;}
+.dot.todo{background:#9aa4c0;} .dot.in_progress{background:var(--cyan);box-shadow:0 0 5px var(--cyan);}
+.dot.in_review{background:var(--yel);box-shadow:0 0 5px var(--yel);} .dot.done{background:var(--green);}
+.ik{flex:none;color:var(--txt);font-weight:700;}
+.it{flex:1;overflow:hidden;text-overflow:ellipsis;}
+.tm{flex:none;color:#5b6685;}
+
+footer{margin-top:14px;text-align:center;font-size:12px;color:#4a5470;}
+
+/* ===== keyframes ===== */
+@keyframes type{0%,100%{transform:translateY(0)}50%{transform:translateY(-3px)}}
+@keyframes sway{0%,100%{transform:rotate(-4deg)}50%{transform:rotate(4deg)}}
+@keyframes breathe{0%,100%{transform:scale(1)}50%{transform:scale(1.06)}}
+@keyframes flick{0%,49%{background:#0c2a33;box-shadow:none}50%,100%{background:#39e6ff;box-shadow:0 0 8px #39e6ff}}
+@keyframes zzz{0%{transform:translateY(4px) scale(.7);opacity:0}30%{opacity:1}100%{transform:translateY(-14px) scale(1.15);opacity:0}}
+@keyframes bob{0%,100%{transform:translateX(-50%) translateY(0)}50%{transform:translateX(-50%) translateY(-4px)}}
+@keyframes blink{0%,49%{opacity:1}50%,100%{opacity:.25}}
+@keyframes pulse{0%,100%{box-shadow:0 0 4px var(--green)}50%{box-shadow:0 0 12px var(--green)}}
+@keyframes stripe{to{background-position:24px 0}}
+</style>
+</head>
+<body>
+
+<header>
+  <div>
+    <div class="hd-title">🕹️ MultiCA Loop Engineering <span class="sub">· 国庆七天乐</span></div>
+    <div class="hd-sub">像素办公室实时看板 · 4 团队 / 4 机器 Loop 监控</div>
+  </div>
+  <div class="hd-right">
+    <div>数据更新：<b id="upd">--</b>（北京时间）</div>
+    <div>下次刷新：<span class="cd" id="cd">--</span>s</div>
+    <div class="cdbar"><i id="cdbar" style="width:0%"></i></div>
+  </div>
+</header>
+
+<div id="errbar">⚠ 数据加载失败（file:// 直连请通过 HTTP/GitHub Pages 访问），将在下次刷新时重试。</div>
+<div id="placeholder">⏳ <span class="blink">等待数据…</span><br><br>正在加载 data/status.json</div>
+<div id="grid"></div>
+
+<footer>数据源 data/status.json · 每 60s 自动刷新 · 纯 CSS 像素动画</footer>
+
+<script>
+(function(){
+"use strict";
+var REFRESH_MS = 60000;
+var grid = document.getElementById('grid');
+var placeholder = document.getElementById('placeholder');
+var errbar = document.getElementById('errbar');
+var updEl = document.getElementById('upd');
+var cdEl = document.getElementById('cd');
+var cdbarEl = document.getElementById('cdbar');
+var rooms = {};        // task.id -> room record
+var nextAt = Date.now() + REFRESH_MS;
+var loading = false;
+
+var STATE_LABEL = {working:'工作中', meeting:'会议中', idle:'休息中', offline:'离线'};
+var STATUS_LABEL = {todo:'待办', in_progress:'进行中', in_review:'评审中', done:'已完成'};
+
+function esc(s){
+  return String(s == null ? '' : s).replace(/[&<>"']/g, function(c){
+    return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c];
+  });
+}
+function trunc(s, n){
+  s = String(s || '');
+  return s.length > n ? s.slice(0, n) + '…' : s;
+}
+function pad(n){ return (n < 10 ? '0' : '') + n; }
+// 北京时间（UTC+8），不依赖时区数据库
+function bjTime(t, withSec){
+  var d = new Date(t);
+  if (isNaN(d.getTime())) return '--';
+  var b = new Date(d.getTime() + 8 * 3600 * 1000);
+  var s = b.getUTCFullYear() + '-' + pad(b.getUTCMonth() + 1) + '-' + pad(b.getUTCDate()) +
+          ' ' + pad(b.getUTCHours()) + ':' + pad(b.getUTCMinutes());
+  if (withSec) s += ':' + pad(b.getUTCSeconds());
+  return s;
+}
+function hueOf(name){
+  var h = 0;
+  for (var i = 0; i < name.length; i++) h = (h * 31 + name.charCodeAt(i)) % 360;
+  return h;
+}
+function sig(o){ return JSON.stringify(o); }
+
+/* ---------- 房间骨架 ---------- */
+function buildRoom(task){
+  var el = document.createElement('section');
+  el.className = 'room';
+  el.innerHTML =
+    '<div class="room-top">' +
+      '<span class="room-name"></span>' +
+      '<span class="room-meta">' +
+        '<span class="mach"><i class="light on"></i><span class="mname"></span></span>' +
+        '<span class="badge-meet">🎙 会议中</span>' +
+      '</span>' +
+    '</div>' +
+    '<div class="prog">' +
+      '<div class="prog-label"><span>任务进度</span><b class="pv">0%</b></div>' +
+      '<div class="prog-track"><div class="prog-fill"></div></div>' +
+    '</div>' +
+    '<div class="office">' +
+      '<div class="mtable"></div>' +
+      '<div class="agents"></div>' +
+      '<div class="offb">⚠ 机器离线</div>' +
+    '</div>' +
+    '<div class="issues">' +
+      '<div class="counts">' +
+        '<span class="chip c-todo">待办<b>0</b></span>' +
+        '<span class="chip c-prog">进行<b>0</b></span>' +
+        '<span class="chip c-rev">评审<b>0</b></span>' +
+        '<span class="chip c-done">完成<b>0</b></span>' +
+      '</div>' +
+      '<ul></ul>' +
+    '</div>';
+  return {
+    el: el,
+    name: el.querySelector('.room-name'),
+    light: el.querySelector('.light'),
+    mname: el.querySelector('.mname'),
+    pv: el.querySelector('.pv'),
+    fill: el.querySelector('.prog-fill'),
+    office: el.querySelector('.office'),
+    agents: el.querySelector('.agents'),
+    chips: el.querySelectorAll('.chip b'),
+    list: el.querySelector('.issues ul'),
+    metaSig: '', agentSig: '', issueSig: ''
+  };
+}
+
+/* ---------- 局部更新（签名比对，避免动画闪烁） ---------- */
+function updateMeta(R, task){
+  R.name.textContent = task.title || task.id;
+  R.mname.textContent = task.machine || '--';
+  R.light.className = 'light ' + (task.machine_online ? 'on' : 'off');
+  R.el.classList.toggle('meeting', !!task.meeting_active);
+  R.el.classList.toggle('offline', !task.machine_online);
+  R.office.classList.toggle('dimmed', !task.machine_online);
+  var p = Math.max(0, Math.min(100, task.progress || 0));
+  R.pv.textContent = p + '%';
+  R.fill.style.width = p + '%';
+  var hue = Math.round(p * 1.2); // 0=红 120=绿
+  R.fill.style.backgroundColor = 'hsl(' + hue + ',85%,52%)';
+  R.fill.style.color = 'hsl(' + hue + ',85%,52%)';
+}
+
+function renderAgents(R, task){
+  var meeting = !!task.meeting_active;
+  R.office.classList.toggle('meeting', meeting);
+  R.office.setAttribute('data-count', String(task.agents.length));
+  R.agents.innerHTML = '';
+  task.agents.forEach(function(a){
+    var st = meeting ? 'meeting' : (STATE_LABEL[a.state] ? a.state : 'idle');
+    var d = document.createElement('div');
+    d.className = 'agent st-' + st;
+    d.style.setProperty('--hue', hueOf(a.name || ''));
+    var html =
+      '<div class="bub bub-issue"><b>' + esc(a.issue || '') + '</b>' +
+        '<span class="t">' + esc(trunc(a.issue_title, 26)) + '</span></div>' +
+      '<div class="bub bub-meet">💬</div>' +
+      '<div class="zzz">Zzz</div>' +
+      '<div class="sprite"><span class="face">' + esc(a.emoji || '🙂') + '</span><div class="torso"></div></div>' +
+      '<div class="desk"><div class="monitor"><div class="screen"></div></div></div>' +
+      '<div class="sofa"></div>' +
+      '<div><span class="tag" title="' + esc(a.role || a.name) + '">' + esc(a.name) +
+        '<small>' + (STATE_LABEL[st] || st) + '</small></span></div>';
+    d.innerHTML = html;
+    if (st === 'working' && !a.issue) d.querySelector('.bub-issue').style.display = 'none';
+    R.agents.appendChild(d);
+  });
+}
+
+function renderIssues(R, task){
+  var c = task.issue_counts || {};
+  R.chips[0].textContent = c.todo || 0;
+  R.chips[1].textContent = c.in_progress || 0;
+  R.chips[2].textContent = c.in_review || 0;
+  R.chips[3].textContent = c.done || 0;
+  var html = '';
+  (task.latest_issues || []).slice(0, 5).forEach(function(i){
+    var st = STATUS_LABEL[i.status] ? i.status : 'todo';
+    html += '<li><i class="dot ' + st + '" title="' + STATUS_LABEL[st] + '"></i>' +
+            '<span class="ik">' + esc(i.key) + '</span>' +
+            '<span class="it" title="' + esc(i.title) + '">' + esc(trunc(i.title, 34)) + '</span>' +
+            '<span class="tm">' + bjTime(i.updated_at).slice(11) + '</span></li>';
+  });
+  R.list.innerHTML = html;
+}
+
+function render(data){
+  updEl.textContent = bjTime(data.generated_at, true);
+  var seen = {};
+  (data.tasks || []).forEach(function(task){
+    if (!task || !task.id) return;
+    seen[task.id] = true;
+    var R = rooms[task.id];
+    if (!R){
+      R = buildRoom(task);
+      rooms[task.id] = R;
+      grid.appendChild(R.el);
+    }
+    var m = sig([task.title, task.machine, task.machine_online, task.meeting_active, task.progress]);
+    if (m !== R.metaSig){ updateMeta(R, task); R.metaSig = m; }
+    var a = sig(task.agents) + '|' + task.meeting_active;
+    if (a !== R.agentSig){ renderAgents(R, task); R.agentSig = a; }
+    var is = sig([task.issue_counts, task.latest_issues]);
+    if (is !== R.issueSig){ renderIssues(R, task); R.issueSig = is; }
+  });
+  Object.keys(rooms).forEach(function(id){
+    if (!seen[id]){ grid.removeChild(rooms[id].el); delete rooms[id]; }
+  });
+  if (data.tasks && data.tasks.length){
+    placeholder.style.display = 'none';
+    grid.style.display = '';
+  }
+}
+
+/* ---------- 拉取与倒计时 ---------- */
+function load(){
+  if (loading) return;
+  loading = true;
+  fetch('data/status.json?' + Date.now(), {cache:'no-store'})
+    .then(function(r){ if (!r.ok) throw new Error(r.status); return r.json(); })
+    .then(function(data){
+      errbar.style.display = 'none';
+      render(data);
+    })
+    .catch(function(){
+      errbar.style.display = 'block';
+      if (!Object.keys(rooms).length){
+        placeholder.style.display = '';
+        placeholder.innerHTML = '⏳ <span class="blink">等待数据…</span><br><br>暂时无法读取 data/status.json，将持续重试';
+      }
+    })
+    .then(function(){
+      loading = false;
+      nextAt = Date.now() + REFRESH_MS;
+    });
+}
+
+setInterval(function(){
+  var left = Math.max(0, Math.round((nextAt - Date.now()) / 1000));
+  cdEl.textContent = left;
+  cdbarEl.style.width = Math.round(left / (REFRESH_MS / 1000) * 100) + '%';
+  if (left <= 0) load();
+}, 500);
+
+load();
+})();
+</script>
+</body>
+</html>
