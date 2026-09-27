@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27T22:12:51Z",
+  "generated_at": "2026-09-27T22:16:47Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -87,69 +87,17 @@
       "workspace": "ws-benchmark-loop",
       "machine": "张涛 Mac Studio",
       "machine_online": true,
-      "meeting_active": true,
-      "meeting_title": "[早会纪要] 2026-09-28",
+      "meeting_active": false,
+      "meeting_title": "",
       "progress": 22,
-      "agents": [
-        {
-          "name": "glm-scenarist",
-          "emoji": "🦊",
-          "role": "GLM Scenarist",
-          "model": "zai:glm-5.2",
-          "agent_id": "6e6f1e24-3bc5-455a-85d2-cb3fb6c9a672",
-          "state": "working",
-          "issue": "BEN-7",
-          "issue_title": "[任务] day-1 环境自检 + Cofi 首批场景生成（对应 GitHub #1）"
-        },
-        {
-          "name": "glm-runner",
-          "emoji": "👾",
-          "role": "GLM Runner & Analyst",
-          "model": "zai:glm-5.2",
-          "agent_id": "bdaefa9b-7045-4264-95e4-1db664e353d0",
-          "state": "working",
-          "issue": "BEN-24",
-          "issue_title": "[任务·第3轮] Cofi 计时批次第 2 轮双端回归 + Android 可达性攻坚（FC142/144/148/16"
-        }
-      ],
+      "agents": [],
       "issue_counts": {
         "todo": 0,
-        "in_progress": 4,
+        "in_progress": 0,
         "in_review": 0,
-        "done": 16
+        "done": 0
       },
-      "latest_issues": [
-        {
-          "key": "BEN-12",
-          "title": "[任务·第3轮] Cofi 场景 compact + 首批 30 条 ready 审核（对应 Git",
-          "status": "done",
-          "updated_at": "2026-09-27T22:11:01Z"
-        },
-        {
-          "key": "BEN-16",
-          "title": "[任务·第1轮] Android cofi APK 构建装机 + 双端冒烟启动回归（对应 GitHu",
-          "status": "done",
-          "updated_at": "2026-09-27T22:10:55Z"
-        },
-        {
-          "key": "BEN-13",
-          "title": "[任务·第3轮] 鸿蒙 function 通道打通：Cofi HAP 构建或已装应用直测旁路（对应 ",
-          "status": "done",
-          "updated_at": "2026-09-27T22:10:55Z"
-        },
-        {
-          "key": "BEN-15",
-          "title": "[任务·第1轮] 鸿蒙模拟器语言修复 + function cofi 4/4 回归（对应 GitHu",
-          "status": "done",
-          "updated_at": "2026-09-27T22:10:54Z"
-        },
-        {
-          "key": "BEN-19",
-          "title": "[任务·第2轮] 被测端通道打通：test/cofi HAP 构建 + function 首跑 + ",
-          "status": "done",
-          "updated_at": "2026-09-27T22:10:50Z"
-        }
-      ]
+      "latest_issues": []
     },
     {
       "id": "task3-dw-migration",
@@ -157,79 +105,17 @@
       "workspace": "ws-dw-migration-loop",
       "machine": "奕棣 MacBook",
       "machine_online": false,
-      "meeting_active": true,
-      "meeting_title": "[早会纪要] 2026-09-28 day-3（第 1 轮派单）",
+      "meeting_active": false,
+      "meeting_title": "",
       "progress": 56,
-      "agents": [
-        {
-          "name": "glm-migrator-2",
-          "emoji": "🦉",
-          "role": "GLM Migrator-A",
-          "model": "zai:glm-5.2",
-          "agent_id": "fb3d90b6-92d7-488d-be82-d7d54869c5ac",
-          "state": "offline",
-          "issue": "",
-          "issue_title": ""
-        },
-        {
-          "name": "glm-migrator-3",
-          "emoji": "🤖",
-          "role": "GLM Migrator-B",
-          "model": "zai:glm-5.2",
-          "agent_id": "c7955e08-a3cd-4566-aa8e-faecfd2b27cc",
-          "state": "offline",
-          "issue": "",
-          "issue_title": ""
-        },
-        {
-          "name": "opus-analyzer",
-          "emoji": "🦁",
-          "role": "Opus Analyzer",
-          "model": "claude-opus-4-1",
-          "agent_id": "2f32549c-87c7-4202-8f54-3af79a30afa0",
-          "state": "offline",
-          "issue": "",
-          "issue_title": ""
-        }
-      ],
+      "agents": [],
       "issue_counts": {
         "todo": 0,
-        "in_progress": 2,
-        "in_review": 2,
-        "done": 18
+        "in_progress": 0,
+        "in_review": 0,
+        "done": 0
       },
-      "latest_issues": [
-        {
-          "key": "DWM-27",
-          "title": "[任务] nextplayer + CoolMall ATH 行为等价验收用例设计（L3 切入首选，",
-          "status": "in_progress",
-          "updated_at": "2026-09-27T20:21:04Z"
-        },
-        {
-          "key": "DWM-25",
-          "title": "[早会纪要] 2026-09-28 day-3（第 1 轮派单）",
-          "status": "in_progress",
-          "updated_at": "2026-09-27T20:17:42Z"
-        },
-        {
-          "key": "DWM-28",
-          "title": "[任务] DW 建议池 33 条 → 可提交建议落地审计（自领，离线）",
-          "status": "in_review",
-          "updated_at": "2026-09-27T20:17:40Z"
-        },
-        {
-          "key": "DWM-26",
-          "title": "[任务] Cofi 首轮 DW 迁移执行 runbook（Snowball 恢复即迁就绪包，离线）",
-          "status": "in_review",
-          "updated_at": "2026-09-27T20:17:27Z"
-        },
-        {
-          "key": "DWM-7",
-          "title": "[任务] Cofi 源码结构分析 + DW 迁移方案预研（Snowball 恢复前的前置任务）",
-          "status": "done",
-          "updated_at": "2026-09-27T20:05:50Z"
-        }
-      ]
+      "latest_issues": []
     },
     {
       "id": "task4-ipd-eazo",
@@ -237,109 +123,17 @@
       "workspace": "ws-ipd-eazo-loop",
       "machine": "贾博 Mac Mini",
       "machine_online": true,
-      "meeting_active": true,
-      "meeting_title": "[早会纪要] 2026-09-28",
+      "meeting_active": false,
+      "meeting_title": "",
       "progress": 24,
-      "agents": [
-        {
-          "name": "hermes-pm",
-          "emoji": "🚀",
-          "role": "IPD-PM 产品经理",
-          "model": "",
-          "agent_id": "1764c131-5c09-48cb-aa48-3177d5256dbb",
-          "state": "meeting",
-          "issue": "",
-          "issue_title": ""
-        },
-        {
-          "name": "hermes-sa",
-          "emoji": "🔥",
-          "role": "IPD-SA 解决方案架构师",
-          "model": "",
-          "agent_id": "3e4373ef-a262-4b28-ab2a-818861fc9624",
-          "state": "meeting",
-          "issue": "",
-          "issue_title": ""
-        },
-        {
-          "name": "hermes-se",
-          "emoji": "⚡",
-          "role": "IPD-SE 系统工程师",
-          "model": "",
-          "agent_id": "b874ba6b-80e6-45c6-a8c6-aedc6f2b326b",
-          "state": "meeting",
-          "issue": "",
-          "issue_title": ""
-        },
-        {
-          "name": "hermes-dev",
-          "emoji": "🐨",
-          "role": "IPD-Dev 开发工程师",
-          "model": "",
-          "agent_id": "44fcec25-d8b3-4af6-b206-1774a64677ce",
-          "state": "meeting",
-          "issue": "",
-          "issue_title": ""
-        },
-        {
-          "name": "hermes-tester",
-          "emoji": "🔥",
-          "role": "IPD-Tester 测试工程师",
-          "model": "",
-          "agent_id": "86df9f14-a2cd-46d9-ad15-dbe8606ebd73",
-          "state": "meeting",
-          "issue": "",
-          "issue_title": ""
-        },
-        {
-          "name": "hermes-rm",
-          "emoji": "⚡",
-          "role": "IPD-RM 发布经理",
-          "model": "",
-          "agent_id": "78156461-9644-478e-9c80-53cd18e25e33",
-          "state": "meeting",
-          "issue": "",
-          "issue_title": ""
-        }
-      ],
+      "agents": [],
       "issue_counts": {
-        "todo": 2,
-        "in_progress": 1,
+        "todo": 0,
+        "in_progress": 0,
         "in_review": 0,
-        "done": 27
+        "done": 0
       },
-      "latest_issues": [
-        {
-          "key": "IPD-20",
-          "title": "[双端编码·第3轮] REQ-001 构建配置收口落地 + ohosTest 模块骨架",
-          "status": "done",
-          "updated_at": "2026-09-27T22:13:08Z"
-        },
-        {
-          "key": "IPD-18",
-          "title": "[技术收口] REQ-001 鸿蒙 SDK API 版本 + Gradle 口径裁决（API 23/",
-          "status": "done",
-          "updated_at": "2026-09-27T22:12:54Z"
-        },
-        {
-          "key": "IPD-10",
-          "title": "[TR-Design] 咖啡冲煮计时器（REQ-001）—— 双端架构方案与接口契约",
-          "status": "done",
-          "updated_at": "2026-09-27T22:12:54Z"
-        },
-        {
-          "key": "IPD-28",
-          "title": "[架构·第1轮] REQ-002 待办清单双端架构方案 + TR-Design 主持 + Andro",
-          "status": "done",
-          "updated_at": "2026-09-27T22:12:53Z"
-        },
-        {
-          "key": "IPD-27",
-          "title": "[SE·第1轮] REQ-001 追踪矩阵「设计→代码」列回填 + 完整性核验 + REQ-002 ",
-          "status": "done",
-          "updated_at": "2026-09-27T22:12:53Z"
-        }
-      ]
+      "latest_issues": []
     }
   ]
 }
