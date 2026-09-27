@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27T20:16:34Z",
+  "generated_at": "2026-09-27T20:20:00Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -27,9 +27,9 @@
           "role": "Kimi Adversarial Reviewer（对抗评审",
           "model": "",
           "agent_id": "6e530cc6-6b9d-4398-936d-df9c13468125",
-          "state": "working",
-          "issue": "SUR-41",
-          "issue_title": "[任务][day-4] 对抗评审 SUR-37 batch2（[13]–[24] 判定 + ArkTrans 取舍）"
+          "state": "meeting",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "deepseek-planner",
@@ -44,7 +44,7 @@
       ],
       "issue_counts": {
         "todo": 0,
-        "in_progress": 3,
+        "in_progress": 2,
         "in_review": 0,
         "done": 20
       },
@@ -62,12 +62,6 @@
           "updated_at": "2026-09-27T20:12:40Z"
         },
         {
-          "key": "SUR-41",
-          "title": "[任务][day-4] 对抗评审 SUR-37 batch2（[13]–[24] 判定 + ArkT",
-          "status": "in_progress",
-          "updated_at": "2026-09-27T20:07:08Z"
-        },
-        {
           "key": "SUR-36",
           "title": "[任务][day-3] 独立评审 SUR-34 返工（48b5a80）9 项修复 + 复核 SUR-",
           "status": "done",
@@ -78,6 +72,12 @@
           "title": "[任务][day-3] 返工 batch1 核验发现的 5❌+4⚠️ 项（来源混用/数字口径/唯一论",
           "status": "done",
           "updated_at": "2026-09-27T20:04:35Z"
+        },
+        {
+          "key": "SUR-31",
+          "title": "[写作] 第6章补图+第7章补图表——满足'有图有表'硬要求（2026-09-27 负责人新增）",
+          "status": "done",
+          "updated_at": "2026-09-27T20:04:34Z"
         }
       ]
     },
@@ -97,9 +97,9 @@
           "role": "GLM Scenarist",
           "model": "zai:glm-5.2",
           "agent_id": "6e6f1e24-3bc5-455a-85d2-cb3fb6c9a672",
-          "state": "working",
-          "issue": "BEN-25",
-          "issue_title": "[早会纪要] 2026-09-28"
+          "state": "meeting",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "glm-runner",
@@ -123,7 +123,7 @@
           "key": "BEN-25",
           "title": "[早会纪要] 2026-09-28",
           "status": "in_progress",
-          "updated_at": "2026-09-27T20:02:40Z"
+          "updated_at": "2026-09-27T20:16:46Z"
         },
         {
           "key": "BEN-24",
@@ -167,9 +167,9 @@
           "role": "GLM Migrator-A",
           "model": "zai:glm-5.2",
           "agent_id": "fb3d90b6-92d7-488d-be82-d7d54869c5ac",
-          "state": "working",
-          "issue": "DWM-26",
-          "issue_title": "[任务] Cofi 首轮 DW 迁移执行 runbook（Snowball 恢复即迁就绪包，离线）"
+          "state": "offline",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "glm-migrator-3",
@@ -178,8 +178,8 @@
           "model": "zai:glm-5.2",
           "agent_id": "c7955e08-a3cd-4566-aa8e-faecfd2b27cc",
           "state": "working",
-          "issue": "DWM-25",
-          "issue_title": "[早会纪要] 2026-09-28 day-3（第 1 轮派单）"
+          "issue": "DWM-27",
+          "issue_title": "[任务] nextplayer + CoolMall ATH 行为等价验收用例设计（L3 切入首选，离线）"
         },
         {
           "name": "opus-analyzer",
@@ -187,41 +187,41 @@
           "role": "Opus Analyzer",
           "model": "claude-opus-4-1",
           "agent_id": "2f32549c-87c7-4202-8f54-3af79a30afa0",
-          "state": "working",
-          "issue": "DWM-28",
-          "issue_title": "[任务] DW 建议池 33 条 → 可提交建议落地审计（自领，离线）"
+          "state": "offline",
+          "issue": "",
+          "issue_title": ""
         }
       ],
       "issue_counts": {
         "todo": 0,
-        "in_progress": 4,
-        "in_review": 0,
+        "in_progress": 2,
+        "in_review": 2,
         "done": 18
       },
       "latest_issues": [
+        {
+          "key": "DWM-25",
+          "title": "[早会纪要] 2026-09-28 day-3（第 1 轮派单）",
+          "status": "in_progress",
+          "updated_at": "2026-09-27T20:17:42Z"
+        },
+        {
+          "key": "DWM-28",
+          "title": "[任务] DW 建议池 33 条 → 可提交建议落地审计（自领，离线）",
+          "status": "in_review",
+          "updated_at": "2026-09-27T20:17:40Z"
+        },
+        {
+          "key": "DWM-26",
+          "title": "[任务] Cofi 首轮 DW 迁移执行 runbook（Snowball 恢复即迁就绪包，离线）",
+          "status": "in_review",
+          "updated_at": "2026-09-27T20:17:27Z"
+        },
         {
           "key": "DWM-27",
           "title": "[任务] nextplayer + CoolMall ATH 行为等价验收用例设计（L3 切入首选，",
           "status": "in_progress",
           "updated_at": "2026-09-27T20:11:03Z"
-        },
-        {
-          "key": "DWM-26",
-          "title": "[任务] Cofi 首轮 DW 迁移执行 runbook（Snowball 恢复即迁就绪包，离线）",
-          "status": "in_progress",
-          "updated_at": "2026-09-27T20:10:24Z"
-        },
-        {
-          "key": "DWM-25",
-          "title": "[早会纪要] 2026-09-28 day-3（第 1 轮派单）",
-          "status": "in_progress",
-          "updated_at": "2026-09-27T20:07:52Z"
-        },
-        {
-          "key": "DWM-28",
-          "title": "[任务] DW 建议池 33 条 → 可提交建议落地审计（自领，离线）",
-          "status": "in_progress",
-          "updated_at": "2026-09-27T20:07:06Z"
         },
         {
           "key": "DWM-7",
