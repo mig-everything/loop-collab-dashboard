@@ -109,10 +109,10 @@ if [ "$AGENT_TOTAL" -eq 0 ]; then
   exit 1
 fi
 
-# 语义内容有变化才提交（忽略 generated_at 时间戳）
+# 语义内容有变化才提交（忽略 generated_at 时间戳；不查 porcelain，因为 generated_at 必然让文件变脏）
 OLD=$(git show HEAD:data/status.json 2>/dev/null | jq -S 'del(.generated_at)' 2>/dev/null)
 NEW=$(jq -S 'del(.generated_at)' data/status.json)
-if [ "$OLD" != "$NEW" ] || [ -n "$(git status --porcelain data/status.json scripts 2>/dev/null)" ]; then
+if [ "$OLD" != "$NEW" ]; then
   git add data/status.json
   git commit --quiet -m "status: $NOW"
   git push --quiet 2>/dev/null || git push
