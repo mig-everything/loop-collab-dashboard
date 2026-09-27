@@ -109,8 +109,10 @@ if [ "$AGENT_TOTAL" -eq 0 ]; then
   exit 1
 fi
 
-# 有变化才提交
-if ! git diff --quiet data/status.json 2>/dev/null || [ -n "$(git status --porcelain data/status.json)" ]; then
+# 语义内容有变化才提交（忽略 generated_at 时间戳）
+OLD=$(git show HEAD:data/status.json 2>/dev/null | jq -S 'del(.generated_at)' 2>/dev/null)
+NEW=$(jq -S 'del(.generated_at)' data/status.json)
+if [ "$OLD" != "$NEW" ] || [ -n "$(git status --porcelain data/status.json scripts 2>/dev/null)" ]; then
   git add data/status.json
   git commit --quiet -m "status: $NOW"
   git push --quiet 2>/dev/null || git push
