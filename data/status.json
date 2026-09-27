@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27T20:04:48Z",
+  "generated_at": "2026-09-27T20:08:09Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -27,9 +27,9 @@
           "role": "Kimi Adversarial Reviewer（对抗评审",
           "model": "",
           "agent_id": "6e530cc6-6b9d-4398-936d-df9c13468125",
-          "state": "meeting",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "SUR-41",
+          "issue_title": "[任务][day-4] 对抗评审 SUR-37 batch2（[13]–[24] 判定 + ArkTrans 取舍）"
         },
         {
           "name": "deepseek-planner",
@@ -44,11 +44,17 @@
       ],
       "issue_counts": {
         "todo": 0,
-        "in_progress": 1,
+        "in_progress": 2,
         "in_review": 0,
-        "done": 21
+        "done": 20
       },
       "latest_issues": [
+        {
+          "key": "SUR-41",
+          "title": "[任务][day-4] 对抗评审 SUR-37 batch2（[13]–[24] 判定 + ArkT",
+          "status": "in_progress",
+          "updated_at": "2026-09-27T20:07:08Z"
+        },
         {
           "key": "SUR-36",
           "title": "[任务][day-3] 独立评审 SUR-34 返工（48b5a80）9 项修复 + 复核 SUR-",
@@ -72,12 +78,6 @@
           "title": "[任务][day-3] 对抗评审第1轮产出：SUR-29（4项小修+batch1台账）+ SUR-3",
           "status": "done",
           "updated_at": "2026-09-27T20:04:34Z"
-        },
-        {
-          "key": "SUR-30",
-          "title": "[任务][day-3] 补复审 SUR-24 返工 4 条（已合 main，commit 7995d",
-          "status": "done",
-          "updated_at": "2026-09-27T20:04:33Z"
         }
       ]
     },
@@ -158,7 +158,7 @@
       "machine": "奕棣 MacBook",
       "machine_online": false,
       "meeting_active": true,
-      "meeting_title": "[早会纪要] 2026-09-28",
+      "meeting_title": "[早会纪要] 2026-09-28 day-3（第 1 轮派单）",
       "progress": 55,
       "agents": [
         {
@@ -177,9 +177,9 @@
           "role": "GLM Migrator-B",
           "model": "zai:glm-5.2",
           "agent_id": "c7955e08-a3cd-4566-aa8e-faecfd2b27cc",
-          "state": "offline",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "DWM-25",
+          "issue_title": "[早会纪要] 2026-09-28 day-3（第 1 轮派单）"
         },
         {
           "name": "opus-analyzer",
@@ -188,46 +188,46 @@
           "model": "claude-opus-4-1",
           "agent_id": "2f32549c-87c7-4202-8f54-3af79a30afa0",
           "state": "working",
-          "issue": "DWM-25",
-          "issue_title": "[早会纪要] 2026-09-28"
+          "issue": "DWM-28",
+          "issue_title": "[任务] DW 建议池 33 条 → 可提交建议落地审计（自领，离线）"
         }
       ],
       "issue_counts": {
-        "todo": 0,
-        "in_progress": 1,
-        "in_review": 17,
-        "done": 1
+        "todo": 2,
+        "in_progress": 2,
+        "in_review": 0,
+        "done": 18
       },
       "latest_issues": [
         {
           "key": "DWM-25",
-          "title": "[早会纪要] 2026-09-28",
+          "title": "[早会纪要] 2026-09-28 day-3（第 1 轮派单）",
           "status": "in_progress",
-          "updated_at": "2026-09-27T20:00:26Z"
+          "updated_at": "2026-09-27T20:07:52Z"
         },
         {
-          "key": "DWM-22",
-          "title": "[晚会日报] 2026-09-27",
-          "status": "in_review",
-          "updated_at": "2026-09-27T12:28:15Z"
+          "key": "DWM-28",
+          "title": "[任务] DW 建议池 33 条 → 可提交建议落地审计（自领，离线）",
+          "status": "in_progress",
+          "updated_at": "2026-09-27T20:07:06Z"
         },
         {
-          "key": "DWM-24",
-          "title": "[任务] thunderbird 156 模块闭包裁剪 manifest（L3 前置物深化，离线）",
-          "status": "in_review",
-          "updated_at": "2026-09-27T12:23:34Z"
+          "key": "DWM-27",
+          "title": "[任务] nextplayer + CoolMall ATH 行为等价验收用例设计（L3 切入首选，",
+          "status": "todo",
+          "updated_at": "2026-09-27T20:06:52Z"
         },
         {
-          "key": "DWM-23",
-          "title": "[任务] jerboa 179 DTO 转写清单 + 62 零引用裁剪复核（L2 前置物深化，离线）",
-          "status": "in_review",
-          "updated_at": "2026-09-27T12:21:48Z"
+          "key": "DWM-26",
+          "title": "[任务] Cofi 首轮 DW 迁移执行 runbook（Snowball 恢复即迁就绪包，离线）",
+          "status": "todo",
+          "updated_at": "2026-09-27T20:06:48Z"
         },
         {
-          "key": "DWM-20",
-          "title": "[午会纪要] 2026-09-27 day-2（第 2 轮派单）",
-          "status": "in_review",
-          "updated_at": "2026-09-27T04:24:31Z"
+          "key": "DWM-7",
+          "title": "[任务] Cofi 源码结构分析 + DW 迁移方案预研（Snowball 恢复前的前置任务）",
+          "status": "done",
+          "updated_at": "2026-09-27T20:05:50Z"
         }
       ]
     },
@@ -237,8 +237,8 @@
       "workspace": "ws-ipd-eazo-loop",
       "machine": "贾博 Mac Mini",
       "machine_online": true,
-      "meeting_active": false,
-      "meeting_title": "",
+      "meeting_active": true,
+      "meeting_title": "[早会纪要] 2026-09-28",
       "progress": 0,
       "agents": [
         {
@@ -247,7 +247,7 @@
           "role": "IPD-PM 产品经理",
           "model": "",
           "agent_id": "1764c131-5c09-48cb-aa48-3177d5256dbb",
-          "state": "working",
+          "state": "meeting",
           "issue": "",
           "issue_title": ""
         },
@@ -257,7 +257,7 @@
           "role": "IPD-SA 解决方案架构师",
           "model": "",
           "agent_id": "3e4373ef-a262-4b28-ab2a-818861fc9624",
-          "state": "idle",
+          "state": "meeting",
           "issue": "",
           "issue_title": ""
         },
@@ -267,7 +267,7 @@
           "role": "IPD-SE 系统工程师",
           "model": "",
           "agent_id": "b874ba6b-80e6-45c6-a8c6-aedc6f2b326b",
-          "state": "idle",
+          "state": "meeting",
           "issue": "",
           "issue_title": ""
         },
@@ -277,9 +277,9 @@
           "role": "IPD-Dev 开发工程师",
           "model": "",
           "agent_id": "44fcec25-d8b3-4af6-b206-1774a64677ce",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-37",
+          "issue_title": "[双端编码·第3轮] REQ-002 鸿蒙特性取证收口 — US-7 元服务卡片运行时 + US-8 平板双列复验"
         },
         {
           "name": "hermes-tester",
@@ -287,7 +287,7 @@
           "role": "IPD-Tester 测试工程师",
           "model": "",
           "agent_id": "86df9f14-a2cd-46d9-ad15-dbe8606ebd73",
-          "state": "idle",
+          "state": "meeting",
           "issue": "",
           "issue_title": ""
         },
@@ -297,47 +297,47 @@
           "role": "IPD-RM 发布经理",
           "model": "",
           "agent_id": "78156461-9644-478e-9c80-53cd18e25e33",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-40",
+          "issue_title": "[早会纪要] 2026-09-28"
         }
       ],
       "issue_counts": {
-        "todo": 3,
-        "in_progress": 1,
-        "in_review": 15,
+        "todo": 4,
+        "in_progress": 2,
+        "in_review": 14,
         "done": 9
       },
       "latest_issues": [
+        {
+          "key": "IPD-40",
+          "title": "[早会纪要] 2026-09-28",
+          "status": "in_progress",
+          "updated_at": "2026-09-27T20:08:23Z"
+        },
+        {
+          "key": "IPD-37",
+          "title": "[双端编码·第3轮] REQ-002 鸿蒙特性取证收口 — US-7 元服务卡片运行时 + US-8",
+          "status": "in_progress",
+          "updated_at": "2026-09-27T20:05:39Z"
+        },
+        {
+          "key": "IPD-42",
+          "title": "[PRD] REQ-003 灵感速记（Quick Notes）— 元服务直达 + 美观 UI + 主",
+          "status": "todo",
+          "updated_at": "2026-09-27T20:05:30Z"
+        },
+        {
+          "key": "IPD-41",
+          "title": "[测试·第4轮] REQ-002 TR-Accept 升「通过」收口 — Android 基线 P0",
+          "status": "todo",
+          "updated_at": "2026-09-27T20:05:28Z"
+        },
         {
           "key": "IPD-8",
           "title": "[PRD] 咖啡冲煮计时器（REQ-001）",
           "status": "done",
           "updated_at": "2026-09-27T20:05:02Z"
-        },
-        {
-          "key": "IPD-36",
-          "title": "[测试·第3轮] REQ-002 TR-Accept 闭环 — Android Appium 差分执",
-          "status": "done",
-          "updated_at": "2026-09-27T20:05:00Z"
-        },
-        {
-          "key": "IPD-35",
-          "title": "[晚会日报] 2026-09-27",
-          "status": "done",
-          "updated_at": "2026-09-27T20:04:48Z"
-        },
-        {
-          "key": "IPD-24",
-          "title": "[早会纪要] 2026-09-27",
-          "status": "done",
-          "updated_at": "2026-09-27T20:04:47Z"
-        },
-        {
-          "key": "IPD-32",
-          "title": "[午会纪要] 2026-09-27",
-          "status": "done",
-          "updated_at": "2026-09-27T20:04:47Z"
         }
       ]
     }
