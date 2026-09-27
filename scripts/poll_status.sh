@@ -3,6 +3,7 @@
 # 生成 data/status.json，有变化则 commit + push（供 GitHub Pages 看板消费）。
 # 依赖：multica CLI（已登录）、jq、git。
 set -u
+export PATH="/opt/homebrew/bin:/usr/local/bin:$HOME/.local/bin:$PATH"
 cd "$(dirname "$0")/.."
 LOOP_COLLAB="${LOOP_COLLAB:-/Users/jordanzt/Work/HuaweiWork/A2H/Suvey/loop-collab}"
 NOW=$(date -u +%Y-%m-%dT%H:%M:%SZ)
@@ -99,6 +100,14 @@ rm -f /tmp/dashboard-tasks-combined.json
 jq -s --arg now "$NOW" '{generated_at:$now, tasks:.}' /tmp/dashboard-tasks.jsonl > data/status.json.tmp \
   && mv data/status.json.tmp data/status.json
 rm -f /tmp/dashboard-tasks.jsonl
+
+# 保护：采集失败（agent 全空）时回滚，不推送坏数据
+AGENT_TOTAL=$(jq '[.tasks[].agents | length] | add // 0' data/status.json)
+if [ "$AGENT_TOTAL" -eq 0 ]; then
+  echo "[$NOW] ERROR: 采集为空（multica 不可用？），丢弃本次数据，保留上一版"
+  git checkout -- data/status.json 2>/dev/null || true
+  exit 1
+fi
 
 # 有变化才提交
 if ! git diff --quiet data/status.json 2>/dev/null || [ -n "$(git status --porcelain data/status.json)" ]; then
