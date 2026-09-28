@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T11:41:07Z",
+  "generated_at": "2026-09-28T11:44:32Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -176,7 +176,7 @@
       "title": "任务3 · DW 代码迁移",
       "workspace": "ws-dw-migration-loop",
       "machine": "奕棣 MacBook",
-      "machine_online": true,
+      "machine_online": false,
       "meeting_active": false,
       "meeting_title": "",
       "progress": 56,
@@ -187,7 +187,7 @@
           "role": "GLM Migrator-A",
           "model": "zai:glm-5.2",
           "agent_id": "fb3d90b6-92d7-488d-be82-d7d54869c5ac",
-          "state": "idle",
+          "state": "offline",
           "issue": "",
           "issue_title": ""
         },
@@ -197,7 +197,7 @@
           "role": "GLM Migrator-B",
           "model": "zai:glm-5.2",
           "agent_id": "c7955e08-a3cd-4566-aa8e-faecfd2b27cc",
-          "state": "idle",
+          "state": "offline",
           "issue": "",
           "issue_title": ""
         },
@@ -207,7 +207,7 @@
           "role": "Opus Analyzer",
           "model": "claude-opus-4-1",
           "agent_id": "2f32549c-87c7-4202-8f54-3af79a30afa0",
-          "state": "idle",
+          "state": "offline",
           "issue": "",
           "issue_title": ""
         },
@@ -217,7 +217,7 @@
           "role": "DeepSeek Planner（小组 leader/PM，",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "950ff614-521d-4e32-a02d-423d41a7b2b3",
-          "state": "idle",
+          "state": "offline",
           "issue": "",
           "issue_title": ""
         }
@@ -347,7 +347,7 @@
           "role": "MiniMax 多模态 UI 视觉评审",
           "model": "minimax-cn:MiniMax-M3",
           "agent_id": "97f55294-90e0-4556-93af-a1cf44889574",
-          "state": "idle",
+          "state": "working",
           "issue": "",
           "issue_title": ""
         }
