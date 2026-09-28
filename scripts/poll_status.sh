@@ -31,8 +31,12 @@ echo "$WS_LIST" | while IFS='|' read ws tid tname hostkey machine daily; do
   multica workspace switch "$ws" >/dev/null 2>&1
   WS_RUNTIMES=$(multica runtime list 2>/dev/null)
   AGENTS=$(multica agent list --output json 2>/dev/null || echo '[]')
-  ISSUES=$(multica issue list --limit 30 --output json 2>/dev/null || echo '{"issues":[]}')
-  ISSUES=$(echo "$ISSUES" | jq '{issues:(.issues // .)}')
+  # issue 取「最新创建的 100 条」+「全部进行中」：默认按看板位置排序只取 30 条会漏掉新单（例如刚派的执行单）；老版本 CLI 不认排序参数时退到不排序的 100 条，再退到原取法
+  ISSUES_NEW=$(multica issue list --limit 100 --sort created_at --direction desc --output json 2>/dev/null) \
+    || ISSUES_NEW=$(multica issue list --limit 100 --output json 2>/dev/null) \
+    || ISSUES_NEW=$(multica issue list --limit 30 --output json 2>/dev/null) || ISSUES_NEW='{"issues":[]}'
+  ISSUES_RUN=$(multica issue list --status in_progress --limit 50 --output json 2>/dev/null) || ISSUES_RUN='{"issues":[]}'
+  ISSUES=$(printf '%s\n%s\n' "$ISSUES_NEW" "$ISSUES_RUN" | jq -s '{issues: ([.[] | if type=="array" then .[] else (.issues // [])[] end] | unique_by(.id))}' 2>/dev/null) || ISSUES='{"issues":[]}'
 
   ONLINE=$(machine_online "$hostkey")
 
@@ -40,14 +44,20 @@ echo "$WS_LIST" | while IFS='|' read ws tid tname hostkey machine daily; do
   MEETING=$(echo "$ISSUES" | jq --argjson now "$NOW_EPOCH" '[.issues[] | select(.status=="in_progress") | select(.title | test("早会|午会|晚会|会议|纪要")) | select((((.last_activity_at // "") | sub("\\.[0-9]+Z$";"Z") | fromdateiso8601? ) // 0) > ($now - 4500))] | length > 0')
   MEETING_TITLE=$(echo "$ISSUES" | jq -r --argjson now "$NOW_EPOCH" '[.issues[] | select(.status=="in_progress") | select(.title | test("早会|午会|晚会|会议|纪要")) | select((((.last_activity_at // "") | sub("\\.[0-9]+Z$";"Z") | fromdateiso8601? ) // 0) > ($now - 4500))][0].title // ""')
 
-  # 活跃 run 检测：近 24h 内 in_progress 的非会议 issue，查 runs 里 completed_at==null
-  ACTIVE_FILE=$(mktemp)
-  echo '{}' > "$ACTIVE_FILE"
-  for key in $(echo "$ISSUES" | jq -r '.issues[] | select(.status=="in_progress") | .identifier' | head -8); do
-    RUNS=$(multica issue runs "$key" --output json 2>/dev/null || echo '[]')
-    ACT=$(echo "$RUNS" | jq -r --arg k "$key" '[.[] | select(.completed_at==null)] | .[0] | if . then "\(.agent_id)|\($k)" else empty end')
-    [ -n "$ACT" ] && echo "$ACT" >> "$ACTIVE_FILE.run"
-  done
+  # 正在执行的 run → issue。优先按 agent 查（只查非空闲的，便宜且准确，也覆盖不在「进行中」的 issue）；
+  # 老版本 CLI 没有 agent tasks 时回落到按进行中 issue 扫 runs（同一 issue 上多个 agent 并行时都要算上）
+  ACTIVE=""
+  if multica agent tasks --help 2>&1 | grep -q "agent tasks <"; then
+    for aid in $(echo "$AGENTS" | jq -r '.[] | select(.status != "idle") | .id'); do
+      R=$(multica agent tasks "$aid" --limit 5 --output json 2>/dev/null | jq -r --arg a "$aid" '(if type=="array" then . else (.tasks // []) end) | [.[] | select(.completed_at==null and .started_at!=null)] | .[0] | if . then "\($a)|\(.issue_id)|\(.started_at)" else empty end' 2>/dev/null)
+      [ -n "$R" ] && ACTIVE="$ACTIVE$R"$'\n'
+    done
+  else
+    for key in $(echo "$ISSUES" | jq -r '.issues[] | select(.status=="in_progress") | .identifier' | head -8); do
+      R=$(multica issue runs "$key" --output json 2>/dev/null | jq -r --arg k "$key" '.[] | select(.completed_at==null) | "\(.agent_id)|\($k)|\(.started_at // "")"' 2>/dev/null)
+      [ -n "$R" ] && ACTIVE="$ACTIVE$R"$'\n'
+    done
+  fi
 
   # 组装 agents 状态
   AGENTS_OUT=$(echo "$AGENTS" | jq -c --argjson meeting "$MEETING" --argjson online "$ONLINE" '
@@ -65,16 +75,16 @@ echo "$WS_LIST" | while IFS='|' read ws tid tname hostkey machine daily; do
       issue: "",
       issue_title: ""
     }]')
-  # 用活跃 run 覆盖为 working 并附 issue（优先于 meeting）
-  if [ -f "$ACTIVE_FILE.run" ]; then
-    while IFS='|' read aid ikey; do
-      TITLE=$(echo "$ISSUES" | jq -r --arg k "$ikey" '.issues[] | select(.identifier==$k) | .title' | head -1)
-      AGENTS_OUT=$(echo "$AGENTS_OUT" | jq -c --arg aid "$aid" --arg k "$ikey" --arg t "$TITLE" '
-        [.[] | if .agent_id==$aid then . + {state:"working", issue:$k, issue_title:($t|.[0:60])} else . end]')
-    done < "$ACTIVE_FILE.run"
-    rm -f "$ACTIVE_FILE.run"
-  fi
-  rm -f "$ACTIVE_FILE"
+  # 用活跃 run 覆盖为 working 并附 issue（优先于 meeting；机器离线时保持离线）。since=本次 run 开始时间
+  while IFS='|' read aid ref since; do
+    [ -n "$aid" ] || continue
+    IT=$(echo "$ISSUES" | jq -c --arg r "$ref" '[.issues[] | select(.id==$r or .identifier==$r)][0] // empty')
+    [ -z "$IT" ] && [ -n "$ref" ] && IT=$(multica issue get "$ref" --output json 2>/dev/null | jq -c '(.issue // .) | {identifier, title}' 2>/dev/null)
+    [ -n "$IT" ] || IT='{}'
+    IKEY=$(echo "$IT" | jq -r '.identifier // ""'); TITLE=$(echo "$IT" | jq -r '.title // ""')
+    AGENTS_OUT=$(echo "$AGENTS_OUT" | jq -c --arg aid "$aid" --arg k "$IKEY" --arg t "$TITLE" --arg s "$since" '
+      [.[] | if .agent_id==$aid and .state!="offline" then . + {state:"working", issue:$k, issue_title:($t|.[0:60])} + (if $s!="" then {since:$s} else {} end) else . end]')
+  done <<< "$ACTIVE"
   AGENTS_OUT=$(echo "$AGENTS_OUT" | jq -c '[.[] | del(.platform_status)]')
 
   # issue 统计与最新动态
