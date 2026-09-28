@@ -1,101 +1,43 @@
 {
-  "generated_at": "2026-09-28T11:33:15Z",
+  "generated_at": "2026-09-28T11:37:41Z",
   "tasks": [
     {
       "id": "task1-survey",
       "title": "任务1 · 应用迁移综述",
       "workspace": "ws-survey-loop",
       "machine": "张涛 MacBook",
-      "machine_online": false,
+      "machine_online": true,
       "meeting_active": false,
       "meeting_title": "",
       "progress": 37,
-      "agents": [],
-      "issue_counts": {
-        "todo": 0,
-        "in_progress": 0,
-        "in_review": 0,
-        "done": 0
-      },
-      "latest_issues": []
-    },
-    {
-      "id": "task2-benchmark",
-      "title": "任务2 · 评测集与双端用例",
-      "workspace": "ws-benchmark-loop",
-      "machine": "张涛 Mac Studio",
-      "machine_online": false,
-      "meeting_active": false,
-      "meeting_title": "",
-      "progress": 26,
       "agents": [
         {
-          "name": "hermes-pm",
-          "emoji": "🚀",
-          "role": "IPD-PM 产品经理",
+          "name": "gpt-writer",
+          "emoji": "🧠",
+          "role": "GPT Writer（执笔者）",
           "model": "",
-          "agent_id": "1764c131-5c09-48cb-aa48-3177d5256dbb",
-          "state": "offline",
+          "agent_id": "58ed4647-32dd-4ca1-8ddc-194b975d6024",
+          "state": "idle",
           "issue": "",
           "issue_title": ""
         },
         {
-          "name": "hermes-sa",
-          "emoji": "🔥",
-          "role": "IPD-SA 解决方案架构师",
+          "name": "kimi-adversary",
+          "emoji": "🦋",
+          "role": "Kimi Adversarial Reviewer（对抗评审",
           "model": "",
-          "agent_id": "3e4373ef-a262-4b28-ab2a-818861fc9624",
-          "state": "offline",
-          "issue": "",
-          "issue_title": ""
-        },
-        {
-          "name": "hermes-se",
-          "emoji": "⚡",
-          "role": "IPD-SE 系统工程师",
-          "model": "",
-          "agent_id": "b874ba6b-80e6-45c6-a8c6-aedc6f2b326b",
-          "state": "offline",
-          "issue": "",
-          "issue_title": ""
-        },
-        {
-          "name": "hermes-dev",
-          "emoji": "🐨",
-          "role": "IPD-Dev 开发工程师",
-          "model": "",
-          "agent_id": "44fcec25-d8b3-4af6-b206-1774a64677ce",
-          "state": "offline",
-          "issue": "",
-          "issue_title": ""
-        },
-        {
-          "name": "hermes-tester",
-          "emoji": "🔥",
-          "role": "IPD-Tester 测试工程师",
-          "model": "",
-          "agent_id": "86df9f14-a2cd-46d9-ad15-dbe8606ebd73",
-          "state": "offline",
-          "issue": "",
-          "issue_title": ""
-        },
-        {
-          "name": "hermes-rm",
-          "emoji": "⚡",
-          "role": "IPD-RM 发布经理",
-          "model": "",
-          "agent_id": "78156461-9644-478e-9c80-53cd18e25e33",
-          "state": "offline",
+          "agent_id": "6e530cc6-6b9d-4398-936d-df9c13468125",
+          "state": "idle",
           "issue": "",
           "issue_title": ""
         },
         {
           "name": "deepseek-planner",
-          "emoji": "🦋",
-          "role": "DeepSeek Planner（小组 leader/PM ",
+          "emoji": "🐸",
+          "role": "DeepSeek Task Planner（任务规划+总结）",
           "model": "deepseek:deepseek-v4-pro",
-          "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
-          "state": "offline",
+          "agent_id": "04a4e04e-59d5-4f3a-8a16-acf99b80a493",
+          "state": "idle",
           "issue": "",
           "issue_title": ""
         }
@@ -104,38 +46,118 @@
         "todo": 0,
         "in_progress": 0,
         "in_review": 0,
-        "done": 30
+        "done": 24
       },
       "latest_issues": [
         {
-          "key": "IPD-51",
+          "key": "SUR-44",
           "title": "[巡检] 2026-09-28 leader Issue 状态巡检与催办",
           "status": "done",
-          "updated_at": "2026-09-28T11:13:37Z"
+          "updated_at": "2026-09-28T08:02:06Z"
         },
         {
-          "key": "IPD-50",
+          "key": "SUR-42",
+          "title": "[午会纪要] 2026-09-28",
+          "status": "done",
+          "updated_at": "2026-09-28T07:16:21Z"
+        },
+        {
+          "key": "SUR-43",
+          "title": "[任务][day-4] 返工 SUR-41 评审新增项：P0-2 [14] / P0-5 [23] ",
+          "status": "done",
+          "updated_at": "2026-09-28T06:07:20Z"
+        },
+        {
+          "key": "SUR-41",
+          "title": "[任务][day-4] 对抗评审 SUR-37 batch2（[13]–[24] 判定 + ArkT",
+          "status": "done",
+          "updated_at": "2026-09-28T05:57:46Z"
+        },
+        {
+          "key": "SUR-40",
+          "title": "[任务][day-4] 66 条核验第三批 [25]–[36] + 返工 batch2 4❌ + 清",
+          "status": "done",
+          "updated_at": "2026-09-28T05:57:44Z"
+        }
+      ]
+    },
+    {
+      "id": "task2-benchmark",
+      "title": "任务2 · 评测集与双端用例",
+      "workspace": "ws-benchmark-loop",
+      "machine": "张涛 Mac Studio",
+      "machine_online": true,
+      "meeting_active": false,
+      "meeting_title": "",
+      "progress": 26,
+      "agents": [
+        {
+          "name": "glm-scenarist",
+          "emoji": "🦊",
+          "role": "GLM Scenarist",
+          "model": "zai:glm-5.2",
+          "agent_id": "6e6f1e24-3bc5-455a-85d2-cb3fb6c9a672",
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
+        },
+        {
+          "name": "glm-runner",
+          "emoji": "👾",
+          "role": "GLM Runner & Analyst",
+          "model": "zai:glm-5.2",
+          "agent_id": "bdaefa9b-7045-4264-95e4-1db664e353d0",
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
+        },
+        {
+          "name": "deepseek-planner",
+          "emoji": "🍀",
+          "role": "DeepSeek Planner（小组 leader/PM）",
+          "model": "deepseek:deepseek-v4-pro",
+          "agent_id": "547cd361-ef50-4965-9477-bc659d8a1708",
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
+        }
+      ],
+      "issue_counts": {
+        "todo": 0,
+        "in_progress": 0,
+        "in_review": 2,
+        "done": 23
+      },
+      "latest_issues": [
+        {
+          "key": "BEN-27",
+          "title": "[任务·第2轮] FC142 APK 重建（debug-only testTagsAsResourc",
+          "status": "in_review",
+          "updated_at": "2026-09-28T11:28:26Z"
+        },
+        {
+          "key": "BEN-28",
+          "title": "[任务·第2/3轮] Cofi 两文件场景合并（compact.md 唯一权威，目标 ready≥1",
+          "status": "in_review",
+          "updated_at": "2026-09-28T11:23:11Z"
+        },
+        {
+          "key": "BEN-30",
           "title": "[巡检] 2026-09-28 leader Issue 状态巡检与催办",
           "status": "done",
-          "updated_at": "2026-09-28T08:03:45Z"
+          "updated_at": "2026-09-28T11:11:44Z"
         },
         {
-          "key": "IPD-46",
-          "title": "[SE·第2轮] REQ-003 追踪矩阵骨架 + NFR v1.2 主题切换",
+          "key": "BEN-23",
+          "title": "[任务·第3轮] AntennaPod A1 批次（订阅链路 73 组）审核转 ready + bi",
           "status": "done",
-          "updated_at": "2026-09-28T08:03:11Z"
+          "updated_at": "2026-09-28T08:35:07Z"
         },
         {
-          "key": "IPD-45",
-          "title": "[架构·第2轮] REQ-003 灵感速记双端架构 + TR-Design 主持 + 生成器规则 0",
+          "key": "BEN-29",
+          "title": "[巡检] 2026-09-28 leader Issue 状态巡检与催办",
           "status": "done",
-          "updated_at": "2026-09-28T08:03:09Z"
-        },
-        {
-          "key": "IPD-48",
-          "title": "[发版·第2轮] REQ-002 发版度量收口 — 端到端生成时长补采 + 发布说明 + build",
-          "status": "done",
-          "updated_at": "2026-09-28T08:03:07Z"
+          "updated_at": "2026-09-28T08:10:12Z"
         }
       ]
     },
@@ -144,7 +166,7 @@
       "title": "任务3 · DW 代码迁移",
       "workspace": "ws-dw-migration-loop",
       "machine": "奕棣 MacBook",
-      "machine_online": false,
+      "machine_online": true,
       "meeting_active": false,
       "meeting_title": "",
       "progress": 56,
@@ -155,7 +177,7 @@
           "role": "GLM Migrator-A",
           "model": "zai:glm-5.2",
           "agent_id": "fb3d90b6-92d7-488d-be82-d7d54869c5ac",
-          "state": "offline",
+          "state": "idle",
           "issue": "",
           "issue_title": ""
         },
@@ -165,7 +187,7 @@
           "role": "GLM Migrator-B",
           "model": "zai:glm-5.2",
           "agent_id": "c7955e08-a3cd-4566-aa8e-faecfd2b27cc",
-          "state": "offline",
+          "state": "idle",
           "issue": "",
           "issue_title": ""
         },
@@ -175,7 +197,7 @@
           "role": "Opus Analyzer",
           "model": "claude-opus-4-1",
           "agent_id": "2f32549c-87c7-4202-8f54-3af79a30afa0",
-          "state": "offline",
+          "state": "idle",
           "issue": "",
           "issue_title": ""
         },
@@ -185,7 +207,7 @@
           "role": "DeepSeek Planner（小组 leader/PM，",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "950ff614-521d-4e32-a02d-423d41a7b2b3",
-          "state": "offline",
+          "state": "idle",
           "issue": "",
           "issue_title": ""
         }
@@ -234,7 +256,7 @@
       "title": "任务4 · IPD Eazo 平台",
       "workspace": "ws-ipd-eazo-loop",
       "machine": "贾博 Mac Mini",
-      "machine_online": false,
+      "machine_online": true,
       "meeting_active": false,
       "meeting_title": "",
       "progress": 24,
@@ -245,7 +267,7 @@
           "role": "IPD-PM 产品经理",
           "model": "",
           "agent_id": "1764c131-5c09-48cb-aa48-3177d5256dbb",
-          "state": "offline",
+          "state": "idle",
           "issue": "",
           "issue_title": ""
         },
@@ -255,7 +277,7 @@
           "role": "IPD-SA 解决方案架构师",
           "model": "",
           "agent_id": "3e4373ef-a262-4b28-ab2a-818861fc9624",
-          "state": "offline",
+          "state": "idle",
           "issue": "",
           "issue_title": ""
         },
@@ -265,7 +287,7 @@
           "role": "IPD-SE 系统工程师",
           "model": "",
           "agent_id": "b874ba6b-80e6-45c6-a8c6-aedc6f2b326b",
-          "state": "offline",
+          "state": "idle",
           "issue": "",
           "issue_title": ""
         },
@@ -275,7 +297,7 @@
           "role": "IPD-Dev 开发工程师",
           "model": "",
           "agent_id": "44fcec25-d8b3-4af6-b206-1774a64677ce",
-          "state": "offline",
+          "state": "idle",
           "issue": "",
           "issue_title": ""
         },
@@ -285,7 +307,7 @@
           "role": "IPD-Tester 测试工程师",
           "model": "",
           "agent_id": "86df9f14-a2cd-46d9-ad15-dbe8606ebd73",
-          "state": "offline",
+          "state": "idle",
           "issue": "",
           "issue_title": ""
         },
@@ -295,7 +317,7 @@
           "role": "IPD-RM 发布经理",
           "model": "",
           "agent_id": "78156461-9644-478e-9c80-53cd18e25e33",
-          "state": "offline",
+          "state": "idle",
           "issue": "",
           "issue_title": ""
         },
@@ -305,7 +327,7 @@
           "role": "DeepSeek Planner（小组 leader/PM ",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
-          "state": "offline",
+          "state": "idle",
           "issue": "",
           "issue_title": ""
         }
