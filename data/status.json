@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T20:25:45Z",
+  "generated_at": "2026-09-28T20:29:29Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -17,10 +17,9 @@
           "role": "GPT Writer（执笔者）",
           "model": "",
           "agent_id": "58ed4647-32dd-4ca1-8ddc-194b975d6024",
-          "state": "working",
-          "issue": "SUR-52",
-          "issue_title": "[任务][day-5] 返工 batch3 三 P0 书目 + 2 P1 + P2 六项（SUR-47 清单，覆盖率 1",
-          "since": "2026-09-28T20:18:12Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "kimi-adversary",
@@ -46,16 +45,16 @@
       ],
       "issue_counts": {
         "todo": 1,
-        "in_progress": 2,
+        "in_progress": 1,
         "in_review": 0,
-        "done": 35
+        "done": 36
       },
       "latest_issues": [
         {
           "key": "SUR-52",
           "title": "[任务][day-5] 返工 batch3 三 P0 书目 + 2 P1 + P2 六项（SUR-4",
-          "status": "in_progress",
-          "updated_at": "2026-09-28T20:25:03Z"
+          "status": "done",
+          "updated_at": "2026-09-28T20:25:54Z"
         },
         {
           "key": "SUR-51",
@@ -331,10 +330,9 @@
           "role": "IPD-Dev 开发工程师",
           "model": "",
           "agent_id": "44fcec25-d8b3-4af6-b206-1774a64677ce",
-          "state": "working",
-          "issue": "IPD-60",
-          "issue_title": "[双端编码·第1轮] REQ-003 灵感速记鸿蒙运行取证（US-1~7 截图 + 主题两态 + 元服务卡片 + NL实",
-          "since": "2026-09-28T20:06:20Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "hermes-tester",
@@ -372,30 +370,35 @@
           "role": "MiniMax 多模态 UI 视觉评审",
           "model": "minimax-cn:MiniMax-M3",
           "agent_id": "97f55294-90e0-4556-93af-a1cf44889574",
-          "state": "working",
-          "issue": "IPD-68",
-          "issue_title": "[视觉评审·TR-Accept] REQ-003 灵感速记双端截图视觉差分 + C4 rubric 双态打分",
-          "since": "2026-09-28T20:20:16Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         }
       ],
       "issue_counts": {
         "todo": 0,
-        "in_progress": 3,
-        "in_review": 6,
+        "in_progress": 2,
+        "in_review": 7,
         "done": 52
       },
       "latest_issues": [
+        {
+          "key": "IPD-68",
+          "title": "[视觉评审·TR-Accept] REQ-003 灵感速记双端截图视觉差分 + C4 rubric ",
+          "status": "in_review",
+          "updated_at": "2026-09-28T20:26:38Z"
+        },
+        {
+          "key": "IPD-60",
+          "title": "[双端编码·第1轮] REQ-003 灵感速记鸿蒙运行取证（US-1~7 截图 + 主题两态 + 元",
+          "status": "in_progress",
+          "updated_at": "2026-09-28T20:26:27Z"
+        },
         {
           "key": "IPD-61",
           "title": "[测试·第1轮] REQ-003 灵感速记 TR-Accept 执行 + 主持（双端差分 + uij",
           "status": "in_progress",
           "updated_at": "2026-09-28T20:20:57Z"
-        },
-        {
-          "key": "IPD-68",
-          "title": "[视觉评审·TR-Accept] REQ-003 灵感速记双端截图视觉差分 + C4 rubric ",
-          "status": "in_progress",
-          "updated_at": "2026-09-28T20:20:46Z"
         },
         {
           "key": "IPD-67",
@@ -408,12 +411,6 @@
           "title": "[SE·第1轮] REQ-003 追踪矩阵设计→代码列双端回填 + REQ-004 追踪矩阵骨架",
           "status": "in_review",
           "updated_at": "2026-09-28T20:12:58Z"
-        },
-        {
-          "key": "IPD-65",
-          "title": "[发版·第1轮] REQ-003 端到端生成时长补采 + 清理遗留 final-comment.md",
-          "status": "in_review",
-          "updated_at": "2026-09-28T20:12:52Z"
         }
       ]
     }
