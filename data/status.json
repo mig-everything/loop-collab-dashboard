@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T11:16:02Z",
+  "generated_at": "2026-09-28T11:26:19Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -97,9 +97,9 @@
           "role": "GLM Scenarist",
           "model": "zai:glm-5.2",
           "agent_id": "6e6f1e24-3bc5-455a-85d2-cb3fb6c9a672",
-          "state": "working",
-          "issue": "BEN-28",
-          "issue_title": "[任务·第2/3轮] Cofi 两文件场景合并（compact.md 唯一权威，目标 ready≥100）+ 描述卡平台"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "glm-runner",
@@ -124,16 +124,16 @@
       ],
       "issue_counts": {
         "todo": 0,
-        "in_progress": 2,
-        "in_review": 0,
+        "in_progress": 1,
+        "in_review": 1,
         "done": 23
       },
       "latest_issues": [
         {
           "key": "BEN-28",
           "title": "[任务·第2/3轮] Cofi 两文件场景合并（compact.md 唯一权威，目标 ready≥1",
-          "status": "in_progress",
-          "updated_at": "2026-09-28T11:12:25Z"
+          "status": "in_review",
+          "updated_at": "2026-09-28T11:23:11Z"
         },
         {
           "key": "BEN-30",
