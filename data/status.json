@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T08:35:47Z",
+  "generated_at": "2026-09-28T08:49:31Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -162,72 +162,62 @@
       "progress": 56,
       "agents": [
         {
-          "name": "glm-migrator-2",
-          "emoji": "🦉",
-          "role": "GLM Migrator-A",
+          "name": "glm-scenarist",
+          "emoji": "🦊",
+          "role": "GLM Scenarist",
           "model": "zai:glm-5.2",
-          "agent_id": "fb3d90b6-92d7-488d-be82-d7d54869c5ac",
+          "agent_id": "6e6f1e24-3bc5-455a-85d2-cb3fb6c9a672",
           "state": "offline",
           "issue": "",
           "issue_title": ""
         },
         {
-          "name": "glm-migrator-3",
-          "emoji": "🤖",
-          "role": "GLM Migrator-B",
+          "name": "glm-runner",
+          "emoji": "👾",
+          "role": "GLM Runner & Analyst",
           "model": "zai:glm-5.2",
-          "agent_id": "c7955e08-a3cd-4566-aa8e-faecfd2b27cc",
-          "state": "offline",
-          "issue": "",
-          "issue_title": ""
-        },
-        {
-          "name": "opus-analyzer",
-          "emoji": "🦁",
-          "role": "Opus Analyzer",
-          "model": "claude-opus-4-1",
-          "agent_id": "2f32549c-87c7-4202-8f54-3af79a30afa0",
+          "agent_id": "bdaefa9b-7045-4264-95e4-1db664e353d0",
           "state": "offline",
           "issue": "",
           "issue_title": ""
         }
       ],
       "issue_counts": {
-        "todo": 0,
-        "in_progress": 0,
-        "in_review": 2,
-        "done": 24
+        "todo": 1,
+        "in_progress": 1,
+        "in_review": 0,
+        "done": 22
       },
       "latest_issues": [
         {
-          "key": "DWM-30",
-          "title": "[任务] Simple-Calendar + Open Camera ATH 行为等价验收用例设计（",
-          "status": "in_review",
-          "updated_at": "2026-09-28T08:15:54Z"
-        },
-        {
-          "key": "DWM-27",
-          "title": "[任务] nextplayer + CoolMall ATH 行为等价验收用例设计（L3 切入首选，",
-          "status": "in_review",
-          "updated_at": "2026-09-28T08:09:05Z"
-        },
-        {
-          "key": "DWM-32",
-          "title": "[巡检] 2026-09-28 16:00 leader Issue 状态巡检与催办",
+          "key": "BEN-23",
+          "title": "[任务·第3轮] AntennaPod A1 批次（订阅链路 73 组）审核转 ready + bi",
           "status": "done",
-          "updated_at": "2026-09-28T08:07:07Z"
+          "updated_at": "2026-09-28T08:35:07Z"
         },
         {
-          "key": "DWM-29",
-          "title": "[午会纪要] 2026-09-28",
-          "status": "done",
-          "updated_at": "2026-09-28T08:06:41Z"
+          "key": "BEN-27",
+          "title": "[任务·第2轮] FC142 APK 重建（debug-only testTagsAsResourc",
+          "status": "in_progress",
+          "updated_at": "2026-09-28T08:27:21Z"
         },
         {
-          "key": "DWM-31",
-          "title": "[任务] 差异分析报告模板 + hmigbot 版本对齐待核验清单（自领，离线）",
+          "key": "BEN-29",
+          "title": "[巡检] 2026-09-28 leader Issue 状态巡检与催办",
           "status": "done",
-          "updated_at": "2026-09-28T08:06:40Z"
+          "updated_at": "2026-09-28T08:10:12Z"
+        },
+        {
+          "key": "BEN-26",
+          "title": "[午会纪要] 2026-09-28 第2轮：BEN-25截断补收口+卫生3关1催办+派单BEN-27",
+          "status": "done",
+          "updated_at": "2026-09-28T08:09:32Z"
+        },
+        {
+          "key": "BEN-28",
+          "title": "[任务·第2/3轮] Cofi 两文件场景合并（compact.md 唯一权威，目标 ready≥1",
+          "status": "todo",
+          "updated_at": "2026-09-28T04:24:09Z"
         }
       ]
     },
