@@ -7,9 +7,9 @@ export PATH="/opt/homebrew/bin:/usr/local/bin:$HOME/.local/bin:$PATH"
 cd "$(dirname "$0")/.."
 # 先同步远端（别人推过 main 时，本机提交不会再被拒；数据文件由本脚本重算，冲突时以远端为准后重算）
 git pull -q --rebase --autostash 2>/dev/null || git rebase --abort 2>/dev/null || true
+LOOP_COLLAB="${LOOP_COLLAB:-/Users/jordanzt/Work/HuaweiWork/A2H/Suvey/loop-collab}"
 # 日报里的「总进度」来自 loop-collab：读之前先快进到最新（只快进、不改本地提交，失败不影响采集）
 [ -d "$LOOP_COLLAB/.git" ] && git -C "$LOOP_COLLAB" pull -q --ff-only 2>/dev/null || true
-LOOP_COLLAB="${LOOP_COLLAB:-/Users/jordanzt/Work/HuaweiWork/A2H/Suvey/loop-collab}"
 NOW=$(date -u +%Y-%m-%dT%H:%M:%SZ)
 NOW_EPOCH=$(date -u +%s)
 
