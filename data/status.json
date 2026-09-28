@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T20:18:13Z",
+  "generated_at": "2026-09-28T20:22:02Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -18,9 +18,9 @@
           "model": "",
           "agent_id": "58ed4647-32dd-4ca1-8ddc-194b975d6024",
           "state": "working",
-          "issue": "SUR-52",
-          "issue_title": "[任务][day-5] 返工 batch3 三 P0 书目 + 2 P1 + P2 六项（SUR-47 清单，覆盖率 1",
-          "since": "2026-09-28T20:18:12Z"
+          "issue": "SUR-51",
+          "issue_title": "[晨会纪要] 2026-09-29",
+          "since": "2026-09-28T20:19:46Z"
         },
         {
           "name": "kimi-adversary",
@@ -28,9 +28,10 @@
           "role": "Kimi Adversarial Reviewer（对抗评审",
           "model": "",
           "agent_id": "6e530cc6-6b9d-4398-936d-df9c13468125",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "SUR-53",
+          "issue_title": "[评审][day-5] 独立评审 batch4 [37]–[48] 12 条 + 重点复核 4 项 + Rubric 环",
+          "since": "2026-09-28T20:18:18Z"
         },
         {
           "name": "deepseek-planner",
@@ -38,48 +39,47 @@
           "role": "DeepSeek Task Planner（任务规划+总结）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "04a4e04e-59d5-4f3a-8a16-acf99b80a493",
-          "state": "working",
-          "issue": "SUR-51",
-          "issue_title": "[晨会纪要] 2026-09-29",
-          "since": "2026-09-28T20:00:08Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         }
       ],
       "issue_counts": {
-        "todo": 4,
-        "in_progress": 0,
+        "todo": 1,
+        "in_progress": 2,
         "in_review": 0,
-        "done": 33
+        "done": 35
       },
       "latest_issues": [
         {
-          "key": "SUR-53",
-          "title": "[评审][day-5] 独立评审 batch4 [37]–[48] 12 条 + 重点复核 4 项 ",
-          "status": "todo",
-          "updated_at": "2026-09-28T20:18:17Z"
+          "key": "SUR-51",
+          "title": "[晨会纪要] 2026-09-29",
+          "status": "done",
+          "updated_at": "2026-09-28T20:21:32Z"
         },
         {
           "key": "SUR-52",
           "title": "[任务][day-5] 返工 batch3 三 P0 书目 + 2 P1 + P2 六项（SUR-4",
-          "status": "todo",
-          "updated_at": "2026-09-28T20:18:12Z"
+          "status": "in_progress",
+          "updated_at": "2026-09-28T20:21:10Z"
         },
         {
-          "key": "SUR-51",
-          "title": "[晨会纪要] 2026-09-29",
-          "status": "todo",
-          "updated_at": "2026-09-28T20:00:07Z"
+          "key": "SUR-54",
+          "title": "[流程优化] 2026-09-29 晨会产出 1 项（经验库/文档指针化），次日验证",
+          "status": "backlog",
+          "updated_at": "2026-09-28T20:20:13Z"
         },
         {
-          "key": "SUR-50",
-          "title": "[巡检] 2026-09-29 leader Issue 状态巡检与催办",
+          "key": "SUR-48",
+          "title": "[流程优化] 2026-09-28 晚会产出 2 项（串行化 + 持久结果校验），次日验证",
           "status": "done",
-          "updated_at": "2026-09-28T16:02:21Z"
+          "updated_at": "2026-09-28T20:19:54Z"
         },
         {
-          "key": "SUR-47",
-          "title": "[评审][day-4] 复核 SUR-43 返工落地（加分闸门）+ 独立评审 batch3 [25]",
-          "status": "done",
-          "updated_at": "2026-09-28T16:02:03Z"
+          "key": "SUR-53",
+          "title": "[评审][day-5] 独立评审 batch4 [37]–[48] 12 条 + 重点复核 4 项 ",
+          "status": "in_progress",
+          "updated_at": "2026-09-28T20:18:39Z"
         }
       ]
     },
@@ -99,10 +99,9 @@
           "role": "GLM Scenarist",
           "model": "zai:glm-5.2",
           "agent_id": "6e6f1e24-3bc5-455a-85d2-cb3fb6c9a672",
-          "state": "working",
-          "issue": "BEN-37",
-          "issue_title": "[任务·第1轮] AntennaPod A3 批次：Feed 详情/单集条目链路转 ready + bindings +",
-          "since": "2026-09-28T20:03:50Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "glm-runner",
@@ -144,16 +143,16 @@
       },
       "latest_issues": [
         {
+          "key": "BEN-37",
+          "title": "[任务·第1轮] AntennaPod A3 批次：Feed 详情/单集条目链路转 ready + ",
+          "status": "in_progress",
+          "updated_at": "2026-09-28T20:18:34Z"
+        },
+        {
           "key": "BEN-36",
           "title": "[早会纪要] 2026-09-29",
           "status": "done",
           "updated_at": "2026-09-28T20:16:31Z"
-        },
-        {
-          "key": "BEN-37",
-          "title": "[任务·第1轮] AntennaPod A3 批次：Feed 详情/单集条目链路转 ready + ",
-          "status": "in_progress",
-          "updated_at": "2026-09-28T20:04:21Z"
         },
         {
           "key": "BEN-34",
@@ -191,10 +190,9 @@
           "role": "Opus Analyzer",
           "model": "claude-opus-4-1",
           "agent_id": "2f32549c-87c7-4202-8f54-3af79a30afa0",
-          "state": "working",
-          "issue": "DWM-41",
-          "issue_title": "[任务] Cofi 失败档案差异分析初版 + DW 缺口→建议池实测分类（第1轮，离线）",
-          "since": "2026-09-28T20:10:09Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "deepseek-planner",
@@ -224,7 +222,7 @@
           "agent_id": "1c3481f5-135b-4959-9daa-c510c076d494",
           "state": "working",
           "issue": "DWM-40",
-          "issue_title": "[DW迁移任务单] Omni-Notes 迁移 · 清单+迁移",
+          "issue_title": "[DW迁移任务单] Omni-Notes 迁移 · 清单+迁移 · 清单生成中 · 迁移未开始 · 0h/6h",
           "since": "2026-09-28T20:13:56Z"
         },
         {
@@ -256,6 +254,12 @@
       },
       "latest_issues": [
         {
+          "key": "DWM-40",
+          "title": "[DW迁移任务单] Omni-Notes 迁移 · 清单+迁移 · 清单生成中 · 迁移未开始 · ",
+          "status": "in_progress",
+          "updated_at": "2026-09-28T20:18:59Z"
+        },
+        {
           "key": "DWM-41",
           "title": "[任务] Cofi 失败档案差异分析初版 + DW 缺口→建议池实测分类（第1轮，离线）",
           "status": "in_review",
@@ -266,12 +270,6 @@
           "title": "[早会纪要] 2026-09-29",
           "status": "done",
           "updated_at": "2026-09-28T20:15:27Z"
-        },
-        {
-          "key": "DWM-40",
-          "title": "[DW迁移任务单] Omni-Notes 迁移 · 清单+迁移",
-          "status": "in_progress",
-          "updated_at": "2026-09-28T20:13:55Z"
         },
         {
           "key": "DWM-37",
@@ -334,9 +332,9 @@
           "model": "",
           "agent_id": "44fcec25-d8b3-4af6-b206-1774a64677ce",
           "state": "working",
-          "issue": "IPD-67",
-          "issue_title": "[修复·P1] REQ-003 深链热启动「＋新建」与 router 参数栈交互边界缺陷",
-          "since": "2026-09-28T20:11:37Z"
+          "issue": "IPD-60",
+          "issue_title": "[双端编码·第1轮] REQ-003 灵感速记鸿蒙运行取证（US-1~7 截图 + 主题两态 + 元服务卡片 + NL实",
+          "since": "2026-09-28T20:06:20Z"
         },
         {
           "name": "hermes-tester",
@@ -344,10 +342,9 @@
           "role": "IPD-Tester 测试工程师",
           "model": "",
           "agent_id": "86df9f14-a2cd-46d9-ad15-dbe8606ebd73",
-          "state": "working",
-          "issue": "IPD-61",
-          "issue_title": "[测试·第1轮] REQ-003 灵感速记 TR-Accept 执行 + 主持（双端差分 + uijudge 视觉评审 ",
-          "since": "2026-09-28T20:06:28Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "hermes-rm",
@@ -375,18 +372,37 @@
           "role": "MiniMax 多模态 UI 视觉评审",
           "model": "minimax-cn:MiniMax-M3",
           "agent_id": "97f55294-90e0-4556-93af-a1cf44889574",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-68",
+          "issue_title": "[视觉评审·TR-Accept] REQ-003 灵感速记双端截图视觉差分 + C4 rubric 双态打分",
+          "since": "2026-09-28T20:20:16Z"
         }
       ],
       "issue_counts": {
-        "todo": 2,
-        "in_progress": 1,
-        "in_review": 5,
+        "todo": 0,
+        "in_progress": 3,
+        "in_review": 6,
         "done": 52
       },
       "latest_issues": [
+        {
+          "key": "IPD-61",
+          "title": "[测试·第1轮] REQ-003 灵感速记 TR-Accept 执行 + 主持（双端差分 + uij",
+          "status": "in_progress",
+          "updated_at": "2026-09-28T20:20:57Z"
+        },
+        {
+          "key": "IPD-68",
+          "title": "[视觉评审·TR-Accept] REQ-003 灵感速记双端截图视觉差分 + C4 rubric ",
+          "status": "in_progress",
+          "updated_at": "2026-09-28T20:20:46Z"
+        },
+        {
+          "key": "IPD-67",
+          "title": "[修复·P1] REQ-003 深链热启动「＋新建」与 router 参数栈交互边界缺陷",
+          "status": "in_review",
+          "updated_at": "2026-09-28T20:20:16Z"
+        },
         {
           "key": "IPD-63",
           "title": "[SE·第1轮] REQ-003 追踪矩阵设计→代码列双端回填 + REQ-004 追踪矩阵骨架",
@@ -398,24 +414,6 @@
           "title": "[发版·第1轮] REQ-003 端到端生成时长补采 + 清理遗留 final-comment.md",
           "status": "in_review",
           "updated_at": "2026-09-28T20:12:52Z"
-        },
-        {
-          "key": "IPD-64",
-          "title": "[架构·第1轮] REQ-004 分布式流转技术预研 + REQ-003 鸿蒙工程事后对抗评审",
-          "status": "in_review",
-          "updated_at": "2026-09-28T20:12:34Z"
-        },
-        {
-          "key": "IPD-67",
-          "title": "[修复·P1] REQ-003 深链热启动「＋新建」与 router 参数栈交互边界缺陷",
-          "status": "todo",
-          "updated_at": "2026-09-28T20:11:47Z"
-        },
-        {
-          "key": "IPD-59",
-          "title": "[早会纪要] 2026-09-29",
-          "status": "done",
-          "updated_at": "2026-09-28T20:11:39Z"
         }
       ]
     }
