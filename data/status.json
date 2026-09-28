@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T16:19:43Z",
+  "generated_at": "2026-09-28T16:23:40Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -97,7 +97,7 @@
           "role": "GLM Scenarist",
           "model": "zai:glm-5.2",
           "agent_id": "6e6f1e24-3bc5-455a-85d2-cb3fb6c9a672",
-          "state": "working",
+          "state": "idle",
           "issue": "",
           "issue_title": ""
         },
@@ -220,7 +220,7 @@
           "agent_id": "1c3481f5-135b-4959-9daa-c510c076d494",
           "state": "working",
           "issue": "DWM-37",
-          "issue_title": "[DW迁移任务单] Cofi 迁移 · 清单+迁移 · 清单✓116 · 迁移中 3/6 · 3.34h/6h",
+          "issue_title": "[DW迁移任务单] Cofi 迁移 · 清单+迁移 · 清单✓116 · 迁移中 3/6 · 3.43h/6h",
           "since": "2026-09-28T14:52:32Z"
         },
         {
@@ -253,9 +253,9 @@
       "latest_issues": [
         {
           "key": "DWM-37",
-          "title": "[DW迁移任务单] Cofi 迁移 · 清单+迁移 · 清单✓116 · 迁移中 3/6 · 3.3",
+          "title": "[DW迁移任务单] Cofi 迁移 · 清单+迁移 · 清单✓116 · 迁移中 3/6 · 3.4",
           "status": "in_progress",
-          "updated_at": "2026-09-28T16:18:05Z"
+          "updated_at": "2026-09-28T16:23:15Z"
         },
         {
           "key": "DWM-38",
