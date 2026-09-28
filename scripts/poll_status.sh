@@ -45,11 +45,11 @@ echo "$WS_LIST" | while IFS='|' read ws tid tname hostkey machine daily; do
   MEETING_TITLE=$(echo "$ISSUES" | jq -r --argjson now "$NOW_EPOCH" '[.issues[] | select(.status=="in_progress") | select(.title | test("早会|午会|晚会|会议|纪要")) | select((((.last_activity_at // "") | sub("\\.[0-9]+Z$";"Z") | fromdateiso8601? ) // 0) > ($now - 4500))][0].title // ""')
 
   # 正在执行的 run → issue。优先按 agent 查（只查非空闲的，便宜且准确，也覆盖不在「进行中」的 issue）；
-  # 老版本 CLI 没有 agent tasks 时回落到按进行中 issue 扫 runs（同一 issue 上多个 agent 并行时都要算上）
+  # 老版本 CLI 的 agent tasks 不认 --limit 时去掉再取；没有 agent tasks 时回落到按进行中 issue 扫 runs（同一 issue 上多个 agent 并行时都要算上）
   ACTIVE=""
   if multica agent tasks --help 2>&1 | grep -q "agent tasks <"; then
     for aid in $(echo "$AGENTS" | jq -r '.[] | select(.status != "idle") | .id'); do
-      R=$(multica agent tasks "$aid" --limit 5 --output json 2>/dev/null | jq -r --arg a "$aid" '(if type=="array" then . else (.tasks // []) end) | [.[] | select(.completed_at==null and .started_at!=null)] | .[0] | if . then "\($a)|\(.issue_id)|\(.started_at)" else empty end' 2>/dev/null)
+      R=$({ multica agent tasks "$aid" --limit 5 --output json 2>/dev/null || multica agent tasks "$aid" --output json 2>/dev/null; } | jq -r --arg a "$aid" '(if type=="array" then . else (.tasks // []) end) | [.[] | select(.completed_at==null and .started_at!=null)] | .[0] | if . then "\($a)|\(.issue_id)|\(.started_at)" else empty end' 2>/dev/null)
       [ -n "$R" ] && ACTIVE="$ACTIVE$R"$'\n'
     done
   else
