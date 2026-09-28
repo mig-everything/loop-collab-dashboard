@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T12:31:47Z",
+  "generated_at": "2026-09-28T12:35:30Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -97,7 +97,7 @@
           "role": "GLM Scenarist",
           "model": "zai:glm-5.2",
           "agent_id": "6e6f1e24-3bc5-455a-85d2-cb3fb6c9a672",
-          "state": "idle",
+          "state": "working",
           "issue": "",
           "issue_title": ""
         },
@@ -107,7 +107,7 @@
           "role": "GLM Runner & Analyst",
           "model": "zai:glm-5.2",
           "agent_id": "bdaefa9b-7045-4264-95e4-1db664e353d0",
-          "state": "idle",
+          "state": "working",
           "issue": "",
           "issue_title": ""
         },
@@ -117,7 +117,7 @@
           "role": "DeepSeek Planner（小组 leader/PM）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "547cd361-ef50-4965-9477-bc659d8a1708",
-          "state": "working",
+          "state": "idle",
           "issue": "",
           "issue_title": ""
         },
@@ -134,40 +134,40 @@
       ],
       "issue_counts": {
         "todo": 0,
-        "in_progress": 0,
+        "in_progress": 1,
         "in_review": 0,
         "done": 26
       },
       "latest_issues": [
         {
-          "key": "SUR-46",
-          "title": "[任务][day-4] 66 条核验第四批 [37]–[48] 建账（只建账不评审，串行化）",
-          "status": "done",
-          "updated_at": "2026-09-28T12:22:26Z"
-        },
-        {
-          "key": "SUR-45",
+          "key": "BEN-32",
           "title": "[晚会日报] 2026-09-28",
           "status": "done",
-          "updated_at": "2026-09-28T12:16:31Z"
+          "updated_at": "2026-09-28T12:33:51Z"
         },
         {
-          "key": "SUR-38",
-          "title": "[流程优化] 2026-09-27 晚会产出 2 项（派单挂 project + goals 编辑源",
-          "status": "done",
-          "updated_at": "2026-09-28T12:10:24Z"
+          "key": "BEN-34",
+          "title": "[任务·第3轮] Cofi 129 ready 场景全量双端回归第 1 轮 + DIFF-REPOR",
+          "status": "in_progress",
+          "updated_at": "2026-09-28T12:20:43Z"
         },
         {
-          "key": "SUR-26",
-          "title": "[流程优化] 2026-09-26 晚会产出 2 项（分支基校验 + 评审原文证据），次日验证",
+          "key": "BEN-28",
+          "title": "[任务·第2/3轮] Cofi 两文件场景合并（compact.md 唯一权威，目标 ready≥1",
           "status": "done",
-          "updated_at": "2026-09-28T12:10:17Z"
+          "updated_at": "2026-09-28T12:08:53Z"
         },
         {
-          "key": "SUR-44",
-          "title": "[巡检] 2026-09-28 leader Issue 状态巡检与催办",
+          "key": "BEN-27",
+          "title": "[任务·第2轮] FC142 APK 重建（debug-only testTagsAsResourc",
           "status": "done",
-          "updated_at": "2026-09-28T08:02:06Z"
+          "updated_at": "2026-09-28T12:08:51Z"
+        },
+        {
+          "key": "BEN-31",
+          "title": "【冒烟测试】多模态 MiniMax-M3 链路验证（验证后关闭）",
+          "status": "done",
+          "updated_at": "2026-09-28T11:39:41Z"
         }
       ]
     },
