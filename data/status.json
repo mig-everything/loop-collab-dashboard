@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T10:01:15Z",
+  "generated_at": "2026-09-28T11:05:35Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -46,38 +46,38 @@
         "todo": 0,
         "in_progress": 0,
         "in_review": 0,
-        "done": 24
+        "done": 30
       },
       "latest_issues": [
         {
-          "key": "SUR-44",
+          "key": "IPD-50",
           "title": "[巡检] 2026-09-28 leader Issue 状态巡检与催办",
           "status": "done",
-          "updated_at": "2026-09-28T08:02:06Z"
+          "updated_at": "2026-09-28T08:03:45Z"
         },
         {
-          "key": "SUR-42",
-          "title": "[午会纪要] 2026-09-28",
+          "key": "IPD-46",
+          "title": "[SE·第2轮] REQ-003 追踪矩阵骨架 + NFR v1.2 主题切换",
           "status": "done",
-          "updated_at": "2026-09-28T07:16:21Z"
+          "updated_at": "2026-09-28T08:03:11Z"
         },
         {
-          "key": "SUR-43",
-          "title": "[任务][day-4] 返工 SUR-41 评审新增项：P0-2 [14] / P0-5 [23] ",
+          "key": "IPD-45",
+          "title": "[架构·第2轮] REQ-003 灵感速记双端架构 + TR-Design 主持 + 生成器规则 0",
           "status": "done",
-          "updated_at": "2026-09-28T06:07:20Z"
+          "updated_at": "2026-09-28T08:03:09Z"
         },
         {
-          "key": "SUR-41",
-          "title": "[任务][day-4] 对抗评审 SUR-37 batch2（[13]–[24] 判定 + ArkT",
+          "key": "IPD-48",
+          "title": "[发版·第2轮] REQ-002 发版度量收口 — 端到端生成时长补采 + 发布说明 + build",
           "status": "done",
-          "updated_at": "2026-09-28T05:57:46Z"
+          "updated_at": "2026-09-28T08:03:07Z"
         },
         {
-          "key": "SUR-40",
-          "title": "[任务][day-4] 66 条核验第三批 [25]–[36] + 返工 batch2 4❌ + 清",
+          "key": "IPD-49",
+          "title": "[TR-Design 评审] REQ-003 灵感速记 —— 设计评审（SA 主持）—— 结论：有条",
           "status": "done",
-          "updated_at": "2026-09-28T05:57:44Z"
+          "updated_at": "2026-09-28T08:03:05Z"
         }
       ]
     },
@@ -107,6 +107,16 @@
           "role": "GLM Runner & Analyst",
           "model": "zai:glm-5.2",
           "agent_id": "bdaefa9b-7045-4264-95e4-1db664e353d0",
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
+        },
+        {
+          "name": "deepseek-planner",
+          "emoji": "🍀",
+          "role": "DeepSeek Planner（小组 leader/PM）",
+          "model": "deepseek:deepseek-v4-pro",
+          "agent_id": "547cd361-ef50-4965-9477-bc659d8a1708",
           "state": "idle",
           "issue": "",
           "issue_title": ""
@@ -187,6 +197,16 @@
           "role": "Opus Analyzer",
           "model": "claude-opus-4-1",
           "agent_id": "2f32549c-87c7-4202-8f54-3af79a30afa0",
+          "state": "offline",
+          "issue": "",
+          "issue_title": ""
+        },
+        {
+          "name": "deepseek-planner",
+          "emoji": "⚡",
+          "role": "DeepSeek Planner（小组 leader/PM，",
+          "model": "deepseek:deepseek-v4-pro",
+          "agent_id": "950ff614-521d-4e32-a02d-423d41a7b2b3",
           "state": "offline",
           "issue": "",
           "issue_title": ""
@@ -297,6 +317,16 @@
           "role": "IPD-RM 发布经理",
           "model": "",
           "agent_id": "78156461-9644-478e-9c80-53cd18e25e33",
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
+        },
+        {
+          "name": "deepseek-planner",
+          "emoji": "🦋",
+          "role": "DeepSeek Planner（小组 leader/PM ",
+          "model": "deepseek:deepseek-v4-pro",
+          "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
           "state": "idle",
           "issue": "",
           "issue_title": ""
