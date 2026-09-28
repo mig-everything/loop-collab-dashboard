@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T12:02:10Z",
+  "generated_at": "2026-09-28T12:05:39Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -243,17 +243,17 @@
         }
       ],
       "issue_counts": {
-        "todo": 1,
+        "todo": 0,
         "in_progress": 0,
         "in_review": 1,
         "done": 24
       },
       "latest_issues": [
         {
-          "key": "DWM-34",
-          "title": "[晚会日报] 2026-09-28",
-          "status": "todo",
-          "updated_at": "2026-09-28T12:00:42Z"
+          "key": "DWM-33",
+          "title": "[作废] Cofi 迁移任务单（已清理，后续重建）",
+          "status": "cancelled",
+          "updated_at": "2026-09-28T12:03:13Z"
         },
         {
           "key": "DWM-30",
