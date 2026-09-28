@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T19:52:16Z",
+  "generated_at": "2026-09-28T20:02:59Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -37,18 +37,25 @@
           "role": "DeepSeek Task Planner（任务规划+总结）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "04a4e04e-59d5-4f3a-8a16-acf99b80a493",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "SUR-51",
+          "issue_title": "[晨会纪要] 2026-09-29",
+          "since": "2026-09-28T20:00:08Z"
         }
       ],
       "issue_counts": {
-        "todo": 1,
+        "todo": 2,
         "in_progress": 0,
         "in_review": 0,
         "done": 33
       },
       "latest_issues": [
+        {
+          "key": "SUR-51",
+          "title": "[晨会纪要] 2026-09-29",
+          "status": "todo",
+          "updated_at": "2026-09-28T20:00:07Z"
+        },
         {
           "key": "SUR-50",
           "title": "[巡检] 2026-09-29 leader Issue 状态巡检与催办",
@@ -72,12 +79,6 @@
           "title": "[晚会日报] 2026-09-28",
           "status": "done",
           "updated_at": "2026-09-28T12:16:31Z"
-        },
-        {
-          "key": "SUR-38",
-          "title": "[流程优化] 2026-09-27 晚会产出 2 项（派单挂 project + goals 编辑源",
-          "status": "done",
-          "updated_at": "2026-09-28T12:10:24Z"
         }
       ]
     },
@@ -117,9 +118,10 @@
           "role": "DeepSeek Planner（小组 leader/PM）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "547cd361-ef50-4965-9477-bc659d8a1708",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "BEN-36",
+          "issue_title": "[早会纪要] 2026-09-29",
+          "since": "2026-09-28T20:00:20Z"
         },
         {
           "name": "minimax-visual-diff",
@@ -133,12 +135,18 @@
         }
       ],
       "issue_counts": {
-        "todo": 0,
+        "todo": 1,
         "in_progress": 1,
         "in_review": 1,
         "done": 28
       },
       "latest_issues": [
+        {
+          "key": "BEN-36",
+          "title": "[早会纪要] 2026-09-29",
+          "status": "todo",
+          "updated_at": "2026-09-28T20:00:19Z"
+        },
         {
           "key": "BEN-34",
           "title": "[任务·第3轮] Cofi 129 ready 场景全量双端回归第 1 轮 + DIFF-REPOR",
@@ -162,12 +170,6 @@
           "title": "[晚会日报] 2026-09-28",
           "status": "done",
           "updated_at": "2026-09-28T13:34:35Z"
-        },
-        {
-          "key": "BEN-28",
-          "title": "[任务·第2/3轮] Cofi 两文件场景合并（compact.md 唯一权威，目标 ready≥1",
-          "status": "done",
-          "updated_at": "2026-09-28T12:08:53Z"
         }
       ]
     },
@@ -177,8 +179,8 @@
       "workspace": "ws-dw-migration-loop",
       "machine": "奕棣 MacBook",
       "machine_online": true,
-      "meeting_active": false,
-      "meeting_title": "",
+      "meeting_active": true,
+      "meeting_title": "[早会纪要] 2026-09-29",
       "progress": 0,
       "agents": [
         {
@@ -187,7 +189,7 @@
           "role": "Opus Analyzer",
           "model": "claude-opus-4-1",
           "agent_id": "2f32549c-87c7-4202-8f54-3af79a30afa0",
-          "state": "idle",
+          "state": "meeting",
           "issue": "",
           "issue_title": ""
         },
@@ -197,9 +199,10 @@
           "role": "DeepSeek Planner（小组 leader/PM，",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "950ff614-521d-4e32-a02d-423d41a7b2b3",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "DWM-39",
+          "issue_title": "[早会纪要] 2026-09-29",
+          "since": "2026-09-28T20:00:12Z"
         },
         {
           "name": "dw-lead",
@@ -207,7 +210,7 @@
           "role": "DW 迁移执行小队队长",
           "model": "claude-opus-5-5",
           "agent_id": "c6ff7c69-0db4-4b35-ac81-dd00e5a53ba4",
-          "state": "idle",
+          "state": "meeting",
           "issue": "",
           "issue_title": ""
         },
@@ -217,7 +220,7 @@
           "role": "运行员",
           "model": "claude-opus-5-5",
           "agent_id": "1c3481f5-135b-4959-9daa-c510c076d494",
-          "state": "idle",
+          "state": "meeting",
           "issue": "",
           "issue_title": ""
         },
@@ -227,7 +230,7 @@
           "role": "验证员",
           "model": "claude-opus-5-5",
           "agent_id": "69822c63-0dcc-4f3e-875d-7b300d437623",
-          "state": "idle",
+          "state": "meeting",
           "issue": "",
           "issue_title": ""
         },
@@ -237,18 +240,24 @@
           "role": "修复员",
           "model": "claude-opus-5-5",
           "agent_id": "cd70e713-a339-4621-8699-2058d9cf7d6b",
-          "state": "idle",
+          "state": "meeting",
           "issue": "",
           "issue_title": ""
         }
       ],
       "issue_counts": {
         "todo": 0,
-        "in_progress": 0,
+        "in_progress": 1,
         "in_review": 0,
         "done": 30
       },
       "latest_issues": [
+        {
+          "key": "DWM-39",
+          "title": "[早会纪要] 2026-09-29",
+          "status": "in_progress",
+          "updated_at": "2026-09-28T20:00:46Z"
+        },
         {
           "key": "DWM-37",
           "title": "[DW迁移任务单] Cofi 迁移 · 已完成",
@@ -272,12 +281,6 @@
           "title": "[作废] Cofi 迁移任务单（正文附带预研材料，已清理并重开）",
           "status": "cancelled",
           "updated_at": "2026-09-28T12:49:29Z"
-        },
-        {
-          "key": "DWM-34",
-          "title": "[晚会日报] 2026-09-28",
-          "status": "done",
-          "updated_at": "2026-09-28T12:22:41Z"
         }
       ]
     },
@@ -357,9 +360,10 @@
           "role": "DeepSeek Planner（小组 leader/PM ",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-59",
+          "issue_title": "[早会纪要] 2026-09-29",
+          "since": "2026-09-28T20:00:19Z"
         },
         {
           "name": "minimax-uijudge",
@@ -373,12 +377,18 @@
         }
       ],
       "issue_counts": {
-        "todo": 0,
+        "todo": 1,
         "in_progress": 0,
         "in_review": 0,
         "done": 51
       },
       "latest_issues": [
+        {
+          "key": "IPD-59",
+          "title": "[早会纪要] 2026-09-29",
+          "status": "todo",
+          "updated_at": "2026-09-28T20:00:18Z"
+        },
         {
           "key": "IPD-58",
           "title": "[巡检] 2026-09-29 leader Issue 状态巡检与催办",
@@ -402,12 +412,6 @@
           "title": "[双端编码·第3轮] REQ-003 灵感速记鸿蒙工程生成（US-1~7 + 元服务直达 + 主题两",
           "status": "done",
           "updated_at": "2026-09-28T16:01:56Z"
-        },
-        {
-          "key": "IPD-53",
-          "title": "【环境·负责人授权】Mac Mini hermes auxiliary.vision 配置 Mini",
-          "status": "done",
-          "updated_at": "2026-09-28T12:15:15Z"
         }
       ]
     }
