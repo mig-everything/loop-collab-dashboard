@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T12:46:49Z",
+  "generated_at": "2026-09-28T12:50:34Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -250,6 +250,12 @@
       },
       "latest_issues": [
         {
+          "key": "DWM-35",
+          "title": "[作废] Cofi 迁移任务单（正文附带预研材料，已清理并重开）",
+          "status": "cancelled",
+          "updated_at": "2026-09-28T12:49:29Z"
+        },
+        {
           "key": "DWM-34",
           "title": "[晚会日报] 2026-09-28",
           "status": "done",
@@ -272,12 +278,6 @@
           "title": "[任务] Simple-Calendar + Open Camera ATH 行为等价验收用例设计（",
           "status": "done",
           "updated_at": "2026-09-28T12:12:21Z"
-        },
-        {
-          "key": "DWM-33",
-          "title": "[作废] Cofi 迁移任务单（已清理，后续重建）",
-          "status": "cancelled",
-          "updated_at": "2026-09-28T12:03:13Z"
         }
       ]
     },
