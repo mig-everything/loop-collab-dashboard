@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T05:59:55Z",
+  "generated_at": "2026-09-28T06:04:21Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -17,9 +17,9 @@
           "role": "GPT Writer（执笔者）",
           "model": "",
           "agent_id": "58ed4647-32dd-4ca1-8ddc-194b975d6024",
-          "state": "meeting",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "SUR-42",
+          "issue_title": "[午会纪要] 2026-09-28"
         },
         {
           "name": "kimi-adversary",
@@ -27,9 +27,9 @@
           "role": "Kimi Adversarial Reviewer（对抗评审",
           "model": "",
           "agent_id": "6e530cc6-6b9d-4398-936d-df9c13468125",
-          "state": "working",
-          "issue": "SUR-42",
-          "issue_title": "[午会纪要] 2026-09-28"
+          "state": "meeting",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "deepseek-planner",
@@ -44,7 +44,7 @@
       ],
       "issue_counts": {
         "todo": 0,
-        "in_progress": 1,
+        "in_progress": 2,
         "in_review": 0,
         "done": 22
       },
@@ -53,7 +53,13 @@
           "key": "SUR-42",
           "title": "[午会纪要] 2026-09-28",
           "status": "in_progress",
-          "updated_at": "2026-09-28T05:59:39Z"
+          "updated_at": "2026-09-28T06:03:24Z"
+        },
+        {
+          "key": "SUR-43",
+          "title": "[任务][day-4] 返工 SUR-41 评审新增项：P0-2 [14] / P0-5 [23] ",
+          "status": "in_progress",
+          "updated_at": "2026-09-28T06:03:21Z"
         },
         {
           "key": "SUR-41",
@@ -72,12 +78,6 @@
           "title": "[晨会纪要] 2026-09-28",
           "status": "done",
           "updated_at": "2026-09-28T05:57:42Z"
-        },
-        {
-          "key": "SUR-36",
-          "title": "[任务][day-3] 独立评审 SUR-34 返工（48b5a80）9 项修复 + 复核 SUR-",
-          "status": "done",
-          "updated_at": "2026-09-27T20:04:36Z"
         }
       ]
     },
@@ -167,9 +167,9 @@
           "role": "GLM Migrator-A",
           "model": "zai:glm-5.2",
           "agent_id": "fb3d90b6-92d7-488d-be82-d7d54869c5ac",
-          "state": "offline",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "DWM-30",
+          "issue_title": "[任务] Simple-Calendar + Open Camera ATH 行为等价验收用例设计（L1/L2 后续梯队"
         },
         {
           "name": "glm-migrator-3",
@@ -188,22 +188,22 @@
           "model": "claude-opus-4-1",
           "agent_id": "2f32549c-87c7-4202-8f54-3af79a30afa0",
           "state": "working",
-          "issue": "DWM-31",
-          "issue_title": "[任务] 差异分析报告模板 + hmigbot 版本对齐待核验清单（自领，离线）"
+          "issue": "DWM-29",
+          "issue_title": "[午会纪要] 2026-09-28"
         }
       ],
       "issue_counts": {
         "todo": 0,
-        "in_progress": 4,
-        "in_review": 0,
+        "in_progress": 3,
+        "in_review": 1,
         "done": 21
       },
       "latest_issues": [
         {
           "key": "DWM-27",
           "title": "[任务] nextplayer + CoolMall ATH 行为等价验收用例设计（L3 切入首选，",
-          "status": "in_progress",
-          "updated_at": "2026-09-28T05:58:07Z"
+          "status": "in_review",
+          "updated_at": "2026-09-28T06:01:54Z"
         },
         {
           "key": "DWM-30",
