@@ -1,86 +1,6 @@
 {
-  "generated_at": "2026-09-28T12:27:39Z",
+  "generated_at": "2026-09-28T12:28:01Z",
   "tasks": [
-    {
-      "id": "task1-survey",
-      "title": "任务1 · 应用迁移综述",
-      "workspace": "ws-survey-loop",
-      "machine": "张涛 MacBook",
-      "machine_online": true,
-      "meeting_active": false,
-      "meeting_title": "",
-      "progress": 44,
-      "agents": [
-        {
-          "name": "gpt-writer",
-          "emoji": "🧠",
-          "role": "GPT Writer（执笔者）",
-          "model": "",
-          "agent_id": "58ed4647-32dd-4ca1-8ddc-194b975d6024",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
-        },
-        {
-          "name": "kimi-adversary",
-          "emoji": "🦋",
-          "role": "Kimi Adversarial Reviewer（对抗评审",
-          "model": "",
-          "agent_id": "6e530cc6-6b9d-4398-936d-df9c13468125",
-          "state": "working",
-          "issue": "",
-          "issue_title": ""
-        },
-        {
-          "name": "deepseek-planner",
-          "emoji": "🐸",
-          "role": "DeepSeek Task Planner（任务规划+总结）",
-          "model": "deepseek:deepseek-v4-pro",
-          "agent_id": "04a4e04e-59d5-4f3a-8a16-acf99b80a493",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
-        }
-      ],
-      "issue_counts": {
-        "todo": 0,
-        "in_progress": 0,
-        "in_review": 0,
-        "done": 26
-      },
-      "latest_issues": [
-        {
-          "key": "SUR-46",
-          "title": "[任务][day-4] 66 条核验第四批 [37]–[48] 建账（只建账不评审，串行化）",
-          "status": "done",
-          "updated_at": "2026-09-28T12:22:26Z"
-        },
-        {
-          "key": "SUR-45",
-          "title": "[晚会日报] 2026-09-28",
-          "status": "done",
-          "updated_at": "2026-09-28T12:16:31Z"
-        },
-        {
-          "key": "SUR-38",
-          "title": "[流程优化] 2026-09-27 晚会产出 2 项（派单挂 project + goals 编辑源",
-          "status": "done",
-          "updated_at": "2026-09-28T12:10:24Z"
-        },
-        {
-          "key": "SUR-26",
-          "title": "[流程优化] 2026-09-26 晚会产出 2 项（分支基校验 + 评审原文证据），次日验证",
-          "status": "done",
-          "updated_at": "2026-09-28T12:10:17Z"
-        },
-        {
-          "key": "SUR-44",
-          "title": "[巡检] 2026-09-28 leader Issue 状态巡检与催办",
-          "status": "done",
-          "updated_at": "2026-09-28T08:02:06Z"
-        }
-      ]
-    },
     {
       "id": "task2-benchmark",
       "title": "任务2 · 评测集与双端用例",
@@ -250,114 +170,34 @@
       },
       "latest_issues": [
         {
-          "key": "SUR-46",
-          "title": "[任务][day-4] 66 条核验第四批 [37]–[48] 建账（只建账不评审，串行化）",
-          "status": "done",
-          "updated_at": "2026-09-28T12:22:26Z"
-        },
-        {
-          "key": "SUR-45",
+          "key": "DWM-34",
           "title": "[晚会日报] 2026-09-28",
           "status": "done",
-          "updated_at": "2026-09-28T12:16:31Z"
+          "updated_at": "2026-09-28T12:22:41Z"
         },
         {
-          "key": "SUR-38",
-          "title": "[流程优化] 2026-09-27 晚会产出 2 项（派单挂 project + goals 编辑源",
+          "key": "DWM-9",
+          "title": "[任务] day-1 Cofi 迁移执行（DevEco DW + hmigbot 首轮转换）",
+          "status": "cancelled",
+          "updated_at": "2026-09-28T12:12:26Z"
+        },
+        {
+          "key": "DWM-27",
+          "title": "[任务] nextplayer + CoolMall ATH 行为等价验收用例设计（L3 切入首选，",
           "status": "done",
-          "updated_at": "2026-09-28T12:10:24Z"
+          "updated_at": "2026-09-28T12:12:25Z"
         },
         {
-          "key": "SUR-26",
-          "title": "[流程优化] 2026-09-26 晚会产出 2 项（分支基校验 + 评审原文证据），次日验证",
+          "key": "DWM-30",
+          "title": "[任务] Simple-Calendar + Open Camera ATH 行为等价验收用例设计（",
           "status": "done",
-          "updated_at": "2026-09-28T12:10:17Z"
+          "updated_at": "2026-09-28T12:12:21Z"
         },
         {
-          "key": "SUR-44",
-          "title": "[巡检] 2026-09-28 leader Issue 状态巡检与催办",
-          "status": "done",
-          "updated_at": "2026-09-28T08:02:06Z"
-        }
-      ]
-    },
-    {
-      "id": "task1-survey",
-      "title": "任务1 · 应用迁移综述",
-      "workspace": "ws-survey-loop",
-      "machine": "张涛 MacBook",
-      "machine_online": true,
-      "meeting_active": false,
-      "meeting_title": "",
-      "progress": 44,
-      "agents": [
-        {
-          "name": "gpt-writer",
-          "emoji": "🧠",
-          "role": "GPT Writer（执笔者）",
-          "model": "",
-          "agent_id": "58ed4647-32dd-4ca1-8ddc-194b975d6024",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
-        },
-        {
-          "name": "kimi-adversary",
-          "emoji": "🦋",
-          "role": "Kimi Adversarial Reviewer（对抗评审",
-          "model": "",
-          "agent_id": "6e530cc6-6b9d-4398-936d-df9c13468125",
-          "state": "working",
-          "issue": "",
-          "issue_title": ""
-        },
-        {
-          "name": "deepseek-planner",
-          "emoji": "🐸",
-          "role": "DeepSeek Task Planner（任务规划+总结）",
-          "model": "deepseek:deepseek-v4-pro",
-          "agent_id": "04a4e04e-59d5-4f3a-8a16-acf99b80a493",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
-        }
-      ],
-      "issue_counts": {
-        "todo": 0,
-        "in_progress": 0,
-        "in_review": 0,
-        "done": 26
-      },
-      "latest_issues": [
-        {
-          "key": "SUR-46",
-          "title": "[任务][day-4] 66 条核验第四批 [37]–[48] 建账（只建账不评审，串行化）",
-          "status": "done",
-          "updated_at": "2026-09-28T12:22:26Z"
-        },
-        {
-          "key": "SUR-45",
-          "title": "[晚会日报] 2026-09-28",
-          "status": "done",
-          "updated_at": "2026-09-28T12:16:31Z"
-        },
-        {
-          "key": "SUR-38",
-          "title": "[流程优化] 2026-09-27 晚会产出 2 项（派单挂 project + goals 编辑源",
-          "status": "done",
-          "updated_at": "2026-09-28T12:10:24Z"
-        },
-        {
-          "key": "SUR-26",
-          "title": "[流程优化] 2026-09-26 晚会产出 2 项（分支基校验 + 评审原文证据），次日验证",
-          "status": "done",
-          "updated_at": "2026-09-28T12:10:17Z"
-        },
-        {
-          "key": "SUR-44",
-          "title": "[巡检] 2026-09-28 leader Issue 状态巡检与催办",
-          "status": "done",
-          "updated_at": "2026-09-28T08:02:06Z"
+          "key": "DWM-33",
+          "title": "[作废] Cofi 迁移任务单（已清理，后续重建）",
+          "status": "cancelled",
+          "updated_at": "2026-09-28T12:03:13Z"
         }
       ]
     },
