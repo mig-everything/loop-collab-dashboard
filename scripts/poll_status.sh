@@ -5,6 +5,8 @@
 set -u
 export PATH="/opt/homebrew/bin:/usr/local/bin:$HOME/.local/bin:$PATH"
 cd "$(dirname "$0")/.."
+# 先同步远端（别人推过 main 时，本机提交不会再被拒；数据文件由本脚本重算，冲突时以远端为准后重算）
+git pull -q --rebase --autostash 2>/dev/null || git rebase --abort 2>/dev/null || true
 LOOP_COLLAB="${LOOP_COLLAB:-/Users/jordanzt/Work/HuaweiWork/A2H/Suvey/loop-collab}"
 NOW=$(date -u +%Y-%m-%dT%H:%M:%SZ)
 NOW_EPOCH=$(date -u +%s)
@@ -17,13 +19,14 @@ ws-ipd-eazo-loop|task4-ipd-eazo|任务4 · IPD Eazo 平台|admins-Mac-mini.local
 
 # 机器在线状态（runtime 表）
 RUNTIMES=$(multica runtime list 2>/dev/null)
-machine_online() { # $1=hostname 关键字
-  echo "$RUNTIMES" | grep -F "$1" | grep -q online && echo true || echo false
+machine_online() { # $1=hostname 关键字；runtime 按工作区注册，除全局列表外再查当前工作区的列表（只会把误判的离线纠正为在线）
+  printf '%s\n%s\n' "$RUNTIMES" "${WS_RUNTIMES:-}" | grep -F "$1" | grep -q online && echo true || echo false
 }
 
 TASKS_JSON="[]"
 echo "$WS_LIST" | while IFS='|' read ws tid tname hostkey machine daily; do
   multica workspace switch "$ws" >/dev/null 2>&1
+  WS_RUNTIMES=$(multica runtime list 2>/dev/null)
   AGENTS=$(multica agent list --output json 2>/dev/null || echo '[]')
   ISSUES=$(multica issue list --limit 30 --output json 2>/dev/null || echo '{"issues":[]}')
   ISSUES=$(echo "$ISSUES" | jq '{issues:(.issues // .)}')
@@ -115,7 +118,7 @@ NEW=$(jq -S 'del(.generated_at)' data/status.json)
 if [ "$OLD" != "$NEW" ]; then
   git add data/status.json
   git commit --quiet -m "status: $NOW"
-  if git push --quiet 2>/dev/null || git push --quiet 2>&1; then echo "[$NOW] pushed"; else echo "[$NOW] PUSH FAILED（本地已 commit，下轮会带上去）" >&2; fi
+  if git push --quiet 2>/dev/null || { git pull -q --rebase --autostash 2>/dev/null && git push --quiet 2>&1; }; then echo "[$NOW] pushed"; else echo "[$NOW] PUSH FAILED（本地已 commit，下轮会带上去）" >&2; fi
 else
   echo "[$NOW] no change"
 fi
