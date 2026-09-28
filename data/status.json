@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T11:12:32Z",
+  "generated_at": "2026-09-28T11:16:02Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -327,7 +327,7 @@
           "role": "DeepSeek Planner（小组 leader/PM ",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
-          "state": "working",
+          "state": "idle",
           "issue": "",
           "issue_title": ""
         }
@@ -339,6 +339,12 @@
         "done": 30
       },
       "latest_issues": [
+        {
+          "key": "IPD-51",
+          "title": "[巡检] 2026-09-28 leader Issue 状态巡检与催办",
+          "status": "done",
+          "updated_at": "2026-09-28T11:13:37Z"
+        },
         {
           "key": "IPD-50",
           "title": "[巡检] 2026-09-28 leader Issue 状态巡检与催办",
@@ -362,12 +368,6 @@
           "title": "[发版·第2轮] REQ-002 发版度量收口 — 端到端生成时长补采 + 发布说明 + build",
           "status": "done",
           "updated_at": "2026-09-28T08:03:07Z"
-        },
-        {
-          "key": "IPD-49",
-          "title": "[TR-Design 评审] REQ-003 灵感速记 —— 设计评审（SA 主持）—— 结论：有条",
-          "status": "done",
-          "updated_at": "2026-09-28T08:03:05Z"
         }
       ]
     }
