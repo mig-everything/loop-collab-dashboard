@@ -473,7 +473,13 @@ function render(data){
     if (is !== R.issueSig){ renderIssues(R, task); R.issueSig = is; }
   });
   Object.keys(rooms).forEach(function(id){
-    if (!seen[id]){ grid.removeChild(rooms[id].el); delete rooms[id]; }
+    if (!seen[id]){
+      // 容错：连续 3 轮刷新都缺席才移除房间（防单次坏数据误删）
+      rooms[id].missing = (rooms[id].missing || 0) + 1;
+      if (rooms[id].missing >= 3){ grid.removeChild(rooms[id].el); delete rooms[id]; }
+    } else {
+      rooms[id].missing = 0;
+    }
   });
   if (data.tasks && data.tasks.length){
     placeholder.style.display = 'none';
@@ -509,9 +515,8 @@ setInterval(function(){
   cdEl.textContent = left;
   cdbarEl.style.width = Math.round(left / (REFRESH_MS / 1000) * 100) + '%';
   if (left <= 0) load();
-  // 挂钟：北京时间 + 下一节点（会议/巡检）
+  // 挂钟：显示下一节点（会议/巡检）的时间与名称
   var bj = new Date(Date.now() + (8 * 60 + new Date().getTimezoneOffset()) * 60000);
-  var hh = String(bj.getHours()).padStart(2, '0'), mm = String(bj.getMinutes()).padStart(2, '0');
   var evts = [[0,'巡检'],[4,'早会'],[8,'巡检'],[12,'午会'],[16,'巡检'],[20,'晚会']];
   var mins = bj.getHours() * 60 + bj.getMinutes(), next = null;
   for (var i = 0; i < evts.length; i++){
@@ -519,10 +524,11 @@ setInterval(function(){
   }
   if (!next) next = evts[0];
   var nl = (next[0] * 60 - mins + 1440) % 1440;
-  var ntext = (nl <= 60 ? '即将' : Math.floor(nl / 60) + 'h后') + ' ' + next[1];
+  var cd = nl >= 60 ? Math.floor(nl / 60) + 'h' + (nl % 60 ? (nl % 60) + '分' : '') + '后' : (nl + '分后');
+  var ntime = String(next[0]).padStart(2, '0') + ':00';
   document.querySelectorAll('.wclock').forEach(function(c){
-    c.querySelector('.wc-time').textContent = hh + ':' + mm;
-    c.querySelector('.wc-next').textContent = ntext;
+    c.querySelector('.wc-time').textContent = ntime;
+    c.querySelector('.wc-next').textContent = next[1] + ' ' + cd;
   });
 }, 500);
 

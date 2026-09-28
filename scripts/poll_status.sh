@@ -26,6 +26,7 @@ machine_online() { # $1=hostname 关键字；runtime 按工作区注册，除全
 }
 
 TASKS_JSON="[]"
+rm -f /tmp/dashboard-tasks.jsonl   # 防上次中断残留导致重复/陈旧任务混入
 echo "$WS_LIST" | while IFS='|' read ws tid tname hostkey machine daily; do
   multica workspace switch "$ws" >/dev/null 2>&1
   WS_RUNTIMES=$(multica runtime list 2>/dev/null)
@@ -106,10 +107,12 @@ jq -s --arg now "$NOW" '{generated_at:$now, tasks:.}' /tmp/dashboard-tasks.jsonl
   && mv data/status.json.tmp data/status.json
 rm -f /tmp/dashboard-tasks.jsonl
 
-# 保护：采集失败（agent 全空）时回滚，不推送坏数据
+# 保护：采集失败（agent 全空 / 任务缺失 / id 重复）时回滚，不推送坏数据
 AGENT_TOTAL=$(jq '[.tasks[].agents | length] | add // 0' data/status.json)
-if [ "$AGENT_TOTAL" -eq 0 ]; then
-  echo "[$NOW] ERROR: 采集为空（multica 不可用？），丢弃本次数据，保留上一版"
+TASKS_N=$(jq '.tasks | length' data/status.json)
+TASKS_UNIQ=$(jq '[.tasks[].id] | unique | length' data/status.json)
+if [ "$AGENT_TOTAL" -eq 0 ] || [ "$TASKS_N" -ne 4 ] || [ "$TASKS_UNIQ" -ne 4 ]; then
+  echo "[$NOW] ERROR: 采集不完整（agents=$AGENT_TOTAL tasks=$TASKS_N uniq=$TASKS_UNIQ），丢弃本次数据，保留上一版"
   git checkout -- data/status.json 2>/dev/null || true
   exit 1
 fi
