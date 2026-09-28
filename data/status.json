@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T08:18:34Z",
+  "generated_at": "2026-09-28T08:28:52Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -107,9 +107,9 @@
           "role": "GLM Runner & Analyst",
           "model": "zai:glm-5.2",
           "agent_id": "bdaefa9b-7045-4264-95e4-1db664e353d0",
-          "state": "working",
-          "issue": "BEN-27",
-          "issue_title": "[任务·第2轮] FC142 APK 重建（debug-only testTagsAsResourceId）+ Andr"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         }
       ],
       "issue_counts": {
@@ -119,6 +119,12 @@
         "done": 21
       },
       "latest_issues": [
+        {
+          "key": "BEN-27",
+          "title": "[任务·第2轮] FC142 APK 重建（debug-only testTagsAsResourc",
+          "status": "in_progress",
+          "updated_at": "2026-09-28T08:27:21Z"
+        },
         {
           "key": "BEN-29",
           "title": "[巡检] 2026-09-28 leader Issue 状态巡检与催办",
@@ -136,12 +142,6 @@
           "title": "[任务·第3轮] AntennaPod A1 批次（订阅链路 73 组）审核转 ready + bi",
           "status": "in_progress",
           "updated_at": "2026-09-28T08:08:31Z"
-        },
-        {
-          "key": "BEN-27",
-          "title": "[任务·第2轮] FC142 APK 重建（debug-only testTagsAsResourc",
-          "status": "in_progress",
-          "updated_at": "2026-09-28T08:08:25Z"
         },
         {
           "key": "BEN-28",
