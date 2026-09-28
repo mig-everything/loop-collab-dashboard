@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T20:14:25Z",
+  "generated_at": "2026-09-28T20:18:13Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -9,7 +9,7 @@
       "machine_online": true,
       "meeting_active": false,
       "meeting_title": "",
-      "progress": 44,
+      "progress": 47,
       "agents": [
         {
           "name": "gpt-writer",
@@ -17,9 +17,10 @@
           "role": "GPT Writer（执笔者）",
           "model": "",
           "agent_id": "58ed4647-32dd-4ca1-8ddc-194b975d6024",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "SUR-52",
+          "issue_title": "[任务][day-5] 返工 batch3 三 P0 书目 + 2 P1 + P2 六项（SUR-47 清单，覆盖率 1",
+          "since": "2026-09-28T20:18:12Z"
         },
         {
           "name": "kimi-adversary",
@@ -44,12 +45,24 @@
         }
       ],
       "issue_counts": {
-        "todo": 2,
+        "todo": 4,
         "in_progress": 0,
         "in_review": 0,
         "done": 33
       },
       "latest_issues": [
+        {
+          "key": "SUR-53",
+          "title": "[评审][day-5] 独立评审 batch4 [37]–[48] 12 条 + 重点复核 4 项 ",
+          "status": "todo",
+          "updated_at": "2026-09-28T20:18:17Z"
+        },
+        {
+          "key": "SUR-52",
+          "title": "[任务][day-5] 返工 batch3 三 P0 书目 + 2 P1 + P2 六项（SUR-4",
+          "status": "todo",
+          "updated_at": "2026-09-28T20:18:12Z"
+        },
         {
           "key": "SUR-51",
           "title": "[晨会纪要] 2026-09-29",
@@ -67,18 +80,6 @@
           "title": "[评审][day-4] 复核 SUR-43 返工落地（加分闸门）+ 独立评审 batch3 [25]",
           "status": "done",
           "updated_at": "2026-09-28T16:02:03Z"
-        },
-        {
-          "key": "SUR-46",
-          "title": "[任务][day-4] 66 条核验第四批 [37]–[48] 建账（只建账不评审，串行化）",
-          "status": "done",
-          "updated_at": "2026-09-28T12:22:26Z"
-        },
-        {
-          "key": "SUR-45",
-          "title": "[晚会日报] 2026-09-28",
-          "status": "done",
-          "updated_at": "2026-09-28T12:16:31Z"
         }
       ]
     },
@@ -110,9 +111,9 @@
           "model": "zai:glm-5.2",
           "agent_id": "bdaefa9b-7045-4264-95e4-1db664e353d0",
           "state": "working",
-          "issue": "BEN-36",
-          "issue_title": "[早会纪要] 2026-09-29",
-          "since": "2026-09-28T20:04:27Z"
+          "issue": "BEN-34",
+          "issue_title": "[任务·第3轮] Cofi 129 ready 场景全量双端回归第 1 轮 + DIFF-REPORT v4 全量版",
+          "since": "2026-09-28T20:04:00Z"
         },
         {
           "name": "deepseek-planner",
@@ -146,7 +147,7 @@
           "key": "BEN-36",
           "title": "[早会纪要] 2026-09-29",
           "status": "done",
-          "updated_at": "2026-09-28T20:06:00Z"
+          "updated_at": "2026-09-28T20:16:31Z"
         },
         {
           "key": "BEN-37",
@@ -211,10 +212,9 @@
           "role": "DW 迁移执行小队队长",
           "model": "claude-opus-5-5",
           "agent_id": "c6ff7c69-0db4-4b35-ac81-dd00e5a53ba4",
-          "state": "working",
-          "issue": "DWM-39",
-          "issue_title": "[早会纪要] 2026-09-29",
-          "since": "2026-09-28T20:14:07Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "exec-runner",
@@ -250,28 +250,28 @@
       ],
       "issue_counts": {
         "todo": 0,
-        "in_progress": 2,
-        "in_review": 0,
+        "in_progress": 1,
+        "in_review": 1,
         "done": 31
       },
       "latest_issues": [
         {
-          "key": "DWM-40",
-          "title": "[DW迁移任务单] Omni-Notes 迁移 · 清单+迁移",
-          "status": "in_progress",
-          "updated_at": "2026-09-28T20:13:55Z"
+          "key": "DWM-41",
+          "title": "[任务] Cofi 失败档案差异分析初版 + DW 缺口→建议池实测分类（第1轮，离线）",
+          "status": "in_review",
+          "updated_at": "2026-09-28T20:18:33Z"
         },
         {
           "key": "DWM-39",
           "title": "[早会纪要] 2026-09-29",
           "status": "done",
-          "updated_at": "2026-09-28T20:11:30Z"
+          "updated_at": "2026-09-28T20:15:27Z"
         },
         {
-          "key": "DWM-41",
-          "title": "[任务] Cofi 失败档案差异分析初版 + DW 缺口→建议池实测分类（第1轮，离线）",
+          "key": "DWM-40",
+          "title": "[DW迁移任务单] Omni-Notes 迁移 · 清单+迁移",
           "status": "in_progress",
-          "updated_at": "2026-09-28T20:10:22Z"
+          "updated_at": "2026-09-28T20:13:55Z"
         },
         {
           "key": "DWM-37",
