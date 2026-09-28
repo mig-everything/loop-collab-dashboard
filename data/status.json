@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T11:05:35Z",
+  "generated_at": "2026-09-28T11:09:01Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -46,38 +46,38 @@
         "todo": 0,
         "in_progress": 0,
         "in_review": 0,
-        "done": 30
+        "done": 24
       },
       "latest_issues": [
         {
-          "key": "IPD-50",
+          "key": "SUR-44",
           "title": "[巡检] 2026-09-28 leader Issue 状态巡检与催办",
           "status": "done",
-          "updated_at": "2026-09-28T08:03:45Z"
+          "updated_at": "2026-09-28T08:02:06Z"
         },
         {
-          "key": "IPD-46",
-          "title": "[SE·第2轮] REQ-003 追踪矩阵骨架 + NFR v1.2 主题切换",
+          "key": "SUR-42",
+          "title": "[午会纪要] 2026-09-28",
           "status": "done",
-          "updated_at": "2026-09-28T08:03:11Z"
+          "updated_at": "2026-09-28T07:16:21Z"
         },
         {
-          "key": "IPD-45",
-          "title": "[架构·第2轮] REQ-003 灵感速记双端架构 + TR-Design 主持 + 生成器规则 0",
+          "key": "SUR-43",
+          "title": "[任务][day-4] 返工 SUR-41 评审新增项：P0-2 [14] / P0-5 [23] ",
           "status": "done",
-          "updated_at": "2026-09-28T08:03:09Z"
+          "updated_at": "2026-09-28T06:07:20Z"
         },
         {
-          "key": "IPD-48",
-          "title": "[发版·第2轮] REQ-002 发版度量收口 — 端到端生成时长补采 + 发布说明 + build",
+          "key": "SUR-41",
+          "title": "[任务][day-4] 对抗评审 SUR-37 batch2（[13]–[24] 判定 + ArkT",
           "status": "done",
-          "updated_at": "2026-09-28T08:03:07Z"
+          "updated_at": "2026-09-28T05:57:46Z"
         },
         {
-          "key": "IPD-49",
-          "title": "[TR-Design 评审] REQ-003 灵感速记 —— 设计评审（SA 主持）—— 结论：有条",
+          "key": "SUR-40",
+          "title": "[任务][day-4] 66 条核验第三批 [25]–[36] + 返工 batch2 4❌ + 清",
           "status": "done",
-          "updated_at": "2026-09-28T08:03:05Z"
+          "updated_at": "2026-09-28T05:57:44Z"
         }
       ]
     },
@@ -117,18 +117,24 @@
           "role": "DeepSeek Planner（小组 leader/PM）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "547cd361-ef50-4965-9477-bc659d8a1708",
-          "state": "idle",
+          "state": "working",
           "issue": "",
           "issue_title": ""
         }
       ],
       "issue_counts": {
-        "todo": 1,
+        "todo": 2,
         "in_progress": 1,
         "in_review": 0,
         "done": 22
       },
       "latest_issues": [
+        {
+          "key": "BEN-30",
+          "title": "[巡检] 2026-09-28 leader Issue 状态巡检与催办",
+          "status": "todo",
+          "updated_at": "2026-09-28T11:08:06Z"
+        },
         {
           "key": "BEN-23",
           "title": "[任务·第3轮] AntennaPod A1 批次（订阅链路 73 组）审核转 ready + bi",
@@ -152,12 +158,6 @@
           "title": "[午会纪要] 2026-09-28 第2轮：BEN-25截断补收口+卫生3关1催办+派单BEN-27",
           "status": "done",
           "updated_at": "2026-09-28T08:09:32Z"
-        },
-        {
-          "key": "BEN-28",
-          "title": "[任务·第2/3轮] Cofi 两文件场景合并（compact.md 唯一权威，目标 ready≥1",
-          "status": "todo",
-          "updated_at": "2026-09-28T04:24:09Z"
         }
       ]
     },
@@ -166,7 +166,7 @@
       "title": "任务3 · DW 代码迁移",
       "workspace": "ws-dw-migration-loop",
       "machine": "奕棣 MacBook",
-      "machine_online": false,
+      "machine_online": true,
       "meeting_active": false,
       "meeting_title": "",
       "progress": 56,
@@ -177,7 +177,7 @@
           "role": "GLM Migrator-A",
           "model": "zai:glm-5.2",
           "agent_id": "fb3d90b6-92d7-488d-be82-d7d54869c5ac",
-          "state": "offline",
+          "state": "idle",
           "issue": "",
           "issue_title": ""
         },
@@ -187,7 +187,7 @@
           "role": "GLM Migrator-B",
           "model": "zai:glm-5.2",
           "agent_id": "c7955e08-a3cd-4566-aa8e-faecfd2b27cc",
-          "state": "offline",
+          "state": "idle",
           "issue": "",
           "issue_title": ""
         },
@@ -197,7 +197,7 @@
           "role": "Opus Analyzer",
           "model": "claude-opus-4-1",
           "agent_id": "2f32549c-87c7-4202-8f54-3af79a30afa0",
-          "state": "offline",
+          "state": "idle",
           "issue": "",
           "issue_title": ""
         },
@@ -207,7 +207,7 @@
           "role": "DeepSeek Planner（小组 leader/PM，",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "950ff614-521d-4e32-a02d-423d41a7b2b3",
-          "state": "offline",
+          "state": "idle",
           "issue": "",
           "issue_title": ""
         }
