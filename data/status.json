@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T08:00:34Z",
+  "generated_at": "2026-09-28T08:04:12Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -37,7 +37,7 @@
           "role": "DeepSeek Task Planner（任务规划+总结）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "04a4e04e-59d5-4f3a-8a16-acf99b80a493",
-          "state": "working",
+          "state": "idle",
           "issue": "",
           "issue_title": ""
         }
@@ -49,6 +49,12 @@
         "done": 24
       },
       "latest_issues": [
+        {
+          "key": "SUR-44",
+          "title": "[巡检] 2026-09-28 leader Issue 状态巡检与催办",
+          "status": "done",
+          "updated_at": "2026-09-28T08:02:06Z"
+        },
         {
           "key": "SUR-42",
           "title": "[午会纪要] 2026-09-28",
@@ -72,12 +78,6 @@
           "title": "[任务][day-4] 66 条核验第三批 [25]–[36] + 返工 batch2 4❌ + 清",
           "status": "done",
           "updated_at": "2026-09-28T05:57:44Z"
-        },
-        {
-          "key": "SUR-39",
-          "title": "[晨会纪要] 2026-09-28",
-          "status": "done",
-          "updated_at": "2026-09-28T05:57:42Z"
         }
       ]
     },
@@ -98,8 +98,8 @@
           "model": "zai:glm-5.2",
           "agent_id": "6e6f1e24-3bc5-455a-85d2-cb3fb6c9a672",
           "state": "working",
-          "issue": "",
-          "issue_title": ""
+          "issue": "BEN-29",
+          "issue_title": "[巡检] 2026-09-28 leader Issue 状态巡检与催办"
         },
         {
           "name": "glm-runner",
@@ -113,8 +113,8 @@
         }
       ],
       "issue_counts": {
-        "todo": 2,
-        "in_progress": 2,
+        "todo": 1,
+        "in_progress": 3,
         "in_review": 1,
         "done": 19
       },
@@ -122,8 +122,8 @@
         {
           "key": "BEN-29",
           "title": "[巡检] 2026-09-28 leader Issue 状态巡检与催办",
-          "status": "todo",
-          "updated_at": "2026-09-28T08:00:05Z"
+          "status": "in_progress",
+          "updated_at": "2026-09-28T08:00:46Z"
         },
         {
           "key": "BEN-26",
@@ -157,8 +157,8 @@
       "workspace": "ws-dw-migration-loop",
       "machine": "奕棣 MacBook",
       "machine_online": false,
-      "meeting_active": false,
-      "meeting_title": "",
+      "meeting_active": true,
+      "meeting_title": "[午会纪要] 2026-09-28",
       "progress": 56,
       "agents": [
         {
@@ -187,9 +187,9 @@
           "role": "Opus Analyzer",
           "model": "claude-opus-4-1",
           "agent_id": "2f32549c-87c7-4202-8f54-3af79a30afa0",
-          "state": "working",
-          "issue": "DWM-29",
-          "issue_title": "[午会纪要] 2026-09-28"
+          "state": "offline",
+          "issue": "",
+          "issue_title": ""
         }
       ],
       "issue_counts": {
@@ -199,6 +199,12 @@
         "done": 21
       },
       "latest_issues": [
+        {
+          "key": "DWM-29",
+          "title": "[午会纪要] 2026-09-28",
+          "status": "in_progress",
+          "updated_at": "2026-09-28T08:01:01Z"
+        },
         {
           "key": "DWM-32",
           "title": "[巡检] 2026-09-28 leader Issue 状态巡检与催办",
@@ -222,12 +228,6 @@
           "title": "[任务] nextplayer + CoolMall ATH 行为等价验收用例设计（L3 切入首选，",
           "status": "in_review",
           "updated_at": "2026-09-28T06:01:54Z"
-        },
-        {
-          "key": "DWM-28",
-          "title": "[任务] DW 建议池 33 条 → 可提交建议落地审计（自领，离线）",
-          "status": "done",
-          "updated_at": "2026-09-28T05:56:27Z"
         }
       ]
     },
@@ -297,7 +297,7 @@
           "role": "IPD-RM 发布经理",
           "model": "",
           "agent_id": "78156461-9644-478e-9c80-53cd18e25e33",
-          "state": "working",
+          "state": "idle",
           "issue": "",
           "issue_title": ""
         }
@@ -310,34 +310,34 @@
       },
       "latest_issues": [
         {
-          "key": "IPD-44",
-          "title": "[午会纪要] 2026-09-28",
+          "key": "IPD-50",
+          "title": "[巡检] 2026-09-28 leader Issue 状态巡检与催办",
           "status": "done",
-          "updated_at": "2026-09-28T07:16:30Z"
+          "updated_at": "2026-09-28T08:03:45Z"
         },
         {
-          "key": "IPD-21",
-          "title": "[测试·第3轮] REQ-001 差分用例口径更正 + 用例执行 + TR-Accept 主持",
+          "key": "IPD-46",
+          "title": "[SE·第2轮] REQ-003 追踪矩阵骨架 + NFR v1.2 主题切换",
           "status": "done",
-          "updated_at": "2026-09-28T04:05:49Z"
+          "updated_at": "2026-09-28T08:03:11Z"
         },
         {
-          "key": "IPD-29",
-          "title": "[TR-Req 评审] REQ-002 待办清单（To-Do List）— 需求评审（PM 主持）",
+          "key": "IPD-45",
+          "title": "[架构·第2轮] REQ-003 灵感速记双端架构 + TR-Design 主持 + 生成器规则 0",
           "status": "done",
-          "updated_at": "2026-09-28T04:05:48Z"
+          "updated_at": "2026-09-28T08:03:09Z"
         },
         {
-          "key": "IPD-30",
-          "title": "[评审] REQ-001 TR-Accept 验收评审 — 结论：有条件通过（P0 核心对等 / P",
+          "key": "IPD-48",
+          "title": "[发版·第2轮] REQ-002 发版度量收口 — 端到端生成时长补采 + 发布说明 + build",
           "status": "done",
-          "updated_at": "2026-09-28T04:05:47Z"
+          "updated_at": "2026-09-28T08:03:07Z"
         },
         {
-          "key": "IPD-40",
-          "title": "[早会纪要] 2026-09-28",
+          "key": "IPD-49",
+          "title": "[TR-Design 评审] REQ-003 灵感速记 —— 设计评审（SA 主持）—— 结论：有条",
           "status": "done",
-          "updated_at": "2026-09-28T04:05:43Z"
+          "updated_at": "2026-09-28T08:03:05Z"
         }
       ]
     }
