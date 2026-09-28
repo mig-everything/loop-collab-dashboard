@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T12:35:30Z",
+  "generated_at": "2026-09-28T12:39:18Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -89,7 +89,7 @@
       "machine_online": true,
       "meeting_active": false,
       "meeting_title": "",
-      "progress": 26,
+      "progress": 32,
       "agents": [
         {
           "name": "glm-scenarist",
@@ -179,7 +179,7 @@
       "machine_online": true,
       "meeting_active": false,
       "meeting_title": "",
-      "progress": 63,
+      "progress": 0,
       "agents": [
         {
           "name": "opus-analyzer",
