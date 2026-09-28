@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T15:35:49Z",
+  "generated_at": "2026-09-28T15:39:49Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -219,7 +219,7 @@
           "agent_id": "1c3481f5-135b-4959-9daa-c510c076d494",
           "state": "working",
           "issue": "DWM-37",
-          "issue_title": "[DW迁移任务单] Cofi 迁移 · 清单+迁移 · 清单✓116 · 迁移中 3/6 · 2.58h/6h",
+          "issue_title": "[DW迁移任务单] Cofi 迁移 · 清单+迁移 · 清单✓116 · 迁移中 3/6 · 2.67h/6h",
           "since": "2026-09-28T14:52:32Z"
         },
         {
@@ -252,9 +252,9 @@
       "latest_issues": [
         {
           "key": "DWM-37",
-          "title": "[DW迁移任务单] Cofi 迁移 · 清单+迁移 · 清单✓116 · 迁移中 3/6 · 2.5",
+          "title": "[DW迁移任务单] Cofi 迁移 · 清单+迁移 · 清单✓116 · 迁移中 3/6 · 2.6",
           "status": "in_progress",
-          "updated_at": "2026-09-28T15:32:24Z"
+          "updated_at": "2026-09-28T15:37:36Z"
         },
         {
           "key": "DWM-35",
