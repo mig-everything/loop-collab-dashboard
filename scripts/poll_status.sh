@@ -31,8 +31,8 @@ echo "$WS_LIST" | while IFS='|' read ws tid tname hostkey machine daily; do
   ONLINE=$(machine_online "$hostkey")
 
   # 会议检测：标题含 会/纪要 且 status=in_progress
-  MEETING=$(echo "$ISSUES" | jq --argjson now "$NOW_EPOCH" '[.issues[] | select(.status=="in_progress") | select(.title | test("早会|午会|晚会|会议|纪要")) | select(((.last_activity_at | fromdateiso8601) // 0) > ($now - 4500))] | length > 0')
-  MEETING_TITLE=$(echo "$ISSUES" | jq -r --argjson now "$NOW_EPOCH" '[.issues[] | select(.status=="in_progress") | select(.title | test("早会|午会|晚会|会议|纪要")) | select(((.last_activity_at | fromdateiso8601) // 0) > ($now - 4500))][0].title // ""')
+  MEETING=$(echo "$ISSUES" | jq --argjson now "$NOW_EPOCH" '[.issues[] | select(.status=="in_progress") | select(.title | test("早会|午会|晚会|会议|纪要")) | select((((.last_activity_at // "") | sub("\\.[0-9]+Z$";"Z") | fromdateiso8601? ) // 0) > ($now - 4500))] | length > 0')
+  MEETING_TITLE=$(echo "$ISSUES" | jq -r --argjson now "$NOW_EPOCH" '[.issues[] | select(.status=="in_progress") | select(.title | test("早会|午会|晚会|会议|纪要")) | select((((.last_activity_at // "") | sub("\\.[0-9]+Z$";"Z") | fromdateiso8601? ) // 0) > ($now - 4500))][0].title // ""')
 
   # 活跃 run 检测：近 24h 内 in_progress 的非会议 issue，查 runs 里 completed_at==null
   ACTIVE_FILE=$(mktemp)
@@ -115,8 +115,7 @@ NEW=$(jq -S 'del(.generated_at)' data/status.json)
 if [ "$OLD" != "$NEW" ]; then
   git add data/status.json
   git commit --quiet -m "status: $NOW"
-  git push --quiet 2>/dev/null || git push
-  echo "[$NOW] pushed"
+  if git push --quiet 2>/dev/null || git push --quiet 2>&1; then echo "[$NOW] pushed"; else echo "[$NOW] PUSH FAILED（本地已 commit，下轮会带上去）" >&2; fi
 else
   echo "[$NOW] no change"
 fi
