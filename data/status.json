@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T11:37:41Z",
+  "generated_at": "2026-09-28T11:41:07Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -120,15 +120,31 @@
           "state": "idle",
           "issue": "",
           "issue_title": ""
+        },
+        {
+          "name": "minimax-visual-diff",
+          "emoji": "🐼",
+          "role": "MiniMax 多模态视觉差分评审",
+          "model": "minimax-cn:MiniMax-M3",
+          "agent_id": "843ac45d-b5db-4f35-b07b-2e5754ec5a5f",
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         }
       ],
       "issue_counts": {
         "todo": 0,
         "in_progress": 0,
         "in_review": 2,
-        "done": 23
+        "done": 24
       },
       "latest_issues": [
+        {
+          "key": "BEN-31",
+          "title": "【冒烟测试】多模态 MiniMax-M3 链路验证（验证后关闭）",
+          "status": "done",
+          "updated_at": "2026-09-28T11:39:41Z"
+        },
         {
           "key": "BEN-27",
           "title": "[任务·第2轮] FC142 APK 重建（debug-only testTagsAsResourc",
@@ -152,12 +168,6 @@
           "title": "[任务·第3轮] AntennaPod A1 批次（订阅链路 73 组）审核转 ready + bi",
           "status": "done",
           "updated_at": "2026-09-28T08:35:07Z"
-        },
-        {
-          "key": "BEN-29",
-          "title": "[巡检] 2026-09-28 leader Issue 状态巡检与催办",
-          "status": "done",
-          "updated_at": "2026-09-28T08:10:12Z"
         }
       ]
     },
@@ -327,6 +337,16 @@
           "role": "DeepSeek Planner（小组 leader/PM ",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
+        },
+        {
+          "name": "minimax-uijudge",
+          "emoji": "🐧",
+          "role": "MiniMax 多模态 UI 视觉评审",
+          "model": "minimax-cn:MiniMax-M3",
+          "agent_id": "97f55294-90e0-4556-93af-a1cf44889574",
           "state": "idle",
           "issue": "",
           "issue_title": ""
