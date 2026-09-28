@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T12:58:20Z",
+  "generated_at": "2026-09-28T13:02:15Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -27,7 +27,7 @@
           "role": "Kimi Adversarial Reviewer（对抗评审",
           "model": "",
           "agent_id": "6e530cc6-6b9d-4398-936d-df9c13468125",
-          "state": "working",
+          "state": "idle",
           "issue": "",
           "issue_title": ""
         },
