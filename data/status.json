@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T13:52:57Z",
+  "generated_at": "2026-09-28T13:57:01Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -251,9 +251,9 @@
       "latest_issues": [
         {
           "key": "DWM-37",
-          "title": "[DW迁移任务单] Cofi 迁移 · 清单+迁移 · 清单✓116 · 迁移中 2/6 · 0.8",
+          "title": "[DW迁移任务单] Cofi 迁移 · 清单+迁移 · 清单✓116 · 迁移中 2/6 · 0.9",
           "status": "in_progress",
-          "updated_at": "2026-09-28T13:50:53Z"
+          "updated_at": "2026-09-28T13:56:01Z"
         },
         {
           "key": "DWM-35",
