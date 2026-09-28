@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T14:22:09Z",
+  "generated_at": "2026-09-28T14:30:08Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -12,72 +12,122 @@
       "progress": 44,
       "agents": [
         {
-          "name": "gpt-writer",
-          "emoji": "🧠",
-          "role": "GPT Writer（执笔者）",
+          "name": "hermes-pm",
+          "emoji": "🚀",
+          "role": "IPD-PM 产品经理",
           "model": "",
-          "agent_id": "58ed4647-32dd-4ca1-8ddc-194b975d6024",
+          "agent_id": "1764c131-5c09-48cb-aa48-3177d5256dbb",
           "state": "idle",
           "issue": "",
           "issue_title": ""
         },
         {
-          "name": "kimi-adversary",
-          "emoji": "🦋",
-          "role": "Kimi Adversarial Reviewer（对抗评审",
+          "name": "hermes-sa",
+          "emoji": "🔥",
+          "role": "IPD-SA 解决方案架构师",
           "model": "",
-          "agent_id": "6e530cc6-6b9d-4398-936d-df9c13468125",
+          "agent_id": "3e4373ef-a262-4b28-ab2a-818861fc9624",
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
+        },
+        {
+          "name": "hermes-se",
+          "emoji": "⚡",
+          "role": "IPD-SE 系统工程师",
+          "model": "",
+          "agent_id": "b874ba6b-80e6-45c6-a8c6-aedc6f2b326b",
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
+        },
+        {
+          "name": "hermes-dev",
+          "emoji": "🐨",
+          "role": "IPD-Dev 开发工程师",
+          "model": "",
+          "agent_id": "44fcec25-d8b3-4af6-b206-1774a64677ce",
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
+        },
+        {
+          "name": "hermes-tester",
+          "emoji": "🔥",
+          "role": "IPD-Tester 测试工程师",
+          "model": "",
+          "agent_id": "86df9f14-a2cd-46d9-ad15-dbe8606ebd73",
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
+        },
+        {
+          "name": "hermes-rm",
+          "emoji": "⚡",
+          "role": "IPD-RM 发布经理",
+          "model": "",
+          "agent_id": "78156461-9644-478e-9c80-53cd18e25e33",
           "state": "idle",
           "issue": "",
           "issue_title": ""
         },
         {
           "name": "deepseek-planner",
-          "emoji": "🐸",
-          "role": "DeepSeek Task Planner（任务规划+总结）",
+          "emoji": "🦋",
+          "role": "DeepSeek Planner（小组 leader/PM ",
           "model": "deepseek:deepseek-v4-pro",
-          "agent_id": "04a4e04e-59d5-4f3a-8a16-acf99b80a493",
+          "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
+        },
+        {
+          "name": "minimax-uijudge",
+          "emoji": "🐧",
+          "role": "MiniMax 多模态 UI 视觉评审",
+          "model": "minimax-cn:MiniMax-M3",
+          "agent_id": "97f55294-90e0-4556-93af-a1cf44889574",
           "state": "idle",
           "issue": "",
           "issue_title": ""
         }
       ],
       "issue_counts": {
-        "todo": 1,
+        "todo": 0,
         "in_progress": 0,
-        "in_review": 1,
-        "done": 31
+        "in_review": 3,
+        "done": 47
       },
       "latest_issues": [
         {
-          "key": "SUR-47",
-          "title": "[评审][day-4] 复核 SUR-43 返工落地（加分闸门）+ 独立评审 batch3 [25]",
+          "key": "IPD-55",
+          "title": "[双端编码·第3轮] REQ-003 灵感速记鸿蒙工程生成（US-1~7 + 元服务直达 + 主题两",
           "status": "in_review",
-          "updated_at": "2026-09-28T12:59:19Z"
+          "updated_at": "2026-09-28T12:25:22Z"
         },
         {
-          "key": "SUR-46",
-          "title": "[任务][day-4] 66 条核验第四批 [37]–[48] 建账（只建账不评审，串行化）",
+          "key": "IPD-53",
+          "title": "【环境·负责人授权】Mac Mini hermes auxiliary.vision 配置 Mini",
           "status": "done",
-          "updated_at": "2026-09-28T12:22:26Z"
+          "updated_at": "2026-09-28T12:15:15Z"
         },
         {
-          "key": "SUR-45",
-          "title": "[晚会日报] 2026-09-28",
-          "status": "done",
-          "updated_at": "2026-09-28T12:16:31Z"
+          "key": "IPD-57",
+          "title": "[PRD·第3轮] REQ-003 PRD v0.2 闭合两 gap + REQ-004 分布式流转",
+          "status": "in_review",
+          "updated_at": "2026-09-28T12:14:34Z"
         },
         {
-          "key": "SUR-38",
-          "title": "[流程优化] 2026-09-27 晚会产出 2 项（派单挂 project + goals 编辑源",
+          "key": "IPD-52",
+          "title": "【冒烟测试】多模态 MiniMax-M3 链路验证（验证后关闭）",
           "status": "done",
-          "updated_at": "2026-09-28T12:10:24Z"
+          "updated_at": "2026-09-28T12:14:18Z"
         },
         {
-          "key": "SUR-26",
-          "title": "[流程优化] 2026-09-26 晚会产出 2 项（分支基校验 + 评审原文证据），次日验证",
-          "status": "done",
-          "updated_at": "2026-09-28T12:10:17Z"
+          "key": "IPD-56",
+          "title": "[测试·第3轮] REQ-003 灵感速记双端差分用例清单 v1.0 + C4 rubric（含主题",
+          "status": "in_review",
+          "updated_at": "2026-09-28T12:12:59Z"
         }
       ]
     },
@@ -219,7 +269,7 @@
           "agent_id": "1c3481f5-135b-4959-9daa-c510c076d494",
           "state": "working",
           "issue": "DWM-37",
-          "issue_title": "[DW迁移任务单] Cofi 迁移 · 清单+迁移 · 清单✓116 · 迁移中 2/6 · 1.4h/6h",
+          "issue_title": "[DW迁移任务单] Cofi 迁移 · 清单+迁移 · 清单✓116 · 迁移中 2/6 · 1.49h/6h",
           "since": "2026-09-28T12:55:30Z"
         },
         {
@@ -254,7 +304,7 @@
           "key": "DWM-37",
           "title": "[DW迁移任务单] Cofi 迁移 · 清单+迁移 · 清单✓116 · 迁移中 2/6 · 1.4",
           "status": "in_progress",
-          "updated_at": "2026-09-28T14:21:42Z"
+          "updated_at": "2026-09-28T14:26:51Z"
         },
         {
           "key": "DWM-35",
