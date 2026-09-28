@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T08:28:52Z",
+  "generated_at": "2026-09-28T08:35:47Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -97,9 +97,9 @@
           "role": "GLM Scenarist",
           "model": "zai:glm-5.2",
           "agent_id": "6e6f1e24-3bc5-455a-85d2-cb3fb6c9a672",
-          "state": "working",
-          "issue": "BEN-23",
-          "issue_title": "[任务·第3轮] AntennaPod A1 批次（订阅链路 73 组）审核转 ready + bindings 骨架 "
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "glm-runner",
@@ -114,11 +114,17 @@
       ],
       "issue_counts": {
         "todo": 1,
-        "in_progress": 2,
+        "in_progress": 1,
         "in_review": 0,
-        "done": 21
+        "done": 22
       },
       "latest_issues": [
+        {
+          "key": "BEN-23",
+          "title": "[任务·第3轮] AntennaPod A1 批次（订阅链路 73 组）审核转 ready + bi",
+          "status": "done",
+          "updated_at": "2026-09-28T08:35:07Z"
+        },
         {
           "key": "BEN-27",
           "title": "[任务·第2轮] FC142 APK 重建（debug-only testTagsAsResourc",
@@ -136,12 +142,6 @@
           "title": "[午会纪要] 2026-09-28 第2轮：BEN-25截断补收口+卫生3关1催办+派单BEN-27",
           "status": "done",
           "updated_at": "2026-09-28T08:09:32Z"
-        },
-        {
-          "key": "BEN-23",
-          "title": "[任务·第3轮] AntennaPod A1 批次（订阅链路 73 组）审核转 ready + bi",
-          "status": "in_progress",
-          "updated_at": "2026-09-28T08:08:31Z"
         },
         {
           "key": "BEN-28",
