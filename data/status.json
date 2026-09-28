@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T11:58:40Z",
+  "generated_at": "2026-09-28T12:02:10Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -37,7 +37,7 @@
           "role": "DeepSeek Task Planner（任务规划+总结）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "04a4e04e-59d5-4f3a-8a16-acf99b80a493",
-          "state": "idle",
+          "state": "working",
           "issue": "",
           "issue_title": ""
         }
@@ -87,8 +87,8 @@
       "workspace": "ws-benchmark-loop",
       "machine": "张涛 Mac Studio",
       "machine_online": true,
-      "meeting_active": false,
-      "meeting_title": "",
+      "meeting_active": true,
+      "meeting_title": "[晚会日报] 2026-09-28",
       "progress": 26,
       "agents": [
         {
@@ -97,7 +97,7 @@
           "role": "GLM Scenarist",
           "model": "zai:glm-5.2",
           "agent_id": "6e6f1e24-3bc5-455a-85d2-cb3fb6c9a672",
-          "state": "idle",
+          "state": "meeting",
           "issue": "",
           "issue_title": ""
         },
@@ -107,7 +107,7 @@
           "role": "GLM Runner & Analyst",
           "model": "zai:glm-5.2",
           "agent_id": "bdaefa9b-7045-4264-95e4-1db664e353d0",
-          "state": "idle",
+          "state": "meeting",
           "issue": "",
           "issue_title": ""
         },
@@ -117,9 +117,9 @@
           "role": "DeepSeek Planner（小组 leader/PM）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "547cd361-ef50-4965-9477-bc659d8a1708",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "BEN-32",
+          "issue_title": "[晚会日报] 2026-09-28"
         },
         {
           "name": "minimax-visual-diff",
@@ -127,18 +127,24 @@
           "role": "MiniMax 多模态视觉差分评审",
           "model": "minimax-cn:MiniMax-M3",
           "agent_id": "843ac45d-b5db-4f35-b07b-2e5754ec5a5f",
-          "state": "idle",
+          "state": "meeting",
           "issue": "",
           "issue_title": ""
         }
       ],
       "issue_counts": {
         "todo": 0,
-        "in_progress": 0,
-        "in_review": 2,
+        "in_progress": 1,
+        "in_review": 1,
         "done": 24
       },
       "latest_issues": [
+        {
+          "key": "BEN-32",
+          "title": "[晚会日报] 2026-09-28",
+          "status": "in_progress",
+          "updated_at": "2026-09-28T12:01:49Z"
+        },
         {
           "key": "BEN-31",
           "title": "【冒烟测试】多模态 MiniMax-M3 链路验证（验证后关闭）",
@@ -150,12 +156,6 @@
           "title": "[任务·第2轮] FC142 APK 重建（debug-only testTagsAsResourc",
           "status": "in_review",
           "updated_at": "2026-09-28T11:28:26Z"
-        },
-        {
-          "key": "BEN-28",
-          "title": "[任务·第2/3轮] Cofi 两文件场景合并（compact.md 唯一权威，目标 ready≥1",
-          "status": "in_review",
-          "updated_at": "2026-09-28T11:23:11Z"
         },
         {
           "key": "BEN-30",
@@ -243,23 +243,23 @@
         }
       ],
       "issue_counts": {
-        "todo": 0,
+        "todo": 1,
         "in_progress": 0,
-        "in_review": 2,
+        "in_review": 1,
         "done": 24
       },
       "latest_issues": [
+        {
+          "key": "DWM-34",
+          "title": "[晚会日报] 2026-09-28",
+          "status": "todo",
+          "updated_at": "2026-09-28T12:00:42Z"
+        },
         {
           "key": "DWM-30",
           "title": "[任务] Simple-Calendar + Open Camera ATH 行为等价验收用例设计（",
           "status": "in_review",
           "updated_at": "2026-09-28T08:15:54Z"
-        },
-        {
-          "key": "DWM-27",
-          "title": "[任务] nextplayer + CoolMall ATH 行为等价验收用例设计（L3 切入首选，",
-          "status": "in_review",
-          "updated_at": "2026-09-28T08:09:05Z"
         },
         {
           "key": "DWM-32",
@@ -357,7 +357,7 @@
           "role": "DeepSeek Planner（小组 leader/PM ",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
-          "state": "idle",
+          "state": "working",
           "issue": "",
           "issue_title": ""
         },
