@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T20:36:46Z",
+  "generated_at": "2026-09-28T20:40:27Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -27,10 +27,9 @@
           "role": "Kimi Adversarial Reviewer（对抗评审",
           "model": "",
           "agent_id": "6e530cc6-6b9d-4398-936d-df9c13468125",
-          "state": "working",
-          "issue": "SUR-53",
-          "issue_title": "[评审][day-5] 独立评审 batch4 [37]–[48] 12 条 + 重点复核 4 项 + Rubric 环",
-          "since": "2026-09-28T20:18:18Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "deepseek-planner",
@@ -45,11 +44,17 @@
       ],
       "issue_counts": {
         "todo": 1,
-        "in_progress": 1,
-        "in_review": 0,
+        "in_progress": 0,
+        "in_review": 1,
         "done": 36
       },
       "latest_issues": [
+        {
+          "key": "SUR-53",
+          "title": "[评审][day-5] 独立评审 batch4 [37]–[48] 12 条 + 重点复核 4 项 ",
+          "status": "in_review",
+          "updated_at": "2026-09-28T20:38:25Z"
+        },
         {
           "key": "SUR-52",
           "title": "[任务][day-5] 返工 batch3 三 P0 书目 + 2 P1 + P2 六项（SUR-4",
@@ -73,12 +78,6 @@
           "title": "[流程优化] 2026-09-28 晚会产出 2 项（串行化 + 持久结果校验），次日验证",
           "status": "done",
           "updated_at": "2026-09-28T20:19:54Z"
-        },
-        {
-          "key": "SUR-53",
-          "title": "[评审][day-5] 独立评审 batch4 [37]–[48] 12 条 + 重点复核 4 项 ",
-          "status": "in_progress",
-          "updated_at": "2026-09-28T20:18:39Z"
         }
       ]
     },
@@ -220,7 +219,7 @@
           "agent_id": "1c3481f5-135b-4959-9daa-c510c076d494",
           "state": "working",
           "issue": "DWM-40",
-          "issue_title": "[DW迁移任务单] Omni-Notes 迁移 · 清单+迁移 · 清单待作答 · 迁移未开始 · 0h/6h",
+          "issue_title": "[DW迁移任务单] Omni-Notes 迁移 · 清单+迁移 · 清单生成中 · 迁移未开始 · 0h/6h",
           "since": "2026-09-28T20:13:56Z"
         },
         {
@@ -253,9 +252,9 @@
       "latest_issues": [
         {
           "key": "DWM-40",
-          "title": "[DW迁移任务单] Omni-Notes 迁移 · 清单+迁移 · 清单待作答 · 迁移未开始 · ",
+          "title": "[DW迁移任务单] Omni-Notes 迁移 · 清单+迁移 · 清单生成中 · 迁移未开始 · ",
           "status": "in_progress",
-          "updated_at": "2026-09-28T20:34:29Z"
+          "updated_at": "2026-09-28T20:39:51Z"
         },
         {
           "key": "DWM-41",
