@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T04:35:38Z",
+  "generated_at": "2026-09-29T04:39:39Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -329,10 +329,9 @@
           "role": "IPD-Dev 开发工程师",
           "model": "",
           "agent_id": "44fcec25-d8b3-4af6-b206-1774a64677ce",
-          "state": "working",
-          "issue": "IPD-72",
-          "issue_title": "[双端编码·第2轮] REQ-004 分布式流转双端编码（Android 单机基线 + 鸿蒙 DistributedNo",
-          "since": "2026-09-29T04:06:44Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "hermes-tester",
@@ -383,6 +382,12 @@
       },
       "latest_issues": [
         {
+          "key": "IPD-72",
+          "title": "[双端编码·第2轮] REQ-004 分布式流转双端编码（Android 单机基线 + 鸿蒙 Dis",
+          "status": "in_progress",
+          "updated_at": "2026-09-29T04:37:15Z"
+        },
+        {
           "key": "IPD-71",
           "title": "[架构·第2轮] REQ-004 分布式流转正式架构方案 + 接口契约 + TR-Design 评审",
           "status": "in_review",
@@ -405,12 +410,6 @@
           "title": "[PRD·第2轮] REQ-005 下一场景预研 + minimax-uijudge role.md",
           "status": "in_review",
           "updated_at": "2026-09-29T04:13:17Z"
-        },
-        {
-          "key": "IPD-74",
-          "title": "[测试·第2轮] REQ-004 分布式流转双端差分用例清单 + C4 rubric",
-          "status": "in_review",
-          "updated_at": "2026-09-29T04:12:35Z"
         }
       ]
     }
