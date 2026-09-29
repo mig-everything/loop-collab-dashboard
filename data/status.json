@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T12:26:46Z",
+  "generated_at": "2026-09-29T12:30:45Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -98,9 +98,9 @@
           "model": "",
           "agent_id": "6e6f1e24-3bc5-455a-85d2-cb3fb6c9a672",
           "state": "working",
-          "issue": "BEN-47",
-          "issue_title": "【冒烟测试】glm-scenarist 改绑 Codex runtime 连通性验证（验证后关闭）",
-          "since": "2026-09-29T12:23:49Z"
+          "issue": "BEN-45",
+          "issue_title": "[任务·第3轮] AntennaPod A5 批次：更多/设置剩余可溯源组+其他非设备组转 ready + bindin",
+          "since": "2026-09-29T12:09:25Z"
         },
         {
           "name": "glm-runner",
@@ -109,9 +109,9 @@
           "model": "",
           "agent_id": "bdaefa9b-7045-4264-95e4-1db664e353d0",
           "state": "working",
-          "issue": "BEN-48",
-          "issue_title": "【冒烟测试】glm-runner 改绑 Claude Code runtime 连通性验证（验证后关闭）",
-          "since": "2026-09-29T12:25:29Z"
+          "issue": "BEN-46",
+          "issue_title": "[任务·第3轮] Cofi 129 ready 全量双端回归第 2 轮（checkpoint 化）+ DIFF-REPO",
+          "since": "2026-09-29T12:09:30Z"
         },
         {
           "name": "deepseek-planner",
@@ -135,23 +135,23 @@
         }
       ],
       "issue_counts": {
-        "todo": 1,
+        "todo": 0,
         "in_progress": 2,
         "in_review": 0,
-        "done": 40
+        "done": 41
       },
       "latest_issues": [
+        {
+          "key": "BEN-47",
+          "title": "【冒烟测试】glm-scenarist 改绑 Codex runtime 连通性验证（验证后关闭）",
+          "status": "done",
+          "updated_at": "2026-09-29T12:29:53Z"
+        },
         {
           "key": "BEN-48",
           "title": "【冒烟测试】glm-runner 改绑 Claude Code runtime 连通性验证（验证后关",
           "status": "done",
-          "updated_at": "2026-09-29T12:25:19Z"
-        },
-        {
-          "key": "BEN-47",
-          "title": "【冒烟测试】glm-scenarist 改绑 Codex runtime 连通性验证（验证后关闭）",
-          "status": "todo",
-          "updated_at": "2026-09-29T12:23:48Z"
+          "updated_at": "2026-09-29T12:29:00Z"
         },
         {
           "key": "BEN-43",
@@ -254,28 +254,28 @@
       },
       "latest_issues": [
         {
+          "key": "DWM-60",
+          "title": "[任务] Cofi 正式差异分析 + 57 还原缺口/G7 入建议池（夜间第 3 轮，离线）",
+          "status": "todo",
+          "updated_at": "2026-09-29T12:30:32Z"
+        },
+        {
+          "key": "DWM-59",
+          "title": "[晚会日报] 2026-09-29",
+          "status": "done",
+          "updated_at": "2026-09-29T12:30:32Z"
+        },
+        {
           "key": "DWM-62",
           "title": "[口径落地修正] 09-29 日报总进度 NN 未回填（应为 6%）+ DWM-60 失败误判",
           "status": "in_progress",
           "updated_at": "2026-09-29T12:24:28Z"
         },
         {
-          "key": "DWM-59",
-          "title": "[晚会日报] 2026-09-29",
-          "status": "done",
-          "updated_at": "2026-09-29T12:15:01Z"
-        },
-        {
           "key": "DWM-46",
           "title": "[流程改进] v2.3：以目标定流程（DW 优化证据 > 经验与语料 > 应用交付），小队决策并实施",
           "status": "in_progress",
           "updated_at": "2026-09-29T12:09:21Z"
-        },
-        {
-          "key": "DWM-60",
-          "title": "[任务] Cofi 正式差异分析 + 57 还原缺口/G7 入建议池（夜间第 3 轮，离线）",
-          "status": "todo",
-          "updated_at": "2026-09-29T12:09:07Z"
         },
         {
           "key": "DWM-61",
@@ -331,10 +331,9 @@
           "role": "IPD-Dev 开发工程师",
           "model": "",
           "agent_id": "44fcec25-d8b3-4af6-b206-1774a64677ce",
-          "state": "working",
-          "issue": "IPD-79",
-          "issue_title": "[取证·第3轮] REQ-004 分布式流转鸿蒙单机运行取证（hermes-dev）",
-          "since": "2026-09-29T12:08:40Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "hermes-tester",
@@ -385,6 +384,12 @@
       },
       "latest_issues": [
         {
+          "key": "IPD-79",
+          "title": "[取证·第3轮] REQ-004 分布式流转鸿蒙单机运行取证（hermes-dev）",
+          "status": "todo",
+          "updated_at": "2026-09-29T12:28:14Z"
+        },
+        {
           "key": "IPD-80",
           "title": "[TR-Accept·第3轮] REQ-004 分布式流转双端验收收口（hermes-tester ",
           "status": "in_review",
@@ -407,12 +412,6 @@
           "title": "[晚会日报] 2026-09-29",
           "status": "done",
           "updated_at": "2026-09-29T12:11:41Z"
-        },
-        {
-          "key": "IPD-79",
-          "title": "[取证·第3轮] REQ-004 分布式流转鸿蒙单机运行取证（hermes-dev）",
-          "status": "todo",
-          "updated_at": "2026-09-29T12:09:03Z"
         }
       ]
     }
