@@ -46,6 +46,7 @@ button{font:inherit;cursor:pointer;color:inherit}
 .feed li{display:flex;gap:8px;align-items:center;padding:3px 0;border-top:1px dashed #222d4a;font-size:13px;min-width:0}
 .feed .tm{font-family:var(--mono);color:var(--ink2);font-size:12px;flex:none}
 .feed .tg{flex:none;font-size:11.5px;border-radius:4px;padding:0 6px;background:var(--panel2);border:1px solid var(--line);color:var(--ink2)}
+.feed .tg.t1{color:var(--t1);border-color:var(--t1)} .feed .tg.t2{color:var(--t2);border-color:var(--t2)} .feed .tg.t3{color:var(--t3);border-color:var(--t3)} .feed .tg.t4{color:var(--t4);border-color:var(--t4)}
 .feed .k{font-family:var(--mono);font-weight:700;color:var(--accent);flex:none}
 .feed .tt{flex:1;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .stage:focus-visible{box-shadow:0 0 0 2px var(--accent)}
@@ -165,6 +166,11 @@ body.view-list .side{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));
 .aov{display:flex;flex-direction:column;align-items:center;pointer-events:none}
 .aov > *{pointer-events:auto}
 .aline{display:flex;align-items:center;gap:.22em}
+/* 团队色：名牌前的团队号、门牌、侧栏团队卡、动态列表共用 */
+:root{--t1:#60a5fa;--t2:#34d399;--t3:#fbbf24;--t4:#f472b6}
+.ateam,.tno{flex:none;font:800 .8em/1.35 var(--mono);color:#0b1020;background:#94a3b8;border-radius:.25em;padding:0 .3em;white-space:nowrap}
+.t1.ateam,.t1.tno{background:var(--t1)} .t2.ateam,.t2.tno{background:var(--t2)} .t3.ateam,.t3.tno{background:var(--t3)} .t4.ateam,.t4.tno{background:var(--t4)}
+.team .tno{font-size:12.5px;padding:0 5px}
 .aname{font-size:.86em;font-weight:700;padding:0 .38em;border-radius:.25em;background:rgba(12,18,34,.86);color:#e2e8f0;white-space:nowrap;cursor:pointer;border:1px solid rgba(148,163,184,.35);line-height:1.35}
 .aname.working{border-color:var(--work);color:#d6e6ff}
 .aname.meeting{border-color:var(--meet);color:#fed7aa}

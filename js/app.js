@@ -54,6 +54,7 @@
     }).join("");
     return '<section class="team' + (t.meeting_active ? " meeting" : "") + '" data-i="' + i + '">' +
       '<header class="th"><i class="lamp' + (t.machine_online ? "" : " off") + '" title="' + esc(t.machine || "") + (t.machine_online ? " 在线" : " 离线") + '"></i>' +
+      (PO.teamNo(t) ? '<i class="tno t' + PO.teamNo(t) + '" title="场景里名牌前的团队号">' + PO.teamNo(t) + "</i>" : "") +
       link(taskUrl(t), esc(t.title || t.id), "tt", "打开 MultiCA 工作区") + '<button class="focus" type="button" title="在场景中查看这个房间">定位</button></header>' +
       '<div class="tm"><span class="pbar" title="' + esc(PO.progSrc(t)) + '"><i style="width:' + p + '%"></i></span><b>' + p + "%</b>" +
       (t.progress_from ? '<small class="psrc" title="' + esc(PO.progSrc(t)) + '">' + PO.progTag(t) + "</small>" : "") + "<span>在岗 " + on + "/" + ag.length + '</span><span class="mc">' + esc(t.machine || "") + "</span></div>" +
@@ -72,7 +73,7 @@
     rows.sort(function (a, b) { return b.ts - a.ts; });
     $("feed").innerHTML = "<h5>四队最新动态<small>（按更新时间，数据每 3 分钟采集）</small></h5><ul>" + rows.map(function (r) {
       var st = STATUS_LABEL[r.it.status] ? r.it.status : "todo", tag = (r.t.title || r.t.id).split("·")[0].trim();
-      return '<li><span class="tm">' + bjTime(r.it.updated_at).slice(5) + '</span><span class="tg">' + esc(tag) + '</span><i class="sdot ' + st + '" title="' + STATUS_LABEL[st] + '"></i>' +
+      return '<li><span class="tm">' + bjTime(r.it.updated_at).slice(5) + '</span><span class="tg t' + PO.teamNo(r.t) + '">' + esc(tag) + '</span><i class="sdot ' + st + '" title="' + STATUS_LABEL[st] + '"></i>' +
         link(issueUrl(r.t, r.it.key), esc(r.it.key), "k") + '<span class="tt" title="' + esc(r.it.title) + '">' + link(issueUrl(r.t, r.it.key), esc(r.it.title)) + "</span></li>";
     }).join("") + "</ul>";
   }

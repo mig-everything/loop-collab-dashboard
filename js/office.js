@@ -33,6 +33,7 @@
   }
   /* 场景里默认显示短名（去掉模型/分组前缀），放大或悬停显示全名；侧栏始终是全名 */
   function shortName(n) { var m = /^(?:gpt|kimi|deepseek|glm|minimax|opus|hermes|exec|claude|sonnet|qwen|gemini)-(.+)$/.exec(n || ""); return m ? m[1] : n; }
+  function teamNo(t) { var m = /^task(\d+)/.exec((t && t.id) || ""); return m ? m[1] : ""; }
   function short(s, n) { s = String(s || ""); return s.length > n ? s.slice(0, n - 1) + "…" : s; }
   function minsSince(iso) { var t = Date.parse(iso || ""); return isNaN(t) ? -1 : Math.max(0, Math.round((Date.now() - t) / 60000)); }
 
@@ -255,7 +256,7 @@
       var o = { R: R }, pl = find(function (it) { return it.p === "plate" && it.x === R.plate.x && it.y === R.plate.y; });
       o.plate = anchor(self.el("rplate"), pl.x * T + 3, pl.y * T + 9, 0, 0, 7.2, true);
       o.plate.style.width = ((pl.w * T - 6) / 7.2).toFixed(2) + "em";
-      o.plate.innerHTML = '<div class="t"><i class="lamp"></i><span class="nm"></span><span class="mt">会议中</span></div><div class="m"><span class="pbar"><i style="width:0"></i></span><b class="pv"></b><span class="mc"></span></div>';
+      o.plate.innerHTML = '<div class="t"><i class="lamp"></i><i class="tno"></i><span class="nm"></span><span class="mt">会议中</span></div><div class="m"><span class="pbar"><i style="width:0"></i></span><b class="pv"></b><span class="mc"></span></div>';
       o.plate.style.display = "none";   // 拿到数据再显示
       o.plate.addEventListener("click", function () { var t = self.roomTask[i]; if (t && self.h.onRoom) self.h.onRoom(t); });
       o.kb = anchor(self.el("kbcap"), R.kanban.x * T + 2, R.kanban.y * T + 30, 0, 0, 4.6);
@@ -342,6 +343,7 @@
       var c = task.issue_counts || {}, online = !!task.machine_online, agents = task.agents || [];
       env.kanban[ri] = [c.todo || 0, c.in_progress || 0, c.in_review || 0, c.done || 0];
       o.plate.querySelector(".nm").textContent = task.title || task.id;
+      var tn = o.plate.querySelector(".tno"), no = teamNo(task); tn.textContent = no; tn.className = "tno t" + no; tn.style.display = no ? "" : "none";
       o.plate.querySelector(".lamp").className = "lamp" + (online ? "" : " off");
       o.plate.classList.toggle("meeting", !!task.meeting_active);
       var p = Math.max(0, Math.min(100, task.progress || 0));
@@ -442,7 +444,8 @@
       mode: "", act: null, actT: 0, frameT: Math.random() * 3, sit: false, anim: "idle", emote: null, sayT: 0, hidden: true, born: true };
     A.box = this.el("aov");                 // 头顶气泡
     A.bubEl = this.el("abub", "div", A.box); A.bubEl.style.display = "none";
-    A.lineEl = this.el("aline");            // 名牌 + 执行中的 issue 编号
+    A.lineEl = this.el("aline");            // 团队号 + 名牌 + 执行中的 issue 编号
+    A.teamEl = this.el("ateam", "span", A.lineEl);
     A.nameEl = this.el("aname", "div", A.lineEl);
     A.tagEl = this.el("atag", "a", A.lineEl); A.tagEl.target = "_blank"; A.tagEl.rel = "noopener"; A.tagEl.style.display = "none";
     A.sizeDirty = true;
@@ -456,6 +459,7 @@
   O.setMode = function (A, mode) {
     var a = A.data, task = A.task;
     A.full = a.name; A.short = shortName(a.name); A.nameEl.textContent = this.cam.s >= 2.2 ? A.full : A.short; A.sizeDirty = true;
+    var no = teamNo(task); A.teamEl.textContent = no; A.teamEl.className = "ateam t" + no; A.teamEl.title = task.title || task.id; A.teamEl.style.display = no ? "" : "none";
     A.nameEl.className = "aname " + (mode === "idle" ? "idle" : mode === "meet" || mode === "host" ? "meeting" : mode === "off" ? "" : "working");
     A.nameEl.title = a.name + (a.role ? " · " + a.role : "") + (a.model ? " · " + a.model : "");
     if ((mode === "work" || mode === "host" || mode === "patrol") && a.issue) {
@@ -830,5 +834,5 @@
   };
 
   global.PixelOffice = Office;
-  Office.progTag = progTag; Office.progSrc = progSrc; Office.parseOrder = parseOrder;
+  Office.teamNo = teamNo; Office.progTag = progTag; Office.progSrc = progSrc; Office.parseOrder = parseOrder;
 })(window);
