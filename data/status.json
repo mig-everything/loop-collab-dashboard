@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T00:07:09Z",
+  "generated_at": "2026-09-29T00:10:51Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -330,7 +330,7 @@
           "role": "IPD-Dev 开发工程师",
           "model": "",
           "agent_id": "44fcec25-d8b3-4af6-b206-1774a64677ce",
-          "state": "working",
+          "state": "idle",
           "issue": "",
           "issue_title": ""
         },
