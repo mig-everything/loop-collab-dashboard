@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T08:14:22Z",
+  "generated_at": "2026-09-29T08:18:30Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -97,10 +97,9 @@
           "role": "GLM Scenarist",
           "model": "zai:glm-5.2",
           "agent_id": "6e6f1e24-3bc5-455a-85d2-cb3fb6c9a672",
-          "state": "working",
-          "issue": "BEN-40",
-          "issue_title": "[任务·第2轮] AntennaPod A4 批次（更多/设置 172 组）审核转 ready + bindings +",
-          "since": "2026-09-29T08:03:23Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "glm-runner",
@@ -135,22 +134,22 @@
       ],
       "issue_counts": {
         "todo": 0,
-        "in_progress": 1,
-        "in_review": 0,
+        "in_progress": 0,
+        "in_review": 1,
         "done": 36
       },
       "latest_issues": [
+        {
+          "key": "BEN-40",
+          "title": "[任务·第2轮] AntennaPod A4 批次（更多/设置 172 组）审核转 ready + ",
+          "status": "in_review",
+          "updated_at": "2026-09-29T08:15:08Z"
+        },
         {
           "key": "BEN-42",
           "title": "[巡检] 2026-09-29 leader Issue 状态巡检与催办",
           "status": "done",
           "updated_at": "2026-09-29T08:03:44Z"
-        },
-        {
-          "key": "BEN-40",
-          "title": "[任务·第2轮] AntennaPod A4 批次（更多/设置 172 组）审核转 ready + ",
-          "status": "in_progress",
-          "updated_at": "2026-09-29T08:03:21Z"
         },
         {
           "key": "BEN-41",
@@ -256,7 +255,7 @@
           "key": "DWM-46",
           "title": "[流程改进] v2.3：以目标定流程（DW 优化证据 > 经验与语料 > 应用交付），小队决策并实施",
           "status": "in_progress",
-          "updated_at": "2026-09-29T08:09:07Z"
+          "updated_at": "2026-09-29T08:18:23Z"
         },
         {
           "key": "DWM-56",
@@ -361,7 +360,7 @@
           "role": "DeepSeek Planner（小组 leader/PM ",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
-          "state": "working",
+          "state": "idle",
           "issue": "",
           "issue_title": ""
         },
