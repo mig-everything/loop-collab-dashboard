@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T03:29:32Z",
+  "generated_at": "2026-09-29T03:57:09Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -254,7 +254,7 @@
           "key": "DWM-37",
           "title": "[DW迁移任务单] Cofi 迁移 · 修复 wave 2/4",
           "status": "in_progress",
-          "updated_at": "2026-09-29T03:29:53Z"
+          "updated_at": "2026-09-29T03:57:07Z"
         },
         {
           "key": "DWM-43",
