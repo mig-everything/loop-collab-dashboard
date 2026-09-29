@@ -14,7 +14,7 @@ NOW=$(date -u +%Y-%m-%dT%H:%M:%SZ)
 NOW_EPOCH=$(date -u +%s)
 
 # workspace|task_id|任务名|机器hostname|机器显示名|daily目录
-WS_LIST="ws-survey-loop|task1-survey|任务1 · 应用迁移综述|(Mac)|张涛 MacBook|task1-survey
+WS_LIST="ws-survey-loop|task1-survey|任务1 · 应用迁移综述|\(Mac\)|JordanZTdeMacBook-Pro|张涛 MacBook|task1-survey
 ws-benchmark-loop|task2-benchmark|任务2 · 评测集与双端用例|oneplusndeMac-Studio.local|张涛 Mac Studio|task2-benchmark
 ws-dw-migration-loop|task3-dw-migration|任务3 · DW 代码迁移|Snowball-in-Ca.local|奕棣 MacBook|task3-dw-migration
 ws-ipd-eazo-loop|task4-ipd-eazo|任务4 · IPD Eazo 平台|admins-Mac-mini.local|贾博 Mac Mini|task4-ipd-eazo"
@@ -22,7 +22,7 @@ ws-ipd-eazo-loop|task4-ipd-eazo|任务4 · IPD Eazo 平台|admins-Mac-mini.local
 # 机器在线状态（runtime 表）
 RUNTIMES=$(multica runtime list 2>/dev/null)
 machine_online() { # $1=hostname 关键字；runtime 按工作区注册，除全局列表外再查当前工作区的列表（只会把误判的离线纠正为在线）
-  printf '%s\n%s\n' "$RUNTIMES" "${WS_RUNTIMES:-}" | grep -F "$1" | grep -q online && echo true || echo false
+  printf '%s\n%s\n' "$RUNTIMES" "${WS_RUNTIMES:-}" | grep -E "$1" | grep -q online && echo true || echo false
 }
 
 TASKS_JSON="[]"
