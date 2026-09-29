@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T01:12:25Z",
+  "generated_at": "2026-09-29T01:16:07Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -134,11 +134,17 @@
       ],
       "issue_counts": {
         "todo": 0,
-        "in_progress": 2,
+        "in_progress": 3,
         "in_review": 0,
         "done": 31
       },
       "latest_issues": [
+        {
+          "key": "DWM-43",
+          "title": "[流程修正] DW 执行流程 v2.2：套件锁误报 / 时间盒放宽 / 超时后照常验证修复 / 进度",
+          "status": "in_progress",
+          "updated_at": "2026-09-29T01:11:07Z"
+        },
         {
           "key": "BEN-34",
           "title": "[任务·第3轮] Cofi 129 ready 场景全量双端回归第 1 轮 + DIFF-REPOR",
@@ -162,12 +168,6 @@
           "title": "[早会纪要] 2026-09-29",
           "status": "done",
           "updated_at": "2026-09-28T20:16:31Z"
-        },
-        {
-          "key": "BEN-33",
-          "title": "[任务·第3轮] AntennaPod A2 批次（队列+收件箱 42 组）审核转 ready + ",
-          "status": "done",
-          "updated_at": "2026-09-28T20:03:24Z"
         }
       ]
     },
