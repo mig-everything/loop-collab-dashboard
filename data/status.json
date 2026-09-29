@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T20:11:33Z",
+  "generated_at": "2026-09-29T20:15:26Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -18,9 +18,9 @@
           "model": "",
           "agent_id": "58ed4647-32dd-4ca1-8ddc-194b975d6024",
           "state": "working",
-          "issue": "SUR-66",
-          "issue_title": "[晨会纪要] 2026-09-30",
-          "since": "2026-09-29T20:11:08Z"
+          "issue": "SUR-67",
+          "issue_title": "[任务][day-6] 迁移第 3 章至 LaTeX（03-pipeline.tex 五阶段）+ 落地 SUR-63 三",
+          "since": "2026-09-29T20:09:17Z"
         },
         {
           "name": "kimi-adversary",
@@ -29,9 +29,9 @@
           "model": "",
           "agent_id": "6e530cc6-6b9d-4398-936d-df9c13468125",
           "state": "working",
-          "issue": "SUR-66",
-          "issue_title": "[晨会纪要] 2026-09-30",
-          "since": "2026-09-29T20:11:08Z"
+          "issue": "SUR-68",
+          "issue_title": "[评审][day-6] 事后对抗评审英文第 2 章 + refs.bib 骨架（SUR-62 提交）",
+          "since": "2026-09-29T20:09:20Z"
         },
         {
           "name": "deepseek-planner",
@@ -39,15 +39,14 @@
           "role": "DeepSeek Task Planner（任务规划+总结）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "04a4e04e-59d5-4f3a-8a16-acf99b80a493",
-          "state": "working",
-          "issue": "SUR-66",
-          "issue_title": "[晨会纪要] 2026-09-30",
-          "since": "2026-09-29T20:00:09Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         }
       ],
       "issue_counts": {
-        "todo": 1,
-        "in_progress": 1,
+        "todo": 0,
+        "in_progress": 2,
         "in_review": 0,
         "done": 50
       },
@@ -56,7 +55,13 @@
           "key": "SUR-66",
           "title": "[晨会纪要] 2026-09-30",
           "status": "done",
-          "updated_at": "2026-09-29T20:11:18Z"
+          "updated_at": "2026-09-29T20:14:34Z"
+        },
+        {
+          "key": "SUR-67",
+          "title": "[任务][day-6] 迁移第 3 章至 LaTeX（03-pipeline.tex 五阶段）+ 落",
+          "status": "in_progress",
+          "updated_at": "2026-09-29T20:12:19Z"
         },
         {
           "key": "SUR-54",
@@ -75,12 +80,6 @@
           "title": "[评审][day-6] 事后对抗评审英文第 2 章 + refs.bib 骨架（SUR-62 提交）",
           "status": "in_progress",
           "updated_at": "2026-09-29T20:09:43Z"
-        },
-        {
-          "key": "SUR-67",
-          "title": "[任务][day-6] 迁移第 3 章至 LaTeX（03-pipeline.tex 五阶段）+ 落",
-          "status": "todo",
-          "updated_at": "2026-09-29T20:09:16Z"
         }
       ],
       "progress_note": "day-4 晨 37% → 午 42% → 晚 44% → 夜 47%",
@@ -102,10 +101,9 @@
           "role": "GPT Scenarist",
           "model": "",
           "agent_id": "6e6f1e24-3bc5-455a-85d2-cb3fb6c9a672",
-          "state": "working",
-          "issue": "BEN-51",
-          "issue_title": "[任务·第1轮] AntennaPod A6 批次：更多/设置+首页剩余非设备可溯源组转 ready + binding",
-          "since": "2026-09-29T20:05:53Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "glm-runner",
@@ -140,17 +138,17 @@
         }
       ],
       "issue_counts": {
-        "todo": 1,
+        "todo": 0,
         "in_progress": 1,
         "in_review": 0,
-        "done": 45
+        "done": 46
       },
       "latest_issues": [
         {
           "key": "BEN-51",
           "title": "[任务·第1轮] AntennaPod A6 批次：更多/设置+首页剩余非设备可溯源组转 ready",
-          "status": "todo",
-          "updated_at": "2026-09-29T20:09:33Z"
+          "status": "done",
+          "updated_at": "2026-09-29T20:14:25Z"
         },
         {
           "key": "BEN-50",
@@ -293,7 +291,7 @@
         "status": "in_progress",
         "updated_at": "2026-09-29T18:44:51Z"
       },
-      "progress_note": "10 个应用：完成 1、进行中 0、暂停 1、未开始 8"
+      "progress_note": "沿用，Snowball 离线 dw-lead 无新 standup；10 个应用：完成 1、进行中 1、未开始 8"
     },
     {
       "id": "task4-ipd-eazo",
@@ -311,10 +309,9 @@
           "role": "IPD-PM 产品经理",
           "model": "",
           "agent_id": "1764c131-5c09-48cb-aa48-3177d5256dbb",
-          "state": "working",
-          "issue": "IPD-86",
-          "issue_title": "[早会纪要] 2026-09-30",
-          "since": "2026-09-29T20:10:30Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "hermes-sa",
@@ -322,10 +319,9 @@
           "role": "IPD-SA 解决方案架构师",
           "model": "volc:qwen3.8-max",
           "agent_id": "3e4373ef-a262-4b28-ab2a-818861fc9624",
-          "state": "working",
-          "issue": "IPD-86",
-          "issue_title": "[早会纪要] 2026-09-30",
-          "since": "2026-09-29T20:10:30Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "hermes-se",
@@ -343,10 +339,9 @@
           "role": "IPD-Dev 开发工程师",
           "model": "",
           "agent_id": "44fcec25-d8b3-4af6-b206-1774a64677ce",
-          "state": "working",
-          "issue": "IPD-86",
-          "issue_title": "[早会纪要] 2026-09-30",
-          "since": "2026-09-29T20:10:30Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "hermes-tester",
@@ -365,10 +360,9 @@
           "role": "IPD-RM 发布经理",
           "model": "",
           "agent_id": "78156461-9644-478e-9c80-53cd18e25e33",
-          "state": "working",
-          "issue": "IPD-86",
-          "issue_title": "[早会纪要] 2026-09-30",
-          "since": "2026-09-29T20:10:30Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "deepseek-planner",
@@ -392,41 +386,41 @@
         }
       ],
       "issue_counts": {
-        "todo": 2,
-        "in_progress": 3,
-        "in_review": 2,
+        "todo": 0,
+        "in_progress": 1,
+        "in_review": 6,
         "done": 66
       },
       "latest_issues": [
         {
-          "key": "IPD-86",
-          "title": "[早会纪要] 2026-09-30",
-          "status": "done",
-          "updated_at": "2026-09-29T20:12:04Z"
-        },
-        {
-          "key": "IPD-87",
-          "title": "[SE·第1轮] REQ-005 追踪矩阵骨架 + REQ-004 测试用例列回挂",
+          "key": "IPD-90",
+          "title": "[PRD·第1轮] REQ-006 下一场景预研（第6场景）",
           "status": "in_review",
-          "updated_at": "2026-09-29T20:11:06Z"
-        },
-        {
-          "key": "IPD-89",
-          "title": "[测试·第1轮] REQ-004 uijudge 视觉补打分 + REQ-005 差分用例清单 + ",
-          "status": "in_progress",
-          "updated_at": "2026-09-29T20:10:41Z"
+          "updated_at": "2026-09-29T20:14:27Z"
         },
         {
           "key": "IPD-88",
           "title": "[双端编码·第1轮] REQ-005 单位换算器 Android 单机基线（Kotlin）",
-          "status": "in_progress",
-          "updated_at": "2026-09-29T20:10:39Z"
+          "status": "in_review",
+          "updated_at": "2026-09-29T20:14:24Z"
+        },
+        {
+          "key": "IPD-86",
+          "title": "[早会纪要] 2026-09-30",
+          "status": "done",
+          "updated_at": "2026-09-29T20:13:54Z"
         },
         {
           "key": "IPD-82",
           "title": "[TR-Req 评审] REQ-005 单位换算器（Unit Converter）—— 需求评审（P",
-          "status": "in_progress",
-          "updated_at": "2026-09-29T20:10:23Z"
+          "status": "in_review",
+          "updated_at": "2026-09-29T20:13:46Z"
+        },
+        {
+          "key": "IPD-91",
+          "title": "[发版·第1轮] REQ-004 端到端时长补采 + 发版度量",
+          "status": "in_review",
+          "updated_at": "2026-09-29T20:12:35Z"
         }
       ]
     }
