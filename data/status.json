@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T12:46:53Z",
+  "generated_at": "2026-09-29T12:50:54Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -79,7 +79,8 @@
           "status": "backlog",
           "updated_at": "2026-09-29T12:10:08Z"
         }
-      ]
+      ],
+      "progress_note": "day-4 晨 37% → 午 42% → 晚 44% → 夜 47%"
     },
     {
       "id": "task2-benchmark",
@@ -242,14 +243,16 @@
           "state": "working",
           "issue": "DWM-54",
           "issue_title": "[DWM-46·H] v2.3 Cofi 记录补推与下发",
-          "since": "2026-09-29T12:05:24Z"
+          "since": "2026-09-29T12:05:24Z",
+          "parent_issue": "DWM-46",
+          "parent_title": "[流程改进] v2.3：以目标定流程（DW 优化证据 > 经验与语料 > 应用交付），小队决策并实施 · 收尾（补推与下"
         }
       ],
       "issue_counts": {
-        "todo": 2,
+        "todo": 0,
         "in_progress": 2,
         "in_review": 0,
-        "done": 48
+        "done": 40
       },
       "latest_issues": [
         {
@@ -277,12 +280,19 @@
           "updated_at": "2026-09-29T12:09:21Z"
         },
         {
-          "key": "DWM-61",
-          "title": "[DWM-46·K] v2.3 模型池 key 轮换与推理强度 max（负责人补充八）",
-          "status": "backlog",
-          "updated_at": "2026-09-29T12:08:59Z"
+          "key": "DWM-48",
+          "title": "[巡检] 2026-09-29 16:00 leader Issue 状态巡检与催办",
+          "status": "done",
+          "updated_at": "2026-09-29T08:03:02Z"
         }
-      ]
+      ],
+      "order": {
+        "key": "DWM-40",
+        "title": "[DW迁移任务单] Omni-Notes 迁移 · 暂停（负责人：等 DWM-46 完成并验收）",
+        "status": "blocked",
+        "updated_at": "2026-09-29T06:39:00Z"
+      },
+      "progress_note": "10 个应用：完成 1、进行中 0、暂停 1、未开始 8"
     },
     {
       "id": "task4-ipd-eazo",
@@ -380,7 +390,7 @@
         "todo": 3,
         "in_progress": 0,
         "in_review": 2,
-        "done": 71
+        "done": 60
       },
       "latest_issues": [
         {
