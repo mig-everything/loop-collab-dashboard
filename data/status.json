@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T02:24:27Z",
+  "generated_at": "2026-09-29T03:10:39Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -227,9 +227,10 @@
           "role": "验证员",
           "model": "claude-opus-5-5",
           "agent_id": "69822c63-0dcc-4f3e-875d-7b300d437623",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "DWM-37",
+          "issue_title": "[DW迁移任务单] Cofi 迁移 · 修复 wave 1/4",
+          "since": "2026-09-29T03:10:27Z"
         },
         {
           "name": "exec-fixer",
@@ -237,10 +238,9 @@
           "role": "修复员",
           "model": "claude-opus-5-5",
           "agent_id": "cd70e713-a339-4621-8699-2058d9cf7d6b",
-          "state": "working",
-          "issue": "DWM-37",
-          "issue_title": "[DW迁移任务单] Cofi 迁移 · 修复 wave 1/4",
-          "since": "2026-09-29T02:24:34Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         }
       ],
       "issue_counts": {
@@ -254,7 +254,7 @@
           "key": "DWM-37",
           "title": "[DW迁移任务单] Cofi 迁移 · 修复 wave 1/4",
           "status": "in_progress",
-          "updated_at": "2026-09-29T02:24:34Z"
+          "updated_at": "2026-09-29T03:10:26Z"
         },
         {
           "key": "DWM-43",
