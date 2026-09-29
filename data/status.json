@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T18:47:43Z",
+  "generated_at": "2026-09-29T20:00:08Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -37,18 +37,25 @@
           "role": "DeepSeek Task Planner（任务规划+总结）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "04a4e04e-59d5-4f3a-8a16-acf99b80a493",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "SUR-66",
+          "issue_title": "[晨会纪要] 2026-09-30",
+          "since": "2026-09-29T20:00:09Z"
         }
       ],
       "issue_counts": {
-        "todo": 2,
+        "todo": 3,
         "in_progress": 0,
         "in_review": 0,
         "done": 47
       },
       "latest_issues": [
+        {
+          "key": "SUR-66",
+          "title": "[晨会纪要] 2026-09-30",
+          "status": "todo",
+          "updated_at": "2026-09-29T20:00:07Z"
+        },
         {
           "key": "SUR-65",
           "title": "[巡检] 2026-09-30 leader Issue 状态巡检与催办",
@@ -72,12 +79,6 @@
           "title": "[任务][day-5] 迁移第 2 章至 LaTeX（02-methodology.tex，RQ1-",
           "status": "done",
           "updated_at": "2026-09-29T12:23:10Z"
-        },
-        {
-          "key": "SUR-61",
-          "title": "[晚会日报] 2026-09-29",
-          "status": "done",
-          "updated_at": "2026-09-29T12:14:32Z"
         }
       ],
       "progress_note": "day-4 晨 37% → 午 42% → 晚 44% → 夜 47%",
@@ -119,9 +120,10 @@
           "role": "DeepSeek Planner（小组 leader/PM）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "547cd361-ef50-4965-9477-bc659d8a1708",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "BEN-50",
+          "issue_title": "[早会纪要] 2026-09-30",
+          "since": "2026-09-29T20:00:20Z"
         },
         {
           "name": "minimax-visual-diff",
@@ -135,12 +137,18 @@
         }
       ],
       "issue_counts": {
-        "todo": 0,
+        "todo": 1,
         "in_progress": 0,
         "in_review": 0,
         "done": 44
       },
       "latest_issues": [
+        {
+          "key": "BEN-50",
+          "title": "[早会纪要] 2026-09-30",
+          "status": "todo",
+          "updated_at": "2026-09-29T20:00:19Z"
+        },
         {
           "key": "BEN-49",
           "title": "[巡检] 2026-09-30 leader Issue 状态巡检与催办",
@@ -164,12 +172,6 @@
           "title": "【冒烟测试】glm-scenarist 改绑 Codex runtime 连通性验证（验证后关闭）",
           "status": "done",
           "updated_at": "2026-09-29T12:29:53Z"
-        },
-        {
-          "key": "BEN-48",
-          "title": "【冒烟测试】glm-runner 改绑 Claude Code runtime 连通性验证（验证后关",
-          "status": "done",
-          "updated_at": "2026-09-29T12:29:00Z"
         }
       ]
     },
@@ -245,12 +247,18 @@
         }
       ],
       "issue_counts": {
-        "todo": 0,
+        "todo": 1,
         "in_progress": 1,
         "in_review": 0,
         "done": 43
       },
       "latest_issues": [
+        {
+          "key": "DWM-65",
+          "title": "[早会纪要] 2026-09-30",
+          "status": "todo",
+          "updated_at": "2026-09-29T20:00:12Z"
+        },
         {
           "key": "DWM-40",
           "title": "[DW迁移任务单] Omni-Notes 迁移 · 清单+迁移 · 清单生成中 续4·r83·764",
@@ -274,12 +282,6 @@
           "title": "[任务] Cofi 正式差异分析 + 57 还原缺口/G7 入建议池（夜间第 3 轮，离线）",
           "status": "done",
           "updated_at": "2026-09-29T13:26:23Z"
-        },
-        {
-          "key": "DWM-62",
-          "title": "[口径落地修正] 09-29 日报总进度 NN 未回填（应为 6%）+ DWM-60 失败误判",
-          "status": "done",
-          "updated_at": "2026-09-29T12:41:46Z"
         }
       ],
       "order": {
@@ -366,9 +368,10 @@
           "role": "DeepSeek Planner（小组 leader/PM ",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-86",
+          "issue_title": "[早会纪要] 2026-09-30",
+          "since": "2026-09-29T20:00:19Z"
         },
         {
           "name": "minimax-uijudge",
@@ -382,12 +385,18 @@
         }
       ],
       "issue_counts": {
-        "todo": 1,
+        "todo": 2,
         "in_progress": 0,
         "in_review": 2,
         "done": 64
       },
       "latest_issues": [
+        {
+          "key": "IPD-86",
+          "title": "[早会纪要] 2026-09-30",
+          "status": "todo",
+          "updated_at": "2026-09-29T20:00:18Z"
+        },
         {
           "key": "IPD-79",
           "title": "[取证·第3轮] REQ-004 分布式流转鸿蒙单机运行取证（hermes-dev）",
@@ -411,12 +420,6 @@
           "title": "[PRD·第3轮] REQ-005 单位换算器正式 PRD v1.0 + TR-Req 发起（her",
           "status": "done",
           "updated_at": "2026-09-29T16:03:38Z"
-        },
-        {
-          "key": "IPD-83",
-          "title": "[环境·负责人授权] Mac Mini hermes 新增 volc(qwen3.8-max)/za",
-          "status": "done",
-          "updated_at": "2026-09-29T13:13:47Z"
         }
       ]
     }
