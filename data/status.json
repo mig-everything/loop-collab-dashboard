@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-29T11:20:01Z",
+  "generated_at": "2026-09-29T11:27:39Z",
   "tasks": [
     {
       "id": "task1-survey",
       "title": "任务1 · 应用迁移综述",
       "workspace": "ws-survey-loop",
       "machine": "张涛 MacBook",
-      "machine_online": true,
+      "machine_online": false,
       "meeting_active": false,
       "meeting_title": "",
       "progress": 47,
@@ -17,7 +17,7 @@
           "role": "GPT Writer（执笔者）",
           "model": "",
           "agent_id": "58ed4647-32dd-4ca1-8ddc-194b975d6024",
-          "state": "idle",
+          "state": "offline",
           "issue": "",
           "issue_title": ""
         },
@@ -27,7 +27,7 @@
           "role": "Kimi Adversarial Reviewer（对抗评审",
           "model": "",
           "agent_id": "6e530cc6-6b9d-4398-936d-df9c13468125",
-          "state": "idle",
+          "state": "offline",
           "issue": "",
           "issue_title": ""
         },
@@ -37,7 +37,7 @@
           "role": "DeepSeek Task Planner（任务规划+总结）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "04a4e04e-59d5-4f3a-8a16-acf99b80a493",
-          "state": "idle",
+          "state": "offline",
           "issue": "",
           "issue_title": ""
         }
