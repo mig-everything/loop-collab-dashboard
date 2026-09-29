@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T06:16:28Z",
+  "generated_at": "2026-09-29T06:20:47Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -10,7 +10,38 @@
       "meeting_active": false,
       "meeting_title": "",
       "progress": 47,
-      "agents": [],
+      "agents": [
+        {
+          "name": "gpt-writer",
+          "emoji": "🧠",
+          "role": "GPT Writer（执笔者）",
+          "model": "",
+          "agent_id": "58ed4647-32dd-4ca1-8ddc-194b975d6024",
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
+        },
+        {
+          "name": "kimi-adversary",
+          "emoji": "🦋",
+          "role": "Kimi Adversarial Reviewer（对抗评审",
+          "model": "",
+          "agent_id": "6e530cc6-6b9d-4398-936d-df9c13468125",
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
+        },
+        {
+          "name": "deepseek-planner",
+          "emoji": "🐸",
+          "role": "DeepSeek Task Planner（任务规划+总结）",
+          "model": "deepseek:deepseek-v4-pro",
+          "agent_id": "04a4e04e-59d5-4f3a-8a16-acf99b80a493",
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
+        }
+      ],
       "issue_counts": {
         "todo": 1,
         "in_progress": 1,
@@ -220,16 +251,16 @@
       },
       "latest_issues": [
         {
+          "key": "DWM-46",
+          "title": "[流程补充] v2.2.1：每波批量放大 + 自适应 + 页面级对照源码还原（Cofi 收口后实施）",
+          "status": "todo",
+          "updated_at": "2026-09-29T06:20:52Z"
+        },
+        {
           "key": "DWM-37",
           "title": "[DW迁移任务单] Cofi 迁移 · 终验",
           "status": "in_progress",
           "updated_at": "2026-09-29T05:47:34Z"
-        },
-        {
-          "key": "DWM-46",
-          "title": "[流程补充] v2.2.1：每波批量放大 + 自适应 + 页面级对照源码还原（Cofi 收口后实施）",
-          "status": "todo",
-          "updated_at": "2026-09-29T04:31:40Z"
         },
         {
           "key": "DWM-45",
