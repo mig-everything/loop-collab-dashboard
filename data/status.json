@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T20:22:58Z",
+  "generated_at": "2026-09-29T20:30:22Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -377,10 +377,9 @@
           "role": "MiniMax 多模态 UI 视觉评审",
           "model": "minimax-cn:MiniMax-M3",
           "agent_id": "97f55294-90e0-4556-93af-a1cf44889574",
-          "state": "working",
-          "issue": "IPD-89",
-          "issue_title": "[测试·第1轮] REQ-004 uijudge 视觉补打分 + REQ-005 差分用例清单 + C4 rubric",
-          "since": "2026-09-29T20:15:59Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         }
       ],
       "issue_counts": {
@@ -394,7 +393,7 @@
           "key": "IPD-89",
           "title": "[测试·第1轮] REQ-004 uijudge 视觉补打分 + REQ-005 差分用例清单 + ",
           "status": "in_progress",
-          "updated_at": "2026-09-29T20:15:59Z"
+          "updated_at": "2026-09-29T20:28:34Z"
         },
         {
           "key": "IPD-90",
