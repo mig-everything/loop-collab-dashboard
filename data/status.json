@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T00:03:26Z",
+  "generated_at": "2026-09-29T00:07:09Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -331,9 +331,8 @@
           "model": "",
           "agent_id": "44fcec25-d8b3-4af6-b206-1774a64677ce",
           "state": "working",
-          "issue": "IPD-60",
-          "issue_title": "[双端编码·第1轮] REQ-003 灵感速记鸿蒙运行取证（US-1~7 截图 + 主题两态 + 元服务卡片 + NL实",
-          "since": "2026-09-29T00:03:01Z"
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "hermes-tester",
@@ -341,10 +340,9 @@
           "role": "IPD-Tester 测试工程师",
           "model": "",
           "agent_id": "86df9f14-a2cd-46d9-ad15-dbe8606ebd73",
-          "state": "working",
-          "issue": "IPD-61",
-          "issue_title": "[测试·第1轮] REQ-003 灵感速记 TR-Accept 执行 + 主持（双端差分 + uijudge 视觉评审 ",
-          "since": "2026-09-29T00:02:42Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "hermes-rm",
@@ -379,28 +377,28 @@
       ],
       "issue_counts": {
         "todo": 0,
-        "in_progress": 2,
-        "in_review": 0,
-        "done": 60
+        "in_progress": 0,
+        "in_review": 1,
+        "done": 61
       },
       "latest_issues": [
         {
+          "key": "IPD-60",
+          "title": "[双端编码·第1轮] REQ-003 灵感速记鸿蒙运行取证（US-1~7 截图 + 主题两态 + 元",
+          "status": "in_review",
+          "updated_at": "2026-09-29T00:07:24Z"
+        },
+        {
           "key": "IPD-61",
           "title": "[测试·第1轮] REQ-003 灵感速记 TR-Accept 执行 + 主持（双端差分 + uij",
-          "status": "in_progress",
-          "updated_at": "2026-09-29T00:03:44Z"
+          "status": "done",
+          "updated_at": "2026-09-29T00:04:51Z"
         },
         {
           "key": "IPD-69",
           "title": "[巡检] 2026-09-29 leader Issue 状态巡检与催办",
           "status": "done",
           "updated_at": "2026-09-29T00:03:16Z"
-        },
-        {
-          "key": "IPD-60",
-          "title": "[双端编码·第1轮] REQ-003 灵感速记鸿蒙运行取证（US-1~7 截图 + 主题两态 + 元",
-          "status": "in_progress",
-          "updated_at": "2026-09-29T00:03:01Z"
         },
         {
           "key": "IPD-65",
