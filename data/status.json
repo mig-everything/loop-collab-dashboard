@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T07:29:47Z",
+  "generated_at": "2026-09-29T07:33:41Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -251,16 +251,16 @@
       },
       "latest_issues": [
         {
+          "key": "DWM-46",
+          "title": "[流程改进] v2.3：以目标定流程（DW 优化证据 > 经验与语料 > 应用交付），小队决策并实施",
+          "status": "in_progress",
+          "updated_at": "2026-09-29T07:31:49Z"
+        },
+        {
           "key": "DWM-37",
           "title": "[DW迁移任务单] Cofi 迁移 · 收口",
           "status": "in_progress",
           "updated_at": "2026-09-29T07:28:53Z"
-        },
-        {
-          "key": "DWM-46",
-          "title": "[流程改进] v2.3：以目标定流程（DW 优化证据 > 经验与语料 > 应用交付），小队决策并实施",
-          "status": "in_progress",
-          "updated_at": "2026-09-29T07:26:30Z"
         },
         {
           "key": "DWM-47",
