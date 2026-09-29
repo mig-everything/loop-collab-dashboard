@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T08:10:14Z",
+  "generated_at": "2026-09-29T08:14:22Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -330,9 +330,10 @@
           "role": "IPD-Dev 开发工程师",
           "model": "",
           "agent_id": "44fcec25-d8b3-4af6-b206-1774a64677ce",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-72",
+          "issue_title": "[双端编码·第2轮] REQ-004 分布式流转双端编码（Android 单机基线 + 鸿蒙 DistributedNo",
+          "since": "2026-09-29T08:14:40Z"
         },
         {
           "name": "hermes-tester",
@@ -361,9 +362,8 @@
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
           "state": "working",
-          "issue": "IPD-77",
-          "issue_title": "[巡检] 2026-09-29 leader Issue 状态巡检与催办",
-          "since": "2026-09-29T08:01:07Z"
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "minimax-uijudge",
@@ -377,41 +377,41 @@
         }
       ],
       "issue_counts": {
-        "todo": 2,
+        "todo": 0,
         "in_progress": 1,
-        "in_review": 4,
-        "done": 63
+        "in_review": 0,
+        "done": 69
       },
       "latest_issues": [
         {
           "key": "IPD-77",
           "title": "[巡检] 2026-09-29 leader Issue 状态巡检与催办",
-          "status": "todo",
-          "updated_at": "2026-09-29T08:00:19Z"
+          "status": "done",
+          "updated_at": "2026-09-29T08:14:58Z"
         },
         {
           "key": "IPD-72",
           "title": "[双端编码·第2轮] REQ-004 分布式流转双端编码（Android 单机基线 + 鸿蒙 Dis",
           "status": "in_progress",
-          "updated_at": "2026-09-29T04:37:15Z"
-        },
-        {
-          "key": "IPD-71",
-          "title": "[架构·第2轮] REQ-004 分布式流转正式架构方案 + 接口契约 + TR-Design 评审",
-          "status": "in_review",
-          "updated_at": "2026-09-29T04:17:53Z"
+          "updated_at": "2026-09-29T08:14:39Z"
         },
         {
           "key": "IPD-76",
           "title": "[TR-Design 评审] REQ-004 分布式流转（跨设备续写）—— 设计评审（SA 主持）—",
-          "status": "todo",
-          "updated_at": "2026-09-29T04:17:07Z"
+          "status": "done",
+          "updated_at": "2026-09-29T08:14:12Z"
         },
         {
-          "key": "IPD-73",
-          "title": "[SE·第2轮] REQ-004 追踪矩阵设计实体列 + REQ-003 测试用例列回挂 + spe",
-          "status": "in_review",
-          "updated_at": "2026-09-29T04:14:10Z"
+          "key": "IPD-75",
+          "title": "[PRD·第2轮] REQ-005 下一场景预研 + minimax-uijudge role.md",
+          "status": "done",
+          "updated_at": "2026-09-29T08:14:12Z"
+        },
+        {
+          "key": "IPD-74",
+          "title": "[测试·第2轮] REQ-004 分布式流转双端差分用例清单 + C4 rubric",
+          "status": "done",
+          "updated_at": "2026-09-29T08:14:11Z"
         }
       ]
     }
