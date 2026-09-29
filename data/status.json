@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T13:11:33Z",
+  "generated_at": "2026-09-29T13:15:46Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -390,21 +390,21 @@
       "issue_counts": {
         "todo": 3,
         "in_progress": 0,
-        "in_review": 3,
-        "done": 60
+        "in_review": 2,
+        "done": 61
       },
       "latest_issues": [
+        {
+          "key": "IPD-83",
+          "title": "[环境·负责人授权] Mac Mini hermes 新增 volc(qwen3.8-max)/za",
+          "status": "done",
+          "updated_at": "2026-09-29T13:13:47Z"
+        },
         {
           "key": "IPD-84",
           "title": "【冒烟测试】hermes-sa/hermes-se 切换 volc:qwen3.8-max 验证（验",
           "status": "todo",
           "updated_at": "2026-09-29T13:07:44Z"
-        },
-        {
-          "key": "IPD-83",
-          "title": "[环境·负责人授权] Mac Mini hermes 新增 volc(qwen3.8-max)/za",
-          "status": "in_review",
-          "updated_at": "2026-09-29T13:06:23Z"
         },
         {
           "key": "IPD-79",
