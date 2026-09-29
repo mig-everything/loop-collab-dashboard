@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T06:32:55Z",
+  "generated_at": "2026-09-29T06:40:51Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -254,7 +254,13 @@
           "key": "DWM-46",
           "title": "[流程改进] v2.3：以目标定流程（DW 优化证据 > 经验与语料 > 应用交付），小队决策并实施",
           "status": "in_progress",
-          "updated_at": "2026-09-29T06:30:26Z"
+          "updated_at": "2026-09-29T06:39:02Z"
+        },
+        {
+          "key": "DWM-40",
+          "title": "[DW迁移任务单] Omni-Notes 迁移 · 暂停（负责人：等 DWM-46 完成并验收）",
+          "status": "blocked",
+          "updated_at": "2026-09-29T06:39:00Z"
         },
         {
           "key": "DWM-37",
@@ -273,12 +279,6 @@
           "title": "[午会纪要] 2026-09-29",
           "status": "done",
           "updated_at": "2026-09-29T04:09:40Z"
-        },
-        {
-          "key": "DWM-43",
-          "title": "[流程修正] DW 执行流程 v2.2：套件锁误报 / 时间盒放宽 / 超时后照常验证修复 / 进度",
-          "status": "done",
-          "updated_at": "2026-09-29T01:45:04Z"
         }
       ]
     },
