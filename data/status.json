@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T10:38:38Z",
+  "generated_at": "2026-09-29T10:53:39Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -17,9 +17,10 @@
           "role": "GPT Writer（执笔者）",
           "model": "",
           "agent_id": "58ed4647-32dd-4ca1-8ddc-194b975d6024",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "SUR-60",
+          "issue_title": "[目标更新] 任务1 新大纲+TSE英文LaTeX终稿（2026-09-29 负责人，全员对齐）",
+          "since": "2026-09-29T10:50:38Z"
         },
         {
           "name": "kimi-adversary",
@@ -37,15 +38,14 @@
           "role": "DeepSeek Task Planner（任务规划+总结）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "04a4e04e-59d5-4f3a-8a16-acf99b80a493",
-          "state": "working",
-          "issue": "SUR-60",
-          "issue_title": "[目标更新] 任务1 新大纲+TSE英文LaTeX终稿（2026-09-29 负责人，全员对齐）",
-          "since": "2026-09-29T10:38:42Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         }
       ],
       "issue_counts": {
-        "todo": 2,
-        "in_progress": 0,
+        "todo": 1,
+        "in_progress": 1,
         "in_review": 0,
         "done": 42
       },
@@ -53,8 +53,8 @@
         {
           "key": "SUR-60",
           "title": "[目标更新] 任务1 新大纲+TSE英文LaTeX终稿（2026-09-29 负责人，全员对齐）",
-          "status": "todo",
-          "updated_at": "2026-09-29T10:38:41Z"
+          "status": "in_progress",
+          "updated_at": "2026-09-29T10:52:29Z"
         },
         {
           "key": "SUR-57",
