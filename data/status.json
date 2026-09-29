@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T04:27:02Z",
+  "generated_at": "2026-09-29T04:30:59Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -108,9 +108,9 @@
           "model": "zai:glm-5.2",
           "agent_id": "bdaefa9b-7045-4264-95e4-1db664e353d0",
           "state": "working",
-          "issue": "BEN-39",
-          "issue_title": "[午会纪要] 2026-09-29",
-          "since": "2026-09-29T04:10:08Z"
+          "issue": "BEN-34",
+          "issue_title": "[任务·第3轮] Cofi 129 ready 场景全量双端回归第 1 轮 + DIFF-REPORT v4 全量版",
+          "since": "2026-09-29T04:10:07Z"
         },
         {
           "name": "deepseek-planner",
@@ -144,7 +144,7 @@
           "key": "BEN-39",
           "title": "[午会纪要] 2026-09-29",
           "status": "done",
-          "updated_at": "2026-09-29T04:22:38Z"
+          "updated_at": "2026-09-29T04:30:49Z"
         },
         {
           "key": "BEN-40",
@@ -208,7 +208,7 @@
           "role": "DW 迁移执行小队队长",
           "model": "claude-opus-5-5",
           "agent_id": "c6ff7c69-0db4-4b35-ac81-dd00e5a53ba4",
-          "state": "idle",
+          "state": "working",
           "issue": "",
           "issue_title": ""
         },
@@ -228,10 +228,9 @@
           "role": "验证员",
           "model": "claude-opus-5-5",
           "agent_id": "69822c63-0dcc-4f3e-875d-7b300d437623",
-          "state": "working",
-          "issue": "DWM-37",
-          "issue_title": "[DW迁移任务单] Cofi 迁移 · 修复 wave 2/4",
-          "since": "2026-09-29T04:08:00Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "exec-fixer",
@@ -239,23 +238,30 @@
           "role": "修复员",
           "model": "claude-opus-5-5",
           "agent_id": "cd70e713-a339-4621-8699-2058d9cf7d6b",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "DWM-37",
+          "issue_title": "[DW迁移任务单] Cofi 迁移 · 修复 wave 3/4",
+          "since": "2026-09-29T04:28:05Z"
         }
       ],
       "issue_counts": {
-        "todo": 0,
+        "todo": 1,
         "in_progress": 1,
         "in_review": 1,
         "done": 34
       },
       "latest_issues": [
         {
+          "key": "DWM-46",
+          "title": "[流程补充] v2.2.1：每波批量放大 + 自适应 + 页面级对照源码还原（Cofi 收口后实施）",
+          "status": "todo",
+          "updated_at": "2026-09-29T04:31:40Z"
+        },
+        {
           "key": "DWM-37",
-          "title": "[DW迁移任务单] Cofi 迁移 · 修复 wave 2/4",
+          "title": "[DW迁移任务单] Cofi 迁移 · 修复 wave 3/4",
           "status": "in_progress",
-          "updated_at": "2026-09-29T04:27:31Z"
+          "updated_at": "2026-09-29T04:28:04Z"
         },
         {
           "key": "DWM-45",
@@ -274,12 +280,6 @@
           "title": "[流程修正] DW 执行流程 v2.2：套件锁误报 / 时间盒放宽 / 超时后照常验证修复 / 进度",
           "status": "done",
           "updated_at": "2026-09-29T01:45:04Z"
-        },
-        {
-          "key": "DWM-40",
-          "title": "[DW迁移任务单] Omni-Notes 迁移 · 暂停（负责人：等 DWM-43 与 Cofi 补",
-          "status": "blocked",
-          "updated_at": "2026-09-29T01:33:37Z"
         }
       ]
     },
