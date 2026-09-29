@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T12:38:48Z",
+  "generated_at": "2026-09-29T12:42:53Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -44,40 +44,40 @@
       ],
       "issue_counts": {
         "todo": 2,
-        "in_progress": 1,
-        "in_review": 1,
-        "done": 44
+        "in_progress": 0,
+        "in_review": 2,
+        "done": 71
       },
       "latest_issues": [
         {
-          "key": "SUR-63",
-          "title": "[评审][day-5] 新大纲内部一致性评审 + batch4 返工独立复核（SUR-57）+ Ru",
+          "key": "IPD-79",
+          "title": "[取证·第3轮] REQ-004 分布式流转鸿蒙单机运行取证（hermes-dev）",
+          "status": "todo",
+          "updated_at": "2026-09-29T12:28:14Z"
+        },
+        {
+          "key": "IPD-80",
+          "title": "[TR-Accept·第3轮] REQ-004 分布式流转双端验收收口（hermes-tester ",
           "status": "in_review",
-          "updated_at": "2026-09-29T12:26:16Z"
+          "updated_at": "2026-09-29T12:17:39Z"
         },
         {
-          "key": "SUR-62",
-          "title": "[任务][day-5] 迁移第 2 章至 LaTeX（02-methodology.tex，RQ1-",
-          "status": "done",
-          "updated_at": "2026-09-29T12:23:10Z"
+          "key": "IPD-81",
+          "title": "[PRD·第3轮] REQ-005 单位换算器正式 PRD v1.0 + TR-Req 发起（her",
+          "status": "in_review",
+          "updated_at": "2026-09-29T12:16:16Z"
         },
         {
-          "key": "SUR-60",
-          "title": "[目标更新] 任务1 新大纲+TSE英文LaTeX终稿（2026-09-29 负责人，全员对齐）",
-          "status": "in_progress",
-          "updated_at": "2026-09-29T12:14:48Z"
+          "key": "IPD-82",
+          "title": "[TR-Req 评审] REQ-005 单位换算器（Unit Converter）—— 需求评审（P",
+          "status": "backlog",
+          "updated_at": "2026-09-29T12:15:39Z"
         },
         {
-          "key": "SUR-61",
+          "key": "IPD-78",
           "title": "[晚会日报] 2026-09-29",
           "status": "done",
-          "updated_at": "2026-09-29T12:14:32Z"
-        },
-        {
-          "key": "SUR-64",
-          "title": "[流程优化] 2026-09-29 晚会产出 1 项（goals P0 变更巡检检测），次日验证",
-          "status": "backlog",
-          "updated_at": "2026-09-29T12:10:08Z"
+          "updated_at": "2026-09-29T12:11:41Z"
         }
       ]
     },
@@ -198,10 +198,9 @@
           "role": "DeepSeek Planner（小组 leader/PM，",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "950ff614-521d-4e32-a02d-423d41a7b2b3",
-          "state": "working",
-          "issue": "DWM-62",
-          "issue_title": "[口径落地修正] 09-29 日报总进度 NN 未回填（应为 6%）+ DWM-60 失败误判",
-          "since": "2026-09-29T12:37:44Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "dw-lead",
@@ -257,7 +256,7 @@
           "key": "DWM-62",
           "title": "[口径落地修正] 09-29 日报总进度 NN 未回填（应为 6%）+ DWM-60 失败误判",
           "status": "done",
-          "updated_at": "2026-09-29T12:37:24Z"
+          "updated_at": "2026-09-29T12:41:46Z"
         },
         {
           "key": "DWM-60",
@@ -361,9 +360,10 @@
           "role": "DeepSeek Planner（小组 leader/PM ",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-83",
+          "issue_title": "[环境·负责人授权] Mac Mini hermes 新增 volc(qwen3.8-max)/zai(glm-5.3)",
+          "since": "2026-09-29T12:43:03Z"
         },
         {
           "name": "minimax-uijudge",
@@ -377,12 +377,18 @@
         }
       ],
       "issue_counts": {
-        "todo": 2,
+        "todo": 3,
         "in_progress": 0,
         "in_review": 2,
         "done": 71
       },
       "latest_issues": [
+        {
+          "key": "IPD-83",
+          "title": "[环境·负责人授权] Mac Mini hermes 新增 volc(qwen3.8-max)/za",
+          "status": "todo",
+          "updated_at": "2026-09-29T12:43:06Z"
+        },
         {
           "key": "IPD-79",
           "title": "[取证·第3轮] REQ-004 分布式流转鸿蒙单机运行取证（hermes-dev）",
@@ -406,12 +412,6 @@
           "title": "[TR-Req 评审] REQ-005 单位换算器（Unit Converter）—— 需求评审（P",
           "status": "backlog",
           "updated_at": "2026-09-29T12:15:39Z"
-        },
-        {
-          "key": "IPD-78",
-          "title": "[晚会日报] 2026-09-29",
-          "status": "done",
-          "updated_at": "2026-09-29T12:11:41Z"
         }
       ]
     }
