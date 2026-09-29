@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T04:09:06Z",
+  "generated_at": "2026-09-29T04:13:43Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -7,8 +7,8 @@
       "workspace": "ws-survey-loop",
       "machine": "张涛 MacBook",
       "machine_online": true,
-      "meeting_active": false,
-      "meeting_title": "",
+      "meeting_active": true,
+      "meeting_title": "[午会纪要] 2026-09-29",
       "progress": 47,
       "agents": [
         {
@@ -17,9 +17,10 @@
           "role": "GPT Writer（执笔者）",
           "model": "",
           "agent_id": "58ed4647-32dd-4ca1-8ddc-194b975d6024",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "SUR-57",
+          "issue_title": "[任务][day-5] 返工 batch4 六 P1 + P2 三项（SUR-53 清单，覆盖率 100%）",
+          "since": "2026-09-29T04:12:08Z"
         },
         {
           "name": "kimi-adversary",
@@ -27,9 +28,10 @@
           "role": "Kimi Adversarial Reviewer（对抗评审",
           "model": "",
           "agent_id": "6e530cc6-6b9d-4398-936d-df9c13468125",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "SUR-58",
+          "issue_title": "[评审][day-5] 独立复核 batch3 返工落地（SUR-52 完整 DoD）+ Rubric 环比",
+          "since": "2026-09-29T04:12:15Z"
         },
         {
           "name": "deepseek-planner",
@@ -45,16 +47,28 @@
       ],
       "issue_counts": {
         "todo": 2,
-        "in_progress": 0,
+        "in_progress": 2,
         "in_review": 0,
         "done": 38
       },
       "latest_issues": [
         {
+          "key": "SUR-58",
+          "title": "[评审][day-5] 独立复核 batch3 返工落地（SUR-52 完整 DoD）+ Rubri",
+          "status": "in_progress",
+          "updated_at": "2026-09-29T04:12:48Z"
+        },
+        {
+          "key": "SUR-57",
+          "title": "[任务][day-5] 返工 batch4 六 P1 + P2 三项（SUR-53 清单，覆盖率 1",
+          "status": "todo",
+          "updated_at": "2026-09-29T04:12:05Z"
+        },
+        {
           "key": "SUR-56",
           "title": "[午会纪要] 2026-09-29",
-          "status": "todo",
-          "updated_at": "2026-09-29T04:00:13Z"
+          "status": "in_progress",
+          "updated_at": "2026-09-29T04:11:39Z"
         },
         {
           "key": "SUR-55",
@@ -67,18 +81,6 @@
           "title": "[评审][day-5] 独立评审 batch4 [37]–[48] 12 条 + 重点复核 4 项 ",
           "status": "done",
           "updated_at": "2026-09-29T00:01:33Z"
-        },
-        {
-          "key": "SUR-52",
-          "title": "[任务][day-5] 返工 batch3 三 P0 书目 + 2 P1 + P2 六项（SUR-4",
-          "status": "done",
-          "updated_at": "2026-09-28T20:25:54Z"
-        },
-        {
-          "key": "SUR-51",
-          "title": "[晨会纪要] 2026-09-29",
-          "status": "done",
-          "updated_at": "2026-09-28T20:23:21Z"
         }
       ]
     },
@@ -88,8 +90,8 @@
       "workspace": "ws-benchmark-loop",
       "machine": "张涛 Mac Studio",
       "machine_online": true,
-      "meeting_active": true,
-      "meeting_title": "[午会纪要] 2026-09-29",
+      "meeting_active": false,
+      "meeting_title": "",
       "progress": 34,
       "agents": [
         {
@@ -98,9 +100,10 @@
           "role": "GLM Scenarist",
           "model": "zai:glm-5.2",
           "agent_id": "6e6f1e24-3bc5-455a-85d2-cb3fb6c9a672",
-          "state": "meeting",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "BEN-39",
+          "issue_title": "[午会纪要] 2026-09-29",
+          "since": "2026-09-29T04:10:07Z"
         },
         {
           "name": "glm-runner",
@@ -108,9 +111,10 @@
           "role": "GLM Runner & Analyst",
           "model": "zai:glm-5.2",
           "agent_id": "bdaefa9b-7045-4264-95e4-1db664e353d0",
-          "state": "meeting",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "BEN-39",
+          "issue_title": "[午会纪要] 2026-09-29",
+          "since": "2026-09-29T04:10:08Z"
         },
         {
           "name": "deepseek-planner",
@@ -118,10 +122,9 @@
           "role": "DeepSeek Planner（小组 leader/PM）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "547cd361-ef50-4965-9477-bc659d8a1708",
-          "state": "working",
-          "issue": "BEN-39",
-          "issue_title": "[午会纪要] 2026-09-29",
-          "since": "2026-09-29T04:00:19Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "minimax-visual-diff",
@@ -129,47 +132,47 @@
           "role": "MiniMax 多模态视觉差分评审",
           "model": "minimax-cn:MiniMax-M3",
           "agent_id": "843ac45d-b5db-4f35-b07b-2e5754ec5a5f",
-          "state": "meeting",
+          "state": "idle",
           "issue": "",
           "issue_title": ""
         }
       ],
       "issue_counts": {
         "todo": 0,
-        "in_progress": 3,
-        "in_review": 0,
-        "done": 31
+        "in_progress": 2,
+        "in_review": 1,
+        "done": 32
       },
       "latest_issues": [
         {
+          "key": "BEN-37",
+          "title": "[任务·第1轮] AntennaPod A3 批次：Feed 详情/单集条目链路转 ready + ",
+          "status": "in_review",
+          "updated_at": "2026-09-29T04:13:36Z"
+        },
+        {
+          "key": "BEN-40",
+          "title": "[任务·第2轮] AntennaPod A4 批次（更多/设置 172 组）审核转 ready + ",
+          "status": "in_progress",
+          "updated_at": "2026-09-29T04:12:01Z"
+        },
+        {
           "key": "BEN-39",
           "title": "[午会纪要] 2026-09-29",
-          "status": "in_progress",
-          "updated_at": "2026-09-29T04:07:53Z"
+          "status": "done",
+          "updated_at": "2026-09-29T04:10:36Z"
         },
         {
           "key": "BEN-34",
           "title": "[任务·第3轮] Cofi 129 ready 场景全量双端回归第 1 轮 + DIFF-REPOR",
           "status": "in_progress",
-          "updated_at": "2026-09-29T01:02:00Z"
-        },
-        {
-          "key": "BEN-37",
-          "title": "[任务·第1轮] AntennaPod A3 批次：Feed 详情/单集条目链路转 ready + ",
-          "status": "in_progress",
-          "updated_at": "2026-09-29T00:24:56Z"
+          "updated_at": "2026-09-29T04:09:59Z"
         },
         {
           "key": "BEN-38",
           "title": "[巡检] 2026-09-29 leader Issue 状态巡检与催办",
           "status": "done",
           "updated_at": "2026-09-29T00:02:32Z"
-        },
-        {
-          "key": "BEN-36",
-          "title": "[早会纪要] 2026-09-29",
-          "status": "done",
-          "updated_at": "2026-09-28T20:16:31Z"
         }
       ]
     },
@@ -189,10 +192,9 @@
           "role": "Opus Analyzer",
           "model": "claude-opus-4-1",
           "agent_id": "2f32549c-87c7-4202-8f54-3af79a30afa0",
-          "state": "working",
-          "issue": "DWM-45",
-          "issue_title": "[任务] DiceRoller 试点差异分析初版（第2轮，离线）",
-          "since": "2026-09-29T04:06:49Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "deepseek-planner",
@@ -210,7 +212,7 @@
           "role": "DW 迁移执行小队队长",
           "model": "claude-opus-5-5",
           "agent_id": "c6ff7c69-0db4-4b35-ac81-dd00e5a53ba4",
-          "state": "working",
+          "state": "idle",
           "issue": "",
           "issue_title": ""
         },
@@ -248,22 +250,22 @@
       ],
       "issue_counts": {
         "todo": 0,
-        "in_progress": 2,
-        "in_review": 0,
+        "in_progress": 1,
+        "in_review": 1,
         "done": 34
       },
       "latest_issues": [
+        {
+          "key": "DWM-45",
+          "title": "[任务] DiceRoller 试点差异分析初版（第2轮，离线）",
+          "status": "in_review",
+          "updated_at": "2026-09-29T04:13:24Z"
+        },
         {
           "key": "DWM-44",
           "title": "[午会纪要] 2026-09-29",
           "status": "done",
           "updated_at": "2026-09-29T04:09:40Z"
-        },
-        {
-          "key": "DWM-45",
-          "title": "[任务] DiceRoller 试点差异分析初版（第2轮，离线）",
-          "status": "in_progress",
-          "updated_at": "2026-09-29T04:08:18Z"
         },
         {
           "key": "DWM-37",
@@ -301,10 +303,9 @@
           "role": "IPD-PM 产品经理",
           "model": "",
           "agent_id": "1764c131-5c09-48cb-aa48-3177d5256dbb",
-          "state": "working",
-          "issue": "IPD-75",
-          "issue_title": "[PRD·第2轮] REQ-005 下一场景预研 + minimax-uijudge role.md 补全",
-          "since": "2026-09-29T04:06:53Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "hermes-sa",
@@ -323,10 +324,9 @@
           "role": "IPD-SE 系统工程师",
           "model": "",
           "agent_id": "b874ba6b-80e6-45c6-a8c6-aedc6f2b326b",
-          "state": "working",
-          "issue": "IPD-73",
-          "issue_title": "[SE·第2轮] REQ-004 追踪矩阵设计实体列 + REQ-003 测试用例列回挂 + spec-engineer",
-          "since": "2026-09-29T04:06:47Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "hermes-dev",
@@ -345,10 +345,9 @@
           "role": "IPD-Tester 测试工程师",
           "model": "",
           "agent_id": "86df9f14-a2cd-46d9-ad15-dbe8606ebd73",
-          "state": "working",
-          "issue": "IPD-74",
-          "issue_title": "[测试·第2轮] REQ-004 分布式流转双端差分用例清单 + C4 rubric",
-          "since": "2026-09-29T04:06:50Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "hermes-rm",
@@ -382,17 +381,29 @@
         }
       ],
       "issue_counts": {
-        "todo": 2,
-        "in_progress": 3,
-        "in_review": 0,
+        "todo": 1,
+        "in_progress": 1,
+        "in_review": 3,
         "done": 63
       },
       "latest_issues": [
         {
+          "key": "IPD-73",
+          "title": "[SE·第2轮] REQ-004 追踪矩阵设计实体列 + REQ-003 测试用例列回挂 + spe",
+          "status": "in_review",
+          "updated_at": "2026-09-29T04:14:10Z"
+        },
+        {
+          "key": "IPD-75",
+          "title": "[PRD·第2轮] REQ-005 下一场景预研 + minimax-uijudge role.md",
+          "status": "in_review",
+          "updated_at": "2026-09-29T04:13:17Z"
+        },
+        {
           "key": "IPD-74",
           "title": "[测试·第2轮] REQ-004 分布式流转双端差分用例清单 + C4 rubric",
-          "status": "in_progress",
-          "updated_at": "2026-09-29T04:09:58Z"
+          "status": "in_review",
+          "updated_at": "2026-09-29T04:12:35Z"
         },
         {
           "key": "IPD-70",
@@ -401,22 +412,10 @@
           "updated_at": "2026-09-29T04:07:45Z"
         },
         {
-          "key": "IPD-73",
-          "title": "[SE·第2轮] REQ-004 追踪矩阵设计实体列 + REQ-003 测试用例列回挂 + spe",
-          "status": "in_progress",
-          "updated_at": "2026-09-29T04:07:22Z"
-        },
-        {
           "key": "IPD-72",
           "title": "[双端编码·第2轮] REQ-004 分布式流转双端编码（Android 单机基线 + 鸿蒙 Dis",
           "status": "in_progress",
           "updated_at": "2026-09-29T04:07:21Z"
-        },
-        {
-          "key": "IPD-75",
-          "title": "[PRD·第2轮] REQ-005 下一场景预研 + minimax-uijudge role.md",
-          "status": "todo",
-          "updated_at": "2026-09-29T04:06:52Z"
         }
       ]
     }
