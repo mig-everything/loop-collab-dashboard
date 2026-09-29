@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T12:10:07Z",
+  "generated_at": "2026-09-29T12:14:17Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -43,41 +43,41 @@
         }
       ],
       "issue_counts": {
-        "todo": 5,
-        "in_progress": 1,
+        "todo": 2,
+        "in_progress": 3,
         "in_review": 0,
-        "done": 42
+        "done": 43
       },
       "latest_issues": [
         {
-          "key": "SUR-64",
-          "title": "[流程优化] 2026-09-29 晚会产出 1 项（goals P0 变更巡检检测），次日验证",
-          "status": "backlog",
-          "updated_at": "2026-09-29T12:10:08Z"
-        },
-        {
-          "key": "SUR-63",
-          "title": "[评审][day-5] 新大纲内部一致性评审 + batch4 返工独立复核（SUR-57）+ Ru",
-          "status": "todo",
-          "updated_at": "2026-09-29T12:10:05Z"
+          "key": "SUR-61",
+          "title": "[晚会日报] 2026-09-29",
+          "status": "done",
+          "updated_at": "2026-09-29T12:14:19Z"
         },
         {
           "key": "SUR-62",
           "title": "[任务][day-5] 迁移第 2 章至 LaTeX（02-methodology.tex，RQ1-",
-          "status": "todo",
-          "updated_at": "2026-09-29T12:09:56Z"
-        },
-        {
-          "key": "SUR-61",
-          "title": "[晚会日报] 2026-09-29",
-          "status": "todo",
-          "updated_at": "2026-09-29T12:00:19Z"
+          "status": "in_progress",
+          "updated_at": "2026-09-29T12:13:22Z"
         },
         {
           "key": "SUR-60",
           "title": "[目标更新] 任务1 新大纲+TSE英文LaTeX终稿（2026-09-29 负责人，全员对齐）",
           "status": "in_progress",
-          "updated_at": "2026-09-29T10:54:22Z"
+          "updated_at": "2026-09-29T12:10:54Z"
+        },
+        {
+          "key": "SUR-63",
+          "title": "[评审][day-5] 新大纲内部一致性评审 + batch4 返工独立复核（SUR-57）+ Ru",
+          "status": "in_progress",
+          "updated_at": "2026-09-29T12:10:34Z"
+        },
+        {
+          "key": "SUR-64",
+          "title": "[流程优化] 2026-09-29 晚会产出 1 项（goals P0 变更巡检检测），次日验证",
+          "status": "backlog",
+          "updated_at": "2026-09-29T12:10:08Z"
         }
       ]
     },
@@ -180,8 +180,8 @@
       "workspace": "ws-dw-migration-loop",
       "machine": "奕棣 MacBook",
       "machine_online": true,
-      "meeting_active": true,
-      "meeting_title": "[晚会日报] 2026-09-29",
+      "meeting_active": false,
+      "meeting_title": "",
       "progress": 0,
       "agents": [
         {
@@ -190,7 +190,7 @@
           "role": "Opus Analyzer",
           "model": "claude-opus-4-1",
           "agent_id": "2f32549c-87c7-4202-8f54-3af79a30afa0",
-          "state": "meeting",
+          "state": "idle",
           "issue": "",
           "issue_title": ""
         },
@@ -203,7 +203,7 @@
           "state": "working",
           "issue": "DWM-59",
           "issue_title": "[晚会日报] 2026-09-29",
-          "since": "2026-09-29T12:00:23Z"
+          "since": "2026-09-29T12:12:41Z"
         },
         {
           "name": "dw-lead",
@@ -211,10 +211,9 @@
           "role": "DW 迁移执行小队队长",
           "model": "claude-opus-5-5",
           "agent_id": "c6ff7c69-0db4-4b35-ac81-dd00e5a53ba4",
-          "state": "working",
-          "issue": "DWM-59",
-          "issue_title": "[晚会日报] 2026-09-29",
-          "since": "2026-09-29T12:10:14Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "exec-runner",
@@ -222,7 +221,7 @@
           "role": "运行员",
           "model": "claude-opus-5-5",
           "agent_id": "1c3481f5-135b-4959-9daa-c510c076d494",
-          "state": "meeting",
+          "state": "idle",
           "issue": "",
           "issue_title": ""
         },
@@ -232,7 +231,7 @@
           "role": "验证员",
           "model": "claude-opus-5-5",
           "agent_id": "69822c63-0dcc-4f3e-875d-7b300d437623",
-          "state": "meeting",
+          "state": "idle",
           "issue": "",
           "issue_title": ""
         },
@@ -250,16 +249,16 @@
       ],
       "issue_counts": {
         "todo": 3,
-        "in_progress": 2,
+        "in_progress": 1,
         "in_review": 0,
-        "done": 46
+        "done": 47
       },
       "latest_issues": [
         {
           "key": "DWM-59",
           "title": "[晚会日报] 2026-09-29",
-          "status": "in_progress",
-          "updated_at": "2026-09-29T12:10:17Z"
+          "status": "done",
+          "updated_at": "2026-09-29T12:12:24Z"
         },
         {
           "key": "DWM-46",
@@ -295,7 +294,7 @@
       "machine_online": true,
       "meeting_active": false,
       "meeting_title": "",
-      "progress": 35,
+      "progress": 40,
       "agents": [
         {
           "name": "hermes-pm",
@@ -366,10 +365,9 @@
           "role": "DeepSeek Planner（小组 leader/PM ",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
-          "state": "working",
-          "issue": "IPD-78",
-          "issue_title": "[晚会日报] 2026-09-29",
-          "since": "2026-09-29T12:00:33Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "minimax-uijudge",
@@ -383,12 +381,18 @@
         }
       ],
       "issue_counts": {
-        "todo": 4,
+        "todo": 3,
         "in_progress": 0,
         "in_review": 0,
-        "done": 70
+        "done": 71
       },
       "latest_issues": [
+        {
+          "key": "IPD-78",
+          "title": "[晚会日报] 2026-09-29",
+          "status": "done",
+          "updated_at": "2026-09-29T12:11:41Z"
+        },
         {
           "key": "IPD-81",
           "title": "[PRD·第3轮] REQ-005 单位换算器正式 PRD v1.0 + TR-Req 发起（her",
@@ -412,12 +416,6 @@
           "title": "[双端编码·第2轮] REQ-004 分布式流转双端编码（Android 单机基线 + 鸿蒙 Dis",
           "status": "done",
           "updated_at": "2026-09-29T12:08:32Z"
-        },
-        {
-          "key": "IPD-78",
-          "title": "[晚会日报] 2026-09-29",
-          "status": "todo",
-          "updated_at": "2026-09-29T12:00:30Z"
         }
       ]
     }
