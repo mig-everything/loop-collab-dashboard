@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T00:10:51Z",
+  "generated_at": "2026-09-29T00:25:17Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -97,10 +97,9 @@
           "role": "GLM Scenarist",
           "model": "zai:glm-5.2",
           "agent_id": "6e6f1e24-3bc5-455a-85d2-cb3fb6c9a672",
-          "state": "working",
-          "issue": "BEN-37",
-          "issue_title": "[任务·第1轮] AntennaPod A3 批次：Feed 详情/单集条目链路转 ready + bindings +",
-          "since": "2026-09-29T00:02:18Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "glm-runner",
@@ -142,16 +141,16 @@
       },
       "latest_issues": [
         {
+          "key": "BEN-37",
+          "title": "[任务·第1轮] AntennaPod A3 批次：Feed 详情/单集条目链路转 ready + ",
+          "status": "in_progress",
+          "updated_at": "2026-09-29T00:24:56Z"
+        },
+        {
           "key": "BEN-38",
           "title": "[巡检] 2026-09-29 leader Issue 状态巡检与催办",
           "status": "done",
           "updated_at": "2026-09-29T00:02:32Z"
-        },
-        {
-          "key": "BEN-37",
-          "title": "[任务·第1轮] AntennaPod A3 批次：Feed 详情/单集条目链路转 ready + ",
-          "status": "in_progress",
-          "updated_at": "2026-09-29T00:02:17Z"
         },
         {
           "key": "BEN-34",
