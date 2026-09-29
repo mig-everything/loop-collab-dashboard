@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T14:47:56Z",
+  "generated_at": "2026-09-29T14:52:51Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -12,122 +12,72 @@
       "progress": 47,
       "agents": [
         {
-          "name": "hermes-pm",
-          "emoji": "🚀",
-          "role": "IPD-PM 产品经理",
+          "name": "gpt-writer",
+          "emoji": "🧠",
+          "role": "GPT Writer（执笔者）",
           "model": "",
-          "agent_id": "1764c131-5c09-48cb-aa48-3177d5256dbb",
+          "agent_id": "58ed4647-32dd-4ca1-8ddc-194b975d6024",
           "state": "idle",
           "issue": "",
           "issue_title": ""
         },
         {
-          "name": "hermes-sa",
-          "emoji": "🔥",
-          "role": "IPD-SA 解决方案架构师",
-          "model": "volc:qwen3.8-max",
-          "agent_id": "3e4373ef-a262-4b28-ab2a-818861fc9624",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
-        },
-        {
-          "name": "hermes-se",
-          "emoji": "⚡",
-          "role": "IPD-SE 系统工程师",
-          "model": "volc:qwen3.8-max",
-          "agent_id": "b874ba6b-80e6-45c6-a8c6-aedc6f2b326b",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
-        },
-        {
-          "name": "hermes-dev",
-          "emoji": "🐨",
-          "role": "IPD-Dev 开发工程师",
+          "name": "kimi-adversary",
+          "emoji": "🦋",
+          "role": "Kimi Adversarial Reviewer（对抗评审",
           "model": "",
-          "agent_id": "44fcec25-d8b3-4af6-b206-1774a64677ce",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
-        },
-        {
-          "name": "hermes-tester",
-          "emoji": "🔥",
-          "role": "IPD-Tester 测试工程师",
-          "model": "",
-          "agent_id": "86df9f14-a2cd-46d9-ad15-dbe8606ebd73",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
-        },
-        {
-          "name": "hermes-rm",
-          "emoji": "⚡",
-          "role": "IPD-RM 发布经理",
-          "model": "",
-          "agent_id": "78156461-9644-478e-9c80-53cd18e25e33",
+          "agent_id": "6e530cc6-6b9d-4398-936d-df9c13468125",
           "state": "idle",
           "issue": "",
           "issue_title": ""
         },
         {
           "name": "deepseek-planner",
-          "emoji": "🦋",
-          "role": "DeepSeek Planner（小组 leader/PM ",
+          "emoji": "🐸",
+          "role": "DeepSeek Task Planner（任务规划+总结）",
           "model": "deepseek:deepseek-v4-pro",
-          "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
-        },
-        {
-          "name": "minimax-uijudge",
-          "emoji": "🐧",
-          "role": "MiniMax 多模态 UI 视觉评审",
-          "model": "minimax-cn:MiniMax-M3",
-          "agent_id": "97f55294-90e0-4556-93af-a1cf44889574",
+          "agent_id": "04a4e04e-59d5-4f3a-8a16-acf99b80a493",
           "state": "idle",
           "issue": "",
           "issue_title": ""
         }
       ],
       "issue_counts": {
-        "todo": 3,
-        "in_progress": 0,
-        "in_review": 2,
-        "done": 61
+        "todo": 2,
+        "in_progress": 1,
+        "in_review": 1,
+        "done": 44
       },
       "latest_issues": [
         {
-          "key": "IPD-83",
-          "title": "[环境·负责人授权] Mac Mini hermes 新增 volc(qwen3.8-max)/za",
+          "key": "SUR-63",
+          "title": "[评审][day-5] 新大纲内部一致性评审 + batch4 返工独立复核（SUR-57）+ Ru",
+          "status": "in_review",
+          "updated_at": "2026-09-29T12:26:16Z"
+        },
+        {
+          "key": "SUR-62",
+          "title": "[任务][day-5] 迁移第 2 章至 LaTeX（02-methodology.tex，RQ1-",
           "status": "done",
-          "updated_at": "2026-09-29T13:13:47Z"
+          "updated_at": "2026-09-29T12:23:10Z"
         },
         {
-          "key": "IPD-84",
-          "title": "【冒烟测试】hermes-sa/hermes-se 切换 volc:qwen3.8-max 验证（验",
-          "status": "todo",
-          "updated_at": "2026-09-29T13:07:44Z"
+          "key": "SUR-60",
+          "title": "[目标更新] 任务1 新大纲+TSE英文LaTeX终稿（2026-09-29 负责人，全员对齐）",
+          "status": "in_progress",
+          "updated_at": "2026-09-29T12:14:48Z"
         },
         {
-          "key": "IPD-79",
-          "title": "[取证·第3轮] REQ-004 分布式流转鸿蒙单机运行取证（hermes-dev）",
-          "status": "todo",
-          "updated_at": "2026-09-29T12:28:14Z"
+          "key": "SUR-61",
+          "title": "[晚会日报] 2026-09-29",
+          "status": "done",
+          "updated_at": "2026-09-29T12:14:32Z"
         },
         {
-          "key": "IPD-80",
-          "title": "[TR-Accept·第3轮] REQ-004 分布式流转双端验收收口（hermes-tester ",
-          "status": "in_review",
-          "updated_at": "2026-09-29T12:17:39Z"
-        },
-        {
-          "key": "IPD-81",
-          "title": "[PRD·第3轮] REQ-005 单位换算器正式 PRD v1.0 + TR-Req 发起（her",
-          "status": "in_review",
-          "updated_at": "2026-09-29T12:16:16Z"
+          "key": "SUR-64",
+          "title": "[流程优化] 2026-09-29 晚会产出 1 项（goals P0 变更巡检检测），次日验证",
+          "status": "backlog",
+          "updated_at": "2026-09-29T12:10:08Z"
         }
       ],
       "progress_note": "day-4 晨 37% → 午 42% → 晚 44% → 夜 47%",
@@ -306,7 +256,7 @@
           "key": "DWM-40",
           "title": "[DW迁移任务单] Omni-Notes 迁移 · 清单+迁移 · 清单生成中 续4·r71·637",
           "status": "in_progress",
-          "updated_at": "2026-09-29T14:46:22Z"
+          "updated_at": "2026-09-29T14:51:31Z"
         },
         {
           "key": "DWM-46",
@@ -335,9 +285,9 @@
       ],
       "order": {
         "key": "DWM-40",
-        "title": "[DW迁移任务单] Omni-Notes 迁移 · 清单+迁移 · 清单生成中 续4·r71·637/800步·5页/365项 · 迁移中 2/6 · 清单5.2h/10h 迁移0",
+        "title": "[DW迁移任务单] Omni-Notes 迁移 · 清单+迁移 · 清单生成中 续4·r71·637/800步·5页/389项 · 迁移中 2/6 · 清单5.3h/10h 迁移0",
         "status": "in_progress",
-        "updated_at": "2026-09-29T14:46:22Z"
+        "updated_at": "2026-09-29T14:51:31Z"
       },
       "progress_note": "10 个应用：完成 1、进行中 0、暂停 1、未开始 8"
     },
