@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T10:53:39Z",
+  "generated_at": "2026-09-29T10:57:33Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -17,10 +17,9 @@
           "role": "GPT Writer（执笔者）",
           "model": "",
           "agent_id": "58ed4647-32dd-4ca1-8ddc-194b975d6024",
-          "state": "working",
-          "issue": "SUR-60",
-          "issue_title": "[目标更新] 任务1 新大纲+TSE英文LaTeX终稿（2026-09-29 负责人，全员对齐）",
-          "since": "2026-09-29T10:50:38Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "kimi-adversary",
@@ -54,7 +53,7 @@
           "key": "SUR-60",
           "title": "[目标更新] 任务1 新大纲+TSE英文LaTeX终稿（2026-09-29 负责人，全员对齐）",
           "status": "in_progress",
-          "updated_at": "2026-09-29T10:52:29Z"
+          "updated_at": "2026-09-29T10:54:22Z"
         },
         {
           "key": "SUR-57",
