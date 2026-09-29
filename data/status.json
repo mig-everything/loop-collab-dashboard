@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T06:24:45Z",
+  "generated_at": "2026-09-29T06:28:49Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -210,7 +210,7 @@
           "state": "working",
           "issue": "DWM-46",
           "issue_title": "[流程改进] v2.3：以目标定流程（DW 优化证据 > 经验与语料 > 应用交付），小队决策并实施（Cofi 收口后）",
-          "since": "2026-09-29T06:25:07Z"
+          "since": "2026-09-29T06:29:07Z"
         },
         {
           "name": "exec-runner",
@@ -221,7 +221,7 @@
           "state": "working",
           "issue": "DWM-46",
           "issue_title": "[流程改进] v2.3：以目标定流程（DW 优化证据 > 经验与语料 > 应用交付），小队决策并实施（Cofi 收口后）",
-          "since": "2026-09-29T06:23:53Z"
+          "since": "2026-09-29T06:26:16Z"
         },
         {
           "name": "exec-verifier",
@@ -256,7 +256,7 @@
           "key": "DWM-46",
           "title": "[流程改进] v2.3：以目标定流程（DW 优化证据 > 经验与语料 > 应用交付），小队决策并实施",
           "status": "in_progress",
-          "updated_at": "2026-09-29T06:25:05Z"
+          "updated_at": "2026-09-29T06:29:05Z"
         },
         {
           "key": "DWM-37",
