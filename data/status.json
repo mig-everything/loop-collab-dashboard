@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-29T13:15:46Z",
+  "generated_at": "2026-09-29T13:17:59Z",
   "tasks": [
     {
       "id": "task1-survey",
       "title": "任务1 · 应用迁移综述",
       "workspace": "ws-survey-loop",
-      "machine": "张涛 MacBook",
-      "machine_online": false,
+      "machine": "JordanZTdeMacBook-Pro",
+      "machine_online": true,
       "meeting_active": false,
       "meeting_title": "",
       "progress": 47,
@@ -17,7 +17,7 @@
           "role": "GPT Writer（执笔者）",
           "model": "",
           "agent_id": "58ed4647-32dd-4ca1-8ddc-194b975d6024",
-          "state": "offline",
+          "state": "idle",
           "issue": "",
           "issue_title": ""
         },
@@ -27,7 +27,7 @@
           "role": "Kimi Adversarial Reviewer（对抗评审",
           "model": "",
           "agent_id": "6e530cc6-6b9d-4398-936d-df9c13468125",
-          "state": "offline",
+          "state": "idle",
           "issue": "",
           "issue_title": ""
         },
@@ -37,7 +37,7 @@
           "role": "DeepSeek Task Planner（任务规划+总结）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "04a4e04e-59d5-4f3a-8a16-acf99b80a493",
-          "state": "offline",
+          "state": "idle",
           "issue": "",
           "issue_title": ""
         }
@@ -80,7 +80,8 @@
           "updated_at": "2026-09-29T12:10:08Z"
         }
       ],
-      "progress_note": "day-4 晨 37% → 午 42% → 晚 44% → 夜 47%"
+      "progress_note": "day-4 晨 37% → 午 42% → 晚 44% → 夜 47%",
+      "progress_from": "last"
     },
     {
       "id": "task2-benchmark",
@@ -136,11 +137,17 @@
       ],
       "issue_counts": {
         "todo": 0,
-        "in_progress": 1,
-        "in_review": 1,
+        "in_progress": 0,
+        "in_review": 2,
         "done": 41
       },
       "latest_issues": [
+        {
+          "key": "BEN-46",
+          "title": "[任务·第3轮] Cofi 129 ready 全量双端回归第 2 轮（checkpoint 化）+",
+          "status": "in_review",
+          "updated_at": "2026-09-29T13:18:18Z"
+        },
         {
           "key": "BEN-45",
           "title": "[任务·第3轮] AntennaPod A5 批次：更多/设置剩余可溯源组+其他非设备组转 read",
@@ -164,12 +171,6 @@
           "title": "[环境·负责人授权] glm-scenarist/glm-runner 切换 GLM-5.3 + 更",
           "status": "done",
           "updated_at": "2026-09-29T12:23:37Z"
-        },
-        {
-          "key": "BEN-44",
-          "title": "[晚会日报] 2026-09-29",
-          "status": "done",
-          "updated_at": "2026-09-29T12:17:48Z"
         }
       ]
     },
