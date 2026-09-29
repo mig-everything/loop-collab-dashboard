@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T01:28:10Z",
+  "generated_at": "2026-09-29T01:35:35Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -240,7 +240,7 @@
           "state": "working",
           "issue": "DWM-43",
           "issue_title": "[流程修正] DW 执行流程 v2.2：套件锁误报 / 时间盒放宽 / 超时后照常验证修复 / 进度同步 / 清单暂停命",
-          "since": "2026-09-29T01:09:26Z"
+          "since": "2026-09-29T01:35:33Z"
         }
       ],
       "issue_counts": {
@@ -254,19 +254,19 @@
           "key": "DWM-43",
           "title": "[流程修正] DW 执行流程 v2.2：套件锁误报 / 时间盒放宽 / 超时后照常验证修复 / 进度",
           "status": "in_progress",
-          "updated_at": "2026-09-29T01:11:07Z"
+          "updated_at": "2026-09-29T01:35:32Z"
+        },
+        {
+          "key": "DWM-40",
+          "title": "[DW迁移任务单] Omni-Notes 迁移 · 暂停（负责人：等 DWM-43 与 Cofi 补",
+          "status": "blocked",
+          "updated_at": "2026-09-29T01:33:37Z"
         },
         {
           "key": "DWM-37",
           "title": "[DW迁移任务单] Cofi 迁移 · 补做验证与修复（排队：等 DWM-43）",
           "status": "todo",
           "updated_at": "2026-09-29T01:10:30Z"
-        },
-        {
-          "key": "DWM-40",
-          "title": "[DW迁移任务单] Omni-Notes 迁移 · 暂停（负责人：等 DWM-43 与 Cofi 补",
-          "status": "blocked",
-          "updated_at": "2026-09-29T01:08:20Z"
         },
         {
           "key": "DWM-42",
