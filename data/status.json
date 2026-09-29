@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T05:38:13Z",
+  "generated_at": "2026-09-29T05:42:36Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -107,10 +107,9 @@
           "role": "GLM Runner & Analyst",
           "model": "zai:glm-5.2",
           "agent_id": "bdaefa9b-7045-4264-95e4-1db664e353d0",
-          "state": "working",
-          "issue": "BEN-34",
-          "issue_title": "[任务·第3轮] Cofi 129 ready 场景全量双端回归第 1 轮 + DIFF-REPORT v4 全量版",
-          "since": "2026-09-29T04:10:07Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "deepseek-planner",
@@ -135,11 +134,17 @@
       ],
       "issue_counts": {
         "todo": 0,
-        "in_progress": 2,
-        "in_review": 1,
+        "in_progress": 1,
+        "in_review": 2,
         "done": 32
       },
       "latest_issues": [
+        {
+          "key": "BEN-34",
+          "title": "[任务·第3轮] Cofi 129 ready 场景全量双端回归第 1 轮 + DIFF-REPOR",
+          "status": "in_review",
+          "updated_at": "2026-09-29T05:38:52Z"
+        },
         {
           "key": "BEN-39",
           "title": "[午会纪要] 2026-09-29",
@@ -157,12 +162,6 @@
           "title": "[任务·第1轮] AntennaPod A3 批次：Feed 详情/单集条目链路转 ready + ",
           "status": "in_review",
           "updated_at": "2026-09-29T04:16:59Z"
-        },
-        {
-          "key": "BEN-34",
-          "title": "[任务·第3轮] Cofi 129 ready 场景全量双端回归第 1 轮 + DIFF-REPOR",
-          "status": "in_progress",
-          "updated_at": "2026-09-29T04:09:59Z"
         },
         {
           "key": "BEN-38",
