@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T04:22:52Z",
+  "generated_at": "2026-09-29T04:27:02Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -27,10 +27,9 @@
           "role": "Kimi Adversarial Reviewer（对抗评审",
           "model": "",
           "agent_id": "6e530cc6-6b9d-4398-936d-df9c13468125",
-          "state": "working",
-          "issue": "SUR-58",
-          "issue_title": "[评审][day-5] 独立复核 batch3 返工落地（SUR-52 完整 DoD）+ Rubric 环比",
-          "since": "2026-09-29T04:12:15Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "deepseek-planner",
@@ -45,11 +44,17 @@
       ],
       "issue_counts": {
         "todo": 1,
-        "in_progress": 2,
-        "in_review": 0,
+        "in_progress": 1,
+        "in_review": 1,
         "done": 39
       },
       "latest_issues": [
+        {
+          "key": "SUR-58",
+          "title": "[评审][day-5] 独立复核 batch3 返工落地（SUR-52 完整 DoD）+ Rubri",
+          "status": "in_review",
+          "updated_at": "2026-09-29T04:23:16Z"
+        },
         {
           "key": "SUR-57",
           "title": "[任务][day-5] 返工 batch4 六 P1 + P2 三项（SUR-53 清单，覆盖率 1",
@@ -61,12 +66,6 @@
           "title": "[午会纪要] 2026-09-29",
           "status": "done",
           "updated_at": "2026-09-29T04:17:27Z"
-        },
-        {
-          "key": "SUR-58",
-          "title": "[评审][day-5] 独立复核 batch3 返工落地（SUR-52 完整 DoD）+ Rubri",
-          "status": "in_progress",
-          "updated_at": "2026-09-29T04:12:48Z"
         },
         {
           "key": "SUR-55",
@@ -98,10 +97,9 @@
           "role": "GLM Scenarist",
           "model": "zai:glm-5.2",
           "agent_id": "6e6f1e24-3bc5-455a-85d2-cb3fb6c9a672",
-          "state": "working",
-          "issue": "BEN-39",
-          "issue_title": "[午会纪要] 2026-09-29",
-          "since": "2026-09-29T04:10:07Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "glm-runner",
@@ -254,6 +252,12 @@
       },
       "latest_issues": [
         {
+          "key": "DWM-37",
+          "title": "[DW迁移任务单] Cofi 迁移 · 修复 wave 2/4",
+          "status": "in_progress",
+          "updated_at": "2026-09-29T04:27:31Z"
+        },
+        {
           "key": "DWM-45",
           "title": "[任务] DiceRoller 试点差异分析初版（第2轮，离线）",
           "status": "in_review",
@@ -264,12 +268,6 @@
           "title": "[午会纪要] 2026-09-29",
           "status": "done",
           "updated_at": "2026-09-29T04:09:40Z"
-        },
-        {
-          "key": "DWM-37",
-          "title": "[DW迁移任务单] Cofi 迁移 · 修复 wave 2/4",
-          "status": "in_progress",
-          "updated_at": "2026-09-29T04:07:59Z"
         },
         {
           "key": "DWM-43",
