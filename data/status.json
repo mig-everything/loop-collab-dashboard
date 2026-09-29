@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T12:54:59Z",
+  "generated_at": "2026-09-29T13:03:05Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -372,7 +372,7 @@
           "state": "working",
           "issue": "IPD-83",
           "issue_title": "[环境·负责人授权] Mac Mini hermes 新增 volc(qwen3.8-max)/zai(glm-5.3)",
-          "since": "2026-09-29T12:43:03Z"
+          "since": "2026-09-29T13:01:21Z"
         },
         {
           "name": "minimax-uijudge",
@@ -386,17 +386,17 @@
         }
       ],
       "issue_counts": {
-        "todo": 3,
+        "todo": 2,
         "in_progress": 0,
-        "in_review": 2,
+        "in_review": 3,
         "done": 60
       },
       "latest_issues": [
         {
           "key": "IPD-83",
           "title": "[环境·负责人授权] Mac Mini hermes 新增 volc(qwen3.8-max)/za",
-          "status": "todo",
-          "updated_at": "2026-09-29T12:43:52Z"
+          "status": "in_review",
+          "updated_at": "2026-09-29T13:01:00Z"
         },
         {
           "key": "IPD-79",
