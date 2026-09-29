@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T20:19:12Z",
+  "generated_at": "2026-09-29T20:22:58Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -17,10 +17,9 @@
           "role": "GPT Writer（执笔者）",
           "model": "",
           "agent_id": "58ed4647-32dd-4ca1-8ddc-194b975d6024",
-          "state": "working",
-          "issue": "SUR-67",
-          "issue_title": "[任务][day-6] 迁移第 3 章至 LaTeX（03-pipeline.tex 五阶段）+ 落地 SUR-63 三",
-          "since": "2026-09-29T20:09:17Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "kimi-adversary",
@@ -28,10 +27,9 @@
           "role": "Kimi Adversarial Reviewer（对抗评审",
           "model": "",
           "agent_id": "6e530cc6-6b9d-4398-936d-df9c13468125",
-          "state": "working",
-          "issue": "SUR-68",
-          "issue_title": "[评审][day-6] 事后对抗评审英文第 2 章 + refs.bib 骨架（SUR-62 提交）",
-          "since": "2026-09-29T20:09:20Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "deepseek-planner",
@@ -46,22 +44,28 @@
       ],
       "issue_counts": {
         "todo": 0,
-        "in_progress": 2,
-        "in_review": 0,
-        "done": 50
+        "in_progress": 0,
+        "in_review": 1,
+        "done": 51
       },
       "latest_issues": [
+        {
+          "key": "SUR-67",
+          "title": "[任务][day-6] 迁移第 3 章至 LaTeX（03-pipeline.tex 五阶段）+ 落",
+          "status": "done",
+          "updated_at": "2026-09-29T20:21:49Z"
+        },
+        {
+          "key": "SUR-68",
+          "title": "[评审][day-6] 事后对抗评审英文第 2 章 + refs.bib 骨架（SUR-62 提交）",
+          "status": "in_review",
+          "updated_at": "2026-09-29T20:19:29Z"
+        },
         {
           "key": "SUR-66",
           "title": "[晨会纪要] 2026-09-30",
           "status": "done",
           "updated_at": "2026-09-29T20:14:34Z"
-        },
-        {
-          "key": "SUR-67",
-          "title": "[任务][day-6] 迁移第 3 章至 LaTeX（03-pipeline.tex 五阶段）+ 落",
-          "status": "in_progress",
-          "updated_at": "2026-09-29T20:12:19Z"
         },
         {
           "key": "SUR-54",
@@ -74,12 +78,6 @@
           "title": "[流程优化] 2026-09-29 晚会产出 1 项（goals P0 变更巡检检测），次日验证",
           "status": "done",
           "updated_at": "2026-09-29T20:11:00Z"
-        },
-        {
-          "key": "SUR-68",
-          "title": "[评审][day-6] 事后对抗评审英文第 2 章 + refs.bib 骨架（SUR-62 提交）",
-          "status": "in_progress",
-          "updated_at": "2026-09-29T20:09:43Z"
         }
       ],
       "progress_note": "day-4 晨 37% → 午 42% → 晚 44% → 夜 47%",
