@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T20:03:54Z",
+  "generated_at": "2026-09-29T20:07:40Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -90,9 +90,9 @@
       "workspace": "ws-benchmark-loop",
       "machine": "张涛 Mac Studio",
       "machine_online": true,
-      "meeting_active": true,
-      "meeting_title": "[早会纪要] 2026-09-30",
-      "progress": 35,
+      "meeting_active": false,
+      "meeting_title": "",
+      "progress": 38,
       "agents": [
         {
           "name": "gpt-scenarist",
@@ -100,9 +100,10 @@
           "role": "GPT Scenarist",
           "model": "",
           "agent_id": "6e6f1e24-3bc5-455a-85d2-cb3fb6c9a672",
-          "state": "meeting",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "BEN-51",
+          "issue_title": "[任务·第1轮] AntennaPod A6 批次：更多/设置+首页剩余非设备可溯源组转 ready + binding",
+          "since": "2026-09-29T20:05:53Z"
         },
         {
           "name": "glm-runner",
@@ -110,9 +111,10 @@
           "role": "GLM Runner & Analyst",
           "model": "",
           "agent_id": "bdaefa9b-7045-4264-95e4-1db664e353d0",
-          "state": "meeting",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "BEN-52",
+          "issue_title": "[任务·第1轮] AntennaPod 133 ready 首批双端回归（Android oracle 先行）+ 差分 ",
+          "since": "2026-09-29T20:05:56Z"
         },
         {
           "name": "deepseek-planner",
@@ -120,10 +122,9 @@
           "role": "DeepSeek Planner（小组 leader/PM）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "547cd361-ef50-4965-9477-bc659d8a1708",
-          "state": "working",
-          "issue": "BEN-50",
-          "issue_title": "[早会纪要] 2026-09-30",
-          "since": "2026-09-29T20:00:20Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "minimax-visual-diff",
@@ -131,23 +132,35 @@
           "role": "MiniMax 多模态视觉差分评审",
           "model": "minimax-cn:MiniMax-M3",
           "agent_id": "843ac45d-b5db-4f35-b07b-2e5754ec5a5f",
-          "state": "meeting",
+          "state": "idle",
           "issue": "",
           "issue_title": ""
         }
       ],
       "issue_counts": {
-        "todo": 0,
+        "todo": 1,
         "in_progress": 1,
         "in_review": 0,
-        "done": 44
+        "done": 45
       },
       "latest_issues": [
         {
           "key": "BEN-50",
           "title": "[早会纪要] 2026-09-30",
+          "status": "done",
+          "updated_at": "2026-09-29T20:06:47Z"
+        },
+        {
+          "key": "BEN-52",
+          "title": "[任务·第1轮] AntennaPod 133 ready 首批双端回归（Android oracl",
           "status": "in_progress",
-          "updated_at": "2026-09-29T20:00:45Z"
+          "updated_at": "2026-09-29T20:06:17Z"
+        },
+        {
+          "key": "BEN-51",
+          "title": "[任务·第1轮] AntennaPod A6 批次：更多/设置+首页剩余非设备可溯源组转 ready",
+          "status": "todo",
+          "updated_at": "2026-09-29T20:05:53Z"
         },
         {
           "key": "BEN-49",
@@ -160,18 +173,6 @@
           "title": "[任务·第3轮] AntennaPod A5 批次：更多/设置剩余可溯源组+其他非设备组转 read",
           "status": "done",
           "updated_at": "2026-09-29T16:02:08Z"
-        },
-        {
-          "key": "BEN-46",
-          "title": "[任务·第3轮] Cofi 129 ready 全量双端回归第 2 轮（checkpoint 化）+",
-          "status": "done",
-          "updated_at": "2026-09-29T16:02:07Z"
-        },
-        {
-          "key": "BEN-47",
-          "title": "【冒烟测试】glm-scenarist 改绑 Codex runtime 连通性验证（验证后关闭）",
-          "status": "done",
-          "updated_at": "2026-09-29T12:29:53Z"
         }
       ]
     },
@@ -300,7 +301,7 @@
       "machine_online": true,
       "meeting_active": false,
       "meeting_title": "",
-      "progress": 40,
+      "progress": 45,
       "agents": [
         {
           "name": "hermes-pm",
@@ -308,9 +309,10 @@
           "role": "IPD-PM 产品经理",
           "model": "",
           "agent_id": "1764c131-5c09-48cb-aa48-3177d5256dbb",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-90",
+          "issue_title": "[PRD·第1轮] REQ-006 下一场景预研（第6场景）",
+          "since": "2026-09-29T20:07:58Z"
         },
         {
           "name": "hermes-sa",
@@ -318,9 +320,10 @@
           "role": "IPD-SA 解决方案架构师",
           "model": "volc:qwen3.8-max",
           "agent_id": "3e4373ef-a262-4b28-ab2a-818861fc9624",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-82",
+          "issue_title": "[TR-Req 评审] REQ-005 单位换算器（Unit Converter）—— 需求评审（PM 发起）",
+          "since": "2026-09-29T20:07:40Z"
         },
         {
           "name": "hermes-se",
@@ -328,9 +331,10 @@
           "role": "IPD-SE 系统工程师",
           "model": "volc:qwen3.8-max",
           "agent_id": "b874ba6b-80e6-45c6-a8c6-aedc6f2b326b",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-87",
+          "issue_title": "[SE·第1轮] REQ-005 追踪矩阵骨架 + REQ-004 测试用例列回挂",
+          "since": "2026-09-29T20:07:50Z"
         },
         {
           "name": "hermes-dev",
@@ -338,9 +342,10 @@
           "role": "IPD-Dev 开发工程师",
           "model": "",
           "agent_id": "44fcec25-d8b3-4af6-b206-1774a64677ce",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-88",
+          "issue_title": "[双端编码·第1轮] REQ-005 单位换算器 Android 单机基线（Kotlin）",
+          "since": "2026-09-29T20:07:52Z"
         },
         {
           "name": "hermes-tester",
@@ -348,9 +353,10 @@
           "role": "IPD-Tester 测试工程师",
           "model": "",
           "agent_id": "86df9f14-a2cd-46d9-ad15-dbe8606ebd73",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-89",
+          "issue_title": "[测试·第1轮] REQ-004 uijudge 视觉补打分 + REQ-005 差分用例清单 + C4 rubric",
+          "since": "2026-09-29T20:07:55Z"
         },
         {
           "name": "hermes-rm",
@@ -358,9 +364,10 @@
           "role": "IPD-RM 发布经理",
           "model": "",
           "agent_id": "78156461-9644-478e-9c80-53cd18e25e33",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-91",
+          "issue_title": "[发版·第1轮] REQ-004 端到端时长补采 + 发版度量",
+          "since": "2026-09-29T20:08:00Z"
         },
         {
           "name": "deepseek-planner",
@@ -385,41 +392,41 @@
         }
       ],
       "issue_counts": {
-        "todo": 2,
-        "in_progress": 0,
-        "in_review": 2,
-        "done": 64
+        "todo": 6,
+        "in_progress": 1,
+        "in_review": 1,
+        "done": 65
       },
       "latest_issues": [
         {
-          "key": "IPD-86",
-          "title": "[早会纪要] 2026-09-30",
+          "key": "IPD-91",
+          "title": "[发版·第1轮] REQ-004 端到端时长补采 + 发版度量",
           "status": "todo",
-          "updated_at": "2026-09-29T20:00:18Z"
+          "updated_at": "2026-09-29T20:08:00Z"
         },
         {
-          "key": "IPD-79",
-          "title": "[取证·第3轮] REQ-004 分布式流转鸿蒙单机运行取证（hermes-dev）",
-          "status": "in_review",
-          "updated_at": "2026-09-29T16:04:59Z"
+          "key": "IPD-90",
+          "title": "[PRD·第1轮] REQ-006 下一场景预研（第6场景）",
+          "status": "todo",
+          "updated_at": "2026-09-29T20:07:57Z"
         },
         {
-          "key": "IPD-85",
-          "title": "[巡检] 2026-09-30 leader Issue 状态巡检与催办",
-          "status": "done",
-          "updated_at": "2026-09-29T16:04:05Z"
+          "key": "IPD-89",
+          "title": "[测试·第1轮] REQ-004 uijudge 视觉补打分 + REQ-005 差分用例清单 + ",
+          "status": "todo",
+          "updated_at": "2026-09-29T20:07:55Z"
         },
         {
-          "key": "IPD-84",
-          "title": "【冒烟测试】hermes-sa/hermes-se 切换 volc:qwen3.8-max 验证（验",
-          "status": "done",
-          "updated_at": "2026-09-29T16:03:40Z"
+          "key": "IPD-88",
+          "title": "[双端编码·第1轮] REQ-005 单位换算器 Android 单机基线（Kotlin）",
+          "status": "todo",
+          "updated_at": "2026-09-29T20:07:52Z"
         },
         {
-          "key": "IPD-81",
-          "title": "[PRD·第3轮] REQ-005 单位换算器正式 PRD v1.0 + TR-Req 发起（her",
-          "status": "done",
-          "updated_at": "2026-09-29T16:03:38Z"
+          "key": "IPD-87",
+          "title": "[SE·第1轮] REQ-005 追踪矩阵骨架 + REQ-004 测试用例列回挂",
+          "status": "todo",
+          "updated_at": "2026-09-29T20:07:49Z"
         }
       ]
     }
