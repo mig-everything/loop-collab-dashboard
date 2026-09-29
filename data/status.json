@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T08:30:28Z",
+  "generated_at": "2026-09-29T09:00:48Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -207,9 +207,10 @@
           "role": "DW 迁移执行小队队长",
           "model": "claude-opus-5-5",
           "agent_id": "c6ff7c69-0db4-4b35-ac81-dd00e5a53ba4",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "DWM-46",
+          "issue_title": "[流程改进] v2.3：以目标定流程（DW 优化证据 > 经验与语料 > 应用交付），小队决策并实施 · 实施 3/6",
+          "since": "2026-09-29T09:00:18Z"
         },
         {
           "name": "exec-runner",
@@ -227,9 +228,10 @@
           "role": "验证员",
           "model": "claude-opus-5-5",
           "agent_id": "69822c63-0dcc-4f3e-875d-7b300d437623",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "DWM-51",
+          "issue_title": "[DWM-46·E] v2.3 Cofi 回填（验证侧）",
+          "since": "2026-09-29T09:01:07Z"
         },
         {
           "name": "exec-fixer",
@@ -238,47 +240,47 @@
           "model": "claude-opus-5-5",
           "agent_id": "cd70e713-a339-4621-8699-2058d9cf7d6b",
           "state": "working",
-          "issue": "DWM-49",
-          "issue_title": "[DWM-46] v2.3 实施 C：工具二（fix-queue / gaps / corpus / records 持",
-          "since": "2026-09-29T08:25:35Z"
+          "issue": "DWM-50",
+          "issue_title": "[DWM-46·D] v2.3 工具三（card --fill / mig close）与剧本、指令、VERSIONS",
+          "since": "2026-09-29T09:01:06Z"
         }
       ],
       "issue_counts": {
         "todo": 5,
-        "in_progress": 2,
+        "in_progress": 1,
         "in_review": 0,
-        "done": 40
+        "done": 41
       },
       "latest_issues": [
         {
           "key": "DWM-46",
           "title": "[流程改进] v2.3：以目标定流程（DW 优化证据 > 经验与语料 > 应用交付），小队决策并实施",
           "status": "in_progress",
-          "updated_at": "2026-09-29T08:26:33Z"
+          "updated_at": "2026-09-29T09:01:07Z"
         },
         {
-          "key": "DWM-53",
-          "title": "[DWM-46] v2.3 实施 G：验证侧自测与演练复核",
-          "status": "backlog",
-          "updated_at": "2026-09-29T08:26:22Z"
+          "key": "DWM-51",
+          "title": "[DWM-46·E] v2.3 Cofi 回填（验证侧）",
+          "status": "todo",
+          "updated_at": "2026-09-29T09:01:06Z"
         },
         {
           "key": "DWM-50",
-          "title": "[DWM-46] v2.3 实施 D：工具三（card --fill / mig close）与剧本",
-          "status": "backlog",
-          "updated_at": "2026-09-29T08:26:13Z"
+          "title": "[DWM-46·D] v2.3 工具三（card --fill / mig close）与剧本、指令",
+          "status": "todo",
+          "updated_at": "2026-09-29T09:01:05Z"
         },
         {
           "key": "DWM-49",
-          "title": "[DWM-46] v2.3 实施 C：工具二（fix-queue / gaps / corpus /",
-          "status": "in_progress",
-          "updated_at": "2026-09-29T08:26:04Z"
+          "title": "[DWM-46·C] v2.3 工具二（fix-queue / gaps / corpus / re",
+          "status": "done",
+          "updated_at": "2026-09-29T09:01:02Z"
         },
         {
-          "key": "DWM-56",
-          "title": "[DWM-46] v2.3 实施 B：工具一（pair/sbs / 修复卡片 / schedule）",
-          "status": "done",
-          "updated_at": "2026-09-29T08:25:30Z"
+          "key": "DWM-52",
+          "title": "[DWM-46·F] v2.3 Cofi 回填（修复侧）与 Settings 页演练",
+          "status": "backlog",
+          "updated_at": "2026-09-29T09:01:01Z"
         }
       ]
     },
