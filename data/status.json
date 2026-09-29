@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T13:07:32Z",
+  "generated_at": "2026-09-29T13:11:33Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -209,10 +209,9 @@
           "role": "DW 迁移执行小队队长",
           "model": "claude-opus-5-5",
           "agent_id": "c6ff7c69-0db4-4b35-ac81-dd00e5a53ba4",
-          "state": "working",
-          "issue": "DWM-46",
-          "issue_title": "[流程改进] v2.3：以目标定流程（DW 优化证据 > 经验与语料 > 应用交付），小队决策并实施 · 收尾（补推与下",
-          "since": "2026-09-29T13:07:26Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "exec-runner",
@@ -220,9 +219,12 @@
           "role": "运行员",
           "model": "claude-opus-5-5",
           "agent_id": "1c3481f5-135b-4959-9daa-c510c076d494",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "DWM-61",
+          "issue_title": "[DWM-46·K] v2.3 模型池 key 轮换与推理强度 max（负责人补充八）",
+          "since": "2026-09-29T13:08:39Z",
+          "parent_issue": "DWM-46",
+          "parent_title": "[流程改进] v2.3：以目标定流程（DW 优化证据 > 经验与语料 > 应用交付），小队决策并实施 · 收尾（key "
         },
         {
           "name": "exec-verifier",
@@ -230,9 +232,12 @@
           "role": "验证员",
           "model": "claude-opus-5-5",
           "agent_id": "69822c63-0dcc-4f3e-875d-7b300d437623",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "DWM-63",
+          "issue_title": "[DWM-46·L] v2.3 G 自测跟随已发布版更新",
+          "since": "2026-09-29T13:08:21Z",
+          "parent_issue": "DWM-46",
+          "parent_title": "[流程改进] v2.3：以目标定流程（DW 优化证据 > 经验与语料 > 应用交付），小队决策并实施 · 收尾（key "
         },
         {
           "name": "exec-fixer",
@@ -248,21 +253,21 @@
       "issue_counts": {
         "todo": 0,
         "in_progress": 1,
-        "in_review": 1,
-        "done": 40
+        "in_review": 0,
+        "done": 41
       },
       "latest_issues": [
+        {
+          "key": "DWM-60",
+          "title": "[任务] Cofi 正式差异分析 + 57 还原缺口/G7 入建议池（夜间第 3 轮，离线）",
+          "status": "done",
+          "updated_at": "2026-09-29T13:11:21Z"
+        },
         {
           "key": "DWM-46",
           "title": "[流程改进] v2.3：以目标定流程（DW 优化证据 > 经验与语料 > 应用交付），小队决策并实施",
           "status": "in_progress",
-          "updated_at": "2026-09-29T13:07:24Z"
-        },
-        {
-          "key": "DWM-60",
-          "title": "[任务] Cofi 正式差异分析 + 57 还原缺口/G7 入建议池（夜间第 3 轮，离线）",
-          "status": "in_review",
-          "updated_at": "2026-09-29T12:52:22Z"
+          "updated_at": "2026-09-29T13:08:53Z"
         },
         {
           "key": "DWM-62",
