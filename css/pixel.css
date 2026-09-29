@@ -68,6 +68,13 @@ button{font:inherit;cursor:pointer;color:inherit}
 .team .tm .mc{margin-left:auto;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;min-width:0}
 .team .pbar{width:92px;height:7px}
 .meetline{font-size:13px;color:var(--meet);margin:2px 0 4px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.team .tm small.psrc{flex:none;font-size:11.5px;color:#fbbf24;border:1px solid #92400e;border-radius:4px;padding:0 4px;line-height:1.35}
+.team .pnote{font-size:12.5px;color:#8b97b3;margin:-1px 0 3px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.ordline{font-size:13px;color:var(--ink2);margin:2px 0 4px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.ordline .k,.kv .k{font-family:var(--mono);font-weight:700;color:var(--accent)}
+.ordline .hold,.kv .hold{color:#fbbf24} .ordline .nh,.kv .nh{color:#f87171}
+.mem .par,.lrow .par{flex:none;white-space:nowrap;font-size:12px;color:#8b97b3;margin-left:4px}
+.mem .par:hover,.lrow .par:hover{color:var(--ink)}
 .mem{list-style:none;margin:4px 0 6px;padding:0}
 .mem li{display:flex;align-items:center;gap:7px;padding:3px 0;font-size:13.5px;min-width:0;border-top:1px dashed #222d4a}
 .mem li:first-child{border-top:0}
@@ -128,9 +135,14 @@ body.view-list .side{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));
 .stchip{font-size:.8em;padding:0 .4em;border-radius:.25em;background:rgba(15,23,42,.85);color:#a8b4c9;border:1px solid #334155;white-space:nowrap;pointer-events:none}
 .stchip.cur{background:#f59e0b;color:#1f1300;border-color:#fcd34d;font-weight:700}
 .stchip.done{background:rgba(21,128,61,.92);color:#dcfce7;border-color:#22c55e}
+.stchip.hold{background:#334155;color:#fde68a;border-color:#f59e0b;font-weight:700}
+.stchip.nh{background:#991b1b;color:#fee2e2;border-color:#f87171;font-weight:700}
 .cratelbl{font-size:.8em;background:#fde68a;color:#78350f;border:1px solid #92400e;padding:0 .35em;border-radius:.2em;font-weight:700;white-space:nowrap;pointer-events:none}
 .linecap{font-size:.84em;color:#e2e8f0;background:rgba(12,18,34,.88);padding:.05em .55em;border-radius:.25em;white-space:nowrap;max-width:30em;overflow:hidden;text-overflow:ellipsis}
 .linecap b{color:#fde68a}
+.linecap em{font-style:normal;font-weight:700}
+.linecap em.hold{color:#fbbf24}
+.linecap em.nh{color:#f87171}
 .relay{display:flex;align-items:center;gap:.18em;font-size:.82em;background:rgba(12,18,34,.88);padding:.12em .4em;border-radius:.3em;white-space:nowrap}
 .relay span{padding:0 .35em;border-radius:.2em;color:#a8b4c9;background:#1e293b}
 .relay span.on{background:#22c55e;color:#052e16;font-weight:700}

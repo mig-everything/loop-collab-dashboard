@@ -134,11 +134,13 @@
   /* 工序机：跨在带子上；当前工序亮灯闪烁，已过工序常亮绿，未到灰 */
   P.machine = function (c, mx, y, t, st, k) {
     var x = mx * 16, top = y * 16 - 2, body = ["#64748b", "#2563eb", "#7c3aed", "#d97706", "#0d9488", "#16a34a"][k];
-    box(c, x + 1, top, 14, 22, st === "cur" ? body : st === "done" ? "#94a3b8" : "#9ca3af", "#1f2937");
+    var act = st === "cur" || st === "hold" || st === "nh";   // hold = 暂停、nh = 待人工：停在这道工序
+    box(c, x + 1, top, 14, 22, act ? body : st === "done" ? "#94a3b8" : "#9ca3af", "#1f2937");
     R(c, x + 3, top + 3, 10, 6, "#0f172a");
     if (st === "cur") { for (var i = 0; i < 3; i++) R(c, x + 4, top + 4 + i * 2, ((Math.floor(t / 120) + i * 3) % 8) + 1, 1, "#a7f3d0"); }
-    var lamp = st === "cur" ? ((Math.floor(t / 400) % 2) ? "#fde047" : "#f59e0b") : st === "done" ? "#22c55e" : "#4b5563";
-    R(c, x + 6, top - 3, 4, 3, lamp); R(c, x + 4, top + 11, 8, 6, "#111827"); R(c, x + 5, top + 12, 6, 4, st === "cur" ? "#1e293b" : "#374151");
+    else if (act) { var pc = st === "nh" ? "#fca5a5" : "#fde68a"; R(c, x + 6, top + 4, 1, 4, pc); R(c, x + 9, top + 4, 1, 4, pc); }
+    var lamp = st === "cur" ? ((Math.floor(t / 400) % 2) ? "#fde047" : "#f59e0b") : st === "nh" ? ((Math.floor(t / 500) % 2) ? "#ef4444" : "#7f1d1d") : st === "hold" ? "#f59e0b" : st === "done" ? "#22c55e" : "#4b5563";
+    R(c, x + 6, top - 3, 4, 3, lamp); R(c, x + 4, top + 11, 8, 6, "#111827"); R(c, x + 5, top + 12, 6, 4, act ? "#1e293b" : "#374151");
   };
   P.crate = function (c, x, y, bob) { box(c, x, y - bob, 12, 10, "#d9a066", "#8a5a2b"); R(c, x + 5, y - bob, 2, 10, "#b7793f"); R(c, x + 1, y + 4 - bob, 10, 1, "#b7793f"); };
   P.crates = function (c, it) { var x = it.x * 16, y = it.y * 16; P.crate(c, x + 2, y + 18, 0); P.crate(c, x + 16, y + 20, 0); P.crate(c, x + 9, y + 9, 0); R(c, x + 2, y + 29, 26, 2, "rgba(0,0,0,.18)"); };

@@ -26,6 +26,15 @@
                : '<span class="' + (cls || "") + '"' + (title ? ' title="' + esc(title) + '"' : "") + ">" + html + "</span>";
   }
   function stateOf(t, a) { var s = STATE_LABEL[a.state] ? a.state : "idle"; return t.machine_online ? s : "offline"; }
+  var PO = window.PixelOffice;
+  /* 当前执行单（任务3）：编号 · 应用 · 阶段；暂停、待人工单独标色 */
+  function orderLine(t) {
+    var od = t.order, po = od && PO.parseOrder(od.title, od.status); if (!po) return "";
+    var hold = od.status !== "done" && po.hold, what = od.status === "done" ? "最近完成" : "执行单";
+    return what + " " + link(issueUrl(t, od.key), esc(od.key), "k", od.title) + " · " + esc(po.app) + (po.stage ? " · " + esc(po.stage) : "") +
+      (hold ? ' · <b class="' + (hold === "待人工" ? "nh" : "hold") + '">' + hold + "</b>" : "") + (po.why ? " · " + esc(po.why) : "") + (po.info.length ? " · " + esc(po.info.join(" · ")) : "");
+  }
+  function parentLink(t, a) { return a.parent_issue ? link(issueUrl(t, a.parent_issue), "属 " + esc(a.parent_issue), "par", a.parent_title || "") : ""; }
 
   /* ---------- 团队卡：成员（谁在做哪个单）+ 进度 + issue 计数 + 最新动态，场景侧栏与列表视图共用 ---------- */
   function teamCard(t, i) {
@@ -35,6 +44,7 @@
     var mem = ag.map(function (a) {
       var st = stateOf(t, a), what = a.issue ? link(issueUrl(t, a.issue), esc(a.issue), "iss", a.issue_title) + '<span class="it" title="' + esc(a.issue_title || "") + '">' + esc(a.issue_title || "") + "</span>"
         : '<span class="it muted">' + (st === "meeting" ? esc(t.meeting_title || "开会中") : STATE_LABEL[st]) + "</span>";
+      if (a.issue) what += parentLink(t, a);
       return '<li class="' + st + '" data-n="' + esc(a.name) + '"><i class="dot ' + st + '" title="' + STATE_LABEL[st] + '"></i><button class="nm" type="button" title="在场景中找到 ' + esc(a.name) + (a.role ? "（" + esc(a.role) + "）" : "") + '">' + esc(a.name) + "</button>" + what + "</li>";
     }).join("");
     var iss = (t.latest_issues || []).slice(0, 3).map(function (it) {
@@ -45,7 +55,10 @@
     return '<section class="team' + (t.meeting_active ? " meeting" : "") + '" data-i="' + i + '">' +
       '<header class="th"><i class="lamp' + (t.machine_online ? "" : " off") + '" title="' + esc(t.machine || "") + (t.machine_online ? " 在线" : " 离线") + '"></i>' +
       link(taskUrl(t), esc(t.title || t.id), "tt", "打开 MultiCA 工作区") + '<button class="focus" type="button" title="在场景中查看这个房间">定位</button></header>' +
-      '<div class="tm"><span class="pbar" title="进度取自 loop-collab 日报「总进度」"><i style="width:' + p + '%"></i></span><b>' + p + "%</b><span>在岗 " + on + "/" + ag.length + '</span><span class="mc">' + esc(t.machine || "") + "</span></div>" +
+      '<div class="tm"><span class="pbar" title="' + esc(PO.progSrc(t)) + '"><i style="width:' + p + '%"></i></span><b>' + p + "%</b>" +
+      (t.progress_from ? '<small class="psrc" title="' + esc(PO.progSrc(t)) + '">' + PO.progTag(t) + "</small>" : "") + "<span>在岗 " + on + "/" + ag.length + '</span><span class="mc">' + esc(t.machine || "") + "</span></div>" +
+      (t.progress_note ? '<div class="pnote" title="' + esc(t.progress_note) + '">' + esc(t.progress_note) + "</div>" : "") +
+      (t.order ? '<div class="ordline">' + orderLine(t) + "</div>" : "") +
       (t.meeting_active ? '<div class="meetline">会议中 · ' + esc(t.meeting_title || "") + "</div>" : "") +
       '<ul class="mem">' + mem + "</ul>" +
       '<div class="counts"><span>待办 <b>' + (c.todo || 0) + "</b></span><span>进行 <b>" + (c.in_progress || 0) + "</b></span><span>评审 <b>" + (c.in_review || 0) + "</b></span><span>完成 <b>" + (c.done || 0) + "</b></span></div>" +
@@ -69,12 +82,13 @@
   function memberRow(t, a) {
     var st = stateOf(t, a);
     return '<div class="lrow"><span class="who">' + link(agentUrl(t, a), esc(a.name)) + '</span><span class="what">' +
-      (a.issue ? link(issueUrl(t, a.issue), "<b>" + esc(a.issue) + "</b> " + esc(a.issue_title || "")) : esc(a.model || "")) + '</span><span class="st ' + st + '">' + STATE_LABEL[st] + "</span></div>";
+      (a.issue ? link(issueUrl(t, a.issue), "<b>" + esc(a.issue) + "</b> " + esc(a.issue_title || "")) + parentLink(t, a) : esc(a.model || "")) + '</span><span class="st ' + st + '">' + STATE_LABEL[st] + "</span></div>";
   }
   function onRoom(t) {
     var c = t.issue_counts || {};
     openPanel("<h2>" + link(taskUrl(t), esc(t.title || t.id)) + "</h2>" +
-      '<div class="kv"><span>机器</span><span>' + esc(t.machine || "") + (t.machine_online ? "（在线）" : "（离线）") + "</span><span>进度</span><span>" + (t.progress || 0) + "%（日报）</span>" +
+      '<div class="kv"><span>机器</span><span>' + esc(t.machine || "") + (t.machine_online ? "（在线）" : "（离线）") + "</span><span>进度</span><span>" + (t.progress || 0) + "%（" + PO.progTag(t) + "）" + (t.progress_note ? " · " + esc(t.progress_note) : "") + "</span>" +
+      (t.order ? "<span>执行单</span><span>" + orderLine(t) + "</span>" : "") +
       "<span>会议</span><span>" + (t.meeting_active ? esc(t.meeting_title || "进行中") : "无") + "</span>" +
       "<span>issue</span><span>待办 " + (c.todo || 0) + " · 进行 " + (c.in_progress || 0) + " · 评审 " + (c.in_review || 0) + " · 完成 " + (c.done || 0) + "</span></div>" +
       "<h4>成员</h4>" + (t.agents || []).map(function (a) { return memberRow(t, a); }).join("") +
@@ -89,6 +103,7 @@
       '<div class="kv"><span>团队</span><span>' + esc(t.title || t.id) + "</span><span>状态</span><span class=\"st " + st + "\">" + STATE_LABEL[st] + "</span>" +
       "<span>模型</span><span>" + esc(a.model || "") + "</span><span>角色</span><span>" + esc(a.role || "") + "</span>" +
       "<span>当前</span><span>" + (a.issue ? link(issueUrl(t, a.issue), "<b>" + esc(a.issue) + "</b> " + esc(a.issue_title || "")) : "无") + "</span>" +
+      (a.parent_issue ? "<span>所属</span><span>" + link(issueUrl(t, a.parent_issue), "<b>" + esc(a.parent_issue) + "</b> " + esc(a.parent_title || "")) + "</span>" : "") +
       (a.since ? "<span>开始于</span><span>" + bjTime(a.since) + "</span>" : "") + "</div>");
   }
 

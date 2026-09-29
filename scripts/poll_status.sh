@@ -82,33 +82,66 @@ echo "$WS_LIST" | while IFS='|' read ws tid tname hostkey machine daily; do
     [ -z "$IT" ] && [ -n "$ref" ] && IT=$(multica issue get "$ref" --output json 2>/dev/null | jq -c '(.issue // .) | {identifier, title}' 2>/dev/null)
     [ -n "$IT" ] || IT='{}'
     IKEY=$(echo "$IT" | jq -r '.identifier // ""'); TITLE=$(echo "$IT" | jq -r '.title // ""')
-    AGENTS_OUT=$(echo "$AGENTS_OUT" | jq -c --arg aid "$aid" --arg k "$IKEY" --arg t "$TITLE" --arg s "$since" '
-      [.[] | if .agent_id==$aid and .state!="offline" then . + {state:"working", issue:$k, issue_title:($t|.[0:60])} + (if $s!="" then {since:$s} else {} end) else . end]')
+    # 子单（parent_issue_id 非空）：附上所属单的编号与标题，看板据此显示「子单 · 所属执行单」
+    PID=$(echo "$IT" | jq -r '.parent_issue_id // ""'); PKEY=""; PTITLE=""
+    if [ -n "$PID" ]; then
+      PAR=$(echo "$ISSUES" | jq -c --arg p "$PID" '[.issues[] | select(.id==$p)][0] // empty')
+      [ -z "$PAR" ] && PAR=$(multica issue get "$PID" --output json 2>/dev/null | jq -c '(.issue // .) | {identifier, title}' 2>/dev/null)
+      [ -n "$PAR" ] && { PKEY=$(echo "$PAR" | jq -r '.identifier // ""'); PTITLE=$(echo "$PAR" | jq -r '.title // ""'); }
+    fi
+    AGENTS_OUT=$(echo "$AGENTS_OUT" | jq -c --arg aid "$aid" --arg k "$IKEY" --arg t "$TITLE" --arg s "$since" --arg pk "$PKEY" --arg pt "$PTITLE" '
+      [.[] | if .agent_id==$aid and .state!="offline" then . + {state:"working", issue:$k, issue_title:($t|.[0:60])} + (if $s!="" then {since:$s} else {} end)
+             + (if $pk!="" then {parent_issue:$pk, parent_title:($pt|.[0:60])} else {} end) else . end]')
   done <<< "$ACTIVE"
   AGENTS_OUT=$(echo "$AGENTS_OUT" | jq -c '[.[] | del(.platform_status)]')
 
-  # issue 统计与最新动态
-  COUNTS=$(echo "$ISSUES" | jq -c '{todo:([.issues[]|select(.status=="backlog" or .status=="todo" or .status=="unstarted")]|length),
+  # issue 统计与最新动态：只算顶层 issue（子单是小队内部工作单元，与组长「只看执行单」的口径一致）
+  TOP=$(echo "$ISSUES" | jq -c '{issues: [.issues[] | select((.parent_issue_id // "") == "")]}')
+  COUNTS=$(echo "$TOP" | jq -c '{todo:([.issues[]|select(.status=="backlog" or .status=="todo" or .status=="unstarted")]|length),
     in_progress:([.issues[]|select(.status=="in_progress")]|length),
     in_review:([.issues[]|select(.status=="in_review")]|length),
     done:([.issues[]|select(.status=="done" or .status=="completed")]|length)}')
-  LATEST=$(echo "$ISSUES" | jq -c '[.issues | sort_by(.updated_at) | reverse | .[0:5][] | {key:.identifier, title:(.title|.[0:50]), status, updated_at}]')
+  LATEST=$(echo "$TOP" | jq -c '[.issues | sort_by(.updated_at) | reverse | .[0:5][] | {key:.identifier, title:(.title|.[0:50]), status, updated_at}]')
+  # 当前执行单（任务3）：最近更新、未完成的顶层「[DW迁移任务单]」；没有则取最近完成的一张；其他任务为 null
+  ORDER=$(echo "$TOP" | jq -c '[.issues[] | select(.title | startswith("[DW迁移任务单]"))] | sort_by(.updated_at) | reverse
+    | ((map(select(.status != "done" and .status != "cancelled"))[0]) // (map(select(.status == "done"))[0]) // null)
+    | if . then {key:.identifier, title:(.title|.[0:90]), status, updated_at} else null end')
 
-  # 进度：loop-collab 日报里最新「总进度：NN%」
-  PROG=""
+  # 进度：loop-collab 最新日报里第一个「总进度：NN%」行（只认这一行，正文里别处的百分比不算）
+  PROG=""; PNOTE=""; PFROM="daily"; PREF=""
+  pnote() { jq -Rr 'capture("总进度[：:][^（(]*[（(](?<n>[^）)]{1,60})[）)]").n // empty' 2>/dev/null; }
   if [ -d "$LOOP_COLLAB/daily/$daily" ]; then
     LATEST_MD=$(ls "$LOOP_COLLAB/daily/$daily"/2*.md 2>/dev/null | sort | tail -1)
-    [ -n "$LATEST_MD" ] && PROG=$(grep -oE '总进度[：:][^0-9]{0,3}[0-9]+' "$LATEST_MD" | grep -oE '[0-9]+' | head -1)
+    PLINE=$([ -n "$LATEST_MD" ] && grep -m1 '总进度' "$LATEST_MD")
+    PROG=$(printf '%s' "$PLINE" | grep -oE '总进度[：:][^0-9]{0,3}[0-9]+' | grep -oE '[0-9]+' | head -1)
+    PNOTE=$(printf '%s' "$PLINE" | pnote)
   fi
-  PROG=${PROG:-0}
+  # 日报首行没填数（例如草稿先写了「NN」占位、还在等例会回复）：取最近 3 场例会/巡检单里以「总进度：NN%」开头的最新回复（任务3 即 dw-lead 的 mig standup）；
+  # 仍没有就沿用上一版看板的数字。看板标明来源，不当作日报数字
+  if [ -z "$PROG" ]; then
+    for ik in $(echo "$TOP" | jq -r '[.issues[] | select(.title | test("早会|午会|晚会|巡检|纪要|日报"))] | sort_by(.created_at) | reverse | .[0:3][] | "\(.id)|\(.identifier)"'); do
+      PL=$({ multica issue comment list "${ik%%|*}" --full --output json 2>/dev/null || multica issue comment list "${ik%%|*}" --output json 2>/dev/null; } | jq -r '(if type=="array" then . else (.comments // []) end)
+        | [.[] | select((.content // "") | test("^\\s*总进度[：:]\\s*[0-9]+%"))] | sort_by(.created_at) | last | if . then (.content | sub("^\\s+"; "") | split("\n")[0]) else empty end' 2>/dev/null)
+      if [ -n "$PL" ]; then PROG=$(printf '%s' "$PL" | grep -oE '[0-9]+' | head -1); PNOTE=$(printf '%s' "$PL" | pnote); PFROM="standup"; PREF="${ik#*|}"; break; fi
+    done
+  fi
+  if [ -z "$PROG" ]; then
+    PROG=$(git show HEAD:data/status.json 2>/dev/null | jq -r --arg id "$tid" '.tasks[] | select(.id==$id) | .progress // empty' 2>/dev/null)
+    [ -n "$PROG" ] && PFROM="last" || PFROM="none"
+    [ "$PFROM" = "last" ] && [ -z "$PNOTE" ] && PNOTE=$(git show HEAD:data/status.json 2>/dev/null | jq -r --arg id "$tid" '.tasks[] | select(.id==$id) | .progress_note // empty' 2>/dev/null)
+  fi
+  PROG=${PROG:-0}; PNOTE=${PNOTE:-}
 
   jq -n --arg id "$tid" --arg title "$tname" --arg ws "$ws" --arg machine "$machine" \
         --argjson online "$ONLINE" --argjson meeting "$MEETING" --arg meeting_title "$MEETING_TITLE" \
         --argjson progress "$PROG" --argjson agents "$AGENTS_OUT" \
-        --argjson counts "$COUNTS" --argjson latest "$LATEST" \
+        --argjson counts "$COUNTS" --argjson latest "$LATEST" --argjson order "${ORDER:-null}" --arg pnote "$PNOTE" \
+        --arg pfrom "$PFROM" --arg pref "$PREF" \
         '{id:$id,title:$title,workspace:$ws,machine:$machine,machine_online:$online,
           meeting_active:$meeting,meeting_title:$meeting_title,progress:$progress,
-          agents:$agents,issue_counts:$counts,latest_issues:$latest}' \
+          agents:$agents,issue_counts:$counts,latest_issues:$latest}
+         + (if $order != null then {order:$order} else {} end) + (if $pnote != "" then {progress_note:$pnote} else {} end)
+         + (if $pfrom != "daily" then {progress_from:$pfrom} + (if $pref != "" then {progress_ref:$pref} else {} end) else {} end)' \
     >> /tmp/dashboard-tasks.jsonl
 done
 

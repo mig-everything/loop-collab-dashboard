@@ -37,12 +37,22 @@
   function minsSince(iso) { var t = Date.parse(iso || ""); return isNaN(t) ? -1 : Math.max(0, Math.round((Date.now() - t) / 60000)); }
 
   /* 执行单标题「[DW迁移任务单] <App> 迁移 · <阶段> · <实时进度…>」 */
-  function parseOrder(title) {
+  function parseOrder(title, status) {
     var m = /\[DW迁移任务单\]\s*(.+?)\s*迁移\s*(?:·\s*(.*))?$/.exec(title || "");
     if (!m) return null;
     var rest = m[2] || "", parts = rest.split("·").map(function (x) { return x.trim(); }).filter(Boolean), st = parts[0] || "";
-    var k = /收口|已完成/.test(st) ? 5 : /终验/.test(st) ? 4 : /修复|wave|波/i.test(st) ? 3 : /审计/.test(st) ? 2 : /迁移|清单/.test(st) ? 1 : 0;
-    return { app: m[1], stage: st, k: k, both: /清单\s*\+\s*迁移/.test(st) && !/清单✓/.test(rest), info: parts.slice(1), title: title };
+    // 暂停：执行单 blocked 或标题写了「暂停」；待人工：mig needs-human 置 blocked 并在标题加「· 待人工」
+    var nh = /待人工/.test(rest), hold = nh ? "待人工" : (status === "blocked" || /暂停/.test(rest)) ? "暂停" : "", holdSt = /^(暂停|待人工)/.test(st);
+    var k = holdSt ? -1 : /收口|已完成/.test(st) ? 5 : /终验/.test(st) ? 4 : /修复|wave|波/i.test(st) ? 3 : /审计/.test(st) ? 2 : /迁移|清单/.test(st) ? 1 : 0;
+    return { app: m[1], stage: holdSt ? "" : st, k: k, both: /清单\s*\+\s*迁移/.test(st) && !/清单✓/.test(rest), hold: hold,
+             why: holdSt ? st.replace(/^(暂停|待人工)\s*[（(]?/, "").replace(/[）)]\s*$/, "") : "",
+             info: parts.slice(1).filter(function (x) { return !/^(暂停|待人工)$/.test(x); }), title: title };
+  }
+  /* 进度的来源：日报首行没填数时，采集脚本改取例会回复或沿用上一版 */
+  function progTag(t) { return t.progress_from === "standup" ? "例会回复" : t.progress_from === "last" ? "沿用" : t.progress_from === "none" ? "暂无" : "日报"; }
+  function progSrc(t) {
+    return t.progress_from === "standup" ? "日报首行还没填数，取自 " + (t.progress_ref || "最近例会") + " 里的例会回复（任务3 为 dw-lead 的 mig standup）"
+      : t.progress_from === "last" ? "日报首行还没填数，沿用上一次采集的数字" : t.progress_from === "none" ? "暂无进度数据" : "取自 loop-collab 日报「总进度」";
   }
 
   /* ---------------- 寻路（4 邻接 BFS；终点允许是座位格） ---------------- */
@@ -307,8 +317,11 @@
     });
     this.staticRects = rects;
   };
-  O.moveAnchor = function (el, wx, wy) {
-    for (var i = 0; i < this.anchors.length; i++) if (this.anchors[i].el === el) { var a = this.anchors[i]; if (a.wx !== wx || a.wy !== wy) { a.wx = wx; a.wy = wy; this.dirtyCam = true; } return; }
+  O.moveAnchor = function (el, wx, wy, ax) {
+    for (var i = 0; i < this.anchors.length; i++) if (this.anchors[i].el === el) {
+      var a = this.anchors[i], nx = ax == null ? a.ax : ax;
+      if (a.wx !== wx || a.wy !== wy || a.ax !== nx) { a.wx = wx; a.wy = wy; a.ax = nx; this.dirtyCam = true; } return;
+    }
   };
 
   /* ---------------- 数据 ---------------- */
@@ -334,7 +347,7 @@
       var p = Math.max(0, Math.min(100, task.progress || 0));
       o.plate.querySelector(".pbar i").style.width = p + "%"; o.plate.querySelector(".pv").textContent = p + "%";
       o.plate.querySelector(".mc").textContent = "在岗 " + agents.filter(function (a) { return online && a.state === "working"; }).length + "/" + agents.length;
-      o.plate.title = "进度取自 loop-collab 日报「总进度」；点击查看团队详情";
+      o.plate.title = "进度" + progSrc(task) + (task.progress_note ? "：" + task.progress_note : "") + "；点击查看团队详情";
       o.kb.innerHTML = "<b>" + (c.todo || 0) + "</b><b>" + (c.in_progress || 0) + "</b><b>" + (c.in_review || 0) + "</b><b>" + (c.done || 0) + "</b>";
       o.kb.title = "看板四列：待办 " + (c.todo || 0) + " · 进行 " + (c.in_progress || 0) + " · 评审 " + (c.in_review || 0) + " · 完成 " + (c.done || 0) + "（便签数 = 真实 issue 数，每列最多画 8 张）";
       o.rack.innerHTML = '<i class="led' + (online ? "" : " off") + '"></i>' + esc(task.machine || "");
@@ -370,18 +383,30 @@
   O.updateStages = function (ri, task) {
     var o = this.rooms[ri], R = o.R, env = this.env;
     if (R.line) {
-      var ord = null, fin = null;
-      (task.agents || []).forEach(function (a) { if (!ord && a.state === "working") ord = parseOrder(a.issue_title); });
-      (task.latest_issues || []).forEach(function (it) { if (!ord && it.status !== "cancelled" && it.status !== "done") ord = parseOrder(it.title); });
-      if (!ord) (task.latest_issues || []).forEach(function (it) { if (!fin && it.status === "done") fin = parseOrder(it.title); });
-      env.lineMoving = !!(ord && task.machine_online);
-      o.stState = R.line.stages.map(function (_, k) { return !ord ? (fin ? "done" : "") : (k === ord.k || (k === 0 && ord.both)) ? "cur" : k < ord.k ? "done" : ""; });
+      var ord = null, fin = null, od = task.order;
+      if (od) {   // 采集脚本给出的当前执行单：最近更新、未完成的顶层执行单，没有则是最近完成的一张
+        var po = parseOrder(od.title, od.status);
+        if (po && od.status === "done") fin = po; else if (po && od.status !== "cancelled") ord = po;
+      } else {    // 旧数据没有 order：按在跑成员与最新 issue 推断
+        (task.agents || []).forEach(function (a) { if (!ord && a.state === "working") ord = parseOrder(a.issue_title); });
+        (task.latest_issues || []).forEach(function (it) { if (!ord && it.status !== "cancelled" && it.status !== "done") ord = parseOrder(it.title, it.status); });
+        if (!ord) (task.latest_issues || []).forEach(function (it) { if (!fin && it.status === "done") fin = parseOrder(it.title); });
+      }
+      var hold = ord ? ord.hold : "", hcls = hold === "待人工" ? "nh" : "hold";
+      env.lineMoving = !!(ord && !hold && task.machine_online);
+      o.stState = R.line.stages.map(function (_, k) { return !ord ? (fin ? "done" : "") : (k === ord.k || (k === 0 && ord.both)) ? (hold ? hcls : "cur") : k < ord.k ? "done" : ""; });
       o.st.forEach(function (e, k) { e.className = "stchip " + o.stState[k]; });
-      if (ord) { o.crate.textContent = ord.app; o.linecap.innerHTML = "执行单 <b>" + esc(ord.app) + "</b> · " + esc(ord.stage) + (ord.info.length ? " · " + esc(ord.info.join(" · ")) : ""); o.linecap.title = ord.title; }
-      else if (fin) { o.crate.textContent = fin.app + " ✓"; o.linecap.innerHTML = "最近完成：<b>" + esc(fin.app) + "</b>"; o.linecap.title = fin.title; }
+      if (ord) {
+        o.crate.textContent = ord.app + (hold ? " · " + hold : "");
+        o.linecap.innerHTML = "执行单 <b>" + esc(ord.app) + "</b>" + (ord.stage ? " · " + esc(ord.stage) : "") + (hold ? ' · <em class="' + hcls + '">' + hold + "</em>" : "") +
+          (ord.why ? " · " + esc(ord.why) : "") + (ord.info.length ? " · " + esc(ord.info.join(" · ")) : "");
+        o.linecap.title = (od ? od.key + " " : "") + ord.title;
+      }
+      else if (fin) { o.crate.textContent = fin.app + " ✓"; o.linecap.innerHTML = "最近完成：<b>" + esc(fin.app) + "</b>"; o.linecap.title = (od ? od.key + " " : "") + fin.title; }
       else { o.linecap.textContent = "暂无进行中的执行单"; o.linecap.title = ""; }
       o.crate.style.display = ord || fin ? "" : "none";
-      this.lineApp = ord ? ord.app : fin ? fin.app : ""; this.lineK = ord ? ord.k : fin ? 6 : -1;
+      // 在制品箱位置：当前工序机；阶段未知的暂停单停在入料口（-2）；完成的在出料口（6）
+      this.lineApp = ord ? ord.app : fin ? fin.app : ""; this.lineK = ord ? (ord.k >= 0 ? ord.k : -2) : fin ? 6 : -1;
     }
     if (o.relay) {
       var work = {}; (task.agents || []).forEach(function (a) { if (a.state === "working" && task.machine_online) work[a.name] = a; });
@@ -405,7 +430,7 @@
     this.tvIdx = keep && this.tvIdx != null ? this.tvIdx % list.length : ((this.tvIdx == null ? -1 : this.tvIdx) + 1) % list.length;
     var t = list[this.tvIdx], c = t.issue_counts || {}, ag = t.agents || [];
     var on = ag.filter(function (a) { return t.machine_online && a.state === "working"; }).length;
-    this.tvEl.innerHTML = "<b>" + esc(t.title || t.id) + "</b><span>进度 " + (t.progress || 0) + "% · 在岗 " + on + "/" + ag.length + "</span><span>进行 " + (c.in_progress || 0) + " · 评审 " + (c.in_review || 0) + " · 完成 " + (c.done || 0) + "</span>";
+    this.tvEl.innerHTML = "<b>" + esc(t.title || t.id) + "</b><span>进度 " + (t.progress || 0) + "%" + (t.progress_from ? "（" + progTag(t) + "）" : "") + " · 在岗 " + on + "/" + ag.length + "</span><span>进行 " + (c.in_progress || 0) + " · 评审 " + (c.in_review || 0) + " · 完成 " + (c.done || 0) + "</span>";
     this.tvEl.title = "休息区电视轮播四个团队的实时数据";
   };
   O.tickClock = function (text, next) { this.clockEl.querySelector(".ct").textContent = text; this.clockEl.querySelector(".cn").textContent = next; };
@@ -539,15 +564,17 @@
     var a = A.data, t = A.task, L = [], c = t.issue_counts || {};
     if (A.mode === "work" || A.mode === "patrol") {
       if (a.issue) L.push({ k: a.issue, s: short(a.issue_title, 34) });
-      var ord = parseOrder(a.issue_title);
-      if (ord) { L.push({ s: ord.app + " · " + ord.stage }); if (ord.info.length) L.push({ s: ord.info.join(" · ") }); }
+      var ord = parseOrder(a.issue_title) || parseOrder(a.parent_title);
+      if (a.parent_issue) L.push({ k: a.parent_issue, s: " 的子单" + (ord ? " · " + ord.app + (ord.stage ? " · " + ord.stage : "") : " · " + short(a.parent_title, 24)) });
+      else if (ord) { L.push({ s: ord.app + (ord.stage ? " · " + ord.stage : "") }); if (ord.info.length) L.push({ s: ord.info.join(" · ") }); }
       var m = minsSince(a.since); if (m >= 0) L.push({ s: "这一轮已跑 " + (m >= 60 ? (m / 60).toFixed(1) + " 小时" : m + " 分钟") });
       if (A.mode === "patrol") L.push({ s: "巡检：" + short(a.issue_title, 26) });
     } else if (A.mode === "host") L.push({ s: "主持：" + short(a.issue_title, 30) });
     else if (A.mode === "meet") L.push({ s: short(t.meeting_title || "开会中", 30) });
     else {
       L.push({ s: "待命中，手上没有 run" });
-      L.push({ s: "团队进度 " + (t.progress || 0) + "%（日报）" });
+      L.push({ s: "团队进度 " + (t.progress || 0) + "%（" + progTag(t) + "）" });
+      if (t.progress_note) L.push({ s: short(t.progress_note, 30) });
       L.push({ s: "本队进行 " + (c.in_progress || 0) + " · 评审 " + (c.in_review || 0) + " · 待办 " + (c.todo || 0) });
       L.push({ s: "下一场：" + nextRitual() });
       var li = (t.latest_issues || [])[0];
@@ -661,10 +688,10 @@
     if (R3 && !this.failed) {   // 任务3：工序机与在制品箱
       var L = R3.line;
       L.machines.forEach(function (mx, k) { list.push({ z: (L.y + 1) * T + 0.3, f: function () { S.paint.machine(c, mx, L.y, t, (o3.stState || [])[k], k); } }); });
-      if (this.lineApp && this.lineK >= 0) {
-        var fin = this.lineK >= 6, bx = fin ? L.out * T + 10 : L.machines[this.lineK] * T + 2, by = L.y * T + (fin ? 2 : 11), bob = env.lineMoving ? (Math.floor(t / 300) % 2) : 0;
+      if (this.lineApp && this.lineK !== -1) {
+        var fin = this.lineK >= 6, bx = fin ? L.out * T + 10 : this.lineK < 0 ? L.intake * T + 2 : L.machines[this.lineK] * T + 2, by = L.y * T + (fin ? 2 : 11), bob = env.lineMoving ? (Math.floor(t / 300) % 2) : 0;
         list.push({ z: (L.y + 1) * T + 0.4, f: function () { S.paint.crate(c, bx, by, bob); } });
-        this.moveAnchor(o3.crate, bx + 6, by - 3);
+        if (this.lineK === -2) this.moveAnchor(o3.crate, bx - 1, by - 3, 0); else this.moveAnchor(o3.crate, bx + 6, by - 3, 0.5);   // 入料口靠墙：标签向右展开
       }
     }
     Object.keys(this.agents).forEach(function (k) {
@@ -803,4 +830,5 @@
   };
 
   global.PixelOffice = Office;
+  Office.progTag = progTag; Office.progSrc = progSrc; Office.parseOrder = parseOrder;
 })(window);
