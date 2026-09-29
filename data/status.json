@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T20:07:40Z",
+  "generated_at": "2026-09-29T20:11:33Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -17,9 +17,10 @@
           "role": "GPT Writer（执笔者）",
           "model": "",
           "agent_id": "58ed4647-32dd-4ca1-8ddc-194b975d6024",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "SUR-66",
+          "issue_title": "[晨会纪要] 2026-09-30",
+          "since": "2026-09-29T20:11:08Z"
         },
         {
           "name": "kimi-adversary",
@@ -27,9 +28,10 @@
           "role": "Kimi Adversarial Reviewer（对抗评审",
           "model": "",
           "agent_id": "6e530cc6-6b9d-4398-936d-df9c13468125",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "SUR-66",
+          "issue_title": "[晨会纪要] 2026-09-30",
+          "since": "2026-09-29T20:11:08Z"
         },
         {
           "name": "deepseek-planner",
@@ -44,41 +46,41 @@
         }
       ],
       "issue_counts": {
-        "todo": 3,
-        "in_progress": 0,
+        "todo": 1,
+        "in_progress": 1,
         "in_review": 0,
-        "done": 47
+        "done": 50
       },
       "latest_issues": [
         {
           "key": "SUR-66",
           "title": "[晨会纪要] 2026-09-30",
+          "status": "done",
+          "updated_at": "2026-09-29T20:11:18Z"
+        },
+        {
+          "key": "SUR-54",
+          "title": "[流程优化] 2026-09-29 晨会产出 1 项（经验库/文档指针化），次日验证",
+          "status": "done",
+          "updated_at": "2026-09-29T20:11:04Z"
+        },
+        {
+          "key": "SUR-64",
+          "title": "[流程优化] 2026-09-29 晚会产出 1 项（goals P0 变更巡检检测），次日验证",
+          "status": "done",
+          "updated_at": "2026-09-29T20:11:00Z"
+        },
+        {
+          "key": "SUR-68",
+          "title": "[评审][day-6] 事后对抗评审英文第 2 章 + refs.bib 骨架（SUR-62 提交）",
+          "status": "in_progress",
+          "updated_at": "2026-09-29T20:09:43Z"
+        },
+        {
+          "key": "SUR-67",
+          "title": "[任务][day-6] 迁移第 3 章至 LaTeX（03-pipeline.tex 五阶段）+ 落",
           "status": "todo",
-          "updated_at": "2026-09-29T20:00:07Z"
-        },
-        {
-          "key": "SUR-65",
-          "title": "[巡检] 2026-09-30 leader Issue 状态巡检与催办",
-          "status": "done",
-          "updated_at": "2026-09-29T16:06:08Z"
-        },
-        {
-          "key": "SUR-60",
-          "title": "[目标更新] 任务1 新大纲+TSE英文LaTeX终稿（2026-09-29 负责人，全员对齐）",
-          "status": "done",
-          "updated_at": "2026-09-29T16:05:48Z"
-        },
-        {
-          "key": "SUR-63",
-          "title": "[评审][day-5] 新大纲内部一致性评审 + batch4 返工独立复核（SUR-57）+ Ru",
-          "status": "done",
-          "updated_at": "2026-09-29T16:05:45Z"
-        },
-        {
-          "key": "SUR-62",
-          "title": "[任务][day-5] 迁移第 2 章至 LaTeX（02-methodology.tex，RQ1-",
-          "status": "done",
-          "updated_at": "2026-09-29T12:23:10Z"
+          "updated_at": "2026-09-29T20:09:16Z"
         }
       ],
       "progress_note": "day-4 晨 37% → 午 42% → 晚 44% → 夜 47%",
@@ -145,6 +147,12 @@
       },
       "latest_issues": [
         {
+          "key": "BEN-51",
+          "title": "[任务·第1轮] AntennaPod A6 批次：更多/设置+首页剩余非设备可溯源组转 ready",
+          "status": "todo",
+          "updated_at": "2026-09-29T20:09:33Z"
+        },
+        {
           "key": "BEN-50",
           "title": "[早会纪要] 2026-09-30",
           "status": "done",
@@ -155,12 +163,6 @@
           "title": "[任务·第1轮] AntennaPod 133 ready 首批双端回归（Android oracl",
           "status": "in_progress",
           "updated_at": "2026-09-29T20:06:17Z"
-        },
-        {
-          "key": "BEN-51",
-          "title": "[任务·第1轮] AntennaPod A6 批次：更多/设置+首页剩余非设备可溯源组转 ready",
-          "status": "todo",
-          "updated_at": "2026-09-29T20:05:53Z"
         },
         {
           "key": "BEN-49",
@@ -310,9 +312,9 @@
           "model": "",
           "agent_id": "1764c131-5c09-48cb-aa48-3177d5256dbb",
           "state": "working",
-          "issue": "IPD-90",
-          "issue_title": "[PRD·第1轮] REQ-006 下一场景预研（第6场景）",
-          "since": "2026-09-29T20:07:58Z"
+          "issue": "IPD-86",
+          "issue_title": "[早会纪要] 2026-09-30",
+          "since": "2026-09-29T20:10:30Z"
         },
         {
           "name": "hermes-sa",
@@ -321,9 +323,9 @@
           "model": "volc:qwen3.8-max",
           "agent_id": "3e4373ef-a262-4b28-ab2a-818861fc9624",
           "state": "working",
-          "issue": "IPD-82",
-          "issue_title": "[TR-Req 评审] REQ-005 单位换算器（Unit Converter）—— 需求评审（PM 发起）",
-          "since": "2026-09-29T20:07:40Z"
+          "issue": "IPD-86",
+          "issue_title": "[早会纪要] 2026-09-30",
+          "since": "2026-09-29T20:10:30Z"
         },
         {
           "name": "hermes-se",
@@ -331,10 +333,9 @@
           "role": "IPD-SE 系统工程师",
           "model": "volc:qwen3.8-max",
           "agent_id": "b874ba6b-80e6-45c6-a8c6-aedc6f2b326b",
-          "state": "working",
-          "issue": "IPD-87",
-          "issue_title": "[SE·第1轮] REQ-005 追踪矩阵骨架 + REQ-004 测试用例列回挂",
-          "since": "2026-09-29T20:07:50Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "hermes-dev",
@@ -343,9 +344,9 @@
           "model": "",
           "agent_id": "44fcec25-d8b3-4af6-b206-1774a64677ce",
           "state": "working",
-          "issue": "IPD-88",
-          "issue_title": "[双端编码·第1轮] REQ-005 单位换算器 Android 单机基线（Kotlin）",
-          "since": "2026-09-29T20:07:52Z"
+          "issue": "IPD-86",
+          "issue_title": "[早会纪要] 2026-09-30",
+          "since": "2026-09-29T20:10:30Z"
         },
         {
           "name": "hermes-tester",
@@ -365,9 +366,9 @@
           "model": "",
           "agent_id": "78156461-9644-478e-9c80-53cd18e25e33",
           "state": "working",
-          "issue": "IPD-91",
-          "issue_title": "[发版·第1轮] REQ-004 端到端时长补采 + 发版度量",
-          "since": "2026-09-29T20:08:00Z"
+          "issue": "IPD-86",
+          "issue_title": "[早会纪要] 2026-09-30",
+          "since": "2026-09-29T20:10:30Z"
         },
         {
           "name": "deepseek-planner",
@@ -375,10 +376,9 @@
           "role": "DeepSeek Planner（小组 leader/PM ",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
-          "state": "working",
-          "issue": "IPD-86",
-          "issue_title": "[早会纪要] 2026-09-30",
-          "since": "2026-09-29T20:00:19Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "minimax-uijudge",
@@ -392,41 +392,41 @@
         }
       ],
       "issue_counts": {
-        "todo": 6,
-        "in_progress": 1,
-        "in_review": 1,
-        "done": 65
+        "todo": 2,
+        "in_progress": 3,
+        "in_review": 2,
+        "done": 66
       },
       "latest_issues": [
         {
-          "key": "IPD-91",
-          "title": "[发版·第1轮] REQ-004 端到端时长补采 + 发版度量",
-          "status": "todo",
-          "updated_at": "2026-09-29T20:08:00Z"
-        },
-        {
-          "key": "IPD-90",
-          "title": "[PRD·第1轮] REQ-006 下一场景预研（第6场景）",
-          "status": "todo",
-          "updated_at": "2026-09-29T20:07:57Z"
-        },
-        {
-          "key": "IPD-89",
-          "title": "[测试·第1轮] REQ-004 uijudge 视觉补打分 + REQ-005 差分用例清单 + ",
-          "status": "todo",
-          "updated_at": "2026-09-29T20:07:55Z"
-        },
-        {
-          "key": "IPD-88",
-          "title": "[双端编码·第1轮] REQ-005 单位换算器 Android 单机基线（Kotlin）",
-          "status": "todo",
-          "updated_at": "2026-09-29T20:07:52Z"
+          "key": "IPD-86",
+          "title": "[早会纪要] 2026-09-30",
+          "status": "done",
+          "updated_at": "2026-09-29T20:12:04Z"
         },
         {
           "key": "IPD-87",
           "title": "[SE·第1轮] REQ-005 追踪矩阵骨架 + REQ-004 测试用例列回挂",
-          "status": "todo",
-          "updated_at": "2026-09-29T20:07:49Z"
+          "status": "in_review",
+          "updated_at": "2026-09-29T20:11:06Z"
+        },
+        {
+          "key": "IPD-89",
+          "title": "[测试·第1轮] REQ-004 uijudge 视觉补打分 + REQ-005 差分用例清单 + ",
+          "status": "in_progress",
+          "updated_at": "2026-09-29T20:10:41Z"
+        },
+        {
+          "key": "IPD-88",
+          "title": "[双端编码·第1轮] REQ-005 单位换算器 Android 单机基线（Kotlin）",
+          "status": "in_progress",
+          "updated_at": "2026-09-29T20:10:39Z"
+        },
+        {
+          "key": "IPD-82",
+          "title": "[TR-Req 评审] REQ-005 单位换算器（Unit Converter）—— 需求评审（P",
+          "status": "in_progress",
+          "updated_at": "2026-09-29T20:10:23Z"
         }
       ]
     }
