@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T11:50:26Z",
+  "generated_at": "2026-09-29T11:58:06Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -239,47 +239,46 @@
           "model": "claude-opus-5-5",
           "agent_id": "cd70e713-a339-4621-8699-2058d9cf7d6b",
           "state": "working",
-          "issue": "DWM-58",
-          "issue_title": "[DWM-46·I] v2.3 修 G 发现的工具问题（dry-run 比对口径 / 保留原值 / finalize 写",
-          "since": "2026-09-29T11:17:34Z"
+          "issue": "",
+          "issue_title": ""
         }
       ],
       "issue_counts": {
-        "todo": 2,
-        "in_progress": 2,
-        "in_review": 0,
-        "done": 45
+        "todo": 1,
+        "in_progress": 0,
+        "in_review": 1,
+        "done": 36
       },
       "latest_issues": [
         {
-          "key": "DWM-46",
-          "title": "[流程改进] v2.3：以目标定流程（DW 优化证据 > 经验与语料 > 应用交付），小队决策并实施",
-          "status": "in_progress",
-          "updated_at": "2026-09-29T11:18:08Z"
+          "key": "BEN-43",
+          "title": "[环境·负责人授权] glm-scenarist/glm-runner 切换 GLM-5.3 + 更",
+          "status": "todo",
+          "updated_at": "2026-09-29T11:50:40Z"
         },
         {
-          "key": "DWM-58",
-          "title": "[DWM-46·I] v2.3 修 G 发现的工具问题（dry-run 比对口径 / 保留原值 / ",
-          "status": "in_progress",
-          "updated_at": "2026-09-29T11:17:49Z"
+          "key": "BEN-40",
+          "title": "[任务·第2轮] AntennaPod A4 批次（更多/设置 172 组）审核转 ready + ",
+          "status": "in_review",
+          "updated_at": "2026-09-29T08:15:08Z"
         },
         {
-          "key": "DWM-53",
-          "title": "[DWM-46·G] v2.3 验证侧自测与演练复核",
+          "key": "BEN-42",
+          "title": "[巡检] 2026-09-29 leader Issue 状态巡检与催办",
           "status": "done",
-          "updated_at": "2026-09-29T11:17:46Z"
+          "updated_at": "2026-09-29T08:03:44Z"
         },
         {
-          "key": "DWM-54",
-          "title": "[DWM-46·H] v2.3 Cofi 记录补推与下发",
-          "status": "backlog",
-          "updated_at": "2026-09-29T11:17:45Z"
+          "key": "BEN-41",
+          "title": "汇报当前进展、各 Agent 目标与现存问题",
+          "status": "done",
+          "updated_at": "2026-09-29T08:03:01Z"
         },
         {
-          "key": "DWM-57",
-          "title": "[DWM-46·J] v2.3 close --dry-run 零差异复测",
-          "status": "backlog",
-          "updated_at": "2026-09-29T11:17:28Z"
+          "key": "BEN-34",
+          "title": "[任务·第3轮] Cofi 129 ready 场景全量双端回归第 1 轮 + DIFF-REPOR",
+          "status": "done",
+          "updated_at": "2026-09-29T08:02:59Z"
         }
       ]
     },
