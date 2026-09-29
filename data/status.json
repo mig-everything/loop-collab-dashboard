@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T10:57:33Z",
+  "generated_at": "2026-09-29T11:16:08Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -207,9 +207,10 @@
           "role": "DW 迁移执行小队队长",
           "model": "claude-opus-5-5",
           "agent_id": "c6ff7c69-0db4-4b35-ac81-dd00e5a53ba4",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "DWM-46",
+          "issue_title": "[流程改进] v2.3：以目标定流程（DW 优化证据 > 经验与语料 > 应用交付），小队决策并实施 · 实施 5/6",
+          "since": "2026-09-29T11:16:09Z"
         },
         {
           "name": "exec-runner",
@@ -245,22 +246,22 @@
       ],
       "issue_counts": {
         "todo": 1,
-        "in_progress": 2,
-        "in_review": 0,
+        "in_progress": 1,
+        "in_review": 1,
         "done": 44
       },
       "latest_issues": [
         {
-          "key": "DWM-53",
-          "title": "[DWM-46·G] v2.3 验证侧自测与演练复核",
-          "status": "in_progress",
-          "updated_at": "2026-09-29T10:31:09Z"
-        },
-        {
           "key": "DWM-46",
           "title": "[流程改进] v2.3：以目标定流程（DW 优化证据 > 经验与语料 > 应用交付），小队决策并实施",
           "status": "in_progress",
-          "updated_at": "2026-09-29T10:31:07Z"
+          "updated_at": "2026-09-29T11:16:07Z"
+        },
+        {
+          "key": "DWM-53",
+          "title": "[DWM-46·G] v2.3 验证侧自测与演练复核",
+          "status": "in_review",
+          "updated_at": "2026-09-29T11:16:06Z"
         },
         {
           "key": "DWM-52",
