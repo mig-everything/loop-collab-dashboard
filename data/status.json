@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T20:00:08Z",
+  "generated_at": "2026-09-29T20:03:54Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -90,8 +90,8 @@
       "workspace": "ws-benchmark-loop",
       "machine": "张涛 Mac Studio",
       "machine_online": true,
-      "meeting_active": false,
-      "meeting_title": "",
+      "meeting_active": true,
+      "meeting_title": "[早会纪要] 2026-09-30",
       "progress": 35,
       "agents": [
         {
@@ -100,7 +100,7 @@
           "role": "GPT Scenarist",
           "model": "",
           "agent_id": "6e6f1e24-3bc5-455a-85d2-cb3fb6c9a672",
-          "state": "idle",
+          "state": "meeting",
           "issue": "",
           "issue_title": ""
         },
@@ -110,7 +110,7 @@
           "role": "GLM Runner & Analyst",
           "model": "",
           "agent_id": "bdaefa9b-7045-4264-95e4-1db664e353d0",
-          "state": "idle",
+          "state": "meeting",
           "issue": "",
           "issue_title": ""
         },
@@ -131,14 +131,14 @@
           "role": "MiniMax 多模态视觉差分评审",
           "model": "minimax-cn:MiniMax-M3",
           "agent_id": "843ac45d-b5db-4f35-b07b-2e5754ec5a5f",
-          "state": "idle",
+          "state": "meeting",
           "issue": "",
           "issue_title": ""
         }
       ],
       "issue_counts": {
-        "todo": 1,
-        "in_progress": 0,
+        "todo": 0,
+        "in_progress": 1,
         "in_review": 0,
         "done": 44
       },
@@ -146,8 +146,8 @@
         {
           "key": "BEN-50",
           "title": "[早会纪要] 2026-09-30",
-          "status": "todo",
-          "updated_at": "2026-09-29T20:00:19Z"
+          "status": "in_progress",
+          "updated_at": "2026-09-29T20:00:45Z"
         },
         {
           "key": "BEN-49",
