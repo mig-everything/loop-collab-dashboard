@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T06:40:51Z",
+  "generated_at": "2026-09-29T06:48:49Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -227,10 +227,9 @@
           "role": "验证员",
           "model": "claude-opus-5-5",
           "agent_id": "69822c63-0dcc-4f3e-875d-7b300d437623",
-          "state": "working",
-          "issue": "DWM-37",
-          "issue_title": "[DW迁移任务单] Cofi 迁移 · 终验",
-          "since": "2026-09-29T05:47:36Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "exec-fixer",
@@ -238,9 +237,10 @@
           "role": "修复员",
           "model": "claude-opus-5-5",
           "agent_id": "cd70e713-a339-4621-8699-2058d9cf7d6b",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "DWM-37",
+          "issue_title": "[DW迁移任务单] Cofi 迁移 · 终验",
+          "since": "2026-09-29T06:46:44Z"
         }
       ],
       "issue_counts": {
@@ -250,6 +250,12 @@
         "done": 34
       },
       "latest_issues": [
+        {
+          "key": "DWM-37",
+          "title": "[DW迁移任务单] Cofi 迁移 · 终验",
+          "status": "in_progress",
+          "updated_at": "2026-09-29T06:46:42Z"
+        },
         {
           "key": "DWM-46",
           "title": "[流程改进] v2.3：以目标定流程（DW 优化证据 > 经验与语料 > 应用交付），小队决策并实施",
@@ -261,12 +267,6 @@
           "title": "[DW迁移任务单] Omni-Notes 迁移 · 暂停（负责人：等 DWM-46 完成并验收）",
           "status": "blocked",
           "updated_at": "2026-09-29T06:39:00Z"
-        },
-        {
-          "key": "DWM-37",
-          "title": "[DW迁移任务单] Cofi 迁移 · 终验",
-          "status": "in_progress",
-          "updated_at": "2026-09-29T05:47:34Z"
         },
         {
           "key": "DWM-45",
