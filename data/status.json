@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T04:18:20Z",
+  "generated_at": "2026-09-29T04:22:52Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -17,10 +17,9 @@
           "role": "GPT Writer（执笔者）",
           "model": "",
           "agent_id": "58ed4647-32dd-4ca1-8ddc-194b975d6024",
-          "state": "working",
-          "issue": "SUR-57",
-          "issue_title": "[任务][day-5] 返工 batch4 六 P1 + P2 三项（SUR-53 清单，覆盖率 100%）",
-          "since": "2026-09-29T04:12:08Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "kimi-adversary",
@@ -52,16 +51,16 @@
       },
       "latest_issues": [
         {
+          "key": "SUR-57",
+          "title": "[任务][day-5] 返工 batch4 六 P1 + P2 三项（SUR-53 清单，覆盖率 1",
+          "status": "in_progress",
+          "updated_at": "2026-09-29T04:22:03Z"
+        },
+        {
           "key": "SUR-56",
           "title": "[午会纪要] 2026-09-29",
           "status": "done",
           "updated_at": "2026-09-29T04:17:27Z"
-        },
-        {
-          "key": "SUR-57",
-          "title": "[任务][day-5] 返工 batch4 六 P1 + P2 三项（SUR-53 清单，覆盖率 1",
-          "status": "in_progress",
-          "updated_at": "2026-09-29T04:15:10Z"
         },
         {
           "key": "SUR-58",
@@ -144,22 +143,22 @@
       },
       "latest_issues": [
         {
-          "key": "BEN-37",
-          "title": "[任务·第1轮] AntennaPod A3 批次：Feed 详情/单集条目链路转 ready + ",
-          "status": "in_review",
-          "updated_at": "2026-09-29T04:16:59Z"
+          "key": "BEN-39",
+          "title": "[午会纪要] 2026-09-29",
+          "status": "done",
+          "updated_at": "2026-09-29T04:22:38Z"
         },
         {
           "key": "BEN-40",
           "title": "[任务·第2轮] AntennaPod A4 批次（更多/设置 172 组）审核转 ready + ",
           "status": "in_progress",
-          "updated_at": "2026-09-29T04:12:01Z"
+          "updated_at": "2026-09-29T04:20:20Z"
         },
         {
-          "key": "BEN-39",
-          "title": "[午会纪要] 2026-09-29",
-          "status": "done",
-          "updated_at": "2026-09-29T04:10:36Z"
+          "key": "BEN-37",
+          "title": "[任务·第1轮] AntennaPod A3 批次：Feed 详情/单集条目链路转 ready + ",
+          "status": "in_review",
+          "updated_at": "2026-09-29T04:16:59Z"
         },
         {
           "key": "BEN-34",
