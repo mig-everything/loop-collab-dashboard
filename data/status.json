@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T12:18:29Z",
+  "generated_at": "2026-09-29T12:22:44Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -50,6 +50,12 @@
       },
       "latest_issues": [
         {
+          "key": "SUR-62",
+          "title": "[任务][day-5] 迁移第 2 章至 LaTeX（02-methodology.tex，RQ1-",
+          "status": "in_progress",
+          "updated_at": "2026-09-29T12:19:58Z"
+        },
+        {
           "key": "SUR-60",
           "title": "[目标更新] 任务1 新大纲+TSE英文LaTeX终稿（2026-09-29 负责人，全员对齐）",
           "status": "in_progress",
@@ -60,12 +66,6 @@
           "title": "[晚会日报] 2026-09-29",
           "status": "done",
           "updated_at": "2026-09-29T12:14:32Z"
-        },
-        {
-          "key": "SUR-62",
-          "title": "[任务][day-5] 迁移第 2 章至 LaTeX（02-methodology.tex，RQ1-",
-          "status": "in_progress",
-          "updated_at": "2026-09-29T12:13:22Z"
         },
         {
           "key": "SUR-63",
