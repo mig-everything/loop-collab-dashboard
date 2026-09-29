@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T04:13:43Z",
+  "generated_at": "2026-09-29T04:18:20Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -7,8 +7,8 @@
       "workspace": "ws-survey-loop",
       "machine": "张涛 MacBook",
       "machine_online": true,
-      "meeting_active": true,
-      "meeting_title": "[午会纪要] 2026-09-29",
+      "meeting_active": false,
+      "meeting_title": "",
       "progress": 47,
       "agents": [
         {
@@ -39,36 +39,35 @@
           "role": "DeepSeek Task Planner（任务规划+总结）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "04a4e04e-59d5-4f3a-8a16-acf99b80a493",
-          "state": "working",
-          "issue": "SUR-56",
-          "issue_title": "[午会纪要] 2026-09-29",
-          "since": "2026-09-29T04:00:15Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         }
       ],
       "issue_counts": {
-        "todo": 2,
+        "todo": 1,
         "in_progress": 2,
         "in_review": 0,
-        "done": 38
+        "done": 39
       },
       "latest_issues": [
+        {
+          "key": "SUR-56",
+          "title": "[午会纪要] 2026-09-29",
+          "status": "done",
+          "updated_at": "2026-09-29T04:17:27Z"
+        },
+        {
+          "key": "SUR-57",
+          "title": "[任务][day-5] 返工 batch4 六 P1 + P2 三项（SUR-53 清单，覆盖率 1",
+          "status": "in_progress",
+          "updated_at": "2026-09-29T04:15:10Z"
+        },
         {
           "key": "SUR-58",
           "title": "[评审][day-5] 独立复核 batch3 返工落地（SUR-52 完整 DoD）+ Rubri",
           "status": "in_progress",
           "updated_at": "2026-09-29T04:12:48Z"
-        },
-        {
-          "key": "SUR-57",
-          "title": "[任务][day-5] 返工 batch4 六 P1 + P2 三项（SUR-53 清单，覆盖率 1",
-          "status": "todo",
-          "updated_at": "2026-09-29T04:12:05Z"
-        },
-        {
-          "key": "SUR-56",
-          "title": "[午会纪要] 2026-09-29",
-          "status": "in_progress",
-          "updated_at": "2026-09-29T04:11:39Z"
         },
         {
           "key": "SUR-55",
@@ -148,7 +147,7 @@
           "key": "BEN-37",
           "title": "[任务·第1轮] AntennaPod A3 批次：Feed 详情/单集条目链路转 ready + ",
           "status": "in_review",
-          "updated_at": "2026-09-29T04:13:36Z"
+          "updated_at": "2026-09-29T04:16:59Z"
         },
         {
           "key": "BEN-40",
@@ -313,10 +312,9 @@
           "role": "IPD-SA 解决方案架构师",
           "model": "",
           "agent_id": "3e4373ef-a262-4b28-ab2a-818861fc9624",
-          "state": "working",
-          "issue": "IPD-71",
-          "issue_title": "[架构·第2轮] REQ-004 分布式流转正式架构方案 + 接口契约 + TR-Design 评审主持",
-          "since": "2026-09-29T04:06:37Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "hermes-se",
@@ -383,10 +381,22 @@
       "issue_counts": {
         "todo": 1,
         "in_progress": 1,
-        "in_review": 3,
+        "in_review": 4,
         "done": 63
       },
       "latest_issues": [
+        {
+          "key": "IPD-71",
+          "title": "[架构·第2轮] REQ-004 分布式流转正式架构方案 + 接口契约 + TR-Design 评审",
+          "status": "in_review",
+          "updated_at": "2026-09-29T04:17:53Z"
+        },
+        {
+          "key": "IPD-76",
+          "title": "[TR-Design 评审] REQ-004 分布式流转（跨设备续写）—— 设计评审（SA 主持）—",
+          "status": "todo",
+          "updated_at": "2026-09-29T04:17:07Z"
+        },
         {
           "key": "IPD-73",
           "title": "[SE·第2轮] REQ-004 追踪矩阵设计实体列 + REQ-003 测试用例列回挂 + spe",
@@ -404,18 +414,6 @@
           "title": "[测试·第2轮] REQ-004 分布式流转双端差分用例清单 + C4 rubric",
           "status": "in_review",
           "updated_at": "2026-09-29T04:12:35Z"
-        },
-        {
-          "key": "IPD-70",
-          "title": "[午会纪要] 2026-09-29",
-          "status": "done",
-          "updated_at": "2026-09-29T04:07:45Z"
-        },
-        {
-          "key": "IPD-72",
-          "title": "[双端编码·第2轮] REQ-004 分布式流转双端编码（Android 单机基线 + 鸿蒙 Dis",
-          "status": "in_progress",
-          "updated_at": "2026-09-29T04:07:21Z"
         }
       ]
     }
