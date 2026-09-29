@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T21:46:46Z",
+  "generated_at": "2026-09-29T21:54:07Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -109,10 +109,9 @@
           "role": "GLM Runner & Analyst",
           "model": "",
           "agent_id": "bdaefa9b-7045-4264-95e4-1db664e353d0",
-          "state": "working",
-          "issue": "BEN-52",
-          "issue_title": "[任务·第1轮] AntennaPod 133 ready 首批双端回归（Android oracle 先行）+ 差分 ",
-          "since": "2026-09-29T20:05:56Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "deepseek-planner",
@@ -137,11 +136,17 @@
       ],
       "issue_counts": {
         "todo": 0,
-        "in_progress": 1,
-        "in_review": 0,
+        "in_progress": 0,
+        "in_review": 1,
         "done": 46
       },
       "latest_issues": [
+        {
+          "key": "BEN-52",
+          "title": "[任务·第1轮] AntennaPod 133 ready 首批双端回归（Android oracl",
+          "status": "in_review",
+          "updated_at": "2026-09-29T21:53:26Z"
+        },
         {
           "key": "BEN-51",
           "title": "[任务·第1轮] AntennaPod A6 批次：更多/设置+首页剩余非设备可溯源组转 ready",
@@ -153,12 +158,6 @@
           "title": "[早会纪要] 2026-09-30",
           "status": "done",
           "updated_at": "2026-09-29T20:06:47Z"
-        },
-        {
-          "key": "BEN-52",
-          "title": "[任务·第1轮] AntennaPod 133 ready 首批双端回归（Android oracl",
-          "status": "in_progress",
-          "updated_at": "2026-09-29T20:06:17Z"
         },
         {
           "key": "BEN-49",
