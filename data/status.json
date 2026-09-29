@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T01:43:08Z",
+  "generated_at": "2026-09-29T01:46:51Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -246,15 +246,15 @@
       "issue_counts": {
         "todo": 0,
         "in_progress": 1,
-        "in_review": 1,
-        "done": 32
+        "in_review": 0,
+        "done": 33
       },
       "latest_issues": [
         {
           "key": "DWM-43",
           "title": "[流程修正] DW 执行流程 v2.2：套件锁误报 / 时间盒放宽 / 超时后照常验证修复 / 进度",
-          "status": "in_review",
-          "updated_at": "2026-09-29T01:41:15Z"
+          "status": "done",
+          "updated_at": "2026-09-29T01:45:04Z"
         },
         {
           "key": "DWM-37",
