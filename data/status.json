@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T13:17:59Z",
+  "generated_at": "2026-09-29T13:20:45Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -109,10 +109,9 @@
           "role": "GLM Runner & Analyst",
           "model": "",
           "agent_id": "bdaefa9b-7045-4264-95e4-1db664e353d0",
-          "state": "working",
-          "issue": "BEN-46",
-          "issue_title": "[任务·第3轮] Cofi 129 ready 全量双端回归第 2 轮（checkpoint 化）+ DIFF-REPO",
-          "since": "2026-09-29T12:09:30Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "deepseek-planner",
