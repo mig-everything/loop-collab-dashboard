@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T15:57:52Z",
+  "generated_at": "2026-09-30T16:01:39Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -37,18 +37,25 @@
           "role": "DeepSeek Task Planner（任务规划+总结）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "04a4e04e-59d5-4f3a-8a16-acf99b80a493",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "SUR-80",
+          "issue_title": "[巡检] 2026-10-01 leader Issue 状态巡检与催办",
+          "since": "2026-09-30T16:00:18Z"
         }
       ],
       "issue_counts": {
         "todo": 0,
-        "in_progress": 0,
+        "in_progress": 1,
         "in_review": 0,
         "done": 63
       },
       "latest_issues": [
+        {
+          "key": "SUR-80",
+          "title": "[巡检] 2026-10-01 leader Issue 状态巡检与催办",
+          "status": "in_progress",
+          "updated_at": "2026-09-30T16:01:11Z"
+        },
         {
           "key": "SUR-78",
           "title": "[流程优化] 2026-09-30 晚会产出 1 项（评审结论强制可执行修复单格式），次日验证",
@@ -72,12 +79,6 @@
           "title": "[空闲检测] 2026-09-30 leader 两小时正点检查与加派",
           "status": "done",
           "updated_at": "2026-09-30T14:02:00Z"
-        },
-        {
-          "key": "SUR-75",
-          "title": "[空闲检测] 2026-09-30 leader 两小时正点检查与加派",
-          "status": "done",
-          "updated_at": "2026-09-30T14:00:07Z"
         }
       ],
       "progress_note": "day-4 晨 37% → 午 42% → 晚 44% → 夜 47%",
@@ -120,9 +121,10 @@
           "role": "DeepSeek Planner（小组 leader/PM）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "547cd361-ef50-4965-9477-bc659d8a1708",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "BEN-78",
+          "issue_title": "[巡检] 2026-10-01 leader Issue 状态巡检与催办",
+          "since": "2026-09-30T16:00:24Z"
         },
         {
           "name": "minimax-visual-diff",
@@ -156,12 +158,18 @@
         }
       ],
       "issue_counts": {
-        "todo": 0,
+        "todo": 1,
         "in_progress": 1,
         "in_review": 1,
         "done": 69
       },
       "latest_issues": [
+        {
+          "key": "BEN-78",
+          "title": "[巡检] 2026-10-01 leader Issue 状态巡检与催办",
+          "status": "todo",
+          "updated_at": "2026-09-30T16:00:22Z"
+        },
         {
           "key": "BEN-55",
           "title": "[backlog] 并发评测改造：runner 支持并行多模拟器分段执行+结果自动汇总",
@@ -185,12 +193,6 @@
           "title": "[backlog] 9 变体自动覆盖：评测自动遍历全部 <app>/testN/ 变体横向评分",
           "status": "in_progress",
           "updated_at": "2026-09-30T14:24:44Z"
-        },
-        {
-          "key": "BEN-70",
-          "title": "将 codex 原生 agent md 第一条添加到当前 agent md",
-          "status": "done",
-          "updated_at": "2026-09-30T14:15:59Z"
         }
       ]
     },
@@ -220,9 +222,10 @@
           "role": "DeepSeek Planner（小组 leader/PM，",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "950ff614-521d-4e32-a02d-423d41a7b2b3",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "DWM-74",
+          "issue_title": "[巡检] 2026-10-01 leader Issue 状态巡检与催办",
+          "since": "2026-09-30T16:00:23Z"
         },
         {
           "name": "dw-lead",
@@ -242,7 +245,7 @@
           "agent_id": "1c3481f5-135b-4959-9daa-c510c076d494",
           "state": "working",
           "issue": "DWM-40",
-          "issue_title": "[DW迁移任务单] Omni-Notes 迁移 · 清单+迁移 · 清单✓349 · 迁移中 3/6 · 迁移14.1h",
+          "issue_title": "[DW迁移任务单] Omni-Notes 迁移 · 清单+迁移 · 清单✓349 · 迁移中 3/6 · 迁移14.2h",
           "since": "2026-09-30T15:34:37Z"
         },
         {
@@ -267,17 +270,23 @@
         }
       ],
       "issue_counts": {
-        "todo": 0,
+        "todo": 1,
         "in_progress": 1,
         "in_review": 1,
         "done": 50
       },
       "latest_issues": [
         {
+          "key": "DWM-74",
+          "title": "[巡检] 2026-10-01 leader Issue 状态巡检与催办",
+          "status": "todo",
+          "updated_at": "2026-09-30T16:00:22Z"
+        },
+        {
           "key": "DWM-40",
           "title": "[DW迁移任务单] Omni-Notes 迁移 · 清单+迁移 · 清单✓349 · 迁移中 3/6",
           "status": "in_progress",
-          "updated_at": "2026-09-30T15:54:48Z"
+          "updated_at": "2026-09-30T16:00:02Z"
         },
         {
           "key": "DWM-68",
@@ -296,19 +305,13 @@
           "title": "[空闲检测] 2026-09-30 leader 两小时正点检查与加派",
           "status": "done",
           "updated_at": "2026-09-30T14:06:03Z"
-        },
-        {
-          "key": "DWM-73",
-          "title": "[空闲检测] 2026-09-30 leader 两小时正点检查与加派",
-          "status": "done",
-          "updated_at": "2026-09-30T14:03:29Z"
         }
       ],
       "order": {
         "key": "DWM-40",
-        "title": "[DW迁移任务单] Omni-Notes 迁移 · 清单+迁移 · 清单✓349 · 迁移中 3/6 · 迁移14.1h/18.0h · 待人工",
+        "title": "[DW迁移任务单] Omni-Notes 迁移 · 清单+迁移 · 清单✓349 · 迁移中 3/6 · 迁移14.2h/18.0h · 待人工",
         "status": "in_progress",
-        "updated_at": "2026-09-30T15:54:48Z"
+        "updated_at": "2026-09-30T16:00:02Z"
       }
     },
     {
@@ -387,9 +390,10 @@
           "role": "DeepSeek Planner（小组 leader/PM ",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-122",
+          "issue_title": "[巡检] 2026-10-01 leader Issue 状态巡检与催办",
+          "since": "2026-09-30T16:00:27Z"
         },
         {
           "name": "minimax-uijudge",
@@ -403,12 +407,18 @@
         }
       ],
       "issue_counts": {
-        "todo": 5,
+        "todo": 6,
         "in_progress": 2,
         "in_review": 5,
         "done": 84
       },
       "latest_issues": [
+        {
+          "key": "IPD-122",
+          "title": "[巡检] 2026-10-01 leader Issue 状态巡检与催办",
+          "status": "todo",
+          "updated_at": "2026-09-30T16:00:23Z"
+        },
         {
           "key": "IPD-120",
           "title": "[TR-Design 评审] Eazo 平台正式架构方案 + 接口契约（能力②③ P0 优先）—— ",
@@ -432,12 +442,6 @@
           "title": "[TR-Design] Eazo 平台架构评审（五层架构+接口契约+四维度量契约，C1~C3 闭合）",
           "status": "done",
           "updated_at": "2026-09-30T14:25:35Z"
-        },
-        {
-          "key": "IPD-121",
-          "title": "[空闲检测] 2026-09-30 leader 两小时正点检查与加派",
-          "status": "done",
-          "updated_at": "2026-09-30T14:02:53Z"
         }
       ]
     }
