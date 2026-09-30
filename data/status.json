@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T07:18:09Z",
+  "generated_at": "2026-09-30T07:22:35Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -149,9 +149,10 @@
           "role": "只读洞察项目目标与执行证据，用简单语言汇报进展、偏差和阻塞，",
           "model": "gpt-6-astra",
           "agent_id": "33b902ee-a4ca-46ae-9284-c8285311c687",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "BEN-64",
+          "issue_title": "跟踪测例通过率，分析迭代效率",
+          "since": "2026-09-30T07:22:24Z"
         }
       ],
       "issue_counts": {
@@ -165,19 +166,19 @@
           "key": "BEN-64",
           "title": "跟踪测例通过率，分析迭代效率",
           "status": "todo",
-          "updated_at": "2026-09-30T07:16:34Z"
+          "updated_at": "2026-09-30T07:22:55Z"
+        },
+        {
+          "key": "BEN-63",
+          "title": "经验库分析",
+          "status": "todo",
+          "updated_at": "2026-09-30T07:21:31Z"
         },
         {
           "key": "BEN-59",
           "title": "项目流程profile",
           "status": "todo",
           "updated_at": "2026-09-30T06:50:30Z"
-        },
-        {
-          "key": "BEN-63",
-          "title": "经验库分析",
-          "status": "todo",
-          "updated_at": "2026-09-30T06:50:10Z"
         },
         {
           "key": "BEN-54",
