@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T20:36:35Z",
+  "generated_at": "2026-09-30T20:40:16Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -359,10 +359,9 @@
           "role": "IPD-Dev 开发工程师",
           "model": "",
           "agent_id": "44fcec25-d8b3-4af6-b206-1774a64677ce",
-          "state": "working",
-          "issue": "IPD-103",
-          "issue_title": "[平台·能力②] 双端生成引擎（Claude Code，安卓+鸿蒙同需求同生成）",
-          "since": "2026-09-30T20:07:28Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "hermes-tester",
@@ -413,6 +412,12 @@
       },
       "latest_issues": [
         {
+          "key": "IPD-103",
+          "title": "[平台·能力②] 双端生成引擎（Claude Code，安卓+鸿蒙同需求同生成）",
+          "status": "todo",
+          "updated_at": "2026-09-30T20:37:57Z"
+        },
+        {
           "key": "IPD-131",
           "title": "[TR-Req 评审] REQ-007 扫雷（Minesweeper）—— 需求评审（PM 发起）",
           "status": "in_review",
@@ -435,12 +440,6 @@
           "title": "[平台·能力③] 对比分析管线（四维报告+入库+环比，P0优先）",
           "status": "in_review",
           "updated_at": "2026-09-30T20:14:08Z"
-        },
-        {
-          "key": "IPD-129",
-          "title": "[度量·第1轮] REQ-005 四维度量补采 + 平台四维环比基线",
-          "status": "in_review",
-          "updated_at": "2026-09-30T20:13:23Z"
         }
       ]
     }
