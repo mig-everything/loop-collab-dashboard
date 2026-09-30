@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T17:52:59Z",
+  "generated_at": "2026-09-30T17:56:38Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -229,9 +229,10 @@
           "role": "DW 迁移执行小队队长",
           "model": "claude-opus-5-5",
           "agent_id": "c6ff7c69-0db4-4b35-ac81-dd00e5a53ba4",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "DWM-40",
+          "issue_title": "[DW迁移任务单] Omni-Notes 迁移 · 还原审计 · 待人工",
+          "since": "2026-09-30T17:55:38Z"
         },
         {
           "name": "exec-runner",
@@ -239,10 +240,9 @@
           "role": "运行员",
           "model": "claude-opus-5-5",
           "agent_id": "1c3481f5-135b-4959-9daa-c510c076d494",
-          "state": "working",
-          "issue": "DWM-40",
-          "issue_title": "[DW迁移任务单] Omni-Notes 迁移 · 清单+迁移 · 清单✓349 · 迁移完成 6/6 · 迁移16.0",
-          "since": "2026-09-30T17:26:32Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "exec-verifier",
@@ -250,9 +250,12 @@
           "role": "验证员",
           "model": "claude-opus-5-5",
           "agent_id": "69822c63-0dcc-4f3e-875d-7b300d437623",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "DWM-75",
+          "issue_title": "[DWM-40·审计] Omni-Notes 还原审计（dw-baseline/20260928-01）",
+          "since": "2026-09-30T17:56:45Z",
+          "parent_issue": "DWM-40",
+          "parent_title": "[DW迁移任务单] Omni-Notes 迁移 · 还原审计 · 待人工"
         },
         {
           "name": "exec-fixer",
@@ -260,9 +263,12 @@
           "role": "修复员",
           "model": "claude-opus-5-5",
           "agent_id": "cd70e713-a339-4621-8699-2058d9cf7d6b",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "DWM-76",
+          "issue_title": "[DWM-40·过程归因] Omni-Notes 迁移过程归因",
+          "since": "2026-09-30T17:56:47Z",
+          "parent_issue": "DWM-40",
+          "parent_title": "[DW迁移任务单] Omni-Notes 迁移 · 还原审计 · 待人工"
         }
       ],
       "issue_counts": {
@@ -274,9 +280,9 @@
       "latest_issues": [
         {
           "key": "DWM-40",
-          "title": "[DW迁移任务单] Omni-Notes 迁移 · 清单+迁移 · 清单✓349 · 迁移完成 6/",
+          "title": "[DW迁移任务单] Omni-Notes 迁移 · 还原审计 · 待人工",
           "status": "in_progress",
-          "updated_at": "2026-09-30T17:50:55Z"
+          "updated_at": "2026-09-30T17:56:47Z"
         },
         {
           "key": "DWM-74",
@@ -305,9 +311,9 @@
       ],
       "order": {
         "key": "DWM-40",
-        "title": "[DW迁移任务单] Omni-Notes 迁移 · 清单+迁移 · 清单✓349 · 迁移完成 6/6 · 迁移16.0h/18.0h · 待人工",
+        "title": "[DW迁移任务单] Omni-Notes 迁移 · 还原审计 · 待人工",
         "status": "in_progress",
-        "updated_at": "2026-09-30T17:50:55Z"
+        "updated_at": "2026-09-30T17:56:47Z"
       }
     },
     {
