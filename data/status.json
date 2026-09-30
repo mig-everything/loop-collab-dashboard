@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T20:21:45Z",
+  "generated_at": "2026-09-30T20:29:08Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -28,10 +28,9 @@
           "role": "Kimi Adversarial Reviewer（对抗评审",
           "model": "",
           "agent_id": "6e530cc6-6b9d-4398-936d-df9c13468125",
-          "state": "working",
-          "issue": "SUR-87",
-          "issue_title": "[评审][day-7] 事后对抗评审英文第 5 章（05-evaluation.tex，SUR-82 提交 b35501",
-          "since": "2026-09-30T20:15:44Z"
+          "state": "meeting",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "deepseek-planner",
@@ -46,11 +45,23 @@
       ],
       "issue_counts": {
         "todo": 0,
-        "in_progress": 3,
-        "in_review": 0,
-        "done": 68
+        "in_progress": 1,
+        "in_review": 1,
+        "done": 69
       },
       "latest_issues": [
+        {
+          "key": "SUR-86",
+          "title": "[任务][day-7] 迁移第 4 章至 LaTeX（04-enabling-tech.tex 关键",
+          "status": "done",
+          "updated_at": "2026-09-30T20:28:58Z"
+        },
+        {
+          "key": "SUR-87",
+          "title": "[评审][day-7] 事后对抗评审英文第 5 章（05-evaluation.tex，SUR-82",
+          "status": "in_review",
+          "updated_at": "2026-09-30T20:27:31Z"
+        },
         {
           "key": "SUR-85",
           "title": "[晨会纪要] 2026-10-01",
@@ -58,22 +69,10 @@
           "updated_at": "2026-09-30T20:19:46Z"
         },
         {
-          "key": "SUR-86",
-          "title": "[任务][day-7] 迁移第 4 章至 LaTeX（04-enabling-tech.tex 关键",
-          "status": "in_progress",
-          "updated_at": "2026-09-30T20:19:06Z"
-        },
-        {
           "key": "SUR-83",
           "title": "[评审][day-7] 复评第 3 章 SUR-77 修复落地（SUR-72 打回 1 P0+4 P",
           "status": "done",
           "updated_at": "2026-09-30T20:17:12Z"
-        },
-        {
-          "key": "SUR-87",
-          "title": "[评审][day-7] 事后对抗评审英文第 5 章（05-evaluation.tex，SUR-82",
-          "status": "in_progress",
-          "updated_at": "2026-09-30T20:16:09Z"
         },
         {
           "key": "SUR-82",
