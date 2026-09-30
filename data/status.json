@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T03:34:56Z",
+  "generated_at": "2026-09-30T03:39:01Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -99,9 +99,10 @@
           "role": "GPT Scenarist",
           "model": "",
           "agent_id": "6e6f1e24-3bc5-455a-85d2-cb3fb6c9a672",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "BEN-54",
+          "issue_title": "[目标对齐] 2026-09-30 负责人完善任务2验收口径（6条）+ 鸿蒙仓多变体结构变更",
+          "since": "2026-09-30T03:37:13Z"
         },
         {
           "name": "glm-runner",
@@ -109,9 +110,10 @@
           "role": "GLM Runner & Analyst",
           "model": "",
           "agent_id": "bdaefa9b-7045-4264-95e4-1db664e353d0",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "BEN-54",
+          "issue_title": "[目标对齐] 2026-09-30 负责人完善任务2验收口径（6条）+ 鸿蒙仓多变体结构变更",
+          "since": "2026-09-30T03:37:13Z"
         },
         {
           "name": "deepseek-planner",
@@ -119,10 +121,9 @@
           "role": "DeepSeek Planner（小组 leader/PM）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "547cd361-ef50-4965-9477-bc659d8a1708",
-          "state": "working",
-          "issue": "BEN-54",
-          "issue_title": "[目标对齐] 2026-09-30 负责人完善任务2验收口径（6条）+ 鸿蒙仓多变体结构变更",
-          "since": "2026-09-30T03:26:57Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "minimax-visual-diff",
@@ -146,41 +147,41 @@
         }
       ],
       "issue_counts": {
-        "todo": 0,
-        "in_progress": 1,
-        "in_review": 0,
+        "todo": 3,
+        "in_progress": 0,
+        "in_review": 1,
         "done": 48
       },
       "latest_issues": [
         {
           "key": "BEN-54",
           "title": "[目标对齐] 2026-09-30 负责人完善任务2验收口径（6条）+ 鸿蒙仓多变体结构变更",
-          "status": "in_progress",
-          "updated_at": "2026-09-30T03:34:01Z"
+          "status": "in_review",
+          "updated_at": "2026-09-30T03:38:10Z"
+        },
+        {
+          "key": "BEN-57",
+          "title": "[backlog] 9 变体自动覆盖：评测自动遍历全部 <app>/testN/ 变体横向评分",
+          "status": "backlog",
+          "updated_at": "2026-09-30T03:36:00Z"
+        },
+        {
+          "key": "BEN-56",
+          "title": "[backlog] 清单匹配映射表：功能清单 Excel ↔ 平台无关用例 一一匹配可追溯",
+          "status": "backlog",
+          "updated_at": "2026-09-30T03:35:57Z"
+        },
+        {
+          "key": "BEN-55",
+          "title": "[backlog] 并发评测改造：runner 支持并行多模拟器分段执行+结果自动汇总",
+          "status": "backlog",
+          "updated_at": "2026-09-30T03:35:55Z"
         },
         {
           "key": "BEN-53",
           "title": "[巡检] 2026-09-30 leader Issue 状态巡检与催办",
           "status": "done",
           "updated_at": "2026-09-30T00:01:48Z"
-        },
-        {
-          "key": "BEN-52",
-          "title": "[任务·第1轮] AntennaPod 133 ready 首批双端回归（Android oracl",
-          "status": "done",
-          "updated_at": "2026-09-30T00:01:35Z"
-        },
-        {
-          "key": "BEN-51",
-          "title": "[任务·第1轮] AntennaPod A6 批次：更多/设置+首页剩余非设备可溯源组转 ready",
-          "status": "done",
-          "updated_at": "2026-09-29T20:14:25Z"
-        },
-        {
-          "key": "BEN-50",
-          "title": "[早会纪要] 2026-09-30",
-          "status": "done",
-          "updated_at": "2026-09-29T20:06:47Z"
         }
       ]
     },
@@ -232,7 +233,7 @@
           "agent_id": "1c3481f5-135b-4959-9daa-c510c076d494",
           "state": "working",
           "issue": "DWM-40",
-          "issue_title": "[DW迁移任务单] Omni-Notes 迁移 · 清单+迁移 · 清单生成中 续6·r97·953/800步·5页/4",
+          "issue_title": "[DW迁移任务单] Omni-Notes 迁移 · 清单+迁移 · 清单生成中 续6·r98·973/800步·5页/5",
           "since": "2026-09-30T03:10:37Z"
         },
         {
@@ -265,9 +266,9 @@
       "latest_issues": [
         {
           "key": "DWM-40",
-          "title": "[DW迁移任务单] Omni-Notes 迁移 · 清单+迁移 · 清单生成中 续6·r97·953",
+          "title": "[DW迁移任务单] Omni-Notes 迁移 · 清单+迁移 · 清单生成中 续6·r98·973",
           "status": "in_progress",
-          "updated_at": "2026-09-30T03:25:22Z"
+          "updated_at": "2026-09-30T03:36:20Z"
         },
         {
           "key": "DWM-66",
@@ -296,9 +297,9 @@
       ],
       "order": {
         "key": "DWM-40",
-        "title": "[DW迁移任务单] Omni-Notes 迁移 · 清单+迁移 · 清单生成中 续6·r97·953/800步·5页/469项 · 迁移中 2/6 · 清单8.3h/10h 迁移3",
+        "title": "[DW迁移任务单] Omni-Notes 迁移 · 清单+迁移 · 清单生成中 续6·r98·973/800步·5页/525项 · 迁移中 2/6 · 清单8.5h/10h 迁移3",
         "status": "in_progress",
-        "updated_at": "2026-09-30T03:25:22Z"
+        "updated_at": "2026-09-30T03:36:20Z"
       },
       "progress_note": "沿用，Snowball 离线 dw-lead 无新 standup；10 个应用：完成 1、进行中 1、未开始 8"
     },
