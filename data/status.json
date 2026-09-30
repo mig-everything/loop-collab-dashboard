@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T20:29:08Z",
+  "generated_at": "2026-09-30T20:32:51Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -17,10 +17,9 @@
           "role": "GPT Writer（执笔者）",
           "model": "",
           "agent_id": "58ed4647-32dd-4ca1-8ddc-194b975d6024",
-          "state": "working",
-          "issue": "SUR-86",
-          "issue_title": "[任务][day-7] 迁移第 4 章至 LaTeX（04-enabling-tech.tex 关键使能技术）+ RQ3",
-          "since": "2026-09-30T20:15:41Z"
+          "state": "meeting",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "kimi-adversary",
@@ -54,7 +53,7 @@
           "key": "SUR-86",
           "title": "[任务][day-7] 迁移第 4 章至 LaTeX（04-enabling-tech.tex 关键",
           "status": "done",
-          "updated_at": "2026-09-30T20:28:58Z"
+          "updated_at": "2026-09-30T20:29:14Z"
         },
         {
           "key": "SUR-87",
