@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T16:50:24Z",
+  "generated_at": "2026-09-30T16:54:06Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -99,10 +99,9 @@
           "role": "GPT Scenarist",
           "model": "",
           "agent_id": "6e6f1e24-3bc5-455a-85d2-cb3fb6c9a672",
-          "state": "working",
-          "issue": "BEN-79",
-          "issue_title": "[BEN-57 断点] antennapod/simple-calendar harmony 用例集定位层就绪（占位 b",
-          "since": "2026-09-30T16:38:28Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "glm-runner",
@@ -166,7 +165,7 @@
           "key": "BEN-79",
           "title": "[BEN-57 断点] antennapod/simple-calendar harmony 用例集",
           "status": "in_progress",
-          "updated_at": "2026-09-30T16:41:50Z"
+          "updated_at": "2026-09-30T16:52:45Z"
         },
         {
           "key": "BEN-57",
@@ -242,7 +241,7 @@
           "agent_id": "1c3481f5-135b-4959-9daa-c510c076d494",
           "state": "working",
           "issue": "DWM-40",
-          "issue_title": "[DW迁移任务单] Omni-Notes 迁移 · 清单+迁移 · 清单✓349 · 迁移中 4/6 · 迁移15.0h",
+          "issue_title": "[DW迁移任务单] Omni-Notes 迁移 · 清单+迁移 · 清单✓349 · 迁移中 4/6 · 迁移15.1h",
           "since": "2026-09-30T15:34:37Z"
         },
         {
@@ -277,7 +276,7 @@
           "key": "DWM-40",
           "title": "[DW迁移任务单] Omni-Notes 迁移 · 清单+迁移 · 清单✓349 · 迁移中 4/6",
           "status": "in_progress",
-          "updated_at": "2026-09-30T16:47:14Z"
+          "updated_at": "2026-09-30T16:52:27Z"
         },
         {
           "key": "DWM-74",
@@ -306,9 +305,9 @@
       ],
       "order": {
         "key": "DWM-40",
-        "title": "[DW迁移任务单] Omni-Notes 迁移 · 清单+迁移 · 清单✓349 · 迁移中 4/6 · 迁移15.0h/18.0h · 待人工",
+        "title": "[DW迁移任务单] Omni-Notes 迁移 · 清单+迁移 · 清单✓349 · 迁移中 4/6 · 迁移15.1h/18.0h · 待人工",
         "status": "in_progress",
-        "updated_at": "2026-09-30T16:47:14Z"
+        "updated_at": "2026-09-30T16:52:27Z"
       }
     },
     {
