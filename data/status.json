@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T04:10:47Z",
+  "generated_at": "2026-09-30T04:14:55Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -18,9 +18,9 @@
           "model": "",
           "agent_id": "58ed4647-32dd-4ca1-8ddc-194b975d6024",
           "state": "working",
-          "issue": "SUR-71",
-          "issue_title": "[午会纪要] 2026-09-30",
-          "since": "2026-09-30T04:10:25Z"
+          "issue": "SUR-73",
+          "issue_title": "[任务][day-6] 收尾 SUR-68 P1-1 版本固定 + 固化版本标注约定 + 落地 P2 修订",
+          "since": "2026-09-30T04:09:26Z"
         },
         {
           "name": "kimi-adversary",
@@ -29,9 +29,9 @@
           "model": "",
           "agent_id": "6e530cc6-6b9d-4398-936d-df9c13468125",
           "state": "working",
-          "issue": "SUR-71",
-          "issue_title": "[午会纪要] 2026-09-30",
-          "since": "2026-09-30T04:10:25Z"
+          "issue": "SUR-72",
+          "issue_title": "[评审][day-6] 事后对抗评审英文第 3 章（03-pipeline.tex 五阶段，SUR-67 提交）",
+          "since": "2026-09-30T04:09:21Z"
         },
         {
           "name": "deepseek-planner",
@@ -39,15 +39,14 @@
           "role": "DeepSeek Task Planner（任务规划+总结）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "04a4e04e-59d5-4f3a-8a16-acf99b80a493",
-          "state": "working",
-          "issue": "SUR-71",
-          "issue_title": "[午会纪要] 2026-09-30",
-          "since": "2026-09-30T04:00:15Z"
+          "state": "meeting",
+          "issue": "",
+          "issue_title": ""
         }
       ],
       "issue_counts": {
-        "todo": 1,
-        "in_progress": 2,
+        "todo": 0,
+        "in_progress": 3,
         "in_review": 0,
         "done": 54
       },
@@ -56,7 +55,13 @@
           "key": "SUR-71",
           "title": "[午会纪要] 2026-09-30",
           "status": "in_progress",
-          "updated_at": "2026-09-30T04:10:22Z"
+          "updated_at": "2026-09-30T04:13:45Z"
+        },
+        {
+          "key": "SUR-73",
+          "title": "[任务][day-6] 收尾 SUR-68 P1-1 版本固定 + 固化版本标注约定 + 落地 P2",
+          "status": "in_progress",
+          "updated_at": "2026-09-30T04:12:47Z"
         },
         {
           "key": "SUR-70",
@@ -69,12 +74,6 @@
           "title": "[评审][day-6] 事后对抗评审英文第 3 章（03-pipeline.tex 五阶段，SUR-",
           "status": "in_progress",
           "updated_at": "2026-09-30T04:09:46Z"
-        },
-        {
-          "key": "SUR-73",
-          "title": "[任务][day-6] 收尾 SUR-68 P1-1 版本固定 + 固化版本标注约定 + 落地 P2",
-          "status": "todo",
-          "updated_at": "2026-09-30T04:09:23Z"
         },
         {
           "key": "SUR-69",
@@ -147,7 +146,7 @@
           "state": "working",
           "issue": "",
           "issue_title": "",
-          "since": "2026-09-30T04:09:35Z"
+          "since": "2026-09-30T04:12:39Z"
         },
         {
           "name": "项目观察员（GPT-6）",
@@ -171,7 +170,7 @@
           "key": "BEN-59",
           "title": "汇报当前整体目标及各智能体进展",
           "status": "todo",
-          "updated_at": "2026-09-30T04:10:42Z"
+          "updated_at": "2026-09-30T04:13:19Z"
         },
         {
           "key": "BEN-63",
@@ -273,23 +272,29 @@
         }
       ],
       "issue_counts": {
-        "todo": 0,
+        "todo": 1,
         "in_progress": 2,
         "in_review": 0,
         "done": 45
       },
       "latest_issues": [
         {
-          "key": "DWM-67",
-          "title": "[午会纪要] 2026-09-30",
-          "status": "in_progress",
-          "updated_at": "2026-09-30T04:10:18Z"
+          "key": "DWM-68",
+          "title": "[任务] 对抗评审 main 近期 commit（Cofi 收口 + v2.3 + Cofi 差异分",
+          "status": "todo",
+          "updated_at": "2026-09-30T04:13:39Z"
         },
         {
           "key": "DWM-40",
           "title": "[DW迁移任务单] Omni-Notes 迁移 · 清单+迁移 · 清单生成中 续6·r106·10",
           "status": "in_progress",
-          "updated_at": "2026-09-30T04:08:15Z"
+          "updated_at": "2026-09-30T04:12:57Z"
+        },
+        {
+          "key": "DWM-67",
+          "title": "[午会纪要] 2026-09-30",
+          "status": "in_progress",
+          "updated_at": "2026-09-30T04:10:18Z"
         },
         {
           "key": "DWM-66",
@@ -302,19 +307,13 @@
           "title": "[早会纪要] 2026-09-30",
           "status": "done",
           "updated_at": "2026-09-29T23:16:21Z"
-        },
-        {
-          "key": "DWM-64",
-          "title": "[巡检] 2026-09-30 leader Issue 状态巡检与催办",
-          "status": "done",
-          "updated_at": "2026-09-29T16:02:33Z"
         }
       ],
       "order": {
         "key": "DWM-40",
-        "title": "[DW迁移任务单] Omni-Notes 迁移 · 清单+迁移 · 清单生成中 续6·r106·1057/800步·5页/533项 · 迁移中 3/6 · 清单9.0h/10h 迁",
+        "title": "[DW迁移任务单] Omni-Notes 迁移 · 清单+迁移 · 清单生成中 续6·r106·1057/800步·5页/539项 · 迁移中 3/6 · 清单9.1h/15.0h",
         "status": "in_progress",
-        "updated_at": "2026-09-30T04:08:15Z"
+        "updated_at": "2026-09-30T04:12:57Z"
       },
       "progress_note": "沿用，Snowball 离线 dw-lead 无新 standup；10 个应用：完成 1、进行中 1、未开始 8"
     },
