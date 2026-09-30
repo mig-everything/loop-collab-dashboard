@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T04:28:12Z",
+  "generated_at": "2026-09-30T04:32:17Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -27,10 +27,9 @@
           "role": "Kimi Adversarial Reviewer（对抗评审",
           "model": "",
           "agent_id": "6e530cc6-6b9d-4398-936d-df9c13468125",
-          "state": "working",
-          "issue": "SUR-72",
-          "issue_title": "[评审][day-6] 事后对抗评审英文第 3 章（03-pipeline.tex 五阶段，SUR-67 提交）",
-          "since": "2026-09-30T04:09:21Z"
+          "state": "meeting",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "deepseek-planner",
@@ -45,11 +44,17 @@
       ],
       "issue_counts": {
         "todo": 0,
-        "in_progress": 2,
-        "in_review": 0,
+        "in_progress": 1,
+        "in_review": 1,
         "done": 55
       },
       "latest_issues": [
+        {
+          "key": "SUR-72",
+          "title": "[评审][day-6] 事后对抗评审英文第 3 章（03-pipeline.tex 五阶段，SUR-",
+          "status": "in_review",
+          "updated_at": "2026-09-30T04:29:29Z"
+        },
         {
           "key": "SUR-73",
           "title": "[任务][day-6] 收尾 SUR-68 P1-1 版本固定 + 固化版本标注约定 + 落地 P2",
@@ -67,12 +72,6 @@
           "title": "[负责人裁决] 新大纲第四章继承 0921_v1 §4.1-4.8 + RQ1 映射修订（loop-",
           "status": "done",
           "updated_at": "2026-09-30T04:10:17Z"
-        },
-        {
-          "key": "SUR-72",
-          "title": "[评审][day-6] 事后对抗评审英文第 3 章（03-pipeline.tex 五阶段，SUR-",
-          "status": "in_progress",
-          "updated_at": "2026-09-30T04:09:46Z"
         },
         {
           "key": "SUR-69",
