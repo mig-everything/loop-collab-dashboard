@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T08:25:45Z",
+  "generated_at": "2026-09-30T08:30:01Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -156,12 +156,18 @@
         }
       ],
       "issue_counts": {
-        "todo": 8,
-        "in_progress": 1,
+        "todo": 7,
+        "in_progress": 2,
         "in_review": 1,
         "done": 53
       },
       "latest_issues": [
+        {
+          "key": "BEN-68",
+          "title": "[并行·AntennaPod] 1395 场景 draft→ready 分模块 + 双端用例/bin",
+          "status": "in_progress",
+          "updated_at": "2026-09-30T08:27:00Z"
+        },
         {
           "key": "BEN-69",
           "title": "[并行·Simple-Calendar] 建账+spec+场景 ready+双端用例/binding",
@@ -173,12 +179,6 @@
           "title": "更新 PM 调度策略：Cofi/AntennaPod/Simple-Calendar 按 app 并",
           "status": "in_review",
           "updated_at": "2026-09-30T08:13:12Z"
-        },
-        {
-          "key": "BEN-68",
-          "title": "[并行·AntennaPod] 1395 场景 draft→ready 分模块 + 双端用例/bin",
-          "status": "todo",
-          "updated_at": "2026-09-30T08:12:11Z"
         },
         {
           "key": "BEN-67",
@@ -242,7 +242,7 @@
           "agent_id": "1c3481f5-135b-4959-9daa-c510c076d494",
           "state": "working",
           "issue": "DWM-40",
-          "issue_title": "[DW迁移任务单] Omni-Notes 迁移 · 清单+迁移 · 清单✓349 · 迁移中 3/6 · 迁移8.3h/",
+          "issue_title": "[DW迁移任务单] Omni-Notes 迁移 · 清单+迁移 · 清单✓349 · 迁移中 3/6 · 迁移8.4h/",
           "since": "2026-09-30T06:55:32Z"
         },
         {
@@ -277,7 +277,7 @@
           "key": "DWM-40",
           "title": "[DW迁移任务单] Omni-Notes 迁移 · 清单+迁移 · 清单✓349 · 迁移中 3/6",
           "status": "in_progress",
-          "updated_at": "2026-09-30T08:22:59Z"
+          "updated_at": "2026-09-30T08:28:18Z"
         },
         {
           "key": "DWM-70",
@@ -306,9 +306,9 @@
       ],
       "order": {
         "key": "DWM-40",
-        "title": "[DW迁移任务单] Omni-Notes 迁移 · 清单+迁移 · 清单✓349 · 迁移中 3/6 · 迁移8.3h/12h",
+        "title": "[DW迁移任务单] Omni-Notes 迁移 · 清单+迁移 · 清单✓349 · 迁移中 3/6 · 迁移8.4h/12h",
         "status": "in_progress",
-        "updated_at": "2026-09-30T08:22:59Z"
+        "updated_at": "2026-09-30T08:28:18Z"
       },
       "progress_note": "沿用，Snowball 离线 dw-lead 无新 standup；10 个应用：完成 1、进行中 1、未开始 8"
     },
