@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T20:14:14Z",
+  "generated_at": "2026-09-30T20:18:00Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -7,8 +7,8 @@
       "workspace": "ws-survey-loop",
       "machine": "JordanZTdeMacBook-Pro",
       "machine_online": true,
-      "meeting_active": false,
-      "meeting_title": "",
+      "meeting_active": true,
+      "meeting_title": "[晨会纪要] 2026-10-01",
       "progress": 47,
       "agents": [
         {
@@ -17,9 +17,10 @@
           "role": "GPT Writer（执笔者）",
           "model": "",
           "agent_id": "58ed4647-32dd-4ca1-8ddc-194b975d6024",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "SUR-85",
+          "issue_title": "[晨会纪要] 2026-10-01",
+          "since": "2026-09-30T20:16:25Z"
         },
         {
           "name": "kimi-adversary",
@@ -27,9 +28,10 @@
           "role": "Kimi Adversarial Reviewer（对抗评审",
           "model": "",
           "agent_id": "6e530cc6-6b9d-4398-936d-df9c13468125",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "SUR-87",
+          "issue_title": "[评审][day-7] 事后对抗评审英文第 5 章（05-evaluation.tex，SUR-82 提交 b35501",
+          "since": "2026-09-30T20:15:44Z"
         },
         {
           "name": "deepseek-planner",
@@ -37,48 +39,47 @@
           "role": "DeepSeek Task Planner（任务规划+总结）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "04a4e04e-59d5-4f3a-8a16-acf99b80a493",
-          "state": "working",
-          "issue": "SUR-85",
-          "issue_title": "[晨会纪要] 2026-10-01",
-          "since": "2026-09-30T20:00:09Z"
+          "state": "meeting",
+          "issue": "",
+          "issue_title": ""
         }
       ],
       "issue_counts": {
         "todo": 1,
-        "in_progress": 0,
-        "in_review": 1,
-        "done": 67
+        "in_progress": 2,
+        "in_review": 0,
+        "done": 68
       },
       "latest_issues": [
         {
           "key": "SUR-85",
           "title": "[晨会纪要] 2026-10-01",
+          "status": "in_progress",
+          "updated_at": "2026-09-30T20:17:19Z"
+        },
+        {
+          "key": "SUR-83",
+          "title": "[评审][day-7] 复评第 3 章 SUR-77 修复落地（SUR-72 打回 1 P0+4 P",
+          "status": "done",
+          "updated_at": "2026-09-30T20:17:12Z"
+        },
+        {
+          "key": "SUR-87",
+          "title": "[评审][day-7] 事后对抗评审英文第 5 章（05-evaluation.tex，SUR-82",
+          "status": "in_progress",
+          "updated_at": "2026-09-30T20:16:09Z"
+        },
+        {
+          "key": "SUR-86",
+          "title": "[任务][day-7] 迁移第 4 章至 LaTeX（04-enabling-tech.tex 关键",
           "status": "todo",
-          "updated_at": "2026-09-30T20:00:08Z"
+          "updated_at": "2026-09-30T20:15:41Z"
         },
         {
           "key": "SUR-82",
           "title": "[任务][day-7] 迁移第 5 章至 LaTeX（05-evaluation.tex 评测实践与",
           "status": "done",
           "updated_at": "2026-09-30T18:26:06Z"
-        },
-        {
-          "key": "SUR-84",
-          "title": "[临时会议·空闲加派] 2026-10-01 02 点场",
-          "status": "done",
-          "updated_at": "2026-09-30T18:15:35Z"
-        },
-        {
-          "key": "SUR-83",
-          "title": "[评审][day-7] 复评第 3 章 SUR-77 修复落地（SUR-72 打回 1 P0+4 P",
-          "status": "in_review",
-          "updated_at": "2026-09-30T18:15:22Z"
-        },
-        {
-          "key": "SUR-81",
-          "title": "[空闲检测] 2026-10-01 leader 两小时正点检查与加派",
-          "status": "done",
-          "updated_at": "2026-09-30T18:09:49Z"
         }
       ],
       "progress_note": "day-4 晨 37% → 午 42% → 晚 44% → 夜 47%",
@@ -165,6 +166,12 @@
       },
       "latest_issues": [
         {
+          "key": "BEN-82",
+          "title": "[任务·第1轮] Android 侧定位校准+数据前置（BEN-72 P0 反馈闭环：Antenna",
+          "status": "todo",
+          "updated_at": "2026-09-30T20:16:16Z"
+        },
+        {
           "key": "BEN-81",
           "title": "[早会纪要] 2026-10-01",
           "status": "done",
@@ -181,12 +188,6 @@
           "title": "[任务·第1轮] AntennaPod 安卓回归续跑（mod09-70 完整失败清单）+ mod01",
           "status": "in_progress",
           "updated_at": "2026-09-30T20:05:16Z"
-        },
-        {
-          "key": "BEN-82",
-          "title": "[任务·第1轮] Android 侧定位校准+数据前置（BEN-72 P0 反馈闭环：Antenna",
-          "status": "todo",
-          "updated_at": "2026-09-30T20:04:43Z"
         },
         {
           "key": "BEN-80",
@@ -333,10 +334,9 @@
           "role": "IPD-PM 产品经理",
           "model": "",
           "agent_id": "1764c131-5c09-48cb-aa48-3177d5256dbb",
-          "state": "working",
-          "issue": "IPD-126",
-          "issue_title": "[PRD·第1轮] REQ-007 新场景需求发布 + 需求池扩充（小型游戏类）",
-          "since": "2026-09-30T20:07:48Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "hermes-sa",
@@ -344,10 +344,9 @@
           "role": "IPD-SA 解决方案架构师",
           "model": "volc:qwen3.8-max",
           "agent_id": "3e4373ef-a262-4b28-ab2a-818861fc9624",
-          "state": "working",
-          "issue": "IPD-131",
-          "issue_title": "[TR-Req 评审] REQ-007 扫雷（Minesweeper）—— 需求评审（PM 发起）",
-          "since": "2026-09-30T20:14:33Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "hermes-se",
@@ -376,10 +375,9 @@
           "role": "IPD-Tester 测试工程师",
           "model": "",
           "agent_id": "86df9f14-a2cd-46d9-ad15-dbe8606ebd73",
-          "state": "working",
-          "issue": "IPD-127",
-          "issue_title": "[测试·第1轮] REQ-006 差分用例清单 + 平台②③测试用例设计",
-          "since": "2026-09-30T20:07:51Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "hermes-rm",
@@ -413,17 +411,29 @@
         }
       ],
       "issue_counts": {
-        "todo": 5,
-        "in_progress": 2,
-        "in_review": 4,
+        "todo": 4,
+        "in_progress": 0,
+        "in_review": 7,
         "done": 87
       },
       "latest_issues": [
         {
           "key": "IPD-131",
           "title": "[TR-Req 评审] REQ-007 扫雷（Minesweeper）—— 需求评审（PM 发起）",
-          "status": "todo",
-          "updated_at": "2026-09-30T20:14:33Z"
+          "status": "in_review",
+          "updated_at": "2026-09-30T20:17:19Z"
+        },
+        {
+          "key": "IPD-127",
+          "title": "[测试·第1轮] REQ-006 差分用例清单 + 平台②③测试用例设计",
+          "status": "in_review",
+          "updated_at": "2026-09-30T20:16:13Z"
+        },
+        {
+          "key": "IPD-126",
+          "title": "[PRD·第1轮] REQ-007 新场景需求发布 + 需求池扩充（小型游戏类）",
+          "status": "in_review",
+          "updated_at": "2026-09-30T20:14:50Z"
         },
         {
           "key": "IPD-104",
@@ -436,18 +446,6 @@
           "title": "[度量·第1轮] REQ-005 四维度量补采 + 平台四维环比基线",
           "status": "in_review",
           "updated_at": "2026-09-30T20:13:23Z"
-        },
-        {
-          "key": "IPD-124",
-          "title": "[早会纪要] 2026-10-01",
-          "status": "done",
-          "updated_at": "2026-09-30T20:12:21Z"
-        },
-        {
-          "key": "IPD-128",
-          "title": "[SE·第1轮] 平台追踪矩阵代码/测试列回填 + REQ-006 矩阵二次对齐",
-          "status": "in_review",
-          "updated_at": "2026-09-30T20:12:12Z"
         }
       ]
     }
