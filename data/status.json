@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T20:40:16Z",
+  "generated_at": "2026-09-30T21:19:40Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -7,8 +7,8 @@
       "workspace": "ws-survey-loop",
       "machine": "JordanZTdeMacBook-Pro",
       "machine_online": true,
-      "meeting_active": true,
-      "meeting_title": "[晨会纪要] 2026-10-01",
+      "meeting_active": false,
+      "meeting_title": "",
       "progress": 47,
       "agents": [
         {
@@ -17,7 +17,7 @@
           "role": "GPT Writer（执笔者）",
           "model": "",
           "agent_id": "58ed4647-32dd-4ca1-8ddc-194b975d6024",
-          "state": "meeting",
+          "state": "idle",
           "issue": "",
           "issue_title": ""
         },
@@ -27,7 +27,7 @@
           "role": "Kimi Adversarial Reviewer（对抗评审",
           "model": "",
           "agent_id": "6e530cc6-6b9d-4398-936d-df9c13468125",
-          "state": "meeting",
+          "state": "idle",
           "issue": "",
           "issue_title": ""
         },
@@ -37,18 +37,30 @@
           "role": "DeepSeek Task Planner（任务规划+总结）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "04a4e04e-59d5-4f3a-8a16-acf99b80a493",
-          "state": "meeting",
+          "state": "idle",
           "issue": "",
           "issue_title": ""
         }
       ],
       "issue_counts": {
-        "todo": 0,
-        "in_progress": 1,
+        "todo": 1,
+        "in_progress": 0,
         "in_review": 1,
-        "done": 69
+        "done": 70
       },
       "latest_issues": [
+        {
+          "key": "SUR-85",
+          "title": "[晨会纪要] 2026-10-01",
+          "status": "done",
+          "updated_at": "2026-09-30T21:18:31Z"
+        },
+        {
+          "key": "SUR-88",
+          "title": "[流程优化] 2026-10-01 晨会产出 1 项（Opt-010 可证伪修复门禁），次日验证",
+          "status": "backlog",
+          "updated_at": "2026-09-30T21:18:21Z"
+        },
         {
           "key": "SUR-86",
           "title": "[任务][day-7] 迁移第 4 章至 LaTeX（04-enabling-tech.tex 关键",
@@ -62,22 +74,10 @@
           "updated_at": "2026-09-30T20:27:31Z"
         },
         {
-          "key": "SUR-85",
-          "title": "[晨会纪要] 2026-10-01",
-          "status": "in_progress",
-          "updated_at": "2026-09-30T20:19:46Z"
-        },
-        {
           "key": "SUR-83",
           "title": "[评审][day-7] 复评第 3 章 SUR-77 修复落地（SUR-72 打回 1 P0+4 P",
           "status": "done",
           "updated_at": "2026-09-30T20:17:12Z"
-        },
-        {
-          "key": "SUR-82",
-          "title": "[任务][day-7] 迁移第 5 章至 LaTeX（05-evaluation.tex 评测实践与",
-          "status": "done",
-          "updated_at": "2026-09-30T18:26:06Z"
         }
       ],
       "progress_note": "day-4 晨 37% → 午 42% → 晚 44% → 夜 47%",
