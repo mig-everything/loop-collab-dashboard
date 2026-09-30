@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T19:45:01Z",
+  "generated_at": "2026-09-30T20:02:59Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -37,18 +37,25 @@
           "role": "DeepSeek Task Planner（任务规划+总结）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "04a4e04e-59d5-4f3a-8a16-acf99b80a493",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "SUR-85",
+          "issue_title": "[晨会纪要] 2026-10-01",
+          "since": "2026-09-30T20:00:09Z"
         }
       ],
       "issue_counts": {
-        "todo": 0,
+        "todo": 1,
         "in_progress": 0,
         "in_review": 1,
         "done": 67
       },
       "latest_issues": [
+        {
+          "key": "SUR-85",
+          "title": "[晨会纪要] 2026-10-01",
+          "status": "todo",
+          "updated_at": "2026-09-30T20:00:08Z"
+        },
         {
           "key": "SUR-82",
           "title": "[任务][day-7] 迁移第 5 章至 LaTeX（05-evaluation.tex 评测实践与",
@@ -72,12 +79,6 @@
           "title": "[空闲检测] 2026-10-01 leader 两小时正点检查与加派",
           "status": "done",
           "updated_at": "2026-09-30T18:09:49Z"
-        },
-        {
-          "key": "SUR-80",
-          "title": "[巡检] 2026-10-01 leader Issue 状态巡检与催办",
-          "status": "done",
-          "updated_at": "2026-09-30T16:04:05Z"
         }
       ],
       "progress_note": "day-4 晨 37% → 午 42% → 晚 44% → 夜 47%",
@@ -89,8 +90,8 @@
       "workspace": "ws-benchmark-loop",
       "machine": "张涛 Mac Studio",
       "machine_online": true,
-      "meeting_active": false,
-      "meeting_title": "",
+      "meeting_active": true,
+      "meeting_title": "[早会纪要] 2026-10-01",
       "progress": 48,
       "agents": [
         {
@@ -99,7 +100,7 @@
           "role": "GPT Scenarist",
           "model": "",
           "agent_id": "6e6f1e24-3bc5-455a-85d2-cb3fb6c9a672",
-          "state": "idle",
+          "state": "meeting",
           "issue": "",
           "issue_title": ""
         },
@@ -109,7 +110,7 @@
           "role": "GLM Runner & Analyst",
           "model": "",
           "agent_id": "bdaefa9b-7045-4264-95e4-1db664e353d0",
-          "state": "idle",
+          "state": "meeting",
           "issue": "",
           "issue_title": ""
         },
@@ -119,9 +120,10 @@
           "role": "DeepSeek Planner（小组 leader/PM）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "547cd361-ef50-4965-9477-bc659d8a1708",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "BEN-81",
+          "issue_title": "[早会纪要] 2026-10-01",
+          "since": "2026-09-30T20:00:21Z"
         },
         {
           "name": "minimax-visual-diff",
@@ -129,7 +131,7 @@
           "role": "MiniMax 多模态视觉差分评审",
           "model": "minimax-cn:MiniMax-M3",
           "agent_id": "843ac45d-b5db-4f35-b07b-2e5754ec5a5f",
-          "state": "idle",
+          "state": "meeting",
           "issue": "",
           "issue_title": ""
         },
@@ -139,7 +141,7 @@
           "role": "只读洞察项目目标与执行证据，用简单语言汇报进展、偏差和阻塞，",
           "model": "",
           "agent_id": "4b674e90-4726-4eba-bd5c-06350e0b8b83",
-          "state": "idle",
+          "state": "meeting",
           "issue": "",
           "issue_title": ""
         },
@@ -149,18 +151,24 @@
           "role": "只读洞察项目目标与执行证据，用简单语言汇报进展、偏差和阻塞，",
           "model": "gpt-6-astra",
           "agent_id": "33b902ee-a4ca-46ae-9284-c8285311c687",
-          "state": "idle",
+          "state": "meeting",
           "issue": "",
           "issue_title": ""
         }
       ],
       "issue_counts": {
         "todo": 0,
-        "in_progress": 1,
+        "in_progress": 2,
         "in_review": 0,
         "done": 73
       },
       "latest_issues": [
+        {
+          "key": "BEN-81",
+          "title": "[早会纪要] 2026-10-01",
+          "status": "in_progress",
+          "updated_at": "2026-09-30T20:00:50Z"
+        },
         {
           "key": "BEN-80",
           "title": "[空闲检测] 2026-10-01 leader 两小时正点检查与加派",
@@ -184,12 +192,6 @@
           "title": "[巡检] 2026-10-01 leader Issue 状态巡检与催办",
           "status": "done",
           "updated_at": "2026-09-30T16:11:09Z"
-        },
-        {
-          "key": "BEN-72",
-          "title": "[任务·第3轮] 全量 Android oracle 回归启动 + 差分（Cofi 335 先行 →",
-          "status": "done",
-          "updated_at": "2026-09-30T16:09:25Z"
         }
       ]
     },
@@ -219,9 +221,10 @@
           "role": "DeepSeek Planner（小组 leader/PM，",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "950ff614-521d-4e32-a02d-423d41a7b2b3",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "DWM-79",
+          "issue_title": "[早会纪要] 2026-10-01",
+          "since": "2026-09-30T20:00:13Z"
         },
         {
           "name": "dw-lead",
@@ -268,12 +271,18 @@
         }
       ],
       "issue_counts": {
-        "todo": 0,
+        "todo": 1,
         "in_progress": 1,
         "in_review": 0,
         "done": 53
       },
       "latest_issues": [
+        {
+          "key": "DWM-79",
+          "title": "[早会纪要] 2026-10-01",
+          "status": "todo",
+          "updated_at": "2026-09-30T20:00:12Z"
+        },
         {
           "key": "DWM-40",
           "title": "[DW迁移任务单] Omni-Notes 迁移 · 修复 wave 1/4 · 待人工",
@@ -297,12 +306,6 @@
           "title": "[任务] 对抗评审 main 近期 commit（Cofi 收口 + v2.3 + Cofi 差异分",
           "status": "done",
           "updated_at": "2026-09-30T16:03:08Z"
-        },
-        {
-          "key": "DWM-72",
-          "title": "[晚会纪要] 2026-09-30",
-          "status": "done",
-          "updated_at": "2026-09-30T14:07:09Z"
         }
       ],
       "order": {
@@ -388,9 +391,10 @@
           "role": "DeepSeek Planner（小组 leader/PM ",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-124",
+          "issue_title": "[早会纪要] 2026-10-01",
+          "since": "2026-09-30T20:00:19Z"
         },
         {
           "name": "minimax-uijudge",
@@ -404,12 +408,18 @@
         }
       ],
       "issue_counts": {
-        "todo": 4,
+        "todo": 5,
         "in_progress": 0,
         "in_review": 1,
-        "done": 93
+        "done": 92
       },
       "latest_issues": [
+        {
+          "key": "IPD-124",
+          "title": "[早会纪要] 2026-10-01",
+          "status": "todo",
+          "updated_at": "2026-09-30T20:00:18Z"
+        },
         {
           "key": "IPD-102",
           "title": "[平台·能力①] 自然语言需求输入 + 需求池（类型多样化/每场景≥2实例）",
@@ -433,12 +443,6 @@
           "title": "[TR-Design 评审] Eazo 平台正式架构方案 + 接口契约（能力②③ P0 优先）—— ",
           "status": "done",
           "updated_at": "2026-09-30T16:12:17Z"
-        },
-        {
-          "key": "IPD-104",
-          "title": "[平台·能力③] 对比分析管线（四维报告+入库+环比，P0优先）",
-          "status": "backlog",
-          "updated_at": "2026-09-30T16:12:00Z"
         }
       ]
     }
