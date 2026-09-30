@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T03:26:59Z",
+  "generated_at": "2026-09-30T03:30:57Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -140,9 +140,10 @@
           "role": "只读洞察项目目标与执行证据，用简单语言汇报进展、偏差和阻塞，",
           "model": "",
           "agent_id": "4b674e90-4726-4eba-bd5c-06350e0b8b83",
-          "state": "idle",
+          "state": "working",
           "issue": "",
-          "issue_title": ""
+          "issue_title": "",
+          "since": "2026-09-30T03:30:22Z"
         }
       ],
       "issue_counts": {
@@ -231,8 +232,9 @@
           "model": "claude-opus-5-5",
           "agent_id": "1c3481f5-135b-4959-9daa-c510c076d494",
           "state": "working",
-          "issue": "",
-          "issue_title": ""
+          "issue": "DWM-40",
+          "issue_title": "[DW迁移任务单] Omni-Notes 迁移 · 清单+迁移 · 清单生成中 续6·r97·953/800步·5页/4",
+          "since": "2026-09-30T03:10:37Z"
         },
         {
           "name": "exec-verifier",
