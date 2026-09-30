@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T03:39:01Z",
+  "generated_at": "2026-09-30T03:43:02Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -157,7 +157,7 @@
           "key": "BEN-54",
           "title": "[目标对齐] 2026-09-30 负责人完善任务2验收口径（6条）+ 鸿蒙仓多变体结构变更",
           "status": "in_review",
-          "updated_at": "2026-09-30T03:38:10Z"
+          "updated_at": "2026-09-30T03:42:18Z"
         },
         {
           "key": "BEN-57",
@@ -233,7 +233,7 @@
           "agent_id": "1c3481f5-135b-4959-9daa-c510c076d494",
           "state": "working",
           "issue": "DWM-40",
-          "issue_title": "[DW迁移任务单] Omni-Notes 迁移 · 清单+迁移 · 清单生成中 续6·r98·973/800步·5页/5",
+          "issue_title": "[DW迁移任务单] Omni-Notes 迁移 · 清单+迁移 · 清单生成中 续6·r100·992/800步·5页/",
           "since": "2026-09-30T03:10:37Z"
         },
         {
@@ -266,9 +266,9 @@
       "latest_issues": [
         {
           "key": "DWM-40",
-          "title": "[DW迁移任务单] Omni-Notes 迁移 · 清单+迁移 · 清单生成中 续6·r98·973",
+          "title": "[DW迁移任务单] Omni-Notes 迁移 · 清单+迁移 · 清单生成中 续6·r100·99",
           "status": "in_progress",
-          "updated_at": "2026-09-30T03:36:20Z"
+          "updated_at": "2026-09-30T03:41:30Z"
         },
         {
           "key": "DWM-66",
@@ -297,9 +297,9 @@
       ],
       "order": {
         "key": "DWM-40",
-        "title": "[DW迁移任务单] Omni-Notes 迁移 · 清单+迁移 · 清单生成中 续6·r98·973/800步·5页/525项 · 迁移中 2/6 · 清单8.5h/10h 迁移3",
+        "title": "[DW迁移任务单] Omni-Notes 迁移 · 清单+迁移 · 清单生成中 续6·r100·992/800步·5页/525项 · 迁移中 2/6 · 清单8.6h/10h 迁移",
         "status": "in_progress",
-        "updated_at": "2026-09-30T03:36:20Z"
+        "updated_at": "2026-09-30T03:41:30Z"
       },
       "progress_note": "沿用，Snowball 离线 dw-lead 无新 standup；10 个应用：完成 1、进行中 1、未开始 8"
     },
