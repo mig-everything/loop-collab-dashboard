@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T05:05:03Z",
+  "generated_at": "2026-09-30T05:09:25Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -241,8 +241,9 @@
           "model": "claude-opus-5-5",
           "agent_id": "1c3481f5-135b-4959-9daa-c510c076d494",
           "state": "working",
-          "issue": "",
-          "issue_title": ""
+          "issue": "DWM-40",
+          "issue_title": "[DW迁移任务单] Omni-Notes 迁移 · 清单+迁移 · 清单生成中 续6·r118·1211/800步·5页",
+          "since": "2026-09-30T05:07:02Z"
         },
         {
           "name": "exec-verifier",
