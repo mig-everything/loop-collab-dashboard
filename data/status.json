@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T20:06:42Z",
+  "generated_at": "2026-09-30T20:10:26Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -112,9 +112,9 @@
           "model": "",
           "agent_id": "bdaefa9b-7045-4264-95e4-1db664e353d0",
           "state": "working",
-          "issue": "BEN-81",
-          "issue_title": "[早会纪要] 2026-10-01",
-          "since": "2026-09-30T20:05:32Z"
+          "issue": "BEN-83",
+          "issue_title": "[任务·第1轮] AntennaPod 安卓回归续跑（mod09-70 完整失败清单）+ mod01 复验 + 口径⑥每",
+          "since": "2026-09-30T20:04:46Z"
         },
         {
           "name": "deepseek-planner",
@@ -168,7 +168,7 @@
           "key": "BEN-81",
           "title": "[早会纪要] 2026-10-01",
           "status": "done",
-          "updated_at": "2026-09-30T20:06:04Z"
+          "updated_at": "2026-09-30T20:08:04Z"
         },
         {
           "key": "BEN-79",
@@ -202,8 +202,8 @@
       "workspace": "ws-dw-migration-loop",
       "machine": "奕棣 MacBook",
       "machine_online": true,
-      "meeting_active": false,
-      "meeting_title": "",
+      "meeting_active": true,
+      "meeting_title": "[早会纪要] 2026-10-01",
       "progress": 7,
       "agents": [
         {
@@ -212,9 +212,10 @@
           "role": "Opus Analyzer",
           "model": "claude-opus-5-5",
           "agent_id": "2f32549c-87c7-4202-8f54-3af79a30afa0",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "DWM-80",
+          "issue_title": "[任务] 对抗评审 Omni-Notes 近期 main commit（迁移 + 还原审计 + 过程归因 + 工具修复）",
+          "since": "2026-09-30T20:09:45Z"
         },
         {
           "name": "deepseek-planner",
@@ -233,7 +234,7 @@
           "role": "DW 迁移执行小队队长",
           "model": "claude-opus-5-5",
           "agent_id": "c6ff7c69-0db4-4b35-ac81-dd00e5a53ba4",
-          "state": "idle",
+          "state": "meeting",
           "issue": "",
           "issue_title": ""
         },
@@ -243,7 +244,7 @@
           "role": "运行员",
           "model": "claude-opus-5-5",
           "agent_id": "1c3481f5-135b-4959-9daa-c510c076d494",
-          "state": "idle",
+          "state": "meeting",
           "issue": "",
           "issue_title": ""
         },
@@ -253,7 +254,7 @@
           "role": "验证员",
           "model": "claude-opus-5-5",
           "agent_id": "69822c63-0dcc-4f3e-875d-7b300d437623",
-          "state": "idle",
+          "state": "meeting",
           "issue": "",
           "issue_title": ""
         },
@@ -273,16 +274,22 @@
       ],
       "issue_counts": {
         "todo": 1,
-        "in_progress": 1,
+        "in_progress": 2,
         "in_review": 0,
         "done": 53
       },
       "latest_issues": [
         {
+          "key": "DWM-80",
+          "title": "[任务] 对抗评审 Omni-Notes 近期 main commit（迁移 + 还原审计 + 过程",
+          "status": "todo",
+          "updated_at": "2026-09-30T20:09:45Z"
+        },
+        {
           "key": "DWM-79",
           "title": "[早会纪要] 2026-10-01",
-          "status": "todo",
-          "updated_at": "2026-09-30T20:00:12Z"
+          "status": "in_progress",
+          "updated_at": "2026-09-30T20:07:34Z"
         },
         {
           "key": "DWM-40",
@@ -301,12 +308,6 @@
           "title": "[巡检] 2026-10-01 leader Issue 状态巡检与催办",
           "status": "done",
           "updated_at": "2026-09-30T16:03:22Z"
-        },
-        {
-          "key": "DWM-68",
-          "title": "[任务] 对抗评审 main 近期 commit（Cofi 收口 + v2.3 + Cofi 差异分",
-          "status": "done",
-          "updated_at": "2026-09-30T16:03:08Z"
         }
       ],
       "order": {
@@ -322,8 +323,8 @@
       "workspace": "ws-ipd-eazo-loop",
       "machine": "贾博 Mac Mini",
       "machine_online": true,
-      "meeting_active": true,
-      "meeting_title": "[早会纪要] 2026-10-01",
+      "meeting_active": false,
+      "meeting_title": "",
       "progress": 60,
       "agents": [
         {
@@ -332,9 +333,10 @@
           "role": "IPD-PM 产品经理",
           "model": "",
           "agent_id": "1764c131-5c09-48cb-aa48-3177d5256dbb",
-          "state": "meeting",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-126",
+          "issue_title": "[PRD·第1轮] REQ-007 新场景需求发布 + 需求池扩充（小型游戏类）",
+          "since": "2026-09-30T20:07:48Z"
         },
         {
           "name": "hermes-sa",
@@ -342,9 +344,10 @@
           "role": "IPD-SA 解决方案架构师",
           "model": "volc:qwen3.8-max",
           "agent_id": "3e4373ef-a262-4b28-ab2a-818861fc9624",
-          "state": "meeting",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-125",
+          "issue_title": "[架构·第1轮] REQ-006 随手记账双端架构 + 接口契约 + TR-Design 评审（闭合 C1/C2/C3 ",
+          "since": "2026-09-30T20:07:45Z"
         },
         {
           "name": "hermes-se",
@@ -352,9 +355,10 @@
           "role": "IPD-SE 系统工程师",
           "model": "volc:qwen3.8-max",
           "agent_id": "b874ba6b-80e6-45c6-a8c6-aedc6f2b326b",
-          "state": "meeting",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-124",
+          "issue_title": "[早会纪要] 2026-10-01",
+          "since": "2026-09-30T20:09:17Z"
         },
         {
           "name": "hermes-dev",
@@ -362,9 +366,10 @@
           "role": "IPD-Dev 开发工程师",
           "model": "",
           "agent_id": "44fcec25-d8b3-4af6-b206-1774a64677ce",
-          "state": "meeting",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-124",
+          "issue_title": "[早会纪要] 2026-10-01",
+          "since": "2026-09-30T20:09:17Z"
         },
         {
           "name": "hermes-tester",
@@ -372,9 +377,10 @@
           "role": "IPD-Tester 测试工程师",
           "model": "",
           "agent_id": "86df9f14-a2cd-46d9-ad15-dbe8606ebd73",
-          "state": "meeting",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-124",
+          "issue_title": "[早会纪要] 2026-10-01",
+          "since": "2026-09-30T20:09:17Z"
         },
         {
           "name": "hermes-rm",
@@ -382,9 +388,10 @@
           "role": "IPD-RM 发布经理",
           "model": "",
           "agent_id": "78156461-9644-478e-9c80-53cd18e25e33",
-          "state": "meeting",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-129",
+          "issue_title": "[度量·第1轮] REQ-005 四维度量补采 + 平台四维环比基线",
+          "since": "2026-09-30T20:07:56Z"
         },
         {
           "name": "deepseek-planner",
@@ -392,10 +399,9 @@
           "role": "DeepSeek Planner（小组 leader/PM ",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
-          "state": "working",
-          "issue": "IPD-124",
-          "issue_title": "[早会纪要] 2026-10-01",
-          "since": "2026-09-30T20:00:19Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "minimax-uijudge",
@@ -403,47 +409,47 @@
           "role": "MiniMax 多模态 UI 视觉评审",
           "model": "minimax-cn:MiniMax-M3",
           "agent_id": "97f55294-90e0-4556-93af-a1cf44889574",
-          "state": "meeting",
+          "state": "idle",
           "issue": "",
           "issue_title": ""
         }
       ],
       "issue_counts": {
-        "todo": 4,
-        "in_progress": 1,
+        "todo": 6,
+        "in_progress": 3,
         "in_review": 0,
-        "done": 93
+        "done": 89
       },
       "latest_issues": [
         {
-          "key": "IPD-102",
-          "title": "[平台·能力①] 自然语言需求输入 + 需求池（类型多样化/每场景≥2实例）",
-          "status": "done",
-          "updated_at": "2026-09-30T20:05:03Z"
-        },
-        {
           "key": "IPD-124",
           "title": "[早会纪要] 2026-10-01",
+          "status": "done",
+          "updated_at": "2026-09-30T20:10:51Z"
+        },
+        {
+          "key": "IPD-128",
+          "title": "[SE·第1轮] 平台追踪矩阵代码/测试列回填 + REQ-006 矩阵二次对齐",
           "status": "in_progress",
-          "updated_at": "2026-09-30T20:04:59Z"
+          "updated_at": "2026-09-30T20:08:49Z"
         },
         {
-          "key": "IPD-123",
-          "title": "[空闲检测] 2026-10-01 leader 两小时正点检查与加派",
-          "status": "done",
-          "updated_at": "2026-09-30T18:03:42Z"
+          "key": "IPD-127",
+          "title": "[测试·第1轮] REQ-006 差分用例清单 + 平台②③测试用例设计",
+          "status": "in_progress",
+          "updated_at": "2026-09-30T20:08:22Z"
         },
         {
-          "key": "IPD-108",
-          "title": "[平台·能力⑦] 增量开发（双端同步迭代+复对比，P0优先）",
-          "status": "done",
-          "updated_at": "2026-09-30T16:15:58Z"
+          "key": "IPD-126",
+          "title": "[PRD·第1轮] REQ-007 新场景需求发布 + 需求池扩充（小型游戏类）",
+          "status": "in_progress",
+          "updated_at": "2026-09-30T20:08:10Z"
         },
         {
-          "key": "IPD-120",
-          "title": "[TR-Design 评审] Eazo 平台正式架构方案 + 接口契约（能力②③ P0 优先）—— ",
-          "status": "done",
-          "updated_at": "2026-09-30T16:12:17Z"
+          "key": "IPD-129",
+          "title": "[度量·第1轮] REQ-005 四维度量补采 + 平台四维环比基线",
+          "status": "todo",
+          "updated_at": "2026-09-30T20:07:55Z"
         }
       ]
     }
