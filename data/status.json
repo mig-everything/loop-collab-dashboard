@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T07:59:47Z",
+  "generated_at": "2026-09-30T08:04:05Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -44,16 +44,28 @@
       ],
       "issue_counts": {
         "todo": 0,
-        "in_progress": 1,
-        "in_review": 1,
-        "done": 55
+        "in_progress": 0,
+        "in_review": 0,
+        "done": 58
       },
       "latest_issues": [
         {
+          "key": "SUR-74",
+          "title": "[巡检] 2026-09-30 leader Issue 状态巡检与催办",
+          "status": "done",
+          "updated_at": "2026-09-30T08:03:45Z"
+        },
+        {
+          "key": "SUR-71",
+          "title": "[午会纪要] 2026-09-30",
+          "status": "done",
+          "updated_at": "2026-09-30T08:03:24Z"
+        },
+        {
           "key": "SUR-72",
           "title": "[评审][day-6] 事后对抗评审英文第 3 章（03-pipeline.tex 五阶段，SUR-",
-          "status": "in_review",
-          "updated_at": "2026-09-30T04:29:29Z"
+          "status": "done",
+          "updated_at": "2026-09-30T08:03:22Z"
         },
         {
           "key": "SUR-73",
@@ -62,22 +74,10 @@
           "updated_at": "2026-09-30T04:18:34Z"
         },
         {
-          "key": "SUR-71",
-          "title": "[午会纪要] 2026-09-30",
-          "status": "in_progress",
-          "updated_at": "2026-09-30T04:13:45Z"
-        },
-        {
           "key": "SUR-70",
           "title": "[负责人裁决] 新大纲第四章继承 0921_v1 §4.1-4.8 + RQ1 映射修订（loop-",
           "status": "done",
           "updated_at": "2026-09-30T04:10:17Z"
-        },
-        {
-          "key": "SUR-69",
-          "title": "[巡检] 2026-09-30 leader Issue 状态巡检与催办",
-          "status": "done",
-          "updated_at": "2026-09-30T00:02:32Z"
         }
       ],
       "progress_note": "day-4 晨 37% → 午 42% → 晚 44% → 夜 47%",
@@ -119,10 +119,9 @@
           "role": "DeepSeek Planner（小组 leader/PM）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "547cd361-ef50-4965-9477-bc659d8a1708",
-          "state": "working",
-          "issue": "BEN-65",
-          "issue_title": "[巡检] 2026-09-30 leader Issue 状态巡检与催办",
-          "since": "2026-09-30T08:00:12Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "minimax-visual-diff",
@@ -156,17 +155,23 @@
         }
       ],
       "issue_counts": {
-        "todo": 7,
+        "todo": 6,
         "in_progress": 0,
-        "in_review": 1,
-        "done": 51
+        "in_review": 0,
+        "done": 53
       },
       "latest_issues": [
         {
           "key": "BEN-65",
           "title": "[巡检] 2026-09-30 leader Issue 状态巡检与催办",
-          "status": "todo",
-          "updated_at": "2026-09-30T08:00:06Z"
+          "status": "done",
+          "updated_at": "2026-09-30T08:02:39Z"
+        },
+        {
+          "key": "BEN-61",
+          "title": "[任务·第2轮] 鸿蒙仓新结构对齐 + gold/cofi 基线首跑 + 9 变体摸底（ref BE",
+          "status": "done",
+          "updated_at": "2026-09-30T08:02:22Z"
         },
         {
           "key": "BEN-64",
@@ -185,12 +190,6 @@
           "title": "项目流程profile",
           "status": "todo",
           "updated_at": "2026-09-30T06:50:30Z"
-        },
-        {
-          "key": "BEN-54",
-          "title": "[目标对齐] 2026-09-30 负责人完善任务2验收口径（6条）+ 鸿蒙仓多变体结构变更",
-          "status": "done",
-          "updated_at": "2026-09-30T06:25:53Z"
         }
       ]
     },
@@ -243,7 +242,7 @@
           "agent_id": "1c3481f5-135b-4959-9daa-c510c076d494",
           "state": "working",
           "issue": "DWM-40",
-          "issue_title": "[DW迁移任务单] Omni-Notes 迁移 · 清单+迁移 · 清单✓349 · 迁移中 3/6 · 迁移7.9h/",
+          "issue_title": "[DW迁移任务单] Omni-Notes 迁移 · 清单+迁移 · 清单✓349 · 迁移中 3/6 · 迁移8.0h/",
           "since": "2026-09-30T06:55:32Z"
         },
         {
@@ -275,16 +274,16 @@
       },
       "latest_issues": [
         {
+          "key": "DWM-40",
+          "title": "[DW迁移任务单] Omni-Notes 迁移 · 清单+迁移 · 清单✓349 · 迁移中 3/6",
+          "status": "in_progress",
+          "updated_at": "2026-09-30T08:04:07Z"
+        },
+        {
           "key": "DWM-70",
           "title": "[巡检] 2026-09-30 leader Issue 状态巡检与催办",
           "status": "todo",
           "updated_at": "2026-09-30T08:00:15Z"
-        },
-        {
-          "key": "DWM-40",
-          "title": "[DW迁移任务单] Omni-Notes 迁移 · 清单+迁移 · 清单✓349 · 迁移中 3/6",
-          "status": "in_progress",
-          "updated_at": "2026-09-30T07:58:54Z"
         },
         {
           "key": "DWM-67",
@@ -307,9 +306,9 @@
       ],
       "order": {
         "key": "DWM-40",
-        "title": "[DW迁移任务单] Omni-Notes 迁移 · 清单+迁移 · 清单✓349 · 迁移中 3/6 · 迁移7.9h/12h",
+        "title": "[DW迁移任务单] Omni-Notes 迁移 · 清单+迁移 · 清单✓349 · 迁移中 3/6 · 迁移8.0h/12h",
         "status": "in_progress",
-        "updated_at": "2026-09-30T07:58:54Z"
+        "updated_at": "2026-09-30T08:04:07Z"
       },
       "progress_note": "沿用，Snowball 离线 dw-lead 无新 standup；10 个应用：完成 1、进行中 1、未开始 8"
     },
@@ -359,9 +358,10 @@
           "role": "IPD-Dev 开发工程师",
           "model": "",
           "agent_id": "44fcec25-d8b3-4af6-b206-1774a64677ce",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-94",
+          "issue_title": "[双端编码·第2轮] REQ-005 单位换算器鸿蒙工程生成（ArkTS/ArkUI，闭合 D1/D2/D3/D5）",
+          "since": "2026-09-30T08:04:47Z"
         },
         {
           "name": "hermes-tester",
@@ -406,41 +406,41 @@
         }
       ],
       "issue_counts": {
-        "todo": 9,
+        "todo": 8,
         "in_progress": 0,
-        "in_review": 7,
-        "done": 75
+        "in_review": 0,
+        "done": 83
       },
       "latest_issues": [
         {
           "key": "IPD-111",
           "title": "[巡检] 2026-09-30 leader Issue 状态巡检与催办",
+          "status": "done",
+          "updated_at": "2026-09-30T08:05:06Z"
+        },
+        {
+          "key": "IPD-94",
+          "title": "[双端编码·第2轮] REQ-005 单位换算器鸿蒙工程生成（ArkTS/ArkUI，闭合 D1/D",
           "status": "todo",
-          "updated_at": "2026-09-30T08:00:20Z"
+          "updated_at": "2026-09-30T08:04:45Z"
         },
         {
-          "key": "IPD-109",
-          "title": "[TR-Req 终审打回] Eazo 平台 PRD v1.1 回修（SE 3 Blocking + ",
-          "status": "in_review",
-          "updated_at": "2026-09-30T07:14:38Z"
-        },
-        {
-          "key": "IPD-101",
-          "title": "[平台立项] Eazo 平台 PRD：自然语言双端生成+对比平台（七项能力总纲 + 增量/对比管线优",
+          "key": "IPD-96",
+          "title": "[SE·第2轮] REQ-005 追踪矩阵设计实体列二次对齐（D7）+ REQ-006 追踪矩阵骨架",
           "status": "done",
-          "updated_at": "2026-09-30T07:08:14Z"
+          "updated_at": "2026-09-30T08:04:21Z"
         },
         {
-          "key": "IPD-110",
-          "title": "[流程优化] 准出质量标准修订：平台功能专项编号与 Eazo PRD §3 对齐",
-          "status": "in_review",
-          "updated_at": "2026-09-30T07:07:01Z"
-        },
-        {
-          "key": "IPD-100",
-          "title": "[目标对齐] 2026-09-30 Eazo 平台重定义：自然语言双端生成+对比分析+准出标准",
+          "key": "IPD-98",
+          "title": "[架构·第2轮] REQ-006 随手记账技术预研 + REQ-005 契约走查支持",
           "status": "done",
-          "updated_at": "2026-09-30T06:52:47Z"
+          "updated_at": "2026-09-30T08:04:19Z"
+        },
+        {
+          "key": "IPD-95",
+          "title": "[PRD·第2轮] REQ-006 随手记账正式 PRD v1.0 + TR-Req 发起 + RE",
+          "status": "done",
+          "updated_at": "2026-09-30T08:04:17Z"
         }
       ]
     }
