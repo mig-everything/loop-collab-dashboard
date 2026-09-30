@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T06:51:20Z",
+  "generated_at": "2026-09-30T06:56:03Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -152,7 +152,7 @@
           "state": "working",
           "issue": "BEN-64",
           "issue_title": "跟踪测例通过率，分析迭代效率",
-          "since": "2026-09-30T06:48:44Z"
+          "since": "2026-09-30T06:52:49Z"
         }
       ],
       "issue_counts": {
@@ -162,6 +162,12 @@
         "done": 51
       },
       "latest_issues": [
+        {
+          "key": "BEN-64",
+          "title": "跟踪测例通过率，分析迭代效率",
+          "status": "todo",
+          "updated_at": "2026-09-30T06:56:20Z"
+        },
         {
           "key": "BEN-59",
           "title": "项目流程profile",
@@ -173,12 +179,6 @@
           "title": "经验库分析",
           "status": "todo",
           "updated_at": "2026-09-30T06:50:10Z"
-        },
-        {
-          "key": "BEN-64",
-          "title": "跟踪测例通过率，分析迭代效率",
-          "status": "todo",
-          "updated_at": "2026-09-30T06:49:44Z"
         },
         {
           "key": "BEN-54",
@@ -242,8 +242,8 @@
           "agent_id": "1c3481f5-135b-4959-9daa-c510c076d494",
           "state": "working",
           "issue": "DWM-40",
-          "issue_title": "[DW迁移任务单] Omni-Notes 迁移 · 清单+迁移 · 清单✓349 · 迁移中 3/6 · 迁移6.7h/",
-          "since": "2026-09-30T05:07:02Z"
+          "issue_title": "[DW迁移任务单] Omni-Notes 迁移 · 清单+迁移 · 清单✓349 · 迁移中 3/6 · 迁移6.8h/",
+          "since": "2026-09-30T06:55:32Z"
         },
         {
           "name": "exec-verifier",
@@ -261,9 +261,12 @@
           "role": "修复员",
           "model": "claude-opus-5-5",
           "agent_id": "cd70e713-a339-4621-8699-2058d9cf7d6b",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "DWM-69",
+          "issue_title": "[DWM-40·工具修复] mig checklist-status 入库后把 collected 覆盖回 comple",
+          "since": "2026-09-30T06:54:47Z",
+          "parent_issue": "DWM-40",
+          "parent_title": "[DW迁移任务单] Omni-Notes 迁移 · 清单+迁移 · 清单✓349 · 迁移中 3/6 · 迁移6.8h/"
         }
       ],
       "issue_counts": {
@@ -277,7 +280,7 @@
           "key": "DWM-40",
           "title": "[DW迁移任务单] Omni-Notes 迁移 · 清单+迁移 · 清单✓349 · 迁移中 3/6",
           "status": "in_progress",
-          "updated_at": "2026-09-30T06:47:53Z"
+          "updated_at": "2026-09-30T06:54:55Z"
         },
         {
           "key": "DWM-67",
@@ -306,9 +309,9 @@
       ],
       "order": {
         "key": "DWM-40",
-        "title": "[DW迁移任务单] Omni-Notes 迁移 · 清单+迁移 · 清单✓349 · 迁移中 3/6 · 迁移6.7h/12h",
+        "title": "[DW迁移任务单] Omni-Notes 迁移 · 清单+迁移 · 清单✓349 · 迁移中 3/6 · 迁移6.8h/12h",
         "status": "in_progress",
-        "updated_at": "2026-09-30T06:47:53Z"
+        "updated_at": "2026-09-30T06:54:55Z"
       },
       "progress_note": "沿用，Snowball 离线 dw-lead 无新 standup；10 个应用：完成 1、进行中 1、未开始 8"
     },
@@ -329,9 +332,8 @@
           "model": "",
           "agent_id": "1764c131-5c09-48cb-aa48-3177d5256dbb",
           "state": "working",
-          "issue": "IPD-101",
-          "issue_title": "[平台立项] Eazo 平台 PRD：自然语言双端生成+对比平台（七项能力总纲 + 增量/对比管线优先）",
-          "since": "2026-09-30T06:51:26Z"
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "hermes-sa",
@@ -389,10 +391,9 @@
           "role": "DeepSeek Planner（小组 leader/PM ",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
-          "state": "working",
-          "issue": "IPD-100",
-          "issue_title": "[目标对齐] 2026-09-30 Eazo 平台重定义：自然语言双端生成+对比分析+准出标准",
-          "since": "2026-09-30T06:45:28Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "minimax-uijudge",
@@ -406,17 +407,23 @@
         }
       ],
       "issue_counts": {
-        "todo": 10,
-        "in_progress": 0,
+        "todo": 8,
+        "in_progress": 1,
         "in_review": 5,
-        "done": 73
+        "done": 74
       },
       "latest_issues": [
         {
+          "key": "IPD-101",
+          "title": "[平台立项] Eazo 平台 PRD：自然语言双端生成+对比平台（七项能力总纲 + 增量/对比管线优",
+          "status": "in_progress",
+          "updated_at": "2026-09-30T06:56:44Z"
+        },
+        {
           "key": "IPD-100",
           "title": "[目标对齐] 2026-09-30 Eazo 平台重定义：自然语言双端生成+对比分析+准出标准",
-          "status": "todo",
-          "updated_at": "2026-09-30T06:52:34Z"
+          "status": "done",
+          "updated_at": "2026-09-30T06:52:47Z"
         },
         {
           "key": "IPD-108",
@@ -435,12 +442,6 @@
           "title": "[平台·能力⑤] 源码下载 + 截图显示",
           "status": "backlog",
           "updated_at": "2026-09-30T06:52:05Z"
-        },
-        {
-          "key": "IPD-105",
-          "title": "[平台·能力④] 历史记录/日志查看",
-          "status": "backlog",
-          "updated_at": "2026-09-30T06:52:03Z"
         }
       ]
     }
