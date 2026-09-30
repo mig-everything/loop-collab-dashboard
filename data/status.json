@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T22:06:25Z",
+  "generated_at": "2026-09-30T22:10:05Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -44,12 +44,18 @@
         }
       ],
       "issue_counts": {
-        "todo": 1,
+        "todo": 2,
         "in_progress": 1,
         "in_review": 1,
         "done": 70
       },
       "latest_issues": [
+        {
+          "key": "SUR-90",
+          "title": "[临时会议·空闲加派] 2026-10-01 06 点场",
+          "status": "todo",
+          "updated_at": "2026-09-30T22:09:38Z"
+        },
         {
           "key": "SUR-89",
           "title": "[空闲检测] 2026-10-01 leader 两小时正点检查与加派",
@@ -73,12 +79,6 @@
           "title": "[任务][day-7] 迁移第 4 章至 LaTeX（04-enabling-tech.tex 关键",
           "status": "done",
           "updated_at": "2026-09-30T20:29:14Z"
-        },
-        {
-          "key": "SUR-87",
-          "title": "[评审][day-7] 事后对抗评审英文第 5 章（05-evaluation.tex，SUR-82",
-          "status": "in_review",
-          "updated_at": "2026-09-30T20:27:31Z"
         }
       ],
       "progress_note": "day-4 晨 37% → 午 42% → 晚 44% → 夜 47%",
