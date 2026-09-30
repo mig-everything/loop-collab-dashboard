@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T14:37:28Z",
+  "generated_at": "2026-09-30T14:41:17Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -99,10 +99,9 @@
           "role": "GPT Scenarist",
           "model": "",
           "agent_id": "6e6f1e24-3bc5-455a-85d2-cb3fb6c9a672",
-          "state": "working",
-          "issue": "BEN-56",
-          "issue_title": "[backlog] 清单匹配映射表：功能清单 Excel ↔ 平台无关用例 一一匹配可追溯",
-          "since": "2026-09-30T14:23:44Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "glm-runner",
@@ -167,7 +166,7 @@
           "key": "BEN-56",
           "title": "[backlog] 清单匹配映射表：功能清单 Excel ↔ 平台无关用例 一一匹配可追溯",
           "status": "done",
-          "updated_at": "2026-09-30T14:37:41Z"
+          "updated_at": "2026-09-30T14:40:50Z"
         },
         {
           "key": "BEN-76",
