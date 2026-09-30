@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T04:44:33Z",
+  "generated_at": "2026-09-30T04:48:38Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -150,9 +150,10 @@
           "role": "只读洞察项目目标与执行证据，用简单语言汇报进展、偏差和阻塞，",
           "model": "gpt-6-astra",
           "agent_id": "33b902ee-a4ca-46ae-9284-c8285311c687",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "BEN-64",
+          "issue_title": "梳理当前项目目标",
+          "since": "2026-09-30T04:47:50Z"
         }
       ],
       "issue_counts": {
@@ -166,13 +167,13 @@
           "key": "BEN-59",
           "title": "汇报当前整体目标及各智能体进展",
           "status": "todo",
-          "updated_at": "2026-09-30T04:40:24Z"
+          "updated_at": "2026-09-30T04:48:15Z"
         },
         {
           "key": "BEN-64",
           "title": "梳理当前项目目标",
           "status": "todo",
-          "updated_at": "2026-09-30T04:21:09Z"
+          "updated_at": "2026-09-30T04:47:48Z"
         },
         {
           "key": "BEN-60",
@@ -277,7 +278,7 @@
           "key": "DWM-40",
           "title": "[DW迁移任务单] Omni-Notes 迁移 · 清单+迁移 · 清单生成中 续6·r114·11",
           "status": "in_progress",
-          "updated_at": "2026-09-30T04:44:01Z"
+          "updated_at": "2026-09-30T04:49:13Z"
         },
         {
           "key": "DWM-67",
@@ -306,9 +307,9 @@
       ],
       "order": {
         "key": "DWM-40",
-        "title": "[DW迁移任务单] Omni-Notes 迁移 · 清单+迁移 · 清单生成中 续6·r114·1175/800步·5页/540项 · 迁移中 3/6 · 清单9.6h/15.0h",
+        "title": "[DW迁移任务单] Omni-Notes 迁移 · 清单+迁移 · 清单生成中 续6·r114·1175/800步·5页/541项 · 迁移中 3/6 · 清单9.7h/15.0h",
         "status": "in_progress",
-        "updated_at": "2026-09-30T04:44:01Z"
+        "updated_at": "2026-09-30T04:49:13Z"
       },
       "progress_note": "沿用，Snowball 离线 dw-lead 无新 standup；10 个应用：完成 1、进行中 1、未开始 8"
     },
@@ -358,10 +359,9 @@
           "role": "IPD-Dev 开发工程师",
           "model": "",
           "agent_id": "44fcec25-d8b3-4af6-b206-1774a64677ce",
-          "state": "working",
-          "issue": "IPD-94",
-          "issue_title": "[双端编码·第2轮] REQ-005 单位换算器鸿蒙工程生成（ArkTS/ArkUI，闭合 D1/D2/D3/D5）",
-          "since": "2026-09-30T04:19:10Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "hermes-tester",
@@ -412,6 +412,12 @@
       },
       "latest_issues": [
         {
+          "key": "IPD-94",
+          "title": "[双端编码·第2轮] REQ-005 单位换算器鸿蒙工程生成（ArkTS/ArkUI，闭合 D1/D",
+          "status": "todo",
+          "updated_at": "2026-09-30T04:46:03Z"
+        },
+        {
           "key": "IPD-99",
           "title": "[TR-Req 评审] REQ-006 随手记账（Expense Tracker）—— 需求评审（P",
           "status": "in_review",
@@ -434,12 +440,6 @@
           "title": "[PRD·第2轮] REQ-006 随手记账正式 PRD v1.0 + TR-Req 发起 + RE",
           "status": "in_review",
           "updated_at": "2026-09-30T04:26:01Z"
-        },
-        {
-          "key": "IPD-93",
-          "title": "[午会纪要] 2026-09-30",
-          "status": "done",
-          "updated_at": "2026-09-30T04:23:24Z"
         }
       ]
     }
