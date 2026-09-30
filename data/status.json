@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T16:13:14Z",
+  "generated_at": "2026-09-30T16:17:03Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -242,7 +242,7 @@
           "agent_id": "1c3481f5-135b-4959-9daa-c510c076d494",
           "state": "working",
           "issue": "DWM-40",
-          "issue_title": "[DW迁移任务单] Omni-Notes 迁移 · 清单+迁移 · 清单✓349 · 迁移中 3/6 · 迁移14.3h",
+          "issue_title": "[DW迁移任务单] Omni-Notes 迁移 · 清单+迁移 · 清单✓349 · 迁移中 3/6 · 迁移14.4h",
           "since": "2026-09-30T15:34:37Z"
         },
         {
@@ -277,7 +277,7 @@
           "key": "DWM-40",
           "title": "[DW迁移任务单] Omni-Notes 迁移 · 清单+迁移 · 清单✓349 · 迁移中 3/6",
           "status": "in_progress",
-          "updated_at": "2026-09-30T16:05:19Z"
+          "updated_at": "2026-09-30T16:15:47Z"
         },
         {
           "key": "DWM-74",
@@ -306,9 +306,9 @@
       ],
       "order": {
         "key": "DWM-40",
-        "title": "[DW迁移任务单] Omni-Notes 迁移 · 清单+迁移 · 清单✓349 · 迁移中 3/6 · 迁移14.3h/18.0h · 待人工",
+        "title": "[DW迁移任务单] Omni-Notes 迁移 · 清单+迁移 · 清单✓349 · 迁移中 3/6 · 迁移14.4h/18.0h · 待人工",
         "status": "in_progress",
-        "updated_at": "2026-09-30T16:05:19Z"
+        "updated_at": "2026-09-30T16:15:47Z"
       }
     },
     {
@@ -357,10 +357,9 @@
           "role": "IPD-Dev 开发工程师",
           "model": "",
           "agent_id": "44fcec25-d8b3-4af6-b206-1774a64677ce",
-          "state": "working",
-          "issue": "IPD-108",
-          "issue_title": "[平台·能力⑦] 增量开发（双端同步迭代+复对比，P0优先）",
-          "since": "2026-09-30T16:04:58Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "hermes-tester",
@@ -405,11 +404,17 @@
       ],
       "issue_counts": {
         "todo": 5,
-        "in_progress": 1,
+        "in_progress": 0,
         "in_review": 0,
-        "done": 91
+        "done": 92
       },
       "latest_issues": [
+        {
+          "key": "IPD-108",
+          "title": "[平台·能力⑦] 增量开发（双端同步迭代+复对比，P0优先）",
+          "status": "done",
+          "updated_at": "2026-09-30T16:15:58Z"
+        },
         {
           "key": "IPD-120",
           "title": "[TR-Design 评审] Eazo 平台正式架构方案 + 接口契约（能力②③ P0 优先）—— ",
@@ -427,12 +432,6 @@
           "title": "[巡检] 2026-10-01 leader Issue 状态巡检与催办",
           "status": "done",
           "updated_at": "2026-09-30T16:05:14Z"
-        },
-        {
-          "key": "IPD-108",
-          "title": "[平台·能力⑦] 增量开发（双端同步迭代+复对比，P0优先）",
-          "status": "in_progress",
-          "updated_at": "2026-09-30T16:04:55Z"
         },
         {
           "key": "IPD-117",
