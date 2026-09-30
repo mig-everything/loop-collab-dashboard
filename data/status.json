@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T05:31:57Z",
+  "generated_at": "2026-09-30T05:36:13Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -277,7 +277,7 @@
           "key": "DWM-40",
           "title": "[DW迁移任务单] Omni-Notes 迁移 · 清单+迁移 · 清单生成中 续6·r118·12",
           "status": "in_progress",
-          "updated_at": "2026-09-30T05:27:30Z"
+          "updated_at": "2026-09-30T05:32:43Z"
         },
         {
           "key": "DWM-67",
@@ -308,7 +308,7 @@
         "key": "DWM-40",
         "title": "[DW迁移任务单] Omni-Notes 迁移 · 清单+迁移 · 清单生成中 续6·r118·1211/800步·5页/544项 · 迁移中 3/6 · 清单10.4h/15.0",
         "status": "in_progress",
-        "updated_at": "2026-09-30T05:27:30Z"
+        "updated_at": "2026-09-30T05:32:43Z"
       },
       "progress_note": "沿用，Snowball 离线 dw-lead 无新 standup；10 个应用：完成 1、进行中 1、未开始 8"
     },
