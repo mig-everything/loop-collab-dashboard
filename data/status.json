@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T18:18:47Z",
+  "generated_at": "2026-09-30T18:26:03Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -45,11 +45,17 @@
       ],
       "issue_counts": {
         "todo": 0,
-        "in_progress": 1,
+        "in_progress": 0,
         "in_review": 1,
-        "done": 66
+        "done": 67
       },
       "latest_issues": [
+        {
+          "key": "SUR-82",
+          "title": "[任务][day-7] 迁移第 5 章至 LaTeX（05-evaluation.tex 评测实践与",
+          "status": "done",
+          "updated_at": "2026-09-30T18:26:06Z"
+        },
         {
           "key": "SUR-84",
           "title": "[临时会议·空闲加派] 2026-10-01 02 点场",
@@ -61,12 +67,6 @@
           "title": "[评审][day-7] 复评第 3 章 SUR-77 修复落地（SUR-72 打回 1 P0+4 P",
           "status": "in_review",
           "updated_at": "2026-09-30T18:15:22Z"
-        },
-        {
-          "key": "SUR-82",
-          "title": "[任务][day-7] 迁移第 5 章至 LaTeX（05-evaluation.tex 评测实践与",
-          "status": "in_progress",
-          "updated_at": "2026-09-30T18:11:49Z"
         },
         {
           "key": "SUR-81",
