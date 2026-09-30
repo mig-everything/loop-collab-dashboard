@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T08:50:52Z",
+  "generated_at": "2026-09-30T08:55:10Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -149,10 +149,9 @@
           "role": "只读洞察项目目标与执行证据，用简单语言汇报进展、偏差和阻塞，",
           "model": "gpt-6-astra",
           "agent_id": "33b902ee-a4ca-46ae-9284-c8285311c687",
-          "state": "working",
-          "issue": "BEN-70",
-          "issue_title": "将 codex 原生 agent md 第一条添加到当前 agent md",
-          "since": "2026-09-30T08:49:50Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         }
       ],
       "issue_counts": {
@@ -166,13 +165,13 @@
           "key": "BEN-70",
           "title": "将 codex 原生 agent md 第一条添加到当前 agent md",
           "status": "todo",
-          "updated_at": "2026-09-30T08:49:49Z"
+          "updated_at": "2026-09-30T08:54:50Z"
         },
         {
           "key": "BEN-64",
           "title": "跟踪测例通过率，分析迭代效率",
           "status": "todo",
-          "updated_at": "2026-09-30T08:45:25Z"
+          "updated_at": "2026-09-30T08:52:45Z"
         },
         {
           "key": "BEN-68",
@@ -242,7 +241,7 @@
           "agent_id": "1c3481f5-135b-4959-9daa-c510c076d494",
           "state": "working",
           "issue": "DWM-40",
-          "issue_title": "[DW迁移任务单] Omni-Notes 迁移 · 清单+迁移 · 清单✓349 · 迁移中 3/6 · 迁移8.6h/",
+          "issue_title": "[DW迁移任务单] Omni-Notes 迁移 · 清单+迁移 · 清单✓349 · 迁移中 3/6 · 迁移8.8h/",
           "since": "2026-09-30T08:46:08Z"
         },
         {
@@ -277,7 +276,7 @@
           "key": "DWM-40",
           "title": "[DW迁移任务单] Omni-Notes 迁移 · 清单+迁移 · 清单✓349 · 迁移中 3/6",
           "status": "in_progress",
-          "updated_at": "2026-09-30T08:44:19Z"
+          "updated_at": "2026-09-30T08:51:53Z"
         },
         {
           "key": "DWM-70",
@@ -306,9 +305,9 @@
       ],
       "order": {
         "key": "DWM-40",
-        "title": "[DW迁移任务单] Omni-Notes 迁移 · 清单+迁移 · 清单✓349 · 迁移中 3/6 · 迁移8.6h/12h",
+        "title": "[DW迁移任务单] Omni-Notes 迁移 · 清单+迁移 · 清单✓349 · 迁移中 3/6 · 迁移8.8h/12h",
         "status": "in_progress",
-        "updated_at": "2026-09-30T08:44:19Z"
+        "updated_at": "2026-09-30T08:51:53Z"
       },
       "progress_note": "沿用，Snowball 离线 dw-lead 无新 standup；10 个应用：完成 1、进行中 1、未开始 8"
     },
