@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T18:29:43Z",
+  "generated_at": "2026-09-30T19:41:20Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -229,9 +229,10 @@
           "role": "DW 迁移执行小队队长",
           "model": "claude-opus-5-5",
           "agent_id": "c6ff7c69-0db4-4b35-ac81-dd00e5a53ba4",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "DWM-40",
+          "issue_title": "[DW迁移任务单] Omni-Notes 迁移 · 修复 wave 1/4 · 待人工",
+          "since": "2026-09-30T19:40:30Z"
         },
         {
           "name": "exec-runner",
@@ -249,12 +250,9 @@
           "role": "验证员",
           "model": "claude-opus-5-5",
           "agent_id": "69822c63-0dcc-4f3e-875d-7b300d437623",
-          "state": "working",
-          "issue": "DWM-75",
-          "issue_title": "[DWM-40·审计] Omni-Notes 还原审计（dw-baseline/20260928-01）",
-          "since": "2026-09-30T17:56:45Z",
-          "parent_issue": "DWM-40",
-          "parent_title": "[DW迁移任务单] Omni-Notes 迁移 · 还原审计 · 待人工"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "exec-fixer",
@@ -262,9 +260,12 @@
           "role": "修复员",
           "model": "claude-opus-5-5",
           "agent_id": "cd70e713-a339-4621-8699-2058d9cf7d6b",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "DWM-78",
+          "issue_title": "[DWM-40·wave1] Omni-Notes 修复第 1 波（25 条）",
+          "since": "2026-09-30T19:41:20Z",
+          "parent_issue": "DWM-40",
+          "parent_title": "[DW迁移任务单] Omni-Notes 迁移 · 修复 wave 1/4 · 待人工"
         }
       ],
       "issue_counts": {
@@ -276,9 +277,9 @@
       "latest_issues": [
         {
           "key": "DWM-40",
-          "title": "[DW迁移任务单] Omni-Notes 迁移 · 还原审计 · 待人工",
+          "title": "[DW迁移任务单] Omni-Notes 迁移 · 修复 wave 1/4 · 待人工",
           "status": "in_progress",
-          "updated_at": "2026-09-30T18:15:40Z"
+          "updated_at": "2026-09-30T19:41:32Z"
         },
         {
           "key": "DWM-77",
@@ -307,9 +308,9 @@
       ],
       "order": {
         "key": "DWM-40",
-        "title": "[DW迁移任务单] Omni-Notes 迁移 · 还原审计 · 待人工",
+        "title": "[DW迁移任务单] Omni-Notes 迁移 · 修复 wave 1/4 · 待人工",
         "status": "in_progress",
-        "updated_at": "2026-09-30T18:15:40Z"
+        "updated_at": "2026-09-30T19:41:32Z"
       }
     },
     {
