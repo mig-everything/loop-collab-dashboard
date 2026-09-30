@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T21:19:40Z",
+  "generated_at": "2026-09-30T21:30:28Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -262,7 +262,7 @@
           "state": "working",
           "issue": "DWM-78",
           "issue_title": "[DWM-40·wave1] Omni-Notes 修复第 1 波（25 条）",
-          "since": "2026-09-30T19:41:20Z",
+          "since": "2026-09-30T21:30:38Z",
           "parent_issue": "DWM-40",
           "parent_title": "[DW迁移任务单] Omni-Notes 迁移 · 修复 wave 1/4 · 待人工"
         }
