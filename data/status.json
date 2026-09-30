@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T14:14:09Z",
+  "generated_at": "2026-09-30T14:17:57Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -155,41 +155,41 @@
         }
       ],
       "issue_counts": {
-        "todo": 8,
+        "todo": 4,
         "in_progress": 0,
         "in_review": 1,
-        "done": 62
+        "done": 66
       },
       "latest_issues": [
+        {
+          "key": "BEN-70",
+          "title": "将 codex 原生 agent md 第一条添加到当前 agent md",
+          "status": "done",
+          "updated_at": "2026-09-30T14:15:59Z"
+        },
+        {
+          "key": "BEN-64",
+          "title": "跟踪测例通过率，分析迭代效率",
+          "status": "done",
+          "updated_at": "2026-09-30T14:15:56Z"
+        },
+        {
+          "key": "BEN-63",
+          "title": "经验库分析",
+          "status": "done",
+          "updated_at": "2026-09-30T14:15:51Z"
+        },
+        {
+          "key": "BEN-59",
+          "title": "项目流程profile",
+          "status": "done",
+          "updated_at": "2026-09-30T14:15:48Z"
+        },
         {
           "key": "BEN-77",
           "title": "[空闲检测] 2026-09-30 leader 两小时正点检查与加派",
           "status": "done",
           "updated_at": "2026-09-30T14:04:02Z"
-        },
-        {
-          "key": "BEN-72",
-          "title": "[任务·第3轮] 全量 Android oracle 回归启动 + 差分（Cofi 335 先行 →",
-          "status": "in_review",
-          "updated_at": "2026-09-30T13:40:21Z"
-        },
-        {
-          "key": "BEN-75",
-          "title": "[晚会日报] 2026-09-30",
-          "status": "done",
-          "updated_at": "2026-09-30T12:05:46Z"
-        },
-        {
-          "key": "BEN-76",
-          "title": "[流程优化验证] 场景ready设备冒烟关卡 + LLM辅助四分类归因（ref BEN-75）",
-          "status": "backlog",
-          "updated_at": "2026-09-30T12:05:33Z"
-        },
-        {
-          "key": "BEN-73",
-          "title": "[任务·第3轮] 清单匹配映射表（验收口径②）+ Android 差分问题清单闭环收尾（ref BE",
-          "status": "done",
-          "updated_at": "2026-09-30T12:04:24Z"
         }
       ]
     },
