@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T19:41:20Z",
+  "generated_at": "2026-09-30T19:45:01Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -229,10 +229,9 @@
           "role": "DW 迁移执行小队队长",
           "model": "claude-opus-5-5",
           "agent_id": "c6ff7c69-0db4-4b35-ac81-dd00e5a53ba4",
-          "state": "working",
-          "issue": "DWM-40",
-          "issue_title": "[DW迁移任务单] Omni-Notes 迁移 · 修复 wave 1/4 · 待人工",
-          "since": "2026-09-30T19:40:30Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "exec-runner",
