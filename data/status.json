@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T08:46:32Z",
+  "generated_at": "2026-09-30T08:50:52Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -150,18 +150,24 @@
           "model": "gpt-6-astra",
           "agent_id": "33b902ee-a4ca-46ae-9284-c8285311c687",
           "state": "working",
-          "issue": "BEN-64",
-          "issue_title": "跟踪测例通过率，分析迭代效率",
-          "since": "2026-09-30T08:45:28Z"
+          "issue": "BEN-70",
+          "issue_title": "将 codex 原生 agent md 第一条添加到当前 agent md",
+          "since": "2026-09-30T08:49:50Z"
         }
       ],
       "issue_counts": {
-        "todo": 6,
+        "todo": 7,
         "in_progress": 0,
         "in_review": 1,
         "done": 56
       },
       "latest_issues": [
+        {
+          "key": "BEN-70",
+          "title": "将 codex 原生 agent md 第一条添加到当前 agent md",
+          "status": "todo",
+          "updated_at": "2026-09-30T08:49:49Z"
+        },
         {
           "key": "BEN-64",
           "title": "跟踪测例通过率，分析迭代效率",
@@ -185,12 +191,6 @@
           "title": "[并行·Simple-Calendar] 建账+spec+场景 ready+双端用例/binding",
           "status": "done",
           "updated_at": "2026-09-30T08:33:39Z"
-        },
-        {
-          "key": "BEN-66",
-          "title": "更新 PM 调度策略：Cofi/AntennaPod/Simple-Calendar 按 app 并",
-          "status": "in_review",
-          "updated_at": "2026-09-30T08:13:12Z"
         }
       ]
     },
