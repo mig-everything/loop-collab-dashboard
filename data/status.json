@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T03:30:57Z",
+  "generated_at": "2026-09-30T03:34:56Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -140,15 +140,14 @@
           "role": "只读洞察项目目标与执行证据，用简单语言汇报进展、偏差和阻塞，",
           "model": "",
           "agent_id": "4b674e90-4726-4eba-bd5c-06350e0b8b83",
-          "state": "working",
+          "state": "idle",
           "issue": "",
-          "issue_title": "",
-          "since": "2026-09-30T03:30:22Z"
+          "issue_title": ""
         }
       ],
       "issue_counts": {
-        "todo": 1,
-        "in_progress": 0,
+        "todo": 0,
+        "in_progress": 1,
         "in_review": 0,
         "done": 48
       },
@@ -156,8 +155,8 @@
         {
           "key": "BEN-54",
           "title": "[目标对齐] 2026-09-30 负责人完善任务2验收口径（6条）+ 鸿蒙仓多变体结构变更",
-          "status": "todo",
-          "updated_at": "2026-09-30T03:26:55Z"
+          "status": "in_progress",
+          "updated_at": "2026-09-30T03:34:01Z"
         },
         {
           "key": "BEN-53",
