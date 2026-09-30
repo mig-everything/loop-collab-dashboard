@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T04:06:40Z",
+  "generated_at": "2026-09-30T04:10:47Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -7,8 +7,8 @@
       "workspace": "ws-survey-loop",
       "machine": "JordanZTdeMacBook-Pro",
       "machine_online": true,
-      "meeting_active": false,
-      "meeting_title": "",
+      "meeting_active": true,
+      "meeting_title": "[午会纪要] 2026-09-30",
       "progress": 47,
       "agents": [
         {
@@ -17,9 +17,10 @@
           "role": "GPT Writer（执笔者）",
           "model": "",
           "agent_id": "58ed4647-32dd-4ca1-8ddc-194b975d6024",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "SUR-71",
+          "issue_title": "[午会纪要] 2026-09-30",
+          "since": "2026-09-30T04:10:25Z"
         },
         {
           "name": "kimi-adversary",
@@ -27,9 +28,10 @@
           "role": "Kimi Adversarial Reviewer（对抗评审",
           "model": "",
           "agent_id": "6e530cc6-6b9d-4398-936d-df9c13468125",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "SUR-71",
+          "issue_title": "[午会纪要] 2026-09-30",
+          "since": "2026-09-30T04:10:25Z"
         },
         {
           "name": "deepseek-planner",
@@ -45,40 +47,40 @@
       ],
       "issue_counts": {
         "todo": 1,
-        "in_progress": 0,
-        "in_review": 1,
-        "done": 53
+        "in_progress": 2,
+        "in_review": 0,
+        "done": 54
       },
       "latest_issues": [
         {
           "key": "SUR-71",
           "title": "[午会纪要] 2026-09-30",
-          "status": "todo",
-          "updated_at": "2026-09-30T04:00:13Z"
+          "status": "in_progress",
+          "updated_at": "2026-09-30T04:10:22Z"
         },
         {
           "key": "SUR-70",
           "title": "[负责人裁决] 新大纲第四章继承 0921_v1 §4.1-4.8 + RQ1 映射修订（loop-",
-          "status": "in_review",
-          "updated_at": "2026-09-30T01:36:25Z"
+          "status": "done",
+          "updated_at": "2026-09-30T04:10:17Z"
+        },
+        {
+          "key": "SUR-72",
+          "title": "[评审][day-6] 事后对抗评审英文第 3 章（03-pipeline.tex 五阶段，SUR-",
+          "status": "in_progress",
+          "updated_at": "2026-09-30T04:09:46Z"
+        },
+        {
+          "key": "SUR-73",
+          "title": "[任务][day-6] 收尾 SUR-68 P1-1 版本固定 + 固化版本标注约定 + 落地 P2",
+          "status": "todo",
+          "updated_at": "2026-09-30T04:09:23Z"
         },
         {
           "key": "SUR-69",
           "title": "[巡检] 2026-09-30 leader Issue 状态巡检与催办",
           "status": "done",
           "updated_at": "2026-09-30T00:02:32Z"
-        },
-        {
-          "key": "SUR-68",
-          "title": "[评审][day-6] 事后对抗评审英文第 2 章 + refs.bib 骨架（SUR-62 提交）",
-          "status": "done",
-          "updated_at": "2026-09-30T00:02:23Z"
-        },
-        {
-          "key": "SUR-67",
-          "title": "[任务][day-6] 迁移第 3 章至 LaTeX（03-pipeline.tex 五阶段）+ 落",
-          "status": "done",
-          "updated_at": "2026-09-29T20:21:49Z"
         }
       ],
       "progress_note": "day-4 晨 37% → 午 42% → 晚 44% → 夜 47%",
@@ -140,11 +142,12 @@
           "name": "项目观察员",
           "emoji": "🔍",
           "role": "只读洞察项目目标与执行证据，用简单语言汇报进展、偏差和阻塞，",
-          "model": "gpt-5.6-sol",
+          "model": "",
           "agent_id": "4b674e90-4726-4eba-bd5c-06350e0b8b83",
-          "state": "idle",
+          "state": "working",
           "issue": "",
-          "issue_title": ""
+          "issue_title": "",
+          "since": "2026-09-30T04:09:35Z"
         },
         {
           "name": "项目观察员（GPT-6）",
@@ -152,10 +155,9 @@
           "role": "只读洞察项目目标与执行证据，用简单语言汇报进展、偏差和阻塞，",
           "model": "gpt-6-astra",
           "agent_id": "33b902ee-a4ca-46ae-9284-c8285311c687",
-          "state": "working",
-          "issue": "BEN-63",
-          "issue_title": "汇报当前整体目标与各智能体进展",
-          "since": "2026-09-30T04:06:14Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         }
       ],
       "issue_counts": {
@@ -166,34 +168,34 @@
       },
       "latest_issues": [
         {
+          "key": "BEN-59",
+          "title": "汇报当前整体目标及各智能体进展",
+          "status": "todo",
+          "updated_at": "2026-09-30T04:10:42Z"
+        },
+        {
+          "key": "BEN-63",
+          "title": "汇报当前整体目标与各智能体进展",
+          "status": "todo",
+          "updated_at": "2026-09-30T04:09:12Z"
+        },
+        {
+          "key": "BEN-62",
+          "title": "回报当前整体目标与各智能体进展",
+          "status": "todo",
+          "updated_at": "2026-09-30T04:08:17Z"
+        },
+        {
           "key": "BEN-58",
           "title": "[午会纪要] 2026-09-30",
           "status": "done",
           "updated_at": "2026-09-30T04:06:33Z"
         },
         {
-          "key": "BEN-63",
-          "title": "汇报当前整体目标与各智能体进展",
-          "status": "todo",
-          "updated_at": "2026-09-30T04:06:13Z"
-        },
-        {
-          "key": "BEN-59",
-          "title": "汇报当前整体目标及各智能体进展",
-          "status": "todo",
-          "updated_at": "2026-09-30T04:05:53Z"
-        },
-        {
           "key": "BEN-54",
           "title": "[目标对齐] 2026-09-30 负责人完善任务2验收口径（6条）+ 鸿蒙仓多变体结构变更",
           "status": "done",
           "updated_at": "2026-09-30T04:05:45Z"
-        },
-        {
-          "key": "BEN-62",
-          "title": "回报当前整体目标与各智能体进展",
-          "status": "todo",
-          "updated_at": "2026-09-30T04:05:43Z"
         }
       ]
     },
@@ -203,8 +205,8 @@
       "workspace": "ws-dw-migration-loop",
       "machine": "奕棣 MacBook",
       "machine_online": true,
-      "meeting_active": false,
-      "meeting_title": "",
+      "meeting_active": true,
+      "meeting_title": "[午会纪要] 2026-09-30",
       "progress": 6,
       "agents": [
         {
@@ -213,7 +215,7 @@
           "role": "Opus Analyzer",
           "model": "claude-opus-5-5",
           "agent_id": "2f32549c-87c7-4202-8f54-3af79a30afa0",
-          "state": "idle",
+          "state": "meeting",
           "issue": "",
           "issue_title": ""
         },
@@ -234,7 +236,7 @@
           "role": "DW 迁移执行小队队长",
           "model": "claude-opus-5-5",
           "agent_id": "c6ff7c69-0db4-4b35-ac81-dd00e5a53ba4",
-          "state": "idle",
+          "state": "meeting",
           "issue": "",
           "issue_title": ""
         },
@@ -246,7 +248,7 @@
           "agent_id": "1c3481f5-135b-4959-9daa-c510c076d494",
           "state": "working",
           "issue": "DWM-40",
-          "issue_title": "[DW迁移任务单] Omni-Notes 迁移 · 清单+迁移 · 清单生成中 续6·r105·1050/800步·5页",
+          "issue_title": "[DW迁移任务单] Omni-Notes 迁移 · 清单+迁移 · 清单生成中 续6·r106·1057/800步·5页",
           "since": "2026-09-30T03:10:37Z"
         },
         {
@@ -255,7 +257,7 @@
           "role": "验证员",
           "model": "claude-opus-5-5",
           "agent_id": "69822c63-0dcc-4f3e-875d-7b300d437623",
-          "state": "idle",
+          "state": "meeting",
           "issue": "",
           "issue_title": ""
         },
@@ -265,29 +267,29 @@
           "role": "修复员",
           "model": "claude-opus-5-5",
           "agent_id": "cd70e713-a339-4621-8699-2058d9cf7d6b",
-          "state": "idle",
+          "state": "meeting",
           "issue": "",
           "issue_title": ""
         }
       ],
       "issue_counts": {
-        "todo": 1,
-        "in_progress": 1,
+        "todo": 0,
+        "in_progress": 2,
         "in_review": 0,
         "done": 45
       },
       "latest_issues": [
         {
-          "key": "DWM-40",
-          "title": "[DW迁移任务单] Omni-Notes 迁移 · 清单+迁移 · 清单生成中 续6·r105·10",
-          "status": "in_progress",
-          "updated_at": "2026-09-30T04:02:14Z"
-        },
-        {
           "key": "DWM-67",
           "title": "[午会纪要] 2026-09-30",
-          "status": "todo",
-          "updated_at": "2026-09-30T04:00:02Z"
+          "status": "in_progress",
+          "updated_at": "2026-09-30T04:10:18Z"
+        },
+        {
+          "key": "DWM-40",
+          "title": "[DW迁移任务单] Omni-Notes 迁移 · 清单+迁移 · 清单生成中 续6·r106·10",
+          "status": "in_progress",
+          "updated_at": "2026-09-30T04:08:15Z"
         },
         {
           "key": "DWM-66",
@@ -310,9 +312,9 @@
       ],
       "order": {
         "key": "DWM-40",
-        "title": "[DW迁移任务单] Omni-Notes 迁移 · 清单+迁移 · 清单生成中 续6·r105·1050/800步·5页/533项 · 迁移中 3/6 · 清单8.9h/10h 迁",
+        "title": "[DW迁移任务单] Omni-Notes 迁移 · 清单+迁移 · 清单生成中 续6·r106·1057/800步·5页/533项 · 迁移中 3/6 · 清单9.0h/10h 迁",
         "status": "in_progress",
-        "updated_at": "2026-09-30T04:02:14Z"
+        "updated_at": "2026-09-30T04:08:15Z"
       },
       "progress_note": "沿用，Snowball 离线 dw-lead 无新 standup；10 个应用：完成 1、进行中 1、未开始 8"
     },
