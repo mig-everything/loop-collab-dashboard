@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T08:34:22Z",
+  "generated_at": "2026-09-30T08:38:32Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -99,10 +99,9 @@
           "role": "GPT Scenarist",
           "model": "",
           "agent_id": "6e6f1e24-3bc5-455a-85d2-cb3fb6c9a672",
-          "state": "working",
-          "issue": "BEN-68",
-          "issue_title": "[并行·AntennaPod] 1395 场景 draft→ready 分模块 + 双端用例/bindings（ref ",
-          "since": "2026-09-30T08:12:16Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "glm-runner",
@@ -156,12 +155,24 @@
         }
       ],
       "issue_counts": {
-        "todo": 7,
-        "in_progress": 1,
+        "todo": 6,
+        "in_progress": 0,
         "in_review": 1,
-        "done": 54
+        "done": 56
       },
       "latest_issues": [
+        {
+          "key": "BEN-68",
+          "title": "[并行·AntennaPod] 1395 场景 draft→ready 分模块 + 双端用例/bin",
+          "status": "done",
+          "updated_at": "2026-09-30T08:38:01Z"
+        },
+        {
+          "key": "BEN-67",
+          "title": "[并行·Cofi] 285 draft→ready + 全量双端用例/bindings（ref BE",
+          "status": "done",
+          "updated_at": "2026-09-30T08:34:48Z"
+        },
         {
           "key": "BEN-69",
           "title": "[并行·Simple-Calendar] 建账+spec+场景 ready+双端用例/binding",
@@ -169,22 +180,10 @@
           "updated_at": "2026-09-30T08:33:39Z"
         },
         {
-          "key": "BEN-68",
-          "title": "[并行·AntennaPod] 1395 场景 draft→ready 分模块 + 双端用例/bin",
-          "status": "in_progress",
-          "updated_at": "2026-09-30T08:27:00Z"
-        },
-        {
           "key": "BEN-66",
           "title": "更新 PM 调度策略：Cofi/AntennaPod/Simple-Calendar 按 app 并",
           "status": "in_review",
           "updated_at": "2026-09-30T08:13:12Z"
-        },
-        {
-          "key": "BEN-67",
-          "title": "[并行·Cofi] 285 draft→ready + 全量双端用例/bindings（ref BE",
-          "status": "todo",
-          "updated_at": "2026-09-30T08:11:50Z"
         },
         {
           "key": "BEN-65",
@@ -242,7 +241,7 @@
           "agent_id": "1c3481f5-135b-4959-9daa-c510c076d494",
           "state": "working",
           "issue": "DWM-40",
-          "issue_title": "[DW迁移任务单] Omni-Notes 迁移 · 清单+迁移 · 清单✓349 · 迁移中 3/6 · 迁移8.5h/",
+          "issue_title": "[DW迁移任务单] Omni-Notes 迁移 · 清单+迁移 · 清单✓349 · 迁移中 3/6 · 迁移8.6h/",
           "since": "2026-09-30T06:55:32Z"
         },
         {
@@ -277,7 +276,7 @@
           "key": "DWM-40",
           "title": "[DW迁移任务单] Omni-Notes 迁移 · 清单+迁移 · 清单✓349 · 迁移中 3/6",
           "status": "in_progress",
-          "updated_at": "2026-09-30T08:33:28Z"
+          "updated_at": "2026-09-30T08:38:40Z"
         },
         {
           "key": "DWM-70",
@@ -306,9 +305,9 @@
       ],
       "order": {
         "key": "DWM-40",
-        "title": "[DW迁移任务单] Omni-Notes 迁移 · 清单+迁移 · 清单✓349 · 迁移中 3/6 · 迁移8.5h/12h",
+        "title": "[DW迁移任务单] Omni-Notes 迁移 · 清单+迁移 · 清单✓349 · 迁移中 3/6 · 迁移8.6h/12h",
         "status": "in_progress",
-        "updated_at": "2026-09-30T08:33:28Z"
+        "updated_at": "2026-09-30T08:38:40Z"
       },
       "progress_note": "沿用，Snowball 离线 dw-lead 无新 standup；10 个应用：完成 1、进行中 1、未开始 8"
     },
