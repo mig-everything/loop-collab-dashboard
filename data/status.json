@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T01:21:50Z",
+  "generated_at": "2026-09-30T01:25:40Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -210,10 +210,9 @@
           "role": "DW 迁移执行小队队长",
           "model": "claude-opus-5-5",
           "agent_id": "c6ff7c69-0db4-4b35-ac81-dd00e5a53ba4",
-          "state": "working",
-          "issue": "DWM-40",
-          "issue_title": "[DW迁移任务单] Omni-Notes 迁移 · 清单+迁移 · 清单生成中 续4·r83·764/800步·5页/4",
-          "since": "2026-09-30T01:20:28Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "exec-runner",
@@ -258,7 +257,7 @@
           "key": "DWM-40",
           "title": "[DW迁移任务单] Omni-Notes 迁移 · 清单+迁移 · 清单生成中 续4·r83·764",
           "status": "in_progress",
-          "updated_at": "2026-09-30T01:20:09Z"
+          "updated_at": "2026-09-30T01:23:36Z"
         },
         {
           "key": "DWM-66",
@@ -289,7 +288,7 @@
         "key": "DWM-40",
         "title": "[DW迁移任务单] Omni-Notes 迁移 · 清单+迁移 · 清单生成中 续4·r83·764/800步·5页/423项 · 迁移中 2/6 · 清单6.2h/10h 迁移1",
         "status": "in_progress",
-        "updated_at": "2026-09-30T01:20:09Z"
+        "updated_at": "2026-09-30T01:23:36Z"
       },
       "progress_note": "沿用，Snowball 离线 dw-lead 无新 standup；10 个应用：完成 1、进行中 1、未开始 8"
     },
