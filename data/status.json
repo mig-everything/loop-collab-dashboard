@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T15:50:20Z",
+  "generated_at": "2026-09-30T15:57:52Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -242,7 +242,7 @@
           "agent_id": "1c3481f5-135b-4959-9daa-c510c076d494",
           "state": "working",
           "issue": "DWM-40",
-          "issue_title": "[DW迁移任务单] Omni-Notes 迁移 · 清单+迁移 · 清单✓349 · 迁移中 3/6 · 迁移14.0h",
+          "issue_title": "[DW迁移任务单] Omni-Notes 迁移 · 清单+迁移 · 清单✓349 · 迁移中 3/6 · 迁移14.1h",
           "since": "2026-09-30T15:34:37Z"
         },
         {
@@ -277,7 +277,7 @@
           "key": "DWM-40",
           "title": "[DW迁移任务单] Omni-Notes 迁移 · 清单+迁移 · 清单✓349 · 迁移中 3/6",
           "status": "in_progress",
-          "updated_at": "2026-09-30T15:49:37Z"
+          "updated_at": "2026-09-30T15:54:48Z"
         },
         {
           "key": "DWM-68",
@@ -306,9 +306,9 @@
       ],
       "order": {
         "key": "DWM-40",
-        "title": "[DW迁移任务单] Omni-Notes 迁移 · 清单+迁移 · 清单✓349 · 迁移中 3/6 · 迁移14.0h/18.0h · 待人工",
+        "title": "[DW迁移任务单] Omni-Notes 迁移 · 清单+迁移 · 清单✓349 · 迁移中 3/6 · 迁移14.1h/18.0h · 待人工",
         "status": "in_progress",
-        "updated_at": "2026-09-30T15:49:37Z"
+        "updated_at": "2026-09-30T15:54:48Z"
       }
     },
     {
