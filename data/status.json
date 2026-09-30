@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T03:58:44Z",
+  "generated_at": "2026-09-30T04:02:41Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -37,18 +37,25 @@
           "role": "DeepSeek Task Planner（任务规划+总结）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "04a4e04e-59d5-4f3a-8a16-acf99b80a493",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "SUR-71",
+          "issue_title": "[午会纪要] 2026-09-30",
+          "since": "2026-09-30T04:00:15Z"
         }
       ],
       "issue_counts": {
-        "todo": 0,
+        "todo": 1,
         "in_progress": 0,
         "in_review": 1,
         "done": 53
       },
       "latest_issues": [
+        {
+          "key": "SUR-71",
+          "title": "[午会纪要] 2026-09-30",
+          "status": "todo",
+          "updated_at": "2026-09-30T04:00:13Z"
+        },
         {
           "key": "SUR-70",
           "title": "[负责人裁决] 新大纲第四章继承 0921_v1 §4.1-4.8 + RQ1 映射修订（loop-",
@@ -72,12 +79,6 @@
           "title": "[任务][day-6] 迁移第 3 章至 LaTeX（03-pipeline.tex 五阶段）+ 落",
           "status": "done",
           "updated_at": "2026-09-29T20:21:49Z"
-        },
-        {
-          "key": "SUR-66",
-          "title": "[晨会纪要] 2026-09-30",
-          "status": "done",
-          "updated_at": "2026-09-29T20:14:34Z"
         }
       ],
       "progress_note": "day-4 晨 37% → 午 42% → 晚 44% → 夜 47%",
@@ -119,9 +120,10 @@
           "role": "DeepSeek Planner（小组 leader/PM）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "547cd361-ef50-4965-9477-bc659d8a1708",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "BEN-58",
+          "issue_title": "[午会纪要] 2026-09-30",
+          "since": "2026-09-30T04:00:15Z"
         },
         {
           "name": "minimax-visual-diff",
@@ -137,20 +139,27 @@
           "name": "项目观察员",
           "emoji": "🔍",
           "role": "只读洞察项目目标与执行证据，用简单语言汇报进展、偏差和阻塞，",
-          "model": "",
+          "model": "gpt-5.6-sol",
           "agent_id": "4b674e90-4726-4eba-bd5c-06350e0b8b83",
-          "state": "idle",
+          "state": "working",
           "issue": "",
-          "issue_title": ""
+          "issue_title": "",
+          "since": "2026-09-30T04:02:29Z"
         }
       ],
       "issue_counts": {
-        "todo": 3,
+        "todo": 4,
         "in_progress": 0,
         "in_review": 1,
         "done": 48
       },
       "latest_issues": [
+        {
+          "key": "BEN-58",
+          "title": "[午会纪要] 2026-09-30",
+          "status": "todo",
+          "updated_at": "2026-09-30T04:00:13Z"
+        },
         {
           "key": "BEN-54",
           "title": "[目标对齐] 2026-09-30 负责人完善任务2验收口径（6条）+ 鸿蒙仓多变体结构变更",
@@ -174,12 +183,6 @@
           "title": "[backlog] 并发评测改造：runner 支持并行多模拟器分段执行+结果自动汇总",
           "status": "backlog",
           "updated_at": "2026-09-30T03:35:55Z"
-        },
-        {
-          "key": "BEN-53",
-          "title": "[巡检] 2026-09-30 leader Issue 状态巡检与催办",
-          "status": "done",
-          "updated_at": "2026-09-30T00:01:48Z"
         }
       ]
     },
@@ -209,9 +212,10 @@
           "role": "DeepSeek Planner（小组 leader/PM，",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "950ff614-521d-4e32-a02d-423d41a7b2b3",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "DWM-67",
+          "issue_title": "[午会纪要] 2026-09-30",
+          "since": "2026-09-30T04:00:04Z"
         },
         {
           "name": "dw-lead",
@@ -231,7 +235,7 @@
           "agent_id": "1c3481f5-135b-4959-9daa-c510c076d494",
           "state": "working",
           "issue": "DWM-40",
-          "issue_title": "[DW迁移任务单] Omni-Notes 迁移 · 清单+迁移 · 清单生成中 续6·r103·1026/800步·5页",
+          "issue_title": "[DW迁移任务单] Omni-Notes 迁移 · 清单+迁移 · 清单生成中 续6·r105·1050/800步·5页",
           "since": "2026-09-30T03:10:37Z"
         },
         {
@@ -256,7 +260,7 @@
         }
       ],
       "issue_counts": {
-        "todo": 0,
+        "todo": 1,
         "in_progress": 1,
         "in_review": 0,
         "done": 45
@@ -264,9 +268,15 @@
       "latest_issues": [
         {
           "key": "DWM-40",
-          "title": "[DW迁移任务单] Omni-Notes 迁移 · 清单+迁移 · 清单生成中 续6·r103·10",
+          "title": "[DW迁移任务单] Omni-Notes 迁移 · 清单+迁移 · 清单生成中 续6·r105·10",
           "status": "in_progress",
-          "updated_at": "2026-09-30T03:57:08Z"
+          "updated_at": "2026-09-30T04:02:14Z"
+        },
+        {
+          "key": "DWM-67",
+          "title": "[午会纪要] 2026-09-30",
+          "status": "todo",
+          "updated_at": "2026-09-30T04:00:02Z"
         },
         {
           "key": "DWM-66",
@@ -285,19 +295,13 @@
           "title": "[巡检] 2026-09-30 leader Issue 状态巡检与催办",
           "status": "done",
           "updated_at": "2026-09-29T16:02:33Z"
-        },
-        {
-          "key": "DWM-46",
-          "title": "[流程改进] v2.3：以目标定流程（DW 优化证据 > 经验与语料 > 应用交付），小队决策并实施",
-          "status": "done",
-          "updated_at": "2026-09-29T14:21:27Z"
         }
       ],
       "order": {
         "key": "DWM-40",
-        "title": "[DW迁移任务单] Omni-Notes 迁移 · 清单+迁移 · 清单生成中 续6·r103·1026/800步·5页/529项 · 迁移中 3/6 · 清单8.8h/10h 迁",
+        "title": "[DW迁移任务单] Omni-Notes 迁移 · 清单+迁移 · 清单生成中 续6·r105·1050/800步·5页/533项 · 迁移中 3/6 · 清单8.9h/10h 迁",
         "status": "in_progress",
-        "updated_at": "2026-09-30T03:57:08Z"
+        "updated_at": "2026-09-30T04:02:14Z"
       },
       "progress_note": "沿用，Snowball 离线 dw-lead 无新 standup；10 个应用：完成 1、进行中 1、未开始 8"
     },
@@ -377,7 +381,7 @@
           "role": "DeepSeek Planner（小组 leader/PM ",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
-          "state": "idle",
+          "state": "working",
           "issue": "",
           "issue_title": ""
         },
@@ -393,12 +397,18 @@
         }
       ],
       "issue_counts": {
-        "todo": 0,
+        "todo": 1,
         "in_progress": 1,
         "in_review": 1,
         "done": 72
       },
       "latest_issues": [
+        {
+          "key": "IPD-93",
+          "title": "[午会纪要] 2026-09-30",
+          "status": "todo",
+          "updated_at": "2026-09-30T04:00:22Z"
+        },
         {
           "key": "IPD-89",
           "title": "[测试·第1轮] REQ-004 uijudge 视觉补打分 + REQ-005 差分用例清单 + ",
@@ -422,12 +432,6 @@
           "title": "[PRD·第1轮] REQ-006 下一场景预研（第6场景）",
           "status": "done",
           "updated_at": "2026-09-30T00:04:03Z"
-        },
-        {
-          "key": "IPD-91",
-          "title": "[发版·第1轮] REQ-004 端到端时长补采 + 发版度量",
-          "status": "done",
-          "updated_at": "2026-09-30T00:04:02Z"
         }
       ]
     }
