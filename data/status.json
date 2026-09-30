@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T14:33:30Z",
+  "generated_at": "2026-09-30T14:37:28Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -158,22 +158,22 @@
       ],
       "issue_counts": {
         "todo": 0,
-        "in_progress": 3,
+        "in_progress": 2,
         "in_review": 1,
-        "done": 67
+        "done": 68
       },
       "latest_issues": [
+        {
+          "key": "BEN-56",
+          "title": "[backlog] 清单匹配映射表：功能清单 Excel ↔ 平台无关用例 一一匹配可追溯",
+          "status": "done",
+          "updated_at": "2026-09-30T14:37:41Z"
+        },
         {
           "key": "BEN-76",
           "title": "[流程优化验证] 场景ready设备冒烟关卡 + LLM辅助四分类归因（ref BEN-75）",
           "status": "done",
           "updated_at": "2026-09-30T14:30:10Z"
-        },
-        {
-          "key": "BEN-56",
-          "title": "[backlog] 清单匹配映射表：功能清单 Excel ↔ 平台无关用例 一一匹配可追溯",
-          "status": "in_progress",
-          "updated_at": "2026-09-30T14:27:13Z"
         },
         {
           "key": "BEN-57",
@@ -244,7 +244,7 @@
           "agent_id": "1c3481f5-135b-4959-9daa-c510c076d494",
           "state": "working",
           "issue": "DWM-40",
-          "issue_title": "[DW迁移任务单] Omni-Notes 迁移 · 清单+迁移 · 清单✓349 · 迁移中 3/6 · 迁移12.7h",
+          "issue_title": "[DW迁移任务单] Omni-Notes 迁移 · 清单+迁移 · 清单✓349 · 迁移中 3/6 · 迁移12.8h",
           "since": "2026-09-30T13:43:38Z"
         },
         {
@@ -279,7 +279,7 @@
           "key": "DWM-40",
           "title": "[DW迁移任务单] Omni-Notes 迁移 · 清单+迁移 · 清单✓349 · 迁移中 3/6",
           "status": "in_progress",
-          "updated_at": "2026-09-30T14:29:38Z"
+          "updated_at": "2026-09-30T14:34:54Z"
         },
         {
           "key": "DWM-68",
@@ -308,9 +308,9 @@
       ],
       "order": {
         "key": "DWM-40",
-        "title": "[DW迁移任务单] Omni-Notes 迁移 · 清单+迁移 · 清单✓349 · 迁移中 3/6 · 迁移12.7h/18.0h · 待人工",
+        "title": "[DW迁移任务单] Omni-Notes 迁移 · 清单+迁移 · 清单✓349 · 迁移中 3/6 · 迁移12.8h/18.0h · 待人工",
         "status": "in_progress",
-        "updated_at": "2026-09-30T14:29:38Z"
+        "updated_at": "2026-09-30T14:34:54Z"
       }
     },
     {
@@ -369,10 +369,9 @@
           "role": "IPD-Tester 测试工程师",
           "model": "",
           "agent_id": "86df9f14-a2cd-46d9-ad15-dbe8606ebd73",
-          "state": "working",
-          "issue": "IPD-120",
-          "issue_title": "[TR-Design 评审] Eazo 平台正式架构方案 + 接口契约（能力②③ P0 优先）—— 设计评审（SA 主持",
-          "since": "2026-09-30T14:30:02Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "hermes-rm",
@@ -413,16 +412,16 @@
       },
       "latest_issues": [
         {
+          "key": "IPD-120",
+          "title": "[TR-Design 评审] Eazo 平台正式架构方案 + 接口契约（能力②③ P0 优先）—— ",
+          "status": "in_progress",
+          "updated_at": "2026-09-30T14:34:23Z"
+        },
+        {
           "key": "IPD-108",
           "title": "[平台·能力⑦] 增量开发（双端同步迭代+复对比，P0优先）",
           "status": "in_progress",
           "updated_at": "2026-09-30T14:33:04Z"
-        },
-        {
-          "key": "IPD-120",
-          "title": "[TR-Design 评审] Eazo 平台正式架构方案 + 接口契约（能力②③ P0 优先）—— ",
-          "status": "in_progress",
-          "updated_at": "2026-09-30T14:32:19Z"
         },
         {
           "key": "IPD-107",
