@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T08:12:47Z",
+  "generated_at": "2026-09-30T08:17:07Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -120,10 +120,9 @@
           "role": "DeepSeek Planner（小组 leader/PM）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "547cd361-ef50-4965-9477-bc659d8a1708",
-          "state": "working",
-          "issue": "BEN-66",
-          "issue_title": "更新 PM 调度策略：Cofi/AntennaPod/Simple-Calendar 按 app 并行开发测例，复用已有",
-          "since": "2026-09-30T08:05:46Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "minimax-visual-diff",
@@ -157,23 +156,23 @@
         }
       ],
       "issue_counts": {
-        "todo": 9,
-        "in_progress": 0,
+        "todo": 8,
+        "in_progress": 1,
         "in_review": 1,
         "done": 53
       },
       "latest_issues": [
         {
+          "key": "BEN-69",
+          "title": "[并行·Simple-Calendar] 建账+spec+场景 ready+双端用例/binding",
+          "status": "in_progress",
+          "updated_at": "2026-09-30T08:15:12Z"
+        },
+        {
           "key": "BEN-66",
           "title": "更新 PM 调度策略：Cofi/AntennaPod/Simple-Calendar 按 app 并",
           "status": "in_review",
           "updated_at": "2026-09-30T08:13:12Z"
-        },
-        {
-          "key": "BEN-69",
-          "title": "[并行·Simple-Calendar] 建账+spec+场景 ready+双端用例/binding",
-          "status": "todo",
-          "updated_at": "2026-09-30T08:12:18Z"
         },
         {
           "key": "BEN-68",
@@ -243,7 +242,7 @@
           "agent_id": "1c3481f5-135b-4959-9daa-c510c076d494",
           "state": "working",
           "issue": "DWM-40",
-          "issue_title": "[DW迁移任务单] Omni-Notes 迁移 · 清单+迁移 · 清单✓349 · 迁移中 3/6 · 迁移8.1h/",
+          "issue_title": "[DW迁移任务单] Omni-Notes 迁移 · 清单+迁移 · 清单✓349 · 迁移中 3/6 · 迁移8.2h/",
           "since": "2026-09-30T06:55:32Z"
         },
         {
@@ -278,7 +277,7 @@
           "key": "DWM-40",
           "title": "[DW迁移任务单] Omni-Notes 迁移 · 清单+迁移 · 清单✓349 · 迁移中 3/6",
           "status": "in_progress",
-          "updated_at": "2026-09-30T08:12:30Z"
+          "updated_at": "2026-09-30T08:17:46Z"
         },
         {
           "key": "DWM-70",
@@ -307,9 +306,9 @@
       ],
       "order": {
         "key": "DWM-40",
-        "title": "[DW迁移任务单] Omni-Notes 迁移 · 清单+迁移 · 清单✓349 · 迁移中 3/6 · 迁移8.1h/12h",
+        "title": "[DW迁移任务单] Omni-Notes 迁移 · 清单+迁移 · 清单✓349 · 迁移中 3/6 · 迁移8.2h/12h",
         "status": "in_progress",
-        "updated_at": "2026-09-30T08:12:30Z"
+        "updated_at": "2026-09-30T08:17:46Z"
       },
       "progress_note": "沿用，Snowball 离线 dw-lead 无新 standup；10 个应用：完成 1、进行中 1、未开始 8"
     },
