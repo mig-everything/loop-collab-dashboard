@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T16:05:31Z",
+  "generated_at": "2026-09-30T16:09:23Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -167,7 +167,7 @@
           "key": "BEN-72",
           "title": "[任务·第3轮] 全量 Android oracle 回归启动 + 差分（Cofi 335 先行 →",
           "status": "done",
-          "updated_at": "2026-09-30T16:04:47Z"
+          "updated_at": "2026-09-30T16:09:25Z"
         },
         {
           "key": "BEN-78",
