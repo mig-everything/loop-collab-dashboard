@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T07:39:11Z",
+  "generated_at": "2026-09-30T07:46:34Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -152,7 +152,7 @@
           "state": "working",
           "issue": "BEN-64",
           "issue_title": "跟踪测例通过率，分析迭代效率",
-          "since": "2026-09-30T07:36:24Z"
+          "since": "2026-09-30T07:46:31Z"
         }
       ],
       "issue_counts": {
@@ -166,7 +166,7 @@
           "key": "BEN-64",
           "title": "跟踪测例通过率，分析迭代效率",
           "status": "todo",
-          "updated_at": "2026-09-30T07:36:20Z"
+          "updated_at": "2026-09-30T07:46:29Z"
         },
         {
           "key": "BEN-63",
@@ -230,10 +230,9 @@
           "role": "DW 迁移执行小队队长",
           "model": "claude-opus-5-5",
           "agent_id": "c6ff7c69-0db4-4b35-ac81-dd00e5a53ba4",
-          "state": "working",
-          "issue": "DWM-40",
-          "issue_title": "[DW迁移任务单] Omni-Notes 迁移 · 清单+迁移 · 清单✓349 · 迁移中 3/6 · 迁移7.5h/",
-          "since": "2026-09-30T07:31:03Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "exec-runner",
@@ -243,7 +242,7 @@
           "agent_id": "1c3481f5-135b-4959-9daa-c510c076d494",
           "state": "working",
           "issue": "DWM-40",
-          "issue_title": "[DW迁移任务单] Omni-Notes 迁移 · 清单+迁移 · 清单✓349 · 迁移中 3/6 · 迁移7.5h/",
+          "issue_title": "[DW迁移任务单] Omni-Notes 迁移 · 清单+迁移 · 清单✓349 · 迁移中 3/6 · 迁移7.6h/",
           "since": "2026-09-30T06:55:32Z"
         },
         {
@@ -278,7 +277,7 @@
           "key": "DWM-40",
           "title": "[DW迁移任务单] Omni-Notes 迁移 · 清单+迁移 · 清单✓349 · 迁移中 3/6",
           "status": "in_progress",
-          "updated_at": "2026-09-30T07:34:24Z"
+          "updated_at": "2026-09-30T07:43:12Z"
         },
         {
           "key": "DWM-67",
@@ -307,9 +306,9 @@
       ],
       "order": {
         "key": "DWM-40",
-        "title": "[DW迁移任务单] Omni-Notes 迁移 · 清单+迁移 · 清单✓349 · 迁移中 3/6 · 迁移7.5h/12h",
+        "title": "[DW迁移任务单] Omni-Notes 迁移 · 清单+迁移 · 清单✓349 · 迁移中 3/6 · 迁移7.6h/12h",
         "status": "in_progress",
-        "updated_at": "2026-09-30T07:34:24Z"
+        "updated_at": "2026-09-30T07:43:12Z"
       },
       "progress_note": "沿用，Snowball 离线 dw-lead 无新 standup；10 个应用：完成 1、进行中 1、未开始 8"
     },
