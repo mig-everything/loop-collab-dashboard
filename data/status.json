@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T21:30:28Z",
+  "generated_at": "2026-09-30T22:02:44Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -37,18 +37,25 @@
           "role": "DeepSeek Task Planner（任务规划+总结）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "04a4e04e-59d5-4f3a-8a16-acf99b80a493",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "SUR-89",
+          "issue_title": "[空闲检测] 2026-10-01 leader 两小时正点检查与加派",
+          "since": "2026-09-30T22:00:14Z"
         }
       ],
       "issue_counts": {
-        "todo": 1,
+        "todo": 2,
         "in_progress": 0,
         "in_review": 1,
         "done": 70
       },
       "latest_issues": [
+        {
+          "key": "SUR-89",
+          "title": "[空闲检测] 2026-10-01 leader 两小时正点检查与加派",
+          "status": "todo",
+          "updated_at": "2026-09-30T22:00:13Z"
+        },
         {
           "key": "SUR-85",
           "title": "[晨会纪要] 2026-10-01",
@@ -72,12 +79,6 @@
           "title": "[评审][day-7] 事后对抗评审英文第 5 章（05-evaluation.tex，SUR-82",
           "status": "in_review",
           "updated_at": "2026-09-30T20:27:31Z"
-        },
-        {
-          "key": "SUR-83",
-          "title": "[评审][day-7] 复评第 3 章 SUR-77 修复落地（SUR-72 打回 1 P0+4 P",
-          "status": "done",
-          "updated_at": "2026-09-30T20:17:12Z"
         }
       ],
       "progress_note": "day-4 晨 37% → 午 42% → 晚 44% → 夜 47%",
@@ -158,9 +159,15 @@
         "todo": 1,
         "in_progress": 2,
         "in_review": 0,
-        "done": 74
+        "done": 75
       },
       "latest_issues": [
+        {
+          "key": "BEN-84",
+          "title": "[空闲检测] 2026-10-01 leader 两小时正点检查与加派",
+          "status": "done",
+          "updated_at": "2026-09-30T22:01:55Z"
+        },
         {
           "key": "BEN-79",
           "title": "[BEN-57 断点] antennapod/simple-calendar harmony 用例集",
@@ -184,12 +191,6 @@
           "title": "[早会纪要] 2026-10-01",
           "status": "done",
           "updated_at": "2026-09-30T20:08:04Z"
-        },
-        {
-          "key": "BEN-80",
-          "title": "[空闲检测] 2026-10-01 leader 两小时正点检查与加派",
-          "status": "done",
-          "updated_at": "2026-09-30T18:01:31Z"
         }
       ]
     },
@@ -271,9 +272,15 @@
         "todo": 0,
         "in_progress": 1,
         "in_review": 1,
-        "done": 54
+        "done": 55
       },
       "latest_issues": [
+        {
+          "key": "DWM-81",
+          "title": "[空闲检测] 2026-10-01 leader 两小时正点检查与加派",
+          "status": "done",
+          "updated_at": "2026-09-30T22:02:11Z"
+        },
         {
           "key": "DWM-80",
           "title": "[任务] 对抗评审 Omni-Notes 近期 main commit（迁移 + 还原审计 + 过程",
@@ -297,12 +304,6 @@
           "title": "[空闲检测] 2026-10-01 leader 两小时正点检查与加派",
           "status": "done",
           "updated_at": "2026-09-30T18:02:15Z"
-        },
-        {
-          "key": "DWM-74",
-          "title": "[巡检] 2026-10-01 leader Issue 状态巡检与催办",
-          "status": "done",
-          "updated_at": "2026-09-30T16:03:22Z"
         }
       ],
       "order": {
@@ -389,9 +390,10 @@
           "role": "DeepSeek Planner（小组 leader/PM ",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-132",
+          "issue_title": "[空闲检测] 2026-10-01 leader 两小时正点检查与加派",
+          "since": "2026-09-30T22:00:23Z"
         },
         {
           "name": "minimax-uijudge",
@@ -405,12 +407,18 @@
         }
       ],
       "issue_counts": {
-        "todo": 4,
+        "todo": 5,
         "in_progress": 0,
         "in_review": 7,
-        "done": 87
+        "done": 86
       },
       "latest_issues": [
+        {
+          "key": "IPD-132",
+          "title": "[空闲检测] 2026-10-01 leader 两小时正点检查与加派",
+          "status": "todo",
+          "updated_at": "2026-09-30T22:00:22Z"
+        },
         {
           "key": "IPD-103",
           "title": "[平台·能力②] 双端生成引擎（Claude Code，安卓+鸿蒙同需求同生成）",
@@ -434,12 +442,6 @@
           "title": "[PRD·第1轮] REQ-007 新场景需求发布 + 需求池扩充（小型游戏类）",
           "status": "in_review",
           "updated_at": "2026-09-30T20:14:50Z"
-        },
-        {
-          "key": "IPD-104",
-          "title": "[平台·能力③] 对比分析管线（四维报告+入库+环比，P0优先）",
-          "status": "in_review",
-          "updated_at": "2026-09-30T20:14:08Z"
         }
       ]
     }
