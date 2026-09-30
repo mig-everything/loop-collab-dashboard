@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T07:00:09Z",
+  "generated_at": "2026-09-30T07:05:03Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -241,7 +241,7 @@
           "agent_id": "1c3481f5-135b-4959-9daa-c510c076d494",
           "state": "working",
           "issue": "DWM-40",
-          "issue_title": "[DW迁移任务单] Omni-Notes 迁移 · 清单+迁移 · 清单✓349 · 迁移中 3/6 · 迁移6.9h/",
+          "issue_title": "[DW迁移任务单] Omni-Notes 迁移 · 清单+迁移 · 清单✓349 · 迁移中 3/6 · 迁移7.0h/",
           "since": "2026-09-30T06:55:32Z"
         },
         {
@@ -265,7 +265,7 @@
           "issue_title": "[DWM-40·工具修复] mig checklist-status 入库后把 collected 覆盖回 comple",
           "since": "2026-09-30T06:54:47Z",
           "parent_issue": "DWM-40",
-          "parent_title": "[DW迁移任务单] Omni-Notes 迁移 · 清单+迁移 · 清单✓349 · 迁移中 3/6 · 迁移6.9h/"
+          "parent_title": "[DW迁移任务单] Omni-Notes 迁移 · 清单+迁移 · 清单✓349 · 迁移中 3/6 · 迁移7.0h/"
         }
       ],
       "issue_counts": {
@@ -279,7 +279,7 @@
           "key": "DWM-40",
           "title": "[DW迁移任务单] Omni-Notes 迁移 · 清单+迁移 · 清单✓349 · 迁移中 3/6",
           "status": "in_progress",
-          "updated_at": "2026-09-30T06:59:58Z"
+          "updated_at": "2026-09-30T07:05:05Z"
         },
         {
           "key": "DWM-67",
@@ -308,9 +308,9 @@
       ],
       "order": {
         "key": "DWM-40",
-        "title": "[DW迁移任务单] Omni-Notes 迁移 · 清单+迁移 · 清单✓349 · 迁移中 3/6 · 迁移6.9h/12h",
+        "title": "[DW迁移任务单] Omni-Notes 迁移 · 清单+迁移 · 清单✓349 · 迁移中 3/6 · 迁移7.0h/12h",
         "status": "in_progress",
-        "updated_at": "2026-09-30T06:59:58Z"
+        "updated_at": "2026-09-30T07:05:05Z"
       },
       "progress_note": "沿用，Snowball 离线 dw-lead 无新 standup；10 个应用：完成 1、进行中 1、未开始 8"
     },
@@ -330,9 +330,10 @@
           "role": "IPD-PM 产品经理",
           "model": "",
           "agent_id": "1764c131-5c09-48cb-aa48-3177d5256dbb",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-110",
+          "issue_title": "[流程优化] 准出质量标准修订：平台功能专项编号与 Eazo PRD §3 对齐",
+          "since": "2026-09-30T07:04:03Z"
         },
         {
           "name": "hermes-sa",
@@ -340,10 +341,9 @@
           "role": "IPD-SA 解决方案架构师",
           "model": "volc:qwen3.8-max",
           "agent_id": "3e4373ef-a262-4b28-ab2a-818861fc9624",
-          "state": "working",
-          "issue": "IPD-101",
-          "issue_title": "[平台立项] Eazo 平台 PRD：自然语言双端生成+对比平台（七项能力总纲 + 增量/对比管线优先）",
-          "since": "2026-09-30T07:00:19Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "hermes-se",
@@ -351,10 +351,9 @@
           "role": "IPD-SE 系统工程师",
           "model": "volc:qwen3.8-max",
           "agent_id": "b874ba6b-80e6-45c6-a8c6-aedc6f2b326b",
-          "state": "working",
-          "issue": "IPD-101",
-          "issue_title": "[平台立项] Eazo 平台 PRD：自然语言双端生成+对比平台（七项能力总纲 + 增量/对比管线优先）",
-          "since": "2026-09-30T07:00:19Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "hermes-dev",
@@ -362,10 +361,9 @@
           "role": "IPD-Dev 开发工程师",
           "model": "",
           "agent_id": "44fcec25-d8b3-4af6-b206-1774a64677ce",
-          "state": "working",
-          "issue": "IPD-101",
-          "issue_title": "[平台立项] Eazo 平台 PRD：自然语言双端生成+对比平台（七项能力总纲 + 增量/对比管线优先）",
-          "since": "2026-09-30T07:00:19Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "hermes-tester",
@@ -373,10 +371,9 @@
           "role": "IPD-Tester 测试工程师",
           "model": "",
           "agent_id": "86df9f14-a2cd-46d9-ad15-dbe8606ebd73",
-          "state": "working",
-          "issue": "IPD-101",
-          "issue_title": "[平台立项] Eazo 平台 PRD：自然语言双端生成+对比平台（七项能力总纲 + 增量/对比管线优先）",
-          "since": "2026-09-30T07:00:19Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "hermes-rm",
@@ -384,10 +381,9 @@
           "role": "IPD-RM 发布经理",
           "model": "",
           "agent_id": "78156461-9644-478e-9c80-53cd18e25e33",
-          "state": "working",
-          "issue": "IPD-101",
-          "issue_title": "[平台立项] Eazo 平台 PRD：自然语言双端生成+对比平台（七项能力总纲 + 增量/对比管线优先）",
-          "since": "2026-09-30T07:00:19Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "deepseek-planner",
@@ -398,7 +394,7 @@
           "state": "working",
           "issue": "IPD-101",
           "issue_title": "[平台立项] Eazo 平台 PRD：自然语言双端生成+对比平台（七项能力总纲 + 增量/对比管线优先）",
-          "since": "2026-09-30T07:00:19Z"
+          "since": "2026-09-30T07:05:00Z"
         },
         {
           "name": "minimax-uijudge",
@@ -407,23 +403,34 @@
           "model": "minimax-cn:MiniMax-M3",
           "agent_id": "97f55294-90e0-4556-93af-a1cf44889574",
           "state": "working",
-          "issue": "IPD-101",
-          "issue_title": "[平台立项] Eazo 平台 PRD：自然语言双端生成+对比平台（七项能力总纲 + 增量/对比管线优先）",
-          "since": "2026-09-30T07:00:19Z"
+          "issue": "",
+          "issue_title": ""
         }
       ],
       "issue_counts": {
-        "todo": 8,
-        "in_progress": 0,
-        "in_review": 6,
-        "done": 74
+        "todo": 9,
+        "in_progress": 1,
+        "in_review": 5,
+        "done": 75
       },
       "latest_issues": [
         {
+          "key": "IPD-109",
+          "title": "[TR-Req 终审打回] Eazo 平台 PRD v1.1 回修（SE 3 Blocking + ",
+          "status": "in_progress",
+          "updated_at": "2026-09-30T07:05:43Z"
+        },
+        {
           "key": "IPD-101",
           "title": "[平台立项] Eazo 平台 PRD：自然语言双端生成+对比平台（七项能力总纲 + 增量/对比管线优",
-          "status": "in_review",
-          "updated_at": "2026-09-30T06:56:49Z"
+          "status": "done",
+          "updated_at": "2026-09-30T07:05:14Z"
+        },
+        {
+          "key": "IPD-110",
+          "title": "[流程优化] 准出质量标准修订：平台功能专项编号与 Eazo PRD §3 对齐",
+          "status": "todo",
+          "updated_at": "2026-09-30T07:04:02Z"
         },
         {
           "key": "IPD-100",
@@ -436,18 +443,6 @@
           "title": "[平台·能力⑦] 增量开发（双端同步迭代+复对比，P0优先）",
           "status": "backlog",
           "updated_at": "2026-09-30T06:52:10Z"
-        },
-        {
-          "key": "IPD-107",
-          "title": "[平台·能力⑥] 模拟器一键运行",
-          "status": "backlog",
-          "updated_at": "2026-09-30T06:52:08Z"
-        },
-        {
-          "key": "IPD-106",
-          "title": "[平台·能力⑤] 源码下载 + 截图显示",
-          "status": "backlog",
-          "updated_at": "2026-09-30T06:52:05Z"
         }
       ]
     }
