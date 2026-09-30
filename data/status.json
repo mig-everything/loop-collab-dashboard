@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T06:28:41Z",
+  "generated_at": "2026-09-30T06:32:57Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -150,9 +150,9 @@
           "model": "gpt-6-astra",
           "agent_id": "33b902ee-a4ca-46ae-9284-c8285311c687",
           "state": "working",
-          "issue": "BEN-64",
-          "issue_title": "梳理当前项目目标",
-          "since": "2026-09-30T06:28:56Z"
+          "issue": "BEN-63",
+          "issue_title": "汇报当前整体目标与各智能体进展",
+          "since": "2026-09-30T06:30:17Z"
         }
       ],
       "issue_counts": {
@@ -162,6 +162,12 @@
         "done": 51
       },
       "latest_issues": [
+        {
+          "key": "BEN-63",
+          "title": "汇报当前整体目标与各智能体进展",
+          "status": "todo",
+          "updated_at": "2026-09-30T06:30:16Z"
+        },
         {
           "key": "BEN-64",
           "title": "梳理当前项目目标",
@@ -185,12 +191,6 @@
           "title": "[backlog] 清单匹配映射表：功能清单 Excel ↔ 平台无关用例 一一匹配可追溯",
           "status": "backlog",
           "updated_at": "2026-09-30T06:25:29Z"
-        },
-        {
-          "key": "BEN-55",
-          "title": "[backlog] 并发评测改造：runner 支持并行多模拟器分段执行+结果自动汇总",
-          "status": "backlog",
-          "updated_at": "2026-09-30T06:25:27Z"
         }
       ]
     },
@@ -242,7 +242,7 @@
           "agent_id": "1c3481f5-135b-4959-9daa-c510c076d494",
           "state": "working",
           "issue": "DWM-40",
-          "issue_title": "[DW迁移任务单] Omni-Notes 迁移 · 清单+迁移 · 清单✓349 · 迁移中 3/6 · 迁移6.4h/",
+          "issue_title": "[DW迁移任务单] Omni-Notes 迁移 · 清单+迁移 · 清单待入库 · 迁移中 3/6 · 迁移6.5h/1",
           "since": "2026-09-30T05:07:02Z"
         },
         {
@@ -275,9 +275,9 @@
       "latest_issues": [
         {
           "key": "DWM-40",
-          "title": "[DW迁移任务单] Omni-Notes 迁移 · 清单+迁移 · 清单✓349 · 迁移中 3/6",
+          "title": "[DW迁移任务单] Omni-Notes 迁移 · 清单+迁移 · 清单待入库 · 迁移中 3/6 ",
           "status": "in_progress",
-          "updated_at": "2026-09-30T06:27:21Z"
+          "updated_at": "2026-09-30T06:32:29Z"
         },
         {
           "key": "DWM-67",
@@ -306,9 +306,9 @@
       ],
       "order": {
         "key": "DWM-40",
-        "title": "[DW迁移任务单] Omni-Notes 迁移 · 清单+迁移 · 清单✓349 · 迁移中 3/6 · 迁移6.4h/12h",
+        "title": "[DW迁移任务单] Omni-Notes 迁移 · 清单+迁移 · 清单待入库 · 迁移中 3/6 · 迁移6.5h/12h",
         "status": "in_progress",
-        "updated_at": "2026-09-30T06:27:21Z"
+        "updated_at": "2026-09-30T06:32:29Z"
       },
       "progress_note": "沿用，Snowball 离线 dw-lead 无新 standup；10 个应用：完成 1、进行中 1、未开始 8"
     },
