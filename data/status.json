@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T07:05:03Z",
+  "generated_at": "2026-09-30T07:09:34Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -149,9 +149,10 @@
           "role": "只读洞察项目目标与执行证据，用简单语言汇报进展、偏差和阻塞，",
           "model": "gpt-6-astra",
           "agent_id": "33b902ee-a4ca-46ae-9284-c8285311c687",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "BEN-64",
+          "issue_title": "跟踪测例通过率，分析迭代效率",
+          "since": "2026-09-30T07:08:29Z"
         }
       ],
       "issue_counts": {
@@ -165,7 +166,7 @@
           "key": "BEN-64",
           "title": "跟踪测例通过率，分析迭代效率",
           "status": "todo",
-          "updated_at": "2026-09-30T06:58:58Z"
+          "updated_at": "2026-09-30T07:08:26Z"
         },
         {
           "key": "BEN-59",
@@ -331,9 +332,9 @@
           "model": "",
           "agent_id": "1764c131-5c09-48cb-aa48-3177d5256dbb",
           "state": "working",
-          "issue": "IPD-110",
-          "issue_title": "[流程优化] 准出质量标准修订：平台功能专项编号与 Eazo PRD §3 对齐",
-          "since": "2026-09-30T07:04:03Z"
+          "issue": "IPD-109",
+          "issue_title": "[TR-Req 终审打回] Eazo 平台 PRD v1.1 回修（SE 3 Blocking + RM 6 + Tes",
+          "since": "2026-09-30T07:04:00Z"
         },
         {
           "name": "hermes-sa",
@@ -391,10 +392,9 @@
           "role": "DeepSeek Planner（小组 leader/PM ",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
-          "state": "working",
-          "issue": "IPD-101",
-          "issue_title": "[平台立项] Eazo 平台 PRD：自然语言双端生成+对比平台（七项能力总纲 + 增量/对比管线优先）",
-          "since": "2026-09-30T07:05:00Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "minimax-uijudge",
@@ -402,35 +402,35 @@
           "role": "MiniMax 多模态 UI 视觉评审",
           "model": "minimax-cn:MiniMax-M3",
           "agent_id": "97f55294-90e0-4556-93af-a1cf44889574",
-          "state": "working",
+          "state": "idle",
           "issue": "",
           "issue_title": ""
         }
       ],
       "issue_counts": {
-        "todo": 9,
+        "todo": 8,
         "in_progress": 1,
-        "in_review": 5,
+        "in_review": 6,
         "done": 75
       },
       "latest_issues": [
+        {
+          "key": "IPD-101",
+          "title": "[平台立项] Eazo 平台 PRD：自然语言双端生成+对比平台（七项能力总纲 + 增量/对比管线优",
+          "status": "done",
+          "updated_at": "2026-09-30T07:08:14Z"
+        },
+        {
+          "key": "IPD-110",
+          "title": "[流程优化] 准出质量标准修订：平台功能专项编号与 Eazo PRD §3 对齐",
+          "status": "in_review",
+          "updated_at": "2026-09-30T07:07:01Z"
+        },
         {
           "key": "IPD-109",
           "title": "[TR-Req 终审打回] Eazo 平台 PRD v1.1 回修（SE 3 Blocking + ",
           "status": "in_progress",
           "updated_at": "2026-09-30T07:05:43Z"
-        },
-        {
-          "key": "IPD-101",
-          "title": "[平台立项] Eazo 平台 PRD：自然语言双端生成+对比平台（七项能力总纲 + 增量/对比管线优",
-          "status": "done",
-          "updated_at": "2026-09-30T07:05:14Z"
-        },
-        {
-          "key": "IPD-110",
-          "title": "[流程优化] 准出质量标准修订：平台功能专项编号与 Eazo PRD §3 对齐",
-          "status": "todo",
-          "updated_at": "2026-09-30T07:04:02Z"
         },
         {
           "key": "IPD-100",
