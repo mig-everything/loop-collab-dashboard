@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T13:58:48Z",
+  "generated_at": "2026-09-30T14:02:38Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -7,8 +7,8 @@
       "workspace": "ws-survey-loop",
       "machine": "JordanZTdeMacBook-Pro",
       "machine_online": true,
-      "meeting_active": true,
-      "meeting_title": "[晚会日报] 2026-09-30",
+      "meeting_active": false,
+      "meeting_title": "",
       "progress": 47,
       "agents": [
         {
@@ -17,9 +17,10 @@
           "role": "GPT Writer（执笔者）",
           "model": "",
           "agent_id": "58ed4647-32dd-4ca1-8ddc-194b975d6024",
-          "state": "meeting",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "SUR-76",
+          "issue_title": "[晚会日报] 2026-09-30",
+          "since": "2026-09-30T14:00:01Z"
         },
         {
           "name": "kimi-adversary",
@@ -27,7 +28,7 @@
           "role": "Kimi Adversarial Reviewer（对抗评审",
           "model": "",
           "agent_id": "6e530cc6-6b9d-4398-936d-df9c13468125",
-          "state": "meeting",
+          "state": "idle",
           "issue": "",
           "issue_title": ""
         },
@@ -37,48 +38,47 @@
           "role": "DeepSeek Task Planner（任务规划+总结）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "04a4e04e-59d5-4f3a-8a16-acf99b80a493",
-          "state": "working",
-          "issue": "SUR-76",
-          "issue_title": "[晚会日报] 2026-09-30",
-          "since": "2026-09-30T13:43:01Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         }
       ],
       "issue_counts": {
-        "todo": 0,
-        "in_progress": 1,
+        "todo": 2,
+        "in_progress": 0,
         "in_review": 0,
-        "done": 59
+        "done": 61
       },
       "latest_issues": [
         {
-          "key": "SUR-75",
+          "key": "SUR-79",
           "title": "[空闲检测] 2026-09-30 leader 两小时正点检查与加派",
           "status": "done",
-          "updated_at": "2026-09-30T13:55:39Z"
+          "updated_at": "2026-09-30T14:02:00Z"
         },
         {
           "key": "SUR-76",
           "title": "[晚会日报] 2026-09-30",
-          "status": "in_progress",
-          "updated_at": "2026-09-30T13:54:33Z"
+          "status": "done",
+          "updated_at": "2026-09-30T14:00:53Z"
         },
         {
-          "key": "SUR-74",
-          "title": "[巡检] 2026-09-30 leader Issue 状态巡检与催办",
+          "key": "SUR-75",
+          "title": "[空闲检测] 2026-09-30 leader 两小时正点检查与加派",
           "status": "done",
-          "updated_at": "2026-09-30T08:03:45Z"
+          "updated_at": "2026-09-30T14:00:07Z"
         },
         {
-          "key": "SUR-71",
-          "title": "[午会纪要] 2026-09-30",
-          "status": "done",
-          "updated_at": "2026-09-30T08:03:24Z"
+          "key": "SUR-78",
+          "title": "[流程优化] 2026-09-30 晚会产出 1 项（评审结论强制可执行修复单格式），次日验证",
+          "status": "todo",
+          "updated_at": "2026-09-30T13:59:31Z"
         },
         {
-          "key": "SUR-72",
-          "title": "[评审][day-6] 事后对抗评审英文第 3 章（03-pipeline.tex 五阶段，SUR-",
-          "status": "done",
-          "updated_at": "2026-09-30T08:03:22Z"
+          "key": "SUR-77",
+          "title": "[任务][day-6] 修复第 3 章 SUR-72 打回项（1 P0 + 4 P1 + 6 P2 ",
+          "status": "todo",
+          "updated_at": "2026-09-30T13:59:21Z"
         }
       ],
       "progress_note": "day-4 晨 37% → 午 42% → 晚 44% → 夜 47%",
@@ -120,9 +120,10 @@
           "role": "DeepSeek Planner（小组 leader/PM）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "547cd361-ef50-4965-9477-bc659d8a1708",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "BEN-77",
+          "issue_title": "[空闲检测] 2026-09-30 leader 两小时正点检查与加派",
+          "since": "2026-09-30T14:00:23Z"
         },
         {
           "name": "minimax-visual-diff",
@@ -156,12 +157,18 @@
         }
       ],
       "issue_counts": {
-        "todo": 8,
+        "todo": 9,
         "in_progress": 0,
         "in_review": 1,
         "done": 61
       },
       "latest_issues": [
+        {
+          "key": "BEN-77",
+          "title": "[空闲检测] 2026-09-30 leader 两小时正点检查与加派",
+          "status": "todo",
+          "updated_at": "2026-09-30T14:00:18Z"
+        },
         {
           "key": "BEN-72",
           "title": "[任务·第3轮] 全量 Android oracle 回归启动 + 差分（Cofi 335 先行 →",
@@ -185,12 +192,6 @@
           "title": "[任务·第3轮] 清单匹配映射表（验收口径②）+ Android 差分问题清单闭环收尾（ref BE",
           "status": "done",
           "updated_at": "2026-09-30T12:04:24Z"
-        },
-        {
-          "key": "BEN-74",
-          "title": "[临时会议·空闲加派] 2026-09-30 18 点场",
-          "status": "done",
-          "updated_at": "2026-09-30T10:16:18Z"
         }
       ]
     },
@@ -221,9 +222,9 @@
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "950ff614-521d-4e32-a02d-423d41a7b2b3",
           "state": "working",
-          "issue": "DWM-72",
-          "issue_title": "[晚会日报] 2026-09-30",
-          "since": "2026-09-30T13:42:57Z"
+          "issue": "DWM-73",
+          "issue_title": "[空闲检测] 2026-09-30 leader 两小时正点检查与加派",
+          "since": "2026-09-30T14:00:14Z"
         },
         {
           "name": "dw-lead",
@@ -268,12 +269,18 @@
         }
       ],
       "issue_counts": {
-        "todo": 1,
+        "todo": 2,
         "in_progress": 0,
         "in_review": 0,
         "done": 48
       },
       "latest_issues": [
+        {
+          "key": "DWM-73",
+          "title": "[空闲检测] 2026-09-30 leader 两小时正点检查与加派",
+          "status": "todo",
+          "updated_at": "2026-09-30T14:00:12Z"
+        },
         {
           "key": "DWM-40",
           "title": "[DW迁移任务单] Omni-Notes 迁移 · 清单+迁移 · 清单✓349 · 迁移中 3/6",
@@ -297,12 +304,6 @@
           "title": "[巡检] 2026-09-30 leader Issue 状态巡检与催办",
           "status": "done",
           "updated_at": "2026-09-30T08:08:49Z"
-        },
-        {
-          "key": "DWM-68",
-          "title": "[任务] 对抗评审 main 近期 commit（Cofi 收口 + v2.3 + Cofi 差异分",
-          "status": "blocked",
-          "updated_at": "2026-09-30T08:07:37Z"
         }
       ],
       "order": {
@@ -408,9 +409,15 @@
         "todo": 8,
         "in_progress": 1,
         "in_review": 5,
-        "done": 81
+        "done": 82
       },
       "latest_issues": [
+        {
+          "key": "IPD-121",
+          "title": "[空闲检测] 2026-09-30 leader 两小时正点检查与加派",
+          "status": "done",
+          "updated_at": "2026-09-30T14:02:53Z"
+        },
         {
           "key": "IPD-118",
           "title": "[测试·第3轮] REQ-005 TR-Accept 差分执行 + uijudge 视觉评审（依赖 ",
@@ -434,12 +441,6 @@
           "title": "[双端编码·第3轮] REQ-005 Android 基线回对齐 5 项语义漂移 D1~D5（P0 ",
           "status": "in_review",
           "updated_at": "2026-09-30T12:19:18Z"
-        },
-        {
-          "key": "IPD-119",
-          "title": "[TR-Design] Eazo 平台架构评审（五层架构+接口契约+四维度量契约，C1~C3 闭合）",
-          "status": "in_progress",
-          "updated_at": "2026-09-30T12:17:12Z"
         }
       ]
     }
