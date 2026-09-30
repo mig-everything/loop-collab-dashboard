@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T05:53:28Z",
+  "generated_at": "2026-09-30T06:01:51Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -162,6 +162,12 @@
       },
       "latest_issues": [
         {
+          "key": "BEN-64",
+          "title": "梳理当前项目目标",
+          "status": "todo",
+          "updated_at": "2026-09-30T06:01:36Z"
+        },
+        {
           "key": "BEN-61",
           "title": "[任务·第2轮] 鸿蒙仓新结构对齐 + gold/cofi 基线首跑 + 9 变体摸底（ref BE",
           "status": "in_review",
@@ -172,12 +178,6 @@
           "title": "汇报当前整体目标及各智能体进展",
           "status": "todo",
           "updated_at": "2026-09-30T05:19:43Z"
-        },
-        {
-          "key": "BEN-64",
-          "title": "梳理当前项目目标",
-          "status": "todo",
-          "updated_at": "2026-09-30T05:19:12Z"
         },
         {
           "key": "BEN-60",
