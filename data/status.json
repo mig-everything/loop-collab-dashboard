@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T03:54:54Z",
+  "generated_at": "2026-09-30T03:58:44Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -231,7 +231,7 @@
           "agent_id": "1c3481f5-135b-4959-9daa-c510c076d494",
           "state": "working",
           "issue": "DWM-40",
-          "issue_title": "[DW迁移任务单] Omni-Notes 迁移 · 清单+迁移 · 清单生成中 续6·r102·1012/800步·5页",
+          "issue_title": "[DW迁移任务单] Omni-Notes 迁移 · 清单+迁移 · 清单生成中 续6·r103·1026/800步·5页",
           "since": "2026-09-30T03:10:37Z"
         },
         {
@@ -264,9 +264,9 @@
       "latest_issues": [
         {
           "key": "DWM-40",
-          "title": "[DW迁移任务单] Omni-Notes 迁移 · 清单+迁移 · 清单生成中 续6·r102·10",
+          "title": "[DW迁移任务单] Omni-Notes 迁移 · 清单+迁移 · 清单生成中 续6·r103·10",
           "status": "in_progress",
-          "updated_at": "2026-09-30T03:51:47Z"
+          "updated_at": "2026-09-30T03:57:08Z"
         },
         {
           "key": "DWM-66",
@@ -295,9 +295,9 @@
       ],
       "order": {
         "key": "DWM-40",
-        "title": "[DW迁移任务单] Omni-Notes 迁移 · 清单+迁移 · 清单生成中 续6·r102·1012/800步·5页/529项 · 迁移中 2/6 · 清单8.8h/10h 迁",
+        "title": "[DW迁移任务单] Omni-Notes 迁移 · 清单+迁移 · 清单生成中 续6·r103·1026/800步·5页/529项 · 迁移中 3/6 · 清单8.8h/10h 迁",
         "status": "in_progress",
-        "updated_at": "2026-09-30T03:51:47Z"
+        "updated_at": "2026-09-30T03:57:08Z"
       },
       "progress_note": "沿用，Snowball 离线 dw-lead 无新 standup；10 个应用：完成 1、进行中 1、未开始 8"
     },
