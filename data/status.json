@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T20:18:00Z",
+  "generated_at": "2026-09-30T20:21:45Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -18,9 +18,9 @@
           "model": "",
           "agent_id": "58ed4647-32dd-4ca1-8ddc-194b975d6024",
           "state": "working",
-          "issue": "SUR-85",
-          "issue_title": "[晨会纪要] 2026-10-01",
-          "since": "2026-09-30T20:16:25Z"
+          "issue": "SUR-86",
+          "issue_title": "[任务][day-7] 迁移第 4 章至 LaTeX（04-enabling-tech.tex 关键使能技术）+ RQ3",
+          "since": "2026-09-30T20:15:41Z"
         },
         {
           "name": "kimi-adversary",
@@ -45,8 +45,8 @@
         }
       ],
       "issue_counts": {
-        "todo": 1,
-        "in_progress": 2,
+        "todo": 0,
+        "in_progress": 3,
         "in_review": 0,
         "done": 68
       },
@@ -55,7 +55,13 @@
           "key": "SUR-85",
           "title": "[晨会纪要] 2026-10-01",
           "status": "in_progress",
-          "updated_at": "2026-09-30T20:17:19Z"
+          "updated_at": "2026-09-30T20:19:46Z"
+        },
+        {
+          "key": "SUR-86",
+          "title": "[任务][day-7] 迁移第 4 章至 LaTeX（04-enabling-tech.tex 关键",
+          "status": "in_progress",
+          "updated_at": "2026-09-30T20:19:06Z"
         },
         {
           "key": "SUR-83",
@@ -68,12 +74,6 @@
           "title": "[评审][day-7] 事后对抗评审英文第 5 章（05-evaluation.tex，SUR-82",
           "status": "in_progress",
           "updated_at": "2026-09-30T20:16:09Z"
-        },
-        {
-          "key": "SUR-86",
-          "title": "[任务][day-7] 迁移第 4 章至 LaTeX（04-enabling-tech.tex 关键",
-          "status": "todo",
-          "updated_at": "2026-09-30T20:15:41Z"
         },
         {
           "key": "SUR-82",
