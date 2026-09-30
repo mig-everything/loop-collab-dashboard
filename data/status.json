@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T15:12:00Z",
+  "generated_at": "2026-09-30T15:19:35Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -157,11 +157,17 @@
       ],
       "issue_counts": {
         "todo": 0,
-        "in_progress": 2,
+        "in_progress": 1,
         "in_review": 1,
-        "done": 68
+        "done": 69
       },
       "latest_issues": [
+        {
+          "key": "BEN-55",
+          "title": "[backlog] 并发评测改造：runner 支持并行多模拟器分段执行+结果自动汇总",
+          "status": "done",
+          "updated_at": "2026-09-30T15:19:13Z"
+        },
         {
           "key": "BEN-56",
           "title": "[backlog] 清单匹配映射表：功能清单 Excel ↔ 平台无关用例 一一匹配可追溯",
@@ -179,12 +185,6 @@
           "title": "[backlog] 9 变体自动覆盖：评测自动遍历全部 <app>/testN/ 变体横向评分",
           "status": "in_progress",
           "updated_at": "2026-09-30T14:24:44Z"
-        },
-        {
-          "key": "BEN-55",
-          "title": "[backlog] 并发评测改造：runner 支持并行多模拟器分段执行+结果自动汇总",
-          "status": "in_progress",
-          "updated_at": "2026-09-30T14:24:11Z"
         },
         {
           "key": "BEN-70",
