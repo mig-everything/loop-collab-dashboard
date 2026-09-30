@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T22:02:44Z",
+  "generated_at": "2026-09-30T22:06:25Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -44,8 +44,8 @@
         }
       ],
       "issue_counts": {
-        "todo": 2,
-        "in_progress": 0,
+        "todo": 1,
+        "in_progress": 1,
         "in_review": 1,
         "done": 70
       },
@@ -53,8 +53,8 @@
         {
           "key": "SUR-89",
           "title": "[空闲检测] 2026-10-01 leader 两小时正点检查与加派",
-          "status": "todo",
-          "updated_at": "2026-09-30T22:00:13Z"
+          "status": "in_progress",
+          "updated_at": "2026-09-30T22:06:22Z"
         },
         {
           "key": "SUR-85",
@@ -390,10 +390,9 @@
           "role": "DeepSeek Planner（小组 leader/PM ",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
-          "state": "working",
-          "issue": "IPD-132",
-          "issue_title": "[空闲检测] 2026-10-01 leader 两小时正点检查与加派",
-          "since": "2026-09-30T22:00:23Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "minimax-uijudge",
@@ -407,17 +406,17 @@
         }
       ],
       "issue_counts": {
-        "todo": 5,
+        "todo": 4,
         "in_progress": 0,
         "in_review": 7,
-        "done": 86
+        "done": 87
       },
       "latest_issues": [
         {
           "key": "IPD-132",
           "title": "[空闲检测] 2026-10-01 leader 两小时正点检查与加派",
-          "status": "todo",
-          "updated_at": "2026-09-30T22:00:22Z"
+          "status": "done",
+          "updated_at": "2026-09-30T22:03:55Z"
         },
         {
           "key": "IPD-103",
