@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T20:02:59Z",
+  "generated_at": "2026-09-30T20:06:42Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -90,9 +90,9 @@
       "workspace": "ws-benchmark-loop",
       "machine": "张涛 Mac Studio",
       "machine_online": true,
-      "meeting_active": true,
-      "meeting_title": "[早会纪要] 2026-10-01",
-      "progress": 48,
+      "meeting_active": false,
+      "meeting_title": "",
+      "progress": 50,
       "agents": [
         {
           "name": "gpt-scenarist",
@@ -100,9 +100,10 @@
           "role": "GPT Scenarist",
           "model": "",
           "agent_id": "6e6f1e24-3bc5-455a-85d2-cb3fb6c9a672",
-          "state": "meeting",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "BEN-79",
+          "issue_title": "[BEN-57 断点] antennapod/simple-calendar harmony 用例集定位层就绪（占位 b",
+          "since": "2026-09-30T20:05:52Z"
         },
         {
           "name": "glm-runner",
@@ -110,9 +111,10 @@
           "role": "GLM Runner & Analyst",
           "model": "",
           "agent_id": "bdaefa9b-7045-4264-95e4-1db664e353d0",
-          "state": "meeting",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "BEN-81",
+          "issue_title": "[早会纪要] 2026-10-01",
+          "since": "2026-09-30T20:05:32Z"
         },
         {
           "name": "deepseek-planner",
@@ -120,10 +122,9 @@
           "role": "DeepSeek Planner（小组 leader/PM）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "547cd361-ef50-4965-9477-bc659d8a1708",
-          "state": "working",
-          "issue": "BEN-81",
-          "issue_title": "[早会纪要] 2026-10-01",
-          "since": "2026-09-30T20:00:21Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "minimax-visual-diff",
@@ -131,7 +132,7 @@
           "role": "MiniMax 多模态视觉差分评审",
           "model": "minimax-cn:MiniMax-M3",
           "agent_id": "843ac45d-b5db-4f35-b07b-2e5754ec5a5f",
-          "state": "meeting",
+          "state": "idle",
           "issue": "",
           "issue_title": ""
         },
@@ -141,7 +142,7 @@
           "role": "只读洞察项目目标与执行证据，用简单语言汇报进展、偏差和阻塞，",
           "model": "",
           "agent_id": "4b674e90-4726-4eba-bd5c-06350e0b8b83",
-          "state": "meeting",
+          "state": "idle",
           "issue": "",
           "issue_title": ""
         },
@@ -151,47 +152,47 @@
           "role": "只读洞察项目目标与执行证据，用简单语言汇报进展、偏差和阻塞，",
           "model": "gpt-6-astra",
           "agent_id": "33b902ee-a4ca-46ae-9284-c8285311c687",
-          "state": "meeting",
+          "state": "idle",
           "issue": "",
           "issue_title": ""
         }
       ],
       "issue_counts": {
-        "todo": 0,
+        "todo": 1,
         "in_progress": 2,
         "in_review": 0,
-        "done": 73
+        "done": 74
       },
       "latest_issues": [
         {
           "key": "BEN-81",
           "title": "[早会纪要] 2026-10-01",
+          "status": "done",
+          "updated_at": "2026-09-30T20:06:04Z"
+        },
+        {
+          "key": "BEN-79",
+          "title": "[BEN-57 断点] antennapod/simple-calendar harmony 用例集",
           "status": "in_progress",
-          "updated_at": "2026-09-30T20:00:50Z"
+          "updated_at": "2026-09-30T20:05:51Z"
+        },
+        {
+          "key": "BEN-83",
+          "title": "[任务·第1轮] AntennaPod 安卓回归续跑（mod09-70 完整失败清单）+ mod01",
+          "status": "in_progress",
+          "updated_at": "2026-09-30T20:05:16Z"
+        },
+        {
+          "key": "BEN-82",
+          "title": "[任务·第1轮] Android 侧定位校准+数据前置（BEN-72 P0 反馈闭环：Antenna",
+          "status": "todo",
+          "updated_at": "2026-09-30T20:04:43Z"
         },
         {
           "key": "BEN-80",
           "title": "[空闲检测] 2026-10-01 leader 两小时正点检查与加派",
           "status": "done",
           "updated_at": "2026-09-30T18:01:31Z"
-        },
-        {
-          "key": "BEN-79",
-          "title": "[BEN-57 断点] antennapod/simple-calendar harmony 用例集",
-          "status": "in_progress",
-          "updated_at": "2026-09-30T16:52:45Z"
-        },
-        {
-          "key": "BEN-57",
-          "title": "[backlog] 9 变体自动覆盖：评测自动遍历全部 <app>/testN/ 变体横向评分",
-          "status": "done",
-          "updated_at": "2026-09-30T16:39:29Z"
-        },
-        {
-          "key": "BEN-78",
-          "title": "[巡检] 2026-10-01 leader Issue 状态巡检与催办",
-          "status": "done",
-          "updated_at": "2026-09-30T16:11:09Z"
         }
       ]
     },
@@ -321,9 +322,9 @@
       "workspace": "ws-ipd-eazo-loop",
       "machine": "贾博 Mac Mini",
       "machine_online": true,
-      "meeting_active": false,
-      "meeting_title": "",
-      "progress": 52,
+      "meeting_active": true,
+      "meeting_title": "[早会纪要] 2026-10-01",
+      "progress": 60,
       "agents": [
         {
           "name": "hermes-pm",
@@ -331,7 +332,7 @@
           "role": "IPD-PM 产品经理",
           "model": "",
           "agent_id": "1764c131-5c09-48cb-aa48-3177d5256dbb",
-          "state": "idle",
+          "state": "meeting",
           "issue": "",
           "issue_title": ""
         },
@@ -341,7 +342,7 @@
           "role": "IPD-SA 解决方案架构师",
           "model": "volc:qwen3.8-max",
           "agent_id": "3e4373ef-a262-4b28-ab2a-818861fc9624",
-          "state": "idle",
+          "state": "meeting",
           "issue": "",
           "issue_title": ""
         },
@@ -351,7 +352,7 @@
           "role": "IPD-SE 系统工程师",
           "model": "volc:qwen3.8-max",
           "agent_id": "b874ba6b-80e6-45c6-a8c6-aedc6f2b326b",
-          "state": "idle",
+          "state": "meeting",
           "issue": "",
           "issue_title": ""
         },
@@ -361,7 +362,7 @@
           "role": "IPD-Dev 开发工程师",
           "model": "",
           "agent_id": "44fcec25-d8b3-4af6-b206-1774a64677ce",
-          "state": "idle",
+          "state": "meeting",
           "issue": "",
           "issue_title": ""
         },
@@ -371,7 +372,7 @@
           "role": "IPD-Tester 测试工程师",
           "model": "",
           "agent_id": "86df9f14-a2cd-46d9-ad15-dbe8606ebd73",
-          "state": "idle",
+          "state": "meeting",
           "issue": "",
           "issue_title": ""
         },
@@ -381,7 +382,7 @@
           "role": "IPD-RM 发布经理",
           "model": "",
           "agent_id": "78156461-9644-478e-9c80-53cd18e25e33",
-          "state": "idle",
+          "state": "meeting",
           "issue": "",
           "issue_title": ""
         },
@@ -402,29 +403,29 @@
           "role": "MiniMax 多模态 UI 视觉评审",
           "model": "minimax-cn:MiniMax-M3",
           "agent_id": "97f55294-90e0-4556-93af-a1cf44889574",
-          "state": "idle",
+          "state": "meeting",
           "issue": "",
           "issue_title": ""
         }
       ],
       "issue_counts": {
-        "todo": 5,
-        "in_progress": 0,
-        "in_review": 1,
-        "done": 92
+        "todo": 4,
+        "in_progress": 1,
+        "in_review": 0,
+        "done": 93
       },
       "latest_issues": [
         {
-          "key": "IPD-124",
-          "title": "[早会纪要] 2026-10-01",
-          "status": "todo",
-          "updated_at": "2026-09-30T20:00:18Z"
-        },
-        {
           "key": "IPD-102",
           "title": "[平台·能力①] 自然语言需求输入 + 需求池（类型多样化/每场景≥2实例）",
-          "status": "in_review",
-          "updated_at": "2026-09-30T18:10:38Z"
+          "status": "done",
+          "updated_at": "2026-09-30T20:05:03Z"
+        },
+        {
+          "key": "IPD-124",
+          "title": "[早会纪要] 2026-10-01",
+          "status": "in_progress",
+          "updated_at": "2026-09-30T20:04:59Z"
         },
         {
           "key": "IPD-123",
