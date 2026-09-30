@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T23:17:14Z",
+  "generated_at": "2026-09-30T00:00:42Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -37,18 +37,25 @@
           "role": "DeepSeek Task Planner（任务规划+总结）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "04a4e04e-59d5-4f3a-8a16-acf99b80a493",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "SUR-69",
+          "issue_title": "[巡检] 2026-09-30 leader Issue 状态巡检与催办",
+          "since": "2026-09-30T00:00:15Z"
         }
       ],
       "issue_counts": {
-        "todo": 0,
+        "todo": 1,
         "in_progress": 0,
         "in_review": 1,
         "done": 51
       },
       "latest_issues": [
+        {
+          "key": "SUR-69",
+          "title": "[巡检] 2026-09-30 leader Issue 状态巡检与催办",
+          "status": "todo",
+          "updated_at": "2026-09-30T00:00:14Z"
+        },
         {
           "key": "SUR-67",
           "title": "[任务][day-6] 迁移第 3 章至 LaTeX（03-pipeline.tex 五阶段）+ 落",
@@ -72,12 +79,6 @@
           "title": "[流程优化] 2026-09-29 晨会产出 1 项（经验库/文档指针化），次日验证",
           "status": "done",
           "updated_at": "2026-09-29T20:11:04Z"
-        },
-        {
-          "key": "SUR-64",
-          "title": "[流程优化] 2026-09-29 晚会产出 1 项（goals P0 变更巡检检测），次日验证",
-          "status": "done",
-          "updated_at": "2026-09-29T20:11:00Z"
         }
       ],
       "progress_note": "day-4 晨 37% → 午 42% → 晚 44% → 夜 47%",
@@ -119,9 +120,10 @@
           "role": "DeepSeek Planner（小组 leader/PM）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "547cd361-ef50-4965-9477-bc659d8a1708",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "BEN-53",
+          "issue_title": "[巡检] 2026-09-30 leader Issue 状态巡检与催办",
+          "since": "2026-09-30T00:00:10Z"
         },
         {
           "name": "minimax-visual-diff",
@@ -135,12 +137,18 @@
         }
       ],
       "issue_counts": {
-        "todo": 0,
+        "todo": 1,
         "in_progress": 0,
         "in_review": 1,
         "done": 46
       },
       "latest_issues": [
+        {
+          "key": "BEN-53",
+          "title": "[巡检] 2026-09-30 leader Issue 状态巡检与催办",
+          "status": "todo",
+          "updated_at": "2026-09-30T00:00:09Z"
+        },
         {
           "key": "BEN-52",
           "title": "[任务·第1轮] AntennaPod 133 ready 首批双端回归（Android oracl",
@@ -164,12 +172,6 @@
           "title": "[巡检] 2026-09-30 leader Issue 状态巡检与催办",
           "status": "done",
           "updated_at": "2026-09-29T16:02:30Z"
-        },
-        {
-          "key": "BEN-45",
-          "title": "[任务·第3轮] AntennaPod A5 批次：更多/设置剩余可溯源组+其他非设备组转 read",
-          "status": "done",
-          "updated_at": "2026-09-29T16:02:08Z"
         }
       ]
     },
@@ -245,12 +247,18 @@
         }
       ],
       "issue_counts": {
-        "todo": 1,
+        "todo": 2,
         "in_progress": 0,
         "in_review": 0,
         "done": 44
       },
       "latest_issues": [
+        {
+          "key": "DWM-66",
+          "title": "[巡检] 2026-09-30 leader Issue 状态巡检与催办",
+          "status": "todo",
+          "updated_at": "2026-09-30T00:00:04Z"
+        },
         {
           "key": "DWM-65",
           "title": "[早会纪要] 2026-09-30",
@@ -274,12 +282,6 @@
           "title": "[流程改进] v2.3：以目标定流程（DW 优化证据 > 经验与语料 > 应用交付），小队决策并实施",
           "status": "done",
           "updated_at": "2026-09-29T14:21:27Z"
-        },
-        {
-          "key": "DWM-60",
-          "title": "[任务] Cofi 正式差异分析 + 57 还原缺口/G7 入建议池（夜间第 3 轮，离线）",
-          "status": "done",
-          "updated_at": "2026-09-29T13:26:23Z"
         }
       ],
       "order": {
@@ -366,9 +368,10 @@
           "role": "DeepSeek Planner（小组 leader/PM ",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-92",
+          "issue_title": "[巡检] 2026-09-30 leader Issue 状态巡检与催办",
+          "since": "2026-09-30T00:00:18Z"
         },
         {
           "name": "minimax-uijudge",
@@ -382,12 +385,18 @@
         }
       ],
       "issue_counts": {
-        "todo": 0,
+        "todo": 1,
         "in_progress": 1,
         "in_review": 6,
         "done": 66
       },
       "latest_issues": [
+        {
+          "key": "IPD-92",
+          "title": "[巡检] 2026-09-30 leader Issue 状态巡检与催办",
+          "status": "todo",
+          "updated_at": "2026-09-30T00:00:17Z"
+        },
         {
           "key": "IPD-89",
           "title": "[测试·第1轮] REQ-004 uijudge 视觉补打分 + REQ-005 差分用例清单 + ",
@@ -411,12 +420,6 @@
           "title": "[早会纪要] 2026-09-30",
           "status": "done",
           "updated_at": "2026-09-29T20:13:54Z"
-        },
-        {
-          "key": "IPD-82",
-          "title": "[TR-Req 评审] REQ-005 单位换算器（Unit Converter）—— 需求评审（P",
-          "status": "in_review",
-          "updated_at": "2026-09-29T20:13:46Z"
         }
       ]
     }
