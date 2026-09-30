@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T04:23:54Z",
+  "generated_at": "2026-09-30T04:28:12Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -243,7 +243,7 @@
           "agent_id": "1c3481f5-135b-4959-9daa-c510c076d494",
           "state": "working",
           "issue": "DWM-40",
-          "issue_title": "[DW迁移任务单] Omni-Notes 迁移 · 清单+迁移 · 清单生成中 续6·r109·1104/800步·5页",
+          "issue_title": "[DW迁移任务单] Omni-Notes 迁移 · 清单+迁移 · 清单生成中 续6·r110·1113/800步·5页",
           "since": "2026-09-30T03:10:37Z"
         },
         {
@@ -276,9 +276,9 @@
       "latest_issues": [
         {
           "key": "DWM-40",
-          "title": "[DW迁移任务单] Omni-Notes 迁移 · 清单+迁移 · 清单生成中 续6·r109·11",
+          "title": "[DW迁移任务单] Omni-Notes 迁移 · 清单+迁移 · 清单生成中 续6·r110·11",
           "status": "in_progress",
-          "updated_at": "2026-09-30T04:23:18Z"
+          "updated_at": "2026-09-30T04:28:27Z"
         },
         {
           "key": "DWM-67",
@@ -307,9 +307,9 @@
       ],
       "order": {
         "key": "DWM-40",
-        "title": "[DW迁移任务单] Omni-Notes 迁移 · 清单+迁移 · 清单生成中 续6·r109·1104/800步·5页/540项 · 迁移中 3/6 · 清单9.3h/15.0h",
+        "title": "[DW迁移任务单] Omni-Notes 迁移 · 清单+迁移 · 清单生成中 续6·r110·1113/800步·5页/540项 · 迁移中 3/6 · 清单9.4h/15.0h",
         "status": "in_progress",
-        "updated_at": "2026-09-30T04:23:18Z"
+        "updated_at": "2026-09-30T04:28:27Z"
       },
       "progress_note": "沿用，Snowball 离线 dw-lead 无新 standup；10 个应用：完成 1、进行中 1、未开始 8"
     },
@@ -329,10 +329,9 @@
           "role": "IPD-PM 产品经理",
           "model": "",
           "agent_id": "1764c131-5c09-48cb-aa48-3177d5256dbb",
-          "state": "working",
-          "issue": "IPD-95",
-          "issue_title": "[PRD·第2轮] REQ-006 随手记账正式 PRD v1.0 + TR-Req 发起 + REQ-005 PRD ",
-          "since": "2026-09-30T04:19:17Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "hermes-sa",
@@ -371,10 +370,9 @@
           "role": "IPD-Tester 测试工程师",
           "model": "",
           "agent_id": "86df9f14-a2cd-46d9-ad15-dbe8606ebd73",
-          "state": "working",
-          "issue": "IPD-97",
-          "issue_title": "[测试·第2轮] REQ-004 TR-Accept 视觉门禁收口 + REQ-005 TR-Accept 差分执行准备",
-          "since": "2026-09-30T04:19:21Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "hermes-rm",
@@ -408,41 +406,41 @@
         }
       ],
       "issue_counts": {
-        "todo": 3,
+        "todo": 1,
         "in_progress": 0,
-        "in_review": 2,
+        "in_review": 5,
         "done": 75
       },
       "latest_issues": [
+        {
+          "key": "IPD-99",
+          "title": "[TR-Req 评审] REQ-006 随手记账（Expense Tracker）—— 需求评审（P",
+          "status": "in_review",
+          "updated_at": "2026-09-30T04:27:47Z"
+        },
+        {
+          "key": "IPD-97",
+          "title": "[测试·第2轮] REQ-004 TR-Accept 视觉门禁收口 + REQ-005 TR-Acc",
+          "status": "in_review",
+          "updated_at": "2026-09-30T04:27:06Z"
+        },
+        {
+          "key": "IPD-80",
+          "title": "[TR-Accept·第3轮] REQ-004 分布式流转双端验收收口（hermes-tester ",
+          "status": "done",
+          "updated_at": "2026-09-30T04:26:40Z"
+        },
+        {
+          "key": "IPD-95",
+          "title": "[PRD·第2轮] REQ-006 随手记账正式 PRD v1.0 + TR-Req 发起 + RE",
+          "status": "in_review",
+          "updated_at": "2026-09-30T04:26:01Z"
+        },
         {
           "key": "IPD-93",
           "title": "[午会纪要] 2026-09-30",
           "status": "done",
           "updated_at": "2026-09-30T04:23:24Z"
-        },
-        {
-          "key": "IPD-98",
-          "title": "[架构·第2轮] REQ-006 随手记账技术预研 + REQ-005 契约走查支持",
-          "status": "in_review",
-          "updated_at": "2026-09-30T04:20:51Z"
-        },
-        {
-          "key": "IPD-96",
-          "title": "[SE·第2轮] REQ-005 追踪矩阵设计实体列二次对齐（D7）+ REQ-006 追踪矩阵骨架",
-          "status": "in_review",
-          "updated_at": "2026-09-30T04:20:40Z"
-        },
-        {
-          "key": "IPD-97",
-          "title": "[测试·第2轮] REQ-004 TR-Accept 视觉门禁收口 + REQ-005 TR-Acc",
-          "status": "todo",
-          "updated_at": "2026-09-30T04:19:19Z"
-        },
-        {
-          "key": "IPD-95",
-          "title": "[PRD·第2轮] REQ-006 随手记账正式 PRD v1.0 + TR-Req 发起 + RE",
-          "status": "todo",
-          "updated_at": "2026-09-30T04:19:15Z"
         }
       ]
     }
