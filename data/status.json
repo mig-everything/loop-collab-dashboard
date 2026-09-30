@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T08:38:32Z",
+  "generated_at": "2026-09-30T08:46:32Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -149,9 +149,10 @@
           "role": "只读洞察项目目标与执行证据，用简单语言汇报进展、偏差和阻塞，",
           "model": "gpt-6-astra",
           "agent_id": "33b902ee-a4ca-46ae-9284-c8285311c687",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "BEN-64",
+          "issue_title": "跟踪测例通过率，分析迭代效率",
+          "since": "2026-09-30T08:45:28Z"
         }
       ],
       "issue_counts": {
@@ -161,6 +162,12 @@
         "done": 56
       },
       "latest_issues": [
+        {
+          "key": "BEN-64",
+          "title": "跟踪测例通过率，分析迭代效率",
+          "status": "todo",
+          "updated_at": "2026-09-30T08:45:25Z"
+        },
         {
           "key": "BEN-68",
           "title": "[并行·AntennaPod] 1395 场景 draft→ready 分模块 + 双端用例/bin",
@@ -184,12 +191,6 @@
           "title": "更新 PM 调度策略：Cofi/AntennaPod/Simple-Calendar 按 app 并",
           "status": "in_review",
           "updated_at": "2026-09-30T08:13:12Z"
-        },
-        {
-          "key": "BEN-65",
-          "title": "[巡检] 2026-09-30 leader Issue 状态巡检与催办",
-          "status": "done",
-          "updated_at": "2026-09-30T08:02:39Z"
         }
       ]
     },
@@ -242,7 +243,7 @@
           "state": "working",
           "issue": "DWM-40",
           "issue_title": "[DW迁移任务单] Omni-Notes 迁移 · 清单+迁移 · 清单✓349 · 迁移中 3/6 · 迁移8.6h/",
-          "since": "2026-09-30T06:55:32Z"
+          "since": "2026-09-30T08:46:08Z"
         },
         {
           "name": "exec-verifier",
@@ -276,7 +277,7 @@
           "key": "DWM-40",
           "title": "[DW迁移任务单] Omni-Notes 迁移 · 清单+迁移 · 清单✓349 · 迁移中 3/6",
           "status": "in_progress",
-          "updated_at": "2026-09-30T08:38:40Z"
+          "updated_at": "2026-09-30T08:44:19Z"
         },
         {
           "key": "DWM-70",
@@ -307,7 +308,7 @@
         "key": "DWM-40",
         "title": "[DW迁移任务单] Omni-Notes 迁移 · 清单+迁移 · 清单✓349 · 迁移中 3/6 · 迁移8.6h/12h",
         "status": "in_progress",
-        "updated_at": "2026-09-30T08:38:40Z"
+        "updated_at": "2026-09-30T08:44:19Z"
       },
       "progress_note": "沿用，Snowball 离线 dw-lead 无新 standup；10 个应用：完成 1、进行中 1、未开始 8"
     },
