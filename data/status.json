@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T18:04:03Z",
+  "generated_at": "2026-09-30T18:11:22Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -17,9 +17,10 @@
           "role": "GPT Writer（执笔者）",
           "model": "",
           "agent_id": "58ed4647-32dd-4ca1-8ddc-194b975d6024",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "SUR-84",
+          "issue_title": "[临时会议·空闲加派] 2026-10-01 02 点场",
+          "since": "2026-09-30T18:09:29Z"
         },
         {
           "name": "kimi-adversary",
@@ -27,9 +28,10 @@
           "role": "Kimi Adversarial Reviewer（对抗评审",
           "model": "",
           "agent_id": "6e530cc6-6b9d-4398-936d-df9c13468125",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "SUR-83",
+          "issue_title": "[评审][day-7] 复评第 3 章 SUR-77 修复落地（SUR-72 打回 1 P0+4 P1+6 P2+RQ1",
+          "since": "2026-09-30T18:08:52Z"
         },
         {
           "name": "deepseek-planner",
@@ -38,47 +40,47 @@
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "04a4e04e-59d5-4f3a-8a16-acf99b80a493",
           "state": "working",
-          "issue": "SUR-81",
-          "issue_title": "[空闲检测] 2026-10-01 leader 两小时正点检查与加派",
-          "since": "2026-09-30T18:00:14Z"
+          "issue": "SUR-84",
+          "issue_title": "[临时会议·空闲加派] 2026-10-01 02 点场",
+          "since": "2026-09-30T18:09:21Z"
         }
       ],
       "issue_counts": {
         "todo": 1,
-        "in_progress": 0,
+        "in_progress": 1,
         "in_review": 0,
-        "done": 64
+        "done": 66
       },
       "latest_issues": [
         {
+          "key": "SUR-83",
+          "title": "[评审][day-7] 复评第 3 章 SUR-77 修复落地（SUR-72 打回 1 P0+4 P",
+          "status": "in_progress",
+          "updated_at": "2026-09-30T18:11:01Z"
+        },
+        {
+          "key": "SUR-84",
+          "title": "[临时会议·空闲加派] 2026-10-01 02 点场",
+          "status": "done",
+          "updated_at": "2026-09-30T18:10:15Z"
+        },
+        {
           "key": "SUR-81",
           "title": "[空闲检测] 2026-10-01 leader 两小时正点检查与加派",
+          "status": "done",
+          "updated_at": "2026-09-30T18:09:49Z"
+        },
+        {
+          "key": "SUR-82",
+          "title": "[任务][day-7] 迁移第 5 章至 LaTeX（05-evaluation.tex 评测实践与",
           "status": "todo",
-          "updated_at": "2026-09-30T18:00:14Z"
+          "updated_at": "2026-09-30T18:08:49Z"
         },
         {
           "key": "SUR-80",
           "title": "[巡检] 2026-10-01 leader Issue 状态巡检与催办",
           "status": "done",
           "updated_at": "2026-09-30T16:04:05Z"
-        },
-        {
-          "key": "SUR-78",
-          "title": "[流程优化] 2026-09-30 晚会产出 1 项（评审结论强制可执行修复单格式），次日验证",
-          "status": "done",
-          "updated_at": "2026-09-30T14:28:25Z"
-        },
-        {
-          "key": "SUR-77",
-          "title": "[任务][day-6] 修复第 3 章 SUR-72 打回项（1 P0 + 4 P1 + 6 P2 ",
-          "status": "done",
-          "updated_at": "2026-09-30T14:07:44Z"
-        },
-        {
-          "key": "SUR-76",
-          "title": "[晚会日报] 2026-09-30",
-          "status": "done",
-          "updated_at": "2026-09-30T14:03:33Z"
         }
       ],
       "progress_note": "day-4 晨 37% → 午 42% → 晚 44% → 夜 47%",
@@ -362,10 +364,9 @@
           "role": "IPD-Dev 开发工程师",
           "model": "",
           "agent_id": "44fcec25-d8b3-4af6-b206-1774a64677ce",
-          "state": "working",
-          "issue": "IPD-102",
-          "issue_title": "[平台·能力①] 自然语言需求输入 + 需求池（类型多样化/每场景≥2实例）",
-          "since": "2026-09-30T18:03:23Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "hermes-tester",
@@ -409,23 +410,23 @@
         }
       ],
       "issue_counts": {
-        "todo": 5,
+        "todo": 4,
         "in_progress": 0,
-        "in_review": 0,
+        "in_review": 1,
         "done": 93
       },
       "latest_issues": [
+        {
+          "key": "IPD-102",
+          "title": "[平台·能力①] 自然语言需求输入 + 需求池（类型多样化/每场景≥2实例）",
+          "status": "in_review",
+          "updated_at": "2026-09-30T18:10:38Z"
+        },
         {
           "key": "IPD-123",
           "title": "[空闲检测] 2026-10-01 leader 两小时正点检查与加派",
           "status": "done",
           "updated_at": "2026-09-30T18:03:42Z"
-        },
-        {
-          "key": "IPD-102",
-          "title": "[平台·能力①] 自然语言需求输入 + 需求池（类型多样化/每场景≥2实例）",
-          "status": "todo",
-          "updated_at": "2026-09-30T18:03:21Z"
         },
         {
           "key": "IPD-108",
