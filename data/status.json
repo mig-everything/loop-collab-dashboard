@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T20:46:22Z",
+  "generated_at": "2026-10-01T20:50:01Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -242,7 +242,7 @@
           "agent_id": "1c3481f5-135b-4959-9daa-c510c076d494",
           "state": "working",
           "issue": "DWM-95",
-          "issue_title": "[DW迁移任务单] Simple-Calendar 迁移 · 清单+迁移 · 清单生成中 续2·r81·1015/800",
+          "issue_title": "[DW迁移任务单] Simple-Calendar 迁移 · 清单+迁移 · 清单生成中 续2·r83·1050/800",
           "since": "2026-10-01T19:32:07Z"
         },
         {
@@ -277,7 +277,7 @@
           "key": "DWM-95",
           "title": "[DW迁移任务单] Simple-Calendar 迁移 · 清单+迁移 · 清单生成中 续2·r8",
           "status": "in_progress",
-          "updated_at": "2026-10-01T20:44:53Z"
+          "updated_at": "2026-10-01T20:50:04Z"
         },
         {
           "key": "DWM-100",
@@ -306,9 +306,9 @@
       ],
       "order": {
         "key": "DWM-95",
-        "title": "[DW迁移任务单] Simple-Calendar 迁移 · 清单+迁移 · 清单生成中 续2·r81·1015/800步·1页/524项 · 迁移中 3/6 · 清单8.4h/1",
+        "title": "[DW迁移任务单] Simple-Calendar 迁移 · 清单+迁移 · 清单生成中 续2·r83·1050/800步·1页/524项 · 迁移中 3/6 · 清单8.5h/1",
         "status": "in_progress",
-        "updated_at": "2026-10-01T20:44:53Z"
+        "updated_at": "2026-10-01T20:50:04Z"
       },
       "progress_note": "10 个应用：完成 2、进行中 1、暂停 0、未开始 7"
     },
@@ -328,10 +328,9 @@
           "role": "IPD-PM 产品经理",
           "model": "",
           "agent_id": "1764c131-5c09-48cb-aa48-3177d5256dbb",
-          "state": "working",
-          "issue": "IPD-163",
-          "issue_title": "[PRD·第1轮] REQ-008 新场景需求发布 + 需求池扩充（life/efficiency 类 + 鸿蒙特性）",
-          "since": "2026-10-01T20:45:26Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "hermes-sa",
@@ -389,9 +388,10 @@
           "role": "DeepSeek Planner（小组 leader/PM ",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-164",
+          "issue_title": "[TR-Req] REQ-008 喝水打卡提醒 需求评审（PM 主持 · SA 联合评审）",
+          "since": "2026-10-01T20:46:49Z"
         },
         {
           "name": "minimax-uijudge",
@@ -405,7 +405,7 @@
         }
       ],
       "issue_counts": {
-        "todo": 2,
+        "todo": 1,
         "in_progress": 0,
         "in_review": 2,
         "done": 91
@@ -414,14 +414,14 @@
         {
           "key": "IPD-164",
           "title": "[TR-Req] REQ-008 喝水打卡提醒 需求评审（PM 主持 · SA 联合评审）",
-          "status": "todo",
-          "updated_at": "2026-10-01T20:45:26Z"
+          "status": "blocked",
+          "updated_at": "2026-10-01T20:48:42Z"
         },
         {
           "key": "IPD-163",
           "title": "[PRD·第1轮] REQ-008 新场景需求发布 + 需求池扩充（life/efficiency ",
           "status": "in_review",
-          "updated_at": "2026-10-01T20:45:26Z"
+          "updated_at": "2026-10-01T20:47:06Z"
         },
         {
           "key": "IPD-157",
