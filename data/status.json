@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T02:08:17Z",
+  "generated_at": "2026-10-01T02:11:59Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -17,10 +17,9 @@
           "role": "GPT Writer（执笔者）",
           "model": "",
           "agent_id": "58ed4647-32dd-4ca1-8ddc-194b975d6024",
-          "state": "working",
-          "issue": "SUR-97",
-          "issue_title": "[任务][day-7] 修复第 6 章 SUR-95 打回项（2 P1 阻断 + 1 N-P2 硬编码）",
-          "since": "2026-10-01T02:04:17Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "kimi-adversary",
@@ -45,16 +44,16 @@
       ],
       "issue_counts": {
         "todo": 1,
-        "in_progress": 1,
+        "in_progress": 0,
         "in_review": 0,
-        "done": 79
+        "done": 80
       },
       "latest_issues": [
         {
           "key": "SUR-97",
           "title": "[任务][day-7] 修复第 6 章 SUR-95 打回项（2 P1 阻断 + 1 N-P2 硬编",
-          "status": "in_progress",
-          "updated_at": "2026-10-01T02:07:21Z"
+          "status": "done",
+          "updated_at": "2026-10-01T02:09:49Z"
         },
         {
           "key": "SUR-96",
