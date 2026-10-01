@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T06:03:10Z",
+  "generated_at": "2026-10-01T06:10:27Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -17,9 +17,10 @@
           "role": "GPT Writer（执笔者）",
           "model": "",
           "agent_id": "58ed4647-32dd-4ca1-8ddc-194b975d6024",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "SUR-104",
+          "issue_title": "[临时会议·空闲加派] 2026-10-01 14 点场",
+          "since": "2026-10-01T06:10:08Z"
         },
         {
           "name": "kimi-adversary",
@@ -27,9 +28,10 @@
           "role": "Kimi Adversarial Reviewer（对抗评审",
           "model": "",
           "agent_id": "6e530cc6-6b9d-4398-936d-df9c13468125",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "SUR-104",
+          "issue_title": "[临时会议·空闲加派] 2026-10-01 14 点场",
+          "since": "2026-10-01T06:10:08Z"
         },
         {
           "name": "deepseek-planner",
@@ -45,40 +47,40 @@
       ],
       "issue_counts": {
         "todo": 2,
-        "in_progress": 0,
+        "in_progress": 1,
         "in_review": 1,
-        "done": 82
+        "done": 84
       },
       "latest_issues": [
         {
           "key": "SUR-101",
           "title": "[空闲检测] 2026-10-01 leader 两小时正点检查与加派",
+          "status": "done",
+          "updated_at": "2026-10-01T06:10:25Z"
+        },
+        {
+          "key": "SUR-104",
+          "title": "[临时会议·空闲加派] 2026-10-01 14 点场",
+          "status": "done",
+          "updated_at": "2026-10-01T06:10:13Z"
+        },
+        {
+          "key": "SUR-102",
+          "title": "[评审][day-7] 事后对抗评审英文第 1 章（01-introduction.tex，SUR-",
+          "status": "in_progress",
+          "updated_at": "2026-10-01T06:09:28Z"
+        },
+        {
+          "key": "SUR-103",
+          "title": "[任务][day-7] 迁移第 7 章至 LaTeX（07-conclusion.tex 结论）+ ",
           "status": "todo",
-          "updated_at": "2026-10-01T06:00:16Z"
+          "updated_at": "2026-10-01T06:09:12Z"
         },
         {
           "key": "SUR-98",
           "title": "[午会纪要] 2026-10-01",
           "status": "done",
           "updated_at": "2026-10-01T05:11:01Z"
-        },
-        {
-          "key": "SUR-99",
-          "title": "[任务][day-7] 迁移第 1 章至 LaTeX（01-introduction.tex 引言）",
-          "status": "done",
-          "updated_at": "2026-10-01T04:20:21Z"
-        },
-        {
-          "key": "SUR-100",
-          "title": "[评审][day-7] 复评第 4 章修复（SUR-94）+ 第 6 章修复（SUR-97）",
-          "status": "in_review",
-          "updated_at": "2026-10-01T04:15:34Z"
-        },
-        {
-          "key": "SUR-97",
-          "title": "[任务][day-7] 修复第 6 章 SUR-95 打回项（2 P1 阻断 + 1 N-P2 硬编",
-          "status": "done",
-          "updated_at": "2026-10-01T02:09:49Z"
         }
       ],
       "progress_note": "day-4 晨 37% → 午 42% → 晚 44% → 夜 47%",
