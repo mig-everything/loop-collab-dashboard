@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T12:02:43Z",
+  "generated_at": "2026-10-01T12:06:27Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -7,8 +7,8 @@
       "workspace": "ws-survey-loop",
       "machine": "JordanZTdeMacBook-Pro",
       "machine_online": true,
-      "meeting_active": false,
-      "meeting_title": "",
+      "meeting_active": true,
+      "meeting_title": "[晚会日报] 2026-10-01",
       "progress": 47,
       "agents": [
         {
@@ -17,7 +17,7 @@
           "role": "GPT Writer（执笔者）",
           "model": "",
           "agent_id": "58ed4647-32dd-4ca1-8ddc-194b975d6024",
-          "state": "idle",
+          "state": "meeting",
           "issue": "",
           "issue_title": ""
         },
@@ -27,7 +27,7 @@
           "role": "Kimi Adversarial Reviewer（对抗评审",
           "model": "",
           "agent_id": "6e530cc6-6b9d-4398-936d-df9c13468125",
-          "state": "idle",
+          "state": "meeting",
           "issue": "",
           "issue_title": ""
         },
@@ -44,8 +44,8 @@
         }
       ],
       "issue_counts": {
-        "todo": 2,
-        "in_progress": 0,
+        "todo": 1,
+        "in_progress": 1,
         "in_review": 1,
         "done": 91
       },
@@ -53,8 +53,8 @@
         {
           "key": "SUR-110",
           "title": "[晚会日报] 2026-10-01",
-          "status": "todo",
-          "updated_at": "2026-10-01T12:00:21Z"
+          "status": "in_progress",
+          "updated_at": "2026-10-01T12:05:51Z"
         },
         {
           "key": "SUR-108",
@@ -90,8 +90,8 @@
       "workspace": "ws-benchmark-loop",
       "machine": "张涛 Mac Studio",
       "machine_online": true,
-      "meeting_active": false,
-      "meeting_title": "",
+      "meeting_active": true,
+      "meeting_title": "[晚会日报] 2026-10-01",
       "progress": 50,
       "agents": [
         {
@@ -100,9 +100,10 @@
           "role": "GPT Scenarist",
           "model": "",
           "agent_id": "6e6f1e24-3bc5-455a-85d2-cb3fb6c9a672",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "BEN-79",
+          "issue_title": "[BEN-57 断点] antennapod/simple-calendar harmony 用例集定位层就绪（占位 b",
+          "since": "2026-10-01T12:05:59Z"
         },
         {
           "name": "glm-runner",
@@ -110,9 +111,10 @@
           "role": "GLM Runner & Analyst",
           "model": "",
           "agent_id": "bdaefa9b-7045-4264-95e4-1db664e353d0",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "BEN-95",
+          "issue_title": "[任务·第3轮] 安卓断言/基础设施硬化 + 口径⑥复跑就绪（ref BEN-89 反馈）",
+          "since": "2026-10-01T12:05:12Z"
         },
         {
           "name": "deepseek-planner",
@@ -131,9 +133,10 @@
           "role": "MiniMax 多模态视觉差分评审",
           "model": "minimax-cn:MiniMax-M3",
           "agent_id": "843ac45d-b5db-4f35-b07b-2e5754ec5a5f",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "BEN-96",
+          "issue_title": "[任务·第3轮] AntennaPod/Simple-Calendar 视觉差分 v1 + 方法固化（ref BEN-9",
+          "since": "2026-10-01T12:05:17Z"
         },
         {
           "name": "项目观察员",
@@ -141,7 +144,7 @@
           "role": "只读洞察项目目标与执行证据，用简单语言汇报进展、偏差和阻塞，",
           "model": "",
           "agent_id": "4b674e90-4726-4eba-bd5c-06350e0b8b83",
-          "state": "idle",
+          "state": "meeting",
           "issue": "",
           "issue_title": ""
         },
@@ -151,47 +154,47 @@
           "role": "只读洞察项目目标与执行证据，用简单语言汇报进展、偏差和阻塞，",
           "model": "gpt-6-astra",
           "agent_id": "33b902ee-a4ca-46ae-9284-c8285311c687",
-          "state": "idle",
+          "state": "meeting",
           "issue": "",
           "issue_title": ""
         }
       ],
       "issue_counts": {
         "todo": 1,
-        "in_progress": 2,
-        "in_review": 1,
-        "done": 84
+        "in_progress": 4,
+        "in_review": 0,
+        "done": 85
       },
       "latest_issues": [
-        {
-          "key": "BEN-94",
-          "title": "[晚会日报] 2026-10-01",
-          "status": "todo",
-          "updated_at": "2026-10-01T12:00:16Z"
-        },
-        {
-          "key": "BEN-93",
-          "title": "[空闲检测] 2026-10-01 leader 两小时正点检查与加派",
-          "status": "done",
-          "updated_at": "2026-10-01T10:01:56Z"
-        },
         {
           "key": "BEN-79",
           "title": "[BEN-57 断点] antennapod/simple-calendar harmony 用例集",
           "status": "in_progress",
-          "updated_at": "2026-10-01T08:17:40Z"
-        },
-        {
-          "key": "BEN-90",
-          "title": "[任务·第2轮] Cofi 双端截图视觉差分 v1 + gold 对照（ref BEN-88）",
-          "status": "in_review",
-          "updated_at": "2026-10-01T08:11:52Z"
+          "updated_at": "2026-10-01T12:05:53Z"
         },
         {
           "key": "BEN-82",
           "title": "[任务·第1轮] Android 侧定位校准+数据前置（BEN-72 P0 反馈闭环：Antenna",
           "status": "in_progress",
-          "updated_at": "2026-10-01T08:09:10Z"
+          "updated_at": "2026-10-01T12:05:52Z"
+        },
+        {
+          "key": "BEN-95",
+          "title": "[任务·第3轮] 安卓断言/基础设施硬化 + 口径⑥复跑就绪（ref BEN-89 反馈）",
+          "status": "in_progress",
+          "updated_at": "2026-10-01T12:05:41Z"
+        },
+        {
+          "key": "BEN-90",
+          "title": "[任务·第2轮] Cofi 双端截图视觉差分 v1 + gold 对照（ref BEN-88）",
+          "status": "done",
+          "updated_at": "2026-10-01T12:05:21Z"
+        },
+        {
+          "key": "BEN-96",
+          "title": "[任务·第3轮] AntennaPod/Simple-Calendar 视觉差分 v1 + 方法固化",
+          "status": "todo",
+          "updated_at": "2026-10-01T12:05:14Z"
         }
       ]
     },
@@ -329,9 +332,10 @@
           "role": "IPD-PM 产品经理",
           "model": "",
           "agent_id": "1764c131-5c09-48cb-aa48-3177d5256dbb",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-149",
+          "issue_title": "[PM·第2轮补派] REQ-007 扫雷 PRD v1.1 回写闭合 C1/C2/C3（SA 已给精确措辞）",
+          "since": "2026-10-01T12:06:13Z"
         },
         {
           "name": "hermes-sa",
@@ -339,9 +343,10 @@
           "role": "IPD-SA 解决方案架构师",
           "model": "volc:qwen3.8-max",
           "agent_id": "3e4373ef-a262-4b28-ab2a-818861fc9624",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-150",
+          "issue_title": "[SA·第3轮夜间] REQ-007 扫雷双端架构 + 接口契约 + TR-Design（依赖 PM 闭合 C1/C2/",
+          "since": "2026-10-01T12:06:26Z"
         },
         {
           "name": "hermes-se",
@@ -357,31 +362,34 @@
           "name": "hermes-dev",
           "emoji": "🐨",
           "role": "IPD-Dev 开发工程师",
-          "model": "",
+          "model": "zai:glm-5.3",
           "agent_id": "44fcec25-d8b3-4af6-b206-1774a64677ce",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-148",
+          "issue_title": "[Dev·第2轮补派] REQ-006 随手记账 双端编码（鸿蒙优先 US-1~3，闭合 D1/D2/D4/D5/D6）",
+          "since": "2026-10-01T12:06:10Z"
         },
         {
           "name": "hermes-tester",
           "emoji": "🔥",
           "role": "IPD-Tester 测试工程师",
-          "model": "",
+          "model": "zai:glm-5.3",
           "agent_id": "86df9f14-a2cd-46d9-ad15-dbe8606ebd73",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-151",
+          "issue_title": "[Tester·第3轮夜间] 平台级单测补全（19→27）+ REQ-006 双端差分用例正式化",
+          "since": "2026-10-01T12:06:30Z"
         },
         {
           "name": "hermes-rm",
           "emoji": "⚡",
           "role": "IPD-RM 发布经理",
-          "model": "",
+          "model": "zai:glm-5.3",
           "agent_id": "78156461-9644-478e-9c80-53cd18e25e33",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-152",
+          "issue_title": "[RM·第3轮夜间] 平台里程碑 M3(TR4) 验收状态盘点 + 四维差环比口径更新",
+          "since": "2026-10-01T12:06:32Z"
         },
         {
           "name": "deepseek-planner",
@@ -406,41 +414,41 @@
         }
       ],
       "issue_counts": {
-        "todo": 1,
-        "in_progress": 0,
-        "in_review": 1,
-        "done": 93
+        "todo": 3,
+        "in_progress": 3,
+        "in_review": 0,
+        "done": 89
       },
       "latest_issues": [
         {
+          "key": "IPD-152",
+          "title": "[RM·第3轮夜间] 平台里程碑 M3(TR4) 验收状态盘点 + 四维差环比口径更新",
+          "status": "in_progress",
+          "updated_at": "2026-10-01T12:07:16Z"
+        },
+        {
+          "key": "IPD-151",
+          "title": "[Tester·第3轮夜间] 平台级单测补全（19→27）+ REQ-006 双端差分用例正式化",
+          "status": "in_progress",
+          "updated_at": "2026-10-01T12:07:07Z"
+        },
+        {
+          "key": "IPD-148",
+          "title": "[Dev·第2轮补派] REQ-006 随手记账 双端编码（鸿蒙优先 US-1~3，闭合 D1/D2",
+          "status": "in_progress",
+          "updated_at": "2026-10-01T12:07:02Z"
+        },
+        {
           "key": "IPD-143",
           "title": "[环境] 更换 zai(GLM) API Key 并烟测（Dev/Tester/RM 切换前置）",
-          "status": "in_review",
-          "updated_at": "2026-10-01T12:03:04Z"
+          "status": "done",
+          "updated_at": "2026-10-01T12:06:57Z"
         },
         {
-          "key": "IPD-144",
-          "title": "[晚会日报] 2026-10-01",
+          "key": "IPD-150",
+          "title": "[SA·第3轮夜间] REQ-007 扫雷双端架构 + 接口契约 + TR-Design（依赖 PM",
           "status": "todo",
-          "updated_at": "2026-10-01T12:00:30Z"
-        },
-        {
-          "key": "IPD-142",
-          "title": "[冒烟测试] 全员点名健康自检 · 2026-10-01",
-          "status": "done",
-          "updated_at": "2026-10-01T10:43:30Z"
-        },
-        {
-          "key": "IPD-138",
-          "title": "[冒烟测试] task4 zai(GLM-5.3) token 余额探测——最小 API 调用验证",
-          "status": "done",
-          "updated_at": "2026-10-01T10:35:55Z"
-        },
-        {
-          "key": "IPD-140",
-          "title": "[巡检] 2026-10-01 leader Issue 状态巡检与催办",
-          "status": "done",
-          "updated_at": "2026-10-01T10:33:55Z"
+          "updated_at": "2026-10-01T12:06:24Z"
         }
       ]
     }
