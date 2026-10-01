@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T10:38:20Z",
+  "generated_at": "2026-10-01T10:42:03Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -389,9 +389,10 @@
           "role": "DeepSeek Planner（小组 leader/PM ",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-142",
+          "issue_title": "[冒烟测试] 全员点名健康自检 · 2026-10-01",
+          "since": "2026-10-01T10:40:07Z"
         },
         {
           "name": "minimax-uijudge",
@@ -406,11 +407,17 @@
       ],
       "issue_counts": {
         "todo": 0,
-        "in_progress": 0,
+        "in_progress": 1,
         "in_review": 0,
-        "done": 95
+        "done": 94
       },
       "latest_issues": [
+        {
+          "key": "IPD-142",
+          "title": "[冒烟测试] 全员点名健康自检 · 2026-10-01",
+          "status": "in_progress",
+          "updated_at": "2026-10-01T10:42:02Z"
+        },
         {
           "key": "IPD-138",
           "title": "[冒烟测试] task4 zai(GLM-5.3) token 余额探测——最小 API 调用验证",
@@ -434,12 +441,6 @@
           "title": "[午会纪要] 2026-10-01",
           "status": "cancelled",
           "updated_at": "2026-10-01T10:33:48Z"
-        },
-        {
-          "key": "IPD-106",
-          "title": "[平台·能力⑤] 源码下载 + 截图显示",
-          "status": "done",
-          "updated_at": "2026-10-01T10:33:40Z"
         }
       ]
     }
