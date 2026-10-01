@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T04:07:12Z",
+  "generated_at": "2026-10-01T04:10:56Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -7,8 +7,8 @@
       "workspace": "ws-survey-loop",
       "machine": "JordanZTdeMacBook-Pro",
       "machine_online": true,
-      "meeting_active": false,
-      "meeting_title": "",
+      "meeting_active": true,
+      "meeting_title": "[午会纪要] 2026-10-01",
       "progress": 47,
       "agents": [
         {
@@ -17,9 +17,10 @@
           "role": "GPT Writer（执笔者）",
           "model": "",
           "agent_id": "58ed4647-32dd-4ca1-8ddc-194b975d6024",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "SUR-98",
+          "issue_title": "[午会纪要] 2026-10-01",
+          "since": "2026-10-01T04:08:27Z"
         },
         {
           "name": "kimi-adversary",
@@ -27,9 +28,10 @@
           "role": "Kimi Adversarial Reviewer（对抗评审",
           "model": "",
           "agent_id": "6e530cc6-6b9d-4398-936d-df9c13468125",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "SUR-100",
+          "issue_title": "[评审][day-7] 复评第 4 章修复（SUR-94）+ 第 6 章修复（SUR-97）",
+          "since": "2026-10-01T04:08:00Z"
         },
         {
           "name": "deepseek-planner",
@@ -37,15 +39,14 @@
           "role": "DeepSeek Task Planner（任务规划+总结）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "04a4e04e-59d5-4f3a-8a16-acf99b80a493",
-          "state": "working",
-          "issue": "SUR-98",
-          "issue_title": "[午会纪要] 2026-10-01",
-          "since": "2026-10-01T04:00:14Z"
+          "state": "meeting",
+          "issue": "",
+          "issue_title": ""
         }
       ],
       "issue_counts": {
         "todo": 2,
-        "in_progress": 0,
+        "in_progress": 2,
         "in_review": 0,
         "done": 80
       },
@@ -53,8 +54,20 @@
         {
           "key": "SUR-98",
           "title": "[午会纪要] 2026-10-01",
+          "status": "in_progress",
+          "updated_at": "2026-10-01T04:10:32Z"
+        },
+        {
+          "key": "SUR-100",
+          "title": "[评审][day-7] 复评第 4 章修复（SUR-94）+ 第 6 章修复（SUR-97）",
+          "status": "in_progress",
+          "updated_at": "2026-10-01T04:08:16Z"
+        },
+        {
+          "key": "SUR-99",
+          "title": "[任务][day-7] 迁移第 1 章至 LaTeX（01-introduction.tex 引言）",
           "status": "todo",
-          "updated_at": "2026-10-01T04:00:13Z"
+          "updated_at": "2026-10-01T04:07:56Z"
         },
         {
           "key": "SUR-97",
@@ -67,18 +80,6 @@
           "title": "[空闲检测] 2026-10-01 leader 两小时正点检查与加派",
           "status": "done",
           "updated_at": "2026-10-01T02:04:43Z"
-        },
-        {
-          "key": "SUR-95",
-          "title": "[评审][day-7] 事后对抗评审英文第 6 章（06-challenges.tex，SUR-92",
-          "status": "done",
-          "updated_at": "2026-10-01T02:04:20Z"
-        },
-        {
-          "key": "SUR-94",
-          "title": "[任务][day-7] 修复第 4 章 SUR-91 打回项（1 P1 分类冲突 + 2 N-P2 ",
-          "status": "done",
-          "updated_at": "2026-10-01T00:10:05Z"
         }
       ],
       "progress_note": "day-4 晨 37% → 午 42% → 晚 44% → 夜 47%",
@@ -103,7 +104,7 @@
           "state": "working",
           "issue": "BEN-88",
           "issue_title": "[午会纪要] 2026-10-01",
-          "since": "2026-10-01T04:06:13Z"
+          "since": "2026-10-01T04:09:43Z"
         },
         {
           "name": "glm-runner",
@@ -122,10 +123,9 @@
           "role": "DeepSeek Planner（小组 leader/PM）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "547cd361-ef50-4965-9477-bc659d8a1708",
-          "state": "working",
-          "issue": "BEN-88",
-          "issue_title": "[午会纪要] 2026-10-01",
-          "since": "2026-10-01T04:00:16Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "minimax-visual-diff",
@@ -170,7 +170,7 @@
           "key": "BEN-88",
           "title": "[午会纪要] 2026-10-01",
           "status": "done",
-          "updated_at": "2026-10-01T04:06:26Z"
+          "updated_at": "2026-10-01T04:09:42Z"
         },
         {
           "key": "BEN-83",
@@ -224,10 +224,9 @@
           "role": "DeepSeek Planner（小组 leader/PM，",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "950ff614-521d-4e32-a02d-423d41a7b2b3",
-          "state": "working",
-          "issue": "DWM-85",
-          "issue_title": "[午会纪要] 2026-10-01",
-          "since": "2026-10-01T04:00:03Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "dw-lead",
@@ -235,9 +234,10 @@
           "role": "DW 迁移执行小队队长",
           "model": "claude-opus-5-5",
           "agent_id": "c6ff7c69-0db4-4b35-ac81-dd00e5a53ba4",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "DWM-40",
+          "issue_title": "[DW迁移任务单] Omni-Notes 迁移 · 修复 wave 3/4",
+          "since": "2026-10-01T04:10:51Z"
         },
         {
           "name": "exec-runner",
@@ -255,12 +255,9 @@
           "role": "验证员",
           "model": "claude-opus-5-5",
           "agent_id": "69822c63-0dcc-4f3e-875d-7b300d437623",
-          "state": "working",
-          "issue": "DWM-83",
-          "issue_title": "[DWM-40·wave2] Omni-Notes 修复第 2 波（25 条）",
-          "since": "2026-10-01T02:30:19Z",
-          "parent_issue": "DWM-40",
-          "parent_title": "[DW迁移任务单] Omni-Notes 迁移 · 修复 wave 2/4 · 待人工"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "exec-fixer",
@@ -268,35 +265,38 @@
           "role": "修复员",
           "model": "claude-opus-5-5",
           "agent_id": "cd70e713-a339-4621-8699-2058d9cf7d6b",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "DWM-86",
+          "issue_title": "[DWM-40·wave3] Omni-Notes 修复第 3 波（25 条）",
+          "since": "2026-10-01T04:10:09Z",
+          "parent_issue": "DWM-40",
+          "parent_title": "[DW迁移任务单] Omni-Notes 迁移 · 修复 wave 3/4"
         }
       ],
       "issue_counts": {
-        "todo": 1,
+        "todo": 0,
         "in_progress": 1,
         "in_review": 0,
-        "done": 58
+        "done": 59
       },
       "latest_issues": [
         {
           "key": "DWM-85",
           "title": "[午会纪要] 2026-10-01",
-          "status": "todo",
-          "updated_at": "2026-10-01T04:00:02Z"
+          "status": "done",
+          "updated_at": "2026-10-01T04:10:41Z"
+        },
+        {
+          "key": "DWM-40",
+          "title": "[DW迁移任务单] Omni-Notes 迁移 · 修复 wave 3/4",
+          "status": "in_progress",
+          "updated_at": "2026-10-01T04:10:39Z"
         },
         {
           "key": "DWM-84",
           "title": "[空闲检测] 2026-10-01 leader 两小时正点检查与加派",
           "status": "done",
           "updated_at": "2026-10-01T02:02:40Z"
-        },
-        {
-          "key": "DWM-40",
-          "title": "[DW迁移任务单] Omni-Notes 迁移 · 修复 wave 2/4 · 待人工",
-          "status": "in_progress",
-          "updated_at": "2026-10-01T00:07:34Z"
         },
         {
           "key": "DWM-82",
@@ -313,9 +313,9 @@
       ],
       "order": {
         "key": "DWM-40",
-        "title": "[DW迁移任务单] Omni-Notes 迁移 · 修复 wave 2/4 · 待人工",
+        "title": "[DW迁移任务单] Omni-Notes 迁移 · 修复 wave 3/4",
         "status": "in_progress",
-        "updated_at": "2026-10-01T00:07:34Z"
+        "updated_at": "2026-10-01T04:10:39Z"
       },
       "progress_note": "10 个应用：完成 1、进行中 1、未开始 8"
     },
