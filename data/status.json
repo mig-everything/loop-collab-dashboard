@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T11:48:04Z",
+  "generated_at": "2026-10-01T11:51:45Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -230,11 +230,9 @@
           "model": "claude-opus-5-5",
           "agent_id": "c6ff7c69-0db4-4b35-ac81-dd00e5a53ba4",
           "state": "working",
-          "issue": "DWM-93",
-          "issue_title": "[DWM-40·收口归因] Omni-Notes 收口待归因 16 条",
-          "since": "2026-10-01T11:48:10Z",
-          "parent_issue": "DWM-40",
-          "parent_title": "[DW迁移任务单] Omni-Notes 迁移 · 收口"
+          "issue": "DWM-40",
+          "issue_title": "[DW迁移任务单] Omni-Notes 迁移 · 已完成",
+          "since": "2026-10-01T11:50:59Z"
         },
         {
           "name": "exec-runner",
@@ -262,26 +260,23 @@
           "role": "修复员",
           "model": "claude-opus-5-5",
           "agent_id": "cd70e713-a339-4621-8699-2058d9cf7d6b",
-          "state": "working",
-          "issue": "DWM-93",
-          "issue_title": "[DWM-40·收口归因] Omni-Notes 收口待归因 16 条",
-          "since": "2026-10-01T11:46:04Z",
-          "parent_issue": "DWM-40",
-          "parent_title": "[DW迁移任务单] Omni-Notes 迁移 · 收口"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         }
       ],
       "issue_counts": {
         "todo": 0,
-        "in_progress": 1,
+        "in_progress": 0,
         "in_review": 0,
-        "done": 62
+        "done": 63
       },
       "latest_issues": [
         {
           "key": "DWM-40",
-          "title": "[DW迁移任务单] Omni-Notes 迁移 · 收口",
-          "status": "in_progress",
-          "updated_at": "2026-10-01T11:48:18Z"
+          "title": "[DW迁移任务单] Omni-Notes 迁移 · 已完成",
+          "status": "done",
+          "updated_at": "2026-10-01T11:50:40Z"
         },
         {
           "key": "DWM-92",
@@ -310,9 +305,9 @@
       ],
       "order": {
         "key": "DWM-40",
-        "title": "[DW迁移任务单] Omni-Notes 迁移 · 收口",
-        "status": "in_progress",
-        "updated_at": "2026-10-01T11:48:18Z"
+        "title": "[DW迁移任务单] Omni-Notes 迁移 · 已完成",
+        "status": "done",
+        "updated_at": "2026-10-01T11:50:40Z"
       },
       "progress_note": "10 个应用：完成 1、进行中 1、未开始 8"
     },
@@ -392,9 +387,10 @@
           "role": "DeepSeek Planner（小组 leader/PM ",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-143",
+          "issue_title": "[环境] 更换 zai(GLM) API Key 并烟测（Dev/Tester/RM 切换前置）",
+          "since": "2026-10-01T11:51:39Z"
         },
         {
           "name": "minimax-uijudge",
@@ -408,12 +404,18 @@
         }
       ],
       "issue_counts": {
-        "todo": 0,
+        "todo": 1,
         "in_progress": 0,
         "in_review": 0,
-        "done": 95
+        "done": 94
       },
       "latest_issues": [
+        {
+          "key": "IPD-143",
+          "title": "[环境] 更换 zai(GLM) API Key 并烟测（Dev/Tester/RM 切换前置）",
+          "status": "todo",
+          "updated_at": "2026-10-01T11:51:49Z"
+        },
         {
           "key": "IPD-142",
           "title": "[冒烟测试] 全员点名健康自检 · 2026-10-01",
@@ -437,12 +439,6 @@
           "title": "[空闲检测] 2026-10-01 leader 两小时正点检查与加派",
           "status": "cancelled",
           "updated_at": "2026-10-01T10:33:51Z"
-        },
-        {
-          "key": "IPD-137",
-          "title": "[午会纪要] 2026-10-01",
-          "status": "cancelled",
-          "updated_at": "2026-10-01T10:33:48Z"
         }
       ]
     }
