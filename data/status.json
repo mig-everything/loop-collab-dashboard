@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T04:03:30Z",
+  "generated_at": "2026-10-01T04:07:12Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -90,8 +90,8 @@
       "workspace": "ws-benchmark-loop",
       "machine": "张涛 Mac Studio",
       "machine_online": true,
-      "meeting_active": true,
-      "meeting_title": "[午会纪要] 2026-10-01",
+      "meeting_active": false,
+      "meeting_title": "",
       "progress": 50,
       "agents": [
         {
@@ -100,9 +100,10 @@
           "role": "GPT Scenarist",
           "model": "",
           "agent_id": "6e6f1e24-3bc5-455a-85d2-cb3fb6c9a672",
-          "state": "meeting",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "BEN-88",
+          "issue_title": "[午会纪要] 2026-10-01",
+          "since": "2026-10-01T04:06:13Z"
         },
         {
           "name": "glm-runner",
@@ -110,9 +111,10 @@
           "role": "GLM Runner & Analyst",
           "model": "",
           "agent_id": "bdaefa9b-7045-4264-95e4-1db664e353d0",
-          "state": "meeting",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "BEN-88",
+          "issue_title": "[午会纪要] 2026-10-01",
+          "since": "2026-10-01T04:06:13Z"
         },
         {
           "name": "deepseek-planner",
@@ -131,9 +133,10 @@
           "role": "MiniMax 多模态视觉差分评审",
           "model": "minimax-cn:MiniMax-M3",
           "agent_id": "843ac45d-b5db-4f35-b07b-2e5754ec5a5f",
-          "state": "meeting",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "BEN-90",
+          "issue_title": "[任务·第2轮] Cofi 双端截图视觉差分 v1 + gold 对照（ref BEN-88）",
+          "since": "2026-10-01T04:05:00Z"
         },
         {
           "name": "项目观察员",
@@ -141,7 +144,7 @@
           "role": "只读洞察项目目标与执行证据，用简单语言汇报进展、偏差和阻塞，",
           "model": "",
           "agent_id": "4b674e90-4726-4eba-bd5c-06350e0b8b83",
-          "state": "meeting",
+          "state": "idle",
           "issue": "",
           "issue_title": ""
         },
@@ -151,47 +154,47 @@
           "role": "只读洞察项目目标与执行证据，用简单语言汇报进展、偏差和阻塞，",
           "model": "gpt-6-astra",
           "agent_id": "33b902ee-a4ca-46ae-9284-c8285311c687",
-          "state": "meeting",
+          "state": "idle",
           "issue": "",
           "issue_title": ""
         }
       ],
       "issue_counts": {
         "todo": 1,
-        "in_progress": 2,
-        "in_review": 1,
-        "done": 78
+        "in_progress": 3,
+        "in_review": 0,
+        "done": 80
       },
       "latest_issues": [
         {
           "key": "BEN-88",
           "title": "[午会纪要] 2026-10-01",
+          "status": "done",
+          "updated_at": "2026-10-01T04:06:26Z"
+        },
+        {
+          "key": "BEN-83",
+          "title": "[任务·第1轮] AntennaPod 安卓回归续跑（mod09-70 完整失败清单）+ mod01",
+          "status": "done",
+          "updated_at": "2026-10-01T04:05:36Z"
+        },
+        {
+          "key": "BEN-82",
+          "title": "[任务·第1轮] Android 侧定位校准+数据前置（BEN-72 P0 反馈闭环：Antenna",
           "status": "in_progress",
-          "updated_at": "2026-10-01T04:00:40Z"
+          "updated_at": "2026-10-01T04:05:33Z"
         },
         {
-          "key": "BEN-87",
-          "title": "[空闲检测] 2026-10-01 leader 两小时正点检查与加派",
-          "status": "done",
-          "updated_at": "2026-10-01T02:02:13Z"
-        },
-        {
-          "key": "BEN-64",
-          "title": "跟踪测例通过率，分析迭代效率",
-          "status": "done",
-          "updated_at": "2026-10-01T01:25:26Z"
-        },
-        {
-          "key": "BEN-86",
-          "title": "[自决事项] gold锚定口径+bundleName冲突+test端P2缺陷 三决策（loop-co",
-          "status": "done",
-          "updated_at": "2026-10-01T01:23:24Z"
-        },
-        {
-          "key": "BEN-79",
-          "title": "[BEN-57 断点] antennapod/simple-calendar harmony 用例集",
+          "key": "BEN-89",
+          "title": "[任务·第2轮] 安卓 R2 回归复跑 + 口径⑥每日全链路首次跑通 + BEN-83收尾（ref ",
           "status": "in_progress",
-          "updated_at": "2026-10-01T00:20:27Z"
+          "updated_at": "2026-10-01T04:05:23Z"
+        },
+        {
+          "key": "BEN-90",
+          "title": "[任务·第2轮] Cofi 双端截图视觉差分 v1 + gold 对照（ref BEN-88）",
+          "status": "todo",
+          "updated_at": "2026-10-01T04:05:00Z"
         }
       ]
     },
