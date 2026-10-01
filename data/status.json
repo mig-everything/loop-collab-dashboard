@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T00:12:40Z",
+  "generated_at": "2026-10-01T00:16:21Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -27,10 +27,9 @@
           "role": "Kimi Adversarial Reviewer（对抗评审",
           "model": "",
           "agent_id": "6e530cc6-6b9d-4398-936d-df9c13468125",
-          "state": "working",
-          "issue": "SUR-95",
-          "issue_title": "[评审][day-7] 事后对抗评审英文第 6 章（06-challenges.tex，SUR-92 提交 5019d6",
-          "since": "2026-10-01T00:03:35Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "deepseek-planner",
@@ -45,16 +44,16 @@
       ],
       "issue_counts": {
         "todo": 1,
-        "in_progress": 1,
-        "in_review": 0,
+        "in_progress": 0,
+        "in_review": 1,
         "done": 77
       },
       "latest_issues": [
         {
           "key": "SUR-95",
           "title": "[评审][day-7] 事后对抗评审英文第 6 章（06-challenges.tex，SUR-92",
-          "status": "in_progress",
-          "updated_at": "2026-10-01T00:12:42Z"
+          "status": "in_review",
+          "updated_at": "2026-10-01T00:12:46Z"
         },
         {
           "key": "SUR-94",
