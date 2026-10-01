@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T00:05:14Z",
+  "generated_at": "2026-10-01T00:08:57Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -45,12 +45,18 @@
         }
       ],
       "issue_counts": {
-        "todo": 2,
-        "in_progress": 1,
+        "todo": 1,
+        "in_progress": 2,
         "in_review": 0,
         "done": 76
       },
       "latest_issues": [
+        {
+          "key": "SUR-94",
+          "title": "[任务][day-7] 修复第 4 章 SUR-91 打回项（1 P1 分类冲突 + 2 N-P2 ",
+          "status": "in_progress",
+          "updated_at": "2026-10-01T00:06:30Z"
+        },
         {
           "key": "SUR-93",
           "title": "[巡检] 2026-10-01 leader Issue 状态巡检与催办",
@@ -74,12 +80,6 @@
           "title": "[评审][day-7] 事后对抗评审英文第 5 章（05-evaluation.tex，SUR-82",
           "status": "done",
           "updated_at": "2026-10-01T00:03:40Z"
-        },
-        {
-          "key": "SUR-94",
-          "title": "[任务][day-7] 修复第 4 章 SUR-91 打回项（1 P1 分类冲突 + 2 N-P2 ",
-          "status": "todo",
-          "updated_at": "2026-10-01T00:03:32Z"
         }
       ],
       "progress_note": "day-4 晨 37% → 午 42% → 晚 44% → 夜 47%",
@@ -101,9 +101,10 @@
           "role": "GPT Scenarist",
           "model": "",
           "agent_id": "6e6f1e24-3bc5-455a-85d2-cb3fb6c9a672",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "BEN-79",
+          "issue_title": "[BEN-57 断点] antennapod/simple-calendar harmony 用例集定位层就绪（占位 b",
+          "since": "2026-10-01T00:08:33Z"
         },
         {
           "name": "glm-runner",
@@ -111,9 +112,10 @@
           "role": "GLM Runner & Analyst",
           "model": "",
           "agent_id": "bdaefa9b-7045-4264-95e4-1db664e353d0",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "BEN-83",
+          "issue_title": "[任务·第1轮] AntennaPod 安卓回归续跑（mod09-70 完整失败清单）+ mod01 复验 + 口径⑥每",
+          "since": "2026-10-01T00:08:29Z"
         },
         {
           "name": "deepseek-planner",
@@ -121,10 +123,9 @@
           "role": "DeepSeek Planner（小组 leader/PM）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "547cd361-ef50-4965-9477-bc659d8a1708",
-          "state": "working",
-          "issue": "BEN-85",
-          "issue_title": "[巡检] 2026-10-01 leader Issue 状态巡检与催办",
-          "since": "2026-10-01T00:00:11Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "minimax-visual-diff",
@@ -158,41 +159,41 @@
         }
       ],
       "issue_counts": {
-        "todo": 2,
+        "todo": 1,
         "in_progress": 2,
         "in_review": 0,
-        "done": 75
+        "done": 76
       },
       "latest_issues": [
         {
           "key": "BEN-85",
           "title": "[巡检] 2026-10-01 leader Issue 状态巡检与催办",
+          "status": "done",
+          "updated_at": "2026-10-01T00:08:47Z"
+        },
+        {
+          "key": "BEN-79",
+          "title": "[BEN-57 断点] antennapod/simple-calendar harmony 用例集",
+          "status": "in_progress",
+          "updated_at": "2026-10-01T00:08:32Z"
+        },
+        {
+          "key": "BEN-82",
+          "title": "[任务·第1轮] Android 侧定位校准+数据前置（BEN-72 P0 反馈闭环：Antenna",
           "status": "todo",
-          "updated_at": "2026-10-01T00:00:10Z"
+          "updated_at": "2026-10-01T00:08:30Z"
+        },
+        {
+          "key": "BEN-83",
+          "title": "[任务·第1轮] AntennaPod 安卓回归续跑（mod09-70 完整失败清单）+ mod01",
+          "status": "in_progress",
+          "updated_at": "2026-10-01T00:08:28Z"
         },
         {
           "key": "BEN-84",
           "title": "[空闲检测] 2026-10-01 leader 两小时正点检查与加派",
           "status": "done",
           "updated_at": "2026-09-30T22:01:55Z"
-        },
-        {
-          "key": "BEN-79",
-          "title": "[BEN-57 断点] antennapod/simple-calendar harmony 用例集",
-          "status": "in_progress",
-          "updated_at": "2026-09-30T20:34:50Z"
-        },
-        {
-          "key": "BEN-83",
-          "title": "[任务·第1轮] AntennaPod 安卓回归续跑（mod09-70 完整失败清单）+ mod01",
-          "status": "in_progress",
-          "updated_at": "2026-09-30T20:33:42Z"
-        },
-        {
-          "key": "BEN-82",
-          "title": "[任务·第1轮] Android 侧定位校准+数据前置（BEN-72 P0 反馈闭环：Antenna",
-          "status": "todo",
-          "updated_at": "2026-09-30T20:16:16Z"
         }
       ]
     },
@@ -252,12 +253,9 @@
           "role": "验证员",
           "model": "claude-opus-5-5",
           "agent_id": "69822c63-0dcc-4f3e-875d-7b300d437623",
-          "state": "working",
-          "issue": "DWM-78",
-          "issue_title": "[DWM-40·wave1] Omni-Notes 修复第 1 波（25 条）",
-          "since": "2026-09-30T22:17:42Z",
-          "parent_issue": "DWM-40",
-          "parent_title": "[DW迁移任务单] Omni-Notes 迁移 · 修复 wave 1/4 · 待人工"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "exec-fixer",
@@ -265,9 +263,12 @@
           "role": "修复员",
           "model": "claude-opus-5-5",
           "agent_id": "cd70e713-a339-4621-8699-2058d9cf7d6b",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "DWM-83",
+          "issue_title": "[DWM-40·wave2] Omni-Notes 修复第 2 波（25 条）",
+          "since": "2026-10-01T00:07:20Z",
+          "parent_issue": "DWM-40",
+          "parent_title": "[DW迁移任务单] Omni-Notes 迁移 · 修复 wave 2/4 · 待人工"
         }
       ],
       "issue_counts": {
@@ -277,6 +278,12 @@
         "done": 57
       },
       "latest_issues": [
+        {
+          "key": "DWM-40",
+          "title": "[DW迁移任务单] Omni-Notes 迁移 · 修复 wave 2/4 · 待人工",
+          "status": "in_progress",
+          "updated_at": "2026-10-01T00:07:34Z"
+        },
         {
           "key": "DWM-82",
           "title": "[巡检] 2026-10-01 leader Issue 状态巡检与催办",
@@ -300,19 +307,13 @@
           "title": "[早会纪要] 2026-10-01",
           "status": "done",
           "updated_at": "2026-09-30T20:12:15Z"
-        },
-        {
-          "key": "DWM-40",
-          "title": "[DW迁移任务单] Omni-Notes 迁移 · 修复 wave 1/4 · 待人工",
-          "status": "in_progress",
-          "updated_at": "2026-09-30T19:41:32Z"
         }
       ],
       "order": {
         "key": "DWM-40",
-        "title": "[DW迁移任务单] Omni-Notes 迁移 · 修复 wave 1/4 · 待人工",
+        "title": "[DW迁移任务单] Omni-Notes 迁移 · 修复 wave 2/4 · 待人工",
         "status": "in_progress",
-        "updated_at": "2026-09-30T19:41:32Z"
+        "updated_at": "2026-10-01T00:07:34Z"
       },
       "progress_note": "10 个应用：完成 1、进行中 1、未开始 8"
     },
@@ -362,10 +363,9 @@
           "role": "IPD-Dev 开发工程师",
           "model": "",
           "agent_id": "44fcec25-d8b3-4af6-b206-1774a64677ce",
-          "state": "working",
-          "issue": "IPD-103",
-          "issue_title": "[平台·能力②] 双端生成引擎（Claude Code，安卓+鸿蒙同需求同生成）",
-          "since": "2026-10-01T00:03:30Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "hermes-tester",
@@ -409,23 +409,23 @@
         }
       ],
       "issue_counts": {
-        "todo": 3,
+        "todo": 2,
         "in_progress": 0,
         "in_review": 0,
-        "done": 95
+        "done": 96
       },
       "latest_issues": [
+        {
+          "key": "IPD-103",
+          "title": "[平台·能力②] 双端生成引擎（Claude Code，安卓+鸿蒙同需求同生成）",
+          "status": "done",
+          "updated_at": "2026-10-01T00:06:02Z"
+        },
         {
           "key": "IPD-133",
           "title": "[巡检] 2026-10-01 leader Issue 状态巡检与催办",
           "status": "done",
           "updated_at": "2026-10-01T00:03:47Z"
-        },
-        {
-          "key": "IPD-103",
-          "title": "[平台·能力②] 双端生成引擎（Claude Code，安卓+鸿蒙同需求同生成）",
-          "status": "todo",
-          "updated_at": "2026-10-01T00:03:29Z"
         },
         {
           "key": "IPD-130",
