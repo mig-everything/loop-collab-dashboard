@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T20:09:42Z",
+  "generated_at": "2026-10-01T20:13:27Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -28,10 +28,9 @@
           "role": "Kimi Adversarial Reviewer（对抗评审",
           "model": "",
           "agent_id": "6e530cc6-6b9d-4398-936d-df9c13468125",
-          "state": "working",
-          "issue": "SUR-121",
-          "issue_title": "[任务][day-8] 建立投稿检查清单（验收口径 8）+ 预勾选已达成项",
-          "since": "2026-10-01T20:06:53Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "deepseek-planner",
@@ -46,16 +45,22 @@
       ],
       "issue_counts": {
         "todo": 1,
-        "in_progress": 2,
-        "in_review": 0,
+        "in_progress": 1,
+        "in_review": 1,
         "done": 96
       },
       "latest_issues": [
         {
+          "key": "SUR-121",
+          "title": "[任务][day-8] 建立投稿检查清单（验收口径 8）+ 预勾选已达成项",
+          "status": "in_review",
+          "updated_at": "2026-10-01T20:13:09Z"
+        },
+        {
           "key": "SUR-120",
           "title": "[任务][day-8] 参考文献补源收敛至 ≥100 篇（新增文献逐条原文核验 + 编号一源一号 +",
           "status": "in_progress",
-          "updated_at": "2026-10-01T20:09:31Z"
+          "updated_at": "2026-10-01T20:11:28Z"
         },
         {
           "key": "SUR-119",
@@ -68,12 +73,6 @@
           "title": "[流程优化] 2026-10-02 晨会产出 1 项（Opt-012 次日验证三件套同 run 完成",
           "status": "backlog",
           "updated_at": "2026-10-01T20:08:14Z"
-        },
-        {
-          "key": "SUR-121",
-          "title": "[任务][day-8] 建立投稿检查清单（验收口径 8）+ 预勾选已达成项",
-          "status": "in_progress",
-          "updated_at": "2026-10-01T20:07:26Z"
         },
         {
           "key": "SUR-88",
@@ -167,6 +166,18 @@
       },
       "latest_issues": [
         {
+          "key": "BEN-79",
+          "title": "[BEN-57 断点] antennapod/simple-calendar harmony 用例集",
+          "status": "in_progress",
+          "updated_at": "2026-10-01T20:12:34Z"
+        },
+        {
+          "key": "BEN-82",
+          "title": "[任务·第1轮] Android 侧定位校准+数据前置（BEN-72 P0 反馈闭环：Antenna",
+          "status": "in_progress",
+          "updated_at": "2026-10-01T20:11:37Z"
+        },
+        {
           "key": "BEN-100",
           "title": "[早会纪要] 2026-10-02",
           "status": "done",
@@ -183,18 +194,6 @@
           "title": "[任务·第1轮] 口径⑥每日复跑 + 安卓 R3 + pre-grant 修复（ref BEN-10",
           "status": "in_progress",
           "updated_at": "2026-10-01T20:07:02Z"
-        },
-        {
-          "key": "BEN-82",
-          "title": "[任务·第1轮] Android 侧定位校准+数据前置（BEN-72 P0 反馈闭环：Antenna",
-          "status": "in_progress",
-          "updated_at": "2026-10-01T20:05:15Z"
-        },
-        {
-          "key": "BEN-79",
-          "title": "[BEN-57 断点] antennapod/simple-calendar harmony 用例集",
-          "status": "in_progress",
-          "updated_at": "2026-10-01T20:05:13Z"
         }
       ]
     },
@@ -279,16 +278,16 @@
       },
       "latest_issues": [
         {
+          "key": "DWM-100",
+          "title": "[早会纪要] 2026-10-02",
+          "status": "in_progress",
+          "updated_at": "2026-10-01T20:11:09Z"
+        },
+        {
           "key": "DWM-95",
           "title": "[DW迁移任务单] Simple-Calendar 迁移 · 清单+迁移 · 清单生成中 续2·r7",
           "status": "in_progress",
           "updated_at": "2026-10-01T20:08:53Z"
-        },
-        {
-          "key": "DWM-100",
-          "title": "[早会纪要] 2026-10-02",
-          "status": "in_progress",
-          "updated_at": "2026-10-01T20:03:29Z"
         },
         {
           "key": "DWM-99",
@@ -323,8 +322,8 @@
       "workspace": "ws-ipd-eazo-loop",
       "machine": "贾博 Mac Mini",
       "machine_online": true,
-      "meeting_active": true,
-      "meeting_title": "[早会纪要] 2026-10-02",
+      "meeting_active": false,
+      "meeting_title": "",
       "progress": 69,
       "agents": [
         {
@@ -344,9 +343,10 @@
           "role": "IPD-SA 解决方案架构师",
           "model": "volc:qwen3.8-max",
           "agent_id": "3e4373ef-a262-4b28-ab2a-818861fc9624",
-          "state": "meeting",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-164",
+          "issue_title": "[TR-Req] REQ-008 喝水打卡提醒 需求评审（PM 主持 · SA 联合评审）",
+          "since": "2026-10-01T20:13:23Z"
         },
         {
           "name": "hermes-se",
@@ -354,7 +354,7 @@
           "role": "IPD-SE 系统工程师",
           "model": "volc:qwen3.8-max",
           "agent_id": "b874ba6b-80e6-45c6-a8c6-aedc6f2b326b",
-          "state": "meeting",
+          "state": "idle",
           "issue": "",
           "issue_title": ""
         },
@@ -386,7 +386,7 @@
           "role": "IPD-RM 发布经理",
           "model": "zai:glm-5.3",
           "agent_id": "78156461-9644-478e-9c80-53cd18e25e33",
-          "state": "meeting",
+          "state": "idle",
           "issue": "",
           "issue_title": ""
         },
@@ -396,10 +396,9 @@
           "role": "DeepSeek Planner（小组 leader/PM ",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
-          "state": "working",
-          "issue": "IPD-162",
-          "issue_title": "[早会纪要] 2026-10-02",
-          "since": "2026-10-01T20:00:19Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "minimax-uijudge",
@@ -407,23 +406,29 @@
           "role": "MiniMax 多模态 UI 视觉评审",
           "model": "minimax-cn:MiniMax-M3",
           "agent_id": "97f55294-90e0-4556-93af-a1cf44889574",
-          "state": "meeting",
+          "state": "idle",
           "issue": "",
           "issue_title": ""
         }
       ],
       "issue_counts": {
-        "todo": 2,
-        "in_progress": 2,
+        "todo": 3,
+        "in_progress": 1,
         "in_review": 0,
         "done": 91
       },
       "latest_issues": [
         {
+          "key": "IPD-164",
+          "title": "[TR-Req] REQ-008 喝水打卡提醒 需求评审（PM 主持 · SA 联合评审）",
+          "status": "todo",
+          "updated_at": "2026-10-01T20:13:22Z"
+        },
+        {
           "key": "IPD-162",
           "title": "[早会纪要] 2026-10-02",
-          "status": "in_progress",
-          "updated_at": "2026-10-01T20:10:05Z"
+          "status": "done",
+          "updated_at": "2026-10-01T20:10:36Z"
         },
         {
           "key": "IPD-163",
@@ -442,12 +447,6 @@
           "title": "[Dev·临时加派] REQ-007 扫雷双端编码（闭合 D1/D2/D4/D5，预取证 D3）",
           "status": "todo",
           "updated_at": "2026-10-01T20:05:49Z"
-        },
-        {
-          "key": "IPD-159",
-          "title": "[Tester·临时加派] REQ-007 扫雷差分用例清单 + 差分断言（TDD 先行）",
-          "status": "done",
-          "updated_at": "2026-10-01T20:05:36Z"
         }
       ]
     }
