@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T12:06:27Z",
+  "generated_at": "2026-10-01T12:10:55Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -17,9 +17,10 @@
           "role": "GPT Writer（执笔者）",
           "model": "",
           "agent_id": "58ed4647-32dd-4ca1-8ddc-194b975d6024",
-          "state": "meeting",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "SUR-111",
+          "issue_title": "[任务][day-7] 修复终审 P1-1~P1-4 + P2-1~P2-6 + 补验 ECAT/ATH 数字（SUR-",
+          "since": "2026-10-01T12:09:04Z"
         },
         {
           "name": "kimi-adversary",
@@ -27,9 +28,10 @@
           "role": "Kimi Adversarial Reviewer（对抗评审",
           "model": "",
           "agent_id": "6e530cc6-6b9d-4398-936d-df9c13468125",
-          "state": "meeting",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "SUR-112",
+          "issue_title": "[评审][day-7] 对抗评审 Abstract + 附录 A/B（SUR-107 提交，终审遗留风险②）",
+          "since": "2026-10-01T12:09:11Z"
         },
         {
           "name": "deepseek-planner",
@@ -44,41 +46,41 @@
         }
       ],
       "issue_counts": {
-        "todo": 1,
-        "in_progress": 1,
-        "in_review": 1,
+        "todo": 3,
+        "in_progress": 2,
+        "in_review": 0,
         "done": 91
       },
       "latest_issues": [
+        {
+          "key": "SUR-112",
+          "title": "[评审][day-7] 对抗评审 Abstract + 附录 A/B（SUR-107 提交，终审遗留",
+          "status": "in_progress",
+          "updated_at": "2026-10-01T12:09:57Z"
+        },
+        {
+          "key": "SUR-113",
+          "title": "[流程优化] 2026-10-01 晚会产出 1 项（Opt-011 自优化合入门禁 + 远端分支卫",
+          "status": "backlog",
+          "updated_at": "2026-10-01T12:09:12Z"
+        },
+        {
+          "key": "SUR-111",
+          "title": "[任务][day-7] 修复终审 P1-1~P1-4 + P2-1~P2-6 + 补验 ECAT/A",
+          "status": "todo",
+          "updated_at": "2026-10-01T12:09:04Z"
+        },
+        {
+          "key": "SUR-108",
+          "title": "[评审][day-7] 终审模拟：整篇 TSE 投稿前对抗评审（7 章 + refs.bib + 跨",
+          "status": "done",
+          "updated_at": "2026-10-01T12:08:49Z"
+        },
         {
           "key": "SUR-110",
           "title": "[晚会日报] 2026-10-01",
           "status": "in_progress",
           "updated_at": "2026-10-01T12:05:51Z"
-        },
-        {
-          "key": "SUR-108",
-          "title": "[评审][day-7] 终审模拟：整篇 TSE 投稿前对抗评审（7 章 + refs.bib + 跨",
-          "status": "in_review",
-          "updated_at": "2026-10-01T10:16:14Z"
-        },
-        {
-          "key": "SUR-107",
-          "title": "[任务][day-7] 补写 Abstract（00-abstract.tex）+ 附录 A/B（章",
-          "status": "done",
-          "updated_at": "2026-10-01T10:12:49Z"
-        },
-        {
-          "key": "SUR-109",
-          "title": "[临时会议·空闲加派] 2026-10-01 18 点场",
-          "status": "done",
-          "updated_at": "2026-10-01T10:08:48Z"
-        },
-        {
-          "key": "SUR-106",
-          "title": "[空闲检测] 2026-10-01 leader 两小时正点检查与加派",
-          "status": "done",
-          "updated_at": "2026-10-01T10:06:43Z"
         }
       ],
       "progress_note": "day-4 晨 37% → 午 42% → 晚 44% → 夜 47%",
@@ -90,8 +92,8 @@
       "workspace": "ws-benchmark-loop",
       "machine": "张涛 Mac Studio",
       "machine_online": true,
-      "meeting_active": true,
-      "meeting_title": "[晚会日报] 2026-10-01",
+      "meeting_active": false,
+      "meeting_title": "",
       "progress": 50,
       "agents": [
         {
@@ -122,10 +124,9 @@
           "role": "DeepSeek Planner（小组 leader/PM）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "547cd361-ef50-4965-9477-bc659d8a1708",
-          "state": "working",
-          "issue": "BEN-94",
-          "issue_title": "[晚会日报] 2026-10-01",
-          "since": "2026-10-01T12:00:24Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "minimax-visual-diff",
@@ -144,7 +145,7 @@
           "role": "只读洞察项目目标与执行证据，用简单语言汇报进展、偏差和阻塞，",
           "model": "",
           "agent_id": "4b674e90-4726-4eba-bd5c-06350e0b8b83",
-          "state": "meeting",
+          "state": "idle",
           "issue": "",
           "issue_title": ""
         },
@@ -154,18 +155,24 @@
           "role": "只读洞察项目目标与执行证据，用简单语言汇报进展、偏差和阻塞，",
           "model": "gpt-6-astra",
           "agent_id": "33b902ee-a4ca-46ae-9284-c8285311c687",
-          "state": "meeting",
+          "state": "idle",
           "issue": "",
           "issue_title": ""
         }
       ],
       "issue_counts": {
         "todo": 1,
-        "in_progress": 4,
+        "in_progress": 3,
         "in_review": 0,
-        "done": 85
+        "done": 86
       },
       "latest_issues": [
+        {
+          "key": "BEN-94",
+          "title": "[晚会日报] 2026-10-01",
+          "status": "done",
+          "updated_at": "2026-10-01T12:08:21Z"
+        },
         {
           "key": "BEN-79",
           "title": "[BEN-57 断点] antennapod/simple-calendar harmony 用例集",
@@ -189,12 +196,6 @@
           "title": "[任务·第2轮] Cofi 双端截图视觉差分 v1 + gold 对照（ref BEN-88）",
           "status": "done",
           "updated_at": "2026-10-01T12:05:21Z"
-        },
-        {
-          "key": "BEN-96",
-          "title": "[任务·第3轮] AntennaPod/Simple-Calendar 视觉差分 v1 + 方法固化",
-          "status": "todo",
-          "updated_at": "2026-10-01T12:05:14Z"
         }
       ]
     },
@@ -214,9 +215,10 @@
           "role": "Opus Analyzer",
           "model": "claude-opus-5-5",
           "agent_id": "2f32549c-87c7-4202-8f54-3af79a30afa0",
-          "state": "meeting",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "DWM-96",
+          "issue_title": "[任务] Omni-Notes 收口后差异分析 + 对抗评审 + DW 优化建议入池",
+          "since": "2026-10-01T12:08:46Z"
         },
         {
           "name": "deepseek-planner",
@@ -245,9 +247,10 @@
           "role": "运行员",
           "model": "claude-opus-5-5",
           "agent_id": "1c3481f5-135b-4959-9daa-c510c076d494",
-          "state": "meeting",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "DWM-95",
+          "issue_title": "[DW迁移任务单] Simple-Calendar 迁移 · 清单+迁移",
+          "since": "2026-10-01T12:10:20Z"
         },
         {
           "name": "exec-verifier",
@@ -272,7 +275,7 @@
       ],
       "issue_counts": {
         "todo": 0,
-        "in_progress": 1,
+        "in_progress": 3,
         "in_review": 0,
         "done": 63
       },
@@ -281,7 +284,19 @@
           "key": "DWM-94",
           "title": "[晚会日报] 2026-10-01",
           "status": "in_progress",
-          "updated_at": "2026-10-01T12:01:13Z"
+          "updated_at": "2026-10-01T12:11:11Z"
+        },
+        {
+          "key": "DWM-95",
+          "title": "[DW迁移任务单] Simple-Calendar 迁移 · 清单+迁移",
+          "status": "in_progress",
+          "updated_at": "2026-10-01T12:10:20Z"
+        },
+        {
+          "key": "DWM-96",
+          "title": "[任务] Omni-Notes 收口后差异分析 + 对抗评审 + DW 优化建议入池",
+          "status": "in_progress",
+          "updated_at": "2026-10-01T12:09:59Z"
         },
         {
           "key": "DWM-40",
@@ -294,25 +309,13 @@
           "title": "[空闲检测] 2026-10-01 leader 两小时正点检查与加派",
           "status": "done",
           "updated_at": "2026-10-01T10:01:38Z"
-        },
-        {
-          "key": "DWM-89",
-          "title": "[巡检] 2026-10-01 leader Issue 状态巡检与催办",
-          "status": "done",
-          "updated_at": "2026-10-01T08:02:28Z"
-        },
-        {
-          "key": "DWM-87",
-          "title": "[空闲检测] 2026-10-01 leader 两小时正点检查与加派",
-          "status": "done",
-          "updated_at": "2026-10-01T06:01:37Z"
         }
       ],
       "order": {
-        "key": "DWM-40",
-        "title": "[DW迁移任务单] Omni-Notes 迁移 · 已完成",
-        "status": "done",
-        "updated_at": "2026-10-01T11:50:40Z"
+        "key": "DWM-95",
+        "title": "[DW迁移任务单] Simple-Calendar 迁移 · 清单+迁移",
+        "status": "in_progress",
+        "updated_at": "2026-10-01T12:10:20Z"
       },
       "progress_note": "10 个应用：完成 1、进行中 1、未开始 8"
     },
@@ -397,10 +400,9 @@
           "role": "DeepSeek Planner（小组 leader/PM ",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
-          "state": "working",
-          "issue": "IPD-144",
-          "issue_title": "[晚会日报] 2026-10-01",
-          "since": "2026-10-01T12:00:31Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "minimax-uijudge",
@@ -414,41 +416,41 @@
         }
       ],
       "issue_counts": {
-        "todo": 3,
-        "in_progress": 3,
+        "todo": 1,
+        "in_progress": 4,
         "in_review": 0,
-        "done": 89
+        "done": 90
       },
       "latest_issues": [
+        {
+          "key": "IPD-144",
+          "title": "[晚会纪要] 2026-10-01 · 补第2轮+派第3轮夜间（总进度 66%）",
+          "status": "done",
+          "updated_at": "2026-10-01T12:10:32Z"
+        },
+        {
+          "key": "IPD-149",
+          "title": "[PM·第2轮补派] REQ-007 扫雷 PRD v1.1 回写闭合 C1/C2/C3（SA 已给",
+          "status": "in_progress",
+          "updated_at": "2026-10-01T12:09:57Z"
+        },
         {
           "key": "IPD-152",
           "title": "[RM·第3轮夜间] 平台里程碑 M3(TR4) 验收状态盘点 + 四维差环比口径更新",
           "status": "in_progress",
-          "updated_at": "2026-10-01T12:07:16Z"
+          "updated_at": "2026-10-01T12:08:14Z"
         },
         {
           "key": "IPD-151",
           "title": "[Tester·第3轮夜间] 平台级单测补全（19→27）+ REQ-006 双端差分用例正式化",
           "status": "in_progress",
-          "updated_at": "2026-10-01T12:07:07Z"
-        },
-        {
-          "key": "IPD-148",
-          "title": "[Dev·第2轮补派] REQ-006 随手记账 双端编码（鸿蒙优先 US-1~3，闭合 D1/D2",
-          "status": "in_progress",
-          "updated_at": "2026-10-01T12:07:02Z"
-        },
-        {
-          "key": "IPD-143",
-          "title": "[环境] 更换 zai(GLM) API Key 并烟测（Dev/Tester/RM 切换前置）",
-          "status": "done",
-          "updated_at": "2026-10-01T12:06:57Z"
+          "updated_at": "2026-10-01T12:08:13Z"
         },
         {
           "key": "IPD-150",
           "title": "[SA·第3轮夜间] REQ-007 扫雷双端架构 + 接口契约 + TR-Design（依赖 PM",
           "status": "todo",
-          "updated_at": "2026-10-01T12:06:24Z"
+          "updated_at": "2026-10-01T12:08:11Z"
         }
       ]
     }
