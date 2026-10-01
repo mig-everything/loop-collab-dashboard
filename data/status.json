@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T02:04:35Z",
+  "generated_at": "2026-10-01T02:08:17Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -38,36 +38,35 @@
           "role": "DeepSeek Task Planner（任务规划+总结）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "04a4e04e-59d5-4f3a-8a16-acf99b80a493",
-          "state": "working",
-          "issue": "SUR-96",
-          "issue_title": "[空闲检测] 2026-10-01 leader 两小时正点检查与加派",
-          "since": "2026-10-01T02:00:19Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         }
       ],
       "issue_counts": {
-        "todo": 2,
+        "todo": 1,
         "in_progress": 1,
         "in_review": 0,
-        "done": 78
+        "done": 79
       },
       "latest_issues": [
+        {
+          "key": "SUR-97",
+          "title": "[任务][day-7] 修复第 6 章 SUR-95 打回项（2 P1 阻断 + 1 N-P2 硬编",
+          "status": "in_progress",
+          "updated_at": "2026-10-01T02:07:21Z"
+        },
+        {
+          "key": "SUR-96",
+          "title": "[空闲检测] 2026-10-01 leader 两小时正点检查与加派",
+          "status": "done",
+          "updated_at": "2026-10-01T02:04:43Z"
+        },
         {
           "key": "SUR-95",
           "title": "[评审][day-7] 事后对抗评审英文第 6 章（06-challenges.tex，SUR-92",
           "status": "done",
           "updated_at": "2026-10-01T02:04:20Z"
-        },
-        {
-          "key": "SUR-97",
-          "title": "[任务][day-7] 修复第 6 章 SUR-95 打回项（2 P1 阻断 + 1 N-P2 硬编",
-          "status": "todo",
-          "updated_at": "2026-10-01T02:04:16Z"
-        },
-        {
-          "key": "SUR-96",
-          "title": "[空闲检测] 2026-10-01 leader 两小时正点检查与加派",
-          "status": "in_progress",
-          "updated_at": "2026-10-01T02:04:10Z"
         },
         {
           "key": "SUR-94",
