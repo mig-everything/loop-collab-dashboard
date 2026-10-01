@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T11:40:47Z",
+  "generated_at": "2026-10-01T11:48:04Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -229,9 +229,12 @@
           "role": "DW 迁移执行小队队长",
           "model": "claude-opus-5-5",
           "agent_id": "c6ff7c69-0db4-4b35-ac81-dd00e5a53ba4",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "DWM-93",
+          "issue_title": "[DWM-40·收口归因] Omni-Notes 收口待归因 16 条",
+          "since": "2026-10-01T11:48:10Z",
+          "parent_issue": "DWM-40",
+          "parent_title": "[DW迁移任务单] Omni-Notes 迁移 · 收口"
         },
         {
           "name": "exec-runner",
@@ -262,7 +265,7 @@
           "state": "working",
           "issue": "DWM-93",
           "issue_title": "[DWM-40·收口归因] Omni-Notes 收口待归因 16 条",
-          "since": "2026-10-01T11:39:29Z",
+          "since": "2026-10-01T11:46:04Z",
           "parent_issue": "DWM-40",
           "parent_title": "[DW迁移任务单] Omni-Notes 迁移 · 收口"
         }
@@ -278,7 +281,7 @@
           "key": "DWM-40",
           "title": "[DW迁移任务单] Omni-Notes 迁移 · 收口",
           "status": "in_progress",
-          "updated_at": "2026-10-01T11:39:42Z"
+          "updated_at": "2026-10-01T11:48:18Z"
         },
         {
           "key": "DWM-92",
@@ -309,7 +312,7 @@
         "key": "DWM-40",
         "title": "[DW迁移任务单] Omni-Notes 迁移 · 收口",
         "status": "in_progress",
-        "updated_at": "2026-10-01T11:39:42Z"
+        "updated_at": "2026-10-01T11:48:18Z"
       },
       "progress_note": "10 个应用：完成 1、进行中 1、未开始 8"
     },
