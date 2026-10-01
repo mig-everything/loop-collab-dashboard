@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T16:13:47Z",
+  "generated_at": "2026-10-01T16:17:29Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -163,6 +163,12 @@
       },
       "latest_issues": [
         {
+          "key": "BEN-82",
+          "title": "[任务·第1轮] Android 侧定位校准+数据前置（BEN-72 P0 反馈闭环：Antenna",
+          "status": "in_progress",
+          "updated_at": "2026-10-01T16:15:40Z"
+        },
+        {
           "key": "BEN-96",
           "title": "[任务·第3轮] AntennaPod/Simple-Calendar 视觉差分 v1 + 方法固化",
           "status": "in_review",
@@ -179,12 +185,6 @@
           "title": "[BEN-57 断点] antennapod/simple-calendar harmony 用例集",
           "status": "in_progress",
           "updated_at": "2026-10-01T16:08:30Z"
-        },
-        {
-          "key": "BEN-82",
-          "title": "[任务·第1轮] Android 侧定位校准+数据前置（BEN-72 P0 反馈闭环：Antenna",
-          "status": "in_progress",
-          "updated_at": "2026-10-01T16:08:26Z"
         },
         {
           "key": "BEN-95",
@@ -277,7 +277,7 @@
           "key": "DWM-95",
           "title": "[DW迁移任务单] Simple-Calendar 迁移 · 清单+迁移 · 清单生成中 续1·r4",
           "status": "in_progress",
-          "updated_at": "2026-10-01T16:10:31Z"
+          "updated_at": "2026-10-01T16:15:39Z"
         },
         {
           "key": "DWM-98",
@@ -306,9 +306,9 @@
       ],
       "order": {
         "key": "DWM-95",
-        "title": "[DW迁移任务单] Simple-Calendar 迁移 · 清单+迁移 · 清单生成中 续1·r41·474/800步·1页/374项 · 迁移中 3/6 · 清单3.8h/10",
+        "title": "[DW迁移任务单] Simple-Calendar 迁移 · 清单+迁移 · 清单生成中 续1·r41·474/800步·1页/374项 · 迁移中 3/6 · 清单3.9h/10",
         "status": "in_progress",
-        "updated_at": "2026-10-01T16:10:31Z"
+        "updated_at": "2026-10-01T16:15:39Z"
       },
       "progress_note": "10 个应用：完成 1、进行中 1、未开始 8"
     },
