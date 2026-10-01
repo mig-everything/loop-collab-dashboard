@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T08:09:48Z",
+  "generated_at": "2026-10-01T08:13:30Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -130,10 +130,9 @@
           "role": "MiniMax 多模态视觉差分评审",
           "model": "minimax-cn:MiniMax-M3",
           "agent_id": "843ac45d-b5db-4f35-b07b-2e5754ec5a5f",
-          "state": "working",
-          "issue": "BEN-90",
-          "issue_title": "[任务·第2轮] Cofi 双端截图视觉差分 v1 + gold 对照（ref BEN-88）",
-          "since": "2026-10-01T08:03:21Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "项目观察员",
@@ -158,22 +157,22 @@
       ],
       "issue_counts": {
         "todo": 0,
-        "in_progress": 3,
-        "in_review": 0,
+        "in_progress": 2,
+        "in_review": 1,
         "done": 83
       },
       "latest_issues": [
+        {
+          "key": "BEN-90",
+          "title": "[任务·第2轮] Cofi 双端截图视觉差分 v1 + gold 对照（ref BEN-88）",
+          "status": "in_review",
+          "updated_at": "2026-10-01T08:11:52Z"
+        },
         {
           "key": "BEN-82",
           "title": "[任务·第1轮] Android 侧定位校准+数据前置（BEN-72 P0 反馈闭环：Antenna",
           "status": "in_progress",
           "updated_at": "2026-10-01T08:09:10Z"
-        },
-        {
-          "key": "BEN-90",
-          "title": "[任务·第2轮] Cofi 双端截图视觉差分 v1 + gold 对照（ref BEN-88）",
-          "status": "in_progress",
-          "updated_at": "2026-10-01T08:03:38Z"
         },
         {
           "key": "BEN-92",
