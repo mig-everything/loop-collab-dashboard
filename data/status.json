@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T16:21:09Z",
+  "generated_at": "2026-10-01T16:24:49Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -357,10 +357,9 @@
           "role": "IPD-Dev 开发工程师",
           "model": "zai:glm-5.3",
           "agent_id": "44fcec25-d8b3-4af6-b206-1774a64677ce",
-          "state": "working",
-          "issue": "IPD-148",
-          "issue_title": "[Dev·第2轮补派] REQ-006 随手记账 双端编码（鸿蒙优先 US-1~3，闭合 D1/D2/D4/D5/D6）",
-          "since": "2026-10-01T16:04:11Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "hermes-tester",
@@ -405,11 +404,17 @@
       ],
       "issue_counts": {
         "todo": 0,
-        "in_progress": 1,
-        "in_review": 0,
+        "in_progress": 0,
+        "in_review": 1,
         "done": 94
       },
       "latest_issues": [
+        {
+          "key": "IPD-148",
+          "title": "[Dev·第2轮补派] REQ-006 随手记账 双端编码（鸿蒙优先 US-1~3，闭合 D1/D2",
+          "status": "in_review",
+          "updated_at": "2026-10-01T16:24:47Z"
+        },
         {
           "key": "IPD-153",
           "title": "[TR-Design] REQ-007 扫雷双端架构 + 接口契约评审（SA 主持 · 有条件通过）",
@@ -421,12 +426,6 @@
           "title": "[巡检] 2026-10-02 leader Issue 状态巡检与催办",
           "status": "done",
           "updated_at": "2026-10-01T16:04:15Z"
-        },
-        {
-          "key": "IPD-148",
-          "title": "[Dev·第2轮补派] REQ-006 随手记账 双端编码（鸿蒙优先 US-1~3，闭合 D1/D2",
-          "status": "in_progress",
-          "updated_at": "2026-10-01T16:04:07Z"
         },
         {
           "key": "IPD-152",
