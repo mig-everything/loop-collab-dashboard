@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T02:11:59Z",
+  "generated_at": "2026-10-01T02:15:39Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -359,10 +359,9 @@
           "role": "IPD-Dev 开发工程师",
           "model": "",
           "agent_id": "44fcec25-d8b3-4af6-b206-1774a64677ce",
-          "state": "working",
-          "issue": "IPD-106",
-          "issue_title": "[平台·能力⑤] 源码下载 + 截图显示",
-          "since": "2026-10-01T02:04:17Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "hermes-tester",
@@ -406,29 +405,29 @@
         }
       ],
       "issue_counts": {
-        "todo": 2,
+        "todo": 0,
         "in_progress": 0,
-        "in_review": 0,
+        "in_review": 2,
         "done": 95
       },
       "latest_issues": [
+        {
+          "key": "IPD-106",
+          "title": "[平台·能力⑤] 源码下载 + 截图显示",
+          "status": "in_review",
+          "updated_at": "2026-10-01T02:14:49Z"
+        },
+        {
+          "key": "IPD-105",
+          "title": "[平台·能力④] 历史记录/日志查看",
+          "status": "in_review",
+          "updated_at": "2026-10-01T02:13:29Z"
+        },
         {
           "key": "IPD-136",
           "title": "[空闲检测] 2026-10-01 leader 两小时正点检查与加派",
           "status": "done",
           "updated_at": "2026-10-01T02:04:32Z"
-        },
-        {
-          "key": "IPD-106",
-          "title": "[平台·能力⑤] 源码下载 + 截图显示",
-          "status": "todo",
-          "updated_at": "2026-10-01T02:04:16Z"
-        },
-        {
-          "key": "IPD-105",
-          "title": "[平台·能力④] 历史记录/日志查看",
-          "status": "todo",
-          "updated_at": "2026-10-01T02:04:14Z"
         },
         {
           "key": "IPD-134",
