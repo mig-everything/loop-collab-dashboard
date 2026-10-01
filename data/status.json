@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T23:07:52Z",
+  "generated_at": "2026-10-01T23:15:06Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -88,7 +88,7 @@
       "title": "任务2 · 评测集与双端用例",
       "workspace": "ws-benchmark-loop",
       "machine": "张涛 Mac Studio",
-      "machine_online": true,
+      "machine_online": false,
       "meeting_active": false,
       "meeting_title": "",
       "progress": 56,
@@ -99,7 +99,7 @@
           "role": "GPT Scenarist",
           "model": "",
           "agent_id": "6e6f1e24-3bc5-455a-85d2-cb3fb6c9a672",
-          "state": "idle",
+          "state": "offline",
           "issue": "",
           "issue_title": ""
         },
@@ -109,7 +109,7 @@
           "role": "GLM Runner & Analyst",
           "model": "",
           "agent_id": "bdaefa9b-7045-4264-95e4-1db664e353d0",
-          "state": "idle",
+          "state": "offline",
           "issue": "",
           "issue_title": ""
         },
@@ -119,7 +119,7 @@
           "role": "DeepSeek Planner（小组 leader/PM）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "547cd361-ef50-4965-9477-bc659d8a1708",
-          "state": "idle",
+          "state": "offline",
           "issue": "",
           "issue_title": ""
         },
@@ -129,7 +129,7 @@
           "role": "MiniMax 多模态视觉差分评审",
           "model": "minimax-cn:MiniMax-M3",
           "agent_id": "843ac45d-b5db-4f35-b07b-2e5754ec5a5f",
-          "state": "idle",
+          "state": "offline",
           "issue": "",
           "issue_title": ""
         },
@@ -139,7 +139,7 @@
           "role": "只读洞察项目目标与执行证据，用简单语言汇报进展、偏差和阻塞，",
           "model": "",
           "agent_id": "4b674e90-4726-4eba-bd5c-06350e0b8b83",
-          "state": "idle",
+          "state": "offline",
           "issue": "",
           "issue_title": ""
         },
@@ -149,7 +149,7 @@
           "role": "只读洞察项目目标与执行证据，用简单语言汇报进展、偏差和阻塞，",
           "model": "gpt-6-astra",
           "agent_id": "33b902ee-a4ca-46ae-9284-c8285311c687",
-          "state": "idle",
+          "state": "offline",
           "issue": "",
           "issue_title": ""
         }
@@ -279,7 +279,7 @@
           "key": "DWM-95",
           "title": "[DW迁移任务单] Simple-Calendar 迁移 · 清单+迁移 · 清单生成中 续4·r9",
           "status": "in_progress",
-          "updated_at": "2026-10-01T23:07:56Z"
+          "updated_at": "2026-10-01T23:15:18Z"
         },
         {
           "key": "DWM-101",
@@ -308,9 +308,9 @@
       ],
       "order": {
         "key": "DWM-95",
-        "title": "[DW迁移任务单] Simple-Calendar 迁移 · 清单+迁移 · 清单生成中 续4·r99·1319/800步·1页/558项 · 迁移完成 5/6 · 清单10.8h",
+        "title": "[DW迁移任务单] Simple-Calendar 迁移 · 清单+迁移 · 清单生成中 续4·r99·1319/800步·1页/559项 · 迁移完成 5/6 · 清单10.9h",
         "status": "in_progress",
-        "updated_at": "2026-10-01T23:07:56Z"
+        "updated_at": "2026-10-01T23:15:18Z"
       },
       "progress_note": "10 个应用：完成 2、进行中 1、暂停 0、未开始 7"
     },
