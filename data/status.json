@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T12:34:07Z",
+  "generated_at": "2026-10-01T12:37:51Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -210,10 +210,9 @@
           "role": "Opus Analyzer",
           "model": "claude-opus-5-5",
           "agent_id": "2f32549c-87c7-4202-8f54-3af79a30afa0",
-          "state": "working",
-          "issue": "DWM-96",
-          "issue_title": "[任务] Omni-Notes 收口后差异分析 + 对抗评审 + DW 优化建议入池",
-          "since": "2026-10-01T12:08:46Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "deepseek-planner",
