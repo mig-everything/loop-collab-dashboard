@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T20:50:01Z",
+  "generated_at": "2026-10-01T20:53:40Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -388,10 +388,9 @@
           "role": "DeepSeek Planner（小组 leader/PM ",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
-          "state": "working",
-          "issue": "IPD-164",
-          "issue_title": "[TR-Req] REQ-008 喝水打卡提醒 需求评审（PM 主持 · SA 联合评审）",
-          "since": "2026-10-01T20:46:49Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "minimax-uijudge",
@@ -415,7 +414,7 @@
           "key": "IPD-164",
           "title": "[TR-Req] REQ-008 喝水打卡提醒 需求评审（PM 主持 · SA 联合评审）",
           "status": "blocked",
-          "updated_at": "2026-10-01T20:48:42Z"
+          "updated_at": "2026-10-01T20:51:39Z"
         },
         {
           "key": "IPD-163",
