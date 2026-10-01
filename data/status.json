@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T00:16:21Z",
+  "generated_at": "2026-10-01T00:20:02Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -163,6 +163,12 @@
       },
       "latest_issues": [
         {
+          "key": "BEN-82",
+          "title": "[任务·第1轮] Android 侧定位校准+数据前置（BEN-72 P0 反馈闭环：Antenna",
+          "status": "todo",
+          "updated_at": "2026-10-01T00:18:44Z"
+        },
+        {
           "key": "BEN-83",
           "title": "[任务·第1轮] AntennaPod 安卓回归续跑（mod09-70 完整失败清单）+ mod01",
           "status": "in_review",
@@ -179,12 +185,6 @@
           "title": "[BEN-57 断点] antennapod/simple-calendar harmony 用例集",
           "status": "in_progress",
           "updated_at": "2026-10-01T00:08:32Z"
-        },
-        {
-          "key": "BEN-82",
-          "title": "[任务·第1轮] Android 侧定位校准+数据前置（BEN-72 P0 反馈闭环：Antenna",
-          "status": "todo",
-          "updated_at": "2026-10-01T00:08:30Z"
         },
         {
           "key": "BEN-84",
