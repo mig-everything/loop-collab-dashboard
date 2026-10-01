@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T13:03:51Z",
+  "generated_at": "2026-10-01T13:11:10Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -241,7 +241,7 @@
           "agent_id": "1c3481f5-135b-4959-9daa-c510c076d494",
           "state": "working",
           "issue": "DWM-95",
-          "issue_title": "[DW迁移任务单] Simple-Calendar 迁移 · 清单+迁移 · 清单生成中 r11·53/800步·1页/",
+          "issue_title": "[DW迁移任务单] Simple-Calendar 迁移 · 清单+迁移 · 清单生成中 r12·63/800步·1页/",
           "since": "2026-10-01T12:10:20Z"
         },
         {
@@ -274,9 +274,9 @@
       "latest_issues": [
         {
           "key": "DWM-95",
-          "title": "[DW迁移任务单] Simple-Calendar 迁移 · 清单+迁移 · 清单生成中 r11·5",
+          "title": "[DW迁移任务单] Simple-Calendar 迁移 · 清单+迁移 · 清单生成中 r12·6",
           "status": "in_progress",
-          "updated_at": "2026-10-01T13:03:58Z"
+          "updated_at": "2026-10-01T13:09:05Z"
         },
         {
           "key": "DWM-96",
@@ -305,9 +305,9 @@
       ],
       "order": {
         "key": "DWM-95",
-        "title": "[DW迁移任务单] Simple-Calendar 迁移 · 清单+迁移 · 清单生成中 r11·53/800步·1页/132项 · 迁移中 2/6 · 清单0.7h/10h 迁移",
+        "title": "[DW迁移任务单] Simple-Calendar 迁移 · 清单+迁移 · 清单生成中 r12·63/800步·1页/141项 · 迁移中 2/6 · 清单0.8h/10h 迁移",
         "status": "in_progress",
-        "updated_at": "2026-10-01T13:03:58Z"
+        "updated_at": "2026-10-01T13:09:05Z"
       },
       "progress_note": "10 个应用：完成 1、进行中 1、未开始 8"
     },
