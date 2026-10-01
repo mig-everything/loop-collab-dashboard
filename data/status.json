@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T16:06:20Z",
+  "generated_at": "2026-10-01T16:10:03Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -99,9 +99,10 @@
           "role": "GPT Scenarist",
           "model": "",
           "agent_id": "6e6f1e24-3bc5-455a-85d2-cb3fb6c9a672",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "BEN-79",
+          "issue_title": "[BEN-57 断点] antennapod/simple-calendar harmony 用例集定位层就绪（占位 b",
+          "since": "2026-10-01T16:08:34Z"
         },
         {
           "name": "glm-runner",
@@ -119,10 +120,9 @@
           "role": "DeepSeek Planner（小组 leader/PM）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "547cd361-ef50-4965-9477-bc659d8a1708",
-          "state": "working",
-          "issue": "BEN-98",
-          "issue_title": "[巡检] 2026-10-02 leader Issue 状态巡检与催办",
-          "since": "2026-10-01T16:04:23Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "minimax-visual-diff",
@@ -130,9 +130,10 @@
           "role": "MiniMax 多模态视觉差分评审",
           "model": "minimax-cn:MiniMax-M3",
           "agent_id": "843ac45d-b5db-4f35-b07b-2e5754ec5a5f",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "BEN-96",
+          "issue_title": "[任务·第3轮] AntennaPod/Simple-Calendar 视觉差分 v1 + 方法固化（ref BEN-9",
+          "since": "2026-10-01T16:08:38Z"
         },
         {
           "name": "项目观察员",
@@ -156,41 +157,41 @@
         }
       ],
       "issue_counts": {
-        "todo": 2,
+        "todo": 1,
         "in_progress": 2,
-        "in_review": 1,
-        "done": 87
+        "in_review": 0,
+        "done": 89
       },
       "latest_issues": [
         {
           "key": "BEN-98",
           "title": "[巡检] 2026-10-02 leader Issue 状态巡检与催办",
-          "status": "todo",
-          "updated_at": "2026-10-01T16:00:22Z"
-        },
-        {
-          "key": "BEN-97",
-          "title": "[空闲检测] 2026-10-01 leader 两小时正点检查与加派",
           "status": "done",
-          "updated_at": "2026-10-01T14:02:20Z"
-        },
-        {
-          "key": "BEN-95",
-          "title": "[任务·第3轮] 安卓断言/基础设施硬化 + 口径⑥复跑就绪（ref BEN-89 反馈）",
-          "status": "in_review",
-          "updated_at": "2026-10-01T12:56:00Z"
+          "updated_at": "2026-10-01T16:08:55Z"
         },
         {
           "key": "BEN-96",
           "title": "[任务·第3轮] AntennaPod/Simple-Calendar 视觉差分 v1 + 方法固化",
           "status": "todo",
-          "updated_at": "2026-10-01T12:21:17Z"
+          "updated_at": "2026-10-01T16:08:35Z"
+        },
+        {
+          "key": "BEN-79",
+          "title": "[BEN-57 断点] antennapod/simple-calendar harmony 用例集",
+          "status": "in_progress",
+          "updated_at": "2026-10-01T16:08:30Z"
         },
         {
           "key": "BEN-82",
           "title": "[任务·第1轮] Android 侧定位校准+数据前置（BEN-72 P0 反馈闭环：Antenna",
           "status": "in_progress",
-          "updated_at": "2026-10-01T12:14:20Z"
+          "updated_at": "2026-10-01T16:08:26Z"
+        },
+        {
+          "key": "BEN-95",
+          "title": "[任务·第3轮] 安卓断言/基础设施硬化 + 口径⑥复跑就绪（ref BEN-89 反馈）",
+          "status": "done",
+          "updated_at": "2026-10-01T16:08:20Z"
         }
       ]
     },
