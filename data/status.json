@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T00:23:42Z",
+  "generated_at": "2026-10-01T01:21:03Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -119,9 +119,10 @@
           "role": "DeepSeek Planner（小组 leader/PM）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "547cd361-ef50-4965-9477-bc659d8a1708",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "BEN-86",
+          "issue_title": "[自决事项] gold锚定口径+bundleName冲突+test端P2缺陷 三决策（loop-collab#14/#3",
+          "since": "2026-10-01T01:18:38Z"
         },
         {
           "name": "minimax-visual-diff",
@@ -155,12 +156,24 @@
         }
       ],
       "issue_counts": {
-        "todo": 1,
+        "todo": 2,
         "in_progress": 1,
         "in_review": 1,
         "done": 76
       },
       "latest_issues": [
+        {
+          "key": "BEN-64",
+          "title": "跟踪测例通过率，分析迭代效率",
+          "status": "done",
+          "updated_at": "2026-10-01T01:21:14Z"
+        },
+        {
+          "key": "BEN-86",
+          "title": "[自决事项] gold锚定口径+bundleName冲突+test端P2缺陷 三决策（loop-co",
+          "status": "todo",
+          "updated_at": "2026-10-01T01:18:37Z"
+        },
         {
           "key": "BEN-79",
           "title": "[BEN-57 断点] antennapod/simple-calendar harmony 用例集",
@@ -178,18 +191,6 @@
           "title": "[任务·第1轮] AntennaPod 安卓回归续跑（mod09-70 完整失败清单）+ mod01",
           "status": "in_review",
           "updated_at": "2026-10-01T00:09:43Z"
-        },
-        {
-          "key": "BEN-85",
-          "title": "[巡检] 2026-10-01 leader Issue 状态巡检与催办",
-          "status": "done",
-          "updated_at": "2026-10-01T00:08:47Z"
-        },
-        {
-          "key": "BEN-84",
-          "title": "[空闲检测] 2026-10-01 leader 两小时正点检查与加派",
-          "status": "done",
-          "updated_at": "2026-09-30T22:01:55Z"
         }
       ]
     },
@@ -389,9 +390,10 @@
           "role": "DeepSeek Planner（小组 leader/PM ",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-134",
+          "issue_title": "[自决事项] REQ-004 跨设备取证方案决策（loop-collab#8，全自治原则：降级或明确挂起）",
+          "since": "2026-10-01T01:18:39Z"
         },
         {
           "name": "minimax-uijudge",
@@ -405,12 +407,18 @@
         }
       ],
       "issue_counts": {
-        "todo": 2,
+        "todo": 3,
         "in_progress": 0,
         "in_review": 0,
-        "done": 96
+        "done": 95
       },
       "latest_issues": [
+        {
+          "key": "IPD-134",
+          "title": "[自决事项] REQ-004 跨设备取证方案决策（loop-collab#8，全自治原则：降级或明确",
+          "status": "todo",
+          "updated_at": "2026-10-01T01:18:38Z"
+        },
         {
           "key": "IPD-103",
           "title": "[平台·能力②] 双端生成引擎（Claude Code，安卓+鸿蒙同需求同生成）",
@@ -434,12 +442,6 @@
           "title": "[SE·第1轮] 平台追踪矩阵代码/测试列回填 + REQ-006 矩阵二次对齐",
           "status": "done",
           "updated_at": "2026-10-01T00:02:57Z"
-        },
-        {
-          "key": "IPD-125",
-          "title": "[架构·第1轮] REQ-006 随手记账双端架构 + 接口契约 + TR-Design 评审（闭合",
-          "status": "done",
-          "updated_at": "2026-10-01T00:02:56Z"
         }
       ]
     }
