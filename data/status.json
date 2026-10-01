@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T07:12:00Z",
+  "generated_at": "2026-10-01T08:02:24Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -37,18 +37,25 @@
           "role": "DeepSeek Task Planner（任务规划+总结）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "04a4e04e-59d5-4f3a-8a16-acf99b80a493",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "SUR-105",
+          "issue_title": "[巡检] 2026-10-01 leader Issue 状态巡检与催办",
+          "since": "2026-10-01T08:00:21Z"
         }
       ],
       "issue_counts": {
-        "todo": 1,
+        "todo": 2,
         "in_progress": 0,
         "in_review": 2,
         "done": 85
       },
       "latest_issues": [
+        {
+          "key": "SUR-105",
+          "title": "[巡检] 2026-10-01 leader Issue 状态巡检与催办",
+          "status": "todo",
+          "updated_at": "2026-10-01T08:00:21Z"
+        },
         {
           "key": "SUR-102",
           "title": "[评审][day-7] 事后对抗评审英文第 1 章（01-introduction.tex，SUR-",
@@ -72,12 +79,6 @@
           "title": "[空闲检测] 2026-10-01 leader 两小时正点检查与加派",
           "status": "done",
           "updated_at": "2026-10-01T06:10:25Z"
-        },
-        {
-          "key": "SUR-98",
-          "title": "[午会纪要] 2026-10-01",
-          "status": "done",
-          "updated_at": "2026-10-01T05:11:01Z"
         }
       ],
       "progress_note": "day-4 晨 37% → 午 42% → 晚 44% → 夜 47%",
@@ -119,9 +120,10 @@
           "role": "DeepSeek Planner（小组 leader/PM）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "547cd361-ef50-4965-9477-bc659d8a1708",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "BEN-92",
+          "issue_title": "[巡检] 2026-10-01 leader Issue 状态巡检与催办",
+          "since": "2026-10-01T08:00:09Z"
         },
         {
           "name": "minimax-visual-diff",
@@ -155,12 +157,18 @@
         }
       ],
       "issue_counts": {
-        "todo": 1,
+        "todo": 2,
         "in_progress": 2,
         "in_review": 1,
         "done": 81
       },
       "latest_issues": [
+        {
+          "key": "BEN-92",
+          "title": "[巡检] 2026-10-01 leader Issue 状态巡检与催办",
+          "status": "todo",
+          "updated_at": "2026-10-01T08:00:05Z"
+        },
         {
           "key": "BEN-91",
           "title": "[空闲检测] 2026-10-01 leader 两小时正点检查与加派",
@@ -184,12 +192,6 @@
           "title": "[午会纪要] 2026-10-01",
           "status": "done",
           "updated_at": "2026-10-01T04:12:04Z"
-        },
-        {
-          "key": "BEN-83",
-          "title": "[任务·第1轮] AntennaPod 安卓回归续跑（mod09-70 完整失败清单）+ mod01",
-          "status": "done",
-          "updated_at": "2026-10-01T04:05:36Z"
         }
       ]
     },
@@ -271,9 +273,15 @@
         "todo": 0,
         "in_progress": 1,
         "in_review": 0,
-        "done": 60
+        "done": 61
       },
       "latest_issues": [
+        {
+          "key": "DWM-89",
+          "title": "[巡检] 2026-10-01 leader Issue 状态巡检与催办",
+          "status": "done",
+          "updated_at": "2026-10-01T08:02:28Z"
+        },
         {
           "key": "DWM-40",
           "title": "[DW迁移任务单] Omni-Notes 迁移 · 修复 wave 4/4",
@@ -297,12 +305,6 @@
           "title": "[空闲检测] 2026-10-01 leader 两小时正点检查与加派",
           "status": "done",
           "updated_at": "2026-10-01T02:02:40Z"
-        },
-        {
-          "key": "DWM-82",
-          "title": "[巡检] 2026-10-01 leader Issue 状态巡检与催办",
-          "status": "done",
-          "updated_at": "2026-10-01T00:02:38Z"
         }
       ],
       "order": {
@@ -405,12 +407,18 @@
         }
       ],
       "issue_counts": {
-        "todo": 3,
+        "todo": 4,
         "in_progress": 0,
         "in_review": 2,
-        "done": 92
+        "done": 91
       },
       "latest_issues": [
+        {
+          "key": "IPD-140",
+          "title": "[巡检] 2026-10-01 leader Issue 状态巡检与催办",
+          "status": "todo",
+          "updated_at": "2026-10-01T08:00:21Z"
+        },
         {
           "key": "IPD-139",
           "title": "[空闲检测] 2026-10-01 leader 两小时正点检查与加派",
@@ -434,12 +442,6 @@
           "title": "[平台·能力⑤] 源码下载 + 截图显示",
           "status": "in_review",
           "updated_at": "2026-10-01T02:14:49Z"
-        },
-        {
-          "key": "IPD-105",
-          "title": "[平台·能力④] 历史记录/日志查看",
-          "status": "in_review",
-          "updated_at": "2026-10-01T02:13:29Z"
         }
       ]
     }
