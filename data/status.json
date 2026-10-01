@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T16:02:38Z",
+  "generated_at": "2026-10-01T16:06:20Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -37,24 +37,23 @@
           "role": "DeepSeek Task Planner（任务规划+总结）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "04a4e04e-59d5-4f3a-8a16-acf99b80a493",
-          "state": "working",
-          "issue": "SUR-117",
-          "issue_title": "[巡检] 2026-10-02 leader Issue 状态巡检与催办",
-          "since": "2026-10-01T16:00:18Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         }
       ],
       "issue_counts": {
-        "todo": 3,
+        "todo": 2,
         "in_progress": 0,
         "in_review": 0,
-        "done": 95
+        "done": 96
       },
       "latest_issues": [
         {
           "key": "SUR-117",
           "title": "[巡检] 2026-10-02 leader Issue 状态巡检与催办",
-          "status": "todo",
-          "updated_at": "2026-10-01T16:00:17Z"
+          "status": "done",
+          "updated_at": "2026-10-01T16:02:52Z"
         },
         {
           "key": "SUR-116",
@@ -121,8 +120,9 @@
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "547cd361-ef50-4965-9477-bc659d8a1708",
           "state": "working",
-          "issue": "",
-          "issue_title": ""
+          "issue": "BEN-98",
+          "issue_title": "[巡检] 2026-10-02 leader Issue 状态巡检与催办",
+          "since": "2026-10-01T16:04:23Z"
         },
         {
           "name": "minimax-visual-diff",
@@ -242,7 +242,7 @@
           "agent_id": "1c3481f5-135b-4959-9daa-c510c076d494",
           "state": "working",
           "issue": "DWM-95",
-          "issue_title": "[DW迁移任务单] Simple-Calendar 迁移 · 清单+迁移 · 清单生成中 续1·r38·450/800步",
+          "issue_title": "[DW迁移任务单] Simple-Calendar 迁移 · 清单+迁移 · 清单生成中 续1·r39·457/800步",
           "since": "2026-10-01T15:49:07Z"
         },
         {
@@ -274,6 +274,12 @@
       },
       "latest_issues": [
         {
+          "key": "DWM-95",
+          "title": "[DW迁移任务单] Simple-Calendar 迁移 · 清单+迁移 · 清单生成中 续1·r3",
+          "status": "in_progress",
+          "updated_at": "2026-10-01T16:05:22Z"
+        },
+        {
           "key": "DWM-98",
           "title": "[巡检] 2026-10-02 leader Issue 状态巡检与催办",
           "status": "done",
@@ -284,12 +290,6 @@
           "title": "[任务] Omni-Notes 收口后差异分析 + 对抗评审 + DW 优化建议入池",
           "status": "done",
           "updated_at": "2026-10-01T16:02:10Z"
-        },
-        {
-          "key": "DWM-95",
-          "title": "[DW迁移任务单] Simple-Calendar 迁移 · 清单+迁移 · 清单生成中 续1·r3",
-          "status": "in_progress",
-          "updated_at": "2026-10-01T16:00:12Z"
         },
         {
           "key": "DWM-97",
@@ -306,9 +306,9 @@
       ],
       "order": {
         "key": "DWM-95",
-        "title": "[DW迁移任务单] Simple-Calendar 迁移 · 清单+迁移 · 清单生成中 续1·r38·450/800步·1页/371项 · 迁移中 3/6 · 清单3.7h/10",
+        "title": "[DW迁移任务单] Simple-Calendar 迁移 · 清单+迁移 · 清单生成中 续1·r39·457/800步·1页/374项 · 迁移中 3/6 · 清单3.8h/10",
         "status": "in_progress",
-        "updated_at": "2026-10-01T16:00:12Z"
+        "updated_at": "2026-10-01T16:05:22Z"
       },
       "progress_note": "10 个应用：完成 1、进行中 1、未开始 8"
     },
@@ -358,9 +358,10 @@
           "role": "IPD-Dev 开发工程师",
           "model": "zai:glm-5.3",
           "agent_id": "44fcec25-d8b3-4af6-b206-1774a64677ce",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-148",
+          "issue_title": "[Dev·第2轮补派] REQ-006 随手记账 双端编码（鸿蒙优先 US-1~3，闭合 D1/D2/D4/D5/D6）",
+          "since": "2026-10-01T16:04:11Z"
         },
         {
           "name": "hermes-tester",
@@ -388,10 +389,9 @@
           "role": "DeepSeek Planner（小组 leader/PM ",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
-          "state": "working",
-          "issue": "IPD-155",
-          "issue_title": "[巡检] 2026-10-02 leader Issue 状态巡检与催办",
-          "since": "2026-10-01T16:00:25Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "minimax-uijudge",
@@ -405,41 +405,41 @@
         }
       ],
       "issue_counts": {
-        "todo": 2,
+        "todo": 0,
         "in_progress": 1,
-        "in_review": 4,
-        "done": 88
+        "in_review": 0,
+        "done": 94
       },
       "latest_issues": [
         {
-          "key": "IPD-155",
-          "title": "[巡检] 2026-10-02 leader Issue 状态巡检与催办",
-          "status": "todo",
-          "updated_at": "2026-10-01T16:00:24Z"
+          "key": "IPD-153",
+          "title": "[TR-Design] REQ-007 扫雷双端架构 + 接口契约评审（SA 主持 · 有条件通过）",
+          "status": "done",
+          "updated_at": "2026-10-01T16:05:15Z"
         },
         {
-          "key": "IPD-154",
-          "title": "[空闲检测] 2026-10-01 leader 两小时正点检查与加派",
+          "key": "IPD-155",
+          "title": "[巡检] 2026-10-02 leader Issue 状态巡检与催办",
           "status": "done",
-          "updated_at": "2026-10-01T14:03:09Z"
+          "updated_at": "2026-10-01T16:04:15Z"
+        },
+        {
+          "key": "IPD-148",
+          "title": "[Dev·第2轮补派] REQ-006 随手记账 双端编码（鸿蒙优先 US-1~3，闭合 D1/D2",
+          "status": "in_progress",
+          "updated_at": "2026-10-01T16:04:07Z"
         },
         {
           "key": "IPD-152",
           "title": "[RM·第3轮夜间] 平台里程碑 M3(TR4) 验收状态盘点 + 四维差环比口径更新",
-          "status": "in_review",
-          "updated_at": "2026-10-01T12:31:10Z"
-        },
-        {
-          "key": "IPD-144",
-          "title": "[晚会纪要] 2026-10-01 · 补第2轮+派第3轮夜间（总进度 66%）",
           "status": "done",
-          "updated_at": "2026-10-01T12:31:02Z"
+          "updated_at": "2026-10-01T16:04:02Z"
         },
         {
           "key": "IPD-151",
           "title": "[Tester·第3轮夜间] 平台级单测补全（19→27）+ REQ-006 双端差分用例正式化",
-          "status": "in_review",
-          "updated_at": "2026-10-01T12:28:01Z"
+          "status": "done",
+          "updated_at": "2026-10-01T16:04:00Z"
         }
       ]
     }
