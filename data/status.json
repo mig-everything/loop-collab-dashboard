@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T02:15:39Z",
+  "generated_at": "2026-10-01T02:30:04Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -249,9 +249,12 @@
           "role": "验证员",
           "model": "claude-opus-5-5",
           "agent_id": "69822c63-0dcc-4f3e-875d-7b300d437623",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "DWM-83",
+          "issue_title": "[DWM-40·wave2] Omni-Notes 修复第 2 波（25 条）",
+          "since": "2026-10-01T02:30:19Z",
+          "parent_issue": "DWM-40",
+          "parent_title": "[DW迁移任务单] Omni-Notes 迁移 · 修复 wave 2/4 · 待人工"
         },
         {
           "name": "exec-fixer",
