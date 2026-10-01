@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T05:12:42Z",
+  "generated_at": "2026-10-01T05:37:54Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -405,12 +405,18 @@
         }
       ],
       "issue_counts": {
-        "todo": 1,
+        "todo": 2,
         "in_progress": 0,
         "in_review": 2,
-        "done": 94
+        "done": 93
       },
       "latest_issues": [
+        {
+          "key": "IPD-138",
+          "title": "[冒烟测试] task4 zai(GLM-5.3) token 余额探测——最小 API 调用验证",
+          "status": "todo",
+          "updated_at": "2026-10-01T05:36:54Z"
+        },
         {
           "key": "IPD-137",
           "title": "[午会纪要] 2026-10-01",
@@ -434,12 +440,6 @@
           "title": "[空闲检测] 2026-10-01 leader 两小时正点检查与加派",
           "status": "done",
           "updated_at": "2026-10-01T02:04:32Z"
-        },
-        {
-          "key": "IPD-134",
-          "title": "[自决事项] REQ-004 跨设备取证方案决策（loop-collab#8，全自治原则：降级或明确",
-          "status": "done",
-          "updated_at": "2026-10-01T01:22:45Z"
         }
       ]
     }
