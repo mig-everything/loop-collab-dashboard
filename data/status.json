@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T22:13:12Z",
+  "generated_at": "2026-10-01T22:16:50Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -276,7 +276,7 @@
           "key": "DWM-95",
           "title": "[DW迁移任务单] Simple-Calendar 迁移 · 清单+迁移 · 清单生成中 续2·r9",
           "status": "in_progress",
-          "updated_at": "2026-10-01T22:11:46Z"
+          "updated_at": "2026-10-01T22:16:03Z"
         },
         {
           "key": "DWM-101",
@@ -305,9 +305,9 @@
       ],
       "order": {
         "key": "DWM-95",
-        "title": "[DW迁移任务单] Simple-Calendar 迁移 · 清单+迁移 · 清单生成中 续2·r93·1241/800步·1页/550项 · 迁移中 6/6 · 清单9.9h/1",
+        "title": "[DW迁移任务单] Simple-Calendar 迁移 · 清单+迁移 · 清单生成中 续2·r93·1241/800步·1页/551项 · 迁移完成 6/6 · 清单9.9h/",
         "status": "in_progress",
-        "updated_at": "2026-10-01T22:11:46Z"
+        "updated_at": "2026-10-01T22:16:03Z"
       },
       "progress_note": "10 个应用：完成 2、进行中 1、暂停 0、未开始 7"
     },
