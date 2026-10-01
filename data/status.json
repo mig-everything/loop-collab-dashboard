@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T22:16:50Z",
+  "generated_at": "2026-10-01T22:20:28Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -229,9 +229,10 @@
           "role": "DW 迁移执行小队队长",
           "model": "claude-opus-5-5",
           "agent_id": "c6ff7c69-0db4-4b35-ac81-dd00e5a53ba4",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "DWM-95",
+          "issue_title": "[DW迁移任务单] Simple-Calendar 迁移 · 清单+迁移 · 清单生成中 续3·r93·1241/800",
+          "since": "2026-10-01T22:20:14Z"
         },
         {
           "name": "exec-runner",
@@ -241,7 +242,7 @@
           "agent_id": "1c3481f5-135b-4959-9daa-c510c076d494",
           "state": "working",
           "issue": "DWM-95",
-          "issue_title": "[DW迁移任务单] Simple-Calendar 迁移 · 清单+迁移 · 清单生成中 续2·r93·1241/800",
+          "issue_title": "[DW迁移任务单] Simple-Calendar 迁移 · 清单+迁移 · 清单生成中 续3·r93·1241/800",
           "since": "2026-10-01T21:18:35Z"
         },
         {
@@ -250,9 +251,12 @@
           "role": "验证员",
           "model": "claude-opus-5-5",
           "agent_id": "69822c63-0dcc-4f3e-875d-7b300d437623",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "DWM-102",
+          "issue_title": "[DWM-95·审计] Simple-Calendar 还原审计（dw-baseline/20261001-01）",
+          "since": "2026-10-01T22:18:39Z",
+          "parent_issue": "DWM-95",
+          "parent_title": "[DW迁移任务单] Simple-Calendar 迁移 · 清单+迁移 · 清单生成中 续3·r93·1241/800"
         },
         {
           "name": "exec-fixer",
@@ -260,23 +264,26 @@
           "role": "修复员",
           "model": "claude-opus-5-5",
           "agent_id": "cd70e713-a339-4621-8699-2058d9cf7d6b",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "DWM-103",
+          "issue_title": "[DWM-95·过程归因] Simple-Calendar 迁移过程归因",
+          "since": "2026-10-01T22:18:41Z",
+          "parent_issue": "DWM-95",
+          "parent_title": "[DW迁移任务单] Simple-Calendar 迁移 · 清单+迁移 · 清单生成中 续3·r93·1241/800"
         }
       ],
       "issue_counts": {
         "todo": 0,
         "in_progress": 1,
         "in_review": 0,
-        "done": 70
+        "done": 69
       },
       "latest_issues": [
         {
           "key": "DWM-95",
-          "title": "[DW迁移任务单] Simple-Calendar 迁移 · 清单+迁移 · 清单生成中 续2·r9",
+          "title": "[DW迁移任务单] Simple-Calendar 迁移 · 清单+迁移 · 清单生成中 续3·r9",
           "status": "in_progress",
-          "updated_at": "2026-10-01T22:16:03Z"
+          "updated_at": "2026-10-01T22:20:13Z"
         },
         {
           "key": "DWM-101",
@@ -305,9 +312,9 @@
       ],
       "order": {
         "key": "DWM-95",
-        "title": "[DW迁移任务单] Simple-Calendar 迁移 · 清单+迁移 · 清单生成中 续2·r93·1241/800步·1页/551项 · 迁移完成 6/6 · 清单9.9h/",
+        "title": "[DW迁移任务单] Simple-Calendar 迁移 · 清单+迁移 · 清单生成中 续3·r93·1241/800步·1页/551项 · 迁移完成 6/6 · 清单10.0h",
         "status": "in_progress",
-        "updated_at": "2026-10-01T22:16:03Z"
+        "updated_at": "2026-10-01T22:20:13Z"
       },
       "progress_note": "10 个应用：完成 2、进行中 1、暂停 0、未开始 7"
     },
