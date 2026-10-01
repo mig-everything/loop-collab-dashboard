@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T01:42:53Z",
+  "generated_at": "2026-10-01T02:00:53Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -37,18 +37,25 @@
           "role": "DeepSeek Task Planner（任务规划+总结）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "04a4e04e-59d5-4f3a-8a16-acf99b80a493",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "SUR-96",
+          "issue_title": "[空闲检测] 2026-10-01 leader 两小时正点检查与加派",
+          "since": "2026-10-01T02:00:19Z"
         }
       ],
       "issue_counts": {
-        "todo": 1,
+        "todo": 2,
         "in_progress": 0,
         "in_review": 1,
         "done": 77
       },
       "latest_issues": [
+        {
+          "key": "SUR-96",
+          "title": "[空闲检测] 2026-10-01 leader 两小时正点检查与加派",
+          "status": "todo",
+          "updated_at": "2026-10-01T02:00:18Z"
+        },
         {
           "key": "SUR-95",
           "title": "[评审][day-7] 事后对抗评审英文第 6 章（06-challenges.tex，SUR-92",
@@ -72,12 +79,6 @@
           "title": "[评审][day-7] 事后对抗评审英文第 4 章（04-enabling-tech.tex，SUR",
           "status": "done",
           "updated_at": "2026-10-01T00:03:50Z"
-        },
-        {
-          "key": "SUR-87",
-          "title": "[评审][day-7] 事后对抗评审英文第 5 章（05-evaluation.tex，SUR-82",
-          "status": "done",
-          "updated_at": "2026-10-01T00:03:40Z"
         }
       ],
       "progress_note": "day-4 晨 37% → 午 42% → 晚 44% → 夜 47%",
@@ -119,9 +120,10 @@
           "role": "DeepSeek Planner（小组 leader/PM）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "547cd361-ef50-4965-9477-bc659d8a1708",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "BEN-87",
+          "issue_title": "[空闲检测] 2026-10-01 leader 两小时正点检查与加派",
+          "since": "2026-10-01T02:00:22Z"
         },
         {
           "name": "minimax-visual-diff",
@@ -155,12 +157,18 @@
         }
       ],
       "issue_counts": {
-        "todo": 1,
+        "todo": 2,
         "in_progress": 1,
         "in_review": 1,
         "done": 77
       },
       "latest_issues": [
+        {
+          "key": "BEN-87",
+          "title": "[空闲检测] 2026-10-01 leader 两小时正点检查与加派",
+          "status": "todo",
+          "updated_at": "2026-10-01T02:00:22Z"
+        },
         {
           "key": "BEN-64",
           "title": "跟踪测例通过率，分析迭代效率",
@@ -184,12 +192,6 @@
           "title": "[任务·第1轮] Android 侧定位校准+数据前置（BEN-72 P0 反馈闭环：Antenna",
           "status": "todo",
           "updated_at": "2026-10-01T00:18:44Z"
-        },
-        {
-          "key": "BEN-83",
-          "title": "[任务·第1轮] AntennaPod 安卓回归续跑（mod09-70 完整失败清单）+ mod01",
-          "status": "in_review",
-          "updated_at": "2026-10-01T00:09:43Z"
         }
       ]
     },
@@ -219,9 +221,10 @@
           "role": "DeepSeek Planner（小组 leader/PM，",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "950ff614-521d-4e32-a02d-423d41a7b2b3",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "DWM-84",
+          "issue_title": "[空闲检测] 2026-10-01 leader 两小时正点检查与加派",
+          "since": "2026-10-01T02:00:16Z"
         },
         {
           "name": "dw-lead",
@@ -268,12 +271,18 @@
         }
       ],
       "issue_counts": {
-        "todo": 0,
+        "todo": 1,
         "in_progress": 1,
         "in_review": 0,
         "done": 57
       },
       "latest_issues": [
+        {
+          "key": "DWM-84",
+          "title": "[空闲检测] 2026-10-01 leader 两小时正点检查与加派",
+          "status": "todo",
+          "updated_at": "2026-10-01T02:00:15Z"
+        },
         {
           "key": "DWM-40",
           "title": "[DW迁移任务单] Omni-Notes 迁移 · 修复 wave 2/4 · 待人工",
@@ -297,12 +306,6 @@
           "title": "[空闲检测] 2026-10-01 leader 两小时正点检查与加派",
           "status": "done",
           "updated_at": "2026-09-30T22:02:11Z"
-        },
-        {
-          "key": "DWM-79",
-          "title": "[早会纪要] 2026-10-01",
-          "status": "done",
-          "updated_at": "2026-09-30T20:12:15Z"
         }
       ],
       "order": {
@@ -389,9 +392,10 @@
           "role": "DeepSeek Planner（小组 leader/PM ",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-136",
+          "issue_title": "[空闲检测] 2026-10-01 leader 两小时正点检查与加派",
+          "since": "2026-10-01T02:00:33Z"
         },
         {
           "name": "minimax-uijudge",
@@ -405,12 +409,18 @@
         }
       ],
       "issue_counts": {
-        "todo": 2,
+        "todo": 3,
         "in_progress": 0,
         "in_review": 0,
-        "done": 95
+        "done": 94
       },
       "latest_issues": [
+        {
+          "key": "IPD-136",
+          "title": "[空闲检测] 2026-10-01 leader 两小时正点检查与加派",
+          "status": "todo",
+          "updated_at": "2026-10-01T02:00:30Z"
+        },
         {
           "key": "IPD-134",
           "title": "[自决事项] REQ-004 跨设备取证方案决策（loop-collab#8，全自治原则：降级或明确",
@@ -434,12 +444,6 @@
           "title": "[TR-Design] REQ-006 随手记账 双端架构 + 接口契约 设计评审（IPD-125）",
           "status": "done",
           "updated_at": "2026-10-01T00:03:15Z"
-        },
-        {
-          "key": "IPD-128",
-          "title": "[SE·第1轮] 平台追踪矩阵代码/测试列回填 + REQ-006 矩阵二次对齐",
-          "status": "done",
-          "updated_at": "2026-10-01T00:02:57Z"
         }
       ]
     }
