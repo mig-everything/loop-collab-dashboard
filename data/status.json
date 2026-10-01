@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T22:05:57Z",
+  "generated_at": "2026-10-01T22:09:34Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -241,7 +241,7 @@
           "agent_id": "1c3481f5-135b-4959-9daa-c510c076d494",
           "state": "working",
           "issue": "DWM-95",
-          "issue_title": "[DW迁移任务单] Simple-Calendar 迁移 · 清单+迁移 · 清单生成中 续2·r90·1179/800",
+          "issue_title": "[DW迁移任务单] Simple-Calendar 迁移 · 清单+迁移 · 清单生成中 续2·r92·1222/800",
           "since": "2026-10-01T21:18:35Z"
         },
         {
@@ -273,16 +273,16 @@
       },
       "latest_issues": [
         {
+          "key": "DWM-95",
+          "title": "[DW迁移任务单] Simple-Calendar 迁移 · 清单+迁移 · 清单生成中 续2·r9",
+          "status": "in_progress",
+          "updated_at": "2026-10-01T22:06:37Z"
+        },
+        {
           "key": "DWM-101",
           "title": "[空闲检测] 2026-10-02 leader 两小时正点检查与加派",
           "status": "done",
           "updated_at": "2026-10-01T22:01:32Z"
-        },
-        {
-          "key": "DWM-95",
-          "title": "[DW迁移任务单] Simple-Calendar 迁移 · 清单+迁移 · 清单生成中 续2·r9",
-          "status": "in_progress",
-          "updated_at": "2026-10-01T22:01:29Z"
         },
         {
           "key": "DWM-100",
@@ -305,9 +305,9 @@
       ],
       "order": {
         "key": "DWM-95",
-        "title": "[DW迁移任务单] Simple-Calendar 迁移 · 清单+迁移 · 清单生成中 续2·r90·1179/800步·1页/550项 · 迁移中 4/6 · 清单9.7h/1",
+        "title": "[DW迁移任务单] Simple-Calendar 迁移 · 清单+迁移 · 清单生成中 续2·r92·1222/800步·1页/550项 · 迁移中 4/6 · 清单9.8h/1",
         "status": "in_progress",
-        "updated_at": "2026-10-01T22:01:29Z"
+        "updated_at": "2026-10-01T22:06:37Z"
       },
       "progress_note": "10 个应用：完成 2、进行中 1、暂停 0、未开始 7"
     },
