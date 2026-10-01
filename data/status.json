@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T18:39:16Z",
+  "generated_at": "2026-10-01T18:42:55Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -367,10 +367,9 @@
           "role": "IPD-Tester 测试工程师",
           "model": "zai:glm-5.3",
           "agent_id": "86df9f14-a2cd-46d9-ad15-dbe8606ebd73",
-          "state": "working",
-          "issue": "IPD-160",
-          "issue_title": "[Tester·临时加派] REQ-006 随手记账 TR-Accept 差分执行（收口 D3）",
-          "since": "2026-10-01T18:06:56Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "hermes-rm",
@@ -411,6 +410,12 @@
       },
       "latest_issues": [
         {
+          "key": "IPD-160",
+          "title": "[Tester·临时加派] REQ-006 随手记账 TR-Accept 差分执行（收口 D3）",
+          "status": "todo",
+          "updated_at": "2026-10-01T18:42:34Z"
+        },
+        {
           "key": "IPD-159",
           "title": "[Tester·临时加派] REQ-007 扫雷差分用例清单 + 差分断言（TDD 先行）",
           "status": "in_review",
@@ -433,12 +438,6 @@
           "title": "[临时会议·空闲加派] 2026-10-02 02 点场",
           "status": "done",
           "updated_at": "2026-10-01T18:08:03Z"
-        },
-        {
-          "key": "IPD-156",
-          "title": "[空闲检测] 2026-10-02 leader 两小时正点检查与加派",
-          "status": "done",
-          "updated_at": "2026-10-01T18:07:46Z"
         }
       ]
     }
