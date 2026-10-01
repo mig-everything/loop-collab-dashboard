@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T20:13:27Z",
+  "generated_at": "2026-10-01T20:17:11Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -100,10 +100,9 @@
           "role": "GPT Scenarist",
           "model": "",
           "agent_id": "6e6f1e24-3bc5-455a-85d2-cb3fb6c9a672",
-          "state": "working",
-          "issue": "BEN-82",
-          "issue_title": "[任务·第1轮] Android 侧定位校准+数据前置（BEN-72 P0 反馈闭环：AntennaPod 544 绑定",
-          "since": "2026-10-01T20:05:16Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "glm-runner",
@@ -132,10 +131,9 @@
           "role": "MiniMax 多模态视觉差分评审",
           "model": "minimax-cn:MiniMax-M3",
           "agent_id": "843ac45d-b5db-4f35-b07b-2e5754ec5a5f",
-          "state": "working",
-          "issue": "BEN-102",
-          "issue_title": "[任务·第1轮] gold/antennapod 锚定视觉差分 + SC v2 差分准备（ref BEN-100）",
-          "since": "2026-10-01T20:04:53Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "项目观察员",
@@ -160,11 +158,23 @@
       ],
       "issue_counts": {
         "todo": 0,
-        "in_progress": 4,
-        "in_review": 0,
+        "in_progress": 3,
+        "in_review": 1,
         "done": 92
       },
       "latest_issues": [
+        {
+          "key": "BEN-82",
+          "title": "[任务·第1轮] Android 侧定位校准+数据前置（BEN-72 P0 反馈闭环：Antenna",
+          "status": "in_progress",
+          "updated_at": "2026-10-01T20:17:03Z"
+        },
+        {
+          "key": "BEN-102",
+          "title": "[任务·第1轮] gold/antennapod 锚定视觉差分 + SC v2 差分准备（ref B",
+          "status": "in_review",
+          "updated_at": "2026-10-01T20:15:50Z"
+        },
         {
           "key": "BEN-79",
           "title": "[BEN-57 断点] antennapod/simple-calendar harmony 用例集",
@@ -172,22 +182,10 @@
           "updated_at": "2026-10-01T20:12:34Z"
         },
         {
-          "key": "BEN-82",
-          "title": "[任务·第1轮] Android 侧定位校准+数据前置（BEN-72 P0 反馈闭环：Antenna",
-          "status": "in_progress",
-          "updated_at": "2026-10-01T20:11:37Z"
-        },
-        {
           "key": "BEN-100",
           "title": "[早会纪要] 2026-10-02",
           "status": "done",
           "updated_at": "2026-10-01T20:07:15Z"
-        },
-        {
-          "key": "BEN-102",
-          "title": "[任务·第1轮] gold/antennapod 锚定视觉差分 + SC v2 差分准备（ref B",
-          "status": "in_progress",
-          "updated_at": "2026-10-01T20:07:03Z"
         },
         {
           "key": "BEN-101",
@@ -203,9 +201,9 @@
       "workspace": "ws-dw-migration-loop",
       "machine": "奕棣 MacBook",
       "machine_online": true,
-      "meeting_active": true,
-      "meeting_title": "[早会纪要] 2026-10-02",
-      "progress": 10,
+      "meeting_active": false,
+      "meeting_title": "",
+      "progress": 14,
       "agents": [
         {
           "name": "opus-analyzer",
@@ -213,7 +211,7 @@
           "role": "Opus Analyzer",
           "model": "claude-opus-5-5",
           "agent_id": "2f32549c-87c7-4202-8f54-3af79a30afa0",
-          "state": "meeting",
+          "state": "idle",
           "issue": "",
           "issue_title": ""
         },
@@ -223,10 +221,9 @@
           "role": "DeepSeek Planner（小组 leader/PM，",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "950ff614-521d-4e32-a02d-423d41a7b2b3",
-          "state": "working",
-          "issue": "DWM-100",
-          "issue_title": "[早会纪要] 2026-10-02",
-          "since": "2026-10-01T20:00:14Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "dw-lead",
@@ -234,7 +231,7 @@
           "role": "DW 迁移执行小队队长",
           "model": "claude-opus-5-5",
           "agent_id": "c6ff7c69-0db4-4b35-ac81-dd00e5a53ba4",
-          "state": "meeting",
+          "state": "idle",
           "issue": "",
           "issue_title": ""
         },
@@ -246,7 +243,7 @@
           "agent_id": "1c3481f5-135b-4959-9daa-c510c076d494",
           "state": "working",
           "issue": "DWM-95",
-          "issue_title": "[DW迁移任务单] Simple-Calendar 迁移 · 清单+迁移 · 清单生成中 续2·r76·933/800步",
+          "issue_title": "[DW迁移任务单] Simple-Calendar 迁移 · 清单+迁移 · 清单生成中 续2·r78·957/800步",
           "since": "2026-10-01T19:32:07Z"
         },
         {
@@ -255,7 +252,7 @@
           "role": "验证员",
           "model": "claude-opus-5-5",
           "agent_id": "69822c63-0dcc-4f3e-875d-7b300d437623",
-          "state": "meeting",
+          "state": "idle",
           "issue": "",
           "issue_title": ""
         },
@@ -265,29 +262,29 @@
           "role": "修复员",
           "model": "claude-opus-5-5",
           "agent_id": "cd70e713-a339-4621-8699-2058d9cf7d6b",
-          "state": "meeting",
+          "state": "idle",
           "issue": "",
           "issue_title": ""
         }
       ],
       "issue_counts": {
         "todo": 0,
-        "in_progress": 2,
+        "in_progress": 1,
         "in_review": 0,
-        "done": 68
+        "done": 69
       },
       "latest_issues": [
         {
           "key": "DWM-100",
           "title": "[早会纪要] 2026-10-02",
-          "status": "in_progress",
-          "updated_at": "2026-10-01T20:11:09Z"
+          "status": "done",
+          "updated_at": "2026-10-01T20:15:54Z"
         },
         {
           "key": "DWM-95",
           "title": "[DW迁移任务单] Simple-Calendar 迁移 · 清单+迁移 · 清单生成中 续2·r7",
           "status": "in_progress",
-          "updated_at": "2026-10-01T20:08:53Z"
+          "updated_at": "2026-10-01T20:14:01Z"
         },
         {
           "key": "DWM-99",
@@ -310,11 +307,11 @@
       ],
       "order": {
         "key": "DWM-95",
-        "title": "[DW迁移任务单] Simple-Calendar 迁移 · 清单+迁移 · 清单生成中 续2·r76·933/800步·1页/522项 · 迁移中 3/6 · 清单7.8h/10",
+        "title": "[DW迁移任务单] Simple-Calendar 迁移 · 清单+迁移 · 清单生成中 续2·r78·957/800步·1页/522项 · 迁移中 3/6 · 清单7.9h/10",
         "status": "in_progress",
-        "updated_at": "2026-10-01T20:08:53Z"
+        "updated_at": "2026-10-01T20:14:01Z"
       },
-      "progress_note": "10 个应用：完成 1、进行中 1、未开始 8"
+      "progress_note": "10 个应用：完成 2、进行中 1、暂停 0、未开始 7"
     },
     {
       "id": "task4-ipd-eazo",
@@ -332,10 +329,9 @@
           "role": "IPD-PM 产品经理",
           "model": "",
           "agent_id": "1764c131-5c09-48cb-aa48-3177d5256dbb",
-          "state": "working",
-          "issue": "IPD-163",
-          "issue_title": "[PRD·第1轮] REQ-008 新场景需求发布 + 需求池扩充（life/efficiency 类 + 鸿蒙特性）",
-          "since": "2026-10-01T20:07:39Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "hermes-sa",
@@ -375,10 +371,9 @@
           "role": "IPD-Tester 测试工程师",
           "model": "zai:glm-5.3",
           "agent_id": "86df9f14-a2cd-46d9-ad15-dbe8606ebd73",
-          "state": "working",
-          "issue": "IPD-160",
-          "issue_title": "[Tester·临时加派] REQ-006 随手记账 TR-Accept 差分执行（收口 D3）",
-          "since": "2026-10-01T20:06:02Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "hermes-rm",
@@ -412,12 +407,30 @@
         }
       ],
       "issue_counts": {
-        "todo": 3,
-        "in_progress": 1,
-        "in_review": 0,
+        "todo": 2,
+        "in_progress": 0,
+        "in_review": 2,
         "done": 91
       },
       "latest_issues": [
+        {
+          "key": "IPD-157",
+          "title": "[Dev·临时加派] REQ-007 扫雷双端编码（闭合 D1/D2/D4/D5，预取证 D3）",
+          "status": "in_review",
+          "updated_at": "2026-10-01T20:17:32Z"
+        },
+        {
+          "key": "IPD-160",
+          "title": "[Tester·临时加派] REQ-006 随手记账 TR-Accept 差分执行（收口 D3）",
+          "status": "todo",
+          "updated_at": "2026-10-01T20:15:34Z"
+        },
+        {
+          "key": "IPD-163",
+          "title": "[PRD·第1轮] REQ-008 新场景需求发布 + 需求池扩充（life/efficiency ",
+          "status": "in_review",
+          "updated_at": "2026-10-01T20:13:59Z"
+        },
         {
           "key": "IPD-164",
           "title": "[TR-Req] REQ-008 喝水打卡提醒 需求评审（PM 主持 · SA 联合评审）",
@@ -429,24 +442,6 @@
           "title": "[早会纪要] 2026-10-02",
           "status": "done",
           "updated_at": "2026-10-01T20:10:36Z"
-        },
-        {
-          "key": "IPD-163",
-          "title": "[PRD·第1轮] REQ-008 新场景需求发布 + 需求池扩充（life/efficiency ",
-          "status": "in_progress",
-          "updated_at": "2026-10-01T20:09:55Z"
-        },
-        {
-          "key": "IPD-160",
-          "title": "[Tester·临时加派] REQ-006 随手记账 TR-Accept 差分执行（收口 D3）",
-          "status": "todo",
-          "updated_at": "2026-10-01T20:05:50Z"
-        },
-        {
-          "key": "IPD-157",
-          "title": "[Dev·临时加派] REQ-007 扫雷双端编码（闭合 D1/D2/D4/D5，预取证 D3）",
-          "status": "todo",
-          "updated_at": "2026-10-01T20:05:49Z"
         }
       ]
     }
