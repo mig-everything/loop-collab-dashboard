@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T10:34:39Z",
+  "generated_at": "2026-10-01T10:38:20Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -359,10 +359,9 @@
           "role": "IPD-Dev 开发工程师",
           "model": "",
           "agent_id": "44fcec25-d8b3-4af6-b206-1774a64677ce",
-          "state": "working",
-          "issue": "IPD-138",
-          "issue_title": "[冒烟测试] task4 zai(GLM-5.3) token 余额探测——最小 API 调用验证",
-          "since": "2026-10-01T10:33:45Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "hermes-tester",
@@ -406,12 +405,18 @@
         }
       ],
       "issue_counts": {
-        "todo": 1,
+        "todo": 0,
         "in_progress": 0,
         "in_review": 0,
-        "done": 94
+        "done": 95
       },
       "latest_issues": [
+        {
+          "key": "IPD-138",
+          "title": "[冒烟测试] task4 zai(GLM-5.3) token 余额探测——最小 API 调用验证",
+          "status": "done",
+          "updated_at": "2026-10-01T10:35:55Z"
+        },
         {
           "key": "IPD-140",
           "title": "[巡检] 2026-10-01 leader Issue 状态巡检与催办",
@@ -429,12 +434,6 @@
           "title": "[午会纪要] 2026-10-01",
           "status": "cancelled",
           "updated_at": "2026-10-01T10:33:48Z"
-        },
-        {
-          "key": "IPD-138",
-          "title": "[冒烟测试] task4 zai(GLM-5.3) token 余额探测——最小 API 调用验证",
-          "status": "todo",
-          "updated_at": "2026-10-01T10:33:44Z"
         },
         {
           "key": "IPD-106",
