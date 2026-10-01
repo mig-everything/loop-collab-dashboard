@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T20:20:51Z",
+  "generated_at": "2026-10-01T20:24:30Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -17,10 +17,9 @@
           "role": "GPT Writer（执笔者）",
           "model": "",
           "agent_id": "58ed4647-32dd-4ca1-8ddc-194b975d6024",
-          "state": "working",
-          "issue": "SUR-120",
-          "issue_title": "[任务][day-8] 参考文献补源收敛至 ≥100 篇（新增文献逐条原文核验 + 编号一源一号 + 正文落地 + 双格",
-          "since": "2026-10-01T20:06:51Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "kimi-adversary",
@@ -45,16 +44,16 @@
       ],
       "issue_counts": {
         "todo": 1,
-        "in_progress": 1,
+        "in_progress": 0,
         "in_review": 1,
-        "done": 96
+        "done": 97
       },
       "latest_issues": [
         {
           "key": "SUR-120",
           "title": "[任务][day-8] 参考文献补源收敛至 ≥100 篇（新增文献逐条原文核验 + 编号一源一号 +",
-          "status": "in_progress",
-          "updated_at": "2026-10-01T20:20:54Z"
+          "status": "done",
+          "updated_at": "2026-10-01T20:24:24Z"
         },
         {
           "key": "SUR-121",
@@ -243,7 +242,7 @@
           "agent_id": "1c3481f5-135b-4959-9daa-c510c076d494",
           "state": "working",
           "issue": "DWM-95",
-          "issue_title": "[DW迁移任务单] Simple-Calendar 迁移 · 清单+迁移 · 清单生成中 续2·r78·957/800步",
+          "issue_title": "[DW迁移任务单] Simple-Calendar 迁移 · 清单+迁移 · 清单生成中 续2·r80·1000/800",
           "since": "2026-10-01T19:32:07Z"
         },
         {
@@ -276,9 +275,9 @@
       "latest_issues": [
         {
           "key": "DWM-95",
-          "title": "[DW迁移任务单] Simple-Calendar 迁移 · 清单+迁移 · 清单生成中 续2·r7",
+          "title": "[DW迁移任务单] Simple-Calendar 迁移 · 清单+迁移 · 清单生成中 续2·r8",
           "status": "in_progress",
-          "updated_at": "2026-10-01T20:19:12Z"
+          "updated_at": "2026-10-01T20:24:21Z"
         },
         {
           "key": "DWM-100",
@@ -307,9 +306,9 @@
       ],
       "order": {
         "key": "DWM-95",
-        "title": "[DW迁移任务单] Simple-Calendar 迁移 · 清单+迁移 · 清单生成中 续2·r78·957/800步·1页/522项 · 迁移中 3/6 · 清单8.0h/10",
+        "title": "[DW迁移任务单] Simple-Calendar 迁移 · 清单+迁移 · 清单生成中 续2·r80·1000/800步·1页/522项 · 迁移中 3/6 · 清单8.1h/1",
         "status": "in_progress",
-        "updated_at": "2026-10-01T20:19:12Z"
+        "updated_at": "2026-10-01T20:24:21Z"
       },
       "progress_note": "10 个应用：完成 2、进行中 1、暂停 0、未开始 7"
     },
@@ -342,7 +341,7 @@
           "state": "working",
           "issue": "IPD-164",
           "issue_title": "[TR-Req] REQ-008 喝水打卡提醒 需求评审（PM 主持 · SA 联合评审）",
-          "since": "2026-10-01T20:13:23Z"
+          "since": "2026-10-01T20:23:33Z"
         },
         {
           "name": "hermes-se",
@@ -413,6 +412,18 @@
       },
       "latest_issues": [
         {
+          "key": "IPD-163",
+          "title": "[PRD·第1轮] REQ-008 新场景需求发布 + 需求池扩充（life/efficiency ",
+          "status": "in_review",
+          "updated_at": "2026-10-01T20:23:52Z"
+        },
+        {
+          "key": "IPD-164",
+          "title": "[TR-Req] REQ-008 喝水打卡提醒 需求评审（PM 主持 · SA 联合评审）",
+          "status": "todo",
+          "updated_at": "2026-10-01T20:23:32Z"
+        },
+        {
           "key": "IPD-157",
           "title": "[Dev·临时加派] REQ-007 扫雷双端编码（闭合 D1/D2/D4/D5，预取证 D3）",
           "status": "in_review",
@@ -423,18 +434,6 @@
           "title": "[Tester·临时加派] REQ-006 随手记账 TR-Accept 差分执行（收口 D3）",
           "status": "todo",
           "updated_at": "2026-10-01T20:15:34Z"
-        },
-        {
-          "key": "IPD-163",
-          "title": "[PRD·第1轮] REQ-008 新场景需求发布 + 需求池扩充（life/efficiency ",
-          "status": "in_review",
-          "updated_at": "2026-10-01T20:13:59Z"
-        },
-        {
-          "key": "IPD-164",
-          "title": "[TR-Req] REQ-008 喝水打卡提醒 需求评审（PM 主持 · SA 联合评审）",
-          "status": "todo",
-          "updated_at": "2026-10-01T20:13:22Z"
         },
         {
           "key": "IPD-162",
