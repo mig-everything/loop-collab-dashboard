@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T22:46:03Z",
+  "generated_at": "2026-10-01T22:53:18Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -241,7 +241,7 @@
           "agent_id": "1c3481f5-135b-4959-9daa-c510c076d494",
           "state": "working",
           "issue": "DWM-95",
-          "issue_title": "[DW迁移任务单] Simple-Calendar 迁移 · 清单+迁移 · 清单生成中 续3·r96·1286/800",
+          "issue_title": "[DW迁移任务单] Simple-Calendar 迁移 · 清单+迁移 · 清单生成中 续4·r96·1286/800",
           "since": "2026-10-01T21:18:35Z"
         },
         {
@@ -255,7 +255,7 @@
           "issue_title": "[DWM-95·审计] Simple-Calendar 还原审计（dw-baseline/20261001-01）",
           "since": "2026-10-01T22:18:39Z",
           "parent_issue": "DWM-95",
-          "parent_title": "[DW迁移任务单] Simple-Calendar 迁移 · 清单+迁移 · 清单生成中 续3·r96·1286/800"
+          "parent_title": "[DW迁移任务单] Simple-Calendar 迁移 · 清单+迁移 · 清单生成中 续4·r96·1286/800"
         },
         {
           "name": "exec-fixer",
@@ -268,7 +268,7 @@
           "issue_title": "[DWM-95·工具修复] mig 里程碑把 ok=false 的门计为已达（运行门误报，含 Omni-Notes 已发",
           "since": "2026-10-01T22:44:49Z",
           "parent_issue": "DWM-95",
-          "parent_title": "[DW迁移任务单] Simple-Calendar 迁移 · 清单+迁移 · 清单生成中 续3·r96·1286/800"
+          "parent_title": "[DW迁移任务单] Simple-Calendar 迁移 · 清单+迁移 · 清单生成中 续4·r96·1286/800"
         }
       ],
       "issue_counts": {
@@ -280,9 +280,9 @@
       "latest_issues": [
         {
           "key": "DWM-95",
-          "title": "[DW迁移任务单] Simple-Calendar 迁移 · 清单+迁移 · 清单生成中 续3·r9",
+          "title": "[DW迁移任务单] Simple-Calendar 迁移 · 清单+迁移 · 清单生成中 续4·r9",
           "status": "in_progress",
-          "updated_at": "2026-10-01T22:46:02Z"
+          "updated_at": "2026-10-01T22:51:13Z"
         },
         {
           "key": "DWM-101",
@@ -311,9 +311,9 @@
       ],
       "order": {
         "key": "DWM-95",
-        "title": "[DW迁移任务单] Simple-Calendar 迁移 · 清单+迁移 · 清单生成中 续3·r96·1286/800步·1页/558项 · 迁移完成 6/6 · 清单10.4h",
+        "title": "[DW迁移任务单] Simple-Calendar 迁移 · 清单+迁移 · 清单生成中 续4·r96·1286/800步·1页/558项 · 迁移完成 5/6 · 清单10.5h",
         "status": "in_progress",
-        "updated_at": "2026-10-01T22:46:02Z"
+        "updated_at": "2026-10-01T22:51:13Z"
       },
       "progress_note": "10 个应用：完成 2、进行中 1、暂停 0、未开始 7"
     },
