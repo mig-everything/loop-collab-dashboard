@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T20:17:11Z",
+  "generated_at": "2026-10-01T20:20:51Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -51,16 +51,16 @@
       },
       "latest_issues": [
         {
+          "key": "SUR-120",
+          "title": "[任务][day-8] 参考文献补源收敛至 ≥100 篇（新增文献逐条原文核验 + 编号一源一号 +",
+          "status": "in_progress",
+          "updated_at": "2026-10-01T20:20:54Z"
+        },
+        {
           "key": "SUR-121",
           "title": "[任务][day-8] 建立投稿检查清单（验收口径 8）+ 预勾选已达成项",
           "status": "in_review",
           "updated_at": "2026-10-01T20:13:09Z"
-        },
-        {
-          "key": "SUR-120",
-          "title": "[任务][day-8] 参考文献补源收敛至 ≥100 篇（新增文献逐条原文核验 + 编号一源一号 +",
-          "status": "in_progress",
-          "updated_at": "2026-10-01T20:11:28Z"
         },
         {
           "key": "SUR-119",
@@ -275,16 +275,16 @@
       },
       "latest_issues": [
         {
+          "key": "DWM-95",
+          "title": "[DW迁移任务单] Simple-Calendar 迁移 · 清单+迁移 · 清单生成中 续2·r7",
+          "status": "in_progress",
+          "updated_at": "2026-10-01T20:19:12Z"
+        },
+        {
           "key": "DWM-100",
           "title": "[早会纪要] 2026-10-02",
           "status": "done",
           "updated_at": "2026-10-01T20:15:54Z"
-        },
-        {
-          "key": "DWM-95",
-          "title": "[DW迁移任务单] Simple-Calendar 迁移 · 清单+迁移 · 清单生成中 续2·r7",
-          "status": "in_progress",
-          "updated_at": "2026-10-01T20:14:01Z"
         },
         {
           "key": "DWM-99",
@@ -307,9 +307,9 @@
       ],
       "order": {
         "key": "DWM-95",
-        "title": "[DW迁移任务单] Simple-Calendar 迁移 · 清单+迁移 · 清单生成中 续2·r78·957/800步·1页/522项 · 迁移中 3/6 · 清单7.9h/10",
+        "title": "[DW迁移任务单] Simple-Calendar 迁移 · 清单+迁移 · 清单生成中 续2·r78·957/800步·1页/522项 · 迁移中 3/6 · 清单8.0h/10",
         "status": "in_progress",
-        "updated_at": "2026-10-01T20:14:01Z"
+        "updated_at": "2026-10-01T20:19:12Z"
       },
       "progress_note": "10 个应用：完成 2、进行中 1、暂停 0、未开始 7"
     },
@@ -360,10 +360,9 @@
           "role": "IPD-Dev 开发工程师",
           "model": "zai:glm-5.3",
           "agent_id": "44fcec25-d8b3-4af6-b206-1774a64677ce",
-          "state": "working",
-          "issue": "IPD-157",
-          "issue_title": "[Dev·临时加派] REQ-007 扫雷双端编码（闭合 D1/D2/D4/D5，预取证 D3）",
-          "since": "2026-10-01T20:06:01Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "hermes-tester",
@@ -417,7 +416,7 @@
           "key": "IPD-157",
           "title": "[Dev·临时加派] REQ-007 扫雷双端编码（闭合 D1/D2/D4/D5，预取证 D3）",
           "status": "in_review",
-          "updated_at": "2026-10-01T20:17:32Z"
+          "updated_at": "2026-10-01T20:17:34Z"
         },
         {
           "key": "IPD-160",
