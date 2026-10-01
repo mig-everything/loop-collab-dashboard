@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T12:37:51Z",
+  "generated_at": "2026-10-01T12:41:35Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -242,7 +242,7 @@
           "agent_id": "1c3481f5-135b-4959-9daa-c510c076d494",
           "state": "working",
           "issue": "DWM-95",
-          "issue_title": "[DW迁移任务单] Simple-Calendar 迁移 · 清单+迁移 · 清单生成中 r1·6/800步·1页/13",
+          "issue_title": "[DW迁移任务单] Simple-Calendar 迁移 · 清单+迁移 · 清单生成中 r4·13/800步·1页/2",
           "since": "2026-10-01T12:10:20Z"
         },
         {
@@ -274,16 +274,16 @@
       },
       "latest_issues": [
         {
+          "key": "DWM-95",
+          "title": "[DW迁移任务单] Simple-Calendar 迁移 · 清单+迁移 · 清单生成中 r4·13",
+          "status": "in_progress",
+          "updated_at": "2026-10-01T12:38:12Z"
+        },
+        {
           "key": "DWM-96",
           "title": "[任务] Omni-Notes 收口后差异分析 + 对抗评审 + DW 优化建议入池",
           "status": "in_review",
           "updated_at": "2026-10-01T12:33:43Z"
-        },
-        {
-          "key": "DWM-95",
-          "title": "[DW迁移任务单] Simple-Calendar 迁移 · 清单+迁移 · 清单生成中 r1·6/",
-          "status": "in_progress",
-          "updated_at": "2026-10-01T12:33:04Z"
         },
         {
           "key": "DWM-94",
@@ -306,9 +306,9 @@
       ],
       "order": {
         "key": "DWM-95",
-        "title": "[DW迁移任务单] Simple-Calendar 迁移 · 清单+迁移 · 清单生成中 r1·6/800步·1页/13项 · 迁移中 2/6 · 清单0.2h/10h 迁移0.2",
+        "title": "[DW迁移任务单] Simple-Calendar 迁移 · 清单+迁移 · 清单生成中 r4·13/800步·1页/26项 · 迁移中 2/6 · 清单0.3h/10h 迁移0.",
         "status": "in_progress",
-        "updated_at": "2026-10-01T12:33:04Z"
+        "updated_at": "2026-10-01T12:38:12Z"
       },
       "progress_note": "10 个应用：完成 1、进行中 1、未开始 8"
     },
