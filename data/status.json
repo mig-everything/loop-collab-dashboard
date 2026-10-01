@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T04:14:41Z",
+  "generated_at": "2026-10-01T04:18:24Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -28,10 +28,9 @@
           "role": "Kimi Adversarial Reviewer（对抗评审",
           "model": "",
           "agent_id": "6e530cc6-6b9d-4398-936d-df9c13468125",
-          "state": "working",
-          "issue": "SUR-100",
-          "issue_title": "[评审][day-7] 复评第 4 章修复（SUR-94）+ 第 6 章修复（SUR-97）",
-          "since": "2026-10-01T04:08:00Z"
+          "state": "meeting",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "deepseek-planner",
@@ -46,11 +45,17 @@
       ],
       "issue_counts": {
         "todo": 1,
-        "in_progress": 3,
-        "in_review": 0,
+        "in_progress": 2,
+        "in_review": 1,
         "done": 80
       },
       "latest_issues": [
+        {
+          "key": "SUR-100",
+          "title": "[评审][day-7] 复评第 4 章修复（SUR-94）+ 第 6 章修复（SUR-97）",
+          "status": "in_review",
+          "updated_at": "2026-10-01T04:15:34Z"
+        },
         {
           "key": "SUR-98",
           "title": "[午会纪要] 2026-10-01",
@@ -62,12 +67,6 @@
           "title": "[任务][day-7] 迁移第 1 章至 LaTeX（01-introduction.tex 引言）",
           "status": "in_progress",
           "updated_at": "2026-10-01T04:11:20Z"
-        },
-        {
-          "key": "SUR-100",
-          "title": "[评审][day-7] 复评第 4 章修复（SUR-94）+ 第 6 章修复（SUR-97）",
-          "status": "in_progress",
-          "updated_at": "2026-10-01T04:08:16Z"
         },
         {
           "key": "SUR-97",
