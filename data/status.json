@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T22:20:28Z",
+  "generated_at": "2026-10-01T22:24:09Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -229,10 +229,9 @@
           "role": "DW 迁移执行小队队长",
           "model": "claude-opus-5-5",
           "agent_id": "c6ff7c69-0db4-4b35-ac81-dd00e5a53ba4",
-          "state": "working",
-          "issue": "DWM-95",
-          "issue_title": "[DW迁移任务单] Simple-Calendar 迁移 · 清单+迁移 · 清单生成中 续3·r93·1241/800",
-          "since": "2026-10-01T22:20:14Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "exec-runner",
@@ -283,7 +282,7 @@
           "key": "DWM-95",
           "title": "[DW迁移任务单] Simple-Calendar 迁移 · 清单+迁移 · 清单生成中 续3·r9",
           "status": "in_progress",
-          "updated_at": "2026-10-01T22:20:13Z"
+          "updated_at": "2026-10-01T22:21:57Z"
         },
         {
           "key": "DWM-101",
@@ -314,7 +313,7 @@
         "key": "DWM-95",
         "title": "[DW迁移任务单] Simple-Calendar 迁移 · 清单+迁移 · 清单生成中 续3·r93·1241/800步·1页/551项 · 迁移完成 6/6 · 清单10.0h",
         "status": "in_progress",
-        "updated_at": "2026-10-01T22:20:13Z"
+        "updated_at": "2026-10-01T22:21:57Z"
       },
       "progress_note": "10 个应用：完成 2、进行中 1、暂停 0、未开始 7"
     },
