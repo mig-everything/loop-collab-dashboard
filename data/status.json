@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T00:01:31Z",
+  "generated_at": "2026-10-01T00:05:14Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -17,9 +17,10 @@
           "role": "GPT Writer（执笔者）",
           "model": "",
           "agent_id": "58ed4647-32dd-4ca1-8ddc-194b975d6024",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "SUR-94",
+          "issue_title": "[任务][day-7] 修复第 4 章 SUR-91 打回项（1 P1 分类冲突 + 2 N-P2 三分法/元信息）",
+          "since": "2026-10-01T00:03:32Z"
         },
         {
           "name": "kimi-adversary",
@@ -27,9 +28,10 @@
           "role": "Kimi Adversarial Reviewer（对抗评审",
           "model": "",
           "agent_id": "6e530cc6-6b9d-4398-936d-df9c13468125",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "SUR-95",
+          "issue_title": "[评审][day-7] 事后对抗评审英文第 6 章（06-challenges.tex，SUR-92 提交 5019d6",
+          "since": "2026-10-01T00:03:35Z"
         },
         {
           "name": "deepseek-planner",
@@ -37,48 +39,47 @@
           "role": "DeepSeek Task Planner（任务规划+总结）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "04a4e04e-59d5-4f3a-8a16-acf99b80a493",
-          "state": "working",
-          "issue": "SUR-93",
-          "issue_title": "[巡检] 2026-10-01 leader Issue 状态巡检与催办",
-          "since": "2026-10-01T00:00:15Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         }
       ],
       "issue_counts": {
         "todo": 2,
-        "in_progress": 0,
-        "in_review": 2,
-        "done": 73
+        "in_progress": 1,
+        "in_review": 0,
+        "done": 76
       },
       "latest_issues": [
         {
           "key": "SUR-93",
           "title": "[巡检] 2026-10-01 leader Issue 状态巡检与催办",
-          "status": "todo",
-          "updated_at": "2026-10-01T00:00:15Z"
+          "status": "done",
+          "updated_at": "2026-10-01T00:04:02Z"
         },
         {
-          "key": "SUR-92",
-          "title": "[任务][day-7] 迁移第 6 章至 LaTeX（06-challenges.tex 挑战与开放",
-          "status": "done",
-          "updated_at": "2026-09-30T22:23:47Z"
+          "key": "SUR-95",
+          "title": "[评审][day-7] 事后对抗评审英文第 6 章（06-challenges.tex，SUR-92",
+          "status": "in_progress",
+          "updated_at": "2026-10-01T00:03:53Z"
         },
         {
           "key": "SUR-91",
           "title": "[评审][day-7] 事后对抗评审英文第 4 章（04-enabling-tech.tex，SUR",
-          "status": "in_review",
-          "updated_at": "2026-09-30T22:19:46Z"
+          "status": "done",
+          "updated_at": "2026-10-01T00:03:50Z"
         },
         {
-          "key": "SUR-89",
-          "title": "[空闲检测] 2026-10-01 leader 两小时正点检查与加派",
+          "key": "SUR-87",
+          "title": "[评审][day-7] 事后对抗评审英文第 5 章（05-evaluation.tex，SUR-82",
           "status": "done",
-          "updated_at": "2026-09-30T22:10:45Z"
+          "updated_at": "2026-10-01T00:03:40Z"
         },
         {
-          "key": "SUR-90",
-          "title": "[临时会议·空闲加派] 2026-10-01 06 点场",
-          "status": "done",
-          "updated_at": "2026-09-30T22:10:36Z"
+          "key": "SUR-94",
+          "title": "[任务][day-7] 修复第 4 章 SUR-91 打回项（1 P1 分类冲突 + 2 N-P2 ",
+          "status": "todo",
+          "updated_at": "2026-10-01T00:03:32Z"
         }
       ],
       "progress_note": "day-4 晨 37% → 午 42% → 晚 44% → 夜 47%",
@@ -221,10 +222,9 @@
           "role": "DeepSeek Planner（小组 leader/PM，",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "950ff614-521d-4e32-a02d-423d41a7b2b3",
-          "state": "working",
-          "issue": "DWM-82",
-          "issue_title": "[巡检] 2026-10-01 leader Issue 状态巡检与催办",
-          "since": "2026-10-01T00:00:05Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "dw-lead",
@@ -271,29 +271,29 @@
         }
       ],
       "issue_counts": {
-        "todo": 1,
+        "todo": 0,
         "in_progress": 1,
-        "in_review": 1,
-        "done": 55
+        "in_review": 0,
+        "done": 57
       },
       "latest_issues": [
         {
           "key": "DWM-82",
           "title": "[巡检] 2026-10-01 leader Issue 状态巡检与催办",
-          "status": "todo",
-          "updated_at": "2026-10-01T00:00:04Z"
+          "status": "done",
+          "updated_at": "2026-10-01T00:02:38Z"
+        },
+        {
+          "key": "DWM-80",
+          "title": "[任务] 对抗评审 Omni-Notes 近期 main commit（迁移 + 还原审计 + 过程",
+          "status": "done",
+          "updated_at": "2026-10-01T00:02:17Z"
         },
         {
           "key": "DWM-81",
           "title": "[空闲检测] 2026-10-01 leader 两小时正点检查与加派",
           "status": "done",
           "updated_at": "2026-09-30T22:02:11Z"
-        },
-        {
-          "key": "DWM-80",
-          "title": "[任务] 对抗评审 Omni-Notes 近期 main commit（迁移 + 还原审计 + 过程",
-          "status": "in_review",
-          "updated_at": "2026-09-30T20:34:20Z"
         },
         {
           "key": "DWM-79",
@@ -362,9 +362,10 @@
           "role": "IPD-Dev 开发工程师",
           "model": "",
           "agent_id": "44fcec25-d8b3-4af6-b206-1774a64677ce",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-103",
+          "issue_title": "[平台·能力②] 双端生成引擎（Claude Code，安卓+鸿蒙同需求同生成）",
+          "since": "2026-10-01T00:03:30Z"
         },
         {
           "name": "hermes-tester",
@@ -392,10 +393,9 @@
           "role": "DeepSeek Planner（小组 leader/PM ",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
-          "state": "working",
-          "issue": "IPD-133",
-          "issue_title": "[巡检] 2026-10-01 leader Issue 状态巡检与催办",
-          "since": "2026-10-01T00:00:19Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "minimax-uijudge",
@@ -409,41 +409,41 @@
         }
       ],
       "issue_counts": {
-        "todo": 5,
+        "todo": 3,
         "in_progress": 0,
-        "in_review": 7,
-        "done": 86
+        "in_review": 0,
+        "done": 95
       },
       "latest_issues": [
         {
           "key": "IPD-133",
           "title": "[巡检] 2026-10-01 leader Issue 状态巡检与催办",
-          "status": "todo",
-          "updated_at": "2026-10-01T00:00:18Z"
-        },
-        {
-          "key": "IPD-132",
-          "title": "[空闲检测] 2026-10-01 leader 两小时正点检查与加派",
           "status": "done",
-          "updated_at": "2026-09-30T22:03:55Z"
+          "updated_at": "2026-10-01T00:03:47Z"
         },
         {
           "key": "IPD-103",
           "title": "[平台·能力②] 双端生成引擎（Claude Code，安卓+鸿蒙同需求同生成）",
           "status": "todo",
-          "updated_at": "2026-09-30T20:37:57Z"
+          "updated_at": "2026-10-01T00:03:29Z"
         },
         {
-          "key": "IPD-131",
-          "title": "[TR-Req 评审] REQ-007 扫雷（Minesweeper）—— 需求评审（PM 发起）",
-          "status": "in_review",
-          "updated_at": "2026-09-30T20:17:19Z"
+          "key": "IPD-130",
+          "title": "[TR-Design] REQ-006 随手记账 双端架构 + 接口契约 设计评审（IPD-125）",
+          "status": "done",
+          "updated_at": "2026-10-01T00:03:15Z"
         },
         {
-          "key": "IPD-127",
-          "title": "[测试·第1轮] REQ-006 差分用例清单 + 平台②③测试用例设计",
-          "status": "in_review",
-          "updated_at": "2026-09-30T20:16:13Z"
+          "key": "IPD-128",
+          "title": "[SE·第1轮] 平台追踪矩阵代码/测试列回填 + REQ-006 矩阵二次对齐",
+          "status": "done",
+          "updated_at": "2026-10-01T00:02:57Z"
+        },
+        {
+          "key": "IPD-125",
+          "title": "[架构·第1轮] REQ-006 随手记账双端架构 + 接口契约 + TR-Design 评审（闭合",
+          "status": "done",
+          "updated_at": "2026-10-01T00:02:56Z"
         }
       ]
     }
