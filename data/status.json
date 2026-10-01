@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T02:00:53Z",
+  "generated_at": "2026-10-01T02:04:35Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -17,9 +17,10 @@
           "role": "GPT Writer（执笔者）",
           "model": "",
           "agent_id": "58ed4647-32dd-4ca1-8ddc-194b975d6024",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "SUR-97",
+          "issue_title": "[任务][day-7] 修复第 6 章 SUR-95 打回项（2 P1 阻断 + 1 N-P2 硬编码）",
+          "since": "2026-10-01T02:04:17Z"
         },
         {
           "name": "kimi-adversary",
@@ -45,22 +46,28 @@
       ],
       "issue_counts": {
         "todo": 2,
-        "in_progress": 0,
-        "in_review": 1,
-        "done": 77
+        "in_progress": 1,
+        "in_review": 0,
+        "done": 78
       },
       "latest_issues": [
         {
-          "key": "SUR-96",
-          "title": "[空闲检测] 2026-10-01 leader 两小时正点检查与加派",
-          "status": "todo",
-          "updated_at": "2026-10-01T02:00:18Z"
-        },
-        {
           "key": "SUR-95",
           "title": "[评审][day-7] 事后对抗评审英文第 6 章（06-challenges.tex，SUR-92",
-          "status": "in_review",
-          "updated_at": "2026-10-01T00:12:46Z"
+          "status": "done",
+          "updated_at": "2026-10-01T02:04:20Z"
+        },
+        {
+          "key": "SUR-97",
+          "title": "[任务][day-7] 修复第 6 章 SUR-95 打回项（2 P1 阻断 + 1 N-P2 硬编",
+          "status": "todo",
+          "updated_at": "2026-10-01T02:04:16Z"
+        },
+        {
+          "key": "SUR-96",
+          "title": "[空闲检测] 2026-10-01 leader 两小时正点检查与加派",
+          "status": "in_progress",
+          "updated_at": "2026-10-01T02:04:10Z"
         },
         {
           "key": "SUR-94",
@@ -73,12 +80,6 @@
           "title": "[巡检] 2026-10-01 leader Issue 状态巡检与催办",
           "status": "done",
           "updated_at": "2026-10-01T00:04:02Z"
-        },
-        {
-          "key": "SUR-91",
-          "title": "[评审][day-7] 事后对抗评审英文第 4 章（04-enabling-tech.tex，SUR",
-          "status": "done",
-          "updated_at": "2026-10-01T00:03:50Z"
         }
       ],
       "progress_note": "day-4 晨 37% → 午 42% → 晚 44% → 夜 47%",
@@ -120,10 +121,9 @@
           "role": "DeepSeek Planner（小组 leader/PM）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "547cd361-ef50-4965-9477-bc659d8a1708",
-          "state": "working",
-          "issue": "BEN-87",
-          "issue_title": "[空闲检测] 2026-10-01 leader 两小时正点检查与加派",
-          "since": "2026-10-01T02:00:22Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "minimax-visual-diff",
@@ -157,17 +157,17 @@
         }
       ],
       "issue_counts": {
-        "todo": 2,
+        "todo": 1,
         "in_progress": 1,
         "in_review": 1,
-        "done": 77
+        "done": 78
       },
       "latest_issues": [
         {
           "key": "BEN-87",
           "title": "[空闲检测] 2026-10-01 leader 两小时正点检查与加派",
-          "status": "todo",
-          "updated_at": "2026-10-01T02:00:22Z"
+          "status": "done",
+          "updated_at": "2026-10-01T02:02:13Z"
         },
         {
           "key": "BEN-64",
@@ -221,10 +221,9 @@
           "role": "DeepSeek Planner（小组 leader/PM，",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "950ff614-521d-4e32-a02d-423d41a7b2b3",
-          "state": "working",
-          "issue": "DWM-84",
-          "issue_title": "[空闲检测] 2026-10-01 leader 两小时正点检查与加派",
-          "since": "2026-10-01T02:00:16Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "dw-lead",
@@ -271,17 +270,17 @@
         }
       ],
       "issue_counts": {
-        "todo": 1,
+        "todo": 0,
         "in_progress": 1,
         "in_review": 0,
-        "done": 57
+        "done": 58
       },
       "latest_issues": [
         {
           "key": "DWM-84",
           "title": "[空闲检测] 2026-10-01 leader 两小时正点检查与加派",
-          "status": "todo",
-          "updated_at": "2026-10-01T02:00:15Z"
+          "status": "done",
+          "updated_at": "2026-10-01T02:02:40Z"
         },
         {
           "key": "DWM-40",
@@ -362,9 +361,10 @@
           "role": "IPD-Dev 开发工程师",
           "model": "",
           "agent_id": "44fcec25-d8b3-4af6-b206-1774a64677ce",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-106",
+          "issue_title": "[平台·能力⑤] 源码下载 + 截图显示",
+          "since": "2026-10-01T02:04:17Z"
         },
         {
           "name": "hermes-tester",
@@ -392,10 +392,9 @@
           "role": "DeepSeek Planner（小组 leader/PM ",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
-          "state": "working",
-          "issue": "IPD-136",
-          "issue_title": "[空闲检测] 2026-10-01 leader 两小时正点检查与加派",
-          "since": "2026-10-01T02:00:33Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "minimax-uijudge",
@@ -409,17 +408,29 @@
         }
       ],
       "issue_counts": {
-        "todo": 3,
+        "todo": 2,
         "in_progress": 0,
         "in_review": 0,
-        "done": 94
+        "done": 95
       },
       "latest_issues": [
         {
           "key": "IPD-136",
           "title": "[空闲检测] 2026-10-01 leader 两小时正点检查与加派",
+          "status": "done",
+          "updated_at": "2026-10-01T02:04:32Z"
+        },
+        {
+          "key": "IPD-106",
+          "title": "[平台·能力⑤] 源码下载 + 截图显示",
           "status": "todo",
-          "updated_at": "2026-10-01T02:00:30Z"
+          "updated_at": "2026-10-01T02:04:16Z"
+        },
+        {
+          "key": "IPD-105",
+          "title": "[平台·能力④] 历史记录/日志查看",
+          "status": "todo",
+          "updated_at": "2026-10-01T02:04:14Z"
         },
         {
           "key": "IPD-134",
@@ -432,18 +443,6 @@
           "title": "[平台·能力②] 双端生成引擎（Claude Code，安卓+鸿蒙同需求同生成）",
           "status": "done",
           "updated_at": "2026-10-01T00:06:02Z"
-        },
-        {
-          "key": "IPD-133",
-          "title": "[巡检] 2026-10-01 leader Issue 状态巡检与催办",
-          "status": "done",
-          "updated_at": "2026-10-01T00:03:47Z"
-        },
-        {
-          "key": "IPD-130",
-          "title": "[TR-Design] REQ-006 随手记账 双端架构 + 接口契约 设计评审（IPD-125）",
-          "status": "done",
-          "updated_at": "2026-10-01T00:03:15Z"
         }
       ]
     }
