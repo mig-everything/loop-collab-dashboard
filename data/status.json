@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T23:00:37Z",
+  "generated_at": "2026-10-01T23:07:52Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -263,12 +263,9 @@
           "role": "修复员",
           "model": "claude-opus-5-5",
           "agent_id": "cd70e713-a339-4621-8699-2058d9cf7d6b",
-          "state": "working",
-          "issue": "DWM-104",
-          "issue_title": "[DWM-95·工具修复] mig 里程碑把 ok=false 的门计为已达（运行门误报，含 Omni-Notes 已发",
-          "since": "2026-10-01T22:44:49Z",
-          "parent_issue": "DWM-95",
-          "parent_title": "[DW迁移任务单] Simple-Calendar 迁移 · 清单+迁移 · 清单生成中 续4·r99·1319/800"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         }
       ],
       "issue_counts": {
@@ -282,7 +279,7 @@
           "key": "DWM-95",
           "title": "[DW迁移任务单] Simple-Calendar 迁移 · 清单+迁移 · 清单生成中 续4·r9",
           "status": "in_progress",
-          "updated_at": "2026-10-01T22:59:56Z"
+          "updated_at": "2026-10-01T23:07:56Z"
         },
         {
           "key": "DWM-101",
@@ -311,9 +308,9 @@
       ],
       "order": {
         "key": "DWM-95",
-        "title": "[DW迁移任务单] Simple-Calendar 迁移 · 清单+迁移 · 清单生成中 续4·r99·1319/800步·1页/558项 · 迁移完成 5/6 · 清单10.7h",
+        "title": "[DW迁移任务单] Simple-Calendar 迁移 · 清单+迁移 · 清单生成中 续4·r99·1319/800步·1页/558项 · 迁移完成 5/6 · 清单10.8h",
         "status": "in_progress",
-        "updated_at": "2026-10-01T22:59:56Z"
+        "updated_at": "2026-10-01T23:07:56Z"
       },
       "progress_note": "10 个应用：完成 2、进行中 1、暂停 0、未开始 7"
     },
