@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T20:35:25Z",
+  "generated_at": "2026-10-01T20:39:04Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -338,9 +338,10 @@
           "role": "IPD-SA 解决方案架构师",
           "model": "volc:qwen3.8-max",
           "agent_id": "3e4373ef-a262-4b28-ab2a-818861fc9624",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-164",
+          "issue_title": "[TR-Req] REQ-008 喝水打卡提醒 需求评审（PM 主持 · SA 联合评审）",
+          "since": "2026-10-01T20:36:14Z"
         },
         {
           "name": "hermes-se",
@@ -388,10 +389,9 @@
           "role": "DeepSeek Planner（小组 leader/PM ",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
-          "state": "working",
-          "issue": "IPD-164",
-          "issue_title": "[TR-Req] REQ-008 喝水打卡提醒 需求评审（PM 主持 · SA 联合评审）",
-          "since": "2026-10-01T20:33:52Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "minimax-uijudge",
@@ -412,16 +412,16 @@
       },
       "latest_issues": [
         {
+          "key": "IPD-164",
+          "title": "[TR-Req] REQ-008 喝水打卡提醒 需求评审（PM 主持 · SA 联合评审）",
+          "status": "todo",
+          "updated_at": "2026-10-01T20:36:51Z"
+        },
+        {
           "key": "IPD-163",
           "title": "[PRD·第1轮] REQ-008 新场景需求发布 + 需求池扩充（life/efficiency ",
           "status": "in_review",
           "updated_at": "2026-10-01T20:34:12Z"
-        },
-        {
-          "key": "IPD-164",
-          "title": "[TR-Req] REQ-008 喝水打卡提醒 需求评审（PM 主持 · SA 联合评审）",
-          "status": "todo",
-          "updated_at": "2026-10-01T20:33:52Z"
         },
         {
           "key": "IPD-157",
