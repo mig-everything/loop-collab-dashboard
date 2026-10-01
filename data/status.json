@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T08:06:06Z",
+  "generated_at": "2026-10-01T08:09:48Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -164,6 +164,12 @@
       },
       "latest_issues": [
         {
+          "key": "BEN-82",
+          "title": "[任务·第1轮] Android 侧定位校准+数据前置（BEN-72 P0 反馈闭环：Antenna",
+          "status": "in_progress",
+          "updated_at": "2026-10-01T08:09:10Z"
+        },
+        {
           "key": "BEN-90",
           "title": "[任务·第2轮] Cofi 双端截图视觉差分 v1 + gold 对照（ref BEN-88）",
           "status": "in_progress",
@@ -180,12 +186,6 @@
           "title": "[BEN-57 断点] antennapod/simple-calendar harmony 用例集",
           "status": "in_progress",
           "updated_at": "2026-10-01T08:03:17Z"
-        },
-        {
-          "key": "BEN-82",
-          "title": "[任务·第1轮] Android 侧定位校准+数据前置（BEN-72 P0 反馈闭环：Antenna",
-          "status": "in_progress",
-          "updated_at": "2026-10-01T08:03:09Z"
         },
         {
           "key": "BEN-89",
