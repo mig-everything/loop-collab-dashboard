@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T06:14:13Z",
+  "generated_at": "2026-10-01T06:17:54Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -17,10 +17,9 @@
           "role": "GPT Writer（执笔者）",
           "model": "",
           "agent_id": "58ed4647-32dd-4ca1-8ddc-194b975d6024",
-          "state": "working",
-          "issue": "SUR-103",
-          "issue_title": "[任务][day-7] 迁移第 7 章至 LaTeX（07-conclusion.tex 结论）+ RQ1-RQ4 回答",
-          "since": "2026-10-01T06:09:13Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "kimi-adversary",
@@ -28,10 +27,9 @@
           "role": "Kimi Adversarial Reviewer（对抗评审",
           "model": "",
           "agent_id": "6e530cc6-6b9d-4398-936d-df9c13468125",
-          "state": "working",
-          "issue": "SUR-102",
-          "issue_title": "[评审][day-7] 事后对抗评审英文第 1 章（01-introduction.tex，SUR-99 提交 d3c2",
-          "since": "2026-10-01T06:09:10Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "deepseek-planner",
@@ -46,11 +44,23 @@
       ],
       "issue_counts": {
         "todo": 1,
-        "in_progress": 2,
-        "in_review": 1,
-        "done": 84
+        "in_progress": 0,
+        "in_review": 2,
+        "done": 85
       },
       "latest_issues": [
+        {
+          "key": "SUR-102",
+          "title": "[评审][day-7] 事后对抗评审英文第 1 章（01-introduction.tex，SUR-",
+          "status": "in_review",
+          "updated_at": "2026-10-01T06:17:39Z"
+        },
+        {
+          "key": "SUR-103",
+          "title": "[任务][day-7] 迁移第 7 章至 LaTeX（07-conclusion.tex 结论）+ ",
+          "status": "done",
+          "updated_at": "2026-10-01T06:16:49Z"
+        },
         {
           "key": "SUR-104",
           "title": "[临时会议·空闲加派] 2026-10-01 14 点场",
@@ -58,22 +68,10 @@
           "updated_at": "2026-10-01T06:13:17Z"
         },
         {
-          "key": "SUR-103",
-          "title": "[任务][day-7] 迁移第 7 章至 LaTeX（07-conclusion.tex 结论）+ ",
-          "status": "in_progress",
-          "updated_at": "2026-10-01T06:12:13Z"
-        },
-        {
           "key": "SUR-101",
           "title": "[空闲检测] 2026-10-01 leader 两小时正点检查与加派",
           "status": "done",
           "updated_at": "2026-10-01T06:10:25Z"
-        },
-        {
-          "key": "SUR-102",
-          "title": "[评审][day-7] 事后对抗评审英文第 1 章（01-introduction.tex，SUR-",
-          "status": "in_progress",
-          "updated_at": "2026-10-01T06:09:28Z"
         },
         {
           "key": "SUR-98",
