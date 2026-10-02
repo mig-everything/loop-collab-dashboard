@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T02:02:46Z",
+  "generated_at": "2026-10-02T02:06:26Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -17,9 +17,10 @@
           "role": "GPT Writer（执笔者）",
           "model": "",
           "agent_id": "58ed4647-32dd-4ca1-8ddc-194b975d6024",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "SUR-127",
+          "issue_title": "[任务][day-8] 篇幅补齐至 ~25 页（验收口径③ 格式篇幅）+ 更新投稿清单 ③⑥⑧ 勾选",
+          "since": "2026-10-02T02:06:12Z"
         },
         {
           "name": "kimi-adversary",
@@ -27,9 +28,10 @@
           "role": "Kimi Adversarial Reviewer（对抗评审",
           "model": "",
           "agent_id": "6e530cc6-6b9d-4398-936d-df9c13468125",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "SUR-126",
+          "issue_title": "[评审][day-8] 增量终审 SUR-120 新增 44 篇文献（⑥ 证据可靠独立核验 + ②④⑤⑦ 增量复核）",
+          "since": "2026-10-02T02:06:10Z"
         },
         {
           "name": "deepseek-planner",
@@ -44,12 +46,24 @@
         }
       ],
       "issue_counts": {
-        "todo": 1,
-        "in_progress": 0,
+        "todo": 2,
+        "in_progress": 1,
         "in_review": 0,
-        "done": 98
+        "done": 96
       },
       "latest_issues": [
+        {
+          "key": "SUR-126",
+          "title": "[评审][day-8] 增量终审 SUR-120 新增 44 篇文献（⑥ 证据可靠独立核验 + ②④",
+          "status": "in_progress",
+          "updated_at": "2026-10-02T02:06:28Z"
+        },
+        {
+          "key": "SUR-127",
+          "title": "[任务][day-8] 篇幅补齐至 ~25 页（验收口径③ 格式篇幅）+ 更新投稿清单 ③⑥⑧ 勾选",
+          "status": "todo",
+          "updated_at": "2026-10-02T02:06:12Z"
+        },
         {
           "key": "SUR-125",
           "title": "[空闲检测] 2026-10-02 leader 两小时正点检查与加派",
@@ -67,18 +81,6 @@
           "title": "[巡检] 2026-10-02 leader Issue 状态巡检与催办",
           "status": "done",
           "updated_at": "2026-10-02T00:04:40Z"
-        },
-        {
-          "key": "SUR-121",
-          "title": "[任务][day-8] 建立投稿检查清单（验收口径 8）+ 预勾选已达成项",
-          "status": "done",
-          "updated_at": "2026-10-02T00:04:20Z"
-        },
-        {
-          "key": "SUR-123",
-          "title": "[空闲检测] 2026-10-02 leader 两小时正点检查与加派",
-          "status": "done",
-          "updated_at": "2026-10-01T22:02:41Z"
         }
       ],
       "progress_note": "day-4 晨 37% → 午 42% → 晚 44% → 夜 47%",
