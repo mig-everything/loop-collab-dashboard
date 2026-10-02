@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T02:17:29Z",
+  "generated_at": "2026-10-02T02:28:18Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -27,10 +27,9 @@
           "role": "Kimi Adversarial Reviewer（对抗评审",
           "model": "",
           "agent_id": "6e530cc6-6b9d-4398-936d-df9c13468125",
-          "state": "working",
-          "issue": "SUR-126",
-          "issue_title": "[评审][day-8] 增量终审 SUR-120 新增 44 篇文献（⑥ 证据可靠独立核验 + ②④⑤⑦ 增量复核）",
-          "since": "2026-10-02T02:06:10Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "deepseek-planner",
@@ -45,11 +44,17 @@
       ],
       "issue_counts": {
         "todo": 0,
-        "in_progress": 1,
-        "in_review": 1,
+        "in_progress": 0,
+        "in_review": 2,
         "done": 98
       },
       "latest_issues": [
+        {
+          "key": "SUR-126",
+          "title": "[评审][day-8] 增量终审 SUR-120 新增 44 篇文献（⑥ 证据可靠独立核验 + ②④",
+          "status": "in_review",
+          "updated_at": "2026-10-02T02:25:09Z"
+        },
         {
           "key": "SUR-127",
           "title": "[任务][day-8] 篇幅补齐至 ~25 页（验收口径③ 格式篇幅）+ 更新投稿清单 ③⑥⑧ 勾选",
@@ -67,12 +72,6 @@
           "title": "[空闲检测] 2026-10-02 leader 两小时正点检查与加派",
           "status": "done",
           "updated_at": "2026-10-02T02:07:33Z"
-        },
-        {
-          "key": "SUR-126",
-          "title": "[评审][day-8] 增量终审 SUR-120 新增 44 篇文献（⑥ 证据可靠独立核验 + ②④",
-          "status": "in_progress",
-          "updated_at": "2026-10-02T02:06:28Z"
         },
         {
           "key": "SUR-122",
