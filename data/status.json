@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T20:13:21Z",
+  "generated_at": "2026-10-02T20:17:07Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -27,10 +27,9 @@
           "role": "Kimi Adversarial Reviewer（对抗评审",
           "model": "",
           "agent_id": "6e530cc6-6b9d-4398-936d-df9c13468125",
-          "state": "working",
-          "issue": "SUR-149",
-          "issue_title": "[晨会纪要] 2026-10-03",
-          "since": "2026-10-02T20:08:18Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "deepseek-planner",
@@ -54,7 +53,7 @@
           "key": "SUR-149",
           "title": "[晨会纪要] 2026-10-03",
           "status": "done",
-          "updated_at": "2026-10-02T20:11:47Z"
+          "updated_at": "2026-10-02T20:13:27Z"
         },
         {
           "key": "SUR-150",
@@ -200,8 +199,8 @@
       "workspace": "ws-dw-migration-loop",
       "machine": "奕棣 MacBook",
       "machine_online": true,
-      "meeting_active": true,
-      "meeting_title": "[早会纪要] 2026-10-03",
+      "meeting_active": false,
+      "meeting_title": "",
       "progress": 17,
       "agents": [
         {
@@ -210,7 +209,7 @@
           "role": "Opus Analyzer",
           "model": "claude-opus-5-5",
           "agent_id": "2f32549c-87c7-4202-8f54-3af79a30afa0",
-          "state": "meeting",
+          "state": "idle",
           "issue": "",
           "issue_title": ""
         },
@@ -220,10 +219,9 @@
           "role": "DeepSeek Planner（小组 leader/PM，",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "950ff614-521d-4e32-a02d-423d41a7b2b3",
-          "state": "working",
-          "issue": "DWM-126",
-          "issue_title": "[早会纪要] 2026-10-03",
-          "since": "2026-10-02T20:00:14Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "dw-lead",
@@ -231,7 +229,7 @@
           "role": "DW 迁移执行小队队长",
           "model": "claude-opus-5-5",
           "agent_id": "c6ff7c69-0db4-4b35-ac81-dd00e5a53ba4",
-          "state": "meeting",
+          "state": "idle",
           "issue": "",
           "issue_title": ""
         },
@@ -243,7 +241,7 @@
           "agent_id": "1c3481f5-135b-4959-9daa-c510c076d494",
           "state": "working",
           "issue": "DWM-122",
-          "issue_title": "[DW迁移任务单] MifareClassicTool 迁移 · 清单+迁移 · 清单生成中 r22·319/800步·",
+          "issue_title": "[DW迁移任务单] MifareClassicTool 迁移 · 清单+迁移 · 清单生成中 r23·349/800步·",
           "since": "2026-10-02T20:11:06Z"
         },
         {
@@ -252,7 +250,7 @@
           "role": "验证员",
           "model": "claude-opus-5-5",
           "agent_id": "69822c63-0dcc-4f3e-875d-7b300d437623",
-          "state": "meeting",
+          "state": "idle",
           "issue": "",
           "issue_title": ""
         },
@@ -262,29 +260,29 @@
           "role": "修复员",
           "model": "claude-opus-5-5",
           "agent_id": "cd70e713-a339-4621-8699-2058d9cf7d6b",
-          "state": "meeting",
+          "state": "idle",
           "issue": "",
           "issue_title": ""
         }
       ],
       "issue_counts": {
         "todo": 1,
-        "in_progress": 2,
+        "in_progress": 1,
         "in_review": 0,
-        "done": 60
+        "done": 61
       },
       "latest_issues": [
         {
-          "key": "DWM-126",
-          "title": "[早会纪要] 2026-10-03",
+          "key": "DWM-122",
+          "title": "[DW迁移任务单] MifareClassicTool 迁移 · 清单+迁移 · 清单生成中 r23",
           "status": "in_progress",
-          "updated_at": "2026-10-02T20:10:30Z"
+          "updated_at": "2026-10-02T20:16:36Z"
         },
         {
-          "key": "DWM-122",
-          "title": "[DW迁移任务单] MifareClassicTool 迁移 · 清单+迁移 · 清单生成中 r22",
-          "status": "in_progress",
-          "updated_at": "2026-10-02T20:08:20Z"
+          "key": "DWM-126",
+          "title": "[早会纪要] 2026-10-03",
+          "status": "done",
+          "updated_at": "2026-10-02T20:13:55Z"
         },
         {
           "key": "DWM-127",
@@ -307,9 +305,9 @@
       ],
       "order": {
         "key": "DWM-122",
-        "title": "[DW迁移任务单] MifareClassicTool 迁移 · 清单+迁移 · 清单生成中 r22·319/800步·1页/250项 · 迁移中 3/6 · 清单1.9h/10h",
+        "title": "[DW迁移任务单] MifareClassicTool 迁移 · 清单+迁移 · 清单生成中 r23·349/800步·1页/261项 · 迁移中 3/6 · 清单2.0h/10h",
         "status": "in_progress",
-        "updated_at": "2026-10-02T20:08:20Z"
+        "updated_at": "2026-10-02T20:16:36Z"
       }
     },
     {
