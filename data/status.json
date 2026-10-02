@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T01:59:07Z",
+  "generated_at": "2026-10-02T02:02:46Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -37,18 +37,25 @@
           "role": "DeepSeek Task Planner（任务规划+总结）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "04a4e04e-59d5-4f3a-8a16-acf99b80a493",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "SUR-125",
+          "issue_title": "[空闲检测] 2026-10-02 leader 两小时正点检查与加派",
+          "since": "2026-10-02T02:00:19Z"
         }
       ],
       "issue_counts": {
-        "todo": 0,
+        "todo": 1,
         "in_progress": 0,
         "in_review": 0,
-        "done": 99
+        "done": 98
       },
       "latest_issues": [
+        {
+          "key": "SUR-125",
+          "title": "[空闲检测] 2026-10-02 leader 两小时正点检查与加派",
+          "status": "todo",
+          "updated_at": "2026-10-02T02:00:18Z"
+        },
         {
           "key": "SUR-122",
           "title": "[流程优化] 2026-10-02 晨会产出 1 项（Opt-012 次日验证三件套同 run 完成",
@@ -72,12 +79,6 @@
           "title": "[空闲检测] 2026-10-02 leader 两小时正点检查与加派",
           "status": "done",
           "updated_at": "2026-10-01T22:02:41Z"
-        },
-        {
-          "key": "SUR-120",
-          "title": "[任务][day-8] 参考文献补源收敛至 ≥100 篇（新增文献逐条原文核验 + 编号一源一号 +",
-          "status": "done",
-          "updated_at": "2026-10-01T20:24:24Z"
         }
       ],
       "progress_note": "day-4 晨 37% → 午 42% → 晚 44% → 夜 47%",
@@ -155,12 +156,18 @@
         }
       ],
       "issue_counts": {
-        "todo": 1,
+        "todo": 2,
         "in_progress": 2,
         "in_review": 2,
         "done": 92
       },
       "latest_issues": [
+        {
+          "key": "BEN-105",
+          "title": "[空闲检测] 2026-10-02 leader 两小时正点检查与加派",
+          "status": "todo",
+          "updated_at": "2026-10-02T02:00:21Z"
+        },
         {
           "key": "BEN-104",
           "title": "[巡检] 2026-10-02 leader Issue 状态巡检与催办",
@@ -184,12 +191,6 @@
           "title": "[任务·第1轮] Android 侧定位校准+数据前置（BEN-72 P0 反馈闭环：Antenna",
           "status": "in_progress",
           "updated_at": "2026-10-01T20:17:03Z"
-        },
-        {
-          "key": "BEN-102",
-          "title": "[任务·第1轮] gold/antennapod 锚定视觉差分 + SC v2 差分准备（ref B",
-          "status": "in_review",
-          "updated_at": "2026-10-01T20:15:50Z"
         }
       ]
     },
@@ -278,6 +279,12 @@
       },
       "latest_issues": [
         {
+          "key": "DWM-108",
+          "title": "[空闲检测] 2026-10-02 leader 两小时正点检查与加派",
+          "status": "done",
+          "updated_at": "2026-10-02T02:01:43Z"
+        },
+        {
           "key": "DWM-95",
           "title": "[DW迁移任务单] Simple-Calendar 迁移 · 修复 wave 1/4",
           "status": "in_progress",
@@ -300,12 +307,6 @@
           "title": "[早会纪要] 2026-10-02",
           "status": "done",
           "updated_at": "2026-10-01T20:15:54Z"
-        },
-        {
-          "key": "DWM-99",
-          "title": "[空闲检测] 2026-10-02 leader 两小时正点检查与加派",
-          "status": "done",
-          "updated_at": "2026-10-01T18:01:36Z"
         }
       ],
       "order": {
@@ -411,9 +412,15 @@
         "todo": 0,
         "in_progress": 0,
         "in_review": 2,
-        "done": 93
+        "done": 94
       },
       "latest_issues": [
+        {
+          "key": "IPD-167",
+          "title": "[空闲检测] 2026-10-02 leader 两小时正点检查与加派",
+          "status": "done",
+          "updated_at": "2026-10-02T02:02:58Z"
+        },
         {
           "key": "IPD-164",
           "title": "[TR-Req] REQ-008 喝水打卡提醒 需求评审（PM 主持 · SA 联合评审）",
@@ -437,12 +444,6 @@
           "title": "[PRD·第1轮] REQ-008 新场景需求发布 + 需求池扩充（life/efficiency ",
           "status": "done",
           "updated_at": "2026-10-02T00:03:15Z"
-        },
-        {
-          "key": "IPD-157",
-          "title": "[Dev·临时加派] REQ-007 扫雷双端编码（闭合 D1/D2/D4/D5，预取证 D3）",
-          "status": "done",
-          "updated_at": "2026-10-02T00:03:14Z"
         }
       ]
     }
