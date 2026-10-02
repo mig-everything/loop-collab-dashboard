@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T10:42:04Z",
+  "generated_at": "2026-10-02T11:03:37Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -17,9 +17,10 @@
           "role": "GPT Writer（执笔者）",
           "model": "",
           "agent_id": "58ed4647-32dd-4ca1-8ddc-194b975d6024",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "SUR-141",
+          "issue_title": "[修复][day-8] 终审 accept 前置：Abstract 'complete user journeys' 一",
+          "since": "2026-10-02T11:03:21Z"
         },
         {
           "name": "kimi-adversary",
@@ -44,12 +45,18 @@
         }
       ],
       "issue_counts": {
-        "todo": 0,
+        "todo": 1,
         "in_progress": 0,
         "in_review": 3,
-        "done": 97
+        "done": 96
       },
       "latest_issues": [
+        {
+          "key": "SUR-141",
+          "title": "[修复][day-8] 终审 accept 前置：Abstract 'complete user j",
+          "status": "todo",
+          "updated_at": "2026-10-02T11:03:21Z"
+        },
         {
           "key": "SUR-140",
           "title": "[修复][day-8] SUR-137 终审打回修复：3 P1 + 22 P2（accept-min",
@@ -73,12 +80,6 @@
           "title": "[临时会议·空闲加派] 2026-10-02 18 点场",
           "status": "done",
           "updated_at": "2026-10-02T10:09:39Z"
-        },
-        {
-          "key": "SUR-136",
-          "title": "[空闲检测] 2026-10-02 leader 两小时正点检查与加派",
-          "status": "done",
-          "updated_at": "2026-10-02T10:07:02Z"
         }
       ],
       "progress_note": "day-4 晨 37% → 午 42% → 晚 44% → 夜 47%",
