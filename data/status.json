@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T10:16:37Z",
+  "generated_at": "2026-10-02T10:23:54Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -371,10 +371,9 @@
           "role": "IPD-Tester 测试工程师",
           "model": "zai:glm-5.3",
           "agent_id": "86df9f14-a2cd-46d9-ad15-dbe8606ebd73",
-          "state": "working",
-          "issue": "IPD-179",
-          "issue_title": "[Tester·第3轮] REQ-008 差分用例清单 + 差分断言（TDD 先行，契约 §4 用例 1~9+6a/6b",
-          "since": "2026-10-02T10:06:48Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "hermes-rm",
@@ -409,11 +408,17 @@
       ],
       "issue_counts": {
         "todo": 0,
-        "in_progress": 2,
-        "in_review": 3,
+        "in_progress": 1,
+        "in_review": 4,
         "done": 92
       },
       "latest_issues": [
+        {
+          "key": "IPD-179",
+          "title": "[Tester·第3轮] REQ-008 差分用例清单 + 差分断言（TDD 先行，契约 §4 用例",
+          "status": "in_review",
+          "updated_at": "2026-10-02T10:23:46Z"
+        },
         {
           "key": "IPD-181",
           "title": "[RM·第3轮] REQ-007 扫雷 发版度量 + 四维差环比基线更新",
@@ -437,12 +442,6 @@
           "title": "[空闲检测] 2026-10-02 leader 两小时正点检查与加派",
           "status": "done",
           "updated_at": "2026-10-02T10:07:43Z"
-        },
-        {
-          "key": "IPD-179",
-          "title": "[Tester·第3轮] REQ-008 差分用例清单 + 差分断言（TDD 先行，契约 §4 用例",
-          "status": "in_progress",
-          "updated_at": "2026-10-02T10:07:22Z"
         }
       ]
     }
