@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T00:24:28Z",
+  "generated_at": "2026-10-02T00:28:07Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -279,7 +279,7 @@
           "key": "DWM-95",
           "title": "[DW迁移任务单] Simple-Calendar 迁移 · 清单+迁移 · 清单生成中 续4·r1",
           "status": "in_progress",
-          "updated_at": "2026-10-02T00:22:21Z"
+          "updated_at": "2026-10-02T00:27:29Z"
         },
         {
           "key": "DWM-106",
@@ -308,9 +308,9 @@
       ],
       "order": {
         "key": "DWM-95",
-        "title": "[DW迁移任务单] Simple-Calendar 迁移 · 清单+迁移 · 清单生成中 续4·r115·1457/800步·1页/585项 · 迁移完成 5/6 · 清单12.0",
+        "title": "[DW迁移任务单] Simple-Calendar 迁移 · 清单+迁移 · 清单生成中 续4·r115·1457/800步·1页/585项 · 迁移完成 5/6 · 清单12.1",
         "status": "in_progress",
-        "updated_at": "2026-10-02T00:22:21Z"
+        "updated_at": "2026-10-02T00:27:29Z"
       },
       "progress_note": "10 个应用：完成 2、进行中 1、暂停 0、未开始 7"
     },
@@ -417,7 +417,7 @@
           "key": "IPD-160",
           "title": "[Tester·临时加派] REQ-006 随手记账 TR-Accept 差分执行（收口 D3）",
           "status": "in_progress",
-          "updated_at": "2026-10-02T00:05:22Z"
+          "updated_at": "2026-10-02T00:28:28Z"
         },
         {
           "key": "IPD-166",
