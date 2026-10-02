@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T11:07:17Z",
+  "generated_at": "2026-10-02T11:10:56Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -17,10 +17,9 @@
           "role": "GPT Writer（执笔者）",
           "model": "",
           "agent_id": "58ed4647-32dd-4ca1-8ddc-194b975d6024",
-          "state": "working",
-          "issue": "SUR-141",
-          "issue_title": "[修复][day-8] 终审 accept 前置：Abstract 'complete user journeys' 一",
-          "since": "2026-10-02T11:03:21Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "kimi-adversary",
@@ -45,16 +44,16 @@
       ],
       "issue_counts": {
         "todo": 0,
-        "in_progress": 1,
-        "in_review": 3,
+        "in_progress": 0,
+        "in_review": 4,
         "done": 96
       },
       "latest_issues": [
         {
           "key": "SUR-141",
           "title": "[修复][day-8] 终审 accept 前置：Abstract 'complete user j",
-          "status": "in_progress",
-          "updated_at": "2026-10-02T11:06:03Z"
+          "status": "in_review",
+          "updated_at": "2026-10-02T11:07:23Z"
         },
         {
           "key": "SUR-140",
