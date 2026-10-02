@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T04:30:23Z",
+  "generated_at": "2026-10-02T04:34:16Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -329,10 +329,9 @@
           "role": "IPD-PM 产品经理",
           "model": "",
           "agent_id": "1764c131-5c09-48cb-aa48-3177d5256dbb",
-          "state": "working",
-          "issue": "IPD-173",
-          "issue_title": "[TR-Design] REQ-008 喝水打卡架构+契约评审（C1/C2/C3 已闭合，PM 主持 · SE/Dev/",
-          "since": "2026-10-02T04:27:59Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "hermes-sa",
@@ -370,10 +369,9 @@
           "role": "IPD-Tester 测试工程师",
           "model": "zai:glm-5.3",
           "agent_id": "86df9f14-a2cd-46d9-ad15-dbe8606ebd73",
-          "state": "working",
-          "issue": "IPD-169",
-          "issue_title": "[测试·第2轮] REQ-007 扫雷 TR-Accept 差分执行收口（P0 主线第 7 场景）",
-          "since": "2026-10-02T04:06:31Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "hermes-rm",
@@ -407,23 +405,29 @@
         }
       ],
       "issue_counts": {
-        "todo": 1,
+        "todo": 0,
         "in_progress": 1,
-        "in_review": 3,
+        "in_review": 4,
         "done": 92
       },
       "latest_issues": [
+        {
+          "key": "IPD-173",
+          "title": "[TR-Design] REQ-008 喝水打卡架构+契约评审（C1/C2/C3 已闭合，PM 主持",
+          "status": "in_review",
+          "updated_at": "2026-10-02T04:34:06Z"
+        },
+        {
+          "key": "IPD-169",
+          "title": "[测试·第2轮] REQ-007 扫雷 TR-Accept 差分执行收口（P0 主线第 7 场景）",
+          "status": "in_progress",
+          "updated_at": "2026-10-02T04:31:51Z"
+        },
         {
           "key": "IPD-171",
           "title": "[SA·第2轮] REQ-008 喝水打卡 TR-Design 架构 + 接口契约（闭合 C1/C2",
           "status": "in_review",
           "updated_at": "2026-10-02T04:28:44Z"
-        },
-        {
-          "key": "IPD-173",
-          "title": "[TR-Design] REQ-008 喝水打卡架构+契约评审（C1/C2/C3 已闭合，PM 主持",
-          "status": "todo",
-          "updated_at": "2026-10-02T04:27:59Z"
         },
         {
           "key": "IPD-172",
@@ -436,12 +440,6 @@
           "title": "[PRD·第2轮] REQ-008 喝水打卡 PRD v1.1 回写（闭合 C1/C2/C3 + O",
           "status": "in_review",
           "updated_at": "2026-10-02T04:18:03Z"
-        },
-        {
-          "key": "IPD-169",
-          "title": "[测试·第2轮] REQ-007 扫雷 TR-Accept 差分执行收口（P0 主线第 7 场景）",
-          "status": "in_progress",
-          "updated_at": "2026-10-02T04:08:49Z"
         }
       ]
     }
