@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T18:18:53Z",
+  "generated_at": "2026-10-02T18:22:39Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -241,7 +241,7 @@
           "agent_id": "1c3481f5-135b-4959-9daa-c510c076d494",
           "state": "working",
           "issue": "DWM-122",
-          "issue_title": "[DW迁移任务单] MifareClassicTool 迁移 · 清单+迁移 · 清单生成中 准备中 · 迁移中 3/6",
+          "issue_title": "[DW迁移任务单] MifareClassicTool 迁移 · 清单+迁移 · 清单生成中 0/800步·1页/7项 ",
           "since": "2026-10-02T16:43:37Z"
         },
         {
@@ -274,9 +274,9 @@
       "latest_issues": [
         {
           "key": "DWM-122",
-          "title": "[DW迁移任务单] MifareClassicTool 迁移 · 清单+迁移 · 清单生成中 准备中",
+          "title": "[DW迁移任务单] MifareClassicTool 迁移 · 清单+迁移 · 清单生成中 0/8",
           "status": "in_progress",
-          "updated_at": "2026-10-02T18:16:58Z"
+          "updated_at": "2026-10-02T18:22:25Z"
         },
         {
           "key": "DWM-125",
@@ -305,9 +305,9 @@
       ],
       "order": {
         "key": "DWM-122",
-        "title": "[DW迁移任务单] MifareClassicTool 迁移 · 清单+迁移 · 清单生成中 准备中 · 迁移中 3/6 · 清单0h/10h 迁移1.5h/12h",
+        "title": "[DW迁移任务单] MifareClassicTool 迁移 · 清单+迁移 · 清单生成中 0/800步·1页/7项 · 迁移中 3/6 · 清单0.1h/10h 迁移1.6h/",
         "status": "in_progress",
-        "updated_at": "2026-10-02T18:16:58Z"
+        "updated_at": "2026-10-02T18:22:25Z"
       },
       "progress_note": "10 个应用：完成 2、进行中 1、暂停 0、未开始 7"
     },
@@ -327,10 +327,9 @@
           "role": "IPD-PM 产品经理",
           "model": "",
           "agent_id": "1764c131-5c09-48cb-aa48-3177d5256dbb",
-          "state": "working",
-          "issue": "IPD-191",
-          "issue_title": "[PM·临时加派] REQ-009 正式 PRD v1.0 + TR-Req 发起（每日一句 · 预研落地）",
-          "since": "2026-10-02T18:10:18Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "hermes-sa",
@@ -338,9 +337,10 @@
           "role": "IPD-SA 解决方案架构师",
           "model": "zai:glm-5.3",
           "agent_id": "3e4373ef-a262-4b28-ab2a-818861fc9624",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-194",
+          "issue_title": "[TR-Req] REQ-009 每日一句（Daily Quote · 本地种子库版）PRD v1.0 需求评审",
+          "since": "2026-10-02T18:21:37Z"
         },
         {
           "name": "hermes-se",
@@ -406,12 +406,24 @@
         }
       ],
       "issue_counts": {
-        "todo": 1,
-        "in_progress": 2,
-        "in_review": 1,
-        "done": 93
+        "todo": 0,
+        "in_progress": 3,
+        "in_review": 2,
+        "done": 92
       },
       "latest_issues": [
+        {
+          "key": "IPD-194",
+          "title": "[TR-Req] REQ-009 每日一句（Daily Quote · 本地种子库版）PRD v1.",
+          "status": "in_progress",
+          "updated_at": "2026-10-02T18:22:03Z"
+        },
+        {
+          "key": "IPD-191",
+          "title": "[PM·临时加派] REQ-009 正式 PRD v1.0 + TR-Req 发起（每日一句 · 预",
+          "status": "in_review",
+          "updated_at": "2026-10-02T18:21:54Z"
+        },
         {
           "key": "IPD-190",
           "title": "[RM·临时加派] REQ-008 发版度量 + 四维差环比基线更新",
@@ -429,18 +441,6 @@
           "title": "[Tester·临时加派] REQ-008 喝水打卡 TR-Accept 差分执行收口（P0 主线第",
           "status": "in_progress",
           "updated_at": "2026-10-02T18:12:43Z"
-        },
-        {
-          "key": "IPD-188",
-          "title": "[空闲检测] 2026-10-03 leader 两小时正点检查与加派",
-          "status": "done",
-          "updated_at": "2026-10-02T18:10:56Z"
-        },
-        {
-          "key": "IPD-193",
-          "title": "[临时会议·空闲加派] 2026-10-03 02 点场",
-          "status": "done",
-          "updated_at": "2026-10-02T18:10:55Z"
         }
       ]
     }
