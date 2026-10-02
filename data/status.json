@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T16:13:45Z",
+  "generated_at": "2026-10-02T16:42:51Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -229,9 +229,10 @@
           "role": "DW 迁移执行小队队长",
           "model": "claude-opus-5-5",
           "agent_id": "c6ff7c69-0db4-4b35-ac81-dd00e5a53ba4",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "DWM-122",
+          "issue_title": "[DW迁移任务单] MifareClassicTool 迁移",
+          "since": "2026-10-02T16:42:42Z"
         },
         {
           "name": "exec-runner",
@@ -265,12 +266,18 @@
         }
       ],
       "issue_counts": {
-        "todo": 0,
+        "todo": 1,
         "in_progress": 0,
         "in_review": 0,
-        "done": 65
+        "done": 64
       },
       "latest_issues": [
+        {
+          "key": "DWM-122",
+          "title": "[DW迁移任务单] MifareClassicTool 迁移",
+          "status": "todo",
+          "updated_at": "2026-10-02T16:42:40Z"
+        },
         {
           "key": "DWM-95",
           "title": "[DW迁移任务单] Simple-Calendar 迁移 · 已完成",
@@ -294,19 +301,13 @@
           "title": "[晚会日报] 2026-10-02",
           "status": "done",
           "updated_at": "2026-10-02T12:09:12Z"
-        },
-        {
-          "key": "DWM-114",
-          "title": "[空闲检测] 2026-10-02 leader 两小时正点检查与加派",
-          "status": "done",
-          "updated_at": "2026-10-02T10:01:54Z"
         }
       ],
       "order": {
-        "key": "DWM-95",
-        "title": "[DW迁移任务单] Simple-Calendar 迁移 · 已完成",
-        "status": "done",
-        "updated_at": "2026-10-02T16:10:51Z"
+        "key": "DWM-122",
+        "title": "[DW迁移任务单] MifareClassicTool 迁移",
+        "status": "todo",
+        "updated_at": "2026-10-02T16:42:40Z"
       },
       "progress_note": "10 个应用：完成 2、进行中 1、暂停 0、未开始 7"
     },
