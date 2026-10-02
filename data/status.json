@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T00:28:07Z",
+  "generated_at": "2026-10-02T00:31:47Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -370,10 +370,9 @@
           "role": "IPD-Tester 测试工程师",
           "model": "zai:glm-5.3",
           "agent_id": "86df9f14-a2cd-46d9-ad15-dbe8606ebd73",
-          "state": "working",
-          "issue": "IPD-160",
-          "issue_title": "[Tester·临时加派] REQ-006 随手记账 TR-Accept 差分执行（收口 D3）",
-          "since": "2026-10-02T00:03:23Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "hermes-rm",
@@ -408,16 +407,16 @@
       ],
       "issue_counts": {
         "todo": 0,
-        "in_progress": 1,
-        "in_review": 0,
+        "in_progress": 0,
+        "in_review": 1,
         "done": 93
       },
       "latest_issues": [
         {
           "key": "IPD-160",
           "title": "[Tester·临时加派] REQ-006 随手记账 TR-Accept 差分执行（收口 D3）",
-          "status": "in_progress",
-          "updated_at": "2026-10-02T00:28:28Z"
+          "status": "in_review",
+          "updated_at": "2026-10-02T00:28:34Z"
         },
         {
           "key": "IPD-166",
