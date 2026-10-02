@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T12:15:54Z",
+  "generated_at": "2026-10-02T12:19:39Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -17,10 +17,9 @@
           "role": "GPT Writer（执笔者）",
           "model": "",
           "agent_id": "58ed4647-32dd-4ca1-8ddc-194b975d6024",
-          "state": "working",
-          "issue": "SUR-142",
-          "issue_title": "[晚会日报] 2026-10-02",
-          "since": "2026-10-02T12:14:29Z"
+          "state": "meeting",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "kimi-adversary",
@@ -56,7 +55,7 @@
           "key": "SUR-142",
           "title": "[晚会日报] 2026-10-02",
           "status": "done",
-          "updated_at": "2026-10-02T12:15:29Z"
+          "updated_at": "2026-10-02T12:17:55Z"
         },
         {
           "key": "SUR-144",
