@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T18:15:07Z",
+  "generated_at": "2026-10-02T18:18:53Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -229,7 +229,7 @@
           "role": "DW 迁移执行小队队长",
           "model": "claude-opus-5-5",
           "agent_id": "c6ff7c69-0db4-4b35-ac81-dd00e5a53ba4",
-          "state": "working",
+          "state": "idle",
           "issue": "",
           "issue_title": ""
         },
@@ -241,7 +241,7 @@
           "agent_id": "1c3481f5-135b-4959-9daa-c510c076d494",
           "state": "working",
           "issue": "DWM-122",
-          "issue_title": "[DW迁移任务单] MifareClassicTool 迁移 · 清单+迁移 · 清单未开始 · 迁移中 3/6 · 迁",
+          "issue_title": "[DW迁移任务单] MifareClassicTool 迁移 · 清单+迁移 · 清单生成中 准备中 · 迁移中 3/6",
           "since": "2026-10-02T16:43:37Z"
         },
         {
@@ -267,16 +267,16 @@
       ],
       "issue_counts": {
         "todo": 0,
-        "in_progress": 0,
+        "in_progress": 1,
         "in_review": 0,
         "done": 62
       },
       "latest_issues": [
         {
           "key": "DWM-122",
-          "title": "[DW迁移任务单] MifareClassicTool 迁移 · 清单+迁移 · 清单未开始 · 迁",
-          "status": "blocked",
-          "updated_at": "2026-10-02T18:15:18Z"
+          "title": "[DW迁移任务单] MifareClassicTool 迁移 · 清单+迁移 · 清单生成中 准备中",
+          "status": "in_progress",
+          "updated_at": "2026-10-02T18:16:58Z"
         },
         {
           "key": "DWM-125",
@@ -305,9 +305,9 @@
       ],
       "order": {
         "key": "DWM-122",
-        "title": "[DW迁移任务单] MifareClassicTool 迁移 · 清单+迁移 · 清单未开始 · 迁移中 3/6 · 迁移1.4h/12h · 待人工",
-        "status": "blocked",
-        "updated_at": "2026-10-02T18:15:18Z"
+        "title": "[DW迁移任务单] MifareClassicTool 迁移 · 清单+迁移 · 清单生成中 准备中 · 迁移中 3/6 · 清单0h/10h 迁移1.5h/12h",
+        "status": "in_progress",
+        "updated_at": "2026-10-02T18:16:58Z"
       },
       "progress_note": "10 个应用：完成 2、进行中 1、暂停 0、未开始 7"
     },
@@ -380,10 +380,9 @@
           "role": "IPD-RM 发布经理",
           "model": "zai:glm-5.3",
           "agent_id": "78156461-9644-478e-9c80-53cd18e25e33",
-          "state": "working",
-          "issue": "IPD-190",
-          "issue_title": "[RM·临时加派] REQ-008 发版度量 + 四维差环比基线更新",
-          "since": "2026-10-02T18:10:15Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "deepseek-planner",
@@ -407,23 +406,29 @@
         }
       ],
       "issue_counts": {
-        "todo": 2,
+        "todo": 1,
         "in_progress": 2,
-        "in_review": 0,
+        "in_review": 1,
         "done": 93
       },
       "latest_issues": [
+        {
+          "key": "IPD-190",
+          "title": "[RM·临时加派] REQ-008 发版度量 + 四维差环比基线更新",
+          "status": "in_review",
+          "updated_at": "2026-10-02T18:18:30Z"
+        },
+        {
+          "key": "IPD-192",
+          "title": "[Dev·临时加派] Eazo 生成引擎真实首跑 + Token 度量落地（补四维差 Token 项",
+          "status": "in_progress",
+          "updated_at": "2026-10-02T18:18:29Z"
+        },
         {
           "key": "IPD-189",
           "title": "[Tester·临时加派] REQ-008 喝水打卡 TR-Accept 差分执行收口（P0 主线第",
           "status": "in_progress",
           "updated_at": "2026-10-02T18:12:43Z"
-        },
-        {
-          "key": "IPD-190",
-          "title": "[RM·临时加派] REQ-008 发版度量 + 四维差环比基线更新",
-          "status": "in_progress",
-          "updated_at": "2026-10-02T18:11:26Z"
         },
         {
           "key": "IPD-188",
@@ -436,12 +441,6 @@
           "title": "[临时会议·空闲加派] 2026-10-03 02 点场",
           "status": "done",
           "updated_at": "2026-10-02T18:10:55Z"
-        },
-        {
-          "key": "IPD-192",
-          "title": "[Dev·临时加派] Eazo 生成引擎真实首跑 + Token 度量落地（补四维差 Token 项",
-          "status": "todo",
-          "updated_at": "2026-10-02T18:10:20Z"
         }
       ]
     }
