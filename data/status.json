@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T23:43:08Z",
+  "generated_at": "2026-10-02T23:46:51Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -263,12 +263,9 @@
           "role": "修复员",
           "model": "claude-opus-5-5",
           "agent_id": "cd70e713-a339-4621-8699-2058d9cf7d6b",
-          "state": "working",
-          "issue": "DWM-130",
-          "issue_title": "[DWM-122·过程归因] MifareClassicTool 迁移过程归因",
-          "since": "2026-10-02T23:23:20Z",
-          "parent_issue": "DWM-122",
-          "parent_title": "[DW迁移任务单] MifareClassicTool 迁移 · 清单+迁移 · 清单生成中 续2·r56·922/80"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         }
       ],
       "issue_counts": {
@@ -282,7 +279,7 @@
           "key": "DWM-122",
           "title": "[DW迁移任务单] MifareClassicTool 迁移 · 清单+迁移 · 清单生成中 续2·",
           "status": "in_progress",
-          "updated_at": "2026-10-02T23:41:30Z"
+          "updated_at": "2026-10-02T23:46:45Z"
         },
         {
           "key": "DWM-126",
@@ -311,9 +308,9 @@
       ],
       "order": {
         "key": "DWM-122",
-        "title": "[DW迁移任务单] MifareClassicTool 迁移 · 清单+迁移 · 清单生成中 续2·r56·922/800步·1页/288项 · 迁移完成 5/6 · 清单5.4h",
+        "title": "[DW迁移任务单] MifareClassicTool 迁移 · 清单+迁移 · 清单生成中 续2·r56·922/800步·1页/288项 · 迁移完成 5/6 · 清单5.5h",
         "status": "in_progress",
-        "updated_at": "2026-10-02T23:41:30Z"
+        "updated_at": "2026-10-02T23:46:45Z"
       }
     },
     {
