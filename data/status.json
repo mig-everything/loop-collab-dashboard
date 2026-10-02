@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T10:12:55Z",
+  "generated_at": "2026-10-02T10:16:37Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -330,10 +330,9 @@
           "role": "IPD-PM 产品经理",
           "model": "",
           "agent_id": "1764c131-5c09-48cb-aa48-3177d5256dbb",
-          "state": "working",
-          "issue": "IPD-180",
-          "issue_title": "[PM·第3轮] REQ-009 下一场景预研 + 需求池扩充（业界热门 APP 类型洞察）",
-          "since": "2026-10-02T10:06:51Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "hermes-sa",
@@ -383,10 +382,9 @@
           "role": "IPD-RM 发布经理",
           "model": "zai:glm-5.3",
           "agent_id": "78156461-9644-478e-9c80-53cd18e25e33",
-          "state": "working",
-          "issue": "IPD-181",
-          "issue_title": "[RM·第3轮] REQ-007 扫雷 发版度量 + 四维差环比基线更新",
-          "since": "2026-10-02T10:06:52Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "deepseek-planner",
@@ -411,16 +409,22 @@
       ],
       "issue_counts": {
         "todo": 0,
-        "in_progress": 4,
-        "in_review": 1,
+        "in_progress": 2,
+        "in_review": 3,
         "done": 92
       },
       "latest_issues": [
         {
+          "key": "IPD-181",
+          "title": "[RM·第3轮] REQ-007 扫雷 发版度量 + 四维差环比基线更新",
+          "status": "in_review",
+          "updated_at": "2026-10-02T10:14:53Z"
+        },
+        {
           "key": "IPD-180",
           "title": "[PM·第3轮] REQ-009 下一场景预研 + 需求池扩充（业界热门 APP 类型洞察）",
-          "status": "in_progress",
-          "updated_at": "2026-10-02T10:11:39Z"
+          "status": "in_review",
+          "updated_at": "2026-10-02T10:14:05Z"
         },
         {
           "key": "IPD-178",
@@ -433,12 +437,6 @@
           "title": "[空闲检测] 2026-10-02 leader 两小时正点检查与加派",
           "status": "done",
           "updated_at": "2026-10-02T10:07:43Z"
-        },
-        {
-          "key": "IPD-181",
-          "title": "[RM·第3轮] REQ-007 扫雷 发版度量 + 四维差环比基线更新",
-          "status": "in_progress",
-          "updated_at": "2026-10-02T10:07:22Z"
         },
         {
           "key": "IPD-179",
