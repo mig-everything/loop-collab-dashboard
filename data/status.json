@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T18:52:15Z",
+  "generated_at": "2026-10-02T18:55:56Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -241,7 +241,7 @@
           "agent_id": "1c3481f5-135b-4959-9daa-c510c076d494",
           "state": "working",
           "issue": "DWM-122",
-          "issue_title": "[DW迁移任务单] MifareClassicTool 迁移 · 清单+迁移 · 清单生成中 r9·67/800步·1页",
+          "issue_title": "[DW迁移任务单] MifareClassicTool 迁移 · 清单+迁移 · 清单生成中 r10·80/800步·1",
           "since": "2026-10-02T18:23:44Z"
         },
         {
@@ -274,9 +274,9 @@
       "latest_issues": [
         {
           "key": "DWM-122",
-          "title": "[DW迁移任务单] MifareClassicTool 迁移 · 清单+迁移 · 清单生成中 r9·",
+          "title": "[DW迁移任务单] MifareClassicTool 迁移 · 清单+迁移 · 清单生成中 r10",
           "status": "in_progress",
-          "updated_at": "2026-10-02T18:49:50Z"
+          "updated_at": "2026-10-02T18:54:58Z"
         },
         {
           "key": "DWM-125",
@@ -305,9 +305,9 @@
       ],
       "order": {
         "key": "DWM-122",
-        "title": "[DW迁移任务单] MifareClassicTool 迁移 · 清单+迁移 · 清单生成中 r9·67/800步·1页/156项 · 迁移中 3/6 · 清单0.6h/10h 迁",
+        "title": "[DW迁移任务单] MifareClassicTool 迁移 · 清单+迁移 · 清单生成中 r10·80/800步·1页/158项 · 迁移中 3/6 · 清单0.6h/10h ",
         "status": "in_progress",
-        "updated_at": "2026-10-02T18:49:50Z"
+        "updated_at": "2026-10-02T18:54:58Z"
       },
       "progress_note": "10 个应用：完成 2、进行中 1、暂停 0、未开始 7"
     },
