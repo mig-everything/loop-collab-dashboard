@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T17:08:43Z",
+  "generated_at": "2026-10-02T17:12:26Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -229,9 +229,10 @@
           "role": "DW 迁移执行小队队长",
           "model": "claude-opus-5-5",
           "agent_id": "c6ff7c69-0db4-4b35-ac81-dd00e5a53ba4",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "DWM-122",
+          "issue_title": "[DW迁移任务单] MifareClassicTool 迁移 · 清单+迁移 · 清单未开始 · 迁移中 2/6 · 迁",
+          "since": "2026-10-02T17:11:21Z"
         },
         {
           "name": "exec-runner",
@@ -260,12 +261,9 @@
           "role": "修复员",
           "model": "claude-opus-5-5",
           "agent_id": "cd70e713-a339-4621-8699-2058d9cf7d6b",
-          "state": "working",
-          "issue": "DWM-123",
-          "issue_title": "[DWM-122·工具修复] mig android-build 不支持 Gradle 根在子目录（MifareClas",
-          "since": "2026-10-02T16:53:11Z",
-          "parent_issue": "DWM-122",
-          "parent_title": "[DW迁移任务单] MifareClassicTool 迁移 · 清单+迁移 · 清单未开始 · 迁移中 2/6 · 迁"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         }
       ],
       "issue_counts": {
@@ -279,7 +277,7 @@
           "key": "DWM-122",
           "title": "[DW迁移任务单] MifareClassicTool 迁移 · 清单+迁移 · 清单未开始 · 迁",
           "status": "blocked",
-          "updated_at": "2026-10-02T17:05:45Z"
+          "updated_at": "2026-10-02T17:11:50Z"
         },
         {
           "key": "DWM-95",
@@ -308,9 +306,9 @@
       ],
       "order": {
         "key": "DWM-122",
-        "title": "[DW迁移任务单] MifareClassicTool 迁移 · 清单+迁移 · 清单未开始 · 迁移中 2/6 · 迁移0.3h/12h · 待人工",
+        "title": "[DW迁移任务单] MifareClassicTool 迁移 · 清单+迁移 · 清单未开始 · 迁移中 2/6 · 迁移0.4h/12h · 待人工",
         "status": "blocked",
-        "updated_at": "2026-10-02T17:05:45Z"
+        "updated_at": "2026-10-02T17:11:50Z"
       },
       "progress_note": "10 个应用：完成 2、进行中 1、暂停 0、未开始 7"
     },
