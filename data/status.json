@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T02:06:26Z",
+  "generated_at": "2026-10-02T02:10:07Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -18,9 +18,9 @@
           "model": "",
           "agent_id": "58ed4647-32dd-4ca1-8ddc-194b975d6024",
           "state": "working",
-          "issue": "SUR-127",
-          "issue_title": "[任务][day-8] 篇幅补齐至 ~25 页（验收口径③ 格式篇幅）+ 更新投稿清单 ③⑥⑧ 勾选",
-          "since": "2026-10-02T02:06:12Z"
+          "issue": "SUR-128",
+          "issue_title": "[临时会议·空闲加派] 2026-10-02 10 点场",
+          "since": "2026-10-02T02:07:19Z"
         },
         {
           "name": "kimi-adversary",
@@ -39,19 +39,36 @@
           "role": "DeepSeek Task Planner（任务规划+总结）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "04a4e04e-59d5-4f3a-8a16-acf99b80a493",
-          "state": "working",
-          "issue": "SUR-125",
-          "issue_title": "[空闲检测] 2026-10-02 leader 两小时正点检查与加派",
-          "since": "2026-10-02T02:00:19Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         }
       ],
       "issue_counts": {
-        "todo": 2,
-        "in_progress": 1,
+        "todo": 0,
+        "in_progress": 2,
         "in_review": 0,
-        "done": 96
+        "done": 98
       },
       "latest_issues": [
+        {
+          "key": "SUR-128",
+          "title": "[临时会议·空闲加派] 2026-10-02 10 点场",
+          "status": "done",
+          "updated_at": "2026-10-02T02:09:10Z"
+        },
+        {
+          "key": "SUR-127",
+          "title": "[任务][day-8] 篇幅补齐至 ~25 页（验收口径③ 格式篇幅）+ 更新投稿清单 ③⑥⑧ 勾选",
+          "status": "in_progress",
+          "updated_at": "2026-10-02T02:08:50Z"
+        },
+        {
+          "key": "SUR-125",
+          "title": "[空闲检测] 2026-10-02 leader 两小时正点检查与加派",
+          "status": "done",
+          "updated_at": "2026-10-02T02:07:33Z"
+        },
         {
           "key": "SUR-126",
           "title": "[评审][day-8] 增量终审 SUR-120 新增 44 篇文献（⑥ 证据可靠独立核验 + ②④",
@@ -59,28 +76,10 @@
           "updated_at": "2026-10-02T02:06:28Z"
         },
         {
-          "key": "SUR-127",
-          "title": "[任务][day-8] 篇幅补齐至 ~25 页（验收口径③ 格式篇幅）+ 更新投稿清单 ③⑥⑧ 勾选",
-          "status": "todo",
-          "updated_at": "2026-10-02T02:06:12Z"
-        },
-        {
-          "key": "SUR-125",
-          "title": "[空闲检测] 2026-10-02 leader 两小时正点检查与加派",
-          "status": "todo",
-          "updated_at": "2026-10-02T02:00:18Z"
-        },
-        {
           "key": "SUR-122",
           "title": "[流程优化] 2026-10-02 晨会产出 1 项（Opt-012 次日验证三件套同 run 完成",
           "status": "done",
           "updated_at": "2026-10-02T00:11:23Z"
-        },
-        {
-          "key": "SUR-124",
-          "title": "[巡检] 2026-10-02 leader Issue 状态巡检与催办",
-          "status": "done",
-          "updated_at": "2026-10-02T00:04:40Z"
         }
       ],
       "progress_note": "day-4 晨 37% → 午 42% → 晚 44% → 夜 47%",
