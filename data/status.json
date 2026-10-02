@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T18:07:39Z",
+  "generated_at": "2026-10-02T18:11:22Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -276,7 +276,7 @@
           "key": "DWM-122",
           "title": "[DW迁移任务单] MifareClassicTool 迁移 · 清单+迁移 · 清单未开始 · 迁",
           "status": "blocked",
-          "updated_at": "2026-10-02T18:07:32Z"
+          "updated_at": "2026-10-02T18:11:10Z"
         },
         {
           "key": "DWM-125",
@@ -305,9 +305,9 @@
       ],
       "order": {
         "key": "DWM-122",
-        "title": "[DW迁移任务单] MifareClassicTool 迁移 · 清单+迁移 · 清单未开始 · 迁移中 2/6 · 迁移1.3h/12h · 待人工",
+        "title": "[DW迁移任务单] MifareClassicTool 迁移 · 清单+迁移 · 清单未开始 · 迁移中 2/6 · 迁移1.4h/12h · 待人工",
         "status": "blocked",
-        "updated_at": "2026-10-02T18:07:32Z"
+        "updated_at": "2026-10-02T18:11:10Z"
       },
       "progress_note": "10 个应用：完成 2、进行中 1、暂停 0、未开始 7"
     },
@@ -327,9 +327,10 @@
           "role": "IPD-PM 产品经理",
           "model": "",
           "agent_id": "1764c131-5c09-48cb-aa48-3177d5256dbb",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-191",
+          "issue_title": "[PM·临时加派] REQ-009 正式 PRD v1.0 + TR-Req 发起（每日一句 · 预研落地）",
+          "since": "2026-10-02T18:10:18Z"
         },
         {
           "name": "hermes-sa",
@@ -357,9 +358,10 @@
           "role": "IPD-Dev 开发工程师",
           "model": "zai:glm-5.3",
           "agent_id": "44fcec25-d8b3-4af6-b206-1774a64677ce",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-192",
+          "issue_title": "[Dev·临时加派] Eazo 生成引擎真实首跑 + Token 度量落地（补四维差 Token 项，P1）",
+          "since": "2026-10-02T18:10:20Z"
         },
         {
           "name": "hermes-tester",
@@ -367,9 +369,10 @@
           "role": "IPD-Tester 测试工程师",
           "model": "zai:glm-5.3",
           "agent_id": "86df9f14-a2cd-46d9-ad15-dbe8606ebd73",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-189",
+          "issue_title": "[Tester·临时加派] REQ-008 喝水打卡 TR-Accept 差分执行收口（P0 主线第 8 场景）",
+          "since": "2026-10-02T18:10:09Z"
         },
         {
           "name": "hermes-rm",
@@ -377,9 +380,10 @@
           "role": "IPD-RM 发布经理",
           "model": "zai:glm-5.3",
           "agent_id": "78156461-9644-478e-9c80-53cd18e25e33",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-190",
+          "issue_title": "[RM·临时加派] REQ-008 发版度量 + 四维差环比基线更新",
+          "since": "2026-10-02T18:10:15Z"
         },
         {
           "name": "deepseek-planner",
@@ -387,10 +391,9 @@
           "role": "DeepSeek Planner（小组 leader/PM ",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
-          "state": "working",
-          "issue": "IPD-188",
-          "issue_title": "[空闲检测] 2026-10-03 leader 两小时正点检查与加派",
-          "since": "2026-10-02T18:00:24Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "minimax-uijudge",
@@ -404,41 +407,41 @@
         }
       ],
       "issue_counts": {
-        "todo": 1,
-        "in_progress": 0,
+        "todo": 3,
+        "in_progress": 1,
         "in_review": 0,
-        "done": 96
+        "done": 93
       },
       "latest_issues": [
         {
+          "key": "IPD-190",
+          "title": "[RM·临时加派] REQ-008 发版度量 + 四维差环比基线更新",
+          "status": "in_progress",
+          "updated_at": "2026-10-02T18:11:26Z"
+        },
+        {
           "key": "IPD-188",
           "title": "[空闲检测] 2026-10-03 leader 两小时正点检查与加派",
+          "status": "done",
+          "updated_at": "2026-10-02T18:10:56Z"
+        },
+        {
+          "key": "IPD-193",
+          "title": "[临时会议·空闲加派] 2026-10-03 02 点场",
+          "status": "done",
+          "updated_at": "2026-10-02T18:10:55Z"
+        },
+        {
+          "key": "IPD-192",
+          "title": "[Dev·临时加派] Eazo 生成引擎真实首跑 + Token 度量落地（补四维差 Token 项",
           "status": "todo",
-          "updated_at": "2026-10-02T18:00:21Z"
+          "updated_at": "2026-10-02T18:10:20Z"
         },
         {
-          "key": "IPD-187",
-          "title": "[巡检] 2026-10-03 leader Issue 状态巡检与催办",
-          "status": "done",
-          "updated_at": "2026-10-02T16:03:17Z"
-        },
-        {
-          "key": "IPD-185",
-          "title": "[PM·回写] REQ-008 PRD v1.1 AC-HY2.2 锚点 (4,4,false)→(",
-          "status": "done",
-          "updated_at": "2026-10-02T16:02:57Z"
-        },
-        {
-          "key": "IPD-184",
-          "title": "[SA·勘误] REQ-008 契约 §4.1 锚点 (4,4,false)→(4,3,false)",
-          "status": "done",
-          "updated_at": "2026-10-02T16:02:56Z"
-        },
-        {
-          "key": "IPD-177",
-          "title": "[Dev·第3轮] REQ-008 喝水打卡 双端编码（契约 3532903，重点 R4/R5，D1",
-          "status": "done",
-          "updated_at": "2026-10-02T16:02:54Z"
+          "key": "IPD-191",
+          "title": "[PM·临时加派] REQ-009 正式 PRD v1.0 + TR-Req 发起（每日一句 · 预",
+          "status": "todo",
+          "updated_at": "2026-10-02T18:10:17Z"
         }
       ]
     }
