@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T08:35:57Z",
+  "generated_at": "2026-10-02T10:01:50Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -37,18 +37,25 @@
           "role": "DeepSeek Task Planner（任务规划+总结）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "04a4e04e-59d5-4f3a-8a16-acf99b80a493",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "SUR-136",
+          "issue_title": "[空闲检测] 2026-10-02 leader 两小时正点检查与加派",
+          "since": "2026-10-02T10:00:16Z"
         }
       ],
       "issue_counts": {
-        "todo": 0,
+        "todo": 1,
         "in_progress": 0,
         "in_review": 0,
-        "done": 100
+        "done": 99
       },
       "latest_issues": [
+        {
+          "key": "SUR-136",
+          "title": "[空闲检测] 2026-10-02 leader 两小时正点检查与加派",
+          "status": "todo",
+          "updated_at": "2026-10-02T10:00:16Z"
+        },
         {
           "key": "SUR-135",
           "title": "[复评][day-8] 复评 SUR-133 修复（2 P1 + 2 P2：议程表 D8/D9 / ",
@@ -72,12 +79,6 @@
           "title": "[空闲检测] 2026-10-02 leader 两小时正点检查与加派",
           "status": "done",
           "updated_at": "2026-10-02T06:05:10Z"
-        },
-        {
-          "key": "SUR-131",
-          "title": "[评审][day-8] 对抗评审 SUR-127 新增正文（篇幅补齐的批判性分析增量）+ 事后复核",
-          "status": "done",
-          "updated_at": "2026-10-02T06:05:06Z"
         }
       ],
       "progress_note": "day-4 晨 37% → 午 42% → 晚 44% → 夜 47%",
@@ -155,12 +156,18 @@
         }
       ],
       "issue_counts": {
-        "todo": 5,
+        "todo": 6,
         "in_progress": 2,
         "in_review": 2,
-        "done": 91
+        "done": 90
       },
       "latest_issues": [
+        {
+          "key": "BEN-109",
+          "title": "[空闲检测] 2026-10-02 leader 两小时正点检查与加派",
+          "status": "todo",
+          "updated_at": "2026-10-02T10:00:18Z"
+        },
         {
           "key": "BEN-108",
           "title": "[巡检] 2026-10-02 leader Issue 状态巡检与催办",
@@ -184,12 +191,6 @@
           "title": "[空闲检测] 2026-10-02 leader 两小时正点检查与加派",
           "status": "todo",
           "updated_at": "2026-10-02T02:00:21Z"
-        },
-        {
-          "key": "BEN-104",
-          "title": "[巡检] 2026-10-02 leader Issue 状态巡检与催办",
-          "status": "todo",
-          "updated_at": "2026-10-02T00:00:12Z"
         }
       ]
     },
@@ -249,9 +250,12 @@
           "role": "验证员",
           "model": "claude-opus-5-5",
           "agent_id": "69822c63-0dcc-4f3e-875d-7b300d437623",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "DWM-113",
+          "issue_title": "[DWM-95·wave3] Simple-Calendar 修复第 3 波（25 条）",
+          "since": "2026-10-02T10:00:09Z",
+          "parent_issue": "DWM-95",
+          "parent_title": "[DW迁移任务单] Simple-Calendar 迁移 · 修复 wave 3/4"
         },
         {
           "name": "exec-fixer",
@@ -259,12 +263,9 @@
           "role": "修复员",
           "model": "claude-opus-5-5",
           "agent_id": "cd70e713-a339-4621-8699-2058d9cf7d6b",
-          "state": "working",
-          "issue": "DWM-113",
-          "issue_title": "[DWM-95·wave3] Simple-Calendar 修复第 3 波（25 条）",
-          "since": "2026-10-02T08:32:16Z",
-          "parent_issue": "DWM-95",
-          "parent_title": "[DW迁移任务单] Simple-Calendar 迁移 · 修复 wave 3/4"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         }
       ],
       "issue_counts": {
@@ -274,6 +275,12 @@
         "done": 68
       },
       "latest_issues": [
+        {
+          "key": "DWM-114",
+          "title": "[空闲检测] 2026-10-02 leader 两小时正点检查与加派",
+          "status": "done",
+          "updated_at": "2026-10-02T10:01:54Z"
+        },
         {
           "key": "DWM-95",
           "title": "[DW迁移任务单] Simple-Calendar 迁移 · 修复 wave 3/4",
@@ -297,12 +304,6 @@
           "title": "[午会纪要] 2026-10-02",
           "status": "done",
           "updated_at": "2026-10-02T04:10:51Z"
-        },
-        {
-          "key": "DWM-108",
-          "title": "[空闲检测] 2026-10-02 leader 两小时正点检查与加派",
-          "status": "done",
-          "updated_at": "2026-10-02T02:01:43Z"
         }
       ],
       "order": {
@@ -389,9 +390,10 @@
           "role": "DeepSeek Planner（小组 leader/PM ",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-176",
+          "issue_title": "[空闲检测] 2026-10-02 leader 两小时正点检查与加派",
+          "since": "2026-10-02T10:00:25Z"
         },
         {
           "name": "minimax-uijudge",
@@ -405,12 +407,18 @@
         }
       ],
       "issue_counts": {
-        "todo": 0,
+        "todo": 1,
         "in_progress": 0,
         "in_review": 1,
-        "done": 96
+        "done": 95
       },
       "latest_issues": [
+        {
+          "key": "IPD-176",
+          "title": "[空闲检测] 2026-10-02 leader 两小时正点检查与加派",
+          "status": "todo",
+          "updated_at": "2026-10-02T10:00:24Z"
+        },
         {
           "key": "IPD-169",
           "title": "[测试·第2轮] REQ-007 扫雷 TR-Accept 差分执行收口（P0 主线第 7 场景）",
@@ -434,12 +442,6 @@
           "title": "[Dev·第2轮] Opt-012 pass@k 生成引擎验收口径落地（脚本 + 验收接入 + 准出",
           "status": "done",
           "updated_at": "2026-10-02T08:03:27Z"
-        },
-        {
-          "key": "IPD-171",
-          "title": "[SA·第2轮] REQ-008 喝水打卡 TR-Design 架构 + 接口契约（闭合 C1/C2",
-          "status": "done",
-          "updated_at": "2026-10-02T08:03:26Z"
         }
       ]
     }
