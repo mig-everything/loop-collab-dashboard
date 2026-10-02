@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T16:50:16Z",
+  "generated_at": "2026-10-02T16:54:00Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -241,7 +241,7 @@
           "agent_id": "1c3481f5-135b-4959-9daa-c510c076d494",
           "state": "working",
           "issue": "DWM-122",
-          "issue_title": "[DW迁移任务单] MifareClassicTool 迁移 · 清单+迁移 · 清单未开始 · 迁移中 0/6 · 迁",
+          "issue_title": "[DW迁移任务单] MifareClassicTool 迁移 · 清单+迁移 · 清单未开始 · 迁移中 2/6 · 迁",
           "since": "2026-10-02T16:43:37Z"
         },
         {
@@ -260,23 +260,26 @@
           "role": "修复员",
           "model": "claude-opus-5-5",
           "agent_id": "cd70e713-a339-4621-8699-2058d9cf7d6b",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "DWM-123",
+          "issue_title": "[DWM-122·工具修复] mig android-build 不支持 Gradle 根在子目录（MifareClas",
+          "since": "2026-10-02T16:53:11Z",
+          "parent_issue": "DWM-122",
+          "parent_title": "[DW迁移任务单] MifareClassicTool 迁移 · 清单+迁移 · 清单未开始 · 迁移中 2/6 · 迁"
         }
       ],
       "issue_counts": {
         "todo": 0,
         "in_progress": 0,
         "in_review": 0,
-        "done": 64
+        "done": 63
       },
       "latest_issues": [
         {
           "key": "DWM-122",
           "title": "[DW迁移任务单] MifareClassicTool 迁移 · 清单+迁移 · 清单未开始 · 迁",
           "status": "blocked",
-          "updated_at": "2026-10-02T16:49:33Z"
+          "updated_at": "2026-10-02T16:53:21Z"
         },
         {
           "key": "DWM-95",
@@ -305,9 +308,9 @@
       ],
       "order": {
         "key": "DWM-122",
-        "title": "[DW迁移任务单] MifareClassicTool 迁移 · 清单+迁移 · 清单未开始 · 迁移中 0/6 · 迁移0h/12h · 待人工",
+        "title": "[DW迁移任务单] MifareClassicTool 迁移 · 清单+迁移 · 清单未开始 · 迁移中 2/6 · 迁移0.1h/12h · 待人工",
         "status": "blocked",
-        "updated_at": "2026-10-02T16:49:33Z"
+        "updated_at": "2026-10-02T16:53:21Z"
       },
       "progress_note": "10 个应用：完成 2、进行中 1、暂停 0、未开始 7"
     },
