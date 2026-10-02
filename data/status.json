@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T20:24:30Z",
+  "generated_at": "2026-10-02T20:28:13Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -241,7 +241,7 @@
           "agent_id": "1c3481f5-135b-4959-9daa-c510c076d494",
           "state": "working",
           "issue": "DWM-122",
-          "issue_title": "[DW迁移任务单] MifareClassicTool 迁移 · 清单+迁移 · 清单生成中 r23·349/800步·",
+          "issue_title": "[DW迁移任务单] MifareClassicTool 迁移 · 清单+迁移 · 清单生成中 r24·379/800步·",
           "since": "2026-10-02T20:11:06Z"
         },
         {
@@ -274,9 +274,9 @@
       "latest_issues": [
         {
           "key": "DWM-122",
-          "title": "[DW迁移任务单] MifareClassicTool 迁移 · 清单+迁移 · 清单生成中 r23",
+          "title": "[DW迁移任务单] MifareClassicTool 迁移 · 清单+迁移 · 清单生成中 r24",
           "status": "in_progress",
-          "updated_at": "2026-10-02T20:21:53Z"
+          "updated_at": "2026-10-02T20:27:06Z"
         },
         {
           "key": "DWM-126",
@@ -305,9 +305,9 @@
       ],
       "order": {
         "key": "DWM-122",
-        "title": "[DW迁移任务单] MifareClassicTool 迁移 · 清单+迁移 · 清单生成中 r23·349/800步·1页/261项 · 迁移中 3/6 · 清单2.1h/10h",
+        "title": "[DW迁移任务单] MifareClassicTool 迁移 · 清单+迁移 · 清单生成中 r24·379/800步·1页/261项 · 迁移中 3/6 · 清单2.2h/10h",
         "status": "in_progress",
-        "updated_at": "2026-10-02T20:21:53Z"
+        "updated_at": "2026-10-02T20:27:06Z"
       }
     },
     {
@@ -336,10 +336,9 @@
           "role": "IPD-SA 解决方案架构师",
           "model": "zai:glm-5.3",
           "agent_id": "3e4373ef-a262-4b28-ab2a-818861fc9624",
-          "state": "working",
-          "issue": "IPD-195",
-          "issue_title": "[早会纪要] 2026-10-03",
-          "since": "2026-10-02T20:08:18Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "hermes-se",
@@ -411,16 +410,16 @@
       },
       "latest_issues": [
         {
+          "key": "IPD-195",
+          "title": "[早会纪要] 2026-10-03",
+          "status": "done",
+          "updated_at": "2026-10-02T20:26:15Z"
+        },
+        {
           "key": "IPD-196",
           "title": "[SA·第1轮] REQ-009 每日一句 TR-Design 架构+接口契约（闭合 TR-Req ",
           "status": "in_review",
           "updated_at": "2026-10-02T20:24:04Z"
-        },
-        {
-          "key": "IPD-195",
-          "title": "[早会纪要] 2026-10-03",
-          "status": "done",
-          "updated_at": "2026-10-02T20:10:41Z"
         },
         {
           "key": "IPD-194",
