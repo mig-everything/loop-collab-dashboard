@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T04:34:16Z",
+  "generated_at": "2026-10-02T04:59:40Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -262,7 +262,7 @@
           "state": "working",
           "issue": "DWM-109",
           "issue_title": "[DWM-95·wave2] Simple-Calendar 修复第 2 波（37 条）",
-          "since": "2026-10-02T03:23:36Z",
+          "since": "2026-10-02T04:59:07Z",
           "parent_issue": "DWM-95",
           "parent_title": "[DW迁移任务单] Simple-Calendar 迁移 · 修复 wave 2/4"
         }
