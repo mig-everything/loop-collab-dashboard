@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T10:27:33Z",
+  "generated_at": "2026-10-02T10:34:47Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -17,9 +17,10 @@
           "role": "GPT Writer（执笔者）",
           "model": "",
           "agent_id": "58ed4647-32dd-4ca1-8ddc-194b975d6024",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "SUR-140",
+          "issue_title": "[修复][day-8] SUR-137 终审打回修复：3 P1 + 22 P2（accept-minor 闭环）",
+          "since": "2026-10-02T10:33:04Z"
         },
         {
           "name": "kimi-adversary",
@@ -27,10 +28,9 @@
           "role": "Kimi Adversarial Reviewer（对抗评审",
           "model": "",
           "agent_id": "6e530cc6-6b9d-4398-936d-df9c13468125",
-          "state": "working",
-          "issue": "SUR-137",
-          "issue_title": "[评审][day-8] 结项前最终整篇终审（合并后 accept 确认 + Rubric 环比 + 八口径复核）",
-          "since": "2026-10-02T10:05:25Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "deepseek-planner",
@@ -44,12 +44,24 @@
         }
       ],
       "issue_counts": {
-        "todo": 0,
-        "in_progress": 1,
-        "in_review": 1,
-        "done": 98
+        "todo": 1,
+        "in_progress": 0,
+        "in_review": 2,
+        "done": 97
       },
       "latest_issues": [
+        {
+          "key": "SUR-137",
+          "title": "[评审][day-8] 结项前最终整篇终审（合并后 accept 确认 + Rubric 环比 + ",
+          "status": "in_review",
+          "updated_at": "2026-10-02T10:33:43Z"
+        },
+        {
+          "key": "SUR-140",
+          "title": "[修复][day-8] SUR-137 终审打回修复：3 P1 + 22 P2（accept-min",
+          "status": "todo",
+          "updated_at": "2026-10-02T10:33:03Z"
+        },
         {
           "key": "SUR-138",
           "title": "[任务][day-8] 中文过程稿冻结归档 + README 标注英文 LaTeX 为唯一终稿源 +",
@@ -67,18 +79,6 @@
           "title": "[空闲检测] 2026-10-02 leader 两小时正点检查与加派",
           "status": "done",
           "updated_at": "2026-10-02T10:07:02Z"
-        },
-        {
-          "key": "SUR-137",
-          "title": "[评审][day-8] 结项前最终整篇终审（合并后 accept 确认 + Rubric 环比 + ",
-          "status": "in_progress",
-          "updated_at": "2026-10-02T10:05:57Z"
-        },
-        {
-          "key": "SUR-135",
-          "title": "[复评][day-8] 复评 SUR-133 修复（2 P1 + 2 P2：议程表 D8/D9 / ",
-          "status": "done",
-          "updated_at": "2026-10-02T08:11:55Z"
         }
       ],
       "progress_note": "day-4 晨 37% → 午 42% → 晚 44% → 夜 47%",
