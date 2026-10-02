@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T23:58:53Z",
+  "generated_at": "2026-10-02T00:02:32Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -37,18 +37,25 @@
           "role": "DeepSeek Task Planner（任务规划+总结）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "04a4e04e-59d5-4f3a-8a16-acf99b80a493",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "SUR-124",
+          "issue_title": "[巡检] 2026-10-02 leader Issue 状态巡检与催办",
+          "since": "2026-10-02T00:00:16Z"
         }
       ],
       "issue_counts": {
         "todo": 1,
-        "in_progress": 0,
+        "in_progress": 1,
         "in_review": 1,
-        "done": 97
+        "done": 96
       },
       "latest_issues": [
+        {
+          "key": "SUR-124",
+          "title": "[巡检] 2026-10-02 leader Issue 状态巡检与催办",
+          "status": "in_progress",
+          "updated_at": "2026-10-02T00:00:54Z"
+        },
         {
           "key": "SUR-123",
           "title": "[空闲检测] 2026-10-02 leader 两小时正点检查与加派",
@@ -72,12 +79,6 @@
           "title": "[晨会纪要] 2026-10-02",
           "status": "done",
           "updated_at": "2026-10-01T20:08:23Z"
-        },
-        {
-          "key": "SUR-122",
-          "title": "[流程优化] 2026-10-02 晨会产出 1 项（Opt-012 次日验证三件套同 run 完成",
-          "status": "backlog",
-          "updated_at": "2026-10-01T20:08:14Z"
         }
       ],
       "progress_note": "day-4 晨 37% → 午 42% → 晚 44% → 夜 47%",
@@ -155,12 +156,18 @@
         }
       ],
       "issue_counts": {
-        "todo": 0,
+        "todo": 1,
         "in_progress": 2,
         "in_review": 2,
-        "done": 93
+        "done": 92
       },
       "latest_issues": [
+        {
+          "key": "BEN-104",
+          "title": "[巡检] 2026-10-02 leader Issue 状态巡检与催办",
+          "status": "todo",
+          "updated_at": "2026-10-02T00:00:12Z"
+        },
         {
           "key": "BEN-103",
           "title": "[空闲检测] 2026-10-02 leader 两小时正点检查与加派",
@@ -184,12 +191,6 @@
           "title": "[任务·第1轮] gold/antennapod 锚定视觉差分 + SC v2 差分准备（ref B",
           "status": "in_review",
           "updated_at": "2026-10-01T20:15:50Z"
-        },
-        {
-          "key": "BEN-79",
-          "title": "[BEN-57 断点] antennapod/simple-calendar harmony 用例集",
-          "status": "in_progress",
-          "updated_at": "2026-10-01T20:12:34Z"
         }
       ]
     },
@@ -241,7 +242,7 @@
           "agent_id": "1c3481f5-135b-4959-9daa-c510c076d494",
           "state": "working",
           "issue": "DWM-95",
-          "issue_title": "[DW迁移任务单] Simple-Calendar 迁移 · 清单+迁移 · 清单生成中 续4·r107·1389/80",
+          "issue_title": "[DW迁移任务单] Simple-Calendar 迁移 · 清单+迁移 · 清单生成中 续4·r109·1401/80",
           "since": "2026-10-01T22:59:05Z"
         },
         {
@@ -265,21 +266,27 @@
           "issue_title": "[DWM-95·wave1] Simple-Calendar 修复第 1 波（25 条）",
           "since": "2026-10-01T23:30:17Z",
           "parent_issue": "DWM-95",
-          "parent_title": "[DW迁移任务单] Simple-Calendar 迁移 · 清单+迁移 · 清单生成中 续4·r107·1389/80"
+          "parent_title": "[DW迁移任务单] Simple-Calendar 迁移 · 清单+迁移 · 清单生成中 续4·r109·1401/80"
         }
       ],
       "issue_counts": {
         "todo": 0,
         "in_progress": 1,
         "in_review": 0,
-        "done": 69
+        "done": 70
       },
       "latest_issues": [
+        {
+          "key": "DWM-106",
+          "title": "[巡检] 2026-10-02 leader Issue 状态巡检与催办",
+          "status": "done",
+          "updated_at": "2026-10-02T00:01:49Z"
+        },
         {
           "key": "DWM-95",
           "title": "[DW迁移任务单] Simple-Calendar 迁移 · 清单+迁移 · 清单生成中 续4·r1",
           "status": "in_progress",
-          "updated_at": "2026-10-01T23:56:36Z"
+          "updated_at": "2026-10-02T00:01:46Z"
         },
         {
           "key": "DWM-101",
@@ -298,19 +305,13 @@
           "title": "[空闲检测] 2026-10-02 leader 两小时正点检查与加派",
           "status": "done",
           "updated_at": "2026-10-01T18:01:36Z"
-        },
-        {
-          "key": "DWM-98",
-          "title": "[巡检] 2026-10-02 leader Issue 状态巡检与催办",
-          "status": "done",
-          "updated_at": "2026-10-01T16:02:20Z"
         }
       ],
       "order": {
         "key": "DWM-95",
-        "title": "[DW迁移任务单] Simple-Calendar 迁移 · 清单+迁移 · 清单生成中 续4·r107·1389/800步·1页/567项 · 迁移完成 5/6 · 清单11.6",
+        "title": "[DW迁移任务单] Simple-Calendar 迁移 · 清单+迁移 · 清单生成中 续4·r109·1401/800步·1页/567项 · 迁移完成 5/6 · 清单11.7",
         "status": "in_progress",
-        "updated_at": "2026-10-01T23:56:36Z"
+        "updated_at": "2026-10-02T00:01:46Z"
       },
       "progress_note": "10 个应用：完成 2、进行中 1、暂停 0、未开始 7"
     },
@@ -390,9 +391,10 @@
           "role": "DeepSeek Planner（小组 leader/PM ",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-166",
+          "issue_title": "[巡检] 2026-10-02 leader Issue 状态巡检与催办",
+          "since": "2026-10-02T00:00:19Z"
         },
         {
           "name": "minimax-uijudge",
@@ -406,12 +408,18 @@
         }
       ],
       "issue_counts": {
-        "todo": 1,
+        "todo": 2,
         "in_progress": 0,
         "in_review": 2,
-        "done": 91
+        "done": 90
       },
       "latest_issues": [
+        {
+          "key": "IPD-166",
+          "title": "[巡检] 2026-10-02 leader Issue 状态巡检与催办",
+          "status": "todo",
+          "updated_at": "2026-10-02T00:00:18Z"
+        },
         {
           "key": "IPD-165",
           "title": "[空闲检测] 2026-10-02 leader 两小时正点检查与加派",
@@ -435,12 +443,6 @@
           "title": "[Dev·临时加派] REQ-007 扫雷双端编码（闭合 D1/D2/D4/D5，预取证 D3）",
           "status": "in_review",
           "updated_at": "2026-10-01T20:17:34Z"
-        },
-        {
-          "key": "IPD-160",
-          "title": "[Tester·临时加派] REQ-006 随手记账 TR-Accept 差分执行（收口 D3）",
-          "status": "todo",
-          "updated_at": "2026-10-01T20:15:34Z"
         }
       ]
     }
