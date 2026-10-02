@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T20:05:51Z",
+  "generated_at": "2026-10-02T20:09:35Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -17,9 +17,10 @@
           "role": "GPT Writer（执笔者）",
           "model": "",
           "agent_id": "58ed4647-32dd-4ca1-8ddc-194b975d6024",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "SUR-149",
+          "issue_title": "[晨会纪要] 2026-10-03",
+          "since": "2026-10-02T20:08:18Z"
         },
         {
           "name": "kimi-adversary",
@@ -27,9 +28,10 @@
           "role": "Kimi Adversarial Reviewer（对抗评审",
           "model": "",
           "agent_id": "6e530cc6-6b9d-4398-936d-df9c13468125",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "SUR-149",
+          "issue_title": "[晨会纪要] 2026-10-03",
+          "since": "2026-10-02T20:08:18Z"
         },
         {
           "name": "deepseek-planner",
@@ -37,14 +39,13 @@
           "role": "DeepSeek Task Planner（任务规划+总结）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "04a4e04e-59d5-4f3a-8a16-acf99b80a493",
-          "state": "working",
-          "issue": "SUR-149",
-          "issue_title": "[晨会纪要] 2026-10-03",
-          "since": "2026-10-02T20:00:12Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         }
       ],
       "issue_counts": {
-        "todo": 1,
+        "todo": 0,
         "in_progress": 1,
         "in_review": 0,
         "done": 98
@@ -53,32 +54,32 @@
         {
           "key": "SUR-149",
           "title": "[晨会纪要] 2026-10-03",
-          "status": "todo",
-          "updated_at": "2026-10-02T20:00:11Z"
+          "status": "done",
+          "updated_at": "2026-10-02T20:08:18Z"
+        },
+        {
+          "key": "SUR-145",
+          "title": "[流程优化] 2026-10-02 晚会产出 1 项（Opt-014 派单强制挂 project），",
+          "status": "done",
+          "updated_at": "2026-10-02T20:07:23Z"
+        },
+        {
+          "key": "SUR-150",
+          "title": "[任务][day-9] 终稿投稿包全量终检 + submission-handoff.md 独立复核",
+          "status": "in_progress",
+          "updated_at": "2026-10-02T20:07:06Z"
+        },
+        {
+          "key": "SUR-151",
+          "title": "[结项][needs-human] survey 技术侧 100% 达成，请负责人确认结项 + 提供",
+          "status": "blocked",
+          "updated_at": "2026-10-02T20:06:49Z"
         },
         {
           "key": "SUR-148",
           "title": "[空闲检测] 2026-10-03 leader 两小时正点检查与加派",
           "status": "done",
           "updated_at": "2026-10-02T18:02:07Z"
-        },
-        {
-          "key": "SUR-147",
-          "title": "[巡检] 2026-10-03 leader Issue 状态巡检与催办",
-          "status": "done",
-          "updated_at": "2026-10-02T16:03:11Z"
-        },
-        {
-          "key": "SUR-144",
-          "title": "[任务][day-8] 投稿前人工待办清单 + 结项交接材料（submission-handoff.",
-          "status": "done",
-          "updated_at": "2026-10-02T16:02:54Z"
-        },
-        {
-          "key": "SUR-143",
-          "title": "[任务][day-8] 终审 accept 最终确认 + 投稿清单⑥⑧刷新（SUR-141 独立复评",
-          "status": "done",
-          "updated_at": "2026-10-02T16:02:53Z"
         }
       ],
       "progress_note": "day-4 晨 37% → 午 42% → 晚 44% → 夜 47%",
@@ -202,7 +203,7 @@
       "machine_online": true,
       "meeting_active": true,
       "meeting_title": "[早会纪要] 2026-10-03",
-      "progress": 14,
+      "progress": 17,
       "agents": [
         {
           "name": "opus-analyzer",
@@ -241,10 +242,9 @@
           "role": "运行员",
           "model": "claude-opus-5-5",
           "agent_id": "1c3481f5-135b-4959-9daa-c510c076d494",
-          "state": "working",
-          "issue": "DWM-122",
-          "issue_title": "[DW迁移任务单] MifareClassicTool 迁移 · 清单+迁移 · 清单生成中 r20·282/800步·",
-          "since": "2026-10-02T18:23:44Z"
+          "state": "meeting",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "exec-verifier",
@@ -268,23 +268,29 @@
         }
       ],
       "issue_counts": {
-        "todo": 0,
+        "todo": 1,
         "in_progress": 2,
         "in_review": 0,
-        "done": 61
+        "done": 60
       },
       "latest_issues": [
-        {
-          "key": "DWM-122",
-          "title": "[DW迁移任务单] MifareClassicTool 迁移 · 清单+迁移 · 清单生成中 r20",
-          "status": "in_progress",
-          "updated_at": "2026-10-02T20:02:38Z"
-        },
         {
           "key": "DWM-126",
           "title": "[早会纪要] 2026-10-03",
           "status": "in_progress",
-          "updated_at": "2026-10-02T20:00:53Z"
+          "updated_at": "2026-10-02T20:09:54Z"
+        },
+        {
+          "key": "DWM-122",
+          "title": "[DW迁移任务单] MifareClassicTool 迁移 · 清单+迁移 · 清单生成中 r22",
+          "status": "in_progress",
+          "updated_at": "2026-10-02T20:08:20Z"
+        },
+        {
+          "key": "DWM-127",
+          "title": "[任务] Simple-Calendar 收口后差异分析 + §11.7 对抗评审 + DW 建议池",
+          "status": "todo",
+          "updated_at": "2026-10-02T20:08:00Z"
         },
         {
           "key": "DWM-125",
@@ -297,21 +303,14 @@
           "title": "[DW迁移任务单] Simple-Calendar 迁移 · 已完成",
           "status": "done",
           "updated_at": "2026-10-02T16:10:51Z"
-        },
-        {
-          "key": "DWM-120",
-          "title": "[巡检] 2026-10-03 leader Issue 状态巡检与催办",
-          "status": "done",
-          "updated_at": "2026-10-02T16:02:13Z"
         }
       ],
       "order": {
         "key": "DWM-122",
-        "title": "[DW迁移任务单] MifareClassicTool 迁移 · 清单+迁移 · 清单生成中 r20·282/800步·1页/250项 · 迁移中 3/6 · 清单1.8h/10h",
+        "title": "[DW迁移任务单] MifareClassicTool 迁移 · 清单+迁移 · 清单生成中 r22·319/800步·1页/250项 · 迁移中 3/6 · 清单1.9h/10h",
         "status": "in_progress",
-        "updated_at": "2026-10-02T20:02:38Z"
-      },
-      "progress_note": "10 个应用：完成 2、进行中 1、暂停 0、未开始 7"
+        "updated_at": "2026-10-02T20:08:20Z"
+      }
     },
     {
       "id": "task4-ipd-eazo",
@@ -321,7 +320,7 @@
       "machine_online": true,
       "meeting_active": false,
       "meeting_title": "",
-      "progress": 69,
+      "progress": 71,
       "agents": [
         {
           "name": "hermes-pm",
@@ -340,9 +339,9 @@
           "model": "zai:glm-5.3",
           "agent_id": "3e4373ef-a262-4b28-ab2a-818861fc9624",
           "state": "working",
-          "issue": "IPD-196",
-          "issue_title": "[SA·第1轮] REQ-009 每日一句 TR-Design 架构+接口契约（闭合 TR-Req C1/C2/C3/C",
-          "since": "2026-10-02T20:05:17Z"
+          "issue": "IPD-195",
+          "issue_title": "[早会纪要] 2026-10-03",
+          "since": "2026-10-02T20:08:18Z"
         },
         {
           "name": "hermes-se",
@@ -350,9 +349,10 @@
           "role": "IPD-SE 系统工程师",
           "model": "zai:glm-5.3",
           "agent_id": "b874ba6b-80e6-45c6-a8c6-aedc6f2b326b",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-195",
+          "issue_title": "[早会纪要] 2026-10-03",
+          "since": "2026-10-02T20:08:18Z"
         },
         {
           "name": "hermes-dev",
@@ -360,9 +360,10 @@
           "role": "IPD-Dev 开发工程师",
           "model": "zai:glm-5.3",
           "agent_id": "44fcec25-d8b3-4af6-b206-1774a64677ce",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-195",
+          "issue_title": "[早会纪要] 2026-10-03",
+          "since": "2026-10-02T20:08:18Z"
         },
         {
           "name": "hermes-tester",
@@ -370,9 +371,10 @@
           "role": "IPD-Tester 测试工程师",
           "model": "zai:glm-5.3",
           "agent_id": "86df9f14-a2cd-46d9-ad15-dbe8606ebd73",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-195",
+          "issue_title": "[早会纪要] 2026-10-03",
+          "since": "2026-10-02T20:08:18Z"
         },
         {
           "name": "hermes-rm",
@@ -390,10 +392,9 @@
           "role": "DeepSeek Planner（小组 leader/PM ",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
-          "state": "working",
-          "issue": "IPD-195",
-          "issue_title": "[早会纪要] 2026-10-03",
-          "since": "2026-10-02T20:00:19Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "minimax-uijudge",
@@ -407,12 +408,18 @@
         }
       ],
       "issue_counts": {
-        "todo": 1,
+        "todo": 0,
         "in_progress": 2,
         "in_review": 0,
-        "done": 94
+        "done": 95
       },
       "latest_issues": [
+        {
+          "key": "IPD-195",
+          "title": "[早会纪要] 2026-10-03",
+          "status": "done",
+          "updated_at": "2026-10-02T20:09:36Z"
+        },
         {
           "key": "IPD-196",
           "title": "[SA·第1轮] REQ-009 每日一句 TR-Design 架构+接口契约（闭合 TR-Req ",
@@ -436,12 +443,6 @@
           "title": "[PM·临时加派] REQ-009 正式 PRD v1.0 + TR-Req 发起（每日一句 · 预",
           "status": "done",
           "updated_at": "2026-10-02T20:04:54Z"
-        },
-        {
-          "key": "IPD-190",
-          "title": "[RM·临时加派] REQ-008 发版度量 + 四维差环比基线更新",
-          "status": "done",
-          "updated_at": "2026-10-02T20:04:53Z"
         }
       ]
     }
