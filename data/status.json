@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T10:09:11Z",
+  "generated_at": "2026-10-02T10:12:55Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -17,10 +17,9 @@
           "role": "GPT Writer（执笔者）",
           "model": "",
           "agent_id": "58ed4647-32dd-4ca1-8ddc-194b975d6024",
-          "state": "working",
-          "issue": "SUR-139",
-          "issue_title": "[临时会议·空闲加派] 2026-10-02 18 点场",
-          "since": "2026-10-02T10:06:44Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "kimi-adversary",
@@ -46,22 +45,22 @@
       ],
       "issue_counts": {
         "todo": 0,
-        "in_progress": 2,
-        "in_review": 0,
+        "in_progress": 1,
+        "in_review": 1,
         "done": 98
       },
       "latest_issues": [
         {
+          "key": "SUR-138",
+          "title": "[任务][day-8] 中文过程稿冻结归档 + README 标注英文 LaTeX 为唯一终稿源 +",
+          "status": "in_review",
+          "updated_at": "2026-10-02T10:09:51Z"
+        },
+        {
           "key": "SUR-139",
           "title": "[临时会议·空闲加派] 2026-10-02 18 点场",
           "status": "done",
-          "updated_at": "2026-10-02T10:08:52Z"
-        },
-        {
-          "key": "SUR-138",
-          "title": "[任务][day-8] 中文过程稿冻结归档 + README 标注英文 LaTeX 为唯一终稿源 +",
-          "status": "in_progress",
-          "updated_at": "2026-10-02T10:08:04Z"
+          "updated_at": "2026-10-02T10:09:39Z"
         },
         {
           "key": "SUR-136",
@@ -352,10 +351,9 @@
           "role": "IPD-SE 系统工程师",
           "model": "zai:glm-5.3",
           "agent_id": "b874ba6b-80e6-45c6-a8c6-aedc6f2b326b",
-          "state": "working",
-          "issue": "IPD-178",
-          "issue_title": "[SE·第3轮] REQ-008 追踪矩阵新建 15-traceability-matrix-req008.md（12 ",
-          "since": "2026-10-02T10:06:37Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "hermes-dev",
@@ -412,12 +410,24 @@
         }
       ],
       "issue_counts": {
-        "todo": 2,
-        "in_progress": 3,
-        "in_review": 0,
+        "todo": 0,
+        "in_progress": 4,
+        "in_review": 1,
         "done": 92
       },
       "latest_issues": [
+        {
+          "key": "IPD-180",
+          "title": "[PM·第3轮] REQ-009 下一场景预研 + 需求池扩充（业界热门 APP 类型洞察）",
+          "status": "in_progress",
+          "updated_at": "2026-10-02T10:11:39Z"
+        },
+        {
+          "key": "IPD-178",
+          "title": "[SE·第3轮] REQ-008 追踪矩阵新建 15-traceability-matrix-req",
+          "status": "in_review",
+          "updated_at": "2026-10-02T10:11:09Z"
+        },
         {
           "key": "IPD-176",
           "title": "[空闲检测] 2026-10-02 leader 两小时正点检查与加派",
@@ -435,18 +445,6 @@
           "title": "[Tester·第3轮] REQ-008 差分用例清单 + 差分断言（TDD 先行，契约 §4 用例",
           "status": "in_progress",
           "updated_at": "2026-10-02T10:07:22Z"
-        },
-        {
-          "key": "IPD-182",
-          "title": "[临时会议·空闲加派] 2026-10-02 18 点场",
-          "status": "done",
-          "updated_at": "2026-10-02T10:07:20Z"
-        },
-        {
-          "key": "IPD-169",
-          "title": "[测试·第2轮] REQ-007 扫雷 TR-Accept 差分执行收口（P0 主线第 7 场景）",
-          "status": "done",
-          "updated_at": "2026-10-02T10:07:12Z"
         }
       ]
     }
