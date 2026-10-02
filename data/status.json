@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T15:13:57Z",
+  "generated_at": "2026-10-02T15:32:58Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -249,12 +249,9 @@
           "role": "验证员",
           "model": "claude-opus-5-5",
           "agent_id": "69822c63-0dcc-4f3e-875d-7b300d437623",
-          "state": "working",
-          "issue": "DWM-118",
-          "issue_title": "[DWM-95·终验] Simple-Calendar 终验（全量）",
-          "since": "2026-10-02T14:03:44Z",
-          "parent_issue": "DWM-95",
-          "parent_title": "[DW迁移任务单] Simple-Calendar 迁移 · 终验"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "exec-fixer",
