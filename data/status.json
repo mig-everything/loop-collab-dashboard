@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T11:03:37Z",
+  "generated_at": "2026-10-02T11:07:17Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -28,10 +28,9 @@
           "role": "Kimi Adversarial Reviewer（对抗评审",
           "model": "",
           "agent_id": "6e530cc6-6b9d-4398-936d-df9c13468125",
-          "state": "working",
-          "issue": "SUR-140",
-          "issue_title": "[修复][day-8] SUR-137 终审打回修复：3 P1 + 22 P2（accept-minor 闭环）",
-          "since": "2026-10-02T10:40:21Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "deepseek-planner",
@@ -45,8 +44,8 @@
         }
       ],
       "issue_counts": {
-        "todo": 1,
-        "in_progress": 0,
+        "todo": 0,
+        "in_progress": 1,
         "in_review": 3,
         "done": 96
       },
@@ -54,14 +53,14 @@
         {
           "key": "SUR-141",
           "title": "[修复][day-8] 终审 accept 前置：Abstract 'complete user j",
-          "status": "todo",
-          "updated_at": "2026-10-02T11:03:21Z"
+          "status": "in_progress",
+          "updated_at": "2026-10-02T11:06:03Z"
         },
         {
           "key": "SUR-140",
           "title": "[修复][day-8] SUR-137 终审打回修复：3 P1 + 22 P2（accept-min",
           "status": "in_review",
-          "updated_at": "2026-10-02T10:40:20Z"
+          "updated_at": "2026-10-02T11:04:05Z"
         },
         {
           "key": "SUR-137",
