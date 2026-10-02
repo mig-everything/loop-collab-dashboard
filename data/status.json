@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T05:46:26Z",
+  "generated_at": "2026-10-02T06:00:51Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -37,18 +37,25 @@
           "role": "DeepSeek Task Planner（任务规划+总结）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "04a4e04e-59d5-4f3a-8a16-acf99b80a493",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "SUR-132",
+          "issue_title": "[空闲检测] 2026-10-02 leader 两小时正点检查与加派",
+          "since": "2026-10-02T06:00:16Z"
         }
       ],
       "issue_counts": {
-        "todo": 0,
+        "todo": 1,
         "in_progress": 0,
         "in_review": 1,
-        "done": 99
+        "done": 98
       },
       "latest_issues": [
+        {
+          "key": "SUR-132",
+          "title": "[空闲检测] 2026-10-02 leader 两小时正点检查与加派",
+          "status": "todo",
+          "updated_at": "2026-10-02T06:00:16Z"
+        },
         {
           "key": "SUR-131",
           "title": "[评审][day-8] 对抗评审 SUR-127 新增正文（篇幅补齐的批判性分析增量）+ 事后复核",
@@ -72,12 +79,6 @@
           "title": "[任务][day-8] 篇幅补齐至 ~25 页（验收口径③ 格式篇幅）+ 更新投稿清单 ③⑥⑧ 勾选",
           "status": "done",
           "updated_at": "2026-10-02T04:04:13Z"
-        },
-        {
-          "key": "SUR-126",
-          "title": "[评审][day-8] 增量终审 SUR-120 新增 44 篇文献（⑥ 证据可靠独立核验 + ②④",
-          "status": "done",
-          "updated_at": "2026-10-02T04:04:12Z"
         }
       ],
       "progress_note": "day-4 晨 37% → 午 42% → 晚 44% → 夜 47%",
@@ -155,12 +156,18 @@
         }
       ],
       "issue_counts": {
-        "todo": 3,
+        "todo": 4,
         "in_progress": 2,
         "in_review": 2,
         "done": 92
       },
       "latest_issues": [
+        {
+          "key": "BEN-107",
+          "title": "[空闲检测] 2026-10-02 leader 两小时正点检查与加派",
+          "status": "todo",
+          "updated_at": "2026-10-02T06:00:18Z"
+        },
         {
           "key": "BEN-106",
           "title": "[午会纪要] 2026-10-02",
@@ -184,12 +191,6 @@
           "title": "[空闲检测] 2026-10-02 leader 两小时正点检查与加派",
           "status": "done",
           "updated_at": "2026-10-01T22:01:54Z"
-        },
-        {
-          "key": "BEN-101",
-          "title": "[任务·第1轮] 口径⑥每日复跑 + 安卓 R3 + pre-grant 修复（ref BEN-10",
-          "status": "in_review",
-          "updated_at": "2026-10-01T21:49:45Z"
         }
       ]
     },
@@ -265,12 +266,18 @@
         }
       ],
       "issue_counts": {
-        "todo": 0,
+        "todo": 1,
         "in_progress": 1,
         "in_review": 0,
-        "done": 69
+        "done": 68
       },
       "latest_issues": [
+        {
+          "key": "DWM-111",
+          "title": "[空闲检测] 2026-10-02 leader 两小时正点检查与加派",
+          "status": "todo",
+          "updated_at": "2026-10-02T06:00:13Z"
+        },
         {
           "key": "DWM-110",
           "title": "[午会纪要] 2026-10-02",
@@ -294,12 +301,6 @@
           "title": "[巡检] 2026-10-02 leader Issue 状态巡检与催办",
           "status": "done",
           "updated_at": "2026-10-02T00:01:49Z"
-        },
-        {
-          "key": "DWM-101",
-          "title": "[空闲检测] 2026-10-02 leader 两小时正点检查与加派",
-          "status": "done",
-          "updated_at": "2026-10-01T22:01:32Z"
         }
       ],
       "order": {
@@ -386,9 +387,10 @@
           "role": "DeepSeek Planner（小组 leader/PM ",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-174",
+          "issue_title": "[空闲检测] 2026-10-02 leader 两小时正点检查与加派",
+          "since": "2026-10-02T06:00:26Z"
         },
         {
           "name": "minimax-uijudge",
@@ -402,12 +404,18 @@
         }
       ],
       "issue_counts": {
-        "todo": 0,
+        "todo": 1,
         "in_progress": 1,
         "in_review": 4,
-        "done": 92
+        "done": 91
       },
       "latest_issues": [
+        {
+          "key": "IPD-174",
+          "title": "[空闲检测] 2026-10-02 leader 两小时正点检查与加派",
+          "status": "todo",
+          "updated_at": "2026-10-02T06:00:25Z"
+        },
         {
           "key": "IPD-173",
           "title": "[TR-Design] REQ-008 喝水打卡架构+契约评审（C1/C2/C3 已闭合，PM 主持",
@@ -431,12 +439,6 @@
           "title": "[Dev·第2轮] Opt-012 pass@k 生成引擎验收口径落地（脚本 + 验收接入 + 准出",
           "status": "in_review",
           "updated_at": "2026-10-02T04:25:46Z"
-        },
-        {
-          "key": "IPD-170",
-          "title": "[PRD·第2轮] REQ-008 喝水打卡 PRD v1.1 回写（闭合 C1/C2/C3 + O",
-          "status": "in_review",
-          "updated_at": "2026-10-02T04:18:03Z"
         }
       ]
     }
