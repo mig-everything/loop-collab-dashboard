@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T01:30:03Z",
+  "generated_at": "2026-10-02T01:33:42Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -279,7 +279,7 @@
           "key": "DWM-95",
           "title": "[DW迁移任务单] Simple-Calendar 迁移 · 清单+迁移 · 清单生成中 续4·r1",
           "status": "in_progress",
-          "updated_at": "2026-10-02T01:28:00Z"
+          "updated_at": "2026-10-02T01:33:09Z"
         },
         {
           "key": "DWM-106",
@@ -308,9 +308,9 @@
       ],
       "order": {
         "key": "DWM-95",
-        "title": "[DW迁移任务单] Simple-Calendar 迁移 · 清单+迁移 · 清单生成中 续4·r116·1470/800步·1页/591项 · 迁移完成 5/6 · 清单13.1",
+        "title": "[DW迁移任务单] Simple-Calendar 迁移 · 清单+迁移 · 清单生成中 续4·r116·1470/800步·1页/591项 · 迁移完成 5/6 · 清单13.2",
         "status": "in_progress",
-        "updated_at": "2026-10-02T01:28:00Z"
+        "updated_at": "2026-10-02T01:33:09Z"
       },
       "progress_note": "10 个应用：完成 2、进行中 1、暂停 0、未开始 7"
     },
@@ -340,10 +340,9 @@
           "role": "IPD-SA 解决方案架构师",
           "model": "zai:glm-5.3",
           "agent_id": "3e4373ef-a262-4b28-ab2a-818861fc9624",
-          "state": "working",
-          "issue": "IPD-164",
-          "issue_title": "[TR-Req] REQ-008 喝水打卡提醒 需求评审（PM 主持 · SA 联合评审）",
-          "since": "2026-10-02T01:20:10Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "hermes-se",
@@ -408,16 +407,16 @@
       ],
       "issue_counts": {
         "todo": 0,
-        "in_progress": 1,
-        "in_review": 1,
+        "in_progress": 0,
+        "in_review": 2,
         "done": 93
       },
       "latest_issues": [
         {
           "key": "IPD-164",
           "title": "[TR-Req] REQ-008 喝水打卡提醒 需求评审（PM 主持 · SA 联合评审）",
-          "status": "in_progress",
-          "updated_at": "2026-10-02T01:23:39Z"
+          "status": "in_review",
+          "updated_at": "2026-10-02T01:32:15Z"
         },
         {
           "key": "IPD-160",
