@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T16:42:51Z",
+  "generated_at": "2026-10-02T16:46:33Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -229,10 +229,9 @@
           "role": "DW 迁移执行小队队长",
           "model": "claude-opus-5-5",
           "agent_id": "c6ff7c69-0db4-4b35-ac81-dd00e5a53ba4",
-          "state": "working",
-          "issue": "DWM-122",
-          "issue_title": "[DW迁移任务单] MifareClassicTool 迁移",
-          "since": "2026-10-02T16:42:42Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "exec-runner",
@@ -240,9 +239,10 @@
           "role": "运行员",
           "model": "claude-opus-5-5",
           "agent_id": "1c3481f5-135b-4959-9daa-c510c076d494",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "DWM-122",
+          "issue_title": "[DW迁移任务单] MifareClassicTool 迁移 · 清单+迁移",
+          "since": "2026-10-02T16:43:37Z"
         },
         {
           "name": "exec-verifier",
@@ -266,17 +266,17 @@
         }
       ],
       "issue_counts": {
-        "todo": 1,
-        "in_progress": 0,
+        "todo": 0,
+        "in_progress": 1,
         "in_review": 0,
         "done": 64
       },
       "latest_issues": [
         {
           "key": "DWM-122",
-          "title": "[DW迁移任务单] MifareClassicTool 迁移",
-          "status": "todo",
-          "updated_at": "2026-10-02T16:42:40Z"
+          "title": "[DW迁移任务单] MifareClassicTool 迁移 · 清单+迁移",
+          "status": "in_progress",
+          "updated_at": "2026-10-02T16:43:36Z"
         },
         {
           "key": "DWM-95",
@@ -305,9 +305,9 @@
       ],
       "order": {
         "key": "DWM-122",
-        "title": "[DW迁移任务单] MifareClassicTool 迁移",
-        "status": "todo",
-        "updated_at": "2026-10-02T16:42:40Z"
+        "title": "[DW迁移任务单] MifareClassicTool 迁移 · 清单+迁移",
+        "status": "in_progress",
+        "updated_at": "2026-10-02T16:43:36Z"
       },
       "progress_note": "10 个应用：完成 2、进行中 1、暂停 0、未开始 7"
     },
