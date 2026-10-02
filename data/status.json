@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T00:06:12Z",
+  "generated_at": "2026-10-02T00:09:52Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -242,7 +242,7 @@
           "agent_id": "1c3481f5-135b-4959-9daa-c510c076d494",
           "state": "working",
           "issue": "DWM-95",
-          "issue_title": "[DW迁移任务单] Simple-Calendar 迁移 · 清单+迁移 · 清单生成中 续4·r109·1401/80",
+          "issue_title": "[DW迁移任务单] Simple-Calendar 迁移 · 清单+迁移 · 清单生成中 续4·r111·1415/80",
           "since": "2026-10-01T22:59:05Z"
         },
         {
@@ -266,7 +266,7 @@
           "issue_title": "[DWM-95·wave1] Simple-Calendar 修复第 1 波（25 条）",
           "since": "2026-10-01T23:30:17Z",
           "parent_issue": "DWM-95",
-          "parent_title": "[DW迁移任务单] Simple-Calendar 迁移 · 清单+迁移 · 清单生成中 续4·r109·1401/80"
+          "parent_title": "[DW迁移任务单] Simple-Calendar 迁移 · 清单+迁移 · 清单生成中 续4·r111·1415/80"
         }
       ],
       "issue_counts": {
@@ -277,16 +277,16 @@
       },
       "latest_issues": [
         {
+          "key": "DWM-95",
+          "title": "[DW迁移任务单] Simple-Calendar 迁移 · 清单+迁移 · 清单生成中 续4·r1",
+          "status": "in_progress",
+          "updated_at": "2026-10-02T00:06:55Z"
+        },
+        {
           "key": "DWM-106",
           "title": "[巡检] 2026-10-02 leader Issue 状态巡检与催办",
           "status": "done",
           "updated_at": "2026-10-02T00:01:49Z"
-        },
-        {
-          "key": "DWM-95",
-          "title": "[DW迁移任务单] Simple-Calendar 迁移 · 清单+迁移 · 清单生成中 续4·r1",
-          "status": "in_progress",
-          "updated_at": "2026-10-02T00:01:46Z"
         },
         {
           "key": "DWM-101",
@@ -309,9 +309,9 @@
       ],
       "order": {
         "key": "DWM-95",
-        "title": "[DW迁移任务单] Simple-Calendar 迁移 · 清单+迁移 · 清单生成中 续4·r109·1401/800步·1页/567项 · 迁移完成 5/6 · 清单11.7",
+        "title": "[DW迁移任务单] Simple-Calendar 迁移 · 清单+迁移 · 清单生成中 续4·r111·1415/800步·1页/575项 · 迁移完成 5/6 · 清单11.8",
         "status": "in_progress",
-        "updated_at": "2026-10-02T00:01:46Z"
+        "updated_at": "2026-10-02T00:06:55Z"
       },
       "progress_note": "10 个应用：完成 2、进行中 1、暂停 0、未开始 7"
     },
