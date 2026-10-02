@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T18:22:39Z",
+  "generated_at": "2026-10-02T18:26:23Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -242,7 +242,7 @@
           "state": "working",
           "issue": "DWM-122",
           "issue_title": "[DW迁移任务单] MifareClassicTool 迁移 · 清单+迁移 · 清单生成中 0/800步·1页/7项 ",
-          "since": "2026-10-02T16:43:37Z"
+          "since": "2026-10-02T18:23:44Z"
         },
         {
           "name": "exec-verifier",
@@ -369,10 +369,9 @@
           "role": "IPD-Tester 测试工程师",
           "model": "zai:glm-5.3",
           "agent_id": "86df9f14-a2cd-46d9-ad15-dbe8606ebd73",
-          "state": "working",
-          "issue": "IPD-189",
-          "issue_title": "[Tester·临时加派] REQ-008 喝水打卡 TR-Accept 差分执行收口（P0 主线第 8 场景）",
-          "since": "2026-10-02T18:10:09Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "hermes-rm",
@@ -413,6 +412,12 @@
       },
       "latest_issues": [
         {
+          "key": "IPD-189",
+          "title": "[Tester·临时加派] REQ-008 喝水打卡 TR-Accept 差分执行收口（P0 主线第",
+          "status": "in_progress",
+          "updated_at": "2026-10-02T18:24:44Z"
+        },
+        {
           "key": "IPD-194",
           "title": "[TR-Req] REQ-009 每日一句（Daily Quote · 本地种子库版）PRD v1.",
           "status": "in_progress",
@@ -435,12 +440,6 @@
           "title": "[Dev·临时加派] Eazo 生成引擎真实首跑 + Token 度量落地（补四维差 Token 项",
           "status": "in_progress",
           "updated_at": "2026-10-02T18:18:29Z"
-        },
-        {
-          "key": "IPD-189",
-          "title": "[Tester·临时加派] REQ-008 喝水打卡 TR-Accept 差分执行收口（P0 主线第",
-          "status": "in_progress",
-          "updated_at": "2026-10-02T18:12:43Z"
         }
       ]
     }
