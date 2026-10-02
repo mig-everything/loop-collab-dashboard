@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T10:34:47Z",
+  "generated_at": "2026-10-02T10:38:25Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -44,23 +44,23 @@
         }
       ],
       "issue_counts": {
-        "todo": 1,
-        "in_progress": 0,
+        "todo": 0,
+        "in_progress": 1,
         "in_review": 2,
         "done": 97
       },
       "latest_issues": [
         {
+          "key": "SUR-140",
+          "title": "[修复][day-8] SUR-137 终审打回修复：3 P1 + 22 P2（accept-min",
+          "status": "in_progress",
+          "updated_at": "2026-10-02T10:37:36Z"
+        },
+        {
           "key": "SUR-137",
           "title": "[评审][day-8] 结项前最终整篇终审（合并后 accept 确认 + Rubric 环比 + ",
           "status": "in_review",
           "updated_at": "2026-10-02T10:33:43Z"
-        },
-        {
-          "key": "SUR-140",
-          "title": "[修复][day-8] SUR-137 终审打回修复：3 P1 + 22 P2（accept-min",
-          "status": "todo",
-          "updated_at": "2026-10-02T10:33:03Z"
         },
         {
           "key": "SUR-138",
