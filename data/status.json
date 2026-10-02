@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T12:19:39Z",
+  "generated_at": "2026-10-02T12:23:24Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -27,10 +27,9 @@
           "role": "Kimi Adversarial Reviewer（对抗评审",
           "model": "",
           "agent_id": "6e530cc6-6b9d-4398-936d-df9c13468125",
-          "state": "working",
-          "issue": "SUR-143",
-          "issue_title": "[任务][day-8] 终审 accept 最终确认 + 投稿清单⑥⑧刷新（SUR-141 独立复评）",
-          "since": "2026-10-02T12:10:17Z"
+          "state": "meeting",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "deepseek-planner",
@@ -38,19 +37,30 @@
           "role": "DeepSeek Task Planner（任务规划+总结）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "04a4e04e-59d5-4f3a-8a16-acf99b80a493",
-          "state": "working",
-          "issue": "SUR-145",
-          "issue_title": "[流程优化] 2026-10-02 晚会产出 1 项（Opt-014 派单强制挂 project），次日验证",
-          "since": "2026-10-02T12:10:25Z"
+          "state": "meeting",
+          "issue": "",
+          "issue_title": ""
         }
       ],
       "issue_counts": {
         "todo": 0,
-        "in_progress": 2,
-        "in_review": 1,
+        "in_progress": 1,
+        "in_review": 2,
         "done": 97
       },
       "latest_issues": [
+        {
+          "key": "SUR-143",
+          "title": "[任务][day-8] 终审 accept 最终确认 + 投稿清单⑥⑧刷新（SUR-141 独立复评",
+          "status": "in_review",
+          "updated_at": "2026-10-02T12:23:05Z"
+        },
+        {
+          "key": "SUR-145",
+          "title": "[流程优化] 2026-10-02 晚会产出 1 项（Opt-014 派单强制挂 project），",
+          "status": "in_progress",
+          "updated_at": "2026-10-02T12:19:47Z"
+        },
         {
           "key": "SUR-142",
           "title": "[晚会日报] 2026-10-02",
@@ -62,18 +72,6 @@
           "title": "[任务][day-8] 投稿前人工待办清单 + 结项交接材料（submission-handoff.",
           "status": "in_review",
           "updated_at": "2026-10-02T12:15:00Z"
-        },
-        {
-          "key": "SUR-145",
-          "title": "[流程优化] 2026-10-02 晚会产出 1 项（Opt-014 派单强制挂 project），",
-          "status": "in_progress",
-          "updated_at": "2026-10-02T12:11:25Z"
-        },
-        {
-          "key": "SUR-143",
-          "title": "[任务][day-8] 终审 accept 最终确认 + 投稿清单⑥⑧刷新（SUR-141 独立复评",
-          "status": "in_progress",
-          "updated_at": "2026-10-02T12:10:40Z"
         },
         {
           "key": "SUR-141",
@@ -361,10 +359,9 @@
           "role": "IPD-Dev 开发工程师",
           "model": "zai:glm-5.3",
           "agent_id": "44fcec25-d8b3-4af6-b206-1774a64677ce",
-          "state": "working",
-          "issue": "IPD-177",
-          "issue_title": "[Dev·第3轮] REQ-008 喝水打卡 双端编码（契约 3532903，重点 R4/R5，D1/D2/D4/D5 ",
-          "since": "2026-10-02T12:04:44Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "hermes-tester",
@@ -409,11 +406,17 @@
       ],
       "issue_counts": {
         "todo": 0,
-        "in_progress": 1,
-        "in_review": 2,
+        "in_progress": 0,
+        "in_review": 3,
         "done": 94
       },
       "latest_issues": [
+        {
+          "key": "IPD-177",
+          "title": "[Dev·第3轮] REQ-008 喝水打卡 双端编码（契约 3532903，重点 R4/R5，D1",
+          "status": "in_review",
+          "updated_at": "2026-10-02T12:21:50Z"
+        },
         {
           "key": "IPD-184",
           "title": "[SA·勘误] REQ-008 契约 §4.1 锚点 (4,4,false)→(4,3,false)",
@@ -431,12 +434,6 @@
           "title": "[晚会日报] 2026-10-02",
           "status": "done",
           "updated_at": "2026-10-02T12:06:11Z"
-        },
-        {
-          "key": "IPD-177",
-          "title": "[Dev·第3轮] REQ-008 喝水打卡 双端编码（契约 3532903，重点 R4/R5，D1",
-          "status": "in_progress",
-          "updated_at": "2026-10-02T12:04:43Z"
         },
         {
           "key": "IPD-181",
