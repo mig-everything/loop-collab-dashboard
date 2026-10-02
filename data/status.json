@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T06:04:32Z",
+  "generated_at": "2026-10-02T06:08:15Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -38,36 +38,35 @@
           "role": "DeepSeek Task Planner（任务规划+总结）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "04a4e04e-59d5-4f3a-8a16-acf99b80a493",
-          "state": "working",
-          "issue": "SUR-132",
-          "issue_title": "[空闲检测] 2026-10-02 leader 两小时正点检查与加派",
-          "since": "2026-10-02T06:00:16Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         }
       ],
       "issue_counts": {
-        "todo": 2,
-        "in_progress": 0,
-        "in_review": 1,
-        "done": 97
+        "todo": 0,
+        "in_progress": 1,
+        "in_review": 0,
+        "done": 99
       },
       "latest_issues": [
         {
           "key": "SUR-133",
           "title": "[任务][day-8] 修复 SUR-131 评审打回项（2 P1 + 2 P2）",
-          "status": "todo",
-          "updated_at": "2026-10-02T06:04:25Z"
+          "status": "in_progress",
+          "updated_at": "2026-10-02T06:07:12Z"
         },
         {
           "key": "SUR-132",
           "title": "[空闲检测] 2026-10-02 leader 两小时正点检查与加派",
-          "status": "todo",
-          "updated_at": "2026-10-02T06:00:16Z"
+          "status": "done",
+          "updated_at": "2026-10-02T06:05:10Z"
         },
         {
           "key": "SUR-131",
           "title": "[评审][day-8] 对抗评审 SUR-127 新增正文（篇幅补齐的批判性分析增量）+ 事后复核",
-          "status": "in_review",
-          "updated_at": "2026-10-02T04:10:56Z"
+          "status": "done",
+          "updated_at": "2026-10-02T06:05:06Z"
         },
         {
           "key": "SUR-130",
