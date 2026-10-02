@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T17:16:08Z",
+  "generated_at": "2026-10-02T17:19:51Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -279,7 +279,7 @@
           "key": "DWM-122",
           "title": "[DW迁移任务单] MifareClassicTool 迁移 · 清单+迁移 · 清单未开始 · 迁",
           "status": "blocked",
-          "updated_at": "2026-10-02T17:13:14Z"
+          "updated_at": "2026-10-02T17:19:28Z"
         },
         {
           "key": "DWM-95",
@@ -308,9 +308,9 @@
       ],
       "order": {
         "key": "DWM-122",
-        "title": "[DW迁移任务单] MifareClassicTool 迁移 · 清单+迁移 · 清单未开始 · 迁移中 2/6 · 迁移0.4h/12h · 待人工",
+        "title": "[DW迁移任务单] MifareClassicTool 迁移 · 清单+迁移 · 清单未开始 · 迁移中 2/6 · 迁移0.5h/12h · 待人工",
         "status": "blocked",
-        "updated_at": "2026-10-02T17:13:14Z"
+        "updated_at": "2026-10-02T17:19:28Z"
       },
       "progress_note": "10 个应用：完成 2、进行中 1、暂停 0、未开始 7"
     },
