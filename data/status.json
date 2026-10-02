@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T14:06:57Z",
+  "generated_at": "2026-10-02T14:25:30Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -262,12 +262,9 @@
           "role": "修复员",
           "model": "claude-opus-5-5",
           "agent_id": "cd70e713-a339-4621-8699-2058d9cf7d6b",
-          "state": "working",
-          "issue": "DWM-119",
-          "issue_title": "[DWM-95·债务归因] Simple-Calendar 修复阶段债务归因",
-          "since": "2026-10-02T14:03:46Z",
-          "parent_issue": "DWM-95",
-          "parent_title": "[DW迁移任务单] Simple-Calendar 迁移 · 终验"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         }
       ],
       "issue_counts": {
@@ -281,7 +278,7 @@
           "key": "DWM-95",
           "title": "[DW迁移任务单] Simple-Calendar 迁移 · 终验",
           "status": "in_progress",
-          "updated_at": "2026-10-02T14:04:08Z"
+          "updated_at": "2026-10-02T14:24:50Z"
         },
         {
           "key": "DWM-117",
@@ -312,7 +309,7 @@
         "key": "DWM-95",
         "title": "[DW迁移任务单] Simple-Calendar 迁移 · 终验",
         "status": "in_progress",
-        "updated_at": "2026-10-02T14:04:08Z"
+        "updated_at": "2026-10-02T14:24:50Z"
       },
       "progress_note": "10 个应用：完成 2、进行中 1、暂停 0、未开始 7"
     },
