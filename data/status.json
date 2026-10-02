@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T16:02:24Z",
+  "generated_at": "2026-10-02T16:06:12Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -37,24 +37,35 @@
           "role": "DeepSeek Task Planner（任务规划+总结）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "04a4e04e-59d5-4f3a-8a16-acf99b80a493",
-          "state": "working",
-          "issue": "SUR-147",
-          "issue_title": "[巡检] 2026-10-03 leader Issue 状态巡检与催办",
-          "since": "2026-10-02T16:00:19Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         }
       ],
       "issue_counts": {
         "todo": 0,
-        "in_progress": 2,
-        "in_review": 2,
-        "done": 96
+        "in_progress": 1,
+        "in_review": 0,
+        "done": 99
       },
       "latest_issues": [
         {
           "key": "SUR-147",
           "title": "[巡检] 2026-10-03 leader Issue 状态巡检与催办",
-          "status": "in_progress",
-          "updated_at": "2026-10-02T16:01:06Z"
+          "status": "done",
+          "updated_at": "2026-10-02T16:03:11Z"
+        },
+        {
+          "key": "SUR-144",
+          "title": "[任务][day-8] 投稿前人工待办清单 + 结项交接材料（submission-handoff.",
+          "status": "done",
+          "updated_at": "2026-10-02T16:02:54Z"
+        },
+        {
+          "key": "SUR-143",
+          "title": "[任务][day-8] 终审 accept 最终确认 + 投稿清单⑥⑧刷新（SUR-141 独立复评",
+          "status": "done",
+          "updated_at": "2026-10-02T16:02:53Z"
         },
         {
           "key": "SUR-146",
@@ -63,22 +74,10 @@
           "updated_at": "2026-10-02T14:01:56Z"
         },
         {
-          "key": "SUR-143",
-          "title": "[任务][day-8] 终审 accept 最终确认 + 投稿清单⑥⑧刷新（SUR-141 独立复评",
-          "status": "in_review",
-          "updated_at": "2026-10-02T12:23:05Z"
-        },
-        {
           "key": "SUR-145",
           "title": "[流程优化] 2026-10-02 晚会产出 1 项（Opt-014 派单强制挂 project），",
           "status": "in_progress",
           "updated_at": "2026-10-02T12:19:47Z"
-        },
-        {
-          "key": "SUR-142",
-          "title": "[晚会日报] 2026-10-02",
-          "status": "done",
-          "updated_at": "2026-10-02T12:17:55Z"
         }
       ],
       "progress_note": "day-4 晨 37% → 午 42% → 晚 44% → 夜 47%",
@@ -230,10 +229,9 @@
           "role": "DW 迁移执行小队队长",
           "model": "claude-opus-5-5",
           "agent_id": "c6ff7c69-0db4-4b35-ac81-dd00e5a53ba4",
-          "state": "working",
-          "issue": "DWM-95",
-          "issue_title": "[DW迁移任务单] Simple-Calendar 迁移 · 收口",
-          "since": "2026-10-02T16:02:32Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "exec-runner",
@@ -391,10 +389,9 @@
           "role": "DeepSeek Planner（小组 leader/PM ",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
-          "state": "working",
-          "issue": "IPD-187",
-          "issue_title": "[巡检] 2026-10-03 leader Issue 状态巡检与催办",
-          "since": "2026-10-02T16:00:26Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "minimax-uijudge",
@@ -408,41 +405,41 @@
         }
       ],
       "issue_counts": {
-        "todo": 1,
+        "todo": 0,
         "in_progress": 0,
-        "in_review": 3,
-        "done": 93
+        "in_review": 0,
+        "done": 97
       },
       "latest_issues": [
         {
           "key": "IPD-187",
           "title": "[巡检] 2026-10-03 leader Issue 状态巡检与催办",
-          "status": "todo",
-          "updated_at": "2026-10-02T16:00:23Z"
+          "status": "done",
+          "updated_at": "2026-10-02T16:03:17Z"
+        },
+        {
+          "key": "IPD-185",
+          "title": "[PM·回写] REQ-008 PRD v1.1 AC-HY2.2 锚点 (4,4,false)→(",
+          "status": "done",
+          "updated_at": "2026-10-02T16:02:57Z"
+        },
+        {
+          "key": "IPD-184",
+          "title": "[SA·勘误] REQ-008 契约 §4.1 锚点 (4,4,false)→(4,3,false)",
+          "status": "done",
+          "updated_at": "2026-10-02T16:02:56Z"
+        },
+        {
+          "key": "IPD-177",
+          "title": "[Dev·第3轮] REQ-008 喝水打卡 双端编码（契约 3532903，重点 R4/R5，D1",
+          "status": "done",
+          "updated_at": "2026-10-02T16:02:54Z"
         },
         {
           "key": "IPD-186",
           "title": "[空闲检测] 2026-10-02 leader 两小时正点检查与加派",
           "status": "done",
           "updated_at": "2026-10-02T14:03:07Z"
-        },
-        {
-          "key": "IPD-177",
-          "title": "[Dev·第3轮] REQ-008 喝水打卡 双端编码（契约 3532903，重点 R4/R5，D1",
-          "status": "in_review",
-          "updated_at": "2026-10-02T12:21:50Z"
-        },
-        {
-          "key": "IPD-184",
-          "title": "[SA·勘误] REQ-008 契约 §4.1 锚点 (4,4,false)→(4,3,false)",
-          "status": "in_review",
-          "updated_at": "2026-10-02T12:13:34Z"
-        },
-        {
-          "key": "IPD-185",
-          "title": "[PM·回写] REQ-008 PRD v1.1 AC-HY2.2 锚点 (4,4,false)→(",
-          "status": "in_review",
-          "updated_at": "2026-10-02T12:07:43Z"
         }
       ]
     }
