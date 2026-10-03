@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T02:38:23Z",
+  "generated_at": "2026-10-03T02:42:06Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -109,10 +109,9 @@
           "role": "GLM Runner & Analyst",
           "model": "",
           "agent_id": "bdaefa9b-7045-4264-95e4-1db664e353d0",
-          "state": "working",
-          "issue": "BEN-118",
-          "issue_title": "[冒烟测试] task2 执行机恢复验证：请回复机器可用确认",
-          "since": "2026-10-03T02:38:29Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "deepseek-planner",
@@ -163,10 +162,16 @@
       },
       "latest_issues": [
         {
+          "key": "BEN-119",
+          "title": "[冒烟测试] planner 可用性验证：请回复确认",
+          "status": "todo",
+          "updated_at": "2026-10-03T02:40:13Z"
+        },
+        {
           "key": "BEN-118",
           "title": "[冒烟测试] task2 执行机恢复验证：请回复机器可用确认",
-          "status": "todo",
-          "updated_at": "2026-10-03T02:38:27Z"
+          "status": "done",
+          "updated_at": "2026-10-03T02:40:06Z"
         },
         {
           "key": "BEN-117",
@@ -185,12 +190,6 @@
           "title": "[空闲检测] 2026-10-03 leader 两小时正点检查与加派",
           "status": "todo",
           "updated_at": "2026-10-02T22:00:16Z"
-        },
-        {
-          "key": "BEN-114",
-          "title": "[早会纪要] 2026-10-03",
-          "status": "todo",
-          "updated_at": "2026-10-02T20:00:19Z"
         }
       ]
     },
