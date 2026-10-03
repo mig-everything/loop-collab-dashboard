@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T15:15:20Z",
+  "generated_at": "2026-10-03T15:19:09Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -102,7 +102,7 @@
           "state": "working",
           "issue": "BEN-131",
           "issue_title": "[leader 直派] 安卓端三 App 复跑核验 + 未达满分修复优化专项（R4 实测 cofi 92.6% / SC",
-          "since": "2026-10-03T15:07:08Z"
+          "since": "2026-10-03T15:18:56Z"
         },
         {
           "name": "glm-runner",
@@ -164,16 +164,22 @@
       },
       "latest_issues": [
         {
-          "key": "BEN-131",
-          "title": "[leader 直派] 安卓端三 App 复跑核验 + 未达满分修复优化专项（R4 实测 cofi ",
+          "key": "BEN-135",
+          "title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 1",
           "status": "in_progress",
-          "updated_at": "2026-10-03T15:10:46Z"
+          "updated_at": "2026-10-03T15:18:38Z"
         },
         {
           "key": "BEN-136",
           "title": "[任务·线2 calendar] simple-calendar backfill 续修 + r6 ",
           "status": "in_progress",
-          "updated_at": "2026-10-03T15:07:57Z"
+          "updated_at": "2026-10-03T15:17:58Z"
+        },
+        {
+          "key": "BEN-131",
+          "title": "[leader 直派] 安卓端三 App 复跑核验 + 未达满分修复优化专项（R4 实测 cofi ",
+          "status": "in_progress",
+          "updated_at": "2026-10-03T15:16:39Z"
         },
         {
           "key": "BEN-133",
@@ -186,12 +192,6 @@
           "title": "[任务·线3 antennapod] 低速保温 backfill（ref BEN-133）",
           "status": "in_review",
           "updated_at": "2026-10-03T14:46:05Z"
-        },
-        {
-          "key": "BEN-135",
-          "title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 1",
-          "status": "in_progress",
-          "updated_at": "2026-10-03T14:39:27Z"
         }
       ]
     },
