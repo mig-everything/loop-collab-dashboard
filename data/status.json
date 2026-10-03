@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T22:02:50Z",
+  "generated_at": "2026-10-03T22:06:32Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -44,8 +44,8 @@
         }
       ],
       "issue_counts": {
-        "todo": 2,
-        "in_progress": 1,
+        "todo": 1,
+        "in_progress": 2,
         "in_review": 2,
         "done": 95
       },
@@ -53,8 +53,8 @@
         {
           "key": "SUR-175",
           "title": "[空闲检测] 2026-10-04 leader 两小时正点检查与加派",
-          "status": "todo",
-          "updated_at": "2026-10-03T22:00:15Z"
+          "status": "in_progress",
+          "updated_at": "2026-10-03T22:04:26Z"
         },
         {
           "key": "SUR-173",
@@ -101,9 +101,9 @@
           "model": "",
           "agent_id": "6e6f1e24-3bc5-455a-85d2-cb3fb6c9a672",
           "state": "working",
-          "issue": "BEN-131",
-          "issue_title": "[leader 直派] 安卓端三 App 复跑核验 + 未达满分修复优化专项（R4 实测 cofi 92.6% / SC",
-          "since": "2026-10-03T22:02:18Z"
+          "issue": "BEN-135",
+          "issue_title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 100（ref BEN",
+          "since": "2026-10-03T22:05:05Z"
         },
         {
           "name": "glm-runner",
@@ -329,9 +329,10 @@
           "role": "IPD-PM 产品经理",
           "model": "",
           "agent_id": "1764c131-5c09-48cb-aa48-3177d5256dbb",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-233",
+          "issue_title": "[PM·第2轮] REQ-010 PRD v1.1 回写（闭合 C1-3 / C2-3 条件落点）",
+          "since": "2026-10-03T22:05:50Z"
         },
         {
           "name": "hermes-sa",
@@ -339,9 +340,10 @@
           "role": "IPD-SA 解决方案架构师",
           "model": "zai:glm-5.3",
           "agent_id": "3e4373ef-a262-4b28-ab2a-818861fc9624",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-232",
+          "issue_title": "[SA·第2轮] REQ-010 五子棋 TR-Design 架构+接口契约（闭合 C1~C6，P0 门禁）",
+          "since": "2026-10-03T22:05:35Z"
         },
         {
           "name": "hermes-se",
@@ -359,9 +361,10 @@
           "role": "IPD-Dev 开发工程师",
           "model": "zai:glm-5.3",
           "agent_id": "44fcec25-d8b3-4af6-b206-1774a64677ce",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-234",
+          "issue_title": "[Dev·第2轮] REQ-009 secondary 文字 WCAG AA 修复（P1，IPD-227 溢出清单转派）",
+          "since": "2026-10-03T22:05:53Z"
         },
         {
           "name": "hermes-tester",
@@ -389,10 +392,9 @@
           "role": "DeepSeek Planner（小组 leader/PM ",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
-          "state": "working",
-          "issue": "IPD-231",
-          "issue_title": "[空闲检测] 2026-10-04 leader 两小时正点检查与加派",
-          "since": "2026-10-03T22:00:22Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "minimax-uijudge",
@@ -406,41 +408,41 @@
         }
       ],
       "issue_counts": {
-        "todo": 1,
-        "in_progress": 0,
-        "in_review": 5,
-        "done": 91
+        "todo": 2,
+        "in_progress": 1,
+        "in_review": 0,
+        "done": 95
       },
       "latest_issues": [
         {
+          "key": "IPD-234",
+          "title": "[Dev·第2轮] REQ-009 secondary 文字 WCAG AA 修复（P1，IPD-2",
+          "status": "in_progress",
+          "updated_at": "2026-10-03T22:06:40Z"
+        },
+        {
           "key": "IPD-231",
           "title": "[空闲检测] 2026-10-04 leader 两小时正点检查与加派",
-          "status": "todo",
-          "updated_at": "2026-10-03T22:00:22Z"
+          "status": "done",
+          "updated_at": "2026-10-03T22:06:33Z"
+        },
+        {
+          "key": "IPD-235",
+          "title": "[临时会议·空闲加派] 2026-10-04 06点场",
+          "status": "done",
+          "updated_at": "2026-10-03T22:06:32Z"
         },
         {
           "key": "IPD-230",
           "title": "[TR-Req] REQ-010 五子棋（Gomoku · 双人本地对弈 + 确定性人机）PRD v",
-          "status": "in_review",
-          "updated_at": "2026-10-03T20:41:41Z"
-        },
-        {
-          "key": "IPD-226",
-          "title": "[PM·第1轮] REQ-010 五子棋正式 PRD + TR-Req（第 10 场景主线，确定性三",
-          "status": "in_review",
-          "updated_at": "2026-10-03T20:23:41Z"
-        },
-        {
-          "key": "IPD-228",
-          "title": "[SA·第1轮] 流程通用性自评（验收口径10/目标一——通用-特异解耦审计 + 假想复用检验）",
-          "status": "in_review",
-          "updated_at": "2026-10-03T20:18:04Z"
-        },
-        {
-          "key": "IPD-217",
-          "title": "[缺口][P0] Eazo 平台缺浏览器可用网页 UI（验收口径「形态」未达成）",
           "status": "done",
-          "updated_at": "2026-10-03T20:17:22Z"
+          "updated_at": "2026-10-03T22:06:02Z"
+        },
+        {
+          "key": "IPD-229",
+          "title": "[RM·第1轮] 四维差 Token 复采 + 度量索引更新（+49.5%→+5.7% 收敛入表，残",
+          "status": "done",
+          "updated_at": "2026-10-03T22:05:59Z"
         }
       ]
     }
