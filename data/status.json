@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T22:43:33Z",
+  "generated_at": "2026-10-03T22:47:13Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -164,16 +164,16 @@
       },
       "latest_issues": [
         {
+          "key": "BEN-136",
+          "title": "[任务·线2 calendar] simple-calendar backfill 续修 + r6 ",
+          "status": "in_progress",
+          "updated_at": "2026-10-03T22:44:31Z"
+        },
+        {
           "key": "BEN-135",
           "title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 1",
           "status": "in_progress",
           "updated_at": "2026-10-03T22:41:08Z"
-        },
-        {
-          "key": "BEN-136",
-          "title": "[任务·线2 calendar] simple-calendar backfill 续修 + r6 ",
-          "status": "in_progress",
-          "updated_at": "2026-10-03T22:31:56Z"
         },
         {
           "key": "BEN-142",
@@ -278,7 +278,7 @@
           "key": "DWM-149",
           "title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单生成中 续3·r78·952",
           "status": "in_progress",
-          "updated_at": "2026-10-03T22:38:47Z"
+          "updated_at": "2026-10-03T22:43:59Z"
         },
         {
           "key": "DWM-154",
@@ -307,9 +307,9 @@
       ],
       "order": {
         "key": "DWM-149",
-        "title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单生成中 续3·r78·952/800步·4页/879项 · 迁移中 3/6 · 清单6.3h/10h 迁移6",
+        "title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单生成中 续3·r78·952/800步·4页/879项 · 迁移中 3/6 · 清单6.4h/10h 迁移6",
         "status": "in_progress",
-        "updated_at": "2026-10-03T22:38:47Z"
+        "updated_at": "2026-10-03T22:43:59Z"
       }
     },
     {
