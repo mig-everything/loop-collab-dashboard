@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T15:19:09Z",
+  "generated_at": "2026-10-03T15:34:15Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -100,9 +100,9 @@
           "model": "",
           "agent_id": "6e6f1e24-3bc5-455a-85d2-cb3fb6c9a672",
           "state": "working",
-          "issue": "BEN-131",
-          "issue_title": "[leader 直派] 安卓端三 App 复跑核验 + 未达满分修复优化专项（R4 实测 cofi 92.6% / SC",
-          "since": "2026-10-03T15:18:56Z"
+          "issue": "BEN-135",
+          "issue_title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 100（ref BEN",
+          "since": "2026-10-03T15:32:43Z"
         },
         {
           "name": "glm-runner",
@@ -164,6 +164,12 @@
       },
       "latest_issues": [
         {
+          "key": "BEN-131",
+          "title": "[leader 直派] 安卓端三 App 复跑核验 + 未达满分修复优化专项（R4 实测 cofi ",
+          "status": "in_progress",
+          "updated_at": "2026-10-03T15:32:16Z"
+        },
+        {
           "key": "BEN-135",
           "title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 1",
           "status": "in_progress",
@@ -174,12 +180,6 @@
           "title": "[任务·线2 calendar] simple-calendar backfill 续修 + r6 ",
           "status": "in_progress",
           "updated_at": "2026-10-03T15:17:58Z"
-        },
-        {
-          "key": "BEN-131",
-          "title": "[leader 直派] 安卓端三 App 复跑核验 + 未达满分修复优化专项（R4 实测 cofi ",
-          "status": "in_progress",
-          "updated_at": "2026-10-03T15:16:39Z"
         },
         {
           "key": "BEN-133",
@@ -337,10 +337,9 @@
           "role": "IPD-SA 解决方案架构师",
           "model": "zai:glm-5.3",
           "agent_id": "3e4373ef-a262-4b28-ab2a-818861fc9624",
-          "state": "working",
-          "issue": "IPD-217",
-          "issue_title": "[缺口][P0] Eazo 平台缺浏览器可用网页 UI（验收口径「形态」未达成）",
-          "since": "2026-10-03T15:10:33Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "hermes-se",
@@ -412,16 +411,16 @@
       },
       "latest_issues": [
         {
+          "key": "IPD-217",
+          "title": "[缺口][P0] Eazo 平台缺浏览器可用网页 UI（验收口径「形态」未达成）",
+          "status": "in_progress",
+          "updated_at": "2026-10-03T15:32:56Z"
+        },
+        {
           "key": "IPD-220",
           "title": "[流程优化 Opt-011] IPD-217 展示 UI 补轻量 PRD + TR-Req + TR",
           "status": "in_review",
           "updated_at": "2026-10-03T15:10:44Z"
-        },
-        {
-          "key": "IPD-217",
-          "title": "[缺口][P0] Eazo 平台缺浏览器可用网页 UI（验收口径「形态」未达成）",
-          "status": "in_progress",
-          "updated_at": "2026-10-03T15:10:31Z"
         },
         {
           "key": "IPD-221",
