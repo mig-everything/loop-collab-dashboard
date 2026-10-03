@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T17:56:23Z",
+  "generated_at": "2026-10-03T18:00:05Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -221,9 +221,10 @@
           "role": "DeepSeek Planner（小组 leader/PM，",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "950ff614-521d-4e32-a02d-423d41a7b2b3",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "DWM-150",
+          "issue_title": "[空闲检测] 2026-10-04 leader 两小时正点检查与加派",
+          "since": "2026-10-03T18:00:13Z"
         },
         {
           "name": "dw-lead",
@@ -268,12 +269,18 @@
         }
       ],
       "issue_counts": {
-        "todo": 0,
+        "todo": 1,
         "in_progress": 2,
         "in_review": 0,
         "done": 55
       },
       "latest_issues": [
+        {
+          "key": "DWM-150",
+          "title": "[空闲检测] 2026-10-04 leader 两小时正点检查与加派",
+          "status": "todo",
+          "updated_at": "2026-10-03T18:00:12Z"
+        },
         {
           "key": "DWM-149",
           "title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单生成中 r27·242/80",
@@ -297,12 +304,6 @@
           "title": "[DW迁移任务单] MifareClassicTool 迁移 · 已完成",
           "status": "done",
           "updated_at": "2026-10-03T14:28:11Z"
-        },
-        {
-          "key": "DWM-145",
-          "title": "[空闲检测] 2026-10-03 leader 两小时正点检查与加派",
-          "status": "done",
-          "updated_at": "2026-10-03T14:02:01Z"
         }
       ],
       "order": {
@@ -388,9 +389,10 @@
           "role": "DeepSeek Planner（小组 leader/PM ",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-224",
+          "issue_title": "[空闲检测] 2026-10-04 leader 两小时正点检查与加派",
+          "since": "2026-10-03T18:00:23Z"
         },
         {
           "name": "minimax-uijudge",
@@ -404,12 +406,18 @@
         }
       ],
       "issue_counts": {
-        "todo": 0,
+        "todo": 1,
         "in_progress": 2,
         "in_review": 0,
-        "done": 95
+        "done": 94
       },
       "latest_issues": [
+        {
+          "key": "IPD-224",
+          "title": "[空闲检测] 2026-10-04 leader 两小时正点检查与加派",
+          "status": "todo",
+          "updated_at": "2026-10-03T18:00:21Z"
+        },
         {
           "key": "IPD-223",
           "title": "[Dev] 鸿蒙工程骨架模板复用——压 turns/output,收敛四维差 Token 差值(+4",
@@ -433,12 +441,6 @@
           "title": "[PM·第3轮夜间] REQ-010 下一场景预研 + 需求池扩充（业界热门 APP 类型洞察 + ",
           "status": "done",
           "updated_at": "2026-10-03T16:03:53Z"
-        },
-        {
-          "key": "IPD-211",
-          "title": "[Tester·TR-Accept] REQ-009 每日一句 差分执行 + 双端对比报告（收口 P",
-          "status": "done",
-          "updated_at": "2026-10-03T16:03:51Z"
         }
       ]
     }
