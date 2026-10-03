@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T04:36:36Z",
+  "generated_at": "2026-10-03T04:40:21Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -229,9 +229,10 @@
           "role": "DW 迁移执行小队队长",
           "model": "claude-opus-5-5",
           "agent_id": "c6ff7c69-0db4-4b35-ac81-dd00e5a53ba4",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "DWM-135",
+          "issue_title": "[DWM-95·卡片修正] Simple-Calendar 结果卡片关键数字不自洽",
+          "since": "2026-10-03T04:38:05Z"
         },
         {
           "name": "exec-runner",
@@ -249,12 +250,9 @@
           "role": "验证员",
           "model": "claude-opus-5-5",
           "agent_id": "69822c63-0dcc-4f3e-875d-7b300d437623",
-          "state": "working",
-          "issue": "DWM-136",
-          "issue_title": "[DWM-135·结论句修正] Simple-Calendar final.json 结论句数字与卡片生成块不一致（已修",
-          "since": "2026-10-03T04:34:42Z",
-          "parent_issue": "DWM-135",
-          "parent_title": "[DWM-95·卡片修正] Simple-Calendar 结果卡片关键数字不自洽"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "exec-fixer",
@@ -361,10 +359,9 @@
           "role": "IPD-Dev 开发工程师",
           "model": "zai:glm-5.3",
           "agent_id": "44fcec25-d8b3-4af6-b206-1774a64677ce",
-          "state": "working",
-          "issue": "IPD-207",
-          "issue_title": "[Dev·优化] Eazo 引擎生成提交门禁——闭合 F-3「鸿蒙产物未入库」（commit gate + 产物持久化）",
-          "since": "2026-10-03T04:05:23Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "hermes-tester",
@@ -415,6 +412,12 @@
       },
       "latest_issues": [
         {
+          "key": "IPD-207",
+          "title": "[Dev·优化] Eazo 引擎生成提交门禁——闭合 F-3「鸿蒙产物未入库」（commit gat",
+          "status": "in_progress",
+          "updated_at": "2026-10-03T04:38:50Z"
+        },
+        {
           "key": "IPD-206",
           "title": "[Tester·第2轮] REQ-009 每日一句 差分用例清单 + 差分断言（TDD 先行 · 契",
           "status": "in_review",
@@ -425,12 +428,6 @@
           "title": "[Dev·双端编码对齐] REQ-009 每日一句 契约对齐（06-alignment-plan 施",
           "status": "in_review",
           "updated_at": "2026-10-03T04:07:41Z"
-        },
-        {
-          "key": "IPD-207",
-          "title": "[Dev·优化] Eazo 引擎生成提交门禁——闭合 F-3「鸿蒙产物未入库」（commit gat",
-          "status": "in_progress",
-          "updated_at": "2026-10-03T04:06:02Z"
         },
         {
           "key": "IPD-205",
