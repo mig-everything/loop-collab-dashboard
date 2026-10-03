@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T02:08:51Z",
+  "generated_at": "2026-10-03T02:12:35Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -328,10 +328,9 @@
           "role": "IPD-PM 产品经理",
           "model": "",
           "agent_id": "1764c131-5c09-48cb-aa48-3177d5256dbb",
-          "state": "working",
-          "issue": "IPD-203",
-          "issue_title": "[PM·回写] REQ-009 每日一句 PRD v1.1 回写（闭合 C1/C3 + E-1/E-2 勘误）",
-          "since": "2026-10-03T02:06:07Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "hermes-sa",
@@ -408,12 +407,18 @@
         }
       ],
       "issue_counts": {
-        "todo": 1,
+        "todo": 0,
         "in_progress": 3,
-        "in_review": 0,
+        "in_review": 1,
         "done": 93
       },
       "latest_issues": [
+        {
+          "key": "IPD-203",
+          "title": "[PM·回写] REQ-009 每日一句 PRD v1.1 回写（闭合 C1/C3 + E-1/E-",
+          "status": "in_review",
+          "updated_at": "2026-10-03T02:11:23Z"
+        },
         {
           "key": "IPD-204",
           "title": "[临时会议·空闲加派] 2026-10-03 10 点场",
@@ -437,12 +442,6 @@
           "title": "[TR-Design] REQ-009 每日一句 架构+接口契约评审（C1~C4 已闭合，SA 主持",
           "status": "in_progress",
           "updated_at": "2026-10-03T02:06:54Z"
-        },
-        {
-          "key": "IPD-202",
-          "title": "[Dev·双端编码对齐] REQ-009 每日一句 契约对齐（06-alignment-plan 施",
-          "status": "in_progress",
-          "updated_at": "2026-10-03T02:06:50Z"
         }
       ]
     }
