@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T13:28:35Z",
+  "generated_at": "2026-10-03T13:32:27Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -100,9 +100,9 @@
           "model": "",
           "agent_id": "6e6f1e24-3bc5-455a-85d2-cb3fb6c9a672",
           "state": "working",
-          "issue": "BEN-127",
-          "issue_title": "[任务·第3轮] Cofi 断言校准收口 + SC/gold binding 导航续修（ref BEN-121/BEN-",
-          "since": "2026-10-03T13:26:38Z"
+          "issue": "BEN-131",
+          "issue_title": "[leader 直派] 安卓端三 App 复跑核验 + 未达满分修复优化专项（R4 实测 cofi 92.6% / SC",
+          "since": "2026-10-03T13:29:35Z"
         },
         {
           "name": "glm-runner",
@@ -111,9 +111,9 @@
           "model": "",
           "agent_id": "bdaefa9b-7045-4264-95e4-1db664e353d0",
           "state": "working",
-          "issue": "BEN-128",
-          "issue_title": "[任务·第3轮] 口径⑥ R4 全链路复跑 + test3/gold-mod01 suite 补齐（ref BEN-12",
-          "since": "2026-10-03T12:05:25Z"
+          "issue": "BEN-131",
+          "issue_title": "[leader 直派] 安卓端三 App 复跑核验 + 未达满分修复优化专项（R4 实测 cofi 92.6% / SC",
+          "since": "2026-10-03T13:29:35Z"
         },
         {
           "name": "deepseek-planner",
@@ -121,10 +121,9 @@
           "role": "DeepSeek Planner（小组 leader/PM）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "547cd361-ef50-4965-9477-bc659d8a1708",
-          "state": "working",
-          "issue": "BEN-131",
-          "issue_title": "[leader 直派] 安卓端三 App 复跑核验 + 未达满分修复优化专项（R4 实测 cofi 92.6% / SC",
-          "since": "2026-10-03T13:28:20Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "minimax-visual-diff",
@@ -158,12 +157,24 @@
         }
       ],
       "issue_counts": {
-        "todo": 2,
-        "in_progress": 4,
-        "in_review": 1,
+        "todo": 0,
+        "in_progress": 5,
+        "in_review": 2,
         "done": 80
       },
       "latest_issues": [
+        {
+          "key": "BEN-128",
+          "title": "[任务·第3轮] 口径⑥ R4 全链路复跑 + test3/gold-mod01 suite 补齐（",
+          "status": "in_review",
+          "updated_at": "2026-10-03T13:29:38Z"
+        },
+        {
+          "key": "BEN-131",
+          "title": "[leader 直派] 安卓端三 App 复跑核验 + 未达满分修复优化专项（R4 实测 cofi ",
+          "status": "in_progress",
+          "updated_at": "2026-10-03T13:29:34Z"
+        },
         {
           "key": "BEN-130",
           "title": "[基础设施] 设备租约：修复跨轮次模拟器抢占（BEN-127 x BEN-128 10-03 冲突）",
@@ -171,22 +182,10 @@
           "updated_at": "2026-10-03T13:28:38Z"
         },
         {
-          "key": "BEN-131",
-          "title": "[leader 直派] 安卓端三 App 复跑核验 + 未达满分修复优化专项（R4 实测 cofi ",
-          "status": "todo",
-          "updated_at": "2026-10-03T13:28:17Z"
-        },
-        {
           "key": "BEN-127",
           "title": "[任务·第3轮] Cofi 断言校准收口 + SC/gold binding 导航续修（ref BE",
           "status": "in_progress",
           "updated_at": "2026-10-03T13:23:19Z"
-        },
-        {
-          "key": "BEN-128",
-          "title": "[任务·第3轮] 口径⑥ R4 全链路复跑 + test3/gold-mod01 suite 补齐（",
-          "status": "todo",
-          "updated_at": "2026-10-03T12:20:49Z"
         },
         {
           "key": "BEN-129",
