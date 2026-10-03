@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T23:57:52Z",
+  "generated_at": "2026-10-03T00:01:33Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -37,18 +37,25 @@
           "role": "DeepSeek Task Planner（任务规划+总结）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "04a4e04e-59d5-4f3a-8a16-acf99b80a493",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "SUR-153",
+          "issue_title": "[巡检] 2026-10-03 leader Issue 状态巡检与催办",
+          "since": "2026-10-03T00:00:15Z"
         }
       ],
       "issue_counts": {
         "todo": 0,
-        "in_progress": 0,
+        "in_progress": 1,
         "in_review": 1,
-        "done": 98
+        "done": 97
       },
       "latest_issues": [
+        {
+          "key": "SUR-153",
+          "title": "[巡检] 2026-10-03 leader Issue 状态巡检与催办",
+          "status": "in_progress",
+          "updated_at": "2026-10-03T00:00:47Z"
+        },
         {
           "key": "SUR-152",
           "title": "[空闲检测] 2026-10-03 leader 两小时正点检查与加派",
@@ -72,12 +79,6 @@
           "title": "[流程优化] 2026-10-02 晚会产出 1 项（Opt-014 派单强制挂 project），",
           "status": "done",
           "updated_at": "2026-10-02T20:07:23Z"
-        },
-        {
-          "key": "SUR-151",
-          "title": "[结项][needs-human] survey 技术侧 100% 达成，请负责人确认结项 + 提供",
-          "status": "blocked",
-          "updated_at": "2026-10-02T20:06:49Z"
         }
       ],
       "progress_note": "day-4 晨 37% → 午 42% → 晚 44% → 夜 47%",
@@ -155,12 +156,18 @@
         }
       ],
       "issue_counts": {
-        "todo": 12,
+        "todo": 13,
         "in_progress": 2,
         "in_review": 2,
-        "done": 84
+        "done": 83
       },
       "latest_issues": [
+        {
+          "key": "BEN-116",
+          "title": "[巡检] 2026-10-03 leader Issue 状态巡检与催办",
+          "status": "todo",
+          "updated_at": "2026-10-03T00:00:11Z"
+        },
         {
           "key": "BEN-115",
           "title": "[空闲检测] 2026-10-03 leader 两小时正点检查与加派",
@@ -184,12 +191,6 @@
           "title": "[巡检] 2026-10-03 leader Issue 状态巡检与催办",
           "status": "todo",
           "updated_at": "2026-10-02T16:00:22Z"
-        },
-        {
-          "key": "BEN-111",
-          "title": "[空闲检测] 2026-10-02 leader 两小时正点检查与加派",
-          "status": "todo",
-          "updated_at": "2026-10-02T14:00:18Z"
         }
       ]
     },
@@ -219,9 +220,10 @@
           "role": "DeepSeek Planner（小组 leader/PM，",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "950ff614-521d-4e32-a02d-423d41a7b2b3",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "DWM-131",
+          "issue_title": "[巡检] 2026-10-03 leader Issue 状态巡检与催办",
+          "since": "2026-10-03T00:00:09Z"
         },
         {
           "name": "dw-lead",
@@ -269,17 +271,23 @@
         }
       ],
       "issue_counts": {
-        "todo": 1,
+        "todo": 2,
         "in_progress": 1,
         "in_review": 0,
-        "done": 59
+        "done": 58
       },
       "latest_issues": [
         {
           "key": "DWM-122",
           "title": "[DW迁移任务单] MifareClassicTool 迁移 · 清单+迁移 · 清单生成中 续2·",
           "status": "in_progress",
-          "updated_at": "2026-10-02T23:52:17Z"
+          "updated_at": "2026-10-03T00:00:34Z"
+        },
+        {
+          "key": "DWM-131",
+          "title": "[巡检] 2026-10-03 leader Issue 状态巡检与催办",
+          "status": "todo",
+          "updated_at": "2026-10-03T00:00:08Z"
         },
         {
           "key": "DWM-126",
@@ -298,19 +306,13 @@
           "title": "[任务] Simple-Calendar 收口后差异分析 + §11.7 对抗评审 + DW 建议池",
           "status": "todo",
           "updated_at": "2026-10-02T20:08:00Z"
-        },
-        {
-          "key": "DWM-125",
-          "title": "[空闲检测] 2026-10-03 leader 两小时正点检查与加派",
-          "status": "done",
-          "updated_at": "2026-10-02T18:02:27Z"
         }
       ],
       "order": {
         "key": "DWM-122",
-        "title": "[DW迁移任务单] MifareClassicTool 迁移 · 清单+迁移 · 清单生成中 续2·r56·922/800步·1页/288项 · 迁移完成 5/6 · 清单5.6h",
+        "title": "[DW迁移任务单] MifareClassicTool 迁移 · 清单+迁移 · 清单生成中 续2·r56·922/800步·1页/288项 · 迁移完成 5/6 · 清单5.7h",
         "status": "in_progress",
-        "updated_at": "2026-10-02T23:52:17Z"
+        "updated_at": "2026-10-03T00:00:34Z"
       }
     },
     {
@@ -389,9 +391,10 @@
           "role": "DeepSeek Planner（小组 leader/PM ",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-198",
+          "issue_title": "[巡检] 2026-10-03 leader Issue 状态巡检与催办",
+          "since": "2026-10-03T00:00:17Z"
         },
         {
           "name": "minimax-uijudge",
@@ -405,12 +408,18 @@
         }
       ],
       "issue_counts": {
-        "todo": 0,
+        "todo": 1,
         "in_progress": 1,
         "in_review": 1,
-        "done": 95
+        "done": 94
       },
       "latest_issues": [
+        {
+          "key": "IPD-198",
+          "title": "[巡检] 2026-10-03 leader Issue 状态巡检与催办",
+          "status": "todo",
+          "updated_at": "2026-10-03T00:00:17Z"
+        },
         {
           "key": "IPD-197",
           "title": "[空闲检测] 2026-10-03 leader 两小时正点检查与加派",
@@ -434,12 +443,6 @@
           "title": "[TR-Req] REQ-009 每日一句（Daily Quote · 本地种子库版）PRD v1.",
           "status": "done",
           "updated_at": "2026-10-02T20:04:56Z"
-        },
-        {
-          "key": "IPD-192",
-          "title": "[Dev·临时加派] Eazo 生成引擎真实首跑 + Token 度量落地（补四维差 Token 项",
-          "status": "done",
-          "updated_at": "2026-10-02T20:04:55Z"
         }
       ]
     }
