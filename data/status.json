@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T22:50:53Z",
+  "generated_at": "2026-10-03T22:54:32Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -99,9 +99,10 @@
           "role": "GPT Scenarist",
           "model": "",
           "agent_id": "6e6f1e24-3bc5-455a-85d2-cb3fb6c9a672",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "BEN-136",
+          "issue_title": "[任务·线2 calendar] simple-calendar backfill 续修 + r6 收口（ref BEN",
+          "since": "2026-10-03T22:52:05Z"
         },
         {
           "name": "glm-runner",
@@ -277,7 +278,7 @@
           "key": "DWM-149",
           "title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单生成中 续3·r78·952",
           "status": "in_progress",
-          "updated_at": "2026-10-03T22:49:11Z"
+          "updated_at": "2026-10-03T22:54:24Z"
         },
         {
           "key": "DWM-154",
@@ -306,9 +307,9 @@
       ],
       "order": {
         "key": "DWM-149",
-        "title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单生成中 续3·r78·952/800步·4页/879项 · 迁移中 3/6 · 清单6.5h/10h 迁移6",
+        "title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单生成中 续3·r78·952/800步·4页/879项 · 迁移中 3/6 · 清单6.6h/10h 迁移6",
         "status": "in_progress",
-        "updated_at": "2026-10-03T22:49:11Z"
+        "updated_at": "2026-10-03T22:54:24Z"
       }
     },
     {
