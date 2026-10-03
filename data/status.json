@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T14:40:23Z",
+  "generated_at": "2026-10-03T14:47:55Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -111,9 +111,9 @@
           "model": "",
           "agent_id": "bdaefa9b-7045-4264-95e4-1db664e353d0",
           "state": "working",
-          "issue": "BEN-137",
-          "issue_title": "[任务·线3 antennapod] 低速保温 backfill（ref BEN-133）",
-          "since": "2026-10-03T14:14:27Z"
+          "issue": "BEN-131",
+          "issue_title": "[leader 直派] 安卓端三 App 复跑核验 + 未达满分修复优化专项（R4 实测 cofi 92.6% / SC",
+          "since": "2026-10-03T14:11:09Z"
         },
         {
           "name": "deepseek-planner",
@@ -158,8 +158,8 @@
       ],
       "issue_counts": {
         "todo": 0,
-        "in_progress": 7,
-        "in_review": 3,
+        "in_progress": 6,
+        "in_review": 4,
         "done": 76
       },
       "latest_issues": [
@@ -167,7 +167,13 @@
           "key": "BEN-131",
           "title": "[leader 直派] 安卓端三 App 复跑核验 + 未达满分修复优化专项（R4 实测 cofi ",
           "status": "in_progress",
-          "updated_at": "2026-10-03T14:39:29Z"
+          "updated_at": "2026-10-03T14:47:28Z"
+        },
+        {
+          "key": "BEN-137",
+          "title": "[任务·线3 antennapod] 低速保温 backfill（ref BEN-133）",
+          "status": "in_review",
+          "updated_at": "2026-10-03T14:46:05Z"
         },
         {
           "key": "BEN-135",
@@ -186,12 +192,6 @@
           "title": "[方向] 三模拟器并行按 app 分线 + 优先级 cofi→calendar→antennapod",
           "status": "done",
           "updated_at": "2026-10-03T14:30:48Z"
-        },
-        {
-          "key": "BEN-134",
-          "title": "[任务·三线编排] 三模拟器并行按 app 分线编排补全 + simple-calendar 注册（",
-          "status": "in_review",
-          "updated_at": "2026-10-03T14:27:51Z"
         }
       ]
     },
@@ -387,9 +387,10 @@
           "role": "DeepSeek Planner（小组 leader/PM ",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-217",
+          "issue_title": "[缺口][P0] Eazo 平台缺浏览器可用网页 UI（验收口径「形态」未达成）",
+          "since": "2026-10-03T14:46:50Z"
         },
         {
           "name": "minimax-uijudge",
@@ -403,12 +404,18 @@
         }
       ],
       "issue_counts": {
-        "todo": 0,
+        "todo": 1,
         "in_progress": 0,
         "in_review": 3,
-        "done": 94
+        "done": 93
       },
       "latest_issues": [
+        {
+          "key": "IPD-217",
+          "title": "[缺口][P0] Eazo 平台缺浏览器可用网页 UI（验收口径「形态」未达成）",
+          "status": "todo",
+          "updated_at": "2026-10-03T14:46:47Z"
+        },
         {
           "key": "IPD-216",
           "title": "[空闲检测] 2026-10-03 leader 两小时正点检查与加派",
@@ -432,12 +439,6 @@
           "title": "[PM·第3轮夜间] REQ-010 下一场景预研 + 需求池扩充（业界热门 APP 类型洞察 + ",
           "status": "in_review",
           "updated_at": "2026-10-03T12:14:46Z"
-        },
-        {
-          "key": "IPD-213",
-          "title": "[晚会日报] 2026-10-03",
-          "status": "done",
-          "updated_at": "2026-10-03T12:11:45Z"
         }
       ]
     }
