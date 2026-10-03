@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T02:23:42Z",
+  "generated_at": "2026-10-03T02:31:04Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -358,10 +358,9 @@
           "role": "IPD-Dev 开发工程师",
           "model": "zai:glm-5.3",
           "agent_id": "44fcec25-d8b3-4af6-b206-1774a64677ce",
-          "state": "working",
-          "issue": "IPD-202",
-          "issue_title": "[Dev·双端编码对齐] REQ-009 每日一句 契约对齐（06-alignment-plan 施工，C2 种子库 S",
-          "since": "2026-10-03T02:06:04Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "hermes-tester",
@@ -412,6 +411,12 @@
       },
       "latest_issues": [
         {
+          "key": "IPD-202",
+          "title": "[Dev·双端编码对齐] REQ-009 每日一句 契约对齐（06-alignment-plan 施",
+          "status": "in_progress",
+          "updated_at": "2026-10-03T02:30:31Z"
+        },
+        {
           "key": "IPD-200",
           "title": "[TR-Design] REQ-009 每日一句 架构+接口契约评审（C1~C4 已闭合，SA 主持",
           "status": "in_review",
@@ -434,12 +439,6 @@
           "title": "[临时会议·空闲加派] 2026-10-03 10 点场",
           "status": "done",
           "updated_at": "2026-10-03T02:08:55Z"
-        },
-        {
-          "key": "IPD-199",
-          "title": "[空闲检测] 2026-10-03 leader 两小时正点检查与加派",
-          "status": "done",
-          "updated_at": "2026-10-03T02:07:19Z"
         }
       ]
     }
