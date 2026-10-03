@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T18:00:05Z",
+  "generated_at": "2026-10-03T18:03:47Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -37,9 +37,10 @@
           "role": "DeepSeek Task Planner（任务规划+总结）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "04a4e04e-59d5-4f3a-8a16-acf99b80a493",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "SUR-164",
+          "issue_title": "[流程优化] 2026-10-03 晚会产出 1 项（Opt-015 评审越界发现转派单登记），次日验证",
+          "since": "2026-10-03T18:03:01Z"
         }
       ],
       "issue_counts": {
@@ -49,6 +50,18 @@
         "done": 98
       },
       "latest_issues": [
+        {
+          "key": "SUR-170",
+          "title": "[空闲检测] 2026-10-04 leader 两小时正点检查与加派",
+          "status": "done",
+          "updated_at": "2026-10-03T18:03:18Z"
+        },
+        {
+          "key": "SUR-164",
+          "title": "[流程优化] 2026-10-03 晚会产出 1 项（Opt-015 评审越界发现转派单登记），次日",
+          "status": "todo",
+          "updated_at": "2026-10-03T18:03:00Z"
+        },
         {
           "key": "SUR-169",
           "title": "[巡检] 2026-10-04 leader Issue 状态巡检与催办",
@@ -66,18 +79,6 @@
           "title": "[评审][day-10] 对抗评审 paper/ 结构对齐重构（SUR-165 产出，Ch4/Ch6",
           "status": "done",
           "updated_at": "2026-10-03T16:04:12Z"
-        },
-        {
-          "key": "SUR-163",
-          "title": "[评审][day-9] 独立复核附录拆分（SUR-162 产出）+ 编译回归",
-          "status": "done",
-          "updated_at": "2026-10-03T16:04:12Z"
-        },
-        {
-          "key": "SUR-168",
-          "title": "[空闲检测] 2026-10-03 leader 两小时正点检查与加派",
-          "status": "done",
-          "updated_at": "2026-10-03T14:02:21Z"
         }
       ],
       "progress_note": "day-4 晨 37% → 午 42% → 晚 44% → 夜 47%",
@@ -164,6 +165,12 @@
       },
       "latest_issues": [
         {
+          "key": "BEN-139",
+          "title": "[空闲检测] 2026-10-04 leader 两小时正点检查与加派",
+          "status": "done",
+          "updated_at": "2026-10-03T18:01:56Z"
+        },
+        {
           "key": "BEN-135",
           "title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 1",
           "status": "in_progress",
@@ -186,12 +193,6 @@
           "title": "[任务·第3轮] cofi gold 视觉差分锚定 + SC v2 配对框架补强（ref BEN-1",
           "status": "done",
           "updated_at": "2026-10-03T16:10:39Z"
-        },
-        {
-          "key": "BEN-138",
-          "title": "[巡检] 2026-10-04 leader Issue 状态巡检与催办",
-          "status": "done",
-          "updated_at": "2026-10-03T16:05:05Z"
         }
       ]
     },
@@ -221,10 +222,9 @@
           "role": "DeepSeek Planner（小组 leader/PM，",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "950ff614-521d-4e32-a02d-423d41a7b2b3",
-          "state": "working",
-          "issue": "DWM-150",
-          "issue_title": "[空闲检测] 2026-10-04 leader 两小时正点检查与加派",
-          "since": "2026-10-03T18:00:13Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "dw-lead",
@@ -244,7 +244,7 @@
           "agent_id": "1c3481f5-135b-4959-9daa-c510c076d494",
           "state": "working",
           "issue": "DWM-149",
-          "issue_title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单生成中 r27·242/800步·4页/171项",
+          "issue_title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单生成中 r27·242/800步·4页/181项",
           "since": "2026-10-03T17:51:06Z"
         },
         {
@@ -269,23 +269,23 @@
         }
       ],
       "issue_counts": {
-        "todo": 1,
+        "todo": 0,
         "in_progress": 2,
         "in_review": 0,
-        "done": 55
+        "done": 56
       },
       "latest_issues": [
         {
           "key": "DWM-150",
           "title": "[空闲检测] 2026-10-04 leader 两小时正点检查与加派",
-          "status": "todo",
-          "updated_at": "2026-10-03T18:00:12Z"
+          "status": "done",
+          "updated_at": "2026-10-03T18:02:13Z"
         },
         {
           "key": "DWM-149",
           "title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单生成中 r27·242/80",
           "status": "in_progress",
-          "updated_at": "2026-10-03T17:56:33Z"
+          "updated_at": "2026-10-03T18:01:44Z"
         },
         {
           "key": "DWM-148",
@@ -308,9 +308,9 @@
       ],
       "order": {
         "key": "DWM-149",
-        "title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单生成中 r27·242/800步·4页/171项 · 迁移中 2/6 · 清单1.6h/10h 迁移1.6h",
+        "title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单生成中 r27·242/800步·4页/181项 · 迁移中 2/6 · 清单1.7h/10h 迁移1.7h",
         "status": "in_progress",
-        "updated_at": "2026-10-03T17:56:33Z"
+        "updated_at": "2026-10-03T18:01:44Z"
       }
     },
     {
@@ -389,10 +389,9 @@
           "role": "DeepSeek Planner（小组 leader/PM ",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
-          "state": "working",
-          "issue": "IPD-224",
-          "issue_title": "[空闲检测] 2026-10-04 leader 两小时正点检查与加派",
-          "since": "2026-10-03T18:00:23Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "minimax-uijudge",
@@ -406,17 +405,17 @@
         }
       ],
       "issue_counts": {
-        "todo": 1,
+        "todo": 0,
         "in_progress": 2,
         "in_review": 0,
-        "done": 94
+        "done": 95
       },
       "latest_issues": [
         {
           "key": "IPD-224",
           "title": "[空闲检测] 2026-10-04 leader 两小时正点检查与加派",
-          "status": "todo",
-          "updated_at": "2026-10-03T18:00:21Z"
+          "status": "done",
+          "updated_at": "2026-10-03T18:01:54Z"
         },
         {
           "key": "IPD-223",
