@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T13:51:34Z",
+  "generated_at": "2026-10-03T13:55:28Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -38,19 +38,24 @@
           "role": "DeepSeek Task Planner（任务规划+总结）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "04a4e04e-59d5-4f3a-8a16-acf99b80a493",
-          "state": "working",
-          "issue": "SUR-167",
-          "issue_title": "[任务][day-9] 调研并沉淀论文写作 skill 库（Nature 风格/去 AI 味/survey 规范，验收口",
-          "since": "2026-10-03T13:44:45Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         }
       ],
       "issue_counts": {
-        "todo": 2,
+        "todo": 1,
         "in_progress": 2,
         "in_review": 2,
-        "done": 94
+        "done": 95
       },
       "latest_issues": [
+        {
+          "key": "SUR-167",
+          "title": "[任务][day-9] 调研并沉淀论文写作 skill 库（Nature 风格/去 AI 味/sur",
+          "status": "done",
+          "updated_at": "2026-10-03T13:52:50Z"
+        },
         {
           "key": "SUR-166",
           "title": "[评审][day-10] 对抗评审 paper/ 结构对齐重构（SUR-165 产出，Ch4/Ch6",
@@ -62,12 +67,6 @@
           "title": "[任务][day-10] 按新权威大纲(预算版)重构 paper/ 结构对齐 + 清理内部分析痕迹小",
           "status": "done",
           "updated_at": "2026-10-03T13:49:50Z"
-        },
-        {
-          "key": "SUR-167",
-          "title": "[任务][day-9] 调研并沉淀论文写作 skill 库（Nature 风格/去 AI 味/sur",
-          "status": "todo",
-          "updated_at": "2026-10-03T13:44:45Z"
         },
         {
           "key": "SUR-151",
@@ -101,10 +100,9 @@
           "role": "GPT Scenarist",
           "model": "",
           "agent_id": "6e6f1e24-3bc5-455a-85d2-cb3fb6c9a672",
-          "state": "working",
-          "issue": "BEN-131",
-          "issue_title": "[leader 直派] 安卓端三 App 复跑核验 + 未达满分修复优化专项（R4 实测 cofi 92.6% / SC",
-          "since": "2026-10-03T13:29:35Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "glm-runner",
@@ -166,6 +164,12 @@
       },
       "latest_issues": [
         {
+          "key": "BEN-131",
+          "title": "[leader 直派] 安卓端三 App 复跑核验 + 未达满分修复优化专项（R4 实测 cofi ",
+          "status": "in_progress",
+          "updated_at": "2026-10-03T13:51:52Z"
+        },
+        {
           "key": "BEN-127",
           "title": "[任务·第3轮] Cofi 断言校准收口 + SC/gold binding 导航续修（ref BE",
           "status": "blocked",
@@ -176,12 +180,6 @@
           "title": "[任务·第3轮] 口径⑥ R4 全链路复跑 + test3/gold-mod01 suite 补齐（",
           "status": "in_review",
           "updated_at": "2026-10-03T13:29:38Z"
-        },
-        {
-          "key": "BEN-131",
-          "title": "[leader 直派] 安卓端三 App 复跑核验 + 未达满分修复优化专项（R4 实测 cofi ",
-          "status": "in_progress",
-          "updated_at": "2026-10-03T13:29:34Z"
         },
         {
           "key": "BEN-130",
