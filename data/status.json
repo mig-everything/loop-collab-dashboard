@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T22:25:06Z",
+  "generated_at": "2026-10-03T22:28:49Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -27,10 +27,9 @@
           "role": "Kimi Adversarial Reviewer（对抗评审",
           "model": "",
           "agent_id": "6e530cc6-6b9d-4398-936d-df9c13468125",
-          "state": "working",
-          "issue": "SUR-177",
-          "issue_title": "[评审][day-10] 独立复核 O1 自然性清理（SUR-176 产出）+ 编译回归 + Rubric",
-          "since": "2026-10-03T22:17:36Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "deepseek-planner",
@@ -45,16 +44,16 @@
       ],
       "issue_counts": {
         "todo": 1,
-        "in_progress": 2,
-        "in_review": 1,
+        "in_progress": 1,
+        "in_review": 2,
         "done": 96
       },
       "latest_issues": [
         {
           "key": "SUR-177",
           "title": "[评审][day-10] 独立复核 O1 自然性清理（SUR-176 产出）+ 编译回归 + Rub",
-          "status": "in_progress",
-          "updated_at": "2026-10-03T22:17:53Z"
+          "status": "in_review",
+          "updated_at": "2026-10-03T22:26:15Z"
         },
         {
           "key": "SUR-176",
@@ -101,9 +100,9 @@
           "model": "",
           "agent_id": "6e6f1e24-3bc5-455a-85d2-cb3fb6c9a672",
           "state": "working",
-          "issue": "BEN-136",
-          "issue_title": "[任务·线2 calendar] simple-calendar backfill 续修 + r6 收口（ref BEN",
-          "since": "2026-10-03T22:16:05Z"
+          "issue": "BEN-135",
+          "issue_title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 100（ref BEN",
+          "since": "2026-10-03T22:28:35Z"
         },
         {
           "name": "glm-runner",
@@ -279,7 +278,7 @@
           "key": "DWM-149",
           "title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单生成中 续3·r78·952",
           "status": "in_progress",
-          "updated_at": "2026-10-03T22:23:11Z"
+          "updated_at": "2026-10-03T22:28:24Z"
         },
         {
           "key": "DWM-154",
@@ -308,9 +307,9 @@
       ],
       "order": {
         "key": "DWM-149",
-        "title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单生成中 续3·r78·952/800步·4页/879项 · 迁移中 3/6 · 清单6.1h/10h 迁移6",
+        "title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单生成中 续3·r78·952/800步·4页/879项 · 迁移中 3/6 · 清单6.2h/10h 迁移6",
         "status": "in_progress",
-        "updated_at": "2026-10-03T22:23:11Z"
+        "updated_at": "2026-10-03T22:28:24Z"
       }
     },
     {
@@ -340,10 +339,9 @@
           "role": "IPD-SA 解决方案架构师",
           "model": "zai:glm-5.3",
           "agent_id": "3e4373ef-a262-4b28-ab2a-818861fc9624",
-          "state": "working",
-          "issue": "IPD-232",
-          "issue_title": "[SA·第2轮] REQ-010 五子棋 TR-Design 架构+接口契约（闭合 C1~C6，P0 门禁）",
-          "since": "2026-10-03T22:05:35Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "hermes-se",
