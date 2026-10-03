@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T14:13:01Z",
+  "generated_at": "2026-10-03T14:16:56Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -100,9 +100,9 @@
           "model": "",
           "agent_id": "6e6f1e24-3bc5-455a-85d2-cb3fb6c9a672",
           "state": "working",
-          "issue": "BEN-131",
-          "issue_title": "[leader 直派] 安卓端三 App 复跑核验 + 未达满分修复优化专项（R4 实测 cofi 92.6% / SC",
-          "since": "2026-10-03T14:12:51Z"
+          "issue": "BEN-136",
+          "issue_title": "[任务·线2 calendar] simple-calendar backfill 续修 + r6 收口（ref BEN",
+          "since": "2026-10-03T14:14:21Z"
         },
         {
           "name": "glm-runner",
@@ -111,9 +111,9 @@
           "model": "",
           "agent_id": "bdaefa9b-7045-4264-95e4-1db664e353d0",
           "state": "working",
-          "issue": "BEN-131",
-          "issue_title": "[leader 直派] 安卓端三 App 复跑核验 + 未达满分修复优化专项（R4 实测 cofi 92.6% / SC",
-          "since": "2026-10-03T14:11:09Z"
+          "issue": "BEN-137",
+          "issue_title": "[任务·线3 antennapod] 低速保温 backfill（ref BEN-133）",
+          "since": "2026-10-03T14:14:27Z"
         },
         {
           "name": "deepseek-planner",
@@ -121,10 +121,9 @@
           "role": "DeepSeek Planner（小组 leader/PM）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "547cd361-ef50-4965-9477-bc659d8a1708",
-          "state": "working",
-          "issue": "BEN-133",
-          "issue_title": "[方向] 三模拟器并行按 app 分线 + 优先级 cofi→calendar→antennapod + 泛化经验沉淀",
-          "since": "2026-10-03T14:08:40Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "minimax-visual-diff",
@@ -158,41 +157,41 @@
         }
       ],
       "issue_counts": {
-        "todo": 1,
-        "in_progress": 4,
+        "todo": 0,
+        "in_progress": 8,
         "in_review": 2,
-        "done": 79
+        "done": 76
       },
       "latest_issues": [
         {
-          "key": "BEN-131",
-          "title": "[leader 直派] 安卓端三 App 复跑核验 + 未达满分修复优化专项（R4 实测 cofi ",
+          "key": "BEN-136",
+          "title": "[任务·线2 calendar] simple-calendar backfill 续修 + r6 ",
           "status": "in_progress",
-          "updated_at": "2026-10-03T14:12:45Z"
+          "updated_at": "2026-10-03T14:17:13Z"
+        },
+        {
+          "key": "BEN-135",
+          "title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 1",
+          "status": "in_progress",
+          "updated_at": "2026-10-03T14:16:48Z"
         },
         {
           "key": "BEN-133",
           "title": "[方向] 三模拟器并行按 app 分线 + 优先级 cofi→calendar→antennapod",
-          "status": "todo",
-          "updated_at": "2026-10-03T14:08:38Z"
-        },
-        {
-          "key": "BEN-132",
-          "title": "[空闲检测] 2026-10-03 leader 两小时正点检查与加派",
           "status": "done",
-          "updated_at": "2026-10-03T14:01:49Z"
+          "updated_at": "2026-10-03T14:16:28Z"
         },
         {
-          "key": "BEN-127",
-          "title": "[任务·第3轮] Cofi 断言校准收口 + SC/gold binding 导航续修（ref BE",
-          "status": "blocked",
-          "updated_at": "2026-10-03T13:50:46Z"
+          "key": "BEN-137",
+          "title": "[任务·线3 antennapod] 低速保温 backfill（ref BEN-133）",
+          "status": "in_progress",
+          "updated_at": "2026-10-03T14:14:45Z"
         },
         {
-          "key": "BEN-128",
-          "title": "[任务·第3轮] 口径⑥ R4 全链路复跑 + test3/gold-mod01 suite 补齐（",
-          "status": "in_review",
-          "updated_at": "2026-10-03T13:29:38Z"
+          "key": "BEN-134",
+          "title": "[任务·三线编排] 三模拟器并行按 app 分线编排补全 + simple-calendar 注册（",
+          "status": "in_progress",
+          "updated_at": "2026-10-03T14:14:12Z"
         }
       ]
     },
