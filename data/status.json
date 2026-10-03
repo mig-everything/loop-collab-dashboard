@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T13:15:36Z",
+  "generated_at": "2026-10-03T13:23:07Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -99,10 +99,9 @@
           "role": "GPT Scenarist",
           "model": "",
           "agent_id": "6e6f1e24-3bc5-455a-85d2-cb3fb6c9a672",
-          "state": "working",
-          "issue": "BEN-127",
-          "issue_title": "[任务·第3轮] Cofi 断言校准收口 + SC/gold binding 导航续修（ref BEN-121/BEN-",
-          "since": "2026-10-03T13:00:07Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "glm-runner",
@@ -164,16 +163,16 @@
       },
       "latest_issues": [
         {
+          "key": "BEN-127",
+          "title": "[任务·第3轮] Cofi 断言校准收口 + SC/gold binding 导航续修（ref BE",
+          "status": "in_progress",
+          "updated_at": "2026-10-03T13:23:19Z"
+        },
+        {
           "key": "BEN-130",
           "title": "[基础设施] 设备租约：修复跨轮次模拟器抢占（BEN-127 x BEN-128 10-03 冲突）",
           "status": "in_progress",
           "updated_at": "2026-10-03T13:15:09Z"
-        },
-        {
-          "key": "BEN-127",
-          "title": "[任务·第3轮] Cofi 断言校准收口 + SC/gold binding 导航续修（ref BE",
-          "status": "in_progress",
-          "updated_at": "2026-10-03T12:56:51Z"
         },
         {
           "key": "BEN-128",
