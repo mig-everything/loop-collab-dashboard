@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T20:16:12Z",
+  "generated_at": "2026-10-03T20:20:00Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -27,10 +27,9 @@
           "role": "Kimi Adversarial Reviewer（对抗评审",
           "model": "",
           "agent_id": "6e530cc6-6b9d-4398-936d-df9c13468125",
-          "state": "working",
-          "issue": "SUR-173",
-          "issue_title": "[评审][day-10] 独立复核 SUR-166 打回修复（SUR-172 产出）+ 编译回归",
-          "since": "2026-10-03T20:14:06Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "deepseek-planner",
@@ -44,12 +43,18 @@
         }
       ],
       "issue_counts": {
-        "todo": 2,
+        "todo": 1,
         "in_progress": 1,
-        "in_review": 1,
+        "in_review": 2,
         "done": 96
       },
       "latest_issues": [
+        {
+          "key": "SUR-173",
+          "title": "[评审][day-10] 独立复核 SUR-166 打回修复（SUR-172 产出）+ 编译回归",
+          "status": "in_review",
+          "updated_at": "2026-10-03T20:19:43Z"
+        },
         {
           "key": "SUR-172",
           "title": "[任务][day-10] 修复 SUR-166 结构对齐评审打回 2 P1 + 3 P2",
@@ -61,12 +66,6 @@
           "title": "[晨会纪要] 2026-10-04",
           "status": "done",
           "updated_at": "2026-10-03T20:12:13Z"
-        },
-        {
-          "key": "SUR-173",
-          "title": "[评审][day-10] 独立复核 SUR-166 打回修复（SUR-172 产出）+ 编译回归",
-          "status": "backlog",
-          "updated_at": "2026-10-03T20:11:06Z"
         },
         {
           "key": "SUR-174",
@@ -101,9 +100,9 @@
           "model": "",
           "agent_id": "6e6f1e24-3bc5-455a-85d2-cb3fb6c9a672",
           "state": "working",
-          "issue": "BEN-131",
-          "issue_title": "[leader 直派] 安卓端三 App 复跑核验 + 未达满分修复优化专项（R4 实测 cofi 92.6% / SC",
-          "since": "2026-10-03T20:10:44Z"
+          "issue": "BEN-136",
+          "issue_title": "[任务·线2 calendar] simple-calendar backfill 续修 + r6 收口（ref BEN",
+          "since": "2026-10-03T20:07:17Z"
         },
         {
           "name": "glm-runner",
@@ -112,9 +111,9 @@
           "model": "",
           "agent_id": "bdaefa9b-7045-4264-95e4-1db664e353d0",
           "state": "working",
-          "issue": "BEN-142",
-          "issue_title": "[任务·第1轮] 口径⑥ R5 全链路复跑 + AP backfill 续跑（ref BEN-128/BEN-137）",
-          "since": "2026-10-03T20:05:22Z"
+          "issue": "BEN-131",
+          "issue_title": "[leader 直派] 安卓端三 App 复跑核验 + 未达满分修复优化专项（R4 实测 cofi 92.6% / SC",
+          "since": "2026-10-03T20:19:22Z"
         },
         {
           "name": "deepseek-planner",
@@ -132,10 +131,9 @@
           "role": "MiniMax 多模态视觉差分评审",
           "model": "minimax-cn:MiniMax-M3",
           "agent_id": "843ac45d-b5db-4f35-b07b-2e5754ec5a5f",
-          "state": "working",
-          "issue": "BEN-141",
-          "issue_title": "[任务·第1轮] cofi v2 视觉差分（触发条件100%就位，ref BEN-129）",
-          "since": "2026-10-03T20:05:19Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "项目观察员",
@@ -159,23 +157,29 @@
         }
       ],
       "issue_counts": {
-        "todo": 1,
+        "todo": 0,
         "in_progress": 4,
-        "in_review": 0,
+        "in_review": 1,
         "done": 80
       },
       "latest_issues": [
         {
-          "key": "BEN-131",
-          "title": "[leader 直派] 安卓端三 App 复跑核验 + 未达满分修复优化专项（R4 实测 cofi ",
-          "status": "in_progress",
-          "updated_at": "2026-10-03T20:14:45Z"
-        },
-        {
           "key": "BEN-136",
           "title": "[任务·线2 calendar] simple-calendar backfill 续修 + r6 ",
           "status": "in_progress",
-          "updated_at": "2026-10-03T20:13:49Z"
+          "updated_at": "2026-10-03T20:19:50Z"
+        },
+        {
+          "key": "BEN-131",
+          "title": "[leader 直派] 安卓端三 App 复跑核验 + 未达满分修复优化专项（R4 实测 cofi ",
+          "status": "in_progress",
+          "updated_at": "2026-10-03T20:19:37Z"
+        },
+        {
+          "key": "BEN-141",
+          "title": "[任务·第1轮] cofi v2 视觉差分（触发条件100%就位，ref BEN-129）",
+          "status": "in_review",
+          "updated_at": "2026-10-03T20:18:18Z"
         },
         {
           "key": "BEN-140",
@@ -188,12 +192,6 @@
           "title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 1",
           "status": "in_progress",
           "updated_at": "2026-10-03T20:09:24Z"
-        },
-        {
-          "key": "BEN-127",
-          "title": "[任务·第3轮] Cofi 断言校准收口 + SC/gold binding 导航续修（ref BE",
-          "status": "done",
-          "updated_at": "2026-10-03T20:07:21Z"
         }
       ]
     },
@@ -246,7 +244,7 @@
           "agent_id": "1c3481f5-135b-4959-9daa-c510c076d494",
           "state": "working",
           "issue": "DWM-149",
-          "issue_title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单生成中 续1·r56·637/800步·4页/3",
+          "issue_title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单生成中 续1·r57·667/800步·4页/3",
           "since": "2026-10-03T19:39:37Z"
         },
         {
@@ -278,16 +276,16 @@
       },
       "latest_issues": [
         {
+          "key": "DWM-149",
+          "title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单生成中 续1·r57·667",
+          "status": "in_progress",
+          "updated_at": "2026-10-03T20:19:52Z"
+        },
+        {
           "key": "DWM-153",
           "title": "[任务] SC-GATE-05 session JSON 截断套件层缺陷报告（DWM-147 建议1",
           "status": "in_review",
           "updated_at": "2026-10-03T20:16:09Z"
-        },
-        {
-          "key": "DWM-149",
-          "title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单生成中 续1·r56·637",
-          "status": "in_progress",
-          "updated_at": "2026-10-03T20:14:41Z"
         },
         {
           "key": "DWM-151",
@@ -310,9 +308,9 @@
       ],
       "order": {
         "key": "DWM-149",
-        "title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单生成中 续1·r56·637/800步·4页/371项 · 迁移中 3/6 · 清单3.9h/10h 迁移3",
+        "title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单生成中 续1·r57·667/800步·4页/371项 · 迁移中 3/6 · 清单4.0h/10h 迁移4",
         "status": "in_progress",
-        "updated_at": "2026-10-03T20:14:41Z"
+        "updated_at": "2026-10-03T20:19:52Z"
       }
     },
     {
@@ -342,10 +340,9 @@
           "role": "IPD-SA 解决方案架构师",
           "model": "zai:glm-5.3",
           "agent_id": "3e4373ef-a262-4b28-ab2a-818861fc9624",
-          "state": "working",
-          "issue": "IPD-228",
-          "issue_title": "[SA·第1轮] 流程通用性自评（验收口径10/目标一——通用-特异解耦审计 + 假想复用检验）",
-          "since": "2026-10-03T20:11:45Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "hermes-se",
@@ -363,10 +360,9 @@
           "role": "IPD-Dev 开发工程师",
           "model": "zai:glm-5.3",
           "agent_id": "44fcec25-d8b3-4af6-b206-1774a64677ce",
-          "state": "working",
-          "issue": "IPD-217",
-          "issue_title": "[缺口][P0] Eazo 平台缺浏览器可用网页 UI（验收口径「形态」未达成）",
-          "since": "2026-10-03T20:13:02Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "hermes-tester",
@@ -384,10 +380,9 @@
           "role": "IPD-RM 发布经理",
           "model": "zai:glm-5.3",
           "agent_id": "78156461-9644-478e-9c80-53cd18e25e33",
-          "state": "working",
-          "issue": "IPD-229",
-          "issue_title": "[RM·第1轮] 四维差 Token 复采 + 度量索引更新（+49.5%→+5.7% 收敛入表，残余差口径）",
-          "since": "2026-10-03T20:11:48Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "deepseek-planner",
@@ -405,48 +400,47 @@
           "role": "MiniMax 多模态 UI 视觉评审",
           "model": "minimax-cn:MiniMax-M3",
           "agent_id": "97f55294-90e0-4556-93af-a1cf44889574",
-          "state": "working",
-          "issue": "IPD-227",
-          "issue_title": "[uijudge·第1轮] REQ-009 每日一句 双端视觉评审（口径9 UI 差评分 + aesthetics-ru",
-          "since": "2026-10-03T20:11:43Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         }
       ],
       "issue_counts": {
-        "todo": 2,
-        "in_progress": 3,
-        "in_review": 0,
-        "done": 92
+        "todo": 1,
+        "in_progress": 0,
+        "in_review": 3,
+        "done": 93
       },
       "latest_issues": [
+        {
+          "key": "IPD-228",
+          "title": "[SA·第1轮] 流程通用性自评（验收口径10/目标一——通用-特异解耦审计 + 假想复用检验）",
+          "status": "in_review",
+          "updated_at": "2026-10-03T20:18:04Z"
+        },
+        {
+          "key": "IPD-217",
+          "title": "[缺口][P0] Eazo 平台缺浏览器可用网页 UI（验收口径「形态」未达成）",
+          "status": "done",
+          "updated_at": "2026-10-03T20:17:22Z"
+        },
+        {
+          "key": "IPD-229",
+          "title": "[RM·第1轮] 四维差 Token 复采 + 度量索引更新（+49.5%→+5.7% 收敛入表，残",
+          "status": "in_review",
+          "updated_at": "2026-10-03T20:17:16Z"
+        },
+        {
+          "key": "IPD-227",
+          "title": "[uijudge·第1轮] REQ-009 每日一句 双端视觉评审（口径9 UI 差评分 + aes",
+          "status": "in_review",
+          "updated_at": "2026-10-03T20:17:07Z"
+        },
         {
           "key": "IPD-223",
           "title": "[Dev] 鸿蒙工程骨架模板复用——压 turns/output,收敛四维差 Token 差值(+4",
           "status": "done",
           "updated_at": "2026-10-03T20:14:43Z"
-        },
-        {
-          "key": "IPD-225",
-          "title": "[早会纪要] 2026-10-04",
-          "status": "done",
-          "updated_at": "2026-10-03T20:14:12Z"
-        },
-        {
-          "key": "IPD-217",
-          "title": "[缺口][P0] Eazo 平台缺浏览器可用网页 UI（验收口径「形态」未达成）",
-          "status": "in_progress",
-          "updated_at": "2026-10-03T20:13:02Z"
-        },
-        {
-          "key": "IPD-228",
-          "title": "[SA·第1轮] 流程通用性自评（验收口径10/目标一——通用-特异解耦审计 + 假想复用检验）",
-          "status": "in_progress",
-          "updated_at": "2026-10-03T20:12:54Z"
-        },
-        {
-          "key": "IPD-229",
-          "title": "[RM·第1轮] 四维差 Token 复采 + 度量索引更新（+49.5%→+5.7% 收敛入表，残",
-          "status": "in_progress",
-          "updated_at": "2026-10-03T20:12:34Z"
         }
       ]
     }
