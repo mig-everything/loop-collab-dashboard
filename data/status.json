@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T20:27:23Z",
+  "generated_at": "2026-10-03T20:31:04Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -243,7 +243,7 @@
           "agent_id": "1c3481f5-135b-4959-9daa-c510c076d494",
           "state": "working",
           "issue": "DWM-149",
-          "issue_title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单生成中 续1·r58·676/800步·4页/3",
+          "issue_title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单生成中 续1·r59·706/800步·4页/3",
           "since": "2026-10-03T19:39:37Z"
         },
         {
@@ -276,9 +276,9 @@
       "latest_issues": [
         {
           "key": "DWM-149",
-          "title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单生成中 续1·r58·676",
+          "title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单生成中 续1·r59·706",
           "status": "in_progress",
-          "updated_at": "2026-10-03T20:25:04Z"
+          "updated_at": "2026-10-03T20:30:17Z"
         },
         {
           "key": "DWM-152",
@@ -307,9 +307,9 @@
       ],
       "order": {
         "key": "DWM-149",
-        "title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单生成中 续1·r58·676/800步·4页/371项 · 迁移中 3/6 · 清单4.1h/10h 迁移4",
+        "title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单生成中 续1·r59·706/800步·4页/371项 · 迁移中 3/6 · 清单4.2h/10h 迁移4",
         "status": "in_progress",
-        "updated_at": "2026-10-03T20:25:04Z"
+        "updated_at": "2026-10-03T20:30:17Z"
       }
     },
     {
@@ -405,23 +405,23 @@
         }
       ],
       "issue_counts": {
-        "todo": 1,
-        "in_progress": 0,
+        "todo": 0,
+        "in_progress": 1,
         "in_review": 4,
         "done": 92
       },
       "latest_issues": [
         {
+          "key": "IPD-230",
+          "title": "[TR-Req] REQ-010 五子棋（Gomoku · 双人本地对弈 + 确定性人机）PRD v",
+          "status": "in_progress",
+          "updated_at": "2026-10-03T20:29:17Z"
+        },
+        {
           "key": "IPD-226",
           "title": "[PM·第1轮] REQ-010 五子棋正式 PRD + TR-Req（第 10 场景主线，确定性三",
           "status": "in_review",
           "updated_at": "2026-10-03T20:23:41Z"
-        },
-        {
-          "key": "IPD-230",
-          "title": "[TR-Req] REQ-010 五子棋（Gomoku · 双人本地对弈 + 确定性人机）PRD v",
-          "status": "todo",
-          "updated_at": "2026-10-03T20:23:14Z"
         },
         {
           "key": "IPD-228",
