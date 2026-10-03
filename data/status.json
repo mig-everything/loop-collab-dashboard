@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T13:43:53Z",
+  "generated_at": "2026-10-03T13:47:43Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -38,18 +38,31 @@
           "role": "DeepSeek Task Planner（任务规划+总结）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "04a4e04e-59d5-4f3a-8a16-acf99b80a493",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "SUR-167",
+          "issue_title": "[任务][day-9] 调研并沉淀论文写作 skill 库（Nature 风格/去 AI 味/survey 规范，验收口",
+          "since": "2026-10-03T13:44:45Z"
         }
       ],
       "issue_counts": {
         "todo": 3,
-        "in_progress": 1,
+        "in_progress": 2,
         "in_review": 2,
-        "done": 94
+        "done": 93
       },
       "latest_issues": [
+        {
+          "key": "SUR-167",
+          "title": "[任务][day-9] 调研并沉淀论文写作 skill 库（Nature 风格/去 AI 味/sur",
+          "status": "todo",
+          "updated_at": "2026-10-03T13:44:45Z"
+        },
+        {
+          "key": "SUR-165",
+          "title": "[任务][day-10] 按新权威大纲(预算版)重构 paper/ 结构对齐 + 清理内部分析痕迹小",
+          "status": "in_progress",
+          "updated_at": "2026-10-03T13:44:11Z"
+        },
         {
           "key": "SUR-151",
           "title": "[基线重置][needs-human] survey 按 2026-10-03 新验收口径重新对齐（",
@@ -63,22 +76,10 @@
           "updated_at": "2026-10-03T13:41:43Z"
         },
         {
-          "key": "SUR-165",
-          "title": "[任务][day-10] 按新权威大纲(预算版)重构 paper/ 结构对齐 + 清理内部分析痕迹小",
-          "status": "todo",
-          "updated_at": "2026-10-03T13:41:12Z"
-        },
-        {
           "key": "SUR-163",
           "title": "[评审][day-9] 独立复核附录拆分（SUR-162 产出）+ 编译回归",
           "status": "in_review",
           "updated_at": "2026-10-03T12:28:57Z"
-        },
-        {
-          "key": "SUR-162",
-          "title": "[任务][day-9] 落实附录拆分：附录 A/B 移出主稿为独立补充材料 + 文档同步",
-          "status": "in_review",
-          "updated_at": "2026-10-03T12:14:30Z"
         }
       ],
       "progress_note": "day-4 晨 37% → 午 42% → 晚 44% → 夜 47%",
