@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T02:31:04Z",
+  "generated_at": "2026-10-03T02:38:23Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -88,7 +88,7 @@
       "title": "任务2 · 评测集与双端用例",
       "workspace": "ws-benchmark-loop",
       "machine": "张涛 Mac Studio",
-      "machine_online": false,
+      "machine_online": true,
       "meeting_active": false,
       "meeting_title": "",
       "progress": 56,
@@ -99,7 +99,7 @@
           "role": "GPT Scenarist",
           "model": "",
           "agent_id": "6e6f1e24-3bc5-455a-85d2-cb3fb6c9a672",
-          "state": "offline",
+          "state": "idle",
           "issue": "",
           "issue_title": ""
         },
@@ -109,9 +109,10 @@
           "role": "GLM Runner & Analyst",
           "model": "",
           "agent_id": "bdaefa9b-7045-4264-95e4-1db664e353d0",
-          "state": "offline",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "BEN-118",
+          "issue_title": "[冒烟测试] task2 执行机恢复验证：请回复机器可用确认",
+          "since": "2026-10-03T02:38:29Z"
         },
         {
           "name": "deepseek-planner",
@@ -119,7 +120,7 @@
           "role": "DeepSeek Planner（小组 leader/PM）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "547cd361-ef50-4965-9477-bc659d8a1708",
-          "state": "offline",
+          "state": "idle",
           "issue": "",
           "issue_title": ""
         },
@@ -129,7 +130,7 @@
           "role": "MiniMax 多模态视觉差分评审",
           "model": "minimax-cn:MiniMax-M3",
           "agent_id": "843ac45d-b5db-4f35-b07b-2e5754ec5a5f",
-          "state": "offline",
+          "state": "idle",
           "issue": "",
           "issue_title": ""
         },
@@ -139,7 +140,7 @@
           "role": "只读洞察项目目标与执行证据，用简单语言汇报进展、偏差和阻塞，",
           "model": "",
           "agent_id": "4b674e90-4726-4eba-bd5c-06350e0b8b83",
-          "state": "offline",
+          "state": "idle",
           "issue": "",
           "issue_title": ""
         },
@@ -149,18 +150,24 @@
           "role": "只读洞察项目目标与执行证据，用简单语言汇报进展、偏差和阻塞，",
           "model": "gpt-6-astra",
           "agent_id": "33b902ee-a4ca-46ae-9284-c8285311c687",
-          "state": "offline",
+          "state": "idle",
           "issue": "",
           "issue_title": ""
         }
       ],
       "issue_counts": {
-        "todo": 14,
+        "todo": 15,
         "in_progress": 2,
         "in_review": 2,
-        "done": 82
+        "done": 81
       },
       "latest_issues": [
+        {
+          "key": "BEN-118",
+          "title": "[冒烟测试] task2 执行机恢复验证：请回复机器可用确认",
+          "status": "todo",
+          "updated_at": "2026-10-03T02:38:27Z"
+        },
         {
           "key": "BEN-117",
           "title": "[空闲检测] 2026-10-03 leader 两小时正点检查与加派",
@@ -184,12 +191,6 @@
           "title": "[早会纪要] 2026-10-03",
           "status": "todo",
           "updated_at": "2026-10-02T20:00:19Z"
-        },
-        {
-          "key": "BEN-113",
-          "title": "[空闲检测] 2026-10-03 leader 两小时正点检查与加派",
-          "status": "todo",
-          "updated_at": "2026-10-02T18:00:16Z"
         }
       ]
     },
