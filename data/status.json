@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T16:11:59Z",
+  "generated_at": "2026-10-03T16:19:29Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -243,7 +243,7 @@
           "agent_id": "1c3481f5-135b-4959-9daa-c510c076d494",
           "state": "working",
           "issue": "DWM-149",
-          "issue_title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移",
+          "issue_title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单生成中 准备中 · 迁移中 0/6 · 清单0h",
           "since": "2026-10-03T16:04:31Z"
         },
         {
@@ -276,9 +276,9 @@
       "latest_issues": [
         {
           "key": "DWM-149",
-          "title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移",
+          "title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单生成中 准备中 · 迁移中 ",
           "status": "in_progress",
-          "updated_at": "2026-10-03T16:04:30Z"
+          "updated_at": "2026-10-03T16:19:03Z"
         },
         {
           "key": "DWM-148",
@@ -307,9 +307,9 @@
       ],
       "order": {
         "key": "DWM-149",
-        "title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移",
+        "title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单生成中 准备中 · 迁移中 0/6 · 清单0h/10h 迁移0h/12h",
         "status": "in_progress",
-        "updated_at": "2026-10-03T16:04:30Z"
+        "updated_at": "2026-10-03T16:19:03Z"
       }
     },
     {
@@ -405,23 +405,23 @@
         }
       ],
       "issue_counts": {
-        "todo": 1,
-        "in_progress": 1,
+        "todo": 0,
+        "in_progress": 2,
         "in_review": 0,
         "done": 95
       },
       "latest_issues": [
         {
+          "key": "IPD-223",
+          "title": "[Dev] 鸿蒙工程骨架模板复用——压 turns/output,收敛四维差 Token 差值(+4",
+          "status": "in_progress",
+          "updated_at": "2026-10-03T16:17:56Z"
+        },
+        {
           "key": "IPD-214",
           "title": "[Dev·第3轮夜间] Eazo 引擎 Token/turns 优化闭环——闭合四维差 Token ",
           "status": "done",
           "updated_at": "2026-10-03T16:10:20Z"
-        },
-        {
-          "key": "IPD-223",
-          "title": "[Dev] 鸿蒙工程骨架模板复用——压 turns/output,收敛四维差 Token 差值(+4",
-          "status": "todo",
-          "updated_at": "2026-10-03T16:09:46Z"
         },
         {
           "key": "IPD-222",
