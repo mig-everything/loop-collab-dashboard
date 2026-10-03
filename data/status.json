@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T16:00:35Z",
+  "generated_at": "2026-10-03T16:04:24Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -44,41 +44,41 @@
         }
       ],
       "issue_counts": {
-        "todo": 2,
-        "in_progress": 1,
-        "in_review": 3,
-        "done": 94
+        "todo": 1,
+        "in_progress": 2,
+        "in_review": 0,
+        "done": 97
       },
       "latest_issues": [
         {
+          "key": "SUR-162",
+          "title": "[任务][day-9] 落实附录拆分：附录 A/B 移出主稿为独立补充材料 + 文档同步",
+          "status": "done",
+          "updated_at": "2026-10-03T16:04:13Z"
+        },
+        {
+          "key": "SUR-166",
+          "title": "[评审][day-10] 对抗评审 paper/ 结构对齐重构（SUR-165 产出，Ch4/Ch6",
+          "status": "done",
+          "updated_at": "2026-10-03T16:04:12Z"
+        },
+        {
+          "key": "SUR-163",
+          "title": "[评审][day-9] 独立复核附录拆分（SUR-162 产出）+ 编译回归",
+          "status": "done",
+          "updated_at": "2026-10-03T16:04:12Z"
+        },
+        {
           "key": "SUR-169",
           "title": "[巡检] 2026-10-04 leader Issue 状态巡检与催办",
-          "status": "todo",
-          "updated_at": "2026-10-03T16:00:16Z"
+          "status": "in_progress",
+          "updated_at": "2026-10-03T16:01:05Z"
         },
         {
           "key": "SUR-168",
           "title": "[空闲检测] 2026-10-03 leader 两小时正点检查与加派",
           "status": "done",
           "updated_at": "2026-10-03T14:02:21Z"
-        },
-        {
-          "key": "SUR-166",
-          "title": "[评审][day-10] 对抗评审 paper/ 结构对齐重构（SUR-165 产出，Ch4/Ch6",
-          "status": "in_review",
-          "updated_at": "2026-10-03T14:01:09Z"
-        },
-        {
-          "key": "SUR-167",
-          "title": "[任务][day-9] 调研并沉淀论文写作 skill 库（Nature 风格/去 AI 味/sur",
-          "status": "done",
-          "updated_at": "2026-10-03T13:52:50Z"
-        },
-        {
-          "key": "SUR-165",
-          "title": "[任务][day-10] 按新权威大纲(预算版)重构 paper/ 结构对齐 + 清理内部分析痕迹小",
-          "status": "done",
-          "updated_at": "2026-10-03T13:49:50Z"
         }
       ],
       "progress_note": "day-4 晨 37% → 午 42% → 晚 44% → 夜 47%",
@@ -101,9 +101,9 @@
           "model": "",
           "agent_id": "6e6f1e24-3bc5-455a-85d2-cb3fb6c9a672",
           "state": "working",
-          "issue": "BEN-131",
-          "issue_title": "[leader 直派] 安卓端三 App 复跑核验 + 未达满分修复优化专项（R4 实测 cofi 92.6% / SC",
-          "since": "2026-10-03T15:46:43Z"
+          "issue": "BEN-136",
+          "issue_title": "[任务·线2 calendar] simple-calendar backfill 续修 + r6 收口（ref BEN",
+          "since": "2026-10-03T16:03:37Z"
         },
         {
           "name": "glm-runner",
@@ -160,40 +160,40 @@
       ],
       "issue_counts": {
         "todo": 1,
-        "in_progress": 6,
-        "in_review": 4,
-        "done": 75
+        "in_progress": 4,
+        "in_review": 0,
+        "done": 79
       },
       "latest_issues": [
         {
-          "key": "BEN-138",
-          "title": "[巡检] 2026-10-04 leader Issue 状态巡检与催办",
-          "status": "todo",
-          "updated_at": "2026-10-03T16:00:21Z"
+          "key": "BEN-79",
+          "title": "[BEN-57 断点] antennapod/simple-calendar harmony 用例集",
+          "status": "cancelled",
+          "updated_at": "2026-10-03T16:04:32Z"
         },
         {
-          "key": "BEN-136",
-          "title": "[任务·线2 calendar] simple-calendar backfill 续修 + r6 ",
-          "status": "in_progress",
-          "updated_at": "2026-10-03T15:54:56Z"
+          "key": "BEN-82",
+          "title": "[任务·第1轮] Android 侧定位校准+数据前置（BEN-72 P0 反馈闭环：Antenna",
+          "status": "cancelled",
+          "updated_at": "2026-10-03T16:04:31Z"
         },
         {
-          "key": "BEN-135",
-          "title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 1",
-          "status": "in_progress",
-          "updated_at": "2026-10-03T15:52:12Z"
-        },
-        {
-          "key": "BEN-131",
-          "title": "[leader 直派] 安卓端三 App 复跑核验 + 未达满分修复优化专项（R4 实测 cofi ",
-          "status": "in_progress",
-          "updated_at": "2026-10-03T15:46:38Z"
-        },
-        {
-          "key": "BEN-133",
-          "title": "[方向] 三模拟器并行按 app 分线 + 优先级 cofi→calendar→antennapod",
+          "key": "BEN-130",
+          "title": "[基础设施] 设备租约：修复跨轮次模拟器抢占（BEN-127 x BEN-128 10-03 冲突）",
           "status": "done",
-          "updated_at": "2026-10-03T15:05:24Z"
+          "updated_at": "2026-10-03T16:04:29Z"
+        },
+        {
+          "key": "BEN-128",
+          "title": "[任务·第3轮] 口径⑥ R4 全链路复跑 + test3/gold-mod01 suite 补齐（",
+          "status": "done",
+          "updated_at": "2026-10-03T16:04:26Z"
+        },
+        {
+          "key": "BEN-134",
+          "title": "[任务·三线编排] 三模拟器并行按 app 分线编排补全 + simple-calendar 注册（",
+          "status": "done",
+          "updated_at": "2026-10-03T16:04:24Z"
         }
       ]
     },
@@ -223,10 +223,9 @@
           "role": "DeepSeek Planner（小组 leader/PM，",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "950ff614-521d-4e32-a02d-423d41a7b2b3",
-          "state": "working",
-          "issue": "DWM-148",
-          "issue_title": "[巡检] 2026-10-04 leader Issue 状态巡检与催办",
-          "since": "2026-10-03T16:00:21Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "dw-lead",
@@ -244,9 +243,10 @@
           "role": "运行员",
           "model": "claude-opus-5-5",
           "agent_id": "1c3481f5-135b-4959-9daa-c510c076d494",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "DWM-149",
+          "issue_title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移",
+          "since": "2026-10-03T16:04:31Z"
         },
         {
           "name": "exec-verifier",
@@ -270,17 +270,23 @@
         }
       ],
       "issue_counts": {
-        "todo": 1,
-        "in_progress": 1,
+        "todo": 0,
+        "in_progress": 2,
         "in_review": 0,
-        "done": 54
+        "done": 55
       },
       "latest_issues": [
         {
+          "key": "DWM-149",
+          "title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移",
+          "status": "in_progress",
+          "updated_at": "2026-10-03T16:04:30Z"
+        },
+        {
           "key": "DWM-148",
           "title": "[巡检] 2026-10-04 leader Issue 状态巡检与催办",
-          "status": "todo",
-          "updated_at": "2026-10-03T16:00:21Z"
+          "status": "done",
+          "updated_at": "2026-10-03T16:04:02Z"
         },
         {
           "key": "DWM-147",
@@ -299,19 +305,13 @@
           "title": "[空闲检测] 2026-10-03 leader 两小时正点检查与加派",
           "status": "done",
           "updated_at": "2026-10-03T14:02:01Z"
-        },
-        {
-          "key": "DWM-142",
-          "title": "[晚会日报] 2026-10-03",
-          "status": "done",
-          "updated_at": "2026-10-03T12:11:54Z"
         }
       ],
       "order": {
-        "key": "DWM-122",
-        "title": "[DW迁移任务单] MifareClassicTool 迁移 · 已完成",
-        "status": "done",
-        "updated_at": "2026-10-03T14:28:11Z"
+        "key": "DWM-149",
+        "title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移",
+        "status": "in_progress",
+        "updated_at": "2026-10-03T16:04:30Z"
       }
     },
     {
@@ -380,9 +380,10 @@
           "role": "IPD-RM 发布经理",
           "model": "zai:glm-5.3",
           "agent_id": "78156461-9644-478e-9c80-53cd18e25e33",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-214",
+          "issue_title": "[Dev·第3轮夜间] Eazo 引擎 Token/turns 优化闭环——闭合四维差 Token +11.6% 唯一未",
+          "since": "2026-10-03T16:04:08Z"
         },
         {
           "name": "deepseek-planner",
@@ -390,10 +391,9 @@
           "role": "DeepSeek Planner（小组 leader/PM ",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
-          "state": "working",
-          "issue": "IPD-222",
-          "issue_title": "[巡检] 2026-10-04 leader Issue 状态巡检与催办",
-          "since": "2026-10-03T16:00:28Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "minimax-uijudge",
@@ -407,41 +407,41 @@
         }
       ],
       "issue_counts": {
-        "todo": 1,
+        "todo": 0,
         "in_progress": 1,
-        "in_review": 6,
-        "done": 89
+        "in_review": 1,
+        "done": 95
       },
       "latest_issues": [
         {
           "key": "IPD-222",
           "title": "[巡检] 2026-10-04 leader Issue 状态巡检与催办",
-          "status": "todo",
-          "updated_at": "2026-10-03T16:00:22Z"
-        },
-        {
-          "key": "IPD-217",
-          "title": "[缺口][P0] Eazo 平台缺浏览器可用网页 UI（验收口径「形态」未达成）",
-          "status": "in_progress",
-          "updated_at": "2026-10-03T15:45:18Z"
-        },
-        {
-          "key": "IPD-220",
-          "title": "[流程优化 Opt-011] IPD-217 展示 UI 补轻量 PRD + TR-Req + TR",
-          "status": "in_review",
-          "updated_at": "2026-10-03T15:10:44Z"
-        },
-        {
-          "key": "IPD-221",
-          "title": "[流程优化 Opt-012] metrics-report 增加 IPD 流程健康度指标 + 日报一",
-          "status": "in_review",
-          "updated_at": "2026-10-03T15:09:28Z"
-        },
-        {
-          "key": "IPD-218",
-          "title": "[建议] IPD 流程与角色配置五项优化评审（P0 文档过期/P1 skill 漂移/P1 平台需求",
           "status": "done",
-          "updated_at": "2026-10-03T15:08:59Z"
+          "updated_at": "2026-10-03T16:04:20Z"
+        },
+        {
+          "key": "IPD-214",
+          "title": "[Dev·第3轮夜间] Eazo 引擎 Token/turns 优化闭环——闭合四维差 Token ",
+          "status": "in_review",
+          "updated_at": "2026-10-03T16:04:06Z"
+        },
+        {
+          "key": "IPD-215",
+          "title": "[PM·第3轮夜间] REQ-010 下一场景预研 + 需求池扩充（业界热门 APP 类型洞察 + ",
+          "status": "done",
+          "updated_at": "2026-10-03T16:03:53Z"
+        },
+        {
+          "key": "IPD-211",
+          "title": "[Tester·TR-Accept] REQ-009 每日一句 差分执行 + 双端对比报告（收口 P",
+          "status": "done",
+          "updated_at": "2026-10-03T16:03:51Z"
+        },
+        {
+          "key": "IPD-219",
+          "title": "[流程优化 Opt-010] 补建 minimax-uijudge aesthetics-rubri",
+          "status": "done",
+          "updated_at": "2026-10-03T16:03:50Z"
         }
       ]
     }
