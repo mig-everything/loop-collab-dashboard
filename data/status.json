@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T20:12:24Z",
+  "generated_at": "2026-10-03T20:16:12Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -17,10 +17,9 @@
           "role": "GPT Writer（执笔者）",
           "model": "",
           "agent_id": "58ed4647-32dd-4ca1-8ddc-194b975d6024",
-          "state": "working",
-          "issue": "SUR-172",
-          "issue_title": "[任务][day-10] 修复 SUR-166 结构对齐评审打回 2 P1 + 3 P2",
-          "since": "2026-10-03T20:06:59Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "kimi-adversary",
@@ -28,9 +27,10 @@
           "role": "Kimi Adversarial Reviewer（对抗评审",
           "model": "",
           "agent_id": "6e530cc6-6b9d-4398-936d-df9c13468125",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "SUR-173",
+          "issue_title": "[评审][day-10] 独立复核 SUR-166 打回修复（SUR-172 产出）+ 编译回归",
+          "since": "2026-10-03T20:14:06Z"
         },
         {
           "name": "deepseek-planner",
@@ -45,11 +45,17 @@
       ],
       "issue_counts": {
         "todo": 2,
-        "in_progress": 2,
-        "in_review": 0,
+        "in_progress": 1,
+        "in_review": 1,
         "done": 96
       },
       "latest_issues": [
+        {
+          "key": "SUR-172",
+          "title": "[任务][day-10] 修复 SUR-166 结构对齐评审打回 2 P1 + 3 P2",
+          "status": "in_review",
+          "updated_at": "2026-10-03T20:13:50Z"
+        },
         {
           "key": "SUR-171",
           "title": "[晨会纪要] 2026-10-04",
@@ -61,12 +67,6 @@
           "title": "[评审][day-10] 独立复核 SUR-166 打回修复（SUR-172 产出）+ 编译回归",
           "status": "backlog",
           "updated_at": "2026-10-03T20:11:06Z"
-        },
-        {
-          "key": "SUR-172",
-          "title": "[任务][day-10] 修复 SUR-166 结构对齐评审打回 2 P1 + 3 P2",
-          "status": "in_progress",
-          "updated_at": "2026-10-03T20:09:42Z"
         },
         {
           "key": "SUR-174",
@@ -112,9 +112,9 @@
           "model": "",
           "agent_id": "bdaefa9b-7045-4264-95e4-1db664e353d0",
           "state": "working",
-          "issue": "BEN-131",
-          "issue_title": "[leader 直派] 安卓端三 App 复跑核验 + 未达满分修复优化专项（R4 实测 cofi 92.6% / SC",
-          "since": "2026-10-03T20:10:23Z"
+          "issue": "BEN-142",
+          "issue_title": "[任务·第1轮] 口径⑥ R5 全链路复跑 + AP backfill 续跑（ref BEN-128/BEN-137）",
+          "since": "2026-10-03T20:05:22Z"
         },
         {
           "name": "deepseek-planner",
@@ -166,22 +166,22 @@
       },
       "latest_issues": [
         {
-          "key": "BEN-140",
-          "title": "[早会纪要] 2026-10-04",
-          "status": "done",
-          "updated_at": "2026-10-03T20:11:05Z"
-        },
-        {
           "key": "BEN-131",
           "title": "[leader 直派] 安卓端三 App 复跑核验 + 未达满分修复优化专项（R4 实测 cofi ",
           "status": "in_progress",
-          "updated_at": "2026-10-03T20:10:43Z"
+          "updated_at": "2026-10-03T20:14:45Z"
         },
         {
           "key": "BEN-136",
           "title": "[任务·线2 calendar] simple-calendar backfill 续修 + r6 ",
           "status": "in_progress",
-          "updated_at": "2026-10-03T20:09:55Z"
+          "updated_at": "2026-10-03T20:13:49Z"
+        },
+        {
+          "key": "BEN-140",
+          "title": "[早会纪要] 2026-10-04",
+          "status": "done",
+          "updated_at": "2026-10-03T20:11:05Z"
         },
         {
           "key": "BEN-135",
@@ -203,8 +203,8 @@
       "workspace": "ws-dw-migration-loop",
       "machine": "奕棣 MacBook",
       "machine_online": true,
-      "meeting_active": true,
-      "meeting_title": "[早会纪要] 2026-10-04",
+      "meeting_active": false,
+      "meeting_title": "",
       "progress": 22,
       "agents": [
         {
@@ -214,9 +214,9 @@
           "model": "claude-opus-5-5",
           "agent_id": "2f32549c-87c7-4202-8f54-3af79a30afa0",
           "state": "working",
-          "issue": "DWM-153",
-          "issue_title": "[任务] SC-GATE-05 session JSON 截断套件层缺陷报告（DWM-147 建议1 采纳）",
-          "since": "2026-10-03T20:08:22Z"
+          "issue": "DWM-152",
+          "issue_title": "[任务] MifareClassicTool 收口后差异分析 + §11.7 对抗评审 + DW 建议池入池",
+          "since": "2026-10-03T20:08:20Z"
         },
         {
           "name": "deepseek-planner",
@@ -224,10 +224,9 @@
           "role": "DeepSeek Planner（小组 leader/PM，",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "950ff614-521d-4e32-a02d-423d41a7b2b3",
-          "state": "working",
-          "issue": "DWM-151",
-          "issue_title": "[早会纪要] 2026-10-04",
-          "since": "2026-10-03T20:00:14Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "dw-lead",
@@ -235,7 +234,7 @@
           "role": "DW 迁移执行小队队长",
           "model": "claude-opus-5-5",
           "agent_id": "c6ff7c69-0db4-4b35-ac81-dd00e5a53ba4",
-          "state": "meeting",
+          "state": "idle",
           "issue": "",
           "issue_title": ""
         },
@@ -247,7 +246,7 @@
           "agent_id": "1c3481f5-135b-4959-9daa-c510c076d494",
           "state": "working",
           "issue": "DWM-149",
-          "issue_title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单生成中 续1·r55·608/800步·4页/3",
+          "issue_title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单生成中 续1·r56·637/800步·4页/3",
           "since": "2026-10-03T19:39:37Z"
         },
         {
@@ -256,7 +255,7 @@
           "role": "验证员",
           "model": "claude-opus-5-5",
           "agent_id": "69822c63-0dcc-4f3e-875d-7b300d437623",
-          "state": "meeting",
+          "state": "idle",
           "issue": "",
           "issue_title": ""
         },
@@ -266,35 +265,35 @@
           "role": "修复员",
           "model": "claude-opus-5-5",
           "agent_id": "cd70e713-a339-4621-8699-2058d9cf7d6b",
-          "state": "meeting",
+          "state": "idle",
           "issue": "",
           "issue_title": ""
         }
       ],
       "issue_counts": {
         "todo": 1,
-        "in_progress": 3,
-        "in_review": 0,
-        "done": 57
+        "in_progress": 1,
+        "in_review": 1,
+        "done": 58
       },
       "latest_issues": [
         {
-          "key": "DWM-151",
-          "title": "[早会纪要] 2026-10-04",
-          "status": "in_progress",
-          "updated_at": "2026-10-03T20:09:51Z"
+          "key": "DWM-153",
+          "title": "[任务] SC-GATE-05 session JSON 截断套件层缺陷报告（DWM-147 建议1",
+          "status": "in_review",
+          "updated_at": "2026-10-03T20:16:09Z"
         },
         {
           "key": "DWM-149",
-          "title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单生成中 续1·r55·608",
+          "title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单生成中 续1·r56·637",
           "status": "in_progress",
-          "updated_at": "2026-10-03T20:09:29Z"
+          "updated_at": "2026-10-03T20:14:41Z"
         },
         {
-          "key": "DWM-153",
-          "title": "[任务] SC-GATE-05 session JSON 截断套件层缺陷报告（DWM-147 建议1",
-          "status": "in_progress",
-          "updated_at": "2026-10-03T20:08:46Z"
+          "key": "DWM-151",
+          "title": "[早会纪要] 2026-10-04",
+          "status": "done",
+          "updated_at": "2026-10-03T20:13:36Z"
         },
         {
           "key": "DWM-147",
@@ -311,9 +310,9 @@
       ],
       "order": {
         "key": "DWM-149",
-        "title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单生成中 续1·r55·608/800步·4页/359项 · 迁移中 3/6 · 清单3.8h/10h 迁移3",
+        "title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单生成中 续1·r56·637/800步·4页/371项 · 迁移中 3/6 · 清单3.9h/10h 迁移3",
         "status": "in_progress",
-        "updated_at": "2026-10-03T20:09:29Z"
+        "updated_at": "2026-10-03T20:14:41Z"
       }
     },
     {
@@ -364,9 +363,10 @@
           "role": "IPD-Dev 开发工程师",
           "model": "zai:glm-5.3",
           "agent_id": "44fcec25-d8b3-4af6-b206-1774a64677ce",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-217",
+          "issue_title": "[缺口][P0] Eazo 平台缺浏览器可用网页 UI（验收口径「形态」未达成）",
+          "since": "2026-10-03T20:13:02Z"
         },
         {
           "name": "hermes-tester",
@@ -395,10 +395,9 @@
           "role": "DeepSeek Planner（小组 leader/PM ",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
-          "state": "working",
-          "issue": "IPD-225",
-          "issue_title": "[早会纪要] 2026-10-04",
-          "since": "2026-10-03T20:00:20Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "minimax-uijudge",
@@ -413,41 +412,41 @@
         }
       ],
       "issue_counts": {
-        "todo": 4,
+        "todo": 2,
         "in_progress": 3,
         "in_review": 0,
-        "done": 90
+        "done": 92
       },
       "latest_issues": [
+        {
+          "key": "IPD-223",
+          "title": "[Dev] 鸿蒙工程骨架模板复用——压 turns/output,收敛四维差 Token 差值(+4",
+          "status": "done",
+          "updated_at": "2026-10-03T20:14:43Z"
+        },
+        {
+          "key": "IPD-225",
+          "title": "[早会纪要] 2026-10-04",
+          "status": "done",
+          "updated_at": "2026-10-03T20:14:12Z"
+        },
+        {
+          "key": "IPD-217",
+          "title": "[缺口][P0] Eazo 平台缺浏览器可用网页 UI（验收口径「形态」未达成）",
+          "status": "in_progress",
+          "updated_at": "2026-10-03T20:13:02Z"
+        },
+        {
+          "key": "IPD-228",
+          "title": "[SA·第1轮] 流程通用性自评（验收口径10/目标一——通用-特异解耦审计 + 假想复用检验）",
+          "status": "in_progress",
+          "updated_at": "2026-10-03T20:12:54Z"
+        },
         {
           "key": "IPD-229",
           "title": "[RM·第1轮] 四维差 Token 复采 + 度量索引更新（+49.5%→+5.7% 收敛入表，残",
           "status": "in_progress",
           "updated_at": "2026-10-03T20:12:34Z"
-        },
-        {
-          "key": "IPD-228",
-          "title": "[SA·第1轮] 流程通用性自评（验收口径10/目标一——通用-特异解耦审计 + 假想复用检验）",
-          "status": "todo",
-          "updated_at": "2026-10-03T20:11:45Z"
-        },
-        {
-          "key": "IPD-227",
-          "title": "[uijudge·第1轮] REQ-009 每日一句 双端视觉评审（口径9 UI 差评分 + aes",
-          "status": "todo",
-          "updated_at": "2026-10-03T20:11:42Z"
-        },
-        {
-          "key": "IPD-226",
-          "title": "[PM·第1轮] REQ-010 五子棋正式 PRD + TR-Req（第 10 场景主线，确定性三",
-          "status": "todo",
-          "updated_at": "2026-10-03T20:11:40Z"
-        },
-        {
-          "key": "IPD-225",
-          "title": "[早会纪要] 2026-10-04",
-          "status": "todo",
-          "updated_at": "2026-10-03T20:00:19Z"
         }
       ]
     }
