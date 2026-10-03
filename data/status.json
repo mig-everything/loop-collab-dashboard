@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T10:17:14Z",
+  "generated_at": "2026-10-03T10:20:56Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -259,12 +259,9 @@
           "role": "修复员",
           "model": "claude-opus-5-5",
           "agent_id": "cd70e713-a339-4621-8699-2058d9cf7d6b",
-          "state": "working",
-          "issue": "DWM-140",
-          "issue_title": "[DWM-122·wave3] MifareClassicTool 修复第 3 波（16 条）",
-          "since": "2026-10-03T08:31:15Z",
-          "parent_issue": "DWM-122",
-          "parent_title": "[DW迁移任务单] MifareClassicTool 迁移 · 修复 wave 3/4"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         }
       ],
       "issue_counts": {
