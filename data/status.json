@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T13:32:27Z",
+  "generated_at": "2026-10-03T13:36:16Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -37,18 +37,25 @@
           "role": "DeepSeek Task Planner（任务规划+总结）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "04a4e04e-59d5-4f3a-8a16-acf99b80a493",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "SUR-151",
+          "issue_title": "[结项][needs-human] survey 技术侧 100% 达成，请负责人确认结项 + 提供作者信息",
+          "since": "2026-10-03T13:35:08Z"
         }
       ],
       "issue_counts": {
         "todo": 1,
-        "in_progress": 0,
+        "in_progress": 1,
         "in_review": 2,
         "done": 96
       },
       "latest_issues": [
+        {
+          "key": "SUR-151",
+          "title": "[结项][needs-human] survey 技术侧 100% 达成，请负责人确认结项 + 提供",
+          "status": "in_progress",
+          "updated_at": "2026-10-03T13:35:07Z"
+        },
         {
           "key": "SUR-163",
           "title": "[评审][day-9] 独立复核附录拆分（SUR-162 产出）+ 编译回归",
@@ -72,12 +79,6 @@
           "title": "[流程优化] 2026-10-03 晚会产出 1 项（Opt-015 评审越界发现转派单登记），次日",
           "status": "backlog",
           "updated_at": "2026-10-03T12:08:14Z"
-        },
-        {
-          "key": "SUR-160",
-          "title": "[空闲检测] 2026-10-03 leader 两小时正点检查与加派",
-          "status": "done",
-          "updated_at": "2026-10-03T10:02:49Z"
         }
       ],
       "progress_note": "day-4 晨 37% → 午 42% → 晚 44% → 夜 47%",
