@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T20:38:27Z",
+  "generated_at": "2026-10-03T20:42:04Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -100,9 +100,9 @@
           "model": "",
           "agent_id": "6e6f1e24-3bc5-455a-85d2-cb3fb6c9a672",
           "state": "working",
-          "issue": "BEN-135",
-          "issue_title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 100（ref BEN",
-          "since": "2026-10-03T20:24:35Z"
+          "issue": "BEN-131",
+          "issue_title": "[leader 直派] 安卓端三 App 复跑核验 + 未达满分修复优化专项（R4 实测 cofi 92.6% / SC",
+          "since": "2026-10-03T20:40:22Z"
         },
         {
           "name": "glm-runner",
@@ -113,7 +113,7 @@
           "state": "working",
           "issue": "BEN-131",
           "issue_title": "[leader 直派] 安卓端三 App 复跑核验 + 未达满分修复优化专项（R4 实测 cofi 92.6% / SC",
-          "since": "2026-10-03T20:19:22Z"
+          "since": "2026-10-03T20:40:05Z"
         },
         {
           "name": "deepseek-planner",
@@ -164,16 +164,16 @@
       },
       "latest_issues": [
         {
+          "key": "BEN-131",
+          "title": "[leader 直派] 安卓端三 App 复跑核验 + 未达满分修复优化专项（R4 实测 cofi ",
+          "status": "in_progress",
+          "updated_at": "2026-10-03T20:40:22Z"
+        },
+        {
           "key": "BEN-135",
           "title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 1",
           "status": "in_progress",
           "updated_at": "2026-10-03T20:38:10Z"
-        },
-        {
-          "key": "BEN-131",
-          "title": "[leader 直派] 安卓端三 App 复跑核验 + 未达满分修复优化专项（R4 实测 cofi ",
-          "status": "in_progress",
-          "updated_at": "2026-10-03T20:34:01Z"
         },
         {
           "key": "BEN-136",
@@ -243,7 +243,7 @@
           "agent_id": "1c3481f5-135b-4959-9daa-c510c076d494",
           "state": "working",
           "issue": "DWM-149",
-          "issue_title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单生成中 续1·r59·706/800步·4页/3",
+          "issue_title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单生成中 续1·r60·722/800步·4页/3",
           "since": "2026-10-03T19:39:37Z"
         },
         {
@@ -276,9 +276,9 @@
       "latest_issues": [
         {
           "key": "DWM-149",
-          "title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单生成中 续1·r59·706",
+          "title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单生成中 续1·r60·722",
           "status": "in_progress",
-          "updated_at": "2026-10-03T20:35:29Z"
+          "updated_at": "2026-10-03T20:40:40Z"
         },
         {
           "key": "DWM-152",
@@ -307,9 +307,9 @@
       ],
       "order": {
         "key": "DWM-149",
-        "title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单生成中 续1·r59·706/800步·4页/371项 · 迁移中 3/6 · 清单4.3h/10h 迁移4",
+        "title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单生成中 续1·r60·722/800步·4页/371项 · 迁移中 3/6 · 清单4.4h/10h 迁移4",
         "status": "in_progress",
-        "updated_at": "2026-10-03T20:35:29Z"
+        "updated_at": "2026-10-03T20:40:40Z"
       }
     },
     {
@@ -338,10 +338,9 @@
           "role": "IPD-SA 解决方案架构师",
           "model": "zai:glm-5.3",
           "agent_id": "3e4373ef-a262-4b28-ab2a-818861fc9624",
-          "state": "working",
-          "issue": "IPD-230",
-          "issue_title": "[TR-Req] REQ-010 五子棋（Gomoku · 双人本地对弈 + 确定性人机）PRD v1.0 需求评审",
-          "since": "2026-10-03T20:23:14Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "hermes-se",
@@ -406,16 +405,16 @@
       ],
       "issue_counts": {
         "todo": 0,
-        "in_progress": 1,
-        "in_review": 4,
+        "in_progress": 0,
+        "in_review": 5,
         "done": 92
       },
       "latest_issues": [
         {
           "key": "IPD-230",
           "title": "[TR-Req] REQ-010 五子棋（Gomoku · 双人本地对弈 + 确定性人机）PRD v",
-          "status": "in_progress",
-          "updated_at": "2026-10-03T20:29:17Z"
+          "status": "in_review",
+          "updated_at": "2026-10-03T20:41:41Z"
         },
         {
           "key": "IPD-226",
