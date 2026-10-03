@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T12:52:56Z",
+  "generated_at": "2026-10-03T12:56:46Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -167,7 +167,7 @@
           "key": "BEN-127",
           "title": "[任务·第3轮] Cofi 断言校准收口 + SC/gold binding 导航续修（ref BE",
           "status": "in_progress",
-          "updated_at": "2026-10-03T12:27:33Z"
+          "updated_at": "2026-10-03T12:56:51Z"
         },
         {
           "key": "BEN-128",
