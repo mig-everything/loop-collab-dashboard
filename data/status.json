@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T04:17:57Z",
+  "generated_at": "2026-10-03T04:21:42Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -164,6 +164,12 @@
       },
       "latest_issues": [
         {
+          "key": "BEN-121",
+          "title": "[任务·第2轮] 定位/导航/断言修复清单：AP Lock queue + SC Settings ",
+          "status": "in_progress",
+          "updated_at": "2026-10-03T04:18:47Z"
+        },
+        {
           "key": "BEN-79",
           "title": "[BEN-57 断点] antennapod/simple-calendar harmony 用例集",
           "status": "in_progress",
@@ -180,12 +186,6 @@
           "title": "[任务·第2轮] appium 健康探测 + DIFF 分类口径统一（ref BEN-101 R3 ",
           "status": "in_review",
           "updated_at": "2026-10-03T04:14:03Z"
-        },
-        {
-          "key": "BEN-121",
-          "title": "[任务·第2轮] 定位/导航/断言修复清单：AP Lock queue + SC Settings ",
-          "status": "in_progress",
-          "updated_at": "2026-10-03T04:13:31Z"
         },
         {
           "key": "BEN-120",
