@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T16:23:17Z",
+  "generated_at": "2026-10-03T16:27:04Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -164,16 +164,16 @@
       },
       "latest_issues": [
         {
+          "key": "BEN-136",
+          "title": "[任务·线2 calendar] simple-calendar backfill 续修 + r6 ",
+          "status": "in_progress",
+          "updated_at": "2026-10-03T16:25:15Z"
+        },
+        {
           "key": "BEN-135",
           "title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 1",
           "status": "in_progress",
           "updated_at": "2026-10-03T16:21:10Z"
-        },
-        {
-          "key": "BEN-136",
-          "title": "[任务·线2 calendar] simple-calendar backfill 续修 + r6 ",
-          "status": "in_progress",
-          "updated_at": "2026-10-03T16:12:09Z"
         },
         {
           "key": "BEN-129",
@@ -231,10 +231,9 @@
           "role": "DW 迁移执行小队队长",
           "model": "claude-opus-5-5",
           "agent_id": "c6ff7c69-0db4-4b35-ac81-dd00e5a53ba4",
-          "state": "working",
-          "issue": "DWM-149",
-          "issue_title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单生成中 0/800步·5页/6项 · 迁移中 1",
-          "since": "2026-10-03T16:23:31Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "exec-runner",
@@ -244,7 +243,7 @@
           "agent_id": "1c3481f5-135b-4959-9daa-c510c076d494",
           "state": "working",
           "issue": "DWM-149",
-          "issue_title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单生成中 0/800步·5页/6项 · 迁移中 1",
+          "issue_title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单生成中 0/800步·5页/6项 · 迁移中 2",
           "since": "2026-10-03T16:04:31Z"
         },
         {
@@ -279,7 +278,7 @@
           "key": "DWM-149",
           "title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单生成中 0/800步·5页/",
           "status": "in_progress",
-          "updated_at": "2026-10-03T16:23:30Z"
+          "updated_at": "2026-10-03T16:24:28Z"
         },
         {
           "key": "DWM-148",
@@ -308,9 +307,9 @@
       ],
       "order": {
         "key": "DWM-149",
-        "title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单生成中 0/800步·5页/6项 · 迁移中 1/6 · 清单0.1h/10h 迁移0.1h/12h",
+        "title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单生成中 0/800步·5页/6项 · 迁移中 2/6 · 清单0.1h/10h 迁移0.1h/12h",
         "status": "in_progress",
-        "updated_at": "2026-10-03T16:23:30Z"
+        "updated_at": "2026-10-03T16:24:28Z"
       }
     },
     {
