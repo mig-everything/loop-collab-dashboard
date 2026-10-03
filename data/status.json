@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T17:26:54Z",
+  "generated_at": "2026-10-03T17:34:17Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -164,16 +164,16 @@
       },
       "latest_issues": [
         {
+          "key": "BEN-135",
+          "title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 1",
+          "status": "in_progress",
+          "updated_at": "2026-10-03T17:30:58Z"
+        },
+        {
           "key": "BEN-131",
           "title": "[leader 直派] 安卓端三 App 复跑核验 + 未达满分修复优化专项（R4 实测 cofi ",
           "status": "in_progress",
           "updated_at": "2026-10-03T17:20:08Z"
-        },
-        {
-          "key": "BEN-135",
-          "title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 1",
-          "status": "in_progress",
-          "updated_at": "2026-10-03T17:10:29Z"
         },
         {
           "key": "BEN-136",
@@ -243,7 +243,7 @@
           "agent_id": "1c3481f5-135b-4959-9daa-c510c076d494",
           "state": "working",
           "issue": "DWM-149",
-          "issue_title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单生成中 r18·130/800步·4页/142项",
+          "issue_title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单生成中 r20·157/800步·4页/142项",
           "since": "2026-10-03T16:04:31Z"
         },
         {
@@ -276,9 +276,9 @@
       "latest_issues": [
         {
           "key": "DWM-149",
-          "title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单生成中 r18·130/80",
+          "title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单生成中 r20·157/80",
           "status": "in_progress",
-          "updated_at": "2026-10-03T17:26:52Z"
+          "updated_at": "2026-10-03T17:32:03Z"
         },
         {
           "key": "DWM-148",
@@ -307,9 +307,9 @@
       ],
       "order": {
         "key": "DWM-149",
-        "title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单生成中 r18·130/800步·4页/142项 · 迁移中 2/6 · 清单1.1h/10h 迁移1.1h",
+        "title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单生成中 r20·157/800步·4页/142项 · 迁移中 2/6 · 清单1.2h/10h 迁移1.2h",
         "status": "in_progress",
-        "updated_at": "2026-10-03T17:26:52Z"
+        "updated_at": "2026-10-03T17:32:03Z"
       }
     },
     {
