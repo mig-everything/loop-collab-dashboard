@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T18:51:42Z",
+  "generated_at": "2026-10-03T18:55:22Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -99,10 +99,9 @@
           "role": "GPT Scenarist",
           "model": "",
           "agent_id": "6e6f1e24-3bc5-455a-85d2-cb3fb6c9a672",
-          "state": "working",
-          "issue": "BEN-135",
-          "issue_title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 100（ref BEN",
-          "since": "2026-10-03T18:31:42Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "glm-runner",
@@ -167,7 +166,7 @@
           "key": "BEN-135",
           "title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 1",
           "status": "in_progress",
-          "updated_at": "2026-10-03T18:49:41Z"
+          "updated_at": "2026-10-03T18:53:03Z"
         },
         {
           "key": "BEN-131",
@@ -243,7 +242,7 @@
           "agent_id": "1c3481f5-135b-4959-9daa-c510c076d494",
           "state": "working",
           "issue": "DWM-149",
-          "issue_title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单生成中 续1·r40·365/800步·4页/2",
+          "issue_title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单生成中 续1·r41·377/800步·4页/2",
           "since": "2026-10-03T17:51:06Z"
         },
         {
@@ -276,9 +275,9 @@
       "latest_issues": [
         {
           "key": "DWM-149",
-          "title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单生成中 续1·r40·365",
+          "title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单生成中 续1·r41·377",
           "status": "in_progress",
-          "updated_at": "2026-10-03T18:48:36Z"
+          "updated_at": "2026-10-03T18:53:48Z"
         },
         {
           "key": "DWM-150",
@@ -307,9 +306,9 @@
       ],
       "order": {
         "key": "DWM-149",
-        "title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单生成中 续1·r40·365/800步·4页/238项 · 迁移中 3/6 · 清单2.5h/10h 迁移2",
+        "title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单生成中 续1·r41·377/800步·4页/238项 · 迁移中 3/6 · 清单2.6h/10h 迁移2",
         "status": "in_progress",
-        "updated_at": "2026-10-03T18:48:36Z"
+        "updated_at": "2026-10-03T18:53:48Z"
       }
     },
     {
