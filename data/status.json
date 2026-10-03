@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T22:28:49Z",
+  "generated_at": "2026-10-03T22:32:35Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -158,11 +158,23 @@
       ],
       "issue_counts": {
         "todo": 0,
-        "in_progress": 4,
-        "in_review": 1,
+        "in_progress": 3,
+        "in_review": 2,
         "done": 80
       },
       "latest_issues": [
+        {
+          "key": "BEN-136",
+          "title": "[任务·线2 calendar] simple-calendar backfill 续修 + r6 ",
+          "status": "in_progress",
+          "updated_at": "2026-10-03T22:31:56Z"
+        },
+        {
+          "key": "BEN-142",
+          "title": "[任务·第1轮] 口径⑥ R5 全链路复跑 + AP backfill 续跑（ref BEN-128",
+          "status": "in_review",
+          "updated_at": "2026-10-03T22:30:28Z"
+        },
         {
           "key": "BEN-135",
           "title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 1",
@@ -180,18 +192,6 @@
           "title": "[空闲检测] 2026-10-04 leader 两小时正点检查与加派",
           "status": "done",
           "updated_at": "2026-10-03T22:01:25Z"
-        },
-        {
-          "key": "BEN-136",
-          "title": "[任务·线2 calendar] simple-calendar backfill 续修 + r6 ",
-          "status": "in_progress",
-          "updated_at": "2026-10-03T21:47:32Z"
-        },
-        {
-          "key": "BEN-142",
-          "title": "[任务·第1轮] 口径⑥ R5 全链路复跑 + AP backfill 续跑（ref BEN-128",
-          "status": "in_progress",
-          "updated_at": "2026-10-03T21:40:05Z"
         }
       ]
     },
@@ -328,10 +328,9 @@
           "role": "IPD-PM 产品经理",
           "model": "",
           "agent_id": "1764c131-5c09-48cb-aa48-3177d5256dbb",
-          "state": "working",
-          "issue": "IPD-236",
-          "issue_title": "[PM·评审] REQ-010 五子棋 TR-Design 评审（C1~C6 闭合核验，六件套 @ e8d58f5）",
-          "since": "2026-10-03T22:24:58Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "hermes-sa",
@@ -406,22 +405,22 @@
       ],
       "issue_counts": {
         "todo": 0,
-        "in_progress": 2,
-        "in_review": 2,
+        "in_progress": 1,
+        "in_review": 3,
         "done": 94
       },
       "latest_issues": [
+        {
+          "key": "IPD-236",
+          "title": "[PM·评审] REQ-010 五子棋 TR-Design 评审（C1~C6 闭合核验，六件套 @ ",
+          "status": "in_review",
+          "updated_at": "2026-10-03T22:29:29Z"
+        },
         {
           "key": "IPD-232",
           "title": "[SA·第2轮] REQ-010 五子棋 TR-Design 架构+接口契约（闭合 C1~C6，P0",
           "status": "in_review",
           "updated_at": "2026-10-03T22:25:30Z"
-        },
-        {
-          "key": "IPD-236",
-          "title": "[PM·评审] REQ-010 五子棋 TR-Design 评审（C1~C6 闭合核验，六件套 @ ",
-          "status": "in_progress",
-          "updated_at": "2026-10-03T22:25:20Z"
         },
         {
           "key": "IPD-234",
