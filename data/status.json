@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T06:00:34Z",
+  "generated_at": "2026-10-03T06:04:21Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -37,24 +37,23 @@
           "role": "DeepSeek Task Planner（任务规划+总结）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "04a4e04e-59d5-4f3a-8a16-acf99b80a493",
-          "state": "working",
-          "issue": "SUR-158",
-          "issue_title": "[空闲检测] 2026-10-03 leader 两小时正点检查与加派",
-          "since": "2026-10-03T06:00:15Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         }
       ],
       "issue_counts": {
-        "todo": 1,
+        "todo": 0,
         "in_progress": 0,
         "in_review": 2,
-        "done": 96
+        "done": 97
       },
       "latest_issues": [
         {
           "key": "SUR-158",
           "title": "[空闲检测] 2026-10-03 leader 两小时正点检查与加派",
-          "status": "todo",
-          "updated_at": "2026-10-03T06:00:15Z"
+          "status": "done",
+          "updated_at": "2026-10-03T06:02:48Z"
         },
         {
           "key": "SUR-157",
@@ -120,10 +119,9 @@
           "role": "DeepSeek Planner（小组 leader/PM）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "547cd361-ef50-4965-9477-bc659d8a1708",
-          "state": "working",
-          "issue": "BEN-123",
-          "issue_title": "[空闲检测] 2026-10-03 leader 两小时正点检查与加派",
-          "since": "2026-10-03T06:00:21Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "minimax-visual-diff",
@@ -157,17 +155,17 @@
         }
       ],
       "issue_counts": {
-        "todo": 1,
+        "todo": 0,
         "in_progress": 3,
         "in_review": 1,
-        "done": 82
+        "done": 83
       },
       "latest_issues": [
         {
           "key": "BEN-123",
           "title": "[空闲检测] 2026-10-03 leader 两小时正点检查与加派",
-          "status": "todo",
-          "updated_at": "2026-10-03T06:00:17Z"
+          "status": "done",
+          "updated_at": "2026-10-03T06:01:48Z"
         },
         {
           "key": "BEN-121",
@@ -221,10 +219,9 @@
           "role": "DeepSeek Planner（小组 leader/PM，",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "950ff614-521d-4e32-a02d-423d41a7b2b3",
-          "state": "working",
-          "issue": "DWM-138",
-          "issue_title": "[空闲检测] 2026-10-03 leader 两小时正点检查与加派",
-          "since": "2026-10-03T06:00:14Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "dw-lead",
@@ -271,17 +268,17 @@
         }
       ],
       "issue_counts": {
-        "todo": 1,
+        "todo": 0,
         "in_progress": 1,
         "in_review": 0,
-        "done": 58
+        "done": 59
       },
       "latest_issues": [
         {
           "key": "DWM-138",
           "title": "[空闲检测] 2026-10-03 leader 两小时正点检查与加派",
-          "status": "todo",
-          "updated_at": "2026-10-03T06:00:13Z"
+          "status": "done",
+          "updated_at": "2026-10-03T06:01:46Z"
         },
         {
           "key": "DWM-135",
@@ -391,10 +388,9 @@
           "role": "DeepSeek Planner（小组 leader/PM ",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
-          "state": "working",
-          "issue": "IPD-208",
-          "issue_title": "[空闲检测] 2026-10-03 leader 两小时正点检查与加派",
-          "since": "2026-10-03T06:00:25Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "minimax-uijudge",
@@ -408,17 +404,17 @@
         }
       ],
       "issue_counts": {
-        "todo": 1,
+        "todo": 0,
         "in_progress": 1,
         "in_review": 2,
-        "done": 93
+        "done": 94
       },
       "latest_issues": [
         {
           "key": "IPD-208",
           "title": "[空闲检测] 2026-10-03 leader 两小时正点检查与加派",
-          "status": "todo",
-          "updated_at": "2026-10-03T06:00:22Z"
+          "status": "done",
+          "updated_at": "2026-10-03T06:01:36Z"
         },
         {
           "key": "IPD-207",
