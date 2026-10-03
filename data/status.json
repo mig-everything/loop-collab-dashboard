@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T23:42:15Z",
+  "generated_at": "2026-10-03T23:45:54Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -163,6 +163,12 @@
       },
       "latest_issues": [
         {
+          "key": "BEN-135",
+          "title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 1",
+          "status": "in_progress",
+          "updated_at": "2026-10-03T23:44:10Z"
+        },
+        {
           "key": "BEN-136",
           "title": "[任务·线2 calendar] simple-calendar backfill 续修 + r6 ",
           "status": "in_progress",
@@ -173,12 +179,6 @@
           "title": "[leader 直派] 安卓端三 App 复跑核验 + 未达满分修复优化专项（R4 实测 cofi ",
           "status": "in_progress",
           "updated_at": "2026-10-03T23:32:58Z"
-        },
-        {
-          "key": "BEN-135",
-          "title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 1",
-          "status": "in_progress",
-          "updated_at": "2026-10-03T23:08:00Z"
         },
         {
           "key": "BEN-142",
