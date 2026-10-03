@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T15:34:15Z",
+  "generated_at": "2026-10-03T15:45:33Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -113,7 +113,7 @@
           "state": "working",
           "issue": "BEN-131",
           "issue_title": "[leader 直派] 安卓端三 App 复跑核验 + 未达满分修复优化专项（R4 实测 cofi 92.6% / SC",
-          "since": "2026-10-03T15:06:58Z"
+          "since": "2026-10-03T15:42:46Z"
         },
         {
           "name": "deepseek-planner",
@@ -121,7 +121,7 @@
           "role": "DeepSeek Planner（小组 leader/PM）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "547cd361-ef50-4965-9477-bc659d8a1708",
-          "state": "idle",
+          "state": "working",
           "issue": "",
           "issue_title": ""
         },
@@ -167,7 +167,7 @@
           "key": "BEN-131",
           "title": "[leader 直派] 安卓端三 App 复跑核验 + 未达满分修复优化专项（R4 实测 cofi ",
           "status": "in_progress",
-          "updated_at": "2026-10-03T15:32:16Z"
+          "updated_at": "2026-10-03T15:42:03Z"
         },
         {
           "key": "BEN-135",
@@ -357,10 +357,9 @@
           "role": "IPD-Dev 开发工程师",
           "model": "zai:glm-5.3",
           "agent_id": "44fcec25-d8b3-4af6-b206-1774a64677ce",
-          "state": "working",
-          "issue": "IPD-217",
-          "issue_title": "[缺口][P0] Eazo 平台缺浏览器可用网页 UI（验收口径「形态」未达成）",
-          "since": "2026-10-03T14:49:55Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "hermes-tester",
@@ -414,7 +413,7 @@
           "key": "IPD-217",
           "title": "[缺口][P0] Eazo 平台缺浏览器可用网页 UI（验收口径「形态」未达成）",
           "status": "in_progress",
-          "updated_at": "2026-10-03T15:32:56Z"
+          "updated_at": "2026-10-03T15:45:18Z"
         },
         {
           "key": "IPD-220",
