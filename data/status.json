@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T19:10:02Z",
+  "generated_at": "2026-10-03T19:17:18Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -278,7 +278,7 @@
           "key": "DWM-149",
           "title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单生成中 续1·r43·426",
           "status": "in_progress",
-          "updated_at": "2026-10-03T19:09:59Z"
+          "updated_at": "2026-10-03T19:15:13Z"
         },
         {
           "key": "DWM-150",
@@ -307,9 +307,9 @@
       ],
       "order": {
         "key": "DWM-149",
-        "title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单生成中 续1·r43·426/800步·4页/238项 · 迁移中 3/6 · 清单2.9h/10h 迁移2",
+        "title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单生成中 续1·r43·426/800步·4页/242项 · 迁移中 3/6 · 清单2.9h/10h 迁移2",
         "status": "in_progress",
-        "updated_at": "2026-10-03T19:09:59Z"
+        "updated_at": "2026-10-03T19:15:13Z"
       }
     },
     {
