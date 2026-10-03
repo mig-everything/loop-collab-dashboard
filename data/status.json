@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T20:56:45Z",
+  "generated_at": "2026-10-03T21:00:26Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -167,7 +167,7 @@
           "key": "BEN-136",
           "title": "[任务·线2 calendar] simple-calendar backfill 续修 + r6 ",
           "status": "in_progress",
-          "updated_at": "2026-10-03T20:54:52Z"
+          "updated_at": "2026-10-03T20:59:45Z"
         },
         {
           "key": "BEN-131",
