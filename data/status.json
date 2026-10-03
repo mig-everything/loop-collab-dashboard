@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T00:12:40Z",
+  "generated_at": "2026-10-03T00:16:23Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -229,10 +229,9 @@
           "role": "DW 迁移执行小队队长",
           "model": "claude-opus-5-5",
           "agent_id": "c6ff7c69-0db4-4b35-ac81-dd00e5a53ba4",
-          "state": "working",
-          "issue": "DWM-122",
-          "issue_title": "[DW迁移任务单] MifareClassicTool 迁移 · 清单+迁移 · 清单✓209 · 迁移完成 5/6 ·",
-          "since": "2026-10-03T00:12:48Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "exec-runner",
@@ -240,10 +239,9 @@
           "role": "运行员",
           "model": "claude-opus-5-5",
           "agent_id": "1c3481f5-135b-4959-9daa-c510c076d494",
-          "state": "working",
-          "issue": "DWM-122",
-          "issue_title": "[DW迁移任务单] MifareClassicTool 迁移 · 清单+迁移 · 清单✓209 · 迁移完成 5/6 ·",
-          "since": "2026-10-02T23:55:06Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "exec-verifier",
@@ -256,7 +254,7 @@
           "issue_title": "[DWM-122·审计] MifareClassicTool 还原审计（dw-baseline/20261002-01）",
           "since": "2026-10-02T23:23:16Z",
           "parent_issue": "DWM-122",
-          "parent_title": "[DW迁移任务单] MifareClassicTool 迁移 · 清单+迁移 · 清单✓209 · 迁移完成 5/6 ·"
+          "parent_title": "[DW迁移任务单] MifareClassicTool 迁移 · 还原审计"
         },
         {
           "name": "exec-fixer",
@@ -278,9 +276,9 @@
       "latest_issues": [
         {
           "key": "DWM-122",
-          "title": "[DW迁移任务单] MifareClassicTool 迁移 · 清单+迁移 · 清单✓209 · ",
+          "title": "[DW迁移任务单] MifareClassicTool 迁移 · 还原审计",
           "status": "in_progress",
-          "updated_at": "2026-10-03T00:12:48Z"
+          "updated_at": "2026-10-03T00:14:10Z"
         },
         {
           "key": "DWM-131",
@@ -309,9 +307,9 @@
       ],
       "order": {
         "key": "DWM-122",
-        "title": "[DW迁移任务单] MifareClassicTool 迁移 · 清单+迁移 · 清单✓209 · 迁移完成 5/6 · 迁移6.5h/12h",
+        "title": "[DW迁移任务单] MifareClassicTool 迁移 · 还原审计",
         "status": "in_progress",
-        "updated_at": "2026-10-03T00:12:48Z"
+        "updated_at": "2026-10-03T00:14:10Z"
       }
     },
     {
