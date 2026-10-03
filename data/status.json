@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T04:06:01Z",
+  "generated_at": "2026-10-03T04:09:49Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -17,9 +17,10 @@
           "role": "GPT Writer（执笔者）",
           "model": "",
           "agent_id": "58ed4647-32dd-4ca1-8ddc-194b975d6024",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "SUR-155",
+          "issue_title": "[午会纪要] 2026-10-03",
+          "since": "2026-10-03T04:08:15Z"
         },
         {
           "name": "kimi-adversary",
@@ -27,9 +28,10 @@
           "role": "Kimi Adversarial Reviewer（对抗评审",
           "model": "",
           "agent_id": "6e530cc6-6b9d-4398-936d-df9c13468125",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "SUR-155",
+          "issue_title": "[午会纪要] 2026-10-03",
+          "since": "2026-10-03T04:08:15Z"
         },
         {
           "name": "deepseek-planner",
@@ -37,24 +39,35 @@
           "role": "DeepSeek Task Planner（任务规划+总结）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "04a4e04e-59d5-4f3a-8a16-acf99b80a493",
-          "state": "working",
-          "issue": "SUR-155",
-          "issue_title": "[午会纪要] 2026-10-03",
-          "since": "2026-10-03T04:00:14Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         }
       ],
       "issue_counts": {
         "todo": 1,
-        "in_progress": 0,
+        "in_progress": 1,
         "in_review": 0,
-        "done": 98
+        "done": 97
       },
       "latest_issues": [
         {
           "key": "SUR-155",
           "title": "[午会纪要] 2026-10-03",
+          "status": "done",
+          "updated_at": "2026-10-03T04:08:17Z"
+        },
+        {
+          "key": "SUR-157",
+          "title": "[评审][day-9] 对抗评审 TSE 投稿要求核对清单（SUR-156 产出）",
+          "status": "in_progress",
+          "updated_at": "2026-10-03T04:08:08Z"
+        },
+        {
+          "key": "SUR-156",
+          "title": "[任务][day-9] TSE 投稿专属要求核对清单 + submission-handoff 引用",
           "status": "todo",
-          "updated_at": "2026-10-03T04:00:13Z"
+          "updated_at": "2026-10-03T04:07:54Z"
         },
         {
           "key": "SUR-154",
@@ -67,18 +80,6 @@
           "title": "[巡检] 2026-10-03 leader Issue 状态巡检与催办",
           "status": "done",
           "updated_at": "2026-10-03T00:02:19Z"
-        },
-        {
-          "key": "SUR-150",
-          "title": "[任务][day-9] 终稿投稿包全量终检 + submission-handoff.md 独立复核",
-          "status": "done",
-          "updated_at": "2026-10-03T00:02:03Z"
-        },
-        {
-          "key": "SUR-152",
-          "title": "[空闲检测] 2026-10-03 leader 两小时正点检查与加派",
-          "status": "done",
-          "updated_at": "2026-10-02T22:02:56Z"
         }
       ],
       "progress_note": "day-4 晨 37% → 午 42% → 晚 44% → 夜 47%",
@@ -92,7 +93,7 @@
       "machine_online": true,
       "meeting_active": false,
       "meeting_title": "",
-      "progress": 56,
+      "progress": 62,
       "agents": [
         {
           "name": "gpt-scenarist",
@@ -122,10 +123,9 @@
           "role": "DeepSeek Planner（小组 leader/PM）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "547cd361-ef50-4965-9477-bc659d8a1708",
-          "state": "working",
-          "issue": "BEN-120",
-          "issue_title": "[午会纪要] 2026-10-03",
-          "since": "2026-10-03T04:00:15Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "minimax-visual-diff",
@@ -159,12 +159,30 @@
         }
       ],
       "issue_counts": {
-        "todo": 1,
+        "todo": 0,
         "in_progress": 4,
         "in_review": 0,
-        "done": 82
+        "done": 83
       },
       "latest_issues": [
+        {
+          "key": "BEN-120",
+          "title": "[午会纪要] 2026-10-03",
+          "status": "done",
+          "updated_at": "2026-10-03T04:07:01Z"
+        },
+        {
+          "key": "BEN-82",
+          "title": "[任务·第1轮] Android 侧定位校准+数据前置（BEN-72 P0 反馈闭环：Antenna",
+          "status": "in_progress",
+          "updated_at": "2026-10-03T04:06:52Z"
+        },
+        {
+          "key": "BEN-79",
+          "title": "[BEN-57 断点] antennapod/simple-calendar harmony 用例集",
+          "status": "in_progress",
+          "updated_at": "2026-10-03T04:06:48Z"
+        },
         {
           "key": "BEN-121",
           "title": "[任务·第2轮] 定位/导航/断言修复清单：AP Lock queue + SC Settings ",
@@ -176,24 +194,6 @@
           "title": "[任务·第1轮] 口径⑥每日复跑 + 安卓 R3 + pre-grant 修复（ref BEN-10",
           "status": "done",
           "updated_at": "2026-10-03T04:02:12Z"
-        },
-        {
-          "key": "BEN-122",
-          "title": "[任务·第2轮] appium 健康探测 + DIFF 分类口径统一（ref BEN-101 R3 ",
-          "status": "in_progress",
-          "updated_at": "2026-10-03T04:01:48Z"
-        },
-        {
-          "key": "BEN-120",
-          "title": "[午会纪要] 2026-10-03",
-          "status": "todo",
-          "updated_at": "2026-10-03T04:00:14Z"
-        },
-        {
-          "key": "BEN-116",
-          "title": "[巡检] 2026-10-03 leader Issue 状态巡检与催办",
-          "status": "cancelled",
-          "updated_at": "2026-10-03T04:00:09Z"
         }
       ]
     },
@@ -281,6 +281,12 @@
       },
       "latest_issues": [
         {
+          "key": "DWM-134",
+          "title": "[午会纪要] 2026-10-03",
+          "status": "todo",
+          "updated_at": "2026-10-03T04:09:09Z"
+        },
+        {
           "key": "DWM-135",
           "title": "[DWM-95·卡片修正] Simple-Calendar 结果卡片关键数字不自洽",
           "status": "in_progress",
@@ -291,12 +297,6 @@
           "title": "[任务] Simple-Calendar 收口后差异分析 + §11.7 对抗评审 + DW 建议池",
           "status": "done",
           "updated_at": "2026-10-03T04:05:57Z"
-        },
-        {
-          "key": "DWM-134",
-          "title": "[午会纪要] 2026-10-03",
-          "status": "todo",
-          "updated_at": "2026-10-03T04:00:05Z"
         },
         {
           "key": "DWM-133",
@@ -413,11 +413,17 @@
       ],
       "issue_counts": {
         "todo": 1,
-        "in_progress": 2,
-        "in_review": 0,
+        "in_progress": 1,
+        "in_review": 1,
         "done": 94
       },
       "latest_issues": [
+        {
+          "key": "IPD-202",
+          "title": "[Dev·双端编码对齐] REQ-009 每日一句 契约对齐（06-alignment-plan 施",
+          "status": "in_review",
+          "updated_at": "2026-10-03T04:07:41Z"
+        },
         {
           "key": "IPD-207",
           "title": "[Dev·优化] Eazo 引擎生成提交门禁——闭合 F-3「鸿蒙产物未入库」（commit gat",
@@ -435,12 +441,6 @@
           "title": "[Tester·第2轮] REQ-009 每日一句 差分用例清单 + 差分断言（TDD 先行 · 契",
           "status": "todo",
           "updated_at": "2026-10-03T04:05:17Z"
-        },
-        {
-          "key": "IPD-202",
-          "title": "[Dev·双端编码对齐] REQ-009 每日一句 契约对齐（06-alignment-plan 施",
-          "status": "in_progress",
-          "updated_at": "2026-10-03T04:05:07Z"
         },
         {
           "key": "IPD-203",
