@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T22:21:23Z",
+  "generated_at": "2026-10-03T22:25:06Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -279,7 +279,7 @@
           "key": "DWM-149",
           "title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单生成中 续3·r78·952",
           "status": "in_progress",
-          "updated_at": "2026-10-03T22:17:59Z"
+          "updated_at": "2026-10-03T22:23:11Z"
         },
         {
           "key": "DWM-154",
@@ -308,9 +308,9 @@
       ],
       "order": {
         "key": "DWM-149",
-        "title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单生成中 续3·r78·952/800步·4页/879项 · 迁移中 3/6 · 清单6.0h/10h 迁移6",
+        "title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单生成中 续3·r78·952/800步·4页/879项 · 迁移中 3/6 · 清单6.1h/10h 迁移6",
         "status": "in_progress",
-        "updated_at": "2026-10-03T22:17:59Z"
+        "updated_at": "2026-10-03T22:23:11Z"
       }
     },
     {
@@ -329,9 +329,10 @@
           "role": "IPD-PM 产品经理",
           "model": "",
           "agent_id": "1764c131-5c09-48cb-aa48-3177d5256dbb",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-236",
+          "issue_title": "[PM·评审] REQ-010 五子棋 TR-Design 评审（C1~C6 闭合核验，六件套 @ e8d58f5）",
+          "since": "2026-10-03T22:24:58Z"
         },
         {
           "name": "hermes-sa",
@@ -360,10 +361,9 @@
           "role": "IPD-Dev 开发工程师",
           "model": "zai:glm-5.3",
           "agent_id": "44fcec25-d8b3-4af6-b206-1774a64677ce",
-          "state": "working",
-          "issue": "IPD-234",
-          "issue_title": "[Dev·第2轮] REQ-009 secondary 文字 WCAG AA 修复（P1，IPD-227 溢出清单转派）",
-          "since": "2026-10-03T22:05:53Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "hermes-tester",
@@ -407,12 +407,30 @@
         }
       ],
       "issue_counts": {
-        "todo": 1,
-        "in_progress": 1,
-        "in_review": 1,
-        "done": 95
+        "todo": 0,
+        "in_progress": 2,
+        "in_review": 2,
+        "done": 94
       },
       "latest_issues": [
+        {
+          "key": "IPD-232",
+          "title": "[SA·第2轮] REQ-010 五子棋 TR-Design 架构+接口契约（闭合 C1~C6，P0",
+          "status": "in_review",
+          "updated_at": "2026-10-03T22:25:30Z"
+        },
+        {
+          "key": "IPD-236",
+          "title": "[PM·评审] REQ-010 五子棋 TR-Design 评审（C1~C6 闭合核验，六件套 @ ",
+          "status": "in_progress",
+          "updated_at": "2026-10-03T22:25:20Z"
+        },
+        {
+          "key": "IPD-234",
+          "title": "[Dev·第2轮] REQ-009 secondary 文字 WCAG AA 修复（P1，IPD-2",
+          "status": "in_progress",
+          "updated_at": "2026-10-03T22:24:09Z"
+        },
         {
           "key": "IPD-233",
           "title": "[PM·第2轮] REQ-010 PRD v1.1 回写（闭合 C1-3 / C2-3 条件落点）",
@@ -420,28 +438,10 @@
           "updated_at": "2026-10-03T22:08:51Z"
         },
         {
-          "key": "IPD-234",
-          "title": "[Dev·第2轮] REQ-009 secondary 文字 WCAG AA 修复（P1，IPD-2",
-          "status": "in_progress",
-          "updated_at": "2026-10-03T22:06:40Z"
-        },
-        {
           "key": "IPD-231",
           "title": "[空闲检测] 2026-10-04 leader 两小时正点检查与加派",
           "status": "done",
           "updated_at": "2026-10-03T22:06:33Z"
-        },
-        {
-          "key": "IPD-235",
-          "title": "[临时会议·空闲加派] 2026-10-04 06点场",
-          "status": "done",
-          "updated_at": "2026-10-03T22:06:32Z"
-        },
-        {
-          "key": "IPD-230",
-          "title": "[TR-Req] REQ-010 五子棋（Gomoku · 双人本地对弈 + 确定性人机）PRD v",
-          "status": "done",
-          "updated_at": "2026-10-03T22:06:02Z"
         }
       ]
     }
