@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T13:00:33Z",
+  "generated_at": "2026-10-03T13:11:48Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -111,9 +111,9 @@
           "model": "",
           "agent_id": "bdaefa9b-7045-4264-95e4-1db664e353d0",
           "state": "working",
-          "issue": "BEN-128",
-          "issue_title": "[任务·第3轮] 口径⑥ R4 全链路复跑 + test3/gold-mod01 suite 补齐（ref BEN-12",
-          "since": "2026-10-03T12:05:25Z"
+          "issue": "BEN-130",
+          "issue_title": "[基础设施] 设备租约：修复跨轮次模拟器抢占（BEN-127 x BEN-128 10-03 冲突）",
+          "since": "2026-10-03T13:08:41Z"
         },
         {
           "name": "deepseek-planner",
@@ -157,12 +157,18 @@
         }
       ],
       "issue_counts": {
-        "todo": 1,
+        "todo": 2,
         "in_progress": 4,
         "in_review": 0,
-        "done": 82
+        "done": 81
       },
       "latest_issues": [
+        {
+          "key": "BEN-130",
+          "title": "[基础设施] 设备租约：修复跨轮次模拟器抢占（BEN-127 x BEN-128 10-03 冲突）",
+          "status": "todo",
+          "updated_at": "2026-10-03T13:11:21Z"
+        },
         {
           "key": "BEN-127",
           "title": "[任务·第3轮] Cofi 断言校准收口 + SC/gold binding 导航续修（ref BE",
@@ -186,12 +192,6 @@
           "title": "[晚会日报] 2026-10-03",
           "status": "done",
           "updated_at": "2026-10-03T12:07:18Z"
-        },
-        {
-          "key": "BEN-125",
-          "title": "[空闲检测] 2026-10-03 leader 两小时正点检查与加派",
-          "status": "done",
-          "updated_at": "2026-10-03T10:12:51Z"
         }
       ]
     },
