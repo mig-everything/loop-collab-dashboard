@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T20:01:08Z",
+  "generated_at": "2026-10-03T20:04:52Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -92,7 +92,7 @@
       "machine_online": true,
       "meeting_active": false,
       "meeting_title": "",
-      "progress": 63,
+      "progress": 68,
       "agents": [
         {
           "name": "gpt-scenarist",
@@ -246,7 +246,7 @@
           "agent_id": "1c3481f5-135b-4959-9daa-c510c076d494",
           "state": "working",
           "issue": "DWM-149",
-          "issue_title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单生成中 续1·r52·585/800步·4页/3",
+          "issue_title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单生成中 续1·r54·597/800步·4页/3",
           "since": "2026-10-03T19:39:37Z"
         },
         {
@@ -278,16 +278,16 @@
       },
       "latest_issues": [
         {
+          "key": "DWM-149",
+          "title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单生成中 续1·r54·597",
+          "status": "in_progress",
+          "updated_at": "2026-10-03T20:04:18Z"
+        },
+        {
           "key": "DWM-151",
           "title": "[早会纪要] 2026-10-04",
           "status": "todo",
           "updated_at": "2026-10-03T20:00:14Z"
-        },
-        {
-          "key": "DWM-149",
-          "title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单生成中 续1·r52·585",
-          "status": "in_progress",
-          "updated_at": "2026-10-03T19:59:05Z"
         },
         {
           "key": "DWM-150",
@@ -310,9 +310,9 @@
       ],
       "order": {
         "key": "DWM-149",
-        "title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单生成中 续1·r52·585/800步·4页/359项 · 迁移中 3/6 · 清单3.7h/10h 迁移3",
+        "title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单生成中 续1·r54·597/800步·4页/359项 · 迁移中 3/6 · 清单3.8h/10h 迁移3",
         "status": "in_progress",
-        "updated_at": "2026-10-03T19:59:05Z"
+        "updated_at": "2026-10-03T20:04:18Z"
       }
     },
     {
