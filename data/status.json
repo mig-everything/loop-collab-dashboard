@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T17:12:01Z",
+  "generated_at": "2026-10-03T17:19:26Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -243,7 +243,7 @@
           "agent_id": "1c3481f5-135b-4959-9daa-c510c076d494",
           "state": "working",
           "issue": "DWM-149",
-          "issue_title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单生成中 r16·92/800步·4页/140项 ",
+          "issue_title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单生成中 r17·120/800步·4页/140项",
           "since": "2026-10-03T16:04:31Z"
         },
         {
@@ -276,9 +276,9 @@
       "latest_issues": [
         {
           "key": "DWM-149",
-          "title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单生成中 r16·92/800",
+          "title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单生成中 r17·120/80",
           "status": "in_progress",
-          "updated_at": "2026-10-03T17:11:17Z"
+          "updated_at": "2026-10-03T17:16:28Z"
         },
         {
           "key": "DWM-148",
@@ -307,9 +307,9 @@
       ],
       "order": {
         "key": "DWM-149",
-        "title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单生成中 r16·92/800步·4页/140项 · 迁移中 2/6 · 清单0.9h/10h 迁移0.9h/",
+        "title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单生成中 r17·120/800步·4页/140项 · 迁移中 2/6 · 清单1.0h/10h 迁移1.0h",
         "status": "in_progress",
-        "updated_at": "2026-10-03T17:11:17Z"
+        "updated_at": "2026-10-03T17:16:28Z"
       }
     },
     {
