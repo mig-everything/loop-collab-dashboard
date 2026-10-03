@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T14:03:05Z",
+  "generated_at": "2026-10-03T14:07:18Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -120,9 +120,10 @@
           "role": "DeepSeek Planner（小组 leader/PM）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "547cd361-ef50-4965-9477-bc659d8a1708",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "BEN-133",
+          "issue_title": "[方向] 三模拟器并行按 app 分线 + 优先级 cofi→calendar→antennapod + 泛化经验沉淀",
+          "since": "2026-10-03T14:08:40Z"
         },
         {
           "name": "minimax-visual-diff",
@@ -156,12 +157,18 @@
         }
       ],
       "issue_counts": {
-        "todo": 0,
+        "todo": 1,
         "in_progress": 4,
         "in_review": 2,
-        "done": 80
+        "done": 79
       },
       "latest_issues": [
+        {
+          "key": "BEN-133",
+          "title": "[方向] 三模拟器并行按 app 分线 + 优先级 cofi→calendar→antennapod",
+          "status": "todo",
+          "updated_at": "2026-10-03T14:08:38Z"
+        },
         {
           "key": "BEN-132",
           "title": "[空闲检测] 2026-10-03 leader 两小时正点检查与加派",
@@ -185,12 +192,6 @@
           "title": "[任务·第3轮] 口径⑥ R4 全链路复跑 + test3/gold-mod01 suite 补齐（",
           "status": "in_review",
           "updated_at": "2026-10-03T13:29:38Z"
-        },
-        {
-          "key": "BEN-130",
-          "title": "[基础设施] 设备租约：修复跨轮次模拟器抢占（BEN-127 x BEN-128 10-03 冲突）",
-          "status": "in_review",
-          "updated_at": "2026-10-03T13:28:38Z"
         }
       ]
     },
