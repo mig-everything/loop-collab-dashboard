@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T04:21:42Z",
+  "generated_at": "2026-10-03T04:29:08Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -100,10 +100,9 @@
           "role": "GPT Scenarist",
           "model": "",
           "agent_id": "6e6f1e24-3bc5-455a-85d2-cb3fb6c9a672",
-          "state": "working",
-          "issue": "BEN-121",
-          "issue_title": "[任务·第2轮] 定位/导航/断言修复清单：AP Lock queue + SC Settings 导航 + cofi ",
-          "since": "2026-10-03T04:01:28Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "glm-runner",
@@ -167,7 +166,7 @@
           "key": "BEN-121",
           "title": "[任务·第2轮] 定位/导航/断言修复清单：AP Lock queue + SC Settings ",
           "status": "in_progress",
-          "updated_at": "2026-10-03T04:18:47Z"
+          "updated_at": "2026-10-03T04:25:48Z"
         },
         {
           "key": "BEN-79",
