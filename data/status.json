@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T13:11:48Z",
+  "generated_at": "2026-10-03T13:15:36Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -157,8 +157,8 @@
         }
       ],
       "issue_counts": {
-        "todo": 2,
-        "in_progress": 4,
+        "todo": 1,
+        "in_progress": 5,
         "in_review": 0,
         "done": 81
       },
@@ -166,8 +166,8 @@
         {
           "key": "BEN-130",
           "title": "[基础设施] 设备租约：修复跨轮次模拟器抢占（BEN-127 x BEN-128 10-03 冲突）",
-          "status": "todo",
-          "updated_at": "2026-10-03T13:11:21Z"
+          "status": "in_progress",
+          "updated_at": "2026-10-03T13:15:09Z"
         },
         {
           "key": "BEN-127",
