@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T15:56:50Z",
+  "generated_at": "2026-10-03T16:00:35Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -37,18 +37,25 @@
           "role": "DeepSeek Task Planner（任务规划+总结）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "04a4e04e-59d5-4f3a-8a16-acf99b80a493",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "SUR-169",
+          "issue_title": "[巡检] 2026-10-04 leader Issue 状态巡检与催办",
+          "since": "2026-10-03T16:00:18Z"
         }
       ],
       "issue_counts": {
-        "todo": 1,
+        "todo": 2,
         "in_progress": 1,
         "in_review": 3,
-        "done": 95
+        "done": 94
       },
       "latest_issues": [
+        {
+          "key": "SUR-169",
+          "title": "[巡检] 2026-10-04 leader Issue 状态巡检与催办",
+          "status": "todo",
+          "updated_at": "2026-10-03T16:00:16Z"
+        },
         {
           "key": "SUR-168",
           "title": "[空闲检测] 2026-10-03 leader 两小时正点检查与加派",
@@ -72,12 +79,6 @@
           "title": "[任务][day-10] 按新权威大纲(预算版)重构 paper/ 结构对齐 + 清理内部分析痕迹小",
           "status": "done",
           "updated_at": "2026-10-03T13:49:50Z"
-        },
-        {
-          "key": "SUR-151",
-          "title": "[基线重置][needs-human] survey 按 2026-10-03 新验收口径重新对齐（",
-          "status": "in_progress",
-          "updated_at": "2026-10-03T13:42:32Z"
         }
       ],
       "progress_note": "day-4 晨 37% → 午 42% → 晚 44% → 夜 47%",
@@ -121,9 +122,10 @@
           "role": "DeepSeek Planner（小组 leader/PM）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "547cd361-ef50-4965-9477-bc659d8a1708",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "BEN-138",
+          "issue_title": "[巡检] 2026-10-04 leader Issue 状态巡检与催办",
+          "since": "2026-10-03T16:00:25Z"
         },
         {
           "name": "minimax-visual-diff",
@@ -157,12 +159,18 @@
         }
       ],
       "issue_counts": {
-        "todo": 0,
+        "todo": 1,
         "in_progress": 6,
         "in_review": 4,
-        "done": 76
+        "done": 75
       },
       "latest_issues": [
+        {
+          "key": "BEN-138",
+          "title": "[巡检] 2026-10-04 leader Issue 状态巡检与催办",
+          "status": "todo",
+          "updated_at": "2026-10-03T16:00:21Z"
+        },
         {
           "key": "BEN-136",
           "title": "[任务·线2 calendar] simple-calendar backfill 续修 + r6 ",
@@ -186,12 +194,6 @@
           "title": "[方向] 三模拟器并行按 app 分线 + 优先级 cofi→calendar→antennapod",
           "status": "done",
           "updated_at": "2026-10-03T15:05:24Z"
-        },
-        {
-          "key": "BEN-137",
-          "title": "[任务·线3 antennapod] 低速保温 backfill（ref BEN-133）",
-          "status": "in_review",
-          "updated_at": "2026-10-03T14:46:05Z"
         }
       ]
     },
@@ -221,9 +223,10 @@
           "role": "DeepSeek Planner（小组 leader/PM，",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "950ff614-521d-4e32-a02d-423d41a7b2b3",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "DWM-148",
+          "issue_title": "[巡检] 2026-10-04 leader Issue 状态巡检与催办",
+          "since": "2026-10-03T16:00:21Z"
         },
         {
           "name": "dw-lead",
@@ -267,12 +270,18 @@
         }
       ],
       "issue_counts": {
-        "todo": 0,
+        "todo": 1,
         "in_progress": 1,
         "in_review": 0,
-        "done": 55
+        "done": 54
       },
       "latest_issues": [
+        {
+          "key": "DWM-148",
+          "title": "[巡检] 2026-10-04 leader Issue 状态巡检与催办",
+          "status": "todo",
+          "updated_at": "2026-10-03T16:00:21Z"
+        },
         {
           "key": "DWM-147",
           "title": "[建议] session截断升级套件层专项 + 清单/修复期流水线重叠评估（早会讨论）",
@@ -296,12 +305,6 @@
           "title": "[晚会日报] 2026-10-03",
           "status": "done",
           "updated_at": "2026-10-03T12:11:54Z"
-        },
-        {
-          "key": "DWM-141",
-          "title": "[空闲检测] 2026-10-03 leader 两小时正点检查与加派",
-          "status": "done",
-          "updated_at": "2026-10-03T10:01:59Z"
         }
       ],
       "order": {
@@ -387,9 +390,10 @@
           "role": "DeepSeek Planner（小组 leader/PM ",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-222",
+          "issue_title": "[巡检] 2026-10-04 leader Issue 状态巡检与催办",
+          "since": "2026-10-03T16:00:28Z"
         },
         {
           "name": "minimax-uijudge",
@@ -403,12 +407,18 @@
         }
       ],
       "issue_counts": {
-        "todo": 0,
+        "todo": 1,
         "in_progress": 1,
         "in_review": 6,
-        "done": 90
+        "done": 89
       },
       "latest_issues": [
+        {
+          "key": "IPD-222",
+          "title": "[巡检] 2026-10-04 leader Issue 状态巡检与催办",
+          "status": "todo",
+          "updated_at": "2026-10-03T16:00:22Z"
+        },
         {
           "key": "IPD-217",
           "title": "[缺口][P0] Eazo 平台缺浏览器可用网页 UI（验收口径「形态」未达成）",
@@ -432,12 +442,6 @@
           "title": "[建议] IPD 流程与角色配置五项优化评审（P0 文档过期/P1 skill 漂移/P1 平台需求",
           "status": "done",
           "updated_at": "2026-10-03T15:08:59Z"
-        },
-        {
-          "key": "IPD-219",
-          "title": "[流程优化 Opt-010] 补建 minimax-uijudge aesthetics-rubri",
-          "status": "in_review",
-          "updated_at": "2026-10-03T15:07:55Z"
         }
       ]
     }
