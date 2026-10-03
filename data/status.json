@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T18:48:01Z",
+  "generated_at": "2026-10-03T18:51:42Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -164,16 +164,16 @@
       },
       "latest_issues": [
         {
+          "key": "BEN-135",
+          "title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 1",
+          "status": "in_progress",
+          "updated_at": "2026-10-03T18:49:41Z"
+        },
+        {
           "key": "BEN-131",
           "title": "[leader 直派] 安卓端三 App 复跑核验 + 未达满分修复优化专项（R4 实测 cofi ",
           "status": "in_progress",
           "updated_at": "2026-10-03T18:45:53Z"
-        },
-        {
-          "key": "BEN-135",
-          "title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 1",
-          "status": "in_progress",
-          "updated_at": "2026-10-03T18:17:35Z"
         },
         {
           "key": "BEN-139",
@@ -243,7 +243,7 @@
           "agent_id": "1c3481f5-135b-4959-9daa-c510c076d494",
           "state": "working",
           "issue": "DWM-149",
-          "issue_title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单生成中 续1·r40·365/800步·4页/1",
+          "issue_title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单生成中 续1·r40·365/800步·4页/2",
           "since": "2026-10-03T17:51:06Z"
         },
         {
@@ -278,7 +278,7 @@
           "key": "DWM-149",
           "title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单生成中 续1·r40·365",
           "status": "in_progress",
-          "updated_at": "2026-10-03T18:43:24Z"
+          "updated_at": "2026-10-03T18:48:36Z"
         },
         {
           "key": "DWM-150",
@@ -307,9 +307,9 @@
       ],
       "order": {
         "key": "DWM-149",
-        "title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单生成中 续1·r40·365/800步·4页/196项 · 迁移中 3/6 · 清单2.4h/10h 迁移2",
+        "title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单生成中 续1·r40·365/800步·4页/238项 · 迁移中 3/6 · 清单2.5h/10h 迁移2",
         "status": "in_progress",
-        "updated_at": "2026-10-03T18:43:24Z"
+        "updated_at": "2026-10-03T18:48:36Z"
       }
     },
     {
