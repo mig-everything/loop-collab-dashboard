@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T15:03:43Z",
+  "generated_at": "2026-10-03T15:07:31Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -100,9 +100,9 @@
           "model": "",
           "agent_id": "6e6f1e24-3bc5-455a-85d2-cb3fb6c9a672",
           "state": "working",
-          "issue": "BEN-135",
-          "issue_title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 100（ref BEN",
-          "since": "2026-10-03T14:53:38Z"
+          "issue": "BEN-131",
+          "issue_title": "[leader 直派] 安卓端三 App 复跑核验 + 未达满分修复优化专项（R4 实测 cofi 92.6% / SC",
+          "since": "2026-10-03T15:07:08Z"
         },
         {
           "name": "glm-runner",
@@ -113,7 +113,7 @@
           "state": "working",
           "issue": "BEN-131",
           "issue_title": "[leader 直派] 安卓端三 App 复跑核验 + 未达满分修复优化专项（R4 实测 cofi 92.6% / SC",
-          "since": "2026-10-03T14:11:09Z"
+          "since": "2026-10-03T15:06:58Z"
         },
         {
           "name": "deepseek-planner",
@@ -121,7 +121,7 @@
           "role": "DeepSeek Planner（小组 leader/PM）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "547cd361-ef50-4965-9477-bc659d8a1708",
-          "state": "idle",
+          "state": "working",
           "issue": "",
           "issue_title": ""
         },
@@ -167,7 +167,13 @@
           "key": "BEN-131",
           "title": "[leader 直派] 安卓端三 App 复跑核验 + 未达满分修复优化专项（R4 实测 cofi ",
           "status": "in_progress",
-          "updated_at": "2026-10-03T15:03:22Z"
+          "updated_at": "2026-10-03T15:07:38Z"
+        },
+        {
+          "key": "BEN-133",
+          "title": "[方向] 三模拟器并行按 app 分线 + 优先级 cofi→calendar→antennapod",
+          "status": "done",
+          "updated_at": "2026-10-03T15:05:24Z"
         },
         {
           "key": "BEN-136",
@@ -186,12 +192,6 @@
           "title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 1",
           "status": "in_progress",
           "updated_at": "2026-10-03T14:39:27Z"
-        },
-        {
-          "key": "BEN-133",
-          "title": "[方向] 三模拟器并行按 app 分线 + 优先级 cofi→calendar→antennapod",
-          "status": "done",
-          "updated_at": "2026-10-03T14:30:48Z"
         }
       ]
     },
@@ -327,9 +327,10 @@
           "role": "IPD-PM 产品经理",
           "model": "",
           "agent_id": "1764c131-5c09-48cb-aa48-3177d5256dbb",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-220",
+          "issue_title": "[流程优化 Opt-011] IPD-217 展示 UI 补轻量 PRD + TR-Req + TR-Design（平台",
+          "since": "2026-10-03T15:06:39Z"
         },
         {
           "name": "hermes-sa",
@@ -378,9 +379,10 @@
           "role": "IPD-RM 发布经理",
           "model": "zai:glm-5.3",
           "agent_id": "78156461-9644-478e-9c80-53cd18e25e33",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-221",
+          "issue_title": "[流程优化 Opt-012] metrics-report 增加 IPD 流程健康度指标 + 日报一行",
+          "since": "2026-10-03T15:06:50Z"
         },
         {
           "name": "deepseek-planner",
@@ -391,7 +393,7 @@
           "state": "working",
           "issue": "IPD-218",
           "issue_title": "[建议] IPD 流程与角色配置五项优化评审（P0 文档过期/P1 skill 漂移/P1 平台需求走 TR/P2 流程",
-          "since": "2026-10-03T15:00:45Z"
+          "since": "2026-10-03T15:07:52Z"
         },
         {
           "name": "minimax-uijudge",
@@ -406,40 +408,40 @@
       ],
       "issue_counts": {
         "todo": 1,
-        "in_progress": 1,
-        "in_review": 3,
-        "done": 92
+        "in_progress": 2,
+        "in_review": 4,
+        "done": 90
       },
       "latest_issues": [
         {
+          "key": "IPD-219",
+          "title": "[流程优化 Opt-010] 补建 minimax-uijudge aesthetics-rubri",
+          "status": "in_review",
+          "updated_at": "2026-10-03T15:07:55Z"
+        },
+        {
+          "key": "IPD-221",
+          "title": "[流程优化 Opt-012] metrics-report 增加 IPD 流程健康度指标 + 日报一",
+          "status": "in_progress",
+          "updated_at": "2026-10-03T15:07:13Z"
+        },
+        {
           "key": "IPD-218",
           "title": "[建议] IPD 流程与角色配置五项优化评审（P0 文档过期/P1 skill 漂移/P1 平台需求",
+          "status": "done",
+          "updated_at": "2026-10-03T15:07:08Z"
+        },
+        {
+          "key": "IPD-220",
+          "title": "[流程优化 Opt-011] IPD-217 展示 UI 补轻量 PRD + TR-Req + TR",
           "status": "todo",
-          "updated_at": "2026-10-03T15:00:43Z"
+          "updated_at": "2026-10-03T15:06:37Z"
         },
         {
           "key": "IPD-217",
           "title": "[缺口][P0] Eazo 平台缺浏览器可用网页 UI（验收口径「形态」未达成）",
           "status": "in_progress",
           "updated_at": "2026-10-03T15:00:19Z"
-        },
-        {
-          "key": "IPD-216",
-          "title": "[空闲检测] 2026-10-03 leader 两小时正点检查与加派",
-          "status": "done",
-          "updated_at": "2026-10-03T14:03:12Z"
-        },
-        {
-          "key": "IPD-214",
-          "title": "[Dev·第3轮夜间] Eazo 引擎 Token/turns 优化闭环——闭合四维差 Token ",
-          "status": "in_review",
-          "updated_at": "2026-10-03T12:49:00Z"
-        },
-        {
-          "key": "IPD-211",
-          "title": "[Tester·TR-Accept] REQ-009 每日一句 差分执行 + 双端对比报告（收口 P",
-          "status": "in_review",
-          "updated_at": "2026-10-03T12:25:24Z"
         }
       ]
     }
