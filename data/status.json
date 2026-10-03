@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T21:04:06Z",
+  "generated_at": "2026-10-03T21:07:46Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -164,16 +164,16 @@
       },
       "latest_issues": [
         {
+          "key": "BEN-136",
+          "title": "[任务·线2 calendar] simple-calendar backfill 续修 + r6 ",
+          "status": "in_progress",
+          "updated_at": "2026-10-03T21:05:17Z"
+        },
+        {
           "key": "BEN-131",
           "title": "[leader 直派] 安卓端三 App 复跑核验 + 未达满分修复优化专项（R4 实测 cofi ",
           "status": "in_progress",
           "updated_at": "2026-10-03T21:04:03Z"
-        },
-        {
-          "key": "BEN-136",
-          "title": "[任务·线2 calendar] simple-calendar backfill 续修 + r6 ",
-          "status": "in_progress",
-          "updated_at": "2026-10-03T20:59:45Z"
         },
         {
           "key": "BEN-135",
@@ -278,7 +278,7 @@
           "key": "DWM-149",
           "title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单生成中 续2·r64·780",
           "status": "in_progress",
-          "updated_at": "2026-10-03T21:01:29Z"
+          "updated_at": "2026-10-03T21:06:41Z"
         },
         {
           "key": "DWM-152",
@@ -307,9 +307,9 @@
       ],
       "order": {
         "key": "DWM-149",
-        "title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单生成中 续2·r64·780/800步·4页/846项 · 迁移中 3/6 · 清单4.7h/10h 迁移4",
+        "title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单生成中 续2·r64·780/800步·4页/846项 · 迁移中 3/6 · 清单4.8h/10h 迁移4",
         "status": "in_progress",
-        "updated_at": "2026-10-03T21:01:29Z"
+        "updated_at": "2026-10-03T21:06:41Z"
       }
     },
     {
