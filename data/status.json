@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T16:30:52Z",
+  "generated_at": "2026-10-03T16:38:17Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -99,9 +99,10 @@
           "role": "GPT Scenarist",
           "model": "",
           "agent_id": "6e6f1e24-3bc5-455a-85d2-cb3fb6c9a672",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "BEN-136",
+          "issue_title": "[任务·线2 calendar] simple-calendar backfill 续修 + r6 收口（ref BEN",
+          "since": "2026-10-03T16:35:07Z"
         },
         {
           "name": "glm-runner",
@@ -242,7 +243,7 @@
           "agent_id": "1c3481f5-135b-4959-9daa-c510c076d494",
           "state": "working",
           "issue": "DWM-149",
-          "issue_title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单生成中 r1·7/800步·4页/39项 · 迁",
+          "issue_title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单生成中 r3·23/800步·4页/39项 · ",
           "since": "2026-10-03T16:04:31Z"
         },
         {
@@ -275,9 +276,9 @@
       "latest_issues": [
         {
           "key": "DWM-149",
-          "title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单生成中 r1·7/800步·",
+          "title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单生成中 r3·23/800步",
           "status": "in_progress",
-          "updated_at": "2026-10-03T16:29:47Z"
+          "updated_at": "2026-10-03T16:34:57Z"
         },
         {
           "key": "DWM-148",
@@ -306,9 +307,9 @@
       ],
       "order": {
         "key": "DWM-149",
-        "title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单生成中 r1·7/800步·4页/39项 · 迁移中 2/6 · 清单0.2h/10h 迁移0.2h/12h",
+        "title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单生成中 r3·23/800步·4页/39项 · 迁移中 2/6 · 清单0.3h/10h 迁移0.3h/12",
         "status": "in_progress",
-        "updated_at": "2026-10-03T16:29:47Z"
+        "updated_at": "2026-10-03T16:34:57Z"
       }
     },
     {
