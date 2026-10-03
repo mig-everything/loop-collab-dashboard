@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T14:55:40Z",
+  "generated_at": "2026-10-03T14:59:52Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -404,8 +404,8 @@
         }
       ],
       "issue_counts": {
-        "todo": 1,
-        "in_progress": 0,
+        "todo": 0,
+        "in_progress": 1,
         "in_review": 3,
         "done": 93
       },
@@ -413,8 +413,8 @@
         {
           "key": "IPD-217",
           "title": "[缺口][P0] Eazo 平台缺浏览器可用网页 UI（验收口径「形态」未达成）",
-          "status": "todo",
-          "updated_at": "2026-10-03T14:51:03Z"
+          "status": "in_progress",
+          "updated_at": "2026-10-03T15:00:19Z"
         },
         {
           "key": "IPD-216",
