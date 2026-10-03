@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T03:03:57Z",
+  "generated_at": "2026-10-03T03:29:24Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -155,29 +155,29 @@
         }
       ],
       "issue_counts": {
-        "todo": 15,
+        "todo": 13,
         "in_progress": 2,
         "in_review": 2,
-        "done": 81
+        "done": 83
       },
       "latest_issues": [
         {
+          "key": "BEN-117",
+          "title": "[空闲检测] 2026-10-03 leader 两小时正点检查与加派",
+          "status": "done",
+          "updated_at": "2026-10-03T03:29:25Z"
+        },
+        {
           "key": "BEN-119",
           "title": "[冒烟测试] planner 可用性验证：请回复确认",
-          "status": "todo",
-          "updated_at": "2026-10-03T02:40:13Z"
+          "status": "done",
+          "updated_at": "2026-10-03T03:27:25Z"
         },
         {
           "key": "BEN-118",
           "title": "[冒烟测试] task2 执行机恢复验证：请回复机器可用确认",
           "status": "done",
           "updated_at": "2026-10-03T02:40:06Z"
-        },
-        {
-          "key": "BEN-117",
-          "title": "[空闲检测] 2026-10-03 leader 两小时正点检查与加派",
-          "status": "todo",
-          "updated_at": "2026-10-03T02:00:19Z"
         },
         {
           "key": "BEN-116",
