@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T10:09:48Z",
+  "generated_at": "2026-10-03T10:13:31Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -155,17 +155,17 @@
         }
       ],
       "issue_counts": {
-        "todo": 1,
+        "todo": 0,
         "in_progress": 2,
         "in_review": 0,
-        "done": 84
+        "done": 85
       },
       "latest_issues": [
         {
           "key": "BEN-125",
           "title": "[空闲检测] 2026-10-03 leader 两小时正点检查与加派",
-          "status": "todo",
-          "updated_at": "2026-10-03T10:00:17Z"
+          "status": "done",
+          "updated_at": "2026-10-03T10:12:51Z"
         },
         {
           "key": "BEN-121",
