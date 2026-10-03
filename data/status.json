@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T18:07:28Z",
+  "generated_at": "2026-10-03T18:11:11Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -101,9 +101,9 @@
           "model": "",
           "agent_id": "6e6f1e24-3bc5-455a-85d2-cb3fb6c9a672",
           "state": "working",
-          "issue": "BEN-135",
-          "issue_title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 100（ref BEN",
-          "since": "2026-10-03T17:56:10Z"
+          "issue": "BEN-131",
+          "issue_title": "[leader 直派] 安卓端三 App 复跑核验 + 未达满分修复优化专项（R4 实测 cofi 92.6% / SC",
+          "since": "2026-10-03T18:10:19Z"
         },
         {
           "name": "glm-runner",
@@ -114,7 +114,7 @@
           "state": "working",
           "issue": "BEN-131",
           "issue_title": "[leader 直派] 安卓端三 App 复跑核验 + 未达满分修复优化专项（R4 实测 cofi 92.6% / SC",
-          "since": "2026-10-03T17:09:30Z"
+          "since": "2026-10-03T18:08:57Z"
         },
         {
           "name": "deepseek-planner",
@@ -165,22 +165,22 @@
       },
       "latest_issues": [
         {
-          "key": "BEN-139",
-          "title": "[空闲检测] 2026-10-04 leader 两小时正点检查与加派",
-          "status": "done",
-          "updated_at": "2026-10-03T18:01:56Z"
+          "key": "BEN-131",
+          "title": "[leader 直派] 安卓端三 App 复跑核验 + 未达满分修复优化专项（R4 实测 cofi ",
+          "status": "in_progress",
+          "updated_at": "2026-10-03T18:10:18Z"
         },
         {
           "key": "BEN-135",
           "title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 1",
           "status": "in_progress",
-          "updated_at": "2026-10-03T17:42:15Z"
+          "updated_at": "2026-10-03T18:09:21Z"
         },
         {
-          "key": "BEN-131",
-          "title": "[leader 直派] 安卓端三 App 复跑核验 + 未达满分修复优化专项（R4 实测 cofi ",
-          "status": "in_progress",
-          "updated_at": "2026-10-03T17:40:46Z"
+          "key": "BEN-139",
+          "title": "[空闲检测] 2026-10-04 leader 两小时正点检查与加派",
+          "status": "done",
+          "updated_at": "2026-10-03T18:01:56Z"
         },
         {
           "key": "BEN-136",
