@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T08:31:08Z",
+  "generated_at": "2026-10-03T08:34:51Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -99,10 +99,9 @@
           "role": "GPT Scenarist",
           "model": "",
           "agent_id": "6e6f1e24-3bc5-455a-85d2-cb3fb6c9a672",
-          "state": "working",
-          "issue": "BEN-121",
-          "issue_title": "[任务·第2轮] 定位/导航/断言修复清单：AP Lock queue + SC Settings 导航 + cofi ",
-          "since": "2026-10-03T08:02:42Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "glm-runner",
@@ -157,11 +156,17 @@
       ],
       "issue_counts": {
         "todo": 0,
-        "in_progress": 3,
+        "in_progress": 2,
         "in_review": 0,
-        "done": 84
+        "done": 85
       },
       "latest_issues": [
+        {
+          "key": "BEN-121",
+          "title": "[任务·第2轮] 定位/导航/断言修复清单：AP Lock queue + SC Settings ",
+          "status": "done",
+          "updated_at": "2026-10-03T08:33:14Z"
+        },
         {
           "key": "BEN-79",
           "title": "[BEN-57 断点] antennapod/simple-calendar harmony 用例集",
@@ -173,12 +178,6 @@
           "title": "[任务·第1轮] Android 侧定位校准+数据前置（BEN-72 P0 反馈闭环：Antenna",
           "status": "in_progress",
           "updated_at": "2026-10-03T08:05:18Z"
-        },
-        {
-          "key": "BEN-121",
-          "title": "[任务·第2轮] 定位/导航/断言修复清单：AP Lock queue + SC Settings ",
-          "status": "in_progress",
-          "updated_at": "2026-10-03T08:05:16Z"
         },
         {
           "key": "BEN-124",
@@ -230,10 +229,9 @@
           "role": "DW 迁移执行小队队长",
           "model": "claude-opus-5-5",
           "agent_id": "c6ff7c69-0db4-4b35-ac81-dd00e5a53ba4",
-          "state": "working",
-          "issue": "DWM-122",
-          "issue_title": "[DW迁移任务单] MifareClassicTool 迁移 · 修复 wave 3/4",
-          "since": "2026-10-03T08:30:16Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "exec-runner",
@@ -280,7 +278,7 @@
           "key": "DWM-122",
           "title": "[DW迁移任务单] MifareClassicTool 迁移 · 修复 wave 3/4",
           "status": "in_progress",
-          "updated_at": "2026-10-03T08:31:16Z"
+          "updated_at": "2026-10-03T08:31:35Z"
         },
         {
           "key": "DWM-139",
@@ -311,7 +309,7 @@
         "key": "DWM-122",
         "title": "[DW迁移任务单] MifareClassicTool 迁移 · 修复 wave 3/4",
         "status": "in_progress",
-        "updated_at": "2026-10-03T08:31:16Z"
+        "updated_at": "2026-10-03T08:31:35Z"
       }
     },
     {
