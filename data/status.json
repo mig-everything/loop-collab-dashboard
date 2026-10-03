@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T14:47:55Z",
+  "generated_at": "2026-10-03T14:51:47Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -100,9 +100,9 @@
           "model": "",
           "agent_id": "6e6f1e24-3bc5-455a-85d2-cb3fb6c9a672",
           "state": "working",
-          "issue": "BEN-131",
-          "issue_title": "[leader 直派] 安卓端三 App 复跑核验 + 未达满分修复优化专项（R4 实测 cofi 92.6% / SC",
-          "since": "2026-10-03T14:39:45Z"
+          "issue": "BEN-136",
+          "issue_title": "[任务·线2 calendar] simple-calendar backfill 续修 + r6 收口（ref BEN",
+          "since": "2026-10-03T14:51:07Z"
         },
         {
           "name": "glm-runner",
@@ -357,9 +357,10 @@
           "role": "IPD-Dev 开发工程师",
           "model": "zai:glm-5.3",
           "agent_id": "44fcec25-d8b3-4af6-b206-1774a64677ce",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-217",
+          "issue_title": "[缺口][P0] Eazo 平台缺浏览器可用网页 UI（验收口径「形态」未达成）",
+          "since": "2026-10-03T14:49:55Z"
         },
         {
           "name": "hermes-tester",
@@ -387,10 +388,9 @@
           "role": "DeepSeek Planner（小组 leader/PM ",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
-          "state": "working",
-          "issue": "IPD-217",
-          "issue_title": "[缺口][P0] Eazo 平台缺浏览器可用网页 UI（验收口径「形态」未达成）",
-          "since": "2026-10-03T14:46:50Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "minimax-uijudge",
@@ -414,7 +414,7 @@
           "key": "IPD-217",
           "title": "[缺口][P0] Eazo 平台缺浏览器可用网页 UI（验收口径「形态」未达成）",
           "status": "todo",
-          "updated_at": "2026-10-03T14:46:47Z"
+          "updated_at": "2026-10-03T14:51:03Z"
         },
         {
           "key": "IPD-216",
