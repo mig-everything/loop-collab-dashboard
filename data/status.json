@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T08:09:04Z",
+  "generated_at": "2026-10-03T08:31:08Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -230,9 +230,10 @@
           "role": "DW 迁移执行小队队长",
           "model": "claude-opus-5-5",
           "agent_id": "c6ff7c69-0db4-4b35-ac81-dd00e5a53ba4",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "DWM-122",
+          "issue_title": "[DW迁移任务单] MifareClassicTool 迁移 · 修复 wave 3/4",
+          "since": "2026-10-03T08:30:16Z"
         },
         {
           "name": "exec-runner",
@@ -250,12 +251,9 @@
           "role": "验证员",
           "model": "claude-opus-5-5",
           "agent_id": "69822c63-0dcc-4f3e-875d-7b300d437623",
-          "state": "working",
-          "issue": "DWM-137",
-          "issue_title": "[DWM-122·wave2] MifareClassicTool 修复第 2 波（25 条）",
-          "since": "2026-10-03T06:41:21Z",
-          "parent_issue": "DWM-122",
-          "parent_title": "[DW迁移任务单] MifareClassicTool 迁移 · 修复 wave 2/4"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "exec-fixer",
@@ -263,18 +261,27 @@
           "role": "修复员",
           "model": "claude-opus-5-5",
           "agent_id": "cd70e713-a339-4621-8699-2058d9cf7d6b",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "DWM-140",
+          "issue_title": "[DWM-122·wave3] MifareClassicTool 修复第 3 波（16 条）",
+          "since": "2026-10-03T08:31:15Z",
+          "parent_issue": "DWM-122",
+          "parent_title": "[DW迁移任务单] MifareClassicTool 迁移 · 修复 wave 3/4"
         }
       ],
       "issue_counts": {
         "todo": 0,
         "in_progress": 1,
         "in_review": 0,
-        "done": 59
+        "done": 58
       },
       "latest_issues": [
+        {
+          "key": "DWM-122",
+          "title": "[DW迁移任务单] MifareClassicTool 迁移 · 修复 wave 3/4",
+          "status": "in_progress",
+          "updated_at": "2026-10-03T08:31:16Z"
+        },
         {
           "key": "DWM-139",
           "title": "[巡检] 2026-10-03 leader Issue 状态巡检与催办",
@@ -298,19 +305,13 @@
           "title": "[DW迁移任务单] Simple-Calendar 迁移 · 已完成",
           "status": "done",
           "updated_at": "2026-10-03T04:42:31Z"
-        },
-        {
-          "key": "DWM-122",
-          "title": "[DW迁移任务单] MifareClassicTool 迁移 · 修复 wave 2/4",
-          "status": "in_progress",
-          "updated_at": "2026-10-03T04:35:23Z"
         }
       ],
       "order": {
         "key": "DWM-122",
-        "title": "[DW迁移任务单] MifareClassicTool 迁移 · 修复 wave 2/4",
+        "title": "[DW迁移任务单] MifareClassicTool 迁移 · 修复 wave 3/4",
         "status": "in_progress",
-        "updated_at": "2026-10-03T04:35:23Z"
+        "updated_at": "2026-10-03T08:31:16Z"
       }
     },
     {
@@ -359,10 +360,9 @@
           "role": "IPD-Dev 开发工程师",
           "model": "zai:glm-5.3",
           "agent_id": "44fcec25-d8b3-4af6-b206-1774a64677ce",
-          "state": "working",
-          "issue": "IPD-207",
-          "issue_title": "[Dev·优化] Eazo 引擎生成提交门禁——闭合 F-3「鸿蒙产物未入库」（commit gate + 产物持久化）",
-          "since": "2026-10-03T08:02:34Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "hermes-tester",
@@ -407,22 +407,22 @@
       ],
       "issue_counts": {
         "todo": 0,
-        "in_progress": 1,
-        "in_review": 0,
+        "in_progress": 0,
+        "in_review": 1,
         "done": 96
       },
       "latest_issues": [
+        {
+          "key": "IPD-207",
+          "title": "[Dev·优化] Eazo 引擎生成提交门禁——闭合 F-3「鸿蒙产物未入库」（commit gat",
+          "status": "in_review",
+          "updated_at": "2026-10-03T08:30:18Z"
+        },
         {
           "key": "IPD-209",
           "title": "[巡检] 2026-10-03 leader Issue 状态巡检与催办",
           "status": "done",
           "updated_at": "2026-10-03T08:02:44Z"
-        },
-        {
-          "key": "IPD-207",
-          "title": "[Dev·优化] Eazo 引擎生成提交门禁——闭合 F-3「鸿蒙产物未入库」（commit gat",
-          "status": "in_progress",
-          "updated_at": "2026-10-03T08:02:32Z"
         },
         {
           "key": "IPD-202",
