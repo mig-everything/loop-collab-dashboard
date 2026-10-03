@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T18:11:11Z",
+  "generated_at": "2026-10-03T18:14:52Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -7,8 +7,8 @@
       "workspace": "ws-survey-loop",
       "machine": "JordanZTdeMacBook-Pro",
       "machine_online": true,
-      "meeting_active": true,
-      "meeting_title": "[流程优化] 2026-10-03 晚会产出 1 项（Opt-015 评审越界发现转派单登记），次日验证",
+      "meeting_active": false,
+      "meeting_title": "",
       "progress": 47,
       "agents": [
         {
@@ -17,7 +17,7 @@
           "role": "GPT Writer（执笔者）",
           "model": "",
           "agent_id": "58ed4647-32dd-4ca1-8ddc-194b975d6024",
-          "state": "meeting",
+          "state": "idle",
           "issue": "",
           "issue_title": ""
         },
@@ -27,7 +27,7 @@
           "role": "Kimi Adversarial Reviewer（对抗评审",
           "model": "",
           "agent_id": "6e530cc6-6b9d-4398-936d-df9c13468125",
-          "state": "meeting",
+          "state": "idle",
           "issue": "",
           "issue_title": ""
         },
@@ -37,24 +37,23 @@
           "role": "DeepSeek Task Planner（任务规划+总结）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "04a4e04e-59d5-4f3a-8a16-acf99b80a493",
-          "state": "working",
-          "issue": "SUR-164",
-          "issue_title": "[流程优化] 2026-10-03 晚会产出 1 项（Opt-015 评审越界发现转派单登记），次日验证",
-          "since": "2026-10-03T18:03:01Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         }
       ],
       "issue_counts": {
         "todo": 0,
-        "in_progress": 2,
+        "in_progress": 1,
         "in_review": 0,
-        "done": 98
+        "done": 99
       },
       "latest_issues": [
         {
           "key": "SUR-164",
           "title": "[流程优化] 2026-10-03 晚会产出 1 项（Opt-015 评审越界发现转派单登记），次日",
-          "status": "in_progress",
-          "updated_at": "2026-10-03T18:03:52Z"
+          "status": "done",
+          "updated_at": "2026-10-03T18:11:29Z"
         },
         {
           "key": "SUR-170",
@@ -244,7 +243,7 @@
           "agent_id": "1c3481f5-135b-4959-9daa-c510c076d494",
           "state": "working",
           "issue": "DWM-149",
-          "issue_title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单生成中 r31·274/800步·4页/190项",
+          "issue_title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单生成中 r33·297/800步·4页/190项",
           "since": "2026-10-03T17:51:06Z"
         },
         {
@@ -277,9 +276,9 @@
       "latest_issues": [
         {
           "key": "DWM-149",
-          "title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单生成中 r31·274/80",
+          "title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单生成中 r33·297/80",
           "status": "in_progress",
-          "updated_at": "2026-10-03T18:06:55Z"
+          "updated_at": "2026-10-03T18:12:07Z"
         },
         {
           "key": "DWM-150",
@@ -308,9 +307,9 @@
       ],
       "order": {
         "key": "DWM-149",
-        "title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单生成中 r31·274/800步·4页/190项 · 迁移中 2/6 · 清单1.8h/10h 迁移1.8h",
+        "title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单生成中 r33·297/800步·4页/190项 · 迁移中 2/6 · 清单1.9h/10h 迁移1.9h",
         "status": "in_progress",
-        "updated_at": "2026-10-03T18:06:55Z"
+        "updated_at": "2026-10-03T18:12:07Z"
       }
     },
     {
