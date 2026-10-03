@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T10:31:57Z",
+  "generated_at": "2026-10-03T12:03:03Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -37,18 +37,25 @@
           "role": "DeepSeek Task Planner（任务规划+总结）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "04a4e04e-59d5-4f3a-8a16-acf99b80a493",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "SUR-161",
+          "issue_title": "[晚会日报] 2026-10-03",
+          "since": "2026-10-03T12:00:19Z"
         }
       ],
       "issue_counts": {
-        "todo": 0,
+        "todo": 1,
         "in_progress": 0,
         "in_review": 0,
-        "done": 99
+        "done": 98
       },
       "latest_issues": [
+        {
+          "key": "SUR-161",
+          "title": "[晚会日报] 2026-10-03",
+          "status": "todo",
+          "updated_at": "2026-10-03T12:00:18Z"
+        },
         {
           "key": "SUR-160",
           "title": "[空闲检测] 2026-10-03 leader 两小时正点检查与加派",
@@ -72,12 +79,6 @@
           "title": "[任务][day-9] TSE 投稿专属要求核对清单 + submission-handoff 引用",
           "status": "done",
           "updated_at": "2026-10-03T08:03:28Z"
-        },
-        {
-          "key": "SUR-158",
-          "title": "[空闲检测] 2026-10-03 leader 两小时正点检查与加派",
-          "status": "done",
-          "updated_at": "2026-10-03T06:02:48Z"
         }
       ],
       "progress_note": "day-4 晨 37% → 午 42% → 晚 44% → 夜 47%",
@@ -89,8 +90,8 @@
       "workspace": "ws-benchmark-loop",
       "machine": "张涛 Mac Studio",
       "machine_online": true,
-      "meeting_active": false,
-      "meeting_title": "",
+      "meeting_active": true,
+      "meeting_title": "[晚会日报] 2026-10-03",
       "progress": 62,
       "agents": [
         {
@@ -99,7 +100,7 @@
           "role": "GPT Scenarist",
           "model": "",
           "agent_id": "6e6f1e24-3bc5-455a-85d2-cb3fb6c9a672",
-          "state": "idle",
+          "state": "meeting",
           "issue": "",
           "issue_title": ""
         },
@@ -109,7 +110,7 @@
           "role": "GLM Runner & Analyst",
           "model": "",
           "agent_id": "bdaefa9b-7045-4264-95e4-1db664e353d0",
-          "state": "idle",
+          "state": "meeting",
           "issue": "",
           "issue_title": ""
         },
@@ -119,9 +120,10 @@
           "role": "DeepSeek Planner（小组 leader/PM）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "547cd361-ef50-4965-9477-bc659d8a1708",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "BEN-126",
+          "issue_title": "[晚会日报] 2026-10-03",
+          "since": "2026-10-03T12:00:18Z"
         },
         {
           "name": "minimax-visual-diff",
@@ -129,7 +131,7 @@
           "role": "MiniMax 多模态视觉差分评审",
           "model": "minimax-cn:MiniMax-M3",
           "agent_id": "843ac45d-b5db-4f35-b07b-2e5754ec5a5f",
-          "state": "idle",
+          "state": "meeting",
           "issue": "",
           "issue_title": ""
         },
@@ -139,7 +141,7 @@
           "role": "只读洞察项目目标与执行证据，用简单语言汇报进展、偏差和阻塞，",
           "model": "",
           "agent_id": "4b674e90-4726-4eba-bd5c-06350e0b8b83",
-          "state": "idle",
+          "state": "meeting",
           "issue": "",
           "issue_title": ""
         },
@@ -149,18 +151,24 @@
           "role": "只读洞察项目目标与执行证据，用简单语言汇报进展、偏差和阻塞，",
           "model": "gpt-6-astra",
           "agent_id": "33b902ee-a4ca-46ae-9284-c8285311c687",
-          "state": "idle",
+          "state": "meeting",
           "issue": "",
           "issue_title": ""
         }
       ],
       "issue_counts": {
         "todo": 0,
-        "in_progress": 2,
+        "in_progress": 3,
         "in_review": 0,
-        "done": 85
+        "done": 84
       },
       "latest_issues": [
+        {
+          "key": "BEN-126",
+          "title": "[晚会日报] 2026-10-03",
+          "status": "in_progress",
+          "updated_at": "2026-10-03T12:00:37Z"
+        },
         {
           "key": "BEN-125",
           "title": "[空闲检测] 2026-10-03 leader 两小时正点检查与加派",
@@ -184,12 +192,6 @@
           "title": "[任务·第1轮] Android 侧定位校准+数据前置（BEN-72 P0 反馈闭环：Antenna",
           "status": "in_progress",
           "updated_at": "2026-10-03T08:05:18Z"
-        },
-        {
-          "key": "BEN-124",
-          "title": "[巡检] 2026-10-03 leader Issue 状态巡检与催办",
-          "status": "done",
-          "updated_at": "2026-10-03T08:02:56Z"
         }
       ]
     },
@@ -219,9 +221,10 @@
           "role": "DeepSeek Planner（小组 leader/PM，",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "950ff614-521d-4e32-a02d-423d41a7b2b3",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "DWM-142",
+          "issue_title": "[晚会日报] 2026-10-03",
+          "since": "2026-10-03T12:00:20Z"
         },
         {
           "name": "dw-lead",
@@ -268,12 +271,18 @@
         }
       ],
       "issue_counts": {
-        "todo": 0,
+        "todo": 1,
         "in_progress": 1,
         "in_review": 0,
-        "done": 58
+        "done": 57
       },
       "latest_issues": [
+        {
+          "key": "DWM-142",
+          "title": "[晚会日报] 2026-10-03",
+          "status": "todo",
+          "updated_at": "2026-10-03T12:00:19Z"
+        },
         {
           "key": "DWM-141",
           "title": "[空闲检测] 2026-10-03 leader 两小时正点检查与加派",
@@ -297,12 +306,6 @@
           "title": "[空闲检测] 2026-10-03 leader 两小时正点检查与加派",
           "status": "done",
           "updated_at": "2026-10-03T06:01:46Z"
-        },
-        {
-          "key": "DWM-135",
-          "title": "[DWM-95·卡片修正] Simple-Calendar 结果卡片关键数字不自洽",
-          "status": "done",
-          "updated_at": "2026-10-03T04:42:48Z"
         }
       ],
       "order": {
@@ -388,9 +391,10 @@
           "role": "DeepSeek Planner（小组 leader/PM ",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-213",
+          "issue_title": "[晚会日报] 2026-10-03",
+          "since": "2026-10-03T12:00:28Z"
         },
         {
           "name": "minimax-uijudge",
@@ -404,12 +408,18 @@
         }
       ],
       "issue_counts": {
-        "todo": 0,
+        "todo": 1,
         "in_progress": 1,
         "in_review": 1,
-        "done": 95
+        "done": 94
       },
       "latest_issues": [
+        {
+          "key": "IPD-213",
+          "title": "[晚会日报] 2026-10-03",
+          "status": "todo",
+          "updated_at": "2026-10-03T12:00:26Z"
+        },
         {
           "key": "IPD-211",
           "title": "[Tester·TR-Accept] REQ-009 每日一句 差分执行 + 双端对比报告（收口 P",
@@ -433,12 +443,6 @@
           "title": "[Dev·优化] Eazo 引擎生成提交门禁——闭合 F-3「鸿蒙产物未入库」（commit gat",
           "status": "in_review",
           "updated_at": "2026-10-03T08:30:18Z"
-        },
-        {
-          "key": "IPD-209",
-          "title": "[巡检] 2026-10-03 leader Issue 状态巡检与催办",
-          "status": "done",
-          "updated_at": "2026-10-03T08:02:44Z"
         }
       ]
     }
