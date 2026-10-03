@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T04:29:08Z",
+  "generated_at": "2026-10-03T04:32:52Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -27,10 +27,9 @@
           "role": "Kimi Adversarial Reviewer（对抗评审",
           "model": "",
           "agent_id": "6e530cc6-6b9d-4398-936d-df9c13468125",
-          "state": "working",
-          "issue": "SUR-157",
-          "issue_title": "[评审][day-9] 对抗评审 TSE 投稿要求核对清单（SUR-156 产出）",
-          "since": "2026-10-03T04:16:05Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "deepseek-planner",
@@ -45,22 +44,22 @@
       ],
       "issue_counts": {
         "todo": 0,
-        "in_progress": 1,
-        "in_review": 1,
+        "in_progress": 0,
+        "in_review": 2,
         "done": 97
       },
       "latest_issues": [
+        {
+          "key": "SUR-157",
+          "title": "[评审][day-9] 对抗评审 TSE 投稿要求核对清单（SUR-156 产出）",
+          "status": "in_review",
+          "updated_at": "2026-10-03T04:31:34Z"
+        },
         {
           "key": "SUR-156",
           "title": "[任务][day-9] TSE 投稿专属要求核对清单 + submission-handoff 引用",
           "status": "in_review",
           "updated_at": "2026-10-03T04:14:58Z"
-        },
-        {
-          "key": "SUR-157",
-          "title": "[评审][day-9] 对抗评审 TSE 投稿要求核对清单（SUR-156 产出）",
-          "status": "in_progress",
-          "updated_at": "2026-10-03T04:13:28Z"
         },
         {
           "key": "SUR-155",
