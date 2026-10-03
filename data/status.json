@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T14:28:49Z",
+  "generated_at": "2026-10-03T14:32:41Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -121,9 +121,10 @@
           "role": "DeepSeek Planner（小组 leader/PM）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "547cd361-ef50-4965-9477-bc659d8a1708",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "BEN-131",
+          "issue_title": "[leader 直派] 安卓端三 App 复跑核验 + 未达满分修复优化专项（R4 实测 cofi 92.6% / SC",
+          "since": "2026-10-03T14:30:29Z"
         },
         {
           "name": "minimax-visual-diff",
@@ -167,19 +168,19 @@
           "key": "BEN-131",
           "title": "[leader 直派] 安卓端三 App 复跑核验 + 未达满分修复优化专项（R4 实测 cofi ",
           "status": "in_progress",
-          "updated_at": "2026-10-03T14:28:49Z"
+          "updated_at": "2026-10-03T14:32:09Z"
+        },
+        {
+          "key": "BEN-133",
+          "title": "[方向] 三模拟器并行按 app 分线 + 优先级 cofi→calendar→antennapod",
+          "status": "done",
+          "updated_at": "2026-10-03T14:30:48Z"
         },
         {
           "key": "BEN-134",
           "title": "[任务·三线编排] 三模拟器并行按 app 分线编排补全 + simple-calendar 注册（",
           "status": "in_review",
           "updated_at": "2026-10-03T14:27:51Z"
-        },
-        {
-          "key": "BEN-133",
-          "title": "[方向] 三模拟器并行按 app 分线 + 优先级 cofi→calendar→antennapod",
-          "status": "done",
-          "updated_at": "2026-10-03T14:24:08Z"
         },
         {
           "key": "BEN-135",
