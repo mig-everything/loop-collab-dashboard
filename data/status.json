@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T02:05:08Z",
+  "generated_at": "2026-10-03T02:08:51Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -328,9 +328,10 @@
           "role": "IPD-PM 产品经理",
           "model": "",
           "agent_id": "1764c131-5c09-48cb-aa48-3177d5256dbb",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-203",
+          "issue_title": "[PM·回写] REQ-009 每日一句 PRD v1.1 回写（闭合 C1/C3 + E-1/E-2 勘误）",
+          "since": "2026-10-03T02:06:07Z"
         },
         {
           "name": "hermes-sa",
@@ -338,9 +339,10 @@
           "role": "IPD-SA 解决方案架构师",
           "model": "zai:glm-5.3",
           "agent_id": "3e4373ef-a262-4b28-ab2a-818861fc9624",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-200",
+          "issue_title": "[TR-Design] REQ-009 每日一句 架构+接口契约评审（C1~C4 已闭合，SA 主持 · 联合评审）",
+          "since": "2026-10-03T02:05:55Z"
         },
         {
           "name": "hermes-se",
@@ -348,9 +350,10 @@
           "role": "IPD-SE 系统工程师",
           "model": "zai:glm-5.3",
           "agent_id": "b874ba6b-80e6-45c6-a8c6-aedc6f2b326b",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-201",
+          "issue_title": "[SE·追踪矩阵] REQ-009 每日一句 场景矩阵 v1.0（需求→设计→代码→测试 + C1~C4 锚点 + 双代",
+          "since": "2026-10-03T02:06:02Z"
         },
         {
           "name": "hermes-dev",
@@ -358,9 +361,10 @@
           "role": "IPD-Dev 开发工程师",
           "model": "zai:glm-5.3",
           "agent_id": "44fcec25-d8b3-4af6-b206-1774a64677ce",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-202",
+          "issue_title": "[Dev·双端编码对齐] REQ-009 每日一句 契约对齐（06-alignment-plan 施工，C2 种子库 S",
+          "since": "2026-10-03T02:06:04Z"
         },
         {
           "name": "hermes-tester",
@@ -388,10 +392,9 @@
           "role": "DeepSeek Planner（小组 leader/PM ",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
-          "state": "working",
-          "issue": "IPD-199",
-          "issue_title": "[空闲检测] 2026-10-03 leader 两小时正点检查与加派",
-          "since": "2026-10-03T02:00:26Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "minimax-uijudge",
@@ -406,40 +409,40 @@
       ],
       "issue_counts": {
         "todo": 1,
-        "in_progress": 0,
-        "in_review": 1,
-        "done": 95
+        "in_progress": 3,
+        "in_review": 0,
+        "done": 93
       },
       "latest_issues": [
         {
+          "key": "IPD-204",
+          "title": "[临时会议·空闲加派] 2026-10-03 10 点场",
+          "status": "done",
+          "updated_at": "2026-10-03T02:08:55Z"
+        },
+        {
           "key": "IPD-199",
           "title": "[空闲检测] 2026-10-03 leader 两小时正点检查与加派",
-          "status": "todo",
-          "updated_at": "2026-10-03T02:00:25Z"
+          "status": "done",
+          "updated_at": "2026-10-03T02:07:19Z"
         },
         {
           "key": "IPD-189",
           "title": "[Tester·临时加派] REQ-008 喝水打卡 TR-Accept 差分执行收口（P0 主线第",
-          "status": "in_review",
-          "updated_at": "2026-10-03T00:07:43Z"
+          "status": "done",
+          "updated_at": "2026-10-03T02:06:56Z"
         },
         {
-          "key": "IPD-198",
-          "title": "[巡检] 2026-10-03 leader Issue 状态巡检与催办",
-          "status": "done",
-          "updated_at": "2026-10-03T00:04:07Z"
+          "key": "IPD-200",
+          "title": "[TR-Design] REQ-009 每日一句 架构+接口契约评审（C1~C4 已闭合，SA 主持",
+          "status": "in_progress",
+          "updated_at": "2026-10-03T02:06:54Z"
         },
         {
-          "key": "IPD-196",
-          "title": "[SA·第1轮] REQ-009 每日一句 TR-Design 架构+接口契约（闭合 TR-Req ",
-          "status": "done",
-          "updated_at": "2026-10-03T00:03:54Z"
-        },
-        {
-          "key": "IPD-197",
-          "title": "[空闲检测] 2026-10-03 leader 两小时正点检查与加派",
-          "status": "done",
-          "updated_at": "2026-10-02T22:01:58Z"
+          "key": "IPD-202",
+          "title": "[Dev·双端编码对齐] REQ-009 每日一句 契约对齐（06-alignment-plan 施",
+          "status": "in_progress",
+          "updated_at": "2026-10-03T02:06:50Z"
         }
       ]
     }
