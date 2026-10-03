@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T12:06:49Z",
+  "generated_at": "2026-10-03T12:10:39Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -17,9 +17,10 @@
           "role": "GPT Writer（执笔者）",
           "model": "",
           "agent_id": "58ed4647-32dd-4ca1-8ddc-194b975d6024",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "SUR-161",
+          "issue_title": "[晚会纪要] 2026-10-03",
+          "since": "2026-10-03T12:08:42Z"
         },
         {
           "name": "kimi-adversary",
@@ -27,9 +28,10 @@
           "role": "Kimi Adversarial Reviewer（对抗评审",
           "model": "",
           "agent_id": "6e530cc6-6b9d-4398-936d-df9c13468125",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "SUR-163",
+          "issue_title": "[评审][day-9] 独立复核附录拆分（SUR-162 产出）+ 编译回归",
+          "since": "2026-10-03T12:07:33Z"
         },
         {
           "name": "deepseek-planner",
@@ -37,48 +39,47 @@
           "role": "DeepSeek Task Planner（任务规划+总结）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "04a4e04e-59d5-4f3a-8a16-acf99b80a493",
-          "state": "working",
-          "issue": "SUR-161",
-          "issue_title": "[晚会日报] 2026-10-03",
-          "since": "2026-10-03T12:00:19Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         }
       ],
       "issue_counts": {
         "todo": 1,
-        "in_progress": 0,
+        "in_progress": 2,
         "in_review": 0,
-        "done": 98
+        "done": 96
       },
       "latest_issues": [
         {
+          "key": "SUR-162",
+          "title": "[任务][day-9] 落实附录拆分：附录 A/B 移出主稿为独立补充材料 + 文档同步",
+          "status": "in_progress",
+          "updated_at": "2026-10-03T12:10:21Z"
+        },
+        {
           "key": "SUR-161",
-          "title": "[晚会日报] 2026-10-03",
-          "status": "todo",
-          "updated_at": "2026-10-03T12:00:18Z"
+          "title": "[晚会纪要] 2026-10-03",
+          "status": "done",
+          "updated_at": "2026-10-03T12:09:43Z"
+        },
+        {
+          "key": "SUR-164",
+          "title": "[流程优化] 2026-10-03 晚会产出 1 项（Opt-015 评审越界发现转派单登记），次日",
+          "status": "backlog",
+          "updated_at": "2026-10-03T12:08:14Z"
+        },
+        {
+          "key": "SUR-163",
+          "title": "[评审][day-9] 独立复核附录拆分（SUR-162 产出）+ 编译回归",
+          "status": "in_progress",
+          "updated_at": "2026-10-03T12:08:13Z"
         },
         {
           "key": "SUR-160",
           "title": "[空闲检测] 2026-10-03 leader 两小时正点检查与加派",
           "status": "done",
           "updated_at": "2026-10-03T10:02:49Z"
-        },
-        {
-          "key": "SUR-159",
-          "title": "[巡检] 2026-10-03 leader Issue 状态巡检与催办",
-          "status": "done",
-          "updated_at": "2026-10-03T08:03:45Z"
-        },
-        {
-          "key": "SUR-157",
-          "title": "[评审][day-9] 对抗评审 TSE 投稿要求核对清单（SUR-156 产出）",
-          "status": "done",
-          "updated_at": "2026-10-03T08:03:28Z"
-        },
-        {
-          "key": "SUR-156",
-          "title": "[任务][day-9] TSE 投稿专属要求核对清单 + submission-handoff 引用",
-          "status": "done",
-          "updated_at": "2026-10-03T08:03:28Z"
         }
       ],
       "progress_note": "day-4 晨 37% → 午 42% → 晚 44% → 夜 47%",
@@ -90,9 +91,9 @@
       "workspace": "ws-benchmark-loop",
       "machine": "张涛 Mac Studio",
       "machine_online": true,
-      "meeting_active": true,
-      "meeting_title": "[晚会日报] 2026-10-03",
-      "progress": 62,
+      "meeting_active": false,
+      "meeting_title": "",
+      "progress": 63,
       "agents": [
         {
           "name": "gpt-scenarist",
@@ -122,10 +123,9 @@
           "role": "DeepSeek Planner（小组 leader/PM）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "547cd361-ef50-4965-9477-bc659d8a1708",
-          "state": "working",
-          "issue": "BEN-126",
-          "issue_title": "[晚会日报] 2026-10-03",
-          "since": "2026-10-03T12:00:18Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "minimax-visual-diff",
@@ -144,7 +144,7 @@
           "role": "只读洞察项目目标与执行证据，用简单语言汇报进展、偏差和阻塞，",
           "model": "",
           "agent_id": "4b674e90-4726-4eba-bd5c-06350e0b8b83",
-          "state": "meeting",
+          "state": "idle",
           "issue": "",
           "issue_title": ""
         },
@@ -154,18 +154,30 @@
           "role": "只读洞察项目目标与执行证据，用简单语言汇报进展、偏差和阻塞，",
           "model": "gpt-6-astra",
           "agent_id": "33b902ee-a4ca-46ae-9284-c8285311c687",
-          "state": "meeting",
+          "state": "idle",
           "issue": "",
           "issue_title": ""
         }
       ],
       "issue_counts": {
-        "todo": 2,
+        "todo": 1,
         "in_progress": 4,
         "in_review": 0,
-        "done": 81
+        "done": 82
       },
       "latest_issues": [
+        {
+          "key": "BEN-127",
+          "title": "[任务·第3轮] Cofi 断言校准收口 + SC/gold binding 导航续修（ref BE",
+          "status": "in_progress",
+          "updated_at": "2026-10-03T12:08:10Z"
+        },
+        {
+          "key": "BEN-126",
+          "title": "[晚会日报] 2026-10-03",
+          "status": "done",
+          "updated_at": "2026-10-03T12:07:18Z"
+        },
         {
           "key": "BEN-129",
           "title": "[任务·第3轮] cofi gold 视觉差分锚定 + SC v2 配对框架补强（ref BEN-1",
@@ -177,18 +189,6 @@
           "title": "[任务·第3轮] 口径⑥ R4 全链路复跑 + test3/gold-mod01 suite 补齐（",
           "status": "todo",
           "updated_at": "2026-10-03T12:05:23Z"
-        },
-        {
-          "key": "BEN-127",
-          "title": "[任务·第3轮] Cofi 断言校准收口 + SC/gold binding 导航续修（ref BE",
-          "status": "todo",
-          "updated_at": "2026-10-03T12:05:15Z"
-        },
-        {
-          "key": "BEN-126",
-          "title": "[晚会日报] 2026-10-03",
-          "status": "in_progress",
-          "updated_at": "2026-10-03T12:00:37Z"
         },
         {
           "key": "BEN-125",
@@ -206,7 +206,7 @@
       "machine_online": true,
       "meeting_active": false,
       "meeting_title": "",
-      "progress": 17,
+      "progress": 18,
       "agents": [
         {
           "name": "opus-analyzer",
@@ -235,9 +235,10 @@
           "role": "DW 迁移执行小队队长",
           "model": "claude-opus-5-5",
           "agent_id": "c6ff7c69-0db4-4b35-ac81-dd00e5a53ba4",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "DWM-142",
+          "issue_title": "[晚会日报] 2026-10-03",
+          "since": "2026-10-03T12:11:00Z"
         },
         {
           "name": "exec-runner",
@@ -284,7 +285,7 @@
           "key": "DWM-142",
           "title": "[晚会日报] 2026-10-03",
           "status": "todo",
-          "updated_at": "2026-10-03T12:00:19Z"
+          "updated_at": "2026-10-03T12:10:59Z"
         },
         {
           "key": "DWM-141",
@@ -334,9 +335,10 @@
           "role": "IPD-PM 产品经理",
           "model": "",
           "agent_id": "1764c131-5c09-48cb-aa48-3177d5256dbb",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-215",
+          "issue_title": "[PM·第3轮夜间] REQ-010 下一场景预研 + 需求池扩充（业界热门 APP 类型洞察 + 第 10 场景方向）",
+          "since": "2026-10-03T12:09:02Z"
         },
         {
           "name": "hermes-sa",
@@ -364,9 +366,10 @@
           "role": "IPD-Dev 开发工程师",
           "model": "zai:glm-5.3",
           "agent_id": "44fcec25-d8b3-4af6-b206-1774a64677ce",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-214",
+          "issue_title": "[Dev·第3轮夜间] Eazo 引擎 Token/turns 优化闭环——闭合四维差 Token +11.6% 唯一未",
+          "since": "2026-10-03T12:08:58Z"
         },
         {
           "name": "hermes-tester",
@@ -374,9 +377,10 @@
           "role": "IPD-Tester 测试工程师",
           "model": "zai:glm-5.3",
           "agent_id": "86df9f14-a2cd-46d9-ad15-dbe8606ebd73",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-211",
+          "issue_title": "[Tester·TR-Accept] REQ-009 每日一句 差分执行 + 双端对比报告（收口 P0 主线第 9 场景",
+          "since": "2026-10-03T12:09:21Z"
         },
         {
           "name": "hermes-rm",
@@ -411,41 +415,41 @@
         }
       ],
       "issue_counts": {
-        "todo": 1,
+        "todo": 3,
         "in_progress": 1,
-        "in_review": 1,
-        "done": 94
+        "in_review": 0,
+        "done": 93
       },
       "latest_issues": [
-        {
-          "key": "IPD-213",
-          "title": "[晚会日报] 2026-10-03",
-          "status": "todo",
-          "updated_at": "2026-10-03T12:00:26Z"
-        },
         {
           "key": "IPD-211",
           "title": "[Tester·TR-Accept] REQ-009 每日一句 差分执行 + 双端对比报告（收口 P",
           "status": "in_progress",
-          "updated_at": "2026-10-03T10:15:03Z"
+          "updated_at": "2026-10-03T12:09:20Z"
         },
         {
-          "key": "IPD-210",
-          "title": "[空闲检测] 2026-10-03 leader 两小时正点检查与加派",
+          "key": "IPD-215",
+          "title": "[PM·第3轮夜间] REQ-010 下一场景预研 + 需求池扩充（业界热门 APP 类型洞察 + ",
+          "status": "todo",
+          "updated_at": "2026-10-03T12:09:01Z"
+        },
+        {
+          "key": "IPD-214",
+          "title": "[Dev·第3轮夜间] Eazo 引擎 Token/turns 优化闭环——闭合四维差 Token ",
+          "status": "todo",
+          "updated_at": "2026-10-03T12:08:57Z"
+        },
+        {
+          "key": "IPD-207",
+          "title": "[Dev·优化] Eazo 引擎生成提交门禁——闭合 F-3「鸿蒙产物未入库」（commit gat",
           "status": "done",
-          "updated_at": "2026-10-03T10:07:34Z"
+          "updated_at": "2026-10-03T12:08:30Z"
         },
         {
           "key": "IPD-212",
           "title": "[临时会议·空闲加派] 2026-10-03 18 点场",
           "status": "done",
-          "updated_at": "2026-10-03T10:07:27Z"
-        },
-        {
-          "key": "IPD-207",
-          "title": "[Dev·优化] Eazo 引擎生成提交门禁——闭合 F-3「鸿蒙产物未入库」（commit gat",
-          "status": "in_review",
-          "updated_at": "2026-10-03T08:30:18Z"
+          "updated_at": "2026-10-03T12:08:28Z"
         }
       ]
     }
