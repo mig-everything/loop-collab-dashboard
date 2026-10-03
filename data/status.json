@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T23:38:34Z",
+  "generated_at": "2026-10-03T23:42:15Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -120,10 +120,9 @@
           "role": "DeepSeek Planner（小组 leader/PM）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "547cd361-ef50-4965-9477-bc659d8a1708",
-          "state": "working",
-          "issue": "BEN-136",
-          "issue_title": "[任务·线2 calendar] simple-calendar backfill 续修 + r6 收口（ref BEN",
-          "since": "2026-10-03T23:37:22Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "minimax-visual-diff",
@@ -167,7 +166,7 @@
           "key": "BEN-136",
           "title": "[任务·线2 calendar] simple-calendar backfill 续修 + r6 ",
           "status": "in_progress",
-          "updated_at": "2026-10-03T23:37:22Z"
+          "updated_at": "2026-10-03T23:40:29Z"
         },
         {
           "key": "BEN-131",
@@ -243,7 +242,7 @@
           "agent_id": "1c3481f5-135b-4959-9daa-c510c076d494",
           "state": "working",
           "issue": "DWM-149",
-          "issue_title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单生成中 续3·r78·952/800步·4页/8",
+          "issue_title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单✓624 · 迁移中 3/6 · 迁移7.4h/",
           "since": "2026-10-03T23:12:41Z"
         },
         {
@@ -276,9 +275,9 @@
       "latest_issues": [
         {
           "key": "DWM-149",
-          "title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单生成中 续3·r78·952",
+          "title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单✓624 · 迁移中 3/6",
           "status": "in_progress",
-          "updated_at": "2026-10-03T23:28:33Z"
+          "updated_at": "2026-10-03T23:41:04Z"
         },
         {
           "key": "DWM-154",
@@ -307,9 +306,9 @@
       ],
       "order": {
         "key": "DWM-149",
-        "title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单生成中 续3·r78·952/800步·4页/879项 · 迁移中 3/6 · 清单7.2h/10h 迁移7",
+        "title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单✓624 · 迁移中 3/6 · 迁移7.4h/12h",
         "status": "in_progress",
-        "updated_at": "2026-10-03T23:28:33Z"
+        "updated_at": "2026-10-03T23:41:04Z"
       }
     },
     {
