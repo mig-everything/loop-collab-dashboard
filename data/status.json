@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T16:53:16Z",
+  "generated_at": "2026-10-03T16:57:02Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -122,8 +122,9 @@
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "547cd361-ef50-4965-9477-bc659d8a1708",
           "state": "working",
-          "issue": "",
-          "issue_title": ""
+          "issue": "BEN-131",
+          "issue_title": "[leader 直派] 安卓端三 App 复跑核验 + 未达满分修复优化专项（R4 实测 cofi 92.6% / SC",
+          "since": "2026-10-03T16:57:08Z"
         },
         {
           "name": "minimax-visual-diff",
@@ -243,7 +244,7 @@
           "agent_id": "1c3481f5-135b-4959-9daa-c510c076d494",
           "state": "working",
           "issue": "DWM-149",
-          "issue_title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单生成中 r9·51/800步·4页/87项 · ",
+          "issue_title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单生成中 r11·64/800步·4页/87项 ·",
           "since": "2026-10-03T16:04:31Z"
         },
         {
@@ -276,9 +277,9 @@
       "latest_issues": [
         {
           "key": "DWM-149",
-          "title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单生成中 r9·51/800步",
+          "title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单生成中 r11·64/800",
           "status": "in_progress",
-          "updated_at": "2026-10-03T16:50:33Z"
+          "updated_at": "2026-10-03T16:55:44Z"
         },
         {
           "key": "DWM-148",
@@ -307,9 +308,9 @@
       ],
       "order": {
         "key": "DWM-149",
-        "title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单生成中 r9·51/800步·4页/87项 · 迁移中 2/6 · 清单0.5h/10h 迁移0.5h/12",
+        "title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单生成中 r11·64/800步·4页/87项 · 迁移中 2/6 · 清单0.6h/10h 迁移0.6h/1",
         "status": "in_progress",
-        "updated_at": "2026-10-03T16:50:33Z"
+        "updated_at": "2026-10-03T16:55:44Z"
       }
     },
     {
