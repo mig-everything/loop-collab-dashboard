@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T12:37:49Z",
+  "generated_at": "2026-10-03T12:49:05Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -363,10 +363,9 @@
           "role": "IPD-Dev 开发工程师",
           "model": "zai:glm-5.3",
           "agent_id": "44fcec25-d8b3-4af6-b206-1774a64677ce",
-          "state": "working",
-          "issue": "IPD-214",
-          "issue_title": "[Dev·第3轮夜间] Eazo 引擎 Token/turns 优化闭环——闭合四维差 Token +11.6% 唯一未",
-          "since": "2026-10-03T12:08:58Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "hermes-tester",
@@ -410,12 +409,18 @@
         }
       ],
       "issue_counts": {
-        "todo": 1,
+        "todo": 0,
         "in_progress": 0,
-        "in_review": 2,
+        "in_review": 3,
         "done": 94
       },
       "latest_issues": [
+        {
+          "key": "IPD-214",
+          "title": "[Dev·第3轮夜间] Eazo 引擎 Token/turns 优化闭环——闭合四维差 Token ",
+          "status": "in_review",
+          "updated_at": "2026-10-03T12:49:00Z"
+        },
         {
           "key": "IPD-211",
           "title": "[Tester·TR-Accept] REQ-009 每日一句 差分执行 + 双端对比报告（收口 P",
@@ -433,12 +438,6 @@
           "title": "[晚会日报] 2026-10-03",
           "status": "done",
           "updated_at": "2026-10-03T12:11:45Z"
-        },
-        {
-          "key": "IPD-214",
-          "title": "[Dev·第3轮夜间] Eazo 引擎 Token/turns 优化闭环——闭合四维差 Token ",
-          "status": "todo",
-          "updated_at": "2026-10-03T12:08:57Z"
         },
         {
           "key": "IPD-207",
