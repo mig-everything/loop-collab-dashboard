@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T14:59:52Z",
+  "generated_at": "2026-10-03T15:03:43Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -164,16 +164,16 @@
       },
       "latest_issues": [
         {
-          "key": "BEN-136",
-          "title": "[任务·线2 calendar] simple-calendar backfill 续修 + r6 ",
-          "status": "in_progress",
-          "updated_at": "2026-10-03T14:54:43Z"
-        },
-        {
           "key": "BEN-131",
           "title": "[leader 直派] 安卓端三 App 复跑核验 + 未达满分修复优化专项（R4 实测 cofi ",
           "status": "in_progress",
-          "updated_at": "2026-10-03T14:52:39Z"
+          "updated_at": "2026-10-03T15:03:22Z"
+        },
+        {
+          "key": "BEN-136",
+          "title": "[任务·线2 calendar] simple-calendar backfill 续修 + r6 ",
+          "status": "in_progress",
+          "updated_at": "2026-10-03T15:01:15Z"
         },
         {
           "key": "BEN-137",
@@ -388,9 +388,10 @@
           "role": "DeepSeek Planner（小组 leader/PM ",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-218",
+          "issue_title": "[建议] IPD 流程与角色配置五项优化评审（P0 文档过期/P1 skill 漂移/P1 平台需求走 TR/P2 流程",
+          "since": "2026-10-03T15:00:45Z"
         },
         {
           "name": "minimax-uijudge",
@@ -404,12 +405,18 @@
         }
       ],
       "issue_counts": {
-        "todo": 0,
+        "todo": 1,
         "in_progress": 1,
         "in_review": 3,
-        "done": 93
+        "done": 92
       },
       "latest_issues": [
+        {
+          "key": "IPD-218",
+          "title": "[建议] IPD 流程与角色配置五项优化评审（P0 文档过期/P1 skill 漂移/P1 平台需求",
+          "status": "todo",
+          "updated_at": "2026-10-03T15:00:43Z"
+        },
         {
           "key": "IPD-217",
           "title": "[缺口][P0] Eazo 平台缺浏览器可用网页 UI（验收口径「形态」未达成）",
@@ -433,12 +440,6 @@
           "title": "[Tester·TR-Accept] REQ-009 每日一句 差分执行 + 双端对比报告（收口 P",
           "status": "in_review",
           "updated_at": "2026-10-03T12:25:24Z"
-        },
-        {
-          "key": "IPD-215",
-          "title": "[PM·第3轮夜间] REQ-010 下一场景预研 + 需求池扩充（业界热门 APP 类型洞察 + ",
-          "status": "in_review",
-          "updated_at": "2026-10-03T12:14:46Z"
         }
       ]
     }
