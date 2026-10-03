@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T23:34:55Z",
+  "generated_at": "2026-10-03T23:38:34Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -120,9 +120,10 @@
           "role": "DeepSeek Planner（小组 leader/PM）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "547cd361-ef50-4965-9477-bc659d8a1708",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "BEN-136",
+          "issue_title": "[任务·线2 calendar] simple-calendar backfill 续修 + r6 收口（ref BEN",
+          "since": "2026-10-03T23:37:22Z"
         },
         {
           "name": "minimax-visual-diff",
@@ -163,16 +164,16 @@
       },
       "latest_issues": [
         {
+          "key": "BEN-136",
+          "title": "[任务·线2 calendar] simple-calendar backfill 续修 + r6 ",
+          "status": "in_progress",
+          "updated_at": "2026-10-03T23:37:22Z"
+        },
+        {
           "key": "BEN-131",
           "title": "[leader 直派] 安卓端三 App 复跑核验 + 未达满分修复优化专项（R4 实测 cofi ",
           "status": "in_progress",
           "updated_at": "2026-10-03T23:32:58Z"
-        },
-        {
-          "key": "BEN-136",
-          "title": "[任务·线2 calendar] simple-calendar backfill 续修 + r6 ",
-          "status": "in_progress",
-          "updated_at": "2026-10-03T23:29:04Z"
         },
         {
           "key": "BEN-135",
