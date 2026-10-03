@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T10:06:04Z",
+  "generated_at": "2026-10-03T10:09:48Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -389,10 +389,9 @@
           "role": "DeepSeek Planner（小组 leader/PM ",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
-          "state": "working",
-          "issue": "IPD-210",
-          "issue_title": "[空闲检测] 2026-10-03 leader 两小时正点检查与加派",
-          "since": "2026-10-03T10:00:23Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "minimax-uijudge",
@@ -407,22 +406,28 @@
       ],
       "issue_counts": {
         "todo": 0,
-        "in_progress": 2,
+        "in_progress": 1,
         "in_review": 1,
-        "done": 94
+        "done": 95
       },
       "latest_issues": [
+        {
+          "key": "IPD-210",
+          "title": "[空闲检测] 2026-10-03 leader 两小时正点检查与加派",
+          "status": "done",
+          "updated_at": "2026-10-03T10:07:34Z"
+        },
+        {
+          "key": "IPD-212",
+          "title": "[临时会议·空闲加派] 2026-10-03 18 点场",
+          "status": "done",
+          "updated_at": "2026-10-03T10:07:27Z"
+        },
         {
           "key": "IPD-211",
           "title": "[Tester·TR-Accept] REQ-009 每日一句 差分执行 + 双端对比报告（收口 P",
           "status": "in_progress",
           "updated_at": "2026-10-03T10:05:48Z"
-        },
-        {
-          "key": "IPD-210",
-          "title": "[空闲检测] 2026-10-03 leader 两小时正点检查与加派",
-          "status": "in_progress",
-          "updated_at": "2026-10-03T10:05:13Z"
         },
         {
           "key": "IPD-207",
@@ -435,12 +440,6 @@
           "title": "[巡检] 2026-10-03 leader Issue 状态巡检与催办",
           "status": "done",
           "updated_at": "2026-10-03T08:02:44Z"
-        },
-        {
-          "key": "IPD-202",
-          "title": "[Dev·双端编码对齐] REQ-009 每日一句 契约对齐（06-alignment-plan 施",
-          "status": "done",
-          "updated_at": "2026-10-03T08:02:19Z"
         }
       ]
     }
