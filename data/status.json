@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T16:06:28Z",
+  "generated_at": "2026-10-04T16:13:54Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -399,30 +399,29 @@
           "role": "MiniMax 多模态 UI 视觉评审",
           "model": "minimax-cn:MiniMax-M3",
           "agent_id": "97f55294-90e0-4556-93af-a1cf44889574",
-          "state": "working",
-          "issue": "IPD-253",
-          "issue_title": "[uijudge] 新版详情页视觉复评（新 Rubric 四维度，IPD-250 收尾项3）",
-          "since": "2026-10-04T16:04:33Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         }
       ],
       "issue_counts": {
-        "todo": 2,
+        "todo": 1,
         "in_progress": 1,
-        "in_review": 0,
+        "in_review": 1,
         "done": 97
       },
       "latest_issues": [
+        {
+          "key": "IPD-253",
+          "title": "[uijudge] 新版详情页视觉复评（新 Rubric 四维度，IPD-250 收尾项3）",
+          "status": "in_review",
+          "updated_at": "2026-10-04T16:12:00Z"
+        },
         {
           "key": "IPD-256",
           "title": "[巡检] 2026-10-05 leader Issue 状态巡检与催办",
           "status": "done",
           "updated_at": "2026-10-04T16:05:01Z"
-        },
-        {
-          "key": "IPD-253",
-          "title": "[uijudge] 新版详情页视觉复评（新 Rubric 四维度，IPD-250 收尾项3）",
-          "status": "todo",
-          "updated_at": "2026-10-04T16:04:31Z"
         },
         {
           "key": "IPD-254",
