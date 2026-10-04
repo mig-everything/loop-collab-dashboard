@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T15:29:13Z",
+  "generated_at": "2026-10-04T15:32:57Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -17,9 +17,12 @@
           "role": "GPT Writer（执笔者）",
           "model": "",
           "agent_id": "58ed4647-32dd-4ca1-8ddc-194b975d6024",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "SUR-195",
+          "issue_title": "[SUR-193] 文献扩充核实+A/B/C新口径全库重分类（口径5修订）",
+          "since": "2026-10-04T15:32:06Z",
+          "parent_issue": "SUR-193",
+          "parent_title": "[目标调整] 范围扩大为LLM驱动代码迁移+Introduction重写+文献扩充核实（2026-10-04负责人三条要"
         },
         {
           "name": "kimi-adversary",
@@ -166,7 +169,7 @@
           "key": "BEN-153",
           "title": "[任务·第3轮] SC gold/test2/test3 binding 修复（ref BEN-14",
           "status": "in_progress",
-          "updated_at": "2026-10-04T15:13:56Z"
+          "updated_at": "2026-10-04T15:32:14Z"
         },
         {
           "key": "BEN-135",
