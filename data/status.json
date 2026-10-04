@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T00:00:28Z",
+  "generated_at": "2026-10-04T00:04:12Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -37,36 +37,35 @@
           "role": "DeepSeek Task Planner（任务规划+总结）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "04a4e04e-59d5-4f3a-8a16-acf99b80a493",
-          "state": "working",
-          "issue": "SUR-179",
-          "issue_title": "[巡检] 2026-10-04 leader Issue 状态巡检与催办",
-          "since": "2026-10-04T00:00:16Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         }
       ],
       "issue_counts": {
-        "todo": 2,
+        "todo": 1,
         "in_progress": 1,
-        "in_review": 2,
-        "done": 95
+        "in_review": 0,
+        "done": 98
       },
       "latest_issues": [
         {
           "key": "SUR-179",
           "title": "[巡检] 2026-10-04 leader Issue 状态巡检与催办",
-          "status": "todo",
-          "updated_at": "2026-10-04T00:00:15Z"
-        },
-        {
-          "key": "SUR-177",
-          "title": "[评审][day-10] 独立复核 O1 自然性清理（SUR-176 产出）+ 编译回归 + Rub",
-          "status": "in_review",
-          "updated_at": "2026-10-03T22:26:15Z"
+          "status": "done",
+          "updated_at": "2026-10-04T00:03:58Z"
         },
         {
           "key": "SUR-176",
           "title": "[任务][day-10] O1 自然性清理：固定段落标签统一 + 去 AI 味 + 机械过渡 + 跨",
-          "status": "in_review",
-          "updated_at": "2026-10-03T22:17:04Z"
+          "status": "done",
+          "updated_at": "2026-10-04T00:03:20Z"
+        },
+        {
+          "key": "SUR-177",
+          "title": "[评审][day-10] 独立复核 O1 自然性清理（SUR-176 产出）+ 编译回归 + Rub",
+          "status": "done",
+          "updated_at": "2026-10-04T00:03:19Z"
         },
         {
           "key": "SUR-175",
@@ -111,10 +110,9 @@
           "role": "GLM Runner & Analyst",
           "model": "",
           "agent_id": "bdaefa9b-7045-4264-95e4-1db664e353d0",
-          "state": "working",
-          "issue": "BEN-131",
-          "issue_title": "[leader 直派] 安卓端三 App 复跑核验 + 未达满分修复优化专项（R4 实测 cofi 92.6% / SC",
-          "since": "2026-10-04T00:00:36Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "deepseek-planner",
@@ -122,10 +120,9 @@
           "role": "DeepSeek Planner（小组 leader/PM）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "547cd361-ef50-4965-9477-bc659d8a1708",
-          "state": "working",
-          "issue": "BEN-144",
-          "issue_title": "[巡检] 2026-10-04 leader Issue 状态巡检与催办",
-          "since": "2026-10-04T00:00:12Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "minimax-visual-diff",
@@ -159,41 +156,41 @@
         }
       ],
       "issue_counts": {
-        "todo": 1,
+        "todo": 0,
         "in_progress": 3,
-        "in_review": 2,
-        "done": 79
+        "in_review": 0,
+        "done": 82
       },
       "latest_issues": [
         {
           "key": "BEN-131",
           "title": "[leader 直派] 安卓端三 App 复跑核验 + 未达满分修复优化专项（R4 实测 cofi ",
           "status": "in_progress",
-          "updated_at": "2026-10-04T00:00:35Z"
+          "updated_at": "2026-10-04T00:02:29Z"
         },
         {
           "key": "BEN-144",
           "title": "[巡检] 2026-10-04 leader Issue 状态巡检与催办",
-          "status": "todo",
-          "updated_at": "2026-10-04T00:00:12Z"
+          "status": "done",
+          "updated_at": "2026-10-04T00:01:45Z"
+        },
+        {
+          "key": "BEN-141",
+          "title": "[任务·第1轮] cofi v2 视觉差分（触发条件100%就位，ref BEN-129）",
+          "status": "done",
+          "updated_at": "2026-10-04T00:01:30Z"
+        },
+        {
+          "key": "BEN-142",
+          "title": "[任务·第1轮] 口径⑥ R5 全链路复跑 + AP backfill 续跑（ref BEN-128",
+          "status": "done",
+          "updated_at": "2026-10-04T00:01:29Z"
         },
         {
           "key": "BEN-135",
           "title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 1",
           "status": "in_progress",
           "updated_at": "2026-10-03T23:44:10Z"
-        },
-        {
-          "key": "BEN-136",
-          "title": "[任务·线2 calendar] simple-calendar backfill 续修 + r6 ",
-          "status": "in_progress",
-          "updated_at": "2026-10-03T23:40:29Z"
-        },
-        {
-          "key": "BEN-142",
-          "title": "[任务·第1轮] 口径⑥ R5 全链路复跑 + AP backfill 续跑（ref BEN-128",
-          "status": "in_review",
-          "updated_at": "2026-10-03T22:30:28Z"
         }
       ]
     },
@@ -223,10 +220,9 @@
           "role": "DeepSeek Planner（小组 leader/PM，",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "950ff614-521d-4e32-a02d-423d41a7b2b3",
-          "state": "working",
-          "issue": "DWM-155",
-          "issue_title": "[巡检] 2026-10-04 leader Issue 状态巡检与催办",
-          "since": "2026-10-04T00:00:09Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "dw-lead",
@@ -246,7 +242,7 @@
           "agent_id": "1c3481f5-135b-4959-9daa-c510c076d494",
           "state": "working",
           "issue": "DWM-149",
-          "issue_title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单✓624 · 迁移中 3/6 · 迁移7.6h/",
+          "issue_title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单✓624 · 迁移中 3/6 · 迁移7.7h/",
           "since": "2026-10-03T23:12:41Z"
         },
         {
@@ -271,48 +267,48 @@
         }
       ],
       "issue_counts": {
-        "todo": 1,
+        "todo": 0,
         "in_progress": 1,
-        "in_review": 2,
-        "done": 59
+        "in_review": 0,
+        "done": 62
       },
       "latest_issues": [
-        {
-          "key": "DWM-155",
-          "title": "[巡检] 2026-10-04 leader Issue 状态巡检与催办",
-          "status": "todo",
-          "updated_at": "2026-10-04T00:00:08Z"
-        },
         {
           "key": "DWM-149",
           "title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单✓624 · 迁移中 3/6",
           "status": "in_progress",
-          "updated_at": "2026-10-03T23:56:45Z"
+          "updated_at": "2026-10-04T00:02:00Z"
+        },
+        {
+          "key": "DWM-155",
+          "title": "[巡检] 2026-10-04 leader Issue 状态巡检与催办",
+          "status": "done",
+          "updated_at": "2026-10-04T00:01:45Z"
+        },
+        {
+          "key": "DWM-153",
+          "title": "[任务] SC-GATE-05 session JSON 截断套件层缺陷报告（DWM-147 建议1",
+          "status": "done",
+          "updated_at": "2026-10-04T00:01:32Z"
+        },
+        {
+          "key": "DWM-152",
+          "title": "[任务] MifareClassicTool 收口后差异分析 + §11.7 对抗评审 + DW 建",
+          "status": "done",
+          "updated_at": "2026-10-04T00:01:31Z"
         },
         {
           "key": "DWM-154",
           "title": "[空闲检测] 2026-10-04 leader 两小时正点检查与加派",
           "status": "done",
           "updated_at": "2026-10-03T22:01:52Z"
-        },
-        {
-          "key": "DWM-152",
-          "title": "[任务] MifareClassicTool 收口后差异分析 + §11.7 对抗评审 + DW 建",
-          "status": "in_review",
-          "updated_at": "2026-10-03T20:23:00Z"
-        },
-        {
-          "key": "DWM-153",
-          "title": "[任务] SC-GATE-05 session JSON 截断套件层缺陷报告（DWM-147 建议1",
-          "status": "in_review",
-          "updated_at": "2026-10-03T20:16:09Z"
         }
       ],
       "order": {
         "key": "DWM-149",
-        "title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单✓624 · 迁移中 3/6 · 迁移7.6h/12h",
+        "title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单✓624 · 迁移中 3/6 · 迁移7.7h/12h",
         "status": "in_progress",
-        "updated_at": "2026-10-03T23:56:45Z"
+        "updated_at": "2026-10-04T00:02:00Z"
       }
     },
     {
@@ -331,9 +327,10 @@
           "role": "IPD-PM 产品经理",
           "model": "",
           "agent_id": "1764c131-5c09-48cb-aa48-3177d5256dbb",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-238",
+          "issue_title": "[PM·第2轮续] REQ-010 五子棋 PRD v1.2 回写（移除 Top-K 引用，对齐契约 §5.1~5.3，",
+          "since": "2026-10-04T00:02:54Z"
         },
         {
           "name": "hermes-sa",
@@ -351,9 +348,10 @@
           "role": "IPD-SE 系统工程师",
           "model": "zai:glm-5.3",
           "agent_id": "b874ba6b-80e6-45c6-a8c6-aedc6f2b326b",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-239",
+          "issue_title": "[SE·第2轮] REQ-010 五子棋 追踪矩阵 17-traceability-matrix-req010.md（回",
+          "since": "2026-10-04T00:02:56Z"
         },
         {
           "name": "hermes-dev",
@@ -391,10 +389,9 @@
           "role": "DeepSeek Planner（小组 leader/PM ",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
-          "state": "working",
-          "issue": "IPD-237",
-          "issue_title": "[巡检] 2026-10-04 leader Issue 状态巡检与催办",
-          "since": "2026-10-04T00:00:19Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "minimax-uijudge",
@@ -409,40 +406,40 @@
       ],
       "issue_counts": {
         "todo": 1,
-        "in_progress": 1,
-        "in_review": 3,
-        "done": 94
+        "in_progress": 2,
+        "in_review": 0,
+        "done": 97
       },
       "latest_issues": [
         {
           "key": "IPD-237",
           "title": "[巡检] 2026-10-04 leader Issue 状态巡检与催办",
-          "status": "todo",
-          "updated_at": "2026-10-04T00:00:18Z"
+          "status": "done",
+          "updated_at": "2026-10-04T00:03:29Z"
+        },
+        {
+          "key": "IPD-239",
+          "title": "[SE·第2轮] REQ-010 五子棋 追踪矩阵 17-traceability-matrix-r",
+          "status": "in_progress",
+          "updated_at": "2026-10-04T00:03:24Z"
         },
         {
           "key": "IPD-236",
           "title": "[PM·评审] REQ-010 五子棋 TR-Design 评审（C1~C6 闭合核验，六件套 @ ",
-          "status": "in_review",
-          "updated_at": "2026-10-03T22:29:29Z"
-        },
-        {
-          "key": "IPD-232",
-          "title": "[SA·第2轮] REQ-010 五子棋 TR-Design 架构+接口契约（闭合 C1~C6，P0",
-          "status": "in_review",
-          "updated_at": "2026-10-03T22:25:30Z"
-        },
-        {
-          "key": "IPD-234",
-          "title": "[Dev·第2轮] REQ-009 secondary 文字 WCAG AA 修复（P1，IPD-2",
-          "status": "in_progress",
-          "updated_at": "2026-10-03T22:24:09Z"
+          "status": "done",
+          "updated_at": "2026-10-04T00:03:12Z"
         },
         {
           "key": "IPD-233",
           "title": "[PM·第2轮] REQ-010 PRD v1.1 回写（闭合 C1-3 / C2-3 条件落点）",
-          "status": "in_review",
-          "updated_at": "2026-10-03T22:08:51Z"
+          "status": "done",
+          "updated_at": "2026-10-04T00:03:11Z"
+        },
+        {
+          "key": "IPD-232",
+          "title": "[SA·第2轮] REQ-010 五子棋 TR-Design 架构+接口契约（闭合 C1~C6，P0",
+          "status": "done",
+          "updated_at": "2026-10-04T00:03:10Z"
         }
       ]
     }
