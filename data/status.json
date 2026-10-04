@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T01:00:31Z",
+  "generated_at": "2026-10-04T01:04:11Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -100,8 +100,9 @@
           "model": "",
           "agent_id": "6e6f1e24-3bc5-455a-85d2-cb3fb6c9a672",
           "state": "working",
-          "issue": "",
-          "issue_title": ""
+          "issue": "BEN-136",
+          "issue_title": "[任务·线2 calendar] simple-calendar backfill 续修 + r6 收口（ref BEN",
+          "since": "2026-10-04T01:04:05Z"
         },
         {
           "name": "glm-runner",
