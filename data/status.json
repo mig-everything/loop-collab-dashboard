@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T02:21:15Z",
+  "generated_at": "2026-10-04T02:24:56Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -27,10 +27,9 @@
           "role": "Kimi Adversarial Reviewer（对抗评审",
           "model": "",
           "agent_id": "6e530cc6-6b9d-4398-936d-df9c13468125",
-          "state": "working",
-          "issue": "SUR-183",
-          "issue_title": "[评审][day-10] 独立复核第 3 轮综合深化+篇幅压缩（SUR-182 产出）+ 编译回归 + Rubric",
-          "since": "2026-10-04T02:16:06Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "deepseek-planner",
@@ -45,16 +44,16 @@
       ],
       "issue_counts": {
         "todo": 1,
-        "in_progress": 2,
-        "in_review": 1,
+        "in_progress": 1,
+        "in_review": 2,
         "done": 96
       },
       "latest_issues": [
         {
           "key": "SUR-183",
           "title": "[评审][day-10] 独立复核第 3 轮综合深化+篇幅压缩（SUR-182 产出）+ 编译回归 ",
-          "status": "in_progress",
-          "updated_at": "2026-10-04T02:16:27Z"
+          "status": "in_review",
+          "updated_at": "2026-10-04T02:24:08Z"
         },
         {
           "key": "SUR-182",
@@ -165,6 +164,12 @@
       },
       "latest_issues": [
         {
+          "key": "BEN-135",
+          "title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 1",
+          "status": "in_progress",
+          "updated_at": "2026-10-04T02:22:21Z"
+        },
+        {
           "key": "BEN-136",
           "title": "[任务·线2 calendar] simple-calendar backfill 续修 + r6 ",
           "status": "in_progress",
@@ -181,12 +186,6 @@
           "title": "[leader 直派] 安卓端三 App 复跑核验 + 未达满分修复优化专项（R4 实测 cofi ",
           "status": "in_progress",
           "updated_at": "2026-10-04T01:47:11Z"
-        },
-        {
-          "key": "BEN-135",
-          "title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 1",
-          "status": "in_progress",
-          "updated_at": "2026-10-04T01:18:54Z"
         },
         {
           "key": "BEN-127",
@@ -244,7 +243,7 @@
           "agent_id": "1c3481f5-135b-4959-9daa-c510c076d494",
           "state": "working",
           "issue": "DWM-149",
-          "issue_title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单✓624 · 迁移中 3/6 · 迁移10.0h",
+          "issue_title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单✓624 · 迁移中 3/6 · 迁移10.1h",
           "since": "2026-10-04T00:57:41Z"
         },
         {
@@ -279,7 +278,7 @@
           "key": "DWM-149",
           "title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单✓624 · 迁移中 3/6",
           "status": "in_progress",
-          "updated_at": "2026-10-04T02:16:34Z"
+          "updated_at": "2026-10-04T02:21:49Z"
         },
         {
           "key": "DWM-156",
@@ -308,9 +307,9 @@
       ],
       "order": {
         "key": "DWM-149",
-        "title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单✓624 · 迁移中 3/6 · 迁移10.0h/12h",
+        "title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单✓624 · 迁移中 3/6 · 迁移10.1h/12h",
         "status": "in_progress",
-        "updated_at": "2026-10-04T02:16:34Z"
+        "updated_at": "2026-10-04T02:21:49Z"
       }
     },
     {
