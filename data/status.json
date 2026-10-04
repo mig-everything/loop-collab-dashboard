@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T23:28:47Z",
+  "generated_at": "2026-10-04T23:36:03Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -100,9 +100,8 @@
           "model": "",
           "agent_id": "6e6f1e24-3bc5-455a-85d2-cb3fb6c9a672",
           "state": "working",
-          "issue": "BEN-135",
-          "issue_title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 100（ref BEN",
-          "since": "2026-10-04T23:27:05Z"
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "glm-runner",
@@ -167,7 +166,7 @@
           "key": "BEN-135",
           "title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 1",
           "status": "in_progress",
-          "updated_at": "2026-10-04T23:12:02Z"
+          "updated_at": "2026-10-04T23:36:02Z"
         },
         {
           "key": "BEN-164",
