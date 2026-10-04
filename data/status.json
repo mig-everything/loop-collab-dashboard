@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T04:11:09Z",
+  "generated_at": "2026-10-04T04:14:54Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -17,10 +17,9 @@
           "role": "GPT Writer（执笔者）",
           "model": "",
           "agent_id": "58ed4647-32dd-4ca1-8ddc-194b975d6024",
-          "state": "working",
-          "issue": "SUR-184",
-          "issue_title": "[午会纪要] 2026-10-04",
-          "since": "2026-10-04T04:08:05Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "kimi-adversary",
@@ -45,22 +44,22 @@
       ],
       "issue_counts": {
         "todo": 3,
-        "in_progress": 2,
+        "in_progress": 1,
         "in_review": 0,
-        "done": 95
+        "done": 96
       },
       "latest_issues": [
         {
           "key": "SUR-185",
           "title": "[任务][day-10] 第 4 轮：范围拓宽第一步——标题/摘要/关键词/§1 扩到通用代码迁移（",
-          "status": "in_progress",
-          "updated_at": "2026-10-04T04:10:19Z"
+          "status": "done",
+          "updated_at": "2026-10-04T04:14:17Z"
         },
         {
           "key": "SUR-184",
           "title": "[午会纪要] 2026-10-04",
           "status": "done",
-          "updated_at": "2026-10-04T04:09:57Z"
+          "updated_at": "2026-10-04T04:11:37Z"
         },
         {
           "key": "SUR-183",
@@ -111,10 +110,9 @@
           "role": "GLM Runner & Analyst",
           "model": "",
           "agent_id": "bdaefa9b-7045-4264-95e4-1db664e353d0",
-          "state": "working",
-          "issue": "BEN-146",
-          "issue_title": "[午会纪要] 2026-10-04",
-          "since": "2026-10-04T04:08:09Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "deepseek-planner",
@@ -166,16 +164,16 @@
       },
       "latest_issues": [
         {
+          "key": "BEN-146",
+          "title": "[午会纪要] 2026-10-04",
+          "status": "done",
+          "updated_at": "2026-10-04T04:12:52Z"
+        },
+        {
           "key": "BEN-147",
           "title": "[任务·第2轮] AP 结构穿透集中修复 + 未校准 binding 校准（ref BEN-142）",
           "status": "in_progress",
           "updated_at": "2026-10-04T04:09:30Z"
-        },
-        {
-          "key": "BEN-146",
-          "title": "[午会纪要] 2026-10-04",
-          "status": "done",
-          "updated_at": "2026-10-04T04:08:12Z"
         },
         {
           "key": "BEN-148",
@@ -409,12 +407,24 @@
         }
       ],
       "issue_counts": {
-        "todo": 2,
+        "todo": 1,
         "in_progress": 2,
-        "in_review": 0,
+        "in_review": 1,
         "done": 96
       },
       "latest_issues": [
+        {
+          "key": "IPD-244",
+          "title": "[流程优化 Opt-018] 文档冲突优先级规则 + 三方一致性全局校验（借鉴 AI PRD Wor",
+          "status": "in_progress",
+          "updated_at": "2026-10-04T04:12:21Z"
+        },
+        {
+          "key": "IPD-234",
+          "title": "[Dev·第2轮] REQ-009 secondary 文字 WCAG AA 修复（P1，IPD-2",
+          "status": "in_review",
+          "updated_at": "2026-10-04T04:12:09Z"
+        },
         {
           "key": "IPD-241",
           "title": "[午会纪要] 2026-10-04",
@@ -422,22 +432,10 @@
           "updated_at": "2026-10-04T04:08:03Z"
         },
         {
-          "key": "IPD-244",
-          "title": "[流程优化 Opt-018] 文档冲突优先级规则 + 三方一致性全局校验（借鉴 AI PRD Wor",
-          "status": "todo",
-          "updated_at": "2026-10-04T04:07:35Z"
-        },
-        {
           "key": "IPD-243",
           "title": "[Tester·第3轮] REQ-010 五子棋差分用例清单 + 差分断言（TDD 先行 · 契约 ",
           "status": "in_progress",
           "updated_at": "2026-10-04T04:07:07Z"
-        },
-        {
-          "key": "IPD-234",
-          "title": "[Dev·第2轮] REQ-009 secondary 文字 WCAG AA 修复（P1，IPD-2",
-          "status": "in_progress",
-          "updated_at": "2026-10-04T04:06:44Z"
         },
         {
           "key": "IPD-242",
