@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T16:21:17Z",
+  "generated_at": "2026-10-04T16:25:01Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -120,9 +120,10 @@
           "role": "DeepSeek Planner（小组 leader/PM）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "547cd361-ef50-4965-9477-bc659d8a1708",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "BEN-64",
+          "issue_title": "跟踪测例通过率，分析迭代效率",
+          "since": "2026-10-04T16:25:13Z"
         },
         {
           "name": "minimax-visual-diff",
@@ -150,10 +151,9 @@
           "role": "只读洞察项目目标与执行证据，用简单语言汇报进展、偏差和阻塞，",
           "model": "gpt-6-astra",
           "agent_id": "33b902ee-a4ca-46ae-9284-c8285311c687",
-          "state": "working",
-          "issue": "BEN-64",
-          "issue_title": "跟踪测例通过率，分析迭代效率",
-          "since": "2026-10-04T16:21:12Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         }
       ],
       "issue_counts": {
@@ -167,7 +167,13 @@
           "key": "BEN-64",
           "title": "跟踪测例通过率，分析迭代效率",
           "status": "done",
-          "updated_at": "2026-10-04T16:21:12Z"
+          "updated_at": "2026-10-04T16:25:08Z"
+        },
+        {
+          "key": "BEN-153",
+          "title": "[任务·第3轮] SC gold/test2/test3 binding 修复（ref BEN-14",
+          "status": "in_progress",
+          "updated_at": "2026-10-04T16:22:49Z"
         },
         {
           "key": "BEN-155",
@@ -186,12 +192,6 @@
           "title": "[巡检] 2026-10-05 leader Issue 状态巡检与催办",
           "status": "done",
           "updated_at": "2026-10-04T16:03:20Z"
-        },
-        {
-          "key": "BEN-153",
-          "title": "[任务·第3轮] SC gold/test2/test3 binding 修复（ref BEN-14",
-          "status": "in_progress",
-          "updated_at": "2026-10-04T15:54:26Z"
         }
       ]
     },
