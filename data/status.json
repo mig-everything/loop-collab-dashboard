@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T07:17:31Z",
+  "generated_at": "2026-10-04T07:21:10Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -229,10 +229,9 @@
           "role": "DW 迁移执行小队队长",
           "model": "claude-opus-5-5",
           "agent_id": "c6ff7c69-0db4-4b35-ac81-dd00e5a53ba4",
-          "state": "working",
-          "issue": "DWM-149",
-          "issue_title": "[DW迁移任务单] NextPlayer 迁移 · 还原审计",
-          "since": "2026-10-04T07:16:55Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "exec-runner",
@@ -279,7 +278,7 @@
           "key": "DWM-149",
           "title": "[DW迁移任务单] NextPlayer 迁移 · 还原审计",
           "status": "in_progress",
-          "updated_at": "2026-10-04T07:16:54Z"
+          "updated_at": "2026-10-04T07:17:59Z"
         },
         {
           "key": "DWM-159",
@@ -310,7 +309,7 @@
         "key": "DWM-149",
         "title": "[DW迁移任务单] NextPlayer 迁移 · 还原审计",
         "status": "in_progress",
-        "updated_at": "2026-10-04T07:16:54Z"
+        "updated_at": "2026-10-04T07:17:59Z"
       }
     },
     {
