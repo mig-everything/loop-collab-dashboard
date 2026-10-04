@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T15:36:44Z",
+  "generated_at": "2026-10-04T15:40:27Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -150,7 +150,7 @@
           "role": "只读洞察项目目标与执行证据，用简单语言汇报进展、偏差和阻塞，",
           "model": "",
           "agent_id": "33b902ee-a4ca-46ae-9284-c8285311c687",
-          "state": "idle",
+          "state": "working",
           "issue": "",
           "issue_title": ""
         }
@@ -163,22 +163,22 @@
       },
       "latest_issues": [
         {
-          "key": "BEN-153",
-          "title": "[任务·第3轮] SC gold/test2/test3 binding 修复（ref BEN-14",
-          "status": "in_progress",
-          "updated_at": "2026-10-04T15:32:14Z"
-        },
-        {
           "key": "BEN-135",
           "title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 1",
           "status": "in_progress",
-          "updated_at": "2026-10-04T15:05:00Z"
+          "updated_at": "2026-10-04T15:40:15Z"
         },
         {
           "key": "BEN-155",
           "title": "[任务·第3轮] 口径⑥ R6 每日全链路复跑（ref BEN-131 里程碑后首轮）",
           "status": "in_review",
-          "updated_at": "2026-10-04T14:49:32Z"
+          "updated_at": "2026-10-04T15:39:14Z"
+        },
+        {
+          "key": "BEN-153",
+          "title": "[任务·第3轮] SC gold/test2/test3 binding 修复（ref BEN-14",
+          "status": "in_progress",
+          "updated_at": "2026-10-04T15:32:14Z"
         },
         {
           "key": "BEN-156",
