@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T17:34:25Z",
+  "generated_at": "2026-10-04T17:41:38Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -99,10 +99,9 @@
           "role": "GPT Scenarist",
           "model": "",
           "agent_id": "6e6f1e24-3bc5-455a-85d2-cb3fb6c9a672",
-          "state": "working",
-          "issue": "BEN-135",
-          "issue_title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 100（ref BEN",
-          "since": "2026-10-04T17:34:16Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "glm-runner",
@@ -163,16 +162,16 @@
       },
       "latest_issues": [
         {
+          "key": "BEN-135",
+          "title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 1",
+          "status": "in_progress",
+          "updated_at": "2026-10-04T17:41:20Z"
+        },
+        {
           "key": "BEN-153",
           "title": "[任务·第3轮] SC gold/test2/test3 binding 修复（ref BEN-14",
           "status": "done",
           "updated_at": "2026-10-04T17:23:37Z"
-        },
-        {
-          "key": "BEN-135",
-          "title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 1",
-          "status": "in_progress",
-          "updated_at": "2026-10-04T17:18:47Z"
         },
         {
           "key": "BEN-158",
