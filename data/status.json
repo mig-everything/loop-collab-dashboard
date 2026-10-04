@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T14:40:24Z",
+  "generated_at": "2026-10-04T14:44:10Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -102,10 +102,9 @@
           "role": "GPT Scenarist",
           "model": "",
           "agent_id": "6e6f1e24-3bc5-455a-85d2-cb3fb6c9a672",
-          "state": "working",
-          "issue": "BEN-153",
-          "issue_title": "[任务·第3轮] SC gold/test2/test3 binding 修复（ref BEN-148 移交，不依赖设备",
-          "since": "2026-10-04T14:20:38Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "glm-runner",
@@ -167,16 +166,16 @@
       },
       "latest_issues": [
         {
+          "key": "BEN-153",
+          "title": "[任务·第3轮] SC gold/test2/test3 binding 修复（ref BEN-14",
+          "status": "in_progress",
+          "updated_at": "2026-10-04T14:41:48Z"
+        },
+        {
           "key": "BEN-135",
           "title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 1",
           "status": "in_progress",
           "updated_at": "2026-10-04T14:38:33Z"
-        },
-        {
-          "key": "BEN-153",
-          "title": "[任务·第3轮] SC gold/test2/test3 binding 修复（ref BEN-14",
-          "status": "in_progress",
-          "updated_at": "2026-10-04T14:16:48Z"
         },
         {
           "key": "BEN-155",
