@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T13:02:18Z",
+  "generated_at": "2026-10-04T13:06:04Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -103,9 +103,9 @@
           "model": "",
           "agent_id": "6e6f1e24-3bc5-455a-85d2-cb3fb6c9a672",
           "state": "working",
-          "issue": "BEN-153",
-          "issue_title": "[任务·第3轮] SC gold/test2/test3 binding 修复（ref BEN-148 移交，不依赖设备",
-          "since": "2026-10-04T13:00:47Z"
+          "issue": "BEN-135",
+          "issue_title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 100（ref BEN",
+          "since": "2026-10-04T13:05:47Z"
         },
         {
           "name": "glm-runner",
@@ -161,22 +161,22 @@
       ],
       "issue_counts": {
         "todo": 0,
-        "in_progress": 4,
+        "in_progress": 3,
         "in_review": 0,
-        "done": 81
+        "done": 82
       },
       "latest_issues": [
+        {
+          "key": "BEN-154",
+          "title": "[任务·第3轮] AP 未校准 binding 250 + fixture 279 续修（ref B",
+          "status": "done",
+          "updated_at": "2026-10-04T13:04:03Z"
+        },
         {
           "key": "BEN-153",
           "title": "[任务·第3轮] SC gold/test2/test3 binding 修复（ref BEN-14",
           "status": "in_progress",
           "updated_at": "2026-10-04T12:56:50Z"
-        },
-        {
-          "key": "BEN-154",
-          "title": "[任务·第3轮] AP 未校准 binding 250 + fixture 279 续修（ref B",
-          "status": "in_progress",
-          "updated_at": "2026-10-04T12:55:26Z"
         },
         {
           "key": "BEN-135",
