@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T04:37:00Z",
+  "generated_at": "2026-10-04T04:40:41Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -348,10 +348,9 @@
           "role": "IPD-SE 系统工程师",
           "model": "zai:glm-5.3",
           "agent_id": "b874ba6b-80e6-45c6-a8c6-aedc6f2b326b",
-          "state": "working",
-          "issue": "IPD-244",
-          "issue_title": "[流程优化 Opt-018] 文档冲突优先级规则 + 三方一致性全局校验（借鉴 AI PRD Workflow）",
-          "since": "2026-10-04T04:07:35Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "hermes-dev",
@@ -406,11 +405,17 @@
       ],
       "issue_counts": {
         "todo": 1,
-        "in_progress": 1,
-        "in_review": 2,
+        "in_progress": 0,
+        "in_review": 3,
         "done": 96
       },
       "latest_issues": [
+        {
+          "key": "IPD-244",
+          "title": "[流程优化 Opt-018] 文档冲突优先级规则 + 三方一致性全局校验（借鉴 AI PRD Wor",
+          "status": "in_review",
+          "updated_at": "2026-10-04T04:39:31Z"
+        },
         {
           "key": "IPD-242",
           "title": "[Dev·第3轮] REQ-010 五子棋双端编码（契约 e8d58f5 + 矩阵 e85a0d8，",
@@ -422,12 +427,6 @@
           "title": "[Tester·第3轮] REQ-010 五子棋差分用例清单 + 差分断言（TDD 先行 · 契约 ",
           "status": "in_review",
           "updated_at": "2026-10-04T04:18:24Z"
-        },
-        {
-          "key": "IPD-244",
-          "title": "[流程优化 Opt-018] 文档冲突优先级规则 + 三方一致性全局校验（借鉴 AI PRD Wor",
-          "status": "in_progress",
-          "updated_at": "2026-10-04T04:12:21Z"
         },
         {
           "key": "IPD-234",
