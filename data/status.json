@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T23:36:03Z",
+  "generated_at": "2026-10-04T23:39:42Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -99,7 +99,7 @@
           "role": "GPT Scenarist",
           "model": "",
           "agent_id": "6e6f1e24-3bc5-455a-85d2-cb3fb6c9a672",
-          "state": "working",
+          "state": "idle",
           "issue": "",
           "issue_title": ""
         },
