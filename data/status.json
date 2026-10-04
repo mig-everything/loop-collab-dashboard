@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T14:51:41Z",
+  "generated_at": "2026-10-04T14:55:27Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -103,9 +103,9 @@
           "model": "",
           "agent_id": "6e6f1e24-3bc5-455a-85d2-cb3fb6c9a672",
           "state": "working",
-          "issue": "BEN-153",
-          "issue_title": "[任务·第3轮] SC gold/test2/test3 binding 修复（ref BEN-148 移交，不依赖设备",
-          "since": "2026-10-04T14:45:42Z"
+          "issue": "BEN-135",
+          "issue_title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 100（ref BEN",
+          "since": "2026-10-04T14:53:38Z"
         },
         {
           "name": "glm-runner",
