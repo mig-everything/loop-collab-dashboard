@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T03:16:16Z",
+  "generated_at": "2026-10-04T03:19:56Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -243,7 +243,7 @@
           "agent_id": "1c3481f5-135b-4959-9daa-c510c076d494",
           "state": "working",
           "issue": "DWM-149",
-          "issue_title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单✓624 · 迁移中 3/6 · 迁移10.9h",
+          "issue_title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单✓624 · 迁移中 3/6 · 迁移11.0h",
           "since": "2026-10-04T02:41:11Z"
         },
         {
@@ -278,7 +278,7 @@
           "key": "DWM-149",
           "title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单✓624 · 迁移中 3/6",
           "status": "in_progress",
-          "updated_at": "2026-10-04T03:13:15Z"
+          "updated_at": "2026-10-04T03:18:32Z"
         },
         {
           "key": "DWM-156",
@@ -307,9 +307,9 @@
       ],
       "order": {
         "key": "DWM-149",
-        "title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单✓624 · 迁移中 3/6 · 迁移10.9h/18.0h",
+        "title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单✓624 · 迁移中 3/6 · 迁移11.0h/18.0h",
         "status": "in_progress",
-        "updated_at": "2026-10-04T03:13:15Z"
+        "updated_at": "2026-10-04T03:18:32Z"
       }
     },
     {
