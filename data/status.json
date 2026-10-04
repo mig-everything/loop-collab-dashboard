@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T13:51:14Z",
+  "generated_at": "2026-10-04T13:55:04Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -17,12 +17,9 @@
           "role": "GPT Writer（执笔者）",
           "model": "",
           "agent_id": "58ed4647-32dd-4ca1-8ddc-194b975d6024",
-          "state": "working",
-          "issue": "SUR-195",
-          "issue_title": "[SUR-193] 文献扩充核实+A/B/C新口径全库重分类（口径5修订）",
-          "since": "2026-10-04T13:50:06Z",
-          "parent_issue": "SUR-193",
-          "parent_title": "[目标调整] 范围扩大为LLM驱动代码迁移+Introduction重写+文献扩充核实（2026-10-04负责人三条要"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "kimi-adversary",
@@ -102,10 +99,9 @@
           "role": "GPT Scenarist",
           "model": "",
           "agent_id": "6e6f1e24-3bc5-455a-85d2-cb3fb6c9a672",
-          "state": "working",
-          "issue": "BEN-153",
-          "issue_title": "[任务·第3轮] SC gold/test2/test3 binding 修复（ref BEN-148 移交，不依赖设备",
-          "since": "2026-10-04T13:29:38Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "glm-runner",
@@ -167,6 +163,12 @@
       },
       "latest_issues": [
         {
+          "key": "BEN-153",
+          "title": "[任务·第3轮] SC gold/test2/test3 binding 修复（ref BEN-14",
+          "status": "in_progress",
+          "updated_at": "2026-10-04T13:52:58Z"
+        },
+        {
           "key": "BEN-155",
           "title": "[任务·第3轮] 口径⑥ R6 每日全链路复跑（ref BEN-131 里程碑后首轮）",
           "status": "in_review",
@@ -177,12 +179,6 @@
           "title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 1",
           "status": "in_progress",
           "updated_at": "2026-10-04T13:41:15Z"
-        },
-        {
-          "key": "BEN-153",
-          "title": "[任务·第3轮] SC gold/test2/test3 binding 修复（ref BEN-14",
-          "status": "in_progress",
-          "updated_at": "2026-10-04T13:25:55Z"
         },
         {
           "key": "BEN-154",
@@ -412,12 +408,18 @@
         }
       ],
       "issue_counts": {
-        "todo": 3,
+        "todo": 2,
         "in_progress": 2,
-        "in_review": 2,
+        "in_review": 3,
         "done": 93
       },
       "latest_issues": [
+        {
+          "key": "IPD-254",
+          "title": "[RM] 口径10 功能验证四件套固化为 UI/功能改动 DoD（IPD-250 收尾项4）",
+          "status": "in_review",
+          "updated_at": "2026-10-04T13:55:26Z"
+        },
         {
           "key": "IPD-250",
           "title": "[验收标准更新] Eazo 网页 UI 对比体验优化首批已落地（246c1cc），收尾：featur",
@@ -429,12 +431,6 @@
           "title": "[Dev] Mac Mini 正式实例历史实验导入 + 重启核验历史页（口径9⑥，IPD-250 收",
           "status": "in_progress",
           "updated_at": "2026-10-04T13:49:35Z"
-        },
-        {
-          "key": "IPD-254",
-          "title": "[RM] 口径10 功能验证四件套固化为 UI/功能改动 DoD（IPD-250 收尾项4）",
-          "status": "todo",
-          "updated_at": "2026-10-04T13:49:12Z"
         },
         {
           "key": "IPD-253",
