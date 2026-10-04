@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T03:59:57Z",
+  "generated_at": "2026-10-04T04:03:38Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -37,18 +37,25 @@
           "role": "DeepSeek Task Planner（任务规划+总结）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "04a4e04e-59d5-4f3a-8a16-acf99b80a493",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "SUR-184",
+          "issue_title": "[午会纪要] 2026-10-04",
+          "since": "2026-10-04T04:00:14Z"
         }
       ],
       "issue_counts": {
-        "todo": 1,
+        "todo": 2,
         "in_progress": 1,
         "in_review": 2,
-        "done": 96
+        "done": 95
       },
       "latest_issues": [
+        {
+          "key": "SUR-184",
+          "title": "[午会纪要] 2026-10-04",
+          "status": "todo",
+          "updated_at": "2026-10-04T04:00:14Z"
+        },
         {
           "key": "SUR-183",
           "title": "[评审][day-10] 独立复核第 3 轮综合深化+篇幅压缩（SUR-182 产出）+ 编译回归 ",
@@ -72,12 +79,6 @@
           "title": "[空闲检测] 2026-10-04 leader 两小时正点检查与加派",
           "status": "done",
           "updated_at": "2026-10-04T02:06:29Z"
-        },
-        {
-          "key": "SUR-179",
-          "title": "[巡检] 2026-10-04 leader Issue 状态巡检与催办",
-          "status": "done",
-          "updated_at": "2026-10-04T00:03:58Z"
         }
       ],
       "progress_note": "day-4 晨 37% → 午 42% → 晚 44% → 夜 47%",
@@ -89,8 +90,8 @@
       "workspace": "ws-benchmark-loop",
       "machine": "张涛 Mac Studio",
       "machine_online": true,
-      "meeting_active": false,
-      "meeting_title": "",
+      "meeting_active": true,
+      "meeting_title": "[午会纪要] 2026-10-04",
       "progress": 68,
       "agents": [
         {
@@ -110,7 +111,7 @@
           "role": "GLM Runner & Analyst",
           "model": "",
           "agent_id": "bdaefa9b-7045-4264-95e4-1db664e353d0",
-          "state": "idle",
+          "state": "meeting",
           "issue": "",
           "issue_title": ""
         },
@@ -120,9 +121,10 @@
           "role": "DeepSeek Planner（小组 leader/PM）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "547cd361-ef50-4965-9477-bc659d8a1708",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "BEN-146",
+          "issue_title": "[午会纪要] 2026-10-04",
+          "since": "2026-10-04T04:00:15Z"
         },
         {
           "name": "minimax-visual-diff",
@@ -130,7 +132,7 @@
           "role": "MiniMax 多模态视觉差分评审",
           "model": "minimax-cn:MiniMax-M3",
           "agent_id": "843ac45d-b5db-4f35-b07b-2e5754ec5a5f",
-          "state": "idle",
+          "state": "meeting",
           "issue": "",
           "issue_title": ""
         },
@@ -140,7 +142,7 @@
           "role": "只读洞察项目目标与执行证据，用简单语言汇报进展、偏差和阻塞，",
           "model": "",
           "agent_id": "4b674e90-4726-4eba-bd5c-06350e0b8b83",
-          "state": "idle",
+          "state": "meeting",
           "issue": "",
           "issue_title": ""
         },
@@ -150,18 +152,24 @@
           "role": "只读洞察项目目标与执行证据，用简单语言汇报进展、偏差和阻塞，",
           "model": "gpt-6-astra",
           "agent_id": "33b902ee-a4ca-46ae-9284-c8285311c687",
-          "state": "idle",
+          "state": "meeting",
           "issue": "",
           "issue_title": ""
         }
       ],
       "issue_counts": {
         "todo": 0,
-        "in_progress": 2,
+        "in_progress": 3,
         "in_review": 1,
-        "done": 82
+        "done": 81
       },
       "latest_issues": [
+        {
+          "key": "BEN-146",
+          "title": "[午会纪要] 2026-10-04",
+          "status": "in_progress",
+          "updated_at": "2026-10-04T04:00:43Z"
+        },
         {
           "key": "BEN-131",
           "title": "[leader 直派] 安卓端三 App 复跑核验 + 未达满分修复优化专项（R4 实测 cofi ",
@@ -185,12 +193,6 @@
           "title": "[空闲检测] 2026-10-04 leader 两小时正点检查与加派",
           "status": "done",
           "updated_at": "2026-10-04T02:02:25Z"
-        },
-        {
-          "key": "BEN-127",
-          "title": "[任务·第3轮] Cofi 断言校准收口 + SC/gold binding 导航续修（ref BE",
-          "status": "done",
-          "updated_at": "2026-10-04T00:55:08Z"
         }
       ]
     },
@@ -200,8 +202,8 @@
       "workspace": "ws-dw-migration-loop",
       "machine": "奕棣 MacBook",
       "machine_online": true,
-      "meeting_active": false,
-      "meeting_title": "",
+      "meeting_active": true,
+      "meeting_title": "[午会纪要] 2026-10-04",
       "progress": 22,
       "agents": [
         {
@@ -210,7 +212,7 @@
           "role": "Opus Analyzer",
           "model": "claude-opus-5-5",
           "agent_id": "2f32549c-87c7-4202-8f54-3af79a30afa0",
-          "state": "idle",
+          "state": "meeting",
           "issue": "",
           "issue_title": ""
         },
@@ -231,7 +233,7 @@
           "role": "DW 迁移执行小队队长",
           "model": "claude-opus-5-5",
           "agent_id": "c6ff7c69-0db4-4b35-ac81-dd00e5a53ba4",
-          "state": "idle",
+          "state": "meeting",
           "issue": "",
           "issue_title": ""
         },
@@ -243,7 +245,7 @@
           "agent_id": "1c3481f5-135b-4959-9daa-c510c076d494",
           "state": "working",
           "issue": "DWM-149",
-          "issue_title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单✓624 · 迁移中 3/6 · 迁移11.6h",
+          "issue_title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单✓624 · 迁移中 3/6 · 迁移11.7h",
           "since": "2026-10-04T02:41:11Z"
         },
         {
@@ -252,7 +254,7 @@
           "role": "验证员",
           "model": "claude-opus-5-5",
           "agent_id": "69822c63-0dcc-4f3e-875d-7b300d437623",
-          "state": "idle",
+          "state": "meeting",
           "issue": "",
           "issue_title": ""
         },
@@ -262,14 +264,14 @@
           "role": "修复员",
           "model": "claude-opus-5-5",
           "agent_id": "cd70e713-a339-4621-8699-2058d9cf7d6b",
-          "state": "idle",
+          "state": "meeting",
           "issue": "",
           "issue_title": ""
         }
       ],
       "issue_counts": {
-        "todo": 1,
-        "in_progress": 1,
+        "todo": 0,
+        "in_progress": 2,
         "in_review": 0,
         "done": 63
       },
@@ -277,14 +279,14 @@
         {
           "key": "DWM-157",
           "title": "[午会纪要] 2026-10-04",
-          "status": "todo",
-          "updated_at": "2026-10-04T04:00:06Z"
+          "status": "in_progress",
+          "updated_at": "2026-10-04T04:00:51Z"
         },
         {
           "key": "DWM-149",
           "title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单✓624 · 迁移中 3/6",
           "status": "in_progress",
-          "updated_at": "2026-10-04T03:55:23Z"
+          "updated_at": "2026-10-04T04:00:37Z"
         },
         {
           "key": "DWM-156",
@@ -307,9 +309,9 @@
       ],
       "order": {
         "key": "DWM-149",
-        "title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单✓624 · 迁移中 3/6 · 迁移11.6h/18.0h",
+        "title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单✓624 · 迁移中 3/6 · 迁移11.7h/18.0h",
         "status": "in_progress",
-        "updated_at": "2026-10-04T03:55:23Z"
+        "updated_at": "2026-10-04T04:00:37Z"
       }
     },
     {
@@ -388,9 +390,10 @@
           "role": "DeepSeek Planner（小组 leader/PM ",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-241",
+          "issue_title": "[午会纪要] 2026-10-04",
+          "since": "2026-10-04T04:00:22Z"
         },
         {
           "name": "minimax-uijudge",
