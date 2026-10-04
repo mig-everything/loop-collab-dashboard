@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T15:06:43Z",
+  "generated_at": "2026-10-04T15:14:11Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -20,7 +20,7 @@
           "state": "working",
           "issue": "SUR-195",
           "issue_title": "[SUR-193] 文献扩充核实+A/B/C新口径全库重分类（口径5修订）",
-          "since": "2026-10-04T14:23:37Z",
+          "since": "2026-10-04T15:12:16Z",
           "parent_issue": "SUR-193",
           "parent_title": "[目标调整] 范围扩大为LLM驱动代码迁移+Introduction重写+文献扩充核实（2026-10-04负责人三条要"
         },
@@ -102,10 +102,9 @@
           "role": "GPT Scenarist",
           "model": "",
           "agent_id": "6e6f1e24-3bc5-455a-85d2-cb3fb6c9a672",
-          "state": "working",
-          "issue": "BEN-153",
-          "issue_title": "[任务·第3轮] SC gold/test2/test3 binding 修复（ref BEN-148 移交，不依赖设备",
-          "since": "2026-10-04T14:45:42Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "glm-runner",
@@ -166,6 +165,12 @@
       },
       "latest_issues": [
         {
+          "key": "BEN-153",
+          "title": "[任务·第3轮] SC gold/test2/test3 binding 修复（ref BEN-14",
+          "status": "in_progress",
+          "updated_at": "2026-10-04T15:13:56Z"
+        },
+        {
           "key": "BEN-135",
           "title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 1",
           "status": "in_progress",
@@ -176,12 +181,6 @@
           "title": "[任务·第3轮] 口径⑥ R6 每日全链路复跑（ref BEN-131 里程碑后首轮）",
           "status": "in_review",
           "updated_at": "2026-10-04T14:49:32Z"
-        },
-        {
-          "key": "BEN-153",
-          "title": "[任务·第3轮] SC gold/test2/test3 binding 修复（ref BEN-14",
-          "status": "in_progress",
-          "updated_at": "2026-10-04T14:41:48Z"
         },
         {
           "key": "BEN-156",
