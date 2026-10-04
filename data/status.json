@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T04:33:20Z",
+  "generated_at": "2026-10-04T04:37:00Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -99,9 +99,10 @@
           "role": "GPT Scenarist",
           "model": "",
           "agent_id": "6e6f1e24-3bc5-455a-85d2-cb3fb6c9a672",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "BEN-147",
+          "issue_title": "[任务·第2轮] AP 结构穿透集中修复 + 未校准 binding 校准（ref BEN-142）",
+          "since": "2026-10-04T04:36:13Z"
         },
         {
           "name": "glm-runner",
@@ -242,7 +243,7 @@
           "agent_id": "1c3481f5-135b-4959-9daa-c510c076d494",
           "state": "working",
           "issue": "DWM-149",
-          "issue_title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单✓624 · 迁移中 3/6 · 迁移12.2h",
+          "issue_title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单✓624 · 迁移中 3/6 · 迁移12.3h",
           "since": "2026-10-04T04:20:12Z"
         },
         {
@@ -277,7 +278,7 @@
           "key": "DWM-149",
           "title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单✓624 · 迁移中 3/6",
           "status": "in_progress",
-          "updated_at": "2026-10-04T04:30:57Z"
+          "updated_at": "2026-10-04T04:36:17Z"
         },
         {
           "key": "DWM-158",
@@ -306,9 +307,9 @@
       ],
       "order": {
         "key": "DWM-149",
-        "title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单✓624 · 迁移中 3/6 · 迁移12.2h/18.0h",
+        "title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单✓624 · 迁移中 3/6 · 迁移12.3h/18.0h",
         "status": "in_progress",
-        "updated_at": "2026-10-04T04:30:57Z"
+        "updated_at": "2026-10-04T04:36:17Z"
       }
     },
     {
