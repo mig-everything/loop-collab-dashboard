@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T13:55:04Z",
+  "generated_at": "2026-10-04T13:58:51Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -17,9 +17,12 @@
           "role": "GPT Writer（执笔者）",
           "model": "",
           "agent_id": "58ed4647-32dd-4ca1-8ddc-194b975d6024",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "SUR-195",
+          "issue_title": "[SUR-193] 文献扩充核实+A/B/C新口径全库重分类（口径5修订）",
+          "since": "2026-10-04T13:58:11Z",
+          "parent_issue": "SUR-193",
+          "parent_title": "[目标调整] 范围扩大为LLM驱动代码迁移+Introduction重写+文献扩充核实（2026-10-04负责人三条要"
         },
         {
           "name": "kimi-adversary",
@@ -99,9 +102,10 @@
           "role": "GPT Scenarist",
           "model": "",
           "agent_id": "6e6f1e24-3bc5-455a-85d2-cb3fb6c9a672",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "BEN-153",
+          "issue_title": "[任务·第3轮] SC gold/test2/test3 binding 修复（ref BEN-148 移交，不依赖设备",
+          "since": "2026-10-04T13:56:46Z"
         },
         {
           "name": "glm-runner",
@@ -360,9 +364,9 @@
           "model": "zai:glm-5.3",
           "agent_id": "44fcec25-d8b3-4af6-b206-1774a64677ce",
           "state": "working",
-          "issue": "IPD-252",
-          "issue_title": "[Dev] Mac Mini 正式实例历史实验导入 + 重启核验历史页（口径9⑥，IPD-250 收尾项2）",
-          "since": "2026-10-04T13:49:06Z"
+          "issue": "IPD-251",
+          "issue_title": "[Dev] comparator 补齐 features 数据生产（口径9③，IPD-250 收尾项1）",
+          "since": "2026-10-04T13:49:05Z"
         },
         {
           "name": "hermes-tester",
@@ -380,10 +384,9 @@
           "role": "IPD-RM 发布经理",
           "model": "zai:glm-5.3",
           "agent_id": "78156461-9644-478e-9c80-53cd18e25e33",
-          "state": "working",
-          "issue": "IPD-254",
-          "issue_title": "[RM] 口径10 功能验证四件套固化为 UI/功能改动 DoD（IPD-250 收尾项4）",
-          "since": "2026-10-04T13:49:14Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "deepseek-planner",
@@ -401,19 +404,30 @@
           "role": "MiniMax 多模态 UI 视觉评审",
           "model": "minimax-cn:MiniMax-M3",
           "agent_id": "97f55294-90e0-4556-93af-a1cf44889574",
-          "state": "working",
-          "issue": "IPD-253",
-          "issue_title": "[uijudge] 新版详情页视觉复评（新 Rubric 四维度，IPD-250 收尾项3）",
-          "since": "2026-10-04T13:49:10Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         }
       ],
       "issue_counts": {
         "todo": 2,
-        "in_progress": 2,
-        "in_review": 3,
+        "in_progress": 1,
+        "in_review": 4,
         "done": 93
       },
       "latest_issues": [
+        {
+          "key": "IPD-253",
+          "title": "[uijudge] 新版详情页视觉复评（新 Rubric 四维度，IPD-250 收尾项3）",
+          "status": "todo",
+          "updated_at": "2026-10-04T13:57:26Z"
+        },
+        {
+          "key": "IPD-252",
+          "title": "[Dev] Mac Mini 正式实例历史实验导入 + 重启核验历史页（口径9⑥，IPD-250 收",
+          "status": "in_review",
+          "updated_at": "2026-10-04T13:56:49Z"
+        },
         {
           "key": "IPD-254",
           "title": "[RM] 口径10 功能验证四件套固化为 UI/功能改动 DoD（IPD-250 收尾项4）",
@@ -425,18 +439,6 @@
           "title": "[验收标准更新] Eazo 网页 UI 对比体验优化首批已落地（246c1cc），收尾：featur",
           "status": "in_progress",
           "updated_at": "2026-10-04T13:49:42Z"
-        },
-        {
-          "key": "IPD-252",
-          "title": "[Dev] Mac Mini 正式实例历史实验导入 + 重启核验历史页（口径9⑥，IPD-250 收",
-          "status": "in_progress",
-          "updated_at": "2026-10-04T13:49:35Z"
-        },
-        {
-          "key": "IPD-253",
-          "title": "[uijudge] 新版详情页视觉复评（新 Rubric 四维度，IPD-250 收尾项3）",
-          "status": "todo",
-          "updated_at": "2026-10-04T13:49:09Z"
         },
         {
           "key": "IPD-251",
