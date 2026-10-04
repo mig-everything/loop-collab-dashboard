@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T15:40:27Z",
+  "generated_at": "2026-10-04T15:51:31Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -152,7 +152,8 @@
           "agent_id": "33b902ee-a4ca-46ae-9284-c8285311c687",
           "state": "working",
           "issue": "",
-          "issue_title": ""
+          "issue_title": "",
+          "since": "2026-10-04T15:48:25Z"
         }
       ],
       "issue_counts": {
