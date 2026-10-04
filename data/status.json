@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T06:30:21Z",
+  "generated_at": "2026-10-04T06:34:04Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -100,9 +100,9 @@
           "model": "",
           "agent_id": "6e6f1e24-3bc5-455a-85d2-cb3fb6c9a672",
           "state": "working",
-          "issue": "BEN-131",
-          "issue_title": "[leader 直派] 安卓端三 App 复跑核验 + 未达满分修复优化专项（R4 实测 cofi 92.6% / SC",
-          "since": "2026-10-04T06:28:36Z"
+          "issue": "BEN-147",
+          "issue_title": "[任务·第2轮] AP 结构穿透集中修复 + 未校准 binding 校准（ref BEN-142）",
+          "since": "2026-10-04T06:20:37Z"
         },
         {
           "name": "glm-runner",
@@ -121,8 +121,9 @@
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "547cd361-ef50-4965-9477-bc659d8a1708",
           "state": "working",
-          "issue": "",
-          "issue_title": ""
+          "issue": "BEN-131",
+          "issue_title": "[leader 直派] 安卓端三 App 复跑核验 + 未达满分修复优化专项（R4 实测 cofi 92.6% / SC",
+          "since": "2026-10-04T06:33:43Z"
         },
         {
           "name": "minimax-visual-diff",
@@ -166,7 +167,7 @@
           "key": "BEN-131",
           "title": "[leader 直派] 安卓端三 App 复跑核验 + 未达满分修复优化专项（R4 实测 cofi ",
           "status": "in_review",
-          "updated_at": "2026-10-04T06:30:00Z"
+          "updated_at": "2026-10-04T06:33:27Z"
         },
         {
           "key": "BEN-135",
