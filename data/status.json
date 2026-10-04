@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T05:06:18Z",
+  "generated_at": "2026-10-04T05:09:56Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -99,9 +99,10 @@
           "role": "GPT Scenarist",
           "model": "",
           "agent_id": "6e6f1e24-3bc5-455a-85d2-cb3fb6c9a672",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "BEN-147",
+          "issue_title": "[任务·第2轮] AP 结构穿透集中修复 + 未校准 binding 校准（ref BEN-142）",
+          "since": "2026-10-04T05:09:44Z"
         },
         {
           "name": "glm-runner",
