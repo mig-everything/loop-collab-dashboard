@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T22:05:43Z",
+  "generated_at": "2026-10-04T22:16:32Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -164,16 +164,16 @@
       },
       "latest_issues": [
         {
+          "key": "BEN-135",
+          "title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 1",
+          "status": "in_progress",
+          "updated_at": "2026-10-04T22:13:10Z"
+        },
+        {
           "key": "BEN-164",
           "title": "[空闲检测] 2026-10-05 leader 两小时正点检查与加派",
           "status": "done",
           "updated_at": "2026-10-04T22:01:30Z"
-        },
-        {
-          "key": "BEN-135",
-          "title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 1",
-          "status": "in_progress",
-          "updated_at": "2026-10-04T21:49:26Z"
         },
         {
           "key": "BEN-161",
