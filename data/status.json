@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T02:28:37Z",
+  "generated_at": "2026-10-04T02:32:18Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -167,7 +167,7 @@
           "key": "BEN-136",
           "title": "[任务·线2 calendar] simple-calendar backfill 续修 + r6 ",
           "status": "in_progress",
-          "updated_at": "2026-10-04T02:26:19Z"
+          "updated_at": "2026-10-04T02:31:18Z"
         },
         {
           "key": "BEN-135",
@@ -243,7 +243,7 @@
           "agent_id": "1c3481f5-135b-4959-9daa-c510c076d494",
           "state": "working",
           "issue": "DWM-149",
-          "issue_title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单✓624 · 迁移中 3/6 · 迁移10.1h",
+          "issue_title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单✓624 · 迁移中 3/6 · 迁移10.2h",
           "since": "2026-10-04T00:57:41Z"
         },
         {
@@ -278,7 +278,7 @@
           "key": "DWM-149",
           "title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单✓624 · 迁移中 3/6",
           "status": "in_progress",
-          "updated_at": "2026-10-04T02:21:49Z"
+          "updated_at": "2026-10-04T02:32:18Z"
         },
         {
           "key": "DWM-156",
@@ -307,9 +307,9 @@
       ],
       "order": {
         "key": "DWM-149",
-        "title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单✓624 · 迁移中 3/6 · 迁移10.1h/12h",
+        "title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单✓624 · 迁移中 3/6 · 迁移10.2h/12h",
         "status": "in_progress",
-        "updated_at": "2026-10-04T02:21:49Z"
+        "updated_at": "2026-10-04T02:32:18Z"
       }
     },
     {
