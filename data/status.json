@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T03:56:15Z",
+  "generated_at": "2026-10-04T03:59:57Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -99,9 +99,10 @@
           "role": "GPT Scenarist",
           "model": "",
           "agent_id": "6e6f1e24-3bc5-455a-85d2-cb3fb6c9a672",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "BEN-131",
+          "issue_title": "[leader 直派] 安卓端三 App 复跑核验 + 未达满分修复优化专项（R4 实测 cofi 92.6% / SC",
+          "since": "2026-10-04T03:57:01Z"
         },
         {
           "name": "glm-runner",
@@ -109,10 +110,9 @@
           "role": "GLM Runner & Analyst",
           "model": "",
           "agent_id": "bdaefa9b-7045-4264-95e4-1db664e353d0",
-          "state": "working",
-          "issue": "BEN-131",
-          "issue_title": "[leader 直派] 安卓端三 App 复跑核验 + 未达满分修复优化专项（R4 实测 cofi 92.6% / SC",
-          "since": "2026-10-04T03:01:37Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "deepseek-planner",
@@ -163,16 +163,16 @@
       },
       "latest_issues": [
         {
+          "key": "BEN-131",
+          "title": "[leader 直派] 安卓端三 App 复跑核验 + 未达满分修复优化专项（R4 实测 cofi ",
+          "status": "in_progress",
+          "updated_at": "2026-10-04T03:58:08Z"
+        },
+        {
           "key": "BEN-136",
           "title": "[任务·线2 calendar] simple-calendar backfill 续修 + r6 ",
           "status": "in_review",
           "updated_at": "2026-10-04T03:21:01Z"
-        },
-        {
-          "key": "BEN-131",
-          "title": "[leader 直派] 安卓端三 App 复跑核验 + 未达满分修复优化专项（R4 实测 cofi ",
-          "status": "in_progress",
-          "updated_at": "2026-10-04T03:06:28Z"
         },
         {
           "key": "BEN-135",
@@ -220,9 +220,10 @@
           "role": "DeepSeek Planner（小组 leader/PM，",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "950ff614-521d-4e32-a02d-423d41a7b2b3",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "DWM-157",
+          "issue_title": "[午会纪要] 2026-10-04",
+          "since": "2026-10-04T04:00:07Z"
         },
         {
           "name": "dw-lead",
@@ -267,12 +268,18 @@
         }
       ],
       "issue_counts": {
-        "todo": 0,
+        "todo": 1,
         "in_progress": 1,
         "in_review": 0,
         "done": 63
       },
       "latest_issues": [
+        {
+          "key": "DWM-157",
+          "title": "[午会纪要] 2026-10-04",
+          "status": "todo",
+          "updated_at": "2026-10-04T04:00:06Z"
+        },
         {
           "key": "DWM-149",
           "title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单✓624 · 迁移中 3/6",
@@ -296,12 +303,6 @@
           "title": "[任务] SC-GATE-05 session JSON 截断套件层缺陷报告（DWM-147 建议1",
           "status": "done",
           "updated_at": "2026-10-04T00:01:32Z"
-        },
-        {
-          "key": "DWM-152",
-          "title": "[任务] MifareClassicTool 收口后差异分析 + §11.7 对抗评审 + DW 建",
-          "status": "done",
-          "updated_at": "2026-10-04T00:01:31Z"
         }
       ],
       "order": {
@@ -403,12 +404,18 @@
         }
       ],
       "issue_counts": {
-        "todo": 0,
+        "todo": 1,
         "in_progress": 1,
         "in_review": 2,
-        "done": 97
+        "done": 96
       },
       "latest_issues": [
+        {
+          "key": "IPD-241",
+          "title": "[午会纪要] 2026-10-04",
+          "status": "todo",
+          "updated_at": "2026-10-04T04:00:21Z"
+        },
         {
           "key": "IPD-240",
           "title": "[空闲检测] 2026-10-04 leader 两小时正点检查与加派",
@@ -432,12 +439,6 @@
           "title": "[巡检] 2026-10-04 leader Issue 状态巡检与催办",
           "status": "done",
           "updated_at": "2026-10-04T00:03:29Z"
-        },
-        {
-          "key": "IPD-236",
-          "title": "[PM·评审] REQ-010 五子棋 TR-Design 评审（C1~C6 闭合核验，六件套 @ ",
-          "status": "done",
-          "updated_at": "2026-10-04T00:03:12Z"
         }
       ]
     }
