@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T12:25:29Z",
+  "generated_at": "2026-10-04T12:29:19Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -17,9 +17,12 @@
           "role": "GPT Writer（执笔者）",
           "model": "",
           "agent_id": "58ed4647-32dd-4ca1-8ddc-194b975d6024",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "SUR-195",
+          "issue_title": "[SUR-193] 文献扩充核实+A/B/C新口径全库重分类（口径5修订）",
+          "since": "2026-10-04T12:28:06Z",
+          "parent_issue": "SUR-193",
+          "parent_title": "[目标调整] 范围扩大为LLM驱动代码迁移+Introduction重写+文献扩充核实（2026-10-04负责人三条要"
         },
         {
           "name": "kimi-adversary",
@@ -27,10 +30,9 @@
           "role": "Kimi Adversarial Reviewer（对抗评审",
           "model": "",
           "agent_id": "6e530cc6-6b9d-4398-936d-df9c13468125",
-          "state": "working",
-          "issue": "SUR-198",
-          "issue_title": "[SUR-194] 范围口径先行核验：范围一致性+Introduction重写专项评审（口径12/11，夜间并行）",
-          "since": "2026-10-04T12:09:42Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "deepseek-planner",
@@ -45,22 +47,22 @@
       ],
       "issue_counts": {
         "todo": 3,
-        "in_progress": 3,
-        "in_review": 0,
+        "in_progress": 2,
+        "in_review": 1,
         "done": 91
       },
       "latest_issues": [
+        {
+          "key": "SUR-198",
+          "title": "[SUR-194] 范围口径先行核验：范围一致性+Introduction重写专项评审（口径12/1",
+          "status": "in_review",
+          "updated_at": "2026-10-04T12:25:57Z"
+        },
         {
           "key": "SUR-197",
           "title": "[晚会日报] 2026-10-04",
           "status": "done",
           "updated_at": "2026-10-04T12:14:03Z"
-        },
-        {
-          "key": "SUR-198",
-          "title": "[SUR-194] 范围口径先行核验：范围一致性+Introduction重写专项评审（口径12/1",
-          "status": "in_progress",
-          "updated_at": "2026-10-04T12:10:06Z"
         },
         {
           "key": "SUR-191",
@@ -101,9 +103,9 @@
           "model": "",
           "agent_id": "6e6f1e24-3bc5-455a-85d2-cb3fb6c9a672",
           "state": "working",
-          "issue": "BEN-135",
-          "issue_title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 100（ref BEN",
-          "since": "2026-10-04T12:12:13Z"
+          "issue": "BEN-154",
+          "issue_title": "[任务·第3轮] AP 未校准 binding 250 + fixture 279 续修（ref BEN-147 断点，",
+          "since": "2026-10-04T12:06:58Z"
         },
         {
           "name": "glm-runner",
@@ -165,6 +167,12 @@
       },
       "latest_issues": [
         {
+          "key": "BEN-135",
+          "title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 1",
+          "status": "in_progress",
+          "updated_at": "2026-10-04T12:27:55Z"
+        },
+        {
           "key": "BEN-153",
           "title": "[任务·第3轮] SC gold/test2/test3 binding 修复（ref BEN-14",
           "status": "in_progress",
@@ -187,12 +195,6 @@
           "title": "[任务·第3轮] 口径⑥ R6 每日全链路复跑（ref BEN-131 里程碑后首轮）",
           "status": "in_progress",
           "updated_at": "2026-10-04T12:07:20Z"
-        },
-        {
-          "key": "BEN-148",
-          "title": "[任务·第2轮] simple-calendar v2 视觉差分（SC 98.6% 就位，ref B",
-          "status": "done",
-          "updated_at": "2026-10-04T12:06:07Z"
         }
       ]
     },
