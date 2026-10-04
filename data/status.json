@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T06:08:21Z",
+  "generated_at": "2026-10-04T06:12:00Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -27,10 +27,9 @@
           "role": "Kimi Adversarial Reviewer（对抗评审",
           "model": "",
           "agent_id": "6e530cc6-6b9d-4398-936d-df9c13468125",
-          "state": "working",
-          "issue": "SUR-186",
-          "issue_title": "[评审][day-10] 第 4 轮：独立复核范围拓宽（标题/摘要/关键词/§1）+ 编译回归 + Rubric",
-          "since": "2026-10-04T06:02:14Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "deepseek-planner",
@@ -45,22 +44,22 @@
       ],
       "issue_counts": {
         "todo": 2,
-        "in_progress": 2,
-        "in_review": 0,
+        "in_progress": 1,
+        "in_review": 1,
         "done": 96
       },
       "latest_issues": [
+        {
+          "key": "SUR-186",
+          "title": "[评审][day-10] 第 4 轮：独立复核范围拓宽（标题/摘要/关键词/§1）+ 编译回归 + ",
+          "status": "in_review",
+          "updated_at": "2026-10-04T06:11:34Z"
+        },
         {
           "key": "SUR-188",
           "title": "[空闲检测] 2026-10-04 leader 两小时正点检查与加派",
           "status": "done",
           "updated_at": "2026-10-04T06:02:46Z"
-        },
-        {
-          "key": "SUR-186",
-          "title": "[评审][day-10] 第 4 轮：独立复核范围拓宽（标题/摘要/关键词/§1）+ 编译回归 + ",
-          "status": "in_progress",
-          "updated_at": "2026-10-04T06:02:35Z"
         },
         {
           "key": "SUR-185",
