@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T16:54:23Z",
+  "generated_at": "2026-10-04T16:58:03Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -163,6 +163,12 @@
       },
       "latest_issues": [
         {
+          "key": "BEN-153",
+          "title": "[任务·第3轮] SC gold/test2/test3 binding 修复（ref BEN-14",
+          "status": "in_progress",
+          "updated_at": "2026-10-04T16:57:43Z"
+        },
+        {
           "key": "BEN-135",
           "title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 1",
           "status": "in_progress",
@@ -173,12 +179,6 @@
           "title": "[观察员日报] 2026-10-04 通过率与 Agent 时间轴",
           "status": "todo",
           "updated_at": "2026-10-04T16:49:23Z"
-        },
-        {
-          "key": "BEN-153",
-          "title": "[任务·第3轮] SC gold/test2/test3 binding 修复（ref BEN-14",
-          "status": "in_progress",
-          "updated_at": "2026-10-04T16:39:05Z"
         },
         {
           "key": "BEN-64",
