@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T11:44:53Z",
+  "generated_at": "2026-10-04T11:48:31Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -17,9 +17,12 @@
           "role": "GPT Writer（执笔者）",
           "model": "",
           "agent_id": "58ed4647-32dd-4ca1-8ddc-194b975d6024",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "SUR-195",
+          "issue_title": "[SUR-193] 文献扩充核实+A/B/C新口径全库重分类（口径5修订）",
+          "since": "2026-10-04T11:47:36Z",
+          "parent_issue": "SUR-193",
+          "parent_title": "[目标调整] 范围扩大为LLM驱动代码迁移+Introduction重写+文献扩充核实（2026-10-04负责人三条要"
         },
         {
           "name": "kimi-adversary",
@@ -249,9 +252,12 @@
           "role": "验证员",
           "model": "claude-opus-5-5",
           "agent_id": "69822c63-0dcc-4f3e-875d-7b300d437623",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "DWM-163",
+          "issue_title": "[DWM-149·wave1] NextPlayer 修复第 1 波（25 条）",
+          "since": "2026-10-04T11:46:06Z",
+          "parent_issue": "DWM-149",
+          "parent_title": "[DW迁移任务单] NextPlayer 迁移 · 修复 wave 1/4"
         },
         {
           "name": "exec-fixer",
@@ -259,12 +265,9 @@
           "role": "修复员",
           "model": "claude-opus-5-5",
           "agent_id": "cd70e713-a339-4621-8699-2058d9cf7d6b",
-          "state": "working",
-          "issue": "DWM-163",
-          "issue_title": "[DWM-149·wave1] NextPlayer 修复第 1 波（25 条）",
-          "since": "2026-10-04T10:22:36Z",
-          "parent_issue": "DWM-149",
-          "parent_title": "[DW迁移任务单] NextPlayer 迁移 · 修复 wave 1/4"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         }
       ],
       "issue_counts": {
