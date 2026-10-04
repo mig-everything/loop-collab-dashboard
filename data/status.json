@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T00:07:53Z",
+  "generated_at": "2026-10-04T00:11:33Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -110,9 +110,10 @@
           "role": "GLM Runner & Analyst",
           "model": "",
           "agent_id": "bdaefa9b-7045-4264-95e4-1db664e353d0",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "BEN-131",
+          "issue_title": "[leader 直派] 安卓端三 App 复跑核验 + 未达满分修复优化专项（R4 实测 cofi 92.6% / SC",
+          "since": "2026-10-04T00:10:01Z"
         },
         {
           "name": "deepseek-planner",
@@ -166,7 +167,7 @@
           "key": "BEN-131",
           "title": "[leader 直派] 安卓端三 App 复跑核验 + 未达满分修复优化专项（R4 实测 cofi ",
           "status": "in_progress",
-          "updated_at": "2026-10-04T00:02:29Z"
+          "updated_at": "2026-10-04T00:10:00Z"
         },
         {
           "key": "BEN-144",
@@ -327,10 +328,9 @@
           "role": "IPD-PM 产品经理",
           "model": "",
           "agent_id": "1764c131-5c09-48cb-aa48-3177d5256dbb",
-          "state": "working",
-          "issue": "IPD-238",
-          "issue_title": "[PM·第2轮续] REQ-010 五子棋 PRD v1.2 回写（移除 Top-K 引用，对齐契约 §5.1~5.3，",
-          "since": "2026-10-04T00:02:54Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "hermes-sa",
@@ -348,10 +348,9 @@
           "role": "IPD-SE 系统工程师",
           "model": "zai:glm-5.3",
           "agent_id": "b874ba6b-80e6-45c6-a8c6-aedc6f2b326b",
-          "state": "working",
-          "issue": "IPD-239",
-          "issue_title": "[SE·第2轮] REQ-010 五子棋 追踪矩阵 17-traceability-matrix-req010.md（回",
-          "since": "2026-10-04T00:02:56Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "hermes-dev",
@@ -406,28 +405,28 @@
       ],
       "issue_counts": {
         "todo": 0,
-        "in_progress": 3,
-        "in_review": 0,
+        "in_progress": 1,
+        "in_review": 2,
         "done": 97
       },
       "latest_issues": [
         {
           "key": "IPD-238",
           "title": "[PM·第2轮续] REQ-010 五子棋 PRD v1.2 回写（移除 Top-K 引用，对齐契约",
-          "status": "in_progress",
-          "updated_at": "2026-10-04T00:07:57Z"
+          "status": "in_review",
+          "updated_at": "2026-10-04T00:10:56Z"
+        },
+        {
+          "key": "IPD-239",
+          "title": "[SE·第2轮] REQ-010 五子棋 追踪矩阵 17-traceability-matrix-r",
+          "status": "in_review",
+          "updated_at": "2026-10-04T00:10:19Z"
         },
         {
           "key": "IPD-237",
           "title": "[巡检] 2026-10-04 leader Issue 状态巡检与催办",
           "status": "done",
           "updated_at": "2026-10-04T00:03:29Z"
-        },
-        {
-          "key": "IPD-239",
-          "title": "[SE·第2轮] REQ-010 五子棋 追踪矩阵 17-traceability-matrix-r",
-          "status": "in_progress",
-          "updated_at": "2026-10-04T00:03:24Z"
         },
         {
           "key": "IPD-236",
