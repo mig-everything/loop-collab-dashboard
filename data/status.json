@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T02:02:48Z",
+  "generated_at": "2026-10-04T02:06:29Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -17,9 +17,10 @@
           "role": "GPT Writer（执笔者）",
           "model": "",
           "agent_id": "58ed4647-32dd-4ca1-8ddc-194b975d6024",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "SUR-182",
+          "issue_title": "[任务][day-10] 第 3 轮：跨研究综合深化 + 篇幅压缩（④为主 ②辅助）+ 自然性残留收敛",
+          "since": "2026-10-04T02:05:39Z"
         },
         {
           "name": "kimi-adversary",
@@ -44,41 +45,41 @@
         }
       ],
       "issue_counts": {
-        "todo": 2,
+        "todo": 3,
         "in_progress": 1,
         "in_review": 0,
-        "done": 97
+        "done": 96
       },
       "latest_issues": [
         {
           "key": "SUR-180",
           "title": "[空闲检测] 2026-10-04 leader 两小时正点检查与加派",
+          "status": "done",
+          "updated_at": "2026-10-04T02:06:29Z"
+        },
+        {
+          "key": "SUR-181",
+          "title": "[临时会议·空闲加派] 2026-10-04 10点场",
+          "status": "done",
+          "updated_at": "2026-10-04T02:06:11Z"
+        },
+        {
+          "key": "SUR-183",
+          "title": "[评审][day-10] 独立复核第 3 轮综合深化+篇幅压缩（SUR-182 产出）+ 编译回归 ",
+          "status": "backlog",
+          "updated_at": "2026-10-04T02:05:43Z"
+        },
+        {
+          "key": "SUR-182",
+          "title": "[任务][day-10] 第 3 轮：跨研究综合深化 + 篇幅压缩（④为主 ②辅助）+ 自然性残留收",
           "status": "todo",
-          "updated_at": "2026-10-04T02:00:16Z"
+          "updated_at": "2026-10-04T02:05:39Z"
         },
         {
           "key": "SUR-179",
           "title": "[巡检] 2026-10-04 leader Issue 状态巡检与催办",
           "status": "done",
           "updated_at": "2026-10-04T00:03:58Z"
-        },
-        {
-          "key": "SUR-176",
-          "title": "[任务][day-10] O1 自然性清理：固定段落标签统一 + 去 AI 味 + 机械过渡 + 跨",
-          "status": "done",
-          "updated_at": "2026-10-04T00:03:20Z"
-        },
-        {
-          "key": "SUR-177",
-          "title": "[评审][day-10] 独立复核 O1 自然性清理（SUR-176 产出）+ 编译回归 + Rub",
-          "status": "done",
-          "updated_at": "2026-10-04T00:03:19Z"
-        },
-        {
-          "key": "SUR-175",
-          "title": "[空闲检测] 2026-10-04 leader 两小时正点检查与加派",
-          "status": "done",
-          "updated_at": "2026-10-03T22:08:57Z"
         }
       ],
       "progress_note": "day-4 晨 37% → 午 42% → 晚 44% → 夜 47%",
@@ -103,7 +104,7 @@
           "state": "working",
           "issue": "BEN-136",
           "issue_title": "[任务·线2 calendar] simple-calendar backfill 续修 + r6 收口（ref BEN",
-          "since": "2026-10-04T01:39:37Z"
+          "since": "2026-10-04T02:06:11Z"
         },
         {
           "name": "glm-runner",
@@ -244,7 +245,7 @@
           "agent_id": "1c3481f5-135b-4959-9daa-c510c076d494",
           "state": "working",
           "issue": "DWM-149",
-          "issue_title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单✓624 · 迁移中 3/6 · 迁移9.7h/",
+          "issue_title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单✓624 · 迁移中 3/6 · 迁移9.8h/",
           "since": "2026-10-04T00:57:41Z"
         },
         {
@@ -276,16 +277,16 @@
       },
       "latest_issues": [
         {
+          "key": "DWM-149",
+          "title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单✓624 · 迁移中 3/6",
+          "status": "in_progress",
+          "updated_at": "2026-10-04T02:06:03Z"
+        },
+        {
           "key": "DWM-156",
           "title": "[空闲检测] 2026-10-04 leader 两小时正点检查与加派",
           "status": "done",
           "updated_at": "2026-10-04T02:01:30Z"
-        },
-        {
-          "key": "DWM-149",
-          "title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单✓624 · 迁移中 3/6",
-          "status": "in_progress",
-          "updated_at": "2026-10-04T02:00:49Z"
         },
         {
           "key": "DWM-155",
@@ -308,9 +309,9 @@
       ],
       "order": {
         "key": "DWM-149",
-        "title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单✓624 · 迁移中 3/6 · 迁移9.7h/12h",
+        "title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单✓624 · 迁移中 3/6 · 迁移9.8h/12h",
         "status": "in_progress",
-        "updated_at": "2026-10-04T02:00:49Z"
+        "updated_at": "2026-10-04T02:06:03Z"
       }
     },
     {
