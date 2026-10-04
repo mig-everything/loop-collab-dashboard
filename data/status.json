@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T04:14:54Z",
+  "generated_at": "2026-10-04T04:18:37Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -164,16 +164,16 @@
       },
       "latest_issues": [
         {
+          "key": "BEN-147",
+          "title": "[任务·第2轮] AP 结构穿透集中修复 + 未校准 binding 校准（ref BEN-142）",
+          "status": "in_progress",
+          "updated_at": "2026-10-04T04:16:07Z"
+        },
+        {
           "key": "BEN-146",
           "title": "[午会纪要] 2026-10-04",
           "status": "done",
           "updated_at": "2026-10-04T04:12:52Z"
-        },
-        {
-          "key": "BEN-147",
-          "title": "[任务·第2轮] AP 结构穿透集中修复 + 未校准 binding 校准（ref BEN-142）",
-          "status": "in_progress",
-          "updated_at": "2026-10-04T04:09:30Z"
         },
         {
           "key": "BEN-148",
@@ -241,10 +241,9 @@
           "role": "运行员",
           "model": "claude-opus-5-5",
           "agent_id": "1c3481f5-135b-4959-9daa-c510c076d494",
-          "state": "working",
-          "issue": "DWM-149",
-          "issue_title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单✓624 · 迁移中 3/6 · 迁移11.9h",
-          "since": "2026-10-04T02:41:11Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "exec-verifier",
@@ -278,7 +277,7 @@
           "key": "DWM-149",
           "title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单✓624 · 迁移中 3/6",
           "status": "in_progress",
-          "updated_at": "2026-10-04T04:11:09Z"
+          "updated_at": "2026-10-04T04:16:26Z"
         },
         {
           "key": "DWM-158",
@@ -307,9 +306,9 @@
       ],
       "order": {
         "key": "DWM-149",
-        "title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单✓624 · 迁移中 3/6 · 迁移11.9h/18.0h",
+        "title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单✓624 · 迁移中 3/6 · 迁移12.0h/18.0h",
         "status": "in_progress",
-        "updated_at": "2026-10-04T04:11:09Z"
+        "updated_at": "2026-10-04T04:16:26Z"
       }
     },
     {
@@ -360,9 +359,8 @@
           "model": "zai:glm-5.3",
           "agent_id": "44fcec25-d8b3-4af6-b206-1774a64677ce",
           "state": "working",
-          "issue": "IPD-242",
-          "issue_title": "[Dev·第3轮] REQ-010 五子棋双端编码（契约 e8d58f5 + 矩阵 e85a0d8，第 10 场景主线 ",
-          "since": "2026-10-04T04:06:15Z"
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "hermes-tester",
@@ -370,10 +368,9 @@
           "role": "IPD-Tester 测试工程师",
           "model": "zai:glm-5.3",
           "agent_id": "86df9f14-a2cd-46d9-ad15-dbe8606ebd73",
-          "state": "working",
-          "issue": "IPD-243",
-          "issue_title": "[Tester·第3轮] REQ-010 五子棋差分用例清单 + 差分断言（TDD 先行 · 契约 §6 + AC-G1",
-          "since": "2026-10-04T04:06:18Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "hermes-rm",
@@ -408,11 +405,17 @@
       ],
       "issue_counts": {
         "todo": 1,
-        "in_progress": 2,
-        "in_review": 1,
+        "in_progress": 1,
+        "in_review": 2,
         "done": 96
       },
       "latest_issues": [
+        {
+          "key": "IPD-243",
+          "title": "[Tester·第3轮] REQ-010 五子棋差分用例清单 + 差分断言（TDD 先行 · 契约 ",
+          "status": "in_review",
+          "updated_at": "2026-10-04T04:18:24Z"
+        },
         {
           "key": "IPD-244",
           "title": "[流程优化 Opt-018] 文档冲突优先级规则 + 三方一致性全局校验（借鉴 AI PRD Wor",
@@ -430,12 +433,6 @@
           "title": "[午会纪要] 2026-10-04",
           "status": "done",
           "updated_at": "2026-10-04T04:08:03Z"
-        },
-        {
-          "key": "IPD-243",
-          "title": "[Tester·第3轮] REQ-010 五子棋差分用例清单 + 差分断言（TDD 先行 · 契约 ",
-          "status": "in_progress",
-          "updated_at": "2026-10-04T04:07:07Z"
         },
         {
           "key": "IPD-242",
