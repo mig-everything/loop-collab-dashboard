@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T02:06:29Z",
+  "generated_at": "2026-10-04T02:10:11Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -38,19 +38,24 @@
           "role": "DeepSeek Task Planner（任务规划+总结）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "04a4e04e-59d5-4f3a-8a16-acf99b80a493",
-          "state": "working",
-          "issue": "SUR-180",
-          "issue_title": "[空闲检测] 2026-10-04 leader 两小时正点检查与加派",
-          "since": "2026-10-04T02:00:17Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         }
       ],
       "issue_counts": {
-        "todo": 3,
-        "in_progress": 1,
+        "todo": 2,
+        "in_progress": 2,
         "in_review": 0,
         "done": 96
       },
       "latest_issues": [
+        {
+          "key": "SUR-182",
+          "title": "[任务][day-10] 第 3 轮：跨研究综合深化 + 篇幅压缩（④为主 ②辅助）+ 自然性残留收",
+          "status": "in_progress",
+          "updated_at": "2026-10-04T02:08:15Z"
+        },
         {
           "key": "SUR-180",
           "title": "[空闲检测] 2026-10-04 leader 两小时正点检查与加派",
@@ -68,12 +73,6 @@
           "title": "[评审][day-10] 独立复核第 3 轮综合深化+篇幅压缩（SUR-182 产出）+ 编译回归 ",
           "status": "backlog",
           "updated_at": "2026-10-04T02:05:43Z"
-        },
-        {
-          "key": "SUR-182",
-          "title": "[任务][day-10] 第 3 轮：跨研究综合深化 + 篇幅压缩（④为主 ②辅助）+ 自然性残留收",
-          "status": "todo",
-          "updated_at": "2026-10-04T02:05:39Z"
         },
         {
           "key": "SUR-179",
