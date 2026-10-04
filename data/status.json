@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T13:43:38Z",
+  "generated_at": "2026-10-04T13:47:28Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -17,12 +17,9 @@
           "role": "GPT Writer（执笔者）",
           "model": "",
           "agent_id": "58ed4647-32dd-4ca1-8ddc-194b975d6024",
-          "state": "working",
-          "issue": "SUR-195",
-          "issue_title": "[SUR-193] 文献扩充核实+A/B/C新口径全库重分类（口径5修订）",
-          "since": "2026-10-04T13:42:06Z",
-          "parent_issue": "SUR-193",
-          "parent_title": "[目标调整] 范围扩大为LLM驱动代码迁移+Introduction重写+文献扩充核实（2026-10-04负责人三条要"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "kimi-adversary",
@@ -393,9 +390,10 @@
           "role": "DeepSeek Planner（小组 leader/PM ",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-250",
+          "issue_title": "[验收标准更新] Eazo 网页 UI 对比体验优化首批已落地（246c1cc），收尾：features数据生产/Mac",
+          "since": "2026-10-04T13:45:32Z"
         },
         {
           "name": "minimax-uijudge",
@@ -409,12 +407,18 @@
         }
       ],
       "issue_counts": {
-        "todo": 0,
+        "todo": 1,
         "in_progress": 0,
         "in_review": 2,
-        "done": 98
+        "done": 97
       },
       "latest_issues": [
+        {
+          "key": "IPD-250",
+          "title": "[验收标准更新] Eazo 网页 UI 对比体验优化首批已落地（246c1cc），收尾：featur",
+          "status": "todo",
+          "updated_at": "2026-10-04T13:45:30Z"
+        },
         {
           "key": "IPD-249",
           "title": "[流程优化 Opt-019] 提交真实性双路核验纪律 + context 治理（借鉴 LightRS",
@@ -438,12 +442,6 @@
           "title": "[空闲检测] 2026-10-04 leader 两小时正点检查与加派",
           "status": "done",
           "updated_at": "2026-10-04T10:02:14Z"
-        },
-        {
-          "key": "IPD-246",
-          "title": "[巡检] 2026-10-04 leader Issue 状态巡检与催办",
-          "status": "done",
-          "updated_at": "2026-10-04T08:04:03Z"
         }
       ]
     }
