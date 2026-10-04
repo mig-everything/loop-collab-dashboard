@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T20:02:00Z",
+  "generated_at": "2026-10-04T20:05:43Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -100,10 +100,9 @@
           "role": "GPT Scenarist",
           "model": "",
           "agent_id": "6e6f1e24-3bc5-455a-85d2-cb3fb6c9a672",
-          "state": "working",
-          "issue": "BEN-135",
-          "issue_title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 100（ref BEN",
-          "since": "2026-10-04T19:55:36Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "glm-runner",
@@ -165,16 +164,16 @@
       },
       "latest_issues": [
         {
+          "key": "BEN-135",
+          "title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 1",
+          "status": "in_progress",
+          "updated_at": "2026-10-04T20:02:47Z"
+        },
+        {
           "key": "BEN-160",
           "title": "[早会纪要] 2026-10-05",
           "status": "todo",
           "updated_at": "2026-10-04T20:00:19Z"
-        },
-        {
-          "key": "BEN-135",
-          "title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 1",
-          "status": "in_progress",
-          "updated_at": "2026-10-04T19:40:24Z"
         },
         {
           "key": "BEN-159",
@@ -202,8 +201,8 @@
       "workspace": "ws-dw-migration-loop",
       "machine": "奕棣 MacBook",
       "machine_online": true,
-      "meeting_active": false,
-      "meeting_title": "",
+      "meeting_active": true,
+      "meeting_title": "[早会纪要] 2026-10-05",
       "progress": 22,
       "agents": [
         {
@@ -212,7 +211,7 @@
           "role": "Opus Analyzer",
           "model": "claude-opus-5-5",
           "agent_id": "2f32549c-87c7-4202-8f54-3af79a30afa0",
-          "state": "idle",
+          "state": "meeting",
           "issue": "",
           "issue_title": ""
         },
@@ -233,7 +232,7 @@
           "role": "DW 迁移执行小队队长",
           "model": "claude-opus-5-5",
           "agent_id": "c6ff7c69-0db4-4b35-ac81-dd00e5a53ba4",
-          "state": "idle",
+          "state": "meeting",
           "issue": "",
           "issue_title": ""
         },
@@ -243,7 +242,7 @@
           "role": "运行员",
           "model": "claude-opus-5-5",
           "agent_id": "1c3481f5-135b-4959-9daa-c510c076d494",
-          "state": "idle",
+          "state": "meeting",
           "issue": "",
           "issue_title": ""
         },
@@ -266,14 +265,14 @@
           "role": "修复员",
           "model": "claude-opus-5-5",
           "agent_id": "cd70e713-a339-4621-8699-2058d9cf7d6b",
-          "state": "idle",
+          "state": "meeting",
           "issue": "",
           "issue_title": ""
         }
       ],
       "issue_counts": {
-        "todo": 2,
-        "in_progress": 1,
+        "todo": 1,
+        "in_progress": 2,
         "in_review": 0,
         "done": 61
       },
@@ -281,8 +280,8 @@
         {
           "key": "DWM-172",
           "title": "[早会纪要] 2026-10-05",
-          "status": "todo",
-          "updated_at": "2026-10-04T20:00:14Z"
+          "status": "in_progress",
+          "updated_at": "2026-10-04T20:05:23Z"
         },
         {
           "key": "DWM-171",
