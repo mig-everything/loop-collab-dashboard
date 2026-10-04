@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T16:58:03Z",
+  "generated_at": "2026-10-04T17:01:42Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -102,7 +102,7 @@
           "state": "working",
           "issue": "BEN-153",
           "issue_title": "[任务·第3轮] SC gold/test2/test3 binding 修复（ref BEN-148 移交，不依赖设备",
-          "since": "2026-10-04T16:43:07Z"
+          "since": "2026-10-04T17:01:39Z"
         },
         {
           "name": "glm-runner",
@@ -166,7 +166,7 @@
           "key": "BEN-153",
           "title": "[任务·第3轮] SC gold/test2/test3 binding 修复（ref BEN-14",
           "status": "in_progress",
-          "updated_at": "2026-10-04T16:57:43Z"
+          "updated_at": "2026-10-04T16:58:21Z"
         },
         {
           "key": "BEN-135",
