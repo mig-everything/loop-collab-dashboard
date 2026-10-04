@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T20:42:37Z",
+  "generated_at": "2026-10-04T20:53:27Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -99,10 +99,9 @@
           "role": "GPT Scenarist",
           "model": "",
           "agent_id": "6e6f1e24-3bc5-455a-85d2-cb3fb6c9a672",
-          "state": "working",
-          "issue": "BEN-135",
-          "issue_title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 100（ref BEN",
-          "since": "2026-10-04T20:40:35Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "glm-runner",
@@ -158,22 +157,22 @@
       ],
       "issue_counts": {
         "todo": 2,
-        "in_progress": 3,
+        "in_progress": 2,
         "in_review": 0,
-        "done": 80
+        "done": 81
       },
       "latest_issues": [
         {
           "key": "BEN-161",
           "title": "[任务·第1轮] AP ③a 杠杆：结构穿透495+未校准244+fixture268 续修（ref",
-          "status": "in_progress",
-          "updated_at": "2026-10-04T20:26:37Z"
+          "status": "done",
+          "updated_at": "2026-10-04T20:51:43Z"
         },
         {
           "key": "BEN-135",
           "title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 1",
           "status": "in_progress",
-          "updated_at": "2026-10-04T20:25:29Z"
+          "updated_at": "2026-10-04T20:50:48Z"
         },
         {
           "key": "BEN-162",
