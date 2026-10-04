@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T14:25:26Z",
+  "generated_at": "2026-10-04T14:29:15Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -362,10 +362,9 @@
           "role": "IPD-Dev 开发工程师",
           "model": "zai:glm-5.3",
           "agent_id": "44fcec25-d8b3-4af6-b206-1774a64677ce",
-          "state": "working",
-          "issue": "IPD-251",
-          "issue_title": "[Dev] comparator 补齐 features 数据生产（口径9③，IPD-250 收尾项1）",
-          "since": "2026-10-04T13:49:05Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "hermes-tester",
@@ -416,6 +415,12 @@
       },
       "latest_issues": [
         {
+          "key": "IPD-251",
+          "title": "[Dev] comparator 补齐 features 数据生产（口径9③，IPD-250 收尾项",
+          "status": "todo",
+          "updated_at": "2026-10-04T14:26:43Z"
+        },
+        {
           "key": "IPD-250",
           "title": "[验收标准更新] Eazo 网页 UI 对比体验优化首批已落地（246c1cc），收尾：featur",
           "status": "in_progress",
@@ -438,12 +443,6 @@
           "title": "[Dev] Mac Mini 正式实例历史实验导入 + 重启核验历史页（口径9⑥，IPD-250 收",
           "status": "in_review",
           "updated_at": "2026-10-04T13:56:49Z"
-        },
-        {
-          "key": "IPD-254",
-          "title": "[RM] 口径10 功能验证四件套固化为 UI/功能改动 DoD（IPD-250 收尾项4）",
-          "status": "in_review",
-          "updated_at": "2026-10-04T13:55:26Z"
         }
       ]
     }
