@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T21:51:10Z",
+  "generated_at": "2026-10-04T22:02:03Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -50,6 +50,12 @@
       },
       "latest_issues": [
         {
+          "key": "SUR-205",
+          "title": "[空闲检测] 2026-10-05 leader 两小时正点检查与加派",
+          "status": "done",
+          "updated_at": "2026-10-04T22:01:20Z"
+        },
+        {
           "key": "SUR-203",
           "title": "[晨会纪要] 2026-10-05",
           "status": "done",
@@ -72,12 +78,6 @@
           "title": "[流程优化] Opt-018：串行链评审单被下游阻塞时先行拆分评审可评审部分（次日验证）",
           "status": "done",
           "updated_at": "2026-10-04T20:16:31Z"
-        },
-        {
-          "key": "SUR-187",
-          "title": "[流程优化] 2026-10-04 午会产出 1 项（Opt-017 内容维度决定性检查脚本化），次",
-          "status": "done",
-          "updated_at": "2026-10-04T20:16:29Z"
         }
       ],
       "progress_note": "day-4 晨 37% → 午 42% → 晚 44% → 夜 47%",
@@ -163,6 +163,12 @@
       },
       "latest_issues": [
         {
+          "key": "BEN-164",
+          "title": "[空闲检测] 2026-10-05 leader 两小时正点检查与加派",
+          "status": "done",
+          "updated_at": "2026-10-04T22:01:30Z"
+        },
+        {
           "key": "BEN-135",
           "title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 1",
           "status": "in_progress",
@@ -185,12 +191,6 @@
           "title": "[早会纪要] 2026-10-05",
           "status": "done",
           "updated_at": "2026-10-04T20:07:33Z"
-        },
-        {
-          "key": "BEN-163",
-          "title": "[任务·第1轮] 口径⑥ R7 全链路复跑 + gold anchor fresh 保真度复测（re",
-          "status": "in_progress",
-          "updated_at": "2026-10-04T20:07:03Z"
         }
       ]
     },
@@ -276,6 +276,12 @@
       },
       "latest_issues": [
         {
+          "key": "DWM-174",
+          "title": "[空闲检测] 2026-10-05 leader 两小时正点检查与加派",
+          "status": "done",
+          "updated_at": "2026-10-04T22:02:09Z"
+        },
+        {
           "key": "DWM-149",
           "title": "[DW迁移任务单] NextPlayer 迁移 · 修复 wave 4/4",
           "status": "in_progress",
@@ -298,12 +304,6 @@
           "title": "[晚会纪要] 2026-10-04",
           "status": "done",
           "updated_at": "2026-10-04T20:11:58Z"
-        },
-        {
-          "key": "DWM-171",
-          "title": "[空闲检测] 2026-10-05 leader 两小时正点检查与加派",
-          "status": "done",
-          "updated_at": "2026-10-04T18:02:26Z"
         }
       ],
       "order": {
@@ -389,9 +389,10 @@
           "role": "DeepSeek Planner（小组 leader/PM ",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-262",
+          "issue_title": "[空闲检测] 2026-10-05 leader 两小时正点检查与加派",
+          "since": "2026-10-04T22:00:23Z"
         },
         {
           "name": "minimax-uijudge",
@@ -405,12 +406,18 @@
         }
       ],
       "issue_counts": {
-        "todo": 0,
+        "todo": 1,
         "in_progress": 3,
         "in_review": 2,
-        "done": 95
+        "done": 94
       },
       "latest_issues": [
+        {
+          "key": "IPD-262",
+          "title": "[空闲检测] 2026-10-05 leader 两小时正点检查与加派",
+          "status": "todo",
+          "updated_at": "2026-10-04T22:00:22Z"
+        },
         {
           "key": "IPD-259",
           "title": "[Tester] REQ-010 五子棋 TR-Accept 差分执行 + 双端对比报告（第10场景",
@@ -434,12 +441,6 @@
           "title": "[PM] REQ-011 第11场景需求发布 + PRD + TR-Req（扩充需求类型覆盖）",
           "status": "in_review",
           "updated_at": "2026-10-04T20:18:22Z"
-        },
-        {
-          "key": "IPD-258",
-          "title": "[早会纪要] 2026-10-05",
-          "status": "done",
-          "updated_at": "2026-10-04T20:14:38Z"
         }
       ]
     }
