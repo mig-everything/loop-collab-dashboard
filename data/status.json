@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T23:03:32Z",
+  "generated_at": "2026-10-04T23:07:13Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -264,12 +264,9 @@
           "role": "修复员",
           "model": "claude-opus-5-5",
           "agent_id": "cd70e713-a339-4621-8699-2058d9cf7d6b",
-          "state": "working",
-          "issue": "DWM-176",
-          "issue_title": "[DWM-149·债务归因] NextPlayer 修复阶段债务归因",
-          "since": "2026-10-04T22:39:08Z",
-          "parent_issue": "DWM-149",
-          "parent_title": "[DW迁移任务单] NextPlayer 迁移 · 终验"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         }
       ],
       "issue_counts": {
@@ -283,7 +280,7 @@
           "key": "DWM-149",
           "title": "[DW迁移任务单] NextPlayer 迁移 · 终验",
           "status": "in_progress",
-          "updated_at": "2026-10-04T22:39:20Z"
+          "updated_at": "2026-10-04T23:04:43Z"
         },
         {
           "key": "DWM-174",
@@ -314,7 +311,7 @@
         "key": "DWM-149",
         "title": "[DW迁移任务单] NextPlayer 迁移 · 终验",
         "status": "in_progress",
-        "updated_at": "2026-10-04T22:39:20Z"
+        "updated_at": "2026-10-04T23:04:43Z"
       }
     },
     {
