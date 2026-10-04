@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T06:04:41Z",
+  "generated_at": "2026-10-04T06:08:21Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -243,7 +243,7 @@
           "agent_id": "1c3481f5-135b-4959-9daa-c510c076d494",
           "state": "working",
           "issue": "DWM-149",
-          "issue_title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单✓624 · 迁移中 4/6 · 迁移13.7h",
+          "issue_title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单✓624 · 迁移中 4/6 · 迁移13.8h",
           "since": "2026-10-04T06:02:42Z"
         },
         {
@@ -275,16 +275,16 @@
       },
       "latest_issues": [
         {
+          "key": "DWM-149",
+          "title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单✓624 · 迁移中 4/6",
+          "status": "in_progress",
+          "updated_at": "2026-10-04T06:08:15Z"
+        },
+        {
           "key": "DWM-159",
           "title": "[空闲检测] 2026-10-04 leader 两小时正点检查与加派",
           "status": "done",
           "updated_at": "2026-10-04T06:02:29Z"
-        },
-        {
-          "key": "DWM-149",
-          "title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单✓624 · 迁移中 4/6",
-          "status": "in_progress",
-          "updated_at": "2026-10-04T05:59:05Z"
         },
         {
           "key": "DWM-158",
@@ -307,9 +307,9 @@
       ],
       "order": {
         "key": "DWM-149",
-        "title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单✓624 · 迁移中 4/6 · 迁移13.7h/18.0h",
+        "title": "[DW迁移任务单] NextPlayer 迁移 · 清单+迁移 · 清单✓624 · 迁移中 4/6 · 迁移13.8h/18.0h",
         "status": "in_progress",
-        "updated_at": "2026-10-04T05:59:05Z"
+        "updated_at": "2026-10-04T06:08:15Z"
       }
     },
     {
