@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T16:39:45Z",
+  "generated_at": "2026-10-04T16:43:24Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -99,9 +99,10 @@
           "role": "GPT Scenarist",
           "model": "",
           "agent_id": "6e6f1e24-3bc5-455a-85d2-cb3fb6c9a672",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "BEN-153",
+          "issue_title": "[任务·第3轮] SC gold/test2/test3 binding 修复（ref BEN-148 移交，不依赖设备",
+          "since": "2026-10-04T16:43:07Z"
         },
         {
           "name": "glm-runner",
@@ -149,9 +150,10 @@
           "role": "只读洞察项目目标与执行证据，用简单语言汇报进展、偏差和阻塞，",
           "model": "gpt-6-astra",
           "agent_id": "33b902ee-a4ca-46ae-9284-c8285311c687",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "BEN-158",
+          "issue_title": "[观察员日报] 2026-10-04 通过率与 Agent 时间轴",
+          "since": "2026-10-04T16:40:00Z"
         }
       ],
       "issue_counts": {
@@ -162,16 +164,16 @@
       },
       "latest_issues": [
         {
+          "key": "BEN-158",
+          "title": "[观察员日报] 2026-10-04 通过率与 Agent 时间轴",
+          "status": "todo",
+          "updated_at": "2026-10-04T16:39:59Z"
+        },
+        {
           "key": "BEN-153",
           "title": "[任务·第3轮] SC gold/test2/test3 binding 修复（ref BEN-14",
           "status": "in_progress",
           "updated_at": "2026-10-04T16:39:05Z"
-        },
-        {
-          "key": "BEN-158",
-          "title": "[观察员日报] 2026-10-04 通过率与 Agent 时间轴",
-          "status": "todo",
-          "updated_at": "2026-10-04T16:28:21Z"
         },
         {
           "key": "BEN-64",
