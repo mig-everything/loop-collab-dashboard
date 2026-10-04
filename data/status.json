@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T10:27:12Z",
+  "generated_at": "2026-10-04T10:31:11Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -40,10 +40,9 @@
           "role": "DeepSeek Task Planner（任务规划+总结）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "04a4e04e-59d5-4f3a-8a16-acf99b80a493",
-          "state": "working",
-          "issue": "SUR-193",
-          "issue_title": "[目标调整] 范围扩大为LLM驱动代码迁移+Introduction重写+文献扩充核实（2026-10-04负责人三条要",
-          "since": "2026-10-04T10:26:19Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         }
       ],
       "issue_counts": {
@@ -57,7 +56,7 @@
           "key": "SUR-193",
           "title": "[目标调整] 范围扩大为LLM驱动代码迁移+Introduction重写+文献扩充核实（2026-1",
           "status": "in_progress",
-          "updated_at": "2026-10-04T10:14:12Z"
+          "updated_at": "2026-10-04T10:27:28Z"
         },
         {
           "key": "SUR-192",
@@ -103,9 +102,10 @@
           "role": "GPT Scenarist",
           "model": "",
           "agent_id": "6e6f1e24-3bc5-455a-85d2-cb3fb6c9a672",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "BEN-135",
+          "issue_title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 100（ref BEN",
+          "since": "2026-10-04T10:28:37Z"
         },
         {
           "name": "glm-runner",
