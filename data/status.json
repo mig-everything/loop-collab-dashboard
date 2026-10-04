@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T13:32:16Z",
+  "generated_at": "2026-10-04T13:36:02Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -17,9 +17,12 @@
           "role": "GPT Writer（执笔者）",
           "model": "",
           "agent_id": "58ed4647-32dd-4ca1-8ddc-194b975d6024",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "SUR-195",
+          "issue_title": "[SUR-193] 文献扩充核实+A/B/C新口径全库重分类（口径5修订）",
+          "since": "2026-10-04T13:34:06Z",
+          "parent_issue": "SUR-193",
+          "parent_title": "[目标调整] 范围扩大为LLM驱动代码迁移+Introduction重写+文献扩充核实（2026-10-04负责人三条要"
         },
         {
           "name": "kimi-adversary",
@@ -231,10 +234,9 @@
           "role": "DW 迁移执行小队队长",
           "model": "claude-opus-5-5",
           "agent_id": "c6ff7c69-0db4-4b35-ac81-dd00e5a53ba4",
-          "state": "working",
-          "issue": "DWM-149",
-          "issue_title": "[DW迁移任务单] NextPlayer 迁移 · 修复 wave 1/4",
-          "since": "2026-10-04T13:31:58Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "exec-runner",
@@ -262,23 +264,26 @@
           "role": "修复员",
           "model": "claude-opus-5-5",
           "agent_id": "cd70e713-a339-4621-8699-2058d9cf7d6b",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "DWM-167",
+          "issue_title": "[DWM-149·wave2] NextPlayer 修复第 2 波（37 条）",
+          "since": "2026-10-04T13:33:15Z",
+          "parent_issue": "DWM-149",
+          "parent_title": "[DW迁移任务单] NextPlayer 迁移 · 修复 wave 2/4"
         }
       ],
       "issue_counts": {
         "todo": 1,
         "in_progress": 1,
         "in_review": 0,
-        "done": 63
+        "done": 62
       },
       "latest_issues": [
         {
           "key": "DWM-149",
-          "title": "[DW迁移任务单] NextPlayer 迁移 · 修复 wave 1/4",
+          "title": "[DW迁移任务单] NextPlayer 迁移 · 修复 wave 2/4",
           "status": "in_progress",
-          "updated_at": "2026-10-04T13:31:57Z"
+          "updated_at": "2026-10-04T13:33:32Z"
         },
         {
           "key": "DWM-166",
@@ -307,9 +312,9 @@
       ],
       "order": {
         "key": "DWM-149",
-        "title": "[DW迁移任务单] NextPlayer 迁移 · 修复 wave 1/4",
+        "title": "[DW迁移任务单] NextPlayer 迁移 · 修复 wave 2/4",
         "status": "in_progress",
-        "updated_at": "2026-10-04T13:31:57Z"
+        "updated_at": "2026-10-04T13:33:32Z"
       }
     },
     {
