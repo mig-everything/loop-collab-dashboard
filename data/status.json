@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T22:02:03Z",
+  "generated_at": "2026-10-04T22:05:43Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -99,9 +99,10 @@
           "role": "GPT Scenarist",
           "model": "",
           "agent_id": "6e6f1e24-3bc5-455a-85d2-cb3fb6c9a672",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "BEN-135",
+          "issue_title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 100（ref BEN",
+          "since": "2026-10-04T22:04:35Z"
         },
         {
           "name": "glm-runner",
@@ -389,10 +390,9 @@
           "role": "DeepSeek Planner（小组 leader/PM ",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
-          "state": "working",
-          "issue": "IPD-262",
-          "issue_title": "[空闲检测] 2026-10-05 leader 两小时正点检查与加派",
-          "since": "2026-10-04T22:00:23Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "minimax-uijudge",
@@ -406,17 +406,17 @@
         }
       ],
       "issue_counts": {
-        "todo": 1,
+        "todo": 0,
         "in_progress": 3,
         "in_review": 2,
-        "done": 94
+        "done": 95
       },
       "latest_issues": [
         {
           "key": "IPD-262",
           "title": "[空闲检测] 2026-10-05 leader 两小时正点检查与加派",
-          "status": "todo",
-          "updated_at": "2026-10-04T22:00:22Z"
+          "status": "done",
+          "updated_at": "2026-10-04T22:02:44Z"
         },
         {
           "key": "IPD-259",
