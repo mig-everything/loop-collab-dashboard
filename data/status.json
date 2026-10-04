@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T20:28:06Z",
+  "generated_at": "2026-10-04T20:31:45Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -99,9 +99,10 @@
           "role": "GPT Scenarist",
           "model": "",
           "agent_id": "6e6f1e24-3bc5-455a-85d2-cb3fb6c9a672",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "BEN-161",
+          "issue_title": "[任务·第1轮] AP ③a 杠杆：结构穿透495+未校准244+fixture268 续修（ref BEN-154）",
+          "since": "2026-10-04T20:30:36Z"
         },
         {
           "name": "glm-runner",
