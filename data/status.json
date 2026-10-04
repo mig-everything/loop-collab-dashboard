@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T02:17:34Z",
+  "generated_at": "2026-10-04T02:21:15Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -100,9 +100,10 @@
           "role": "GPT Scenarist",
           "model": "",
           "agent_id": "6e6f1e24-3bc5-455a-85d2-cb3fb6c9a672",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "BEN-136",
+          "issue_title": "[任务·线2 calendar] simple-calendar backfill 续修 + r6 收口（ref BEN",
+          "since": "2026-10-04T02:20:06Z"
         },
         {
           "name": "glm-runner",
