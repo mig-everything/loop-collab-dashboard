@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T14:02:36Z",
+  "generated_at": "2026-10-04T14:06:22Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -17,9 +17,12 @@
           "role": "GPT Writer（执笔者）",
           "model": "",
           "agent_id": "58ed4647-32dd-4ca1-8ddc-194b975d6024",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "SUR-195",
+          "issue_title": "[SUR-193] 文献扩充核实+A/B/C新口径全库重分类（口径5修订）",
+          "since": "2026-10-04T14:05:06Z",
+          "parent_issue": "SUR-193",
+          "parent_title": "[目标调整] 范围扩大为LLM驱动代码迁移+Introduction重写+文献扩充核实（2026-10-04负责人三条要"
         },
         {
           "name": "kimi-adversary",
@@ -110,10 +113,9 @@
           "role": "GLM Runner & Analyst",
           "model": "",
           "agent_id": "bdaefa9b-7045-4264-95e4-1db664e353d0",
-          "state": "working",
-          "issue": "BEN-155",
-          "issue_title": "[任务·第3轮] 口径⑥ R6 每日全链路复跑（ref BEN-131 里程碑后首轮）",
-          "since": "2026-10-04T12:07:01Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "deepseek-planner",
@@ -164,6 +166,12 @@
       },
       "latest_issues": [
         {
+          "key": "BEN-155",
+          "title": "[任务·第3轮] 口径⑥ R6 每日全链路复跑（ref BEN-131 里程碑后首轮）",
+          "status": "in_review",
+          "updated_at": "2026-10-04T14:03:21Z"
+        },
+        {
           "key": "BEN-156",
           "title": "[空闲检测] 2026-10-04 leader 两小时正点检查与加派",
           "status": "done",
@@ -174,12 +182,6 @@
           "title": "[任务·第3轮] SC gold/test2/test3 binding 修复（ref BEN-14",
           "status": "in_progress",
           "updated_at": "2026-10-04T13:52:58Z"
-        },
-        {
-          "key": "BEN-155",
-          "title": "[任务·第3轮] 口径⑥ R6 每日全链路复跑（ref BEN-131 里程碑后首轮）",
-          "status": "in_review",
-          "updated_at": "2026-10-04T13:50:52Z"
         },
         {
           "key": "BEN-135",
