@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T12:44:00Z",
+  "generated_at": "2026-10-04T12:47:40Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -17,12 +17,9 @@
           "role": "GPT Writer（执笔者）",
           "model": "",
           "agent_id": "58ed4647-32dd-4ca1-8ddc-194b975d6024",
-          "state": "working",
-          "issue": "SUR-195",
-          "issue_title": "[SUR-193] 文献扩充核实+A/B/C新口径全库重分类（口径5修订）",
-          "since": "2026-10-04T12:42:06Z",
-          "parent_issue": "SUR-193",
-          "parent_title": "[目标调整] 范围扩大为LLM驱动代码迁移+Introduction重写+文献扩充核实（2026-10-04负责人三条要"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "kimi-adversary",
