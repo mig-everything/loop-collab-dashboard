@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T11:59:29Z",
+  "generated_at": "2026-10-04T12:03:08Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -17,12 +17,9 @@
           "role": "GPT Writer（执笔者）",
           "model": "",
           "agent_id": "58ed4647-32dd-4ca1-8ddc-194b975d6024",
-          "state": "working",
-          "issue": "SUR-195",
-          "issue_title": "[SUR-193] 文献扩充核实+A/B/C新口径全库重分类（口径5修订）",
-          "since": "2026-10-04T11:55:36Z",
-          "parent_issue": "SUR-193",
-          "parent_title": "[目标调整] 范围扩大为LLM驱动代码迁移+Introduction重写+文献扩充核实（2026-10-04负责人三条要"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "kimi-adversary",
@@ -40,18 +37,25 @@
           "role": "DeepSeek Task Planner（任务规划+总结）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "04a4e04e-59d5-4f3a-8a16-acf99b80a493",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "SUR-197",
+          "issue_title": "[晚会日报] 2026-10-04",
+          "since": "2026-10-04T12:00:19Z"
         }
       ],
       "issue_counts": {
-        "todo": 2,
+        "todo": 3,
         "in_progress": 2,
         "in_review": 2,
-        "done": 91
+        "done": 90
       },
       "latest_issues": [
+        {
+          "key": "SUR-197",
+          "title": "[晚会日报] 2026-10-04",
+          "status": "todo",
+          "updated_at": "2026-10-04T12:00:19Z"
+        },
         {
           "key": "SUR-193",
           "title": "[目标调整] 范围扩大为LLM驱动代码迁移+Introduction重写+文献扩充核实（2026-1",
@@ -75,12 +79,6 @@
           "title": "[任务][day-10] 第 4 轮修复：摘要压缩至≤200词 + class A 恢复 mobil",
           "status": "in_review",
           "updated_at": "2026-10-04T08:11:45Z"
-        },
-        {
-          "key": "SUR-189",
-          "title": "[巡检] 2026-10-04 leader Issue 状态巡检与催办",
-          "status": "done",
-          "updated_at": "2026-10-04T08:04:54Z"
         }
       ],
       "progress_note": "day-4 晨 37% → 午 42% → 晚 44% → 夜 47%",
@@ -122,9 +120,10 @@
           "role": "DeepSeek Planner（小组 leader/PM）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "547cd361-ef50-4965-9477-bc659d8a1708",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "BEN-152",
+          "issue_title": "[晚会日报] 2026-10-04",
+          "since": "2026-10-04T12:00:19Z"
         },
         {
           "name": "minimax-visual-diff",
@@ -158,12 +157,18 @@
         }
       ],
       "issue_counts": {
-        "todo": 0,
+        "todo": 1,
         "in_progress": 1,
         "in_review": 1,
-        "done": 83
+        "done": 82
       },
       "latest_issues": [
+        {
+          "key": "BEN-152",
+          "title": "[晚会日报] 2026-10-04",
+          "status": "todo",
+          "updated_at": "2026-10-04T12:00:15Z"
+        },
         {
           "key": "BEN-135",
           "title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 1",
@@ -187,12 +192,6 @@
           "title": "[巡检] 2026-10-04 leader Issue 状态巡检与催办",
           "status": "done",
           "updated_at": "2026-10-04T08:07:02Z"
-        },
-        {
-          "key": "BEN-131",
-          "title": "[leader 直派] 安卓端三 App 复跑核验 + 未达满分修复优化专项（R4 实测 cofi ",
-          "status": "done",
-          "updated_at": "2026-10-04T08:06:29Z"
         }
       ]
     },
@@ -222,9 +221,10 @@
           "role": "DeepSeek Planner（小组 leader/PM，",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "950ff614-521d-4e32-a02d-423d41a7b2b3",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "DWM-165",
+          "issue_title": "[晚会日报] 2026-10-04",
+          "since": "2026-10-04T12:00:20Z"
         },
         {
           "name": "dw-lead",
@@ -271,12 +271,18 @@
         }
       ],
       "issue_counts": {
-        "todo": 0,
+        "todo": 1,
         "in_progress": 1,
         "in_review": 0,
-        "done": 64
+        "done": 63
       },
       "latest_issues": [
+        {
+          "key": "DWM-165",
+          "title": "[晚会日报] 2026-10-04",
+          "status": "todo",
+          "updated_at": "2026-10-04T12:00:19Z"
+        },
         {
           "key": "DWM-164",
           "title": "[空闲检测] 2026-10-04 leader 两小时正点检查与加派",
@@ -300,12 +306,6 @@
           "title": "[任务] SC-GATE-05 四连复现证据补充 + 建议池条目升级 P1（DWM-152 第 4 ",
           "status": "done",
           "updated_at": "2026-10-04T08:01:40Z"
-        },
-        {
-          "key": "DWM-159",
-          "title": "[空闲检测] 2026-10-04 leader 两小时正点检查与加派",
-          "status": "done",
-          "updated_at": "2026-10-04T06:02:29Z"
         }
       ],
       "order": {
@@ -391,9 +391,10 @@
           "role": "DeepSeek Planner（小组 leader/PM ",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-248",
+          "issue_title": "[晚会日报] 2026-10-04",
+          "since": "2026-10-04T12:00:29Z"
         },
         {
           "name": "minimax-uijudge",
@@ -407,12 +408,18 @@
         }
       ],
       "issue_counts": {
-        "todo": 1,
+        "todo": 2,
         "in_progress": 0,
         "in_review": 0,
-        "done": 99
+        "done": 98
       },
       "latest_issues": [
+        {
+          "key": "IPD-248",
+          "title": "[晚会日报] 2026-10-04",
+          "status": "todo",
+          "updated_at": "2026-10-04T12:00:27Z"
+        },
         {
           "key": "IPD-247",
           "title": "[空闲检测] 2026-10-04 leader 两小时正点检查与加派",
@@ -436,12 +443,6 @@
           "title": "[Dev·第2轮] REQ-009 secondary 文字 WCAG AA 修复（P1，IPD-2",
           "status": "done",
           "updated_at": "2026-10-04T08:03:40Z"
-        },
-        {
-          "key": "IPD-243",
-          "title": "[Tester·第3轮] REQ-010 五子棋差分用例清单 + 差分断言（TDD 先行 · 契约 ",
-          "status": "done",
-          "updated_at": "2026-10-04T08:03:39Z"
         }
       ]
     }
