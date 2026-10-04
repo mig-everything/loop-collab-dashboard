@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T06:55:54Z",
+  "generated_at": "2026-10-04T07:17:31Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -229,9 +229,10 @@
           "role": "DW 迁移执行小队队长",
           "model": "claude-opus-5-5",
           "agent_id": "c6ff7c69-0db4-4b35-ac81-dd00e5a53ba4",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "DWM-149",
+          "issue_title": "[DW迁移任务单] NextPlayer 迁移 · 还原审计",
+          "since": "2026-10-04T07:16:55Z"
         },
         {
           "name": "exec-runner",
@@ -262,12 +263,9 @@
           "role": "修复员",
           "model": "claude-opus-5-5",
           "agent_id": "cd70e713-a339-4621-8699-2058d9cf7d6b",
-          "state": "working",
-          "issue": "DWM-161",
-          "issue_title": "[DWM-149·过程归因] NextPlayer 迁移过程归因",
-          "since": "2026-10-04T06:55:39Z",
-          "parent_issue": "DWM-149",
-          "parent_title": "[DW迁移任务单] NextPlayer 迁移 · 还原审计"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         }
       ],
       "issue_counts": {
@@ -281,7 +279,7 @@
           "key": "DWM-149",
           "title": "[DW迁移任务单] NextPlayer 迁移 · 还原审计",
           "status": "in_progress",
-          "updated_at": "2026-10-04T06:55:50Z"
+          "updated_at": "2026-10-04T07:16:54Z"
         },
         {
           "key": "DWM-159",
@@ -312,7 +310,7 @@
         "key": "DWM-149",
         "title": "[DW迁移任务单] NextPlayer 迁移 · 还原审计",
         "status": "in_progress",
-        "updated_at": "2026-10-04T06:55:50Z"
+        "updated_at": "2026-10-04T07:16:54Z"
       }
     },
     {
