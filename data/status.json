@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T08:07:57Z",
+  "generated_at": "2026-10-04T08:15:16Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -17,10 +17,9 @@
           "role": "GPT Writer（执笔者）",
           "model": "",
           "agent_id": "58ed4647-32dd-4ca1-8ddc-194b975d6024",
-          "state": "working",
-          "issue": "SUR-190",
-          "issue_title": "[任务][day-10] 第 4 轮修复：摘要压缩至≤200词 + class A 恢复 mobile 限定 + 关键词",
-          "since": "2026-10-04T08:04:20Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "kimi-adversary",
@@ -28,9 +27,10 @@
           "role": "Kimi Adversarial Reviewer（对抗评审",
           "model": "",
           "agent_id": "6e530cc6-6b9d-4398-936d-df9c13468125",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "SUR-191",
+          "issue_title": "[评审][day-10] 第 4 轮修复复核：摘要≤200词 + class A/mobile 限定 + 关键词（SUR",
+          "since": "2026-10-04T08:15:07Z"
         },
         {
           "name": "deepseek-planner",
@@ -45,16 +45,16 @@
       ],
       "issue_counts": {
         "todo": 3,
-        "in_progress": 2,
-        "in_review": 0,
+        "in_progress": 1,
+        "in_review": 1,
         "done": 95
       },
       "latest_issues": [
         {
           "key": "SUR-190",
           "title": "[任务][day-10] 第 4 轮修复：摘要压缩至≤200词 + class A 恢复 mobil",
-          "status": "in_progress",
-          "updated_at": "2026-10-04T08:07:08Z"
+          "status": "in_review",
+          "updated_at": "2026-10-04T08:11:45Z"
         },
         {
           "key": "SUR-189",
@@ -131,10 +131,9 @@
           "role": "MiniMax 多模态视觉差分评审",
           "model": "minimax-cn:MiniMax-M3",
           "agent_id": "843ac45d-b5db-4f35-b07b-2e5754ec5a5f",
-          "state": "working",
-          "issue": "BEN-148",
-          "issue_title": "[任务·第2轮] simple-calendar v2 视觉差分（SC 98.6% 就位，ref BEN-141/BEN",
-          "since": "2026-10-04T08:06:37Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "项目观察员",
@@ -159,22 +158,22 @@
       ],
       "issue_counts": {
         "todo": 0,
-        "in_progress": 2,
-        "in_review": 0,
+        "in_progress": 1,
+        "in_review": 1,
         "done": 83
       },
       "latest_issues": [
+        {
+          "key": "BEN-148",
+          "title": "[任务·第2轮] simple-calendar v2 视觉差分（SC 98.6% 就位，ref B",
+          "status": "in_review",
+          "updated_at": "2026-10-04T08:13:21Z"
+        },
         {
           "key": "BEN-150",
           "title": "[巡检] 2026-10-04 leader Issue 状态巡检与催办",
           "status": "done",
           "updated_at": "2026-10-04T08:07:02Z"
-        },
-        {
-          "key": "BEN-148",
-          "title": "[任务·第2轮] simple-calendar v2 视觉差分（SC 98.6% 就位，ref B",
-          "status": "in_progress",
-          "updated_at": "2026-10-04T08:07:01Z"
         },
         {
           "key": "BEN-135",
