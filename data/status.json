@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T12:06:51Z",
+  "generated_at": "2026-10-04T12:10:35Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -7,8 +7,8 @@
       "workspace": "ws-survey-loop",
       "machine": "JordanZTdeMacBook-Pro",
       "machine_online": true,
-      "meeting_active": false,
-      "meeting_title": "",
+      "meeting_active": true,
+      "meeting_title": "[晚会日报] 2026-10-04",
       "progress": 47,
       "agents": [
         {
@@ -17,12 +17,9 @@
           "role": "GPT Writer（执笔者）",
           "model": "",
           "agent_id": "58ed4647-32dd-4ca1-8ddc-194b975d6024",
-          "state": "working",
-          "issue": "SUR-195",
-          "issue_title": "[SUR-193] 文献扩充核实+A/B/C新口径全库重分类（口径5修订）",
-          "since": "2026-10-04T12:04:05Z",
-          "parent_issue": "SUR-193",
-          "parent_title": "[目标调整] 范围扩大为LLM驱动代码迁移+Introduction重写+文献扩充核实（2026-10-04负责人三条要"
+          "state": "meeting",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "kimi-adversary",
@@ -30,9 +27,10 @@
           "role": "Kimi Adversarial Reviewer（对抗评审",
           "model": "",
           "agent_id": "6e530cc6-6b9d-4398-936d-df9c13468125",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "SUR-197",
+          "issue_title": "[晚会日报] 2026-10-04",
+          "since": "2026-10-04T12:10:41Z"
         },
         {
           "name": "deepseek-planner",
@@ -48,40 +46,40 @@
       ],
       "issue_counts": {
         "todo": 3,
-        "in_progress": 2,
-        "in_review": 2,
+        "in_progress": 4,
+        "in_review": 0,
         "done": 90
       },
       "latest_issues": [
         {
-          "key": "SUR-197",
-          "title": "[晚会日报] 2026-10-04",
-          "status": "todo",
-          "updated_at": "2026-10-04T12:00:19Z"
-        },
-        {
-          "key": "SUR-193",
-          "title": "[目标调整] 范围扩大为LLM驱动代码迁移+Introduction重写+文献扩充核实（2026-1",
+          "key": "SUR-198",
+          "title": "[SUR-194] 范围口径先行核验：范围一致性+Introduction重写专项评审（口径12/1",
           "status": "in_progress",
-          "updated_at": "2026-10-04T10:27:28Z"
-        },
-        {
-          "key": "SUR-192",
-          "title": "[空闲检测] 2026-10-04 leader 两小时正点检查与加派",
-          "status": "done",
-          "updated_at": "2026-10-04T10:02:37Z"
+          "updated_at": "2026-10-04T12:10:06Z"
         },
         {
           "key": "SUR-191",
           "title": "[评审][day-10] 第 4 轮修复复核：摘要≤200词 + class A/mobile 限定",
-          "status": "in_review",
-          "updated_at": "2026-10-04T08:19:20Z"
+          "status": "done",
+          "updated_at": "2026-10-04T12:10:06Z"
         },
         {
           "key": "SUR-190",
           "title": "[任务][day-10] 第 4 轮修复：摘要压缩至≤200词 + class A 恢复 mobil",
-          "status": "in_review",
-          "updated_at": "2026-10-04T08:11:45Z"
+          "status": "done",
+          "updated_at": "2026-10-04T12:09:56Z"
+        },
+        {
+          "key": "SUR-199",
+          "title": "[流程优化] Opt-018：串行链评审单被下游阻塞时先行拆分评审可评审部分（次日验证）",
+          "status": "backlog",
+          "updated_at": "2026-10-04T12:09:44Z"
+        },
+        {
+          "key": "SUR-197",
+          "title": "[晚会日报] 2026-10-04",
+          "status": "in_progress",
+          "updated_at": "2026-10-04T12:09:00Z"
         }
       ],
       "progress_note": "day-4 晨 37% → 午 42% → 晚 44% → 夜 47%",
@@ -93,9 +91,9 @@
       "workspace": "ws-benchmark-loop",
       "machine": "张涛 Mac Studio",
       "machine_online": true,
-      "meeting_active": true,
-      "meeting_title": "[晚会日报] 2026-10-04",
-      "progress": 68,
+      "meeting_active": false,
+      "meeting_title": "",
+      "progress": 76,
       "agents": [
         {
           "name": "gpt-scenarist",
@@ -125,10 +123,9 @@
           "role": "DeepSeek Planner（小组 leader/PM）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "547cd361-ef50-4965-9477-bc659d8a1708",
-          "state": "working",
-          "issue": "BEN-152",
-          "issue_title": "[晚会日报] 2026-10-04",
-          "since": "2026-10-04T12:00:19Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "minimax-visual-diff",
@@ -136,7 +133,7 @@
           "role": "MiniMax 多模态视觉差分评审",
           "model": "minimax-cn:MiniMax-M3",
           "agent_id": "843ac45d-b5db-4f35-b07b-2e5754ec5a5f",
-          "state": "meeting",
+          "state": "idle",
           "issue": "",
           "issue_title": ""
         },
@@ -146,7 +143,7 @@
           "role": "只读洞察项目目标与执行证据，用简单语言汇报进展、偏差和阻塞，",
           "model": "",
           "agent_id": "4b674e90-4726-4eba-bd5c-06350e0b8b83",
-          "state": "meeting",
+          "state": "idle",
           "issue": "",
           "issue_title": ""
         },
@@ -156,47 +153,47 @@
           "role": "只读洞察项目目标与执行证据，用简单语言汇报进展、偏差和阻塞，",
           "model": "gpt-6-astra",
           "agent_id": "33b902ee-a4ca-46ae-9284-c8285311c687",
-          "state": "meeting",
+          "state": "idle",
           "issue": "",
           "issue_title": ""
         }
       ],
       "issue_counts": {
-        "todo": 3,
-        "in_progress": 2,
+        "todo": 0,
+        "in_progress": 4,
         "in_review": 0,
-        "done": 80
+        "done": 81
       },
       "latest_issues": [
         {
-          "key": "BEN-155",
-          "title": "[任务·第3轮] 口径⑥ R6 每日全链路复跑（ref BEN-131 里程碑后首轮）",
-          "status": "todo",
-          "updated_at": "2026-10-04T12:06:59Z"
-        },
-        {
           "key": "BEN-154",
           "title": "[任务·第3轮] AP 未校准 binding 250 + fixture 279 续修（ref B",
-          "status": "todo",
-          "updated_at": "2026-10-04T12:06:55Z"
+          "status": "in_progress",
+          "updated_at": "2026-10-04T12:10:02Z"
         },
         {
           "key": "BEN-153",
           "title": "[任务·第3轮] SC gold/test2/test3 binding 修复（ref BEN-14",
-          "status": "todo",
-          "updated_at": "2026-10-04T12:06:46Z"
+          "status": "in_progress",
+          "updated_at": "2026-10-04T12:09:49Z"
+        },
+        {
+          "key": "BEN-152",
+          "title": "[晚会纪要] 2026-10-04",
+          "status": "done",
+          "updated_at": "2026-10-04T12:08:38Z"
+        },
+        {
+          "key": "BEN-155",
+          "title": "[任务·第3轮] 口径⑥ R6 每日全链路复跑（ref BEN-131 里程碑后首轮）",
+          "status": "in_progress",
+          "updated_at": "2026-10-04T12:07:20Z"
         },
         {
           "key": "BEN-148",
           "title": "[任务·第2轮] simple-calendar v2 视觉差分（SC 98.6% 就位，ref B",
           "status": "done",
           "updated_at": "2026-10-04T12:06:07Z"
-        },
-        {
-          "key": "BEN-152",
-          "title": "[晚会日报] 2026-10-04",
-          "status": "in_progress",
-          "updated_at": "2026-10-04T12:06:04Z"
         }
       ]
     },
@@ -216,9 +213,10 @@
           "role": "Opus Analyzer",
           "model": "claude-opus-5-5",
           "agent_id": "2f32549c-87c7-4202-8f54-3af79a30afa0",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "DWM-166",
+          "issue_title": "[任务] htk007 竞品规则集 diff + 有价值条目入池（第 2 次周期跟踪）",
+          "since": "2026-10-04T12:08:27Z"
         },
         {
           "name": "deepseek-planner",
@@ -226,10 +224,9 @@
           "role": "DeepSeek Planner（小组 leader/PM，",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "950ff614-521d-4e32-a02d-423d41a7b2b3",
-          "state": "working",
-          "issue": "DWM-165",
-          "issue_title": "[晚会日报] 2026-10-04",
-          "since": "2026-10-04T12:00:20Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "dw-lead",
@@ -284,9 +281,15 @@
       "latest_issues": [
         {
           "key": "DWM-165",
-          "title": "[晚会日报] 2026-10-04",
+          "title": "[晚会纪要] 2026-10-04",
+          "status": "done",
+          "updated_at": "2026-10-04T12:09:40Z"
+        },
+        {
+          "key": "DWM-166",
+          "title": "[任务] htk007 竞品规则集 diff + 有价值条目入池（第 2 次周期跟踪）",
           "status": "todo",
-          "updated_at": "2026-10-04T12:00:19Z"
+          "updated_at": "2026-10-04T12:08:22Z"
         },
         {
           "key": "DWM-164",
@@ -305,12 +308,6 @@
           "title": "[巡检] 2026-10-04 leader Issue 状态巡检与催办",
           "status": "done",
           "updated_at": "2026-10-04T08:01:53Z"
-        },
-        {
-          "key": "DWM-158",
-          "title": "[任务] SC-GATE-05 四连复现证据补充 + 建议池条目升级 P1（DWM-152 第 4 ",
-          "status": "done",
-          "updated_at": "2026-10-04T08:01:40Z"
         }
       ],
       "order": {
