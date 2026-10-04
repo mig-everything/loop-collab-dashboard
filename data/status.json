@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T20:13:09Z",
+  "generated_at": "2026-10-04T20:16:57Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -7,8 +7,8 @@
       "workspace": "ws-survey-loop",
       "machine": "JordanZTdeMacBook-Pro",
       "machine_online": true,
-      "meeting_active": true,
-      "meeting_title": "[晨会纪要] 2026-10-05",
+      "meeting_active": false,
+      "meeting_title": "",
       "progress": 47,
       "agents": [
         {
@@ -20,7 +20,7 @@
           "state": "working",
           "issue": "SUR-195",
           "issue_title": "[SUR-193] 文献扩充核实+A/B/C新口径全库重分类（口径5修订）",
-          "since": "2026-10-04T20:12:49Z",
+          "since": "2026-10-04T20:16:33Z",
           "parent_issue": "SUR-193",
           "parent_title": "[目标调整] 范围扩大为LLM驱动代码迁移+Introduction重写+文献扩充核实（2026-10-04负责人三条要"
         },
@@ -30,10 +30,9 @@
           "role": "Kimi Adversarial Reviewer（对抗评审",
           "model": "",
           "agent_id": "6e530cc6-6b9d-4398-936d-df9c13468125",
-          "state": "working",
-          "issue": "SUR-203",
-          "issue_title": "[晨会纪要] 2026-10-05",
-          "since": "2026-10-04T20:12:28Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "deepseek-planner",
@@ -48,41 +47,41 @@
         }
       ],
       "issue_counts": {
-        "todo": 3,
-        "in_progress": 2,
+        "todo": 1,
+        "in_progress": 1,
         "in_review": 0,
-        "done": 92
+        "done": 95
       },
       "latest_issues": [
         {
           "key": "SUR-203",
           "title": "[晨会纪要] 2026-10-05",
-          "status": "in_progress",
-          "updated_at": "2026-10-04T20:12:28Z"
+          "status": "done",
+          "updated_at": "2026-10-04T20:16:56Z"
         },
         {
-          "key": "SUR-202",
-          "title": "[空闲检测] 2026-10-05 leader 两小时正点检查与加派",
-          "status": "done",
-          "updated_at": "2026-10-04T18:01:55Z"
+          "key": "SUR-204",
+          "title": "[流程优化] Opt-019：自优化项改动须当轮落地（次日验证）",
+          "status": "backlog",
+          "updated_at": "2026-10-04T20:16:44Z"
         },
         {
-          "key": "SUR-201",
-          "title": "[巡检] 2026-10-05 leader Issue 状态巡检与催办",
+          "key": "SUR-199",
+          "title": "[流程优化] Opt-018：串行链评审单被下游阻塞时先行拆分评审可评审部分（次日验证）",
           "status": "done",
-          "updated_at": "2026-10-04T16:04:12Z"
+          "updated_at": "2026-10-04T20:16:31Z"
         },
         {
-          "key": "SUR-151",
-          "title": "[基线重置][needs-human] survey 按 2026-10-03 新验收口径重新对齐（",
+          "key": "SUR-187",
+          "title": "[流程优化] 2026-10-04 午会产出 1 项（Opt-017 内容维度决定性检查脚本化），次",
           "status": "done",
-          "updated_at": "2026-10-04T16:03:41Z"
+          "updated_at": "2026-10-04T20:16:29Z"
         },
         {
-          "key": "SUR-198",
-          "title": "[SUR-194] 范围口径先行核验：范围一致性+Introduction重写专项评审（口径12/1",
+          "key": "SUR-174",
+          "title": "[流程优化] 2026-10-04 晨会产出 1 项（Opt-016 leader 自建类 Issu",
           "status": "done",
-          "updated_at": "2026-10-04T16:03:31Z"
+          "updated_at": "2026-10-04T20:16:27Z"
         }
       ],
       "progress_note": "day-4 晨 37% → 午 42% → 晚 44% → 夜 47%",
@@ -136,10 +135,9 @@
           "role": "MiniMax 多模态视觉差分评审",
           "model": "minimax-cn:MiniMax-M3",
           "agent_id": "843ac45d-b5db-4f35-b07b-2e5754ec5a5f",
-          "state": "working",
-          "issue": "BEN-162",
-          "issue_title": "[任务·第1轮] SC v3 视觉差分（binding已就位，验证绑定门禁）（ref BEN-148/BEN-153）",
-          "since": "2026-10-04T20:06:46Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "项目观察员",
@@ -170,6 +168,12 @@
       },
       "latest_issues": [
         {
+          "key": "BEN-162",
+          "title": "[任务·第1轮] SC v3 视觉差分（binding已就位，验证绑定门禁）（ref BEN-148",
+          "status": "todo",
+          "updated_at": "2026-10-04T20:15:09Z"
+        },
+        {
           "key": "BEN-161",
           "title": "[任务·第1轮] AP ③a 杠杆：结构穿透495+未校准244+fixture268 续修（ref",
           "status": "in_progress",
@@ -186,12 +190,6 @@
           "title": "[任务·第1轮] 口径⑥ R7 全链路复跑 + gold anchor fresh 保真度复测（re",
           "status": "in_progress",
           "updated_at": "2026-10-04T20:07:03Z"
-        },
-        {
-          "key": "BEN-162",
-          "title": "[任务·第1轮] SC v3 视觉差分（binding已就位，验证绑定门禁）（ref BEN-148",
-          "status": "todo",
-          "updated_at": "2026-10-04T20:06:45Z"
         },
         {
           "key": "BEN-135",
@@ -326,8 +324,8 @@
       "workspace": "ws-ipd-eazo-loop",
       "machine": "贾博 Mac Mini",
       "machine_online": true,
-      "meeting_active": true,
-      "meeting_title": "[早会纪要] 2026-10-05",
+      "meeting_active": false,
+      "meeting_title": "",
       "progress": 80,
       "agents": [
         {
@@ -347,7 +345,7 @@
           "role": "IPD-SA 解决方案架构师",
           "model": "zai:glm-5.3",
           "agent_id": "3e4373ef-a262-4b28-ab2a-818861fc9624",
-          "state": "meeting",
+          "state": "idle",
           "issue": "",
           "issue_title": ""
         },
@@ -357,7 +355,7 @@
           "role": "IPD-SE 系统工程师",
           "model": "zai:glm-5.3",
           "agent_id": "b874ba6b-80e6-45c6-a8c6-aedc6f2b326b",
-          "state": "meeting",
+          "state": "idle",
           "issue": "",
           "issue_title": ""
         },
@@ -367,9 +365,10 @@
           "role": "IPD-Dev 开发工程师",
           "model": "zai:glm-5.3",
           "agent_id": "44fcec25-d8b3-4af6-b206-1774a64677ce",
-          "state": "meeting",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-251",
+          "issue_title": "[Dev] comparator 补齐 features 数据生产（口径9③，IPD-250 收尾项1）",
+          "since": "2026-10-04T20:14:28Z"
         },
         {
           "name": "hermes-tester",
@@ -388,9 +387,10 @@
           "role": "IPD-RM 发布经理",
           "model": "zai:glm-5.3",
           "agent_id": "78156461-9644-478e-9c80-53cd18e25e33",
-          "state": "meeting",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-261",
+          "issue_title": "[RM] Opt-021 跨仓 SHA 交叉核验纪律（Loop/RSI 优化）",
+          "since": "2026-10-04T20:14:28Z"
         },
         {
           "name": "deepseek-planner",
@@ -398,10 +398,9 @@
           "role": "DeepSeek Planner（小组 leader/PM ",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
-          "state": "working",
-          "issue": "IPD-258",
-          "issue_title": "[早会纪要] 2026-10-05",
-          "since": "2026-10-04T20:00:19Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "minimax-uijudge",
@@ -409,23 +408,23 @@
           "role": "MiniMax 多模态 UI 视觉评审",
           "model": "minimax-cn:MiniMax-M3",
           "agent_id": "97f55294-90e0-4556-93af-a1cf44889574",
-          "state": "meeting",
+          "state": "idle",
           "issue": "",
           "issue_title": ""
         }
       ],
       "issue_counts": {
         "todo": 2,
-        "in_progress": 4,
+        "in_progress": 3,
         "in_review": 0,
-        "done": 94
+        "done": 95
       },
       "latest_issues": [
         {
           "key": "IPD-258",
           "title": "[早会纪要] 2026-10-05",
-          "status": "in_progress",
-          "updated_at": "2026-10-04T20:12:32Z"
+          "status": "done",
+          "updated_at": "2026-10-04T20:14:38Z"
         },
         {
           "key": "IPD-261",
