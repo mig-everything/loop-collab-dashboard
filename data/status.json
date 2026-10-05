@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T12:30:49Z",
+  "generated_at": "2026-10-05T12:34:31Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -167,7 +167,7 @@
           "key": "BEN-177",
           "title": "[任务·第3轮] SC authoring 收口：test2 Settings 平移 + SC011",
           "status": "blocked",
-          "updated_at": "2026-10-05T12:29:16Z"
+          "updated_at": "2026-10-05T12:31:54Z"
         },
         {
           "key": "BEN-176",
