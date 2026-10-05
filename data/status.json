@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T10:05:23Z",
+  "generated_at": "2026-10-05T10:09:01Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -99,10 +99,9 @@
           "role": "GPT Scenarist",
           "model": "",
           "agent_id": "6e6f1e24-3bc5-455a-85d2-cb3fb6c9a672",
-          "state": "working",
-          "issue": "BEN-135",
-          "issue_title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 100（ref BEN",
-          "since": "2026-10-05T09:59:06Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "glm-runner",
@@ -163,16 +162,16 @@
       },
       "latest_issues": [
         {
+          "key": "BEN-135",
+          "title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 1",
+          "status": "in_progress",
+          "updated_at": "2026-10-05T10:08:46Z"
+        },
+        {
           "key": "BEN-174",
           "title": "[空闲检测] 2026-10-05 leader 两小时正点检查与加派",
           "status": "done",
           "updated_at": "2026-10-05T10:01:50Z"
-        },
-        {
-          "key": "BEN-135",
-          "title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 1",
-          "status": "in_progress",
-          "updated_at": "2026-10-05T09:43:52Z"
         },
         {
           "key": "BEN-173",
@@ -327,9 +326,10 @@
           "role": "IPD-PM 产品经理",
           "model": "",
           "agent_id": "1764c131-5c09-48cb-aa48-3177d5256dbb",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-276",
+          "issue_title": "[PM·评审] REQ-011 背单词闪卡 TR-Design 评审（第11场景门禁）",
+          "since": "2026-10-05T10:06:59Z"
         },
         {
           "name": "hermes-sa",
@@ -357,9 +357,10 @@
           "role": "IPD-Dev 开发工程师",
           "model": "zai:glm-5.3",
           "agent_id": "44fcec25-d8b3-4af6-b206-1774a64677ce",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-274",
+          "issue_title": "[Dev] REQ-011 背单词闪卡 鸿蒙端编码（第11场景主线 P0，第3轮）",
+          "since": "2026-10-05T10:06:56Z"
         },
         {
           "name": "hermes-tester",
@@ -367,9 +368,10 @@
           "role": "IPD-Tester 测试工程师",
           "model": "zai:glm-5.3",
           "agent_id": "86df9f14-a2cd-46d9-ad15-dbe8606ebd73",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-275",
+          "issue_title": "[Tester] REQ-011 背单词闪卡 差分用例清单+差分断言（TDD先行，第3轮）",
+          "since": "2026-10-05T10:06:58Z"
         },
         {
           "name": "hermes-rm",
@@ -387,10 +389,9 @@
           "role": "DeepSeek Planner（小组 leader/PM ",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
-          "state": "working",
-          "issue": "IPD-273",
-          "issue_title": "[空闲检测] 2026-10-05 leader 两小时正点检查与加派",
-          "since": "2026-10-05T10:00:25Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "minimax-uijudge",
@@ -404,41 +405,41 @@
         }
       ],
       "issue_counts": {
-        "todo": 1,
-        "in_progress": 0,
+        "todo": 0,
+        "in_progress": 3,
         "in_review": 0,
-        "done": 99
+        "done": 97
       },
       "latest_issues": [
         {
           "key": "IPD-273",
           "title": "[空闲检测] 2026-10-05 leader 两小时正点检查与加派",
-          "status": "todo",
-          "updated_at": "2026-10-05T10:00:24Z"
+          "status": "done",
+          "updated_at": "2026-10-05T10:07:57Z"
         },
         {
-          "key": "IPD-272",
-          "title": "[巡检] 2026-10-05 leader Issue 状态巡检与催办",
-          "status": "done",
-          "updated_at": "2026-10-05T08:02:53Z"
+          "key": "IPD-274",
+          "title": "[Dev] REQ-011 背单词闪卡 鸿蒙端编码（第11场景主线 P0，第3轮）",
+          "status": "in_progress",
+          "updated_at": "2026-10-05T10:07:44Z"
         },
         {
-          "key": "IPD-270",
-          "title": "[RM] 四维差收口 + 引擎降本复测立项（Token/时长差<0 推进）",
+          "key": "IPD-277",
+          "title": "[临时会议·空闲加派] 2026-10-05 18点场（第3轮派单）",
           "status": "done",
-          "updated_at": "2026-10-05T08:02:27Z"
+          "updated_at": "2026-10-05T10:07:35Z"
         },
         {
-          "key": "IPD-269",
-          "title": "[Dev] REQ-011 背单词闪卡 Android 基线生成（双端对照基准，与SA设计并行）",
-          "status": "done",
-          "updated_at": "2026-10-05T08:02:25Z"
+          "key": "IPD-276",
+          "title": "[PM·评审] REQ-011 背单词闪卡 TR-Design 评审（第11场景门禁）",
+          "status": "in_progress",
+          "updated_at": "2026-10-05T10:07:27Z"
         },
         {
-          "key": "IPD-268",
-          "title": "[SE] REQ-011 背单词闪卡 追踪矩阵（第11场景）",
-          "status": "done",
-          "updated_at": "2026-10-05T08:02:24Z"
+          "key": "IPD-275",
+          "title": "[Tester] REQ-011 背单词闪卡 差分用例清单+差分断言（TDD先行，第3轮）",
+          "status": "in_progress",
+          "updated_at": "2026-10-05T10:07:26Z"
         }
       ]
     }
