@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T06:41:45Z",
+  "generated_at": "2026-10-05T06:45:24Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -261,12 +261,9 @@
           "role": "修复员",
           "model": "claude-opus-5-5",
           "agent_id": "cd70e713-a339-4621-8699-2058d9cf7d6b",
-          "state": "working",
-          "issue": "DWM-184",
-          "issue_title": "[DWM-181·工具修复] mig 额度判定把日志里的代码标识符（LocalSiteRateLimit）当作限速：中断",
-          "since": "2026-10-05T06:17:41Z",
-          "parent_issue": "DWM-181",
-          "parent_title": "[DW迁移任务单] Jerboa 迁移 · 清单+迁移 · 清单生成中 r19·342/800步·5页/242项 · 迁"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         }
       ],
       "issue_counts": {
@@ -280,7 +277,7 @@
           "key": "DWM-181",
           "title": "[DW迁移任务单] Jerboa 迁移 · 清单+迁移 · 清单生成中 r19·342/800步·5",
           "status": "in_progress",
-          "updated_at": "2026-10-05T06:41:58Z"
+          "updated_at": "2026-10-05T06:43:51Z"
         },
         {
           "key": "DWM-183",
@@ -311,7 +308,7 @@
         "key": "DWM-181",
         "title": "[DW迁移任务单] Jerboa 迁移 · 清单+迁移 · 清单生成中 r19·342/800步·5页/242项 · 迁移中 3/6 · 清单2.5h/16h 迁移2.5h/24h",
         "status": "in_progress",
-        "updated_at": "2026-10-05T06:41:58Z"
+        "updated_at": "2026-10-05T06:43:51Z"
       }
     },
     {
