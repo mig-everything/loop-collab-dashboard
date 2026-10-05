@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T00:30:49Z",
+  "generated_at": "2026-10-05T00:34:29Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -99,10 +99,9 @@
           "role": "GPT Scenarist",
           "model": "",
           "agent_id": "6e6f1e24-3bc5-455a-85d2-cb3fb6c9a672",
-          "state": "working",
-          "issue": "BEN-135",
-          "issue_title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 100（ref BEN",
-          "since": "2026-10-05T00:20:05Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "glm-runner",
@@ -167,7 +166,7 @@
           "key": "BEN-135",
           "title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 1",
           "status": "in_progress",
-          "updated_at": "2026-10-05T00:28:24Z"
+          "updated_at": "2026-10-05T00:32:03Z"
         },
         {
           "key": "BEN-162",
@@ -251,9 +250,12 @@
           "role": "验证员",
           "model": "claude-opus-5-5",
           "agent_id": "69822c63-0dcc-4f3e-875d-7b300d437623",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "DWM-175",
+          "issue_title": "[DWM-149·终验] NextPlayer 终验（全量）",
+          "since": "2026-10-05T00:34:01Z",
+          "parent_issue": "DWM-149",
+          "parent_title": "[DW迁移任务单] NextPlayer 迁移 · 终验"
         },
         {
           "name": "exec-fixer",
@@ -261,12 +263,9 @@
           "role": "修复员",
           "model": "claude-opus-5-5",
           "agent_id": "cd70e713-a339-4621-8699-2058d9cf7d6b",
-          "state": "working",
-          "issue": "DWM-175",
-          "issue_title": "[DWM-149·终验] NextPlayer 终验（全量）",
-          "since": "2026-10-04T23:49:43Z",
-          "parent_issue": "DWM-149",
-          "parent_title": "[DW迁移任务单] NextPlayer 迁移 · 终验"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         }
       ],
       "issue_counts": {
