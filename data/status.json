@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T12:34:31Z",
+  "generated_at": "2026-10-05T12:38:13Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -100,9 +100,9 @@
           "model": "",
           "agent_id": "6e6f1e24-3bc5-455a-85d2-cb3fb6c9a672",
           "state": "working",
-          "issue": "BEN-135",
-          "issue_title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 100（ref BEN",
-          "since": "2026-10-05T12:19:37Z"
+          "issue": "BEN-176",
+          "issue_title": "[任务·第3轮] AP ③a 续修：520→≥560 未校准191→≤160（ref BEN-169）",
+          "since": "2026-10-05T12:06:34Z"
         },
         {
           "name": "glm-runner",
@@ -164,6 +164,12 @@
       },
       "latest_issues": [
         {
+          "key": "BEN-135",
+          "title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 1",
+          "status": "in_progress",
+          "updated_at": "2026-10-05T12:35:23Z"
+        },
+        {
           "key": "BEN-177",
           "title": "[任务·第3轮] SC authoring 收口：test2 Settings 平移 + SC011",
           "status": "blocked",
@@ -186,12 +192,6 @@
           "title": "[晚会日报] 2026-10-05",
           "status": "done",
           "updated_at": "2026-10-05T12:08:03Z"
-        },
-        {
-          "key": "BEN-178",
-          "title": "[任务·第3轮] 口径⑥ R9 全链路复跑：census 含 BEN-169 +88 + R8 经验",
-          "status": "in_progress",
-          "updated_at": "2026-10-05T12:07:12Z"
         }
       ]
     },
@@ -348,10 +348,9 @@
           "role": "IPD-SE 系统工程师",
           "model": "zai:glm-5.3",
           "agent_id": "b874ba6b-80e6-45c6-a8c6-aedc6f2b326b",
-          "state": "working",
-          "issue": "IPD-279",
-          "issue_title": "[SE] REQ-011 追踪矩阵升版（TR-Design 条件 C-A 闭合 · 第4轮夜间）",
-          "since": "2026-10-05T12:10:44Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "hermes-dev",
@@ -408,11 +407,17 @@
       ],
       "issue_counts": {
         "todo": 0,
-        "in_progress": 4,
-        "in_review": 1,
+        "in_progress": 3,
+        "in_review": 2,
         "done": 95
       },
       "latest_issues": [
+        {
+          "key": "IPD-279",
+          "title": "[SE] REQ-011 追踪矩阵升版（TR-Design 条件 C-A 闭合 · 第4轮夜间）",
+          "status": "in_review",
+          "updated_at": "2026-10-05T12:35:23Z"
+        },
         {
           "key": "IPD-281",
           "title": "[Tester] REQ-011 背单词闪卡 TR-Accept 差分执行 + 双端对比报告（第11",
@@ -436,12 +441,6 @@
           "title": "[RM] 四维差收口 + 引擎降本复测 path_A 执行（第4轮夜间）",
           "status": "in_progress",
           "updated_at": "2026-10-05T12:11:44Z"
-        },
-        {
-          "key": "IPD-279",
-          "title": "[SE] REQ-011 追踪矩阵升版（TR-Design 条件 C-A 闭合 · 第4轮夜间）",
-          "status": "in_progress",
-          "updated_at": "2026-10-05T12:11:26Z"
         }
       ]
     }
