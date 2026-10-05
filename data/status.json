@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T02:59:13Z",
+  "generated_at": "2026-10-05T03:02:54Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -166,7 +166,7 @@
           "key": "BEN-135",
           "title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 1",
           "status": "in_progress",
-          "updated_at": "2026-10-05T02:56:53Z"
+          "updated_at": "2026-10-05T03:02:47Z"
         },
         {
           "key": "BEN-167",
