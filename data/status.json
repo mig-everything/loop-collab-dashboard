@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T11:53:55Z",
+  "generated_at": "2026-10-05T12:01:06Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -37,18 +37,25 @@
           "role": "DeepSeek Task Planner（任务规划+总结）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "04a4e04e-59d5-4f3a-8a16-acf99b80a493",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "SUR-213",
+          "issue_title": "[晚会日报] 2026-10-05",
+          "since": "2026-10-05T12:00:22Z"
         }
       ],
       "issue_counts": {
-        "todo": 1,
+        "todo": 2,
         "in_progress": 1,
         "in_review": 0,
-        "done": 95
+        "done": 94
       },
       "latest_issues": [
+        {
+          "key": "SUR-213",
+          "title": "[晚会日报] 2026-10-05",
+          "status": "todo",
+          "updated_at": "2026-10-05T12:00:21Z"
+        },
         {
           "key": "SUR-212",
           "title": "[空闲检测] 2026-10-05 leader 两小时正点检查与加派",
@@ -72,12 +79,6 @@
           "title": "[空闲检测] 2026-10-05 leader 两小时正点检查与加派",
           "status": "done",
           "updated_at": "2026-10-05T06:02:03Z"
-        },
-        {
-          "key": "SUR-208",
-          "title": "[午会纪要] 2026-10-05",
-          "status": "done",
-          "updated_at": "2026-10-05T04:11:56Z"
         }
       ],
       "progress_note": "day-4 晨 37% → 午 42% → 晚 44% → 夜 47%",
@@ -89,8 +90,8 @@
       "workspace": "ws-benchmark-loop",
       "machine": "张涛 Mac Studio",
       "machine_online": true,
-      "meeting_active": false,
-      "meeting_title": "",
+      "meeting_active": true,
+      "meeting_title": "[晚会日报] 2026-10-05",
       "progress": 78,
       "agents": [
         {
@@ -110,7 +111,7 @@
           "role": "GLM Runner & Analyst",
           "model": "",
           "agent_id": "bdaefa9b-7045-4264-95e4-1db664e353d0",
-          "state": "idle",
+          "state": "meeting",
           "issue": "",
           "issue_title": ""
         },
@@ -120,9 +121,10 @@
           "role": "DeepSeek Planner（小组 leader/PM）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "547cd361-ef50-4965-9477-bc659d8a1708",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "BEN-175",
+          "issue_title": "[晚会日报] 2026-10-05",
+          "since": "2026-10-05T12:00:17Z"
         },
         {
           "name": "minimax-visual-diff",
@@ -130,7 +132,7 @@
           "role": "MiniMax 多模态视觉差分评审",
           "model": "minimax-cn:MiniMax-M3",
           "agent_id": "843ac45d-b5db-4f35-b07b-2e5754ec5a5f",
-          "state": "idle",
+          "state": "meeting",
           "issue": "",
           "issue_title": ""
         },
@@ -140,7 +142,7 @@
           "role": "只读洞察项目目标与执行证据，用简单语言汇报进展、偏差和阻塞，",
           "model": "",
           "agent_id": "4b674e90-4726-4eba-bd5c-06350e0b8b83",
-          "state": "idle",
+          "state": "meeting",
           "issue": "",
           "issue_title": ""
         },
@@ -150,18 +152,24 @@
           "role": "只读洞察项目目标与执行证据，用简单语言汇报进展、偏差和阻塞，",
           "model": "gpt-6-astra",
           "agent_id": "33b902ee-a4ca-46ae-9284-c8285311c687",
-          "state": "idle",
+          "state": "meeting",
           "issue": "",
           "issue_title": ""
         }
       ],
       "issue_counts": {
         "todo": 1,
-        "in_progress": 1,
+        "in_progress": 2,
         "in_review": 1,
-        "done": 82
+        "done": 81
       },
       "latest_issues": [
+        {
+          "key": "BEN-175",
+          "title": "[晚会日报] 2026-10-05",
+          "status": "in_progress",
+          "updated_at": "2026-10-05T12:00:42Z"
+        },
         {
           "key": "BEN-135",
           "title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 1",
@@ -185,12 +193,6 @@
           "title": "[任务·第2轮] 口径⑥ R8 全链路复跑（验证第1轮合入最新main）（ref BEN-163）",
           "status": "in_review",
           "updated_at": "2026-10-05T08:37:15Z"
-        },
-        {
-          "key": "BEN-171",
-          "title": "[任务·第2轮] SC v3 视觉差分补跑至 4-end≥40 + C/D 复测（ref BEN-1",
-          "status": "todo",
-          "updated_at": "2026-10-05T08:16:40Z"
         }
       ]
     },
@@ -220,9 +222,10 @@
           "role": "DeepSeek Planner（小组 leader/PM，",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "950ff614-521d-4e32-a02d-423d41a7b2b3",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "DWM-187",
+          "issue_title": "[晚会日报] 2026-10-05",
+          "since": "2026-10-05T12:00:22Z"
         },
         {
           "name": "dw-lead",
@@ -267,17 +270,23 @@
         }
       ],
       "issue_counts": {
-        "todo": 0,
+        "todo": 1,
         "in_progress": 1,
         "in_review": 0,
-        "done": 63
+        "done": 62
       },
       "latest_issues": [
+        {
+          "key": "DWM-187",
+          "title": "[晚会日报] 2026-10-05",
+          "status": "todo",
+          "updated_at": "2026-10-05T12:00:22Z"
+        },
         {
           "key": "DWM-181",
           "title": "[DW迁移任务单] Jerboa 迁移 · 清单+迁移 · 清单生成中 续2·r55·1028/80",
           "status": "in_progress",
-          "updated_at": "2026-10-05T11:51:25Z"
+          "updated_at": "2026-10-05T11:58:31Z"
         },
         {
           "key": "DWM-186",
@@ -296,19 +305,13 @@
           "title": "[任务] NextPlayer 收口后差异分析 + §11.7 对抗评审 + DW 建议池入池",
           "status": "done",
           "updated_at": "2026-10-05T08:01:39Z"
-        },
-        {
-          "key": "DWM-183",
-          "title": "[空闲检测] 2026-10-05 leader 两小时正点检查与加派",
-          "status": "done",
-          "updated_at": "2026-10-05T06:01:51Z"
         }
       ],
       "order": {
         "key": "DWM-181",
-        "title": "[DW迁移任务单] Jerboa 迁移 · 清单+迁移 · 清单生成中 续2·r55·1028/800步·5页/538项 · 迁移中 3/6 · 清单7.7h/16h 迁移7.7h",
+        "title": "[DW迁移任务单] Jerboa 迁移 · 清单+迁移 · 清单生成中 续2·r55·1028/800步·5页/538项 · 迁移中 3/6 · 清单7.8h/16h 迁移7.8h",
         "status": "in_progress",
-        "updated_at": "2026-10-05T11:51:25Z"
+        "updated_at": "2026-10-05T11:58:31Z"
       }
     },
     {
@@ -387,9 +390,10 @@
           "role": "DeepSeek Planner（小组 leader/PM ",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-278",
+          "issue_title": "[晚会日报] 2026-10-05",
+          "since": "2026-10-05T12:00:32Z"
         },
         {
           "name": "minimax-uijudge",
@@ -403,12 +407,18 @@
         }
       ],
       "issue_counts": {
-        "todo": 0,
+        "todo": 1,
         "in_progress": 1,
         "in_review": 2,
-        "done": 97
+        "done": 96
       },
       "latest_issues": [
+        {
+          "key": "IPD-278",
+          "title": "[晚会日报] 2026-10-05",
+          "status": "todo",
+          "updated_at": "2026-10-05T12:00:30Z"
+        },
         {
           "key": "IPD-275",
           "title": "[Tester] REQ-011 背单词闪卡 差分用例清单+差分断言（TDD先行，第3轮）",
@@ -432,12 +442,6 @@
           "title": "[空闲检测] 2026-10-05 leader 两小时正点检查与加派",
           "status": "done",
           "updated_at": "2026-10-05T10:07:57Z"
-        },
-        {
-          "key": "IPD-277",
-          "title": "[临时会议·空闲加派] 2026-10-05 18点场（第3轮派单）",
-          "status": "done",
-          "updated_at": "2026-10-05T10:07:35Z"
         }
       ]
     }
