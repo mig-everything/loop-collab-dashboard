@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T01:28:48Z",
+  "generated_at": "2026-10-05T01:32:27Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -17,12 +17,9 @@
           "role": "GPT Writer（执笔者）",
           "model": "",
           "agent_id": "58ed4647-32dd-4ca1-8ddc-194b975d6024",
-          "state": "working",
-          "issue": "SUR-195",
-          "issue_title": "[SUR-193] 文献扩充核实+A/B/C新口径全库重分类（口径5修订）",
-          "since": "2026-10-05T01:28:15Z",
-          "parent_issue": "SUR-193",
-          "parent_title": "[目标调整] 范围扩大为LLM驱动代码迁移+Introduction重写+文献扩充核实（2026-10-04负责人三条要"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "kimi-adversary",
@@ -359,9 +356,10 @@
           "role": "IPD-Dev 开发工程师",
           "model": "zai:glm-5.3",
           "agent_id": "44fcec25-d8b3-4af6-b206-1774a64677ce",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-264",
+          "issue_title": "[Dev] Mac Mini 正式实例代码更新+重启+复验口径9⑦⑧⑨（IPD-250 收尾·部署生效，16:00巡检前",
+          "since": "2026-10-05T01:31:12Z"
         },
         {
           "name": "hermes-tester",
@@ -405,12 +403,24 @@
         }
       ],
       "issue_counts": {
-        "todo": 0,
+        "todo": 1,
         "in_progress": 1,
         "in_review": 2,
-        "done": 97
+        "done": 96
       },
       "latest_issues": [
+        {
+          "key": "IPD-250",
+          "title": "[验收标准更新] Eazo 网页 UI 对比体验优化首批已落地（246c1cc），收尾：featur",
+          "status": "in_progress",
+          "updated_at": "2026-10-05T01:31:41Z"
+        },
+        {
+          "key": "IPD-264",
+          "title": "[Dev] Mac Mini 正式实例代码更新+重启+复验口径9⑦⑧⑨（IPD-250 收尾·部署生",
+          "status": "todo",
+          "updated_at": "2026-10-05T01:31:12Z"
+        },
         {
           "key": "IPD-259",
           "title": "[Tester] REQ-010 五子棋 TR-Accept 差分执行 + 双端对比报告（第10场景",
@@ -428,18 +438,6 @@
           "title": "[巡检] 2026-10-05 leader Issue 状态巡检与催办",
           "status": "done",
           "updated_at": "2026-10-05T00:03:05Z"
-        },
-        {
-          "key": "IPD-261",
-          "title": "[RM] Opt-021 跨仓 SHA 交叉核验纪律（Loop/RSI 优化）",
-          "status": "done",
-          "updated_at": "2026-10-05T00:02:52Z"
-        },
-        {
-          "key": "IPD-260",
-          "title": "[PM] REQ-011 第11场景需求发布 + PRD + TR-Req（扩充需求类型覆盖）",
-          "status": "done",
-          "updated_at": "2026-10-05T00:02:51Z"
         }
       ]
     }
