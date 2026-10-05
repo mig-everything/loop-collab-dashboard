@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T06:19:52Z",
+  "generated_at": "2026-10-05T06:23:32Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -242,7 +242,7 @@
           "agent_id": "1c3481f5-135b-4959-9daa-c510c076d494",
           "state": "working",
           "issue": "DWM-181",
-          "issue_title": "[DW迁移任务单] Jerboa 迁移 · 清单+迁移 · 清单生成中 r14·223/800步·5页/179项 · 迁",
+          "issue_title": "[DW迁移任务单] Jerboa 迁移 · 清单+迁移 · 清单生成中 r16·257/800步·5页/179项 · 迁",
           "since": "2026-10-05T05:53:11Z"
         },
         {
@@ -266,7 +266,7 @@
           "issue_title": "[DWM-181·工具修复] mig 额度判定把日志里的代码标识符（LocalSiteRateLimit）当作限速：中断",
           "since": "2026-10-05T06:17:41Z",
           "parent_issue": "DWM-181",
-          "parent_title": "[DW迁移任务单] Jerboa 迁移 · 清单+迁移 · 清单生成中 r14·223/800步·5页/179项 · 迁"
+          "parent_title": "[DW迁移任务单] Jerboa 迁移 · 清单+迁移 · 清单生成中 r16·257/800步·5页/179项 · 迁"
         }
       ],
       "issue_counts": {
@@ -278,9 +278,9 @@
       "latest_issues": [
         {
           "key": "DWM-181",
-          "title": "[DW迁移任务单] Jerboa 迁移 · 清单+迁移 · 清单生成中 r14·223/800步·5",
+          "title": "[DW迁移任务单] Jerboa 迁移 · 清单+迁移 · 清单生成中 r16·257/800步·5",
           "status": "in_progress",
-          "updated_at": "2026-10-05T06:17:58Z"
+          "updated_at": "2026-10-05T06:20:56Z"
         },
         {
           "key": "DWM-183",
@@ -309,9 +309,9 @@
       ],
       "order": {
         "key": "DWM-181",
-        "title": "[DW迁移任务单] Jerboa 迁移 · 清单+迁移 · 清单生成中 r14·223/800步·5页/179项 · 迁移中 3/6 · 清单2.0h/16h 迁移2.0h/24h",
+        "title": "[DW迁移任务单] Jerboa 迁移 · 清单+迁移 · 清单生成中 r16·257/800步·5页/179项 · 迁移中 3/6 · 清单2.1h/16h 迁移2.1h/24h",
         "status": "in_progress",
-        "updated_at": "2026-10-05T06:17:58Z"
+        "updated_at": "2026-10-05T06:20:56Z"
       }
     },
     {
