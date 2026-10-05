@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T01:32:27Z",
+  "generated_at": "2026-10-05T01:36:06Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -109,10 +109,9 @@
           "role": "GLM Runner & Analyst",
           "model": "",
           "agent_id": "bdaefa9b-7045-4264-95e4-1db664e353d0",
-          "state": "working",
-          "issue": "BEN-163",
-          "issue_title": "[任务·第1轮] 口径⑥ R7 全链路复跑 + gold anchor fresh 保真度复测（ref BEN-155）",
-          "since": "2026-10-04T20:06:48Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "deepseek-planner",
@@ -157,11 +156,17 @@
       ],
       "issue_counts": {
         "todo": 1,
-        "in_progress": 2,
+        "in_progress": 1,
         "in_review": 0,
-        "done": 82
+        "done": 83
       },
       "latest_issues": [
+        {
+          "key": "BEN-163",
+          "title": "[任务·第1轮] 口径⑥ R7 全链路复跑 + gold anchor fresh 保真度复测（re",
+          "status": "done",
+          "updated_at": "2026-10-05T01:33:37Z"
+        },
         {
           "key": "BEN-135",
           "title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 1",
@@ -185,12 +190,6 @@
           "title": "[巡检] 2026-10-05 leader Issue 状态巡检与催办",
           "status": "done",
           "updated_at": "2026-10-05T00:02:21Z"
-        },
-        {
-          "key": "BEN-158",
-          "title": "[观察员日报] 2026-10-04 通过率与 Agent 时间轴",
-          "status": "done",
-          "updated_at": "2026-10-05T00:02:19Z"
         }
       ]
     },
@@ -403,23 +402,23 @@
         }
       ],
       "issue_counts": {
-        "todo": 1,
-        "in_progress": 1,
+        "todo": 0,
+        "in_progress": 2,
         "in_review": 2,
         "done": 96
       },
       "latest_issues": [
         {
+          "key": "IPD-264",
+          "title": "[Dev] Mac Mini 正式实例代码更新+重启+复验口径9⑦⑧⑨（IPD-250 收尾·部署生",
+          "status": "in_progress",
+          "updated_at": "2026-10-05T01:32:50Z"
+        },
+        {
           "key": "IPD-250",
           "title": "[验收标准更新] Eazo 网页 UI 对比体验优化首批已落地（246c1cc），收尾：featur",
           "status": "in_progress",
           "updated_at": "2026-10-05T01:31:41Z"
-        },
-        {
-          "key": "IPD-264",
-          "title": "[Dev] Mac Mini 正式实例代码更新+重启+复验口径9⑦⑧⑨（IPD-250 收尾·部署生",
-          "status": "todo",
-          "updated_at": "2026-10-05T01:31:12Z"
         },
         {
           "key": "IPD-259",
