@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T16:27:59Z",
+  "generated_at": "2026-10-05T16:31:40Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -130,10 +130,9 @@
           "role": "MiniMax 多模态视觉差分评审",
           "model": "minimax-cn:MiniMax-M3",
           "agent_id": "843ac45d-b5db-4f35-b07b-2e5754ec5a5f",
-          "state": "working",
-          "issue": "BEN-171",
-          "issue_title": "[任务·第2轮] SC v3 视觉差分补跑至 4-end≥40 + C/D 复测（ref BEN-162）",
-          "since": "2026-10-05T16:05:47Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "项目观察员",
@@ -158,11 +157,17 @@
       ],
       "issue_counts": {
         "todo": 0,
-        "in_progress": 3,
-        "in_review": 0,
+        "in_progress": 2,
+        "in_review": 1,
         "done": 82
       },
       "latest_issues": [
+        {
+          "key": "BEN-171",
+          "title": "[任务·第2轮] SC v3 视觉差分补跑至 4-end≥40 + C/D 复测（ref BEN-1",
+          "status": "in_review",
+          "updated_at": "2026-10-05T16:30:54Z"
+        },
         {
           "key": "BEN-180",
           "title": "[巡检] 2026-10-06 leader Issue 状态巡检与催办",
@@ -174,12 +179,6 @@
           "title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 1",
           "status": "in_progress",
           "updated_at": "2026-10-05T16:07:44Z"
-        },
-        {
-          "key": "BEN-171",
-          "title": "[任务·第2轮] SC v3 视觉差分补跑至 4-end≥40 + C/D 复测（ref BEN-1",
-          "status": "in_progress",
-          "updated_at": "2026-10-05T16:05:45Z"
         },
         {
           "key": "BEN-179",
