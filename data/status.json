@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T10:09:01Z",
+  "generated_at": "2026-10-05T10:12:41Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -276,7 +276,7 @@
           "key": "DWM-181",
           "title": "[DW迁移任务单] Jerboa 迁移 · 清单+迁移 · 清单生成中 续1·r40·794/800",
           "status": "in_progress",
-          "updated_at": "2026-10-05T10:03:43Z"
+          "updated_at": "2026-10-05T10:12:30Z"
         },
         {
           "key": "DWM-186",
@@ -307,7 +307,7 @@
         "key": "DWM-181",
         "title": "[DW迁移任务单] Jerboa 迁移 · 清单+迁移 · 清单生成中 续1·r40·794/800步·5页/356项 · 迁移中 3/6 · 清单5.8h/16h 迁移5.8h/",
         "status": "in_progress",
-        "updated_at": "2026-10-05T10:03:43Z"
+        "updated_at": "2026-10-05T10:12:30Z"
       }
     },
     {
@@ -326,10 +326,9 @@
           "role": "IPD-PM 产品经理",
           "model": "",
           "agent_id": "1764c131-5c09-48cb-aa48-3177d5256dbb",
-          "state": "working",
-          "issue": "IPD-276",
-          "issue_title": "[PM·评审] REQ-011 背单词闪卡 TR-Design 评审（第11场景门禁）",
-          "since": "2026-10-05T10:06:59Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "hermes-sa",
@@ -406,11 +405,17 @@
       ],
       "issue_counts": {
         "todo": 0,
-        "in_progress": 3,
-        "in_review": 0,
+        "in_progress": 2,
+        "in_review": 1,
         "done": 97
       },
       "latest_issues": [
+        {
+          "key": "IPD-276",
+          "title": "[PM·评审] REQ-011 背单词闪卡 TR-Design 评审（第11场景门禁）",
+          "status": "in_review",
+          "updated_at": "2026-10-05T10:12:01Z"
+        },
         {
           "key": "IPD-273",
           "title": "[空闲检测] 2026-10-05 leader 两小时正点检查与加派",
@@ -428,12 +433,6 @@
           "title": "[临时会议·空闲加派] 2026-10-05 18点场（第3轮派单）",
           "status": "done",
           "updated_at": "2026-10-05T10:07:35Z"
-        },
-        {
-          "key": "IPD-276",
-          "title": "[PM·评审] REQ-011 背单词闪卡 TR-Design 评审（第11场景门禁）",
-          "status": "in_progress",
-          "updated_at": "2026-10-05T10:07:27Z"
         },
         {
           "key": "IPD-275",
