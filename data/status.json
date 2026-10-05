@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T12:49:16Z",
+  "generated_at": "2026-10-05T12:52:57Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -100,9 +100,9 @@
           "model": "",
           "agent_id": "6e6f1e24-3bc5-455a-85d2-cb3fb6c9a672",
           "state": "working",
-          "issue": "BEN-176",
-          "issue_title": "[任务·第3轮] AP ③a 续修：520→≥560 未校准191→≤160（ref BEN-169）",
-          "since": "2026-10-05T12:06:34Z"
+          "issue": "BEN-135",
+          "issue_title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 100（ref BEN",
+          "since": "2026-10-05T12:50:43Z"
         },
         {
           "name": "glm-runner",
@@ -167,7 +167,7 @@
           "key": "BEN-176",
           "title": "[任务·第3轮] AP ③a 续修：520→≥560 未校准191→≤160（ref BEN-169",
           "status": "in_progress",
-          "updated_at": "2026-10-05T12:49:12Z"
+          "updated_at": "2026-10-05T12:53:04Z"
         },
         {
           "key": "BEN-135",
@@ -243,7 +243,7 @@
           "agent_id": "1c3481f5-135b-4959-9daa-c510c076d494",
           "state": "working",
           "issue": "DWM-181",
-          "issue_title": "[DW迁移任务单] Jerboa 迁移 · 清单+迁移 · 清单待入库 续2·r55·1028/800步·5页/538项",
+          "issue_title": "[DW迁移任务单] Jerboa 迁移 · 清单+迁移 · 清单✓422 · 迁移中 3/6 · 迁移8.6h/24h",
           "since": "2026-10-05T11:24:41Z"
         },
         {
@@ -276,9 +276,9 @@
       "latest_issues": [
         {
           "key": "DWM-181",
-          "title": "[DW迁移任务单] Jerboa 迁移 · 清单+迁移 · 清单待入库 续2·r55·1028/80",
+          "title": "[DW迁移任务单] Jerboa 迁移 · 清单+迁移 · 清单✓422 · 迁移中 3/6 · 迁",
           "status": "in_progress",
-          "updated_at": "2026-10-05T12:49:16Z"
+          "updated_at": "2026-10-05T12:50:06Z"
         },
         {
           "key": "DWM-188",
@@ -307,9 +307,9 @@
       ],
       "order": {
         "key": "DWM-181",
-        "title": "[DW迁移任务单] Jerboa 迁移 · 清单+迁移 · 清单待入库 续2·r55·1028/800步·5页/538项·已出清单 · 迁移中 3/6 · 清单8.6h/16h 迁",
+        "title": "[DW迁移任务单] Jerboa 迁移 · 清单+迁移 · 清单✓422 · 迁移中 3/6 · 迁移8.6h/24h",
         "status": "in_progress",
-        "updated_at": "2026-10-05T12:49:16Z"
+        "updated_at": "2026-10-05T12:50:06Z"
       }
     },
     {
