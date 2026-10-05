@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T01:43:22Z",
+  "generated_at": "2026-10-05T01:50:33Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -163,16 +163,16 @@
       },
       "latest_issues": [
         {
+          "key": "BEN-135",
+          "title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 1",
+          "status": "in_progress",
+          "updated_at": "2026-10-05T01:49:32Z"
+        },
+        {
           "key": "BEN-163",
           "title": "[任务·第1轮] 口径⑥ R7 全链路复跑 + gold anchor fresh 保真度复测（re",
           "status": "done",
           "updated_at": "2026-10-05T01:33:37Z"
-        },
-        {
-          "key": "BEN-135",
-          "title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 1",
-          "status": "in_progress",
-          "updated_at": "2026-10-05T01:25:56Z"
         },
         {
           "key": "BEN-166",
