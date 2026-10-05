@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T12:23:26Z",
+  "generated_at": "2026-10-05T12:27:08Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -164,6 +164,12 @@
       },
       "latest_issues": [
         {
+          "key": "BEN-177",
+          "title": "[任务·第3轮] SC authoring 收口：test2 Settings 平移 + SC011",
+          "status": "in_progress",
+          "updated_at": "2026-10-05T12:25:07Z"
+        },
+        {
           "key": "BEN-171",
           "title": "[任务·第2轮] SC v3 视觉差分补跑至 4-end≥40 + C/D 复测（ref BEN-1",
           "status": "in_review",
@@ -174,12 +180,6 @@
           "title": "[任务·第3轮] AP ③a 续修：520→≥560 未校准191→≤160（ref BEN-169",
           "status": "in_progress",
           "updated_at": "2026-10-05T12:17:57Z"
-        },
-        {
-          "key": "BEN-177",
-          "title": "[任务·第3轮] SC authoring 收口：test2 Settings 平移 + SC011",
-          "status": "in_progress",
-          "updated_at": "2026-10-05T12:10:23Z"
         },
         {
           "key": "BEN-175",
