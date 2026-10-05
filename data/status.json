@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T16:09:22Z",
+  "generated_at": "2026-10-05T16:13:07Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -38,47 +38,47 @@
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "04a4e04e-59d5-4f3a-8a16-acf99b80a493",
           "state": "working",
-          "issue": "SUR-217",
-          "issue_title": "[巡检] 2026-10-06 leader Issue 状态巡检与催办",
-          "since": "2026-10-05T16:00:19Z"
+          "issue": "SUR-215",
+          "issue_title": "[流程优化] Opt-020：runtime可用性判定改为routing实测而非online状态（次日验证）",
+          "since": "2026-10-05T16:10:15Z"
         }
       ],
       "issue_counts": {
         "todo": 2,
-        "in_progress": 2,
-        "in_review": 1,
-        "done": 92
+        "in_progress": 1,
+        "in_review": 0,
+        "done": 94
       },
       "latest_issues": [
         {
           "key": "SUR-217",
           "title": "[巡检] 2026-10-06 leader Issue 状态巡检与催办",
-          "status": "in_progress",
-          "updated_at": "2026-10-05T16:01:09Z"
+          "status": "done",
+          "updated_at": "2026-10-05T16:10:30Z"
+        },
+        {
+          "key": "SUR-215",
+          "title": "[流程优化] Opt-020：runtime可用性判定改为routing实测而非online状态（次",
+          "status": "todo",
+          "updated_at": "2026-10-05T16:10:14Z"
+        },
+        {
+          "key": "SUR-204",
+          "title": "[流程优化] Opt-019：自优化项改动须当轮落地（次日验证）",
+          "status": "todo",
+          "updated_at": "2026-10-05T16:10:13Z"
+        },
+        {
+          "key": "SUR-214",
+          "title": "[评审][day-11] 第3-6章深度论证质量对抗评审（口径③④⑦⑧，TSE对标，夜间第3轮）",
+          "status": "done",
+          "updated_at": "2026-10-05T16:10:12Z"
         },
         {
           "key": "SUR-216",
           "title": "[空闲检测] 2026-10-05 leader 两小时正点检查与加派",
           "status": "done",
           "updated_at": "2026-10-05T14:03:38Z"
-        },
-        {
-          "key": "SUR-214",
-          "title": "[评审][day-11] 第3-6章深度论证质量对抗评审（口径③④⑦⑧，TSE对标，夜间第3轮）",
-          "status": "in_review",
-          "updated_at": "2026-10-05T12:20:38Z"
-        },
-        {
-          "key": "SUR-213",
-          "title": "[晚会] 2026-10-05 day-11 第3轮派单与当日小结",
-          "status": "done",
-          "updated_at": "2026-10-05T12:11:57Z"
-        },
-        {
-          "key": "SUR-215",
-          "title": "[流程优化] Opt-020：runtime可用性判定改为routing实测而非online状态（次",
-          "status": "backlog",
-          "updated_at": "2026-10-05T12:07:20Z"
         }
       ],
       "progress_note": "day-4 晨 37% → 午 42% → 晚 44% → 夜 47%",
@@ -361,7 +361,7 @@
           "role": "IPD-Dev 开发工程师",
           "model": "zai:glm-5.3",
           "agent_id": "44fcec25-d8b3-4af6-b206-1774a64677ce",
-          "state": "working",
+          "state": "idle",
           "issue": "",
           "issue_title": ""
         },
