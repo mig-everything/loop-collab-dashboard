@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T10:19:55Z",
+  "generated_at": "2026-10-05T10:23:34Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -241,7 +241,7 @@
           "agent_id": "1c3481f5-135b-4959-9daa-c510c076d494",
           "state": "working",
           "issue": "DWM-181",
-          "issue_title": "[DW迁移任务单] Jerboa 迁移 · 清单+迁移 · 清单生成中 续2·r41·801/800步·5页/363项 ",
+          "issue_title": "[DW迁移任务单] Jerboa 迁移 · 清单+迁移 · 清单生成中 续2·r42·809/800步·5页/363项 ",
           "since": "2026-10-05T09:37:11Z"
         },
         {
@@ -274,9 +274,9 @@
       "latest_issues": [
         {
           "key": "DWM-181",
-          "title": "[DW迁移任务单] Jerboa 迁移 · 清单+迁移 · 清单生成中 续2·r41·801/800",
+          "title": "[DW迁移任务单] Jerboa 迁移 · 清单+迁移 · 清单生成中 续2·r42·809/800",
           "status": "in_progress",
-          "updated_at": "2026-10-05T10:16:54Z"
+          "updated_at": "2026-10-05T10:22:11Z"
         },
         {
           "key": "DWM-186",
@@ -305,9 +305,9 @@
       ],
       "order": {
         "key": "DWM-181",
-        "title": "[DW迁移任务单] Jerboa 迁移 · 清单+迁移 · 清单生成中 续2·r41·801/800步·5页/363项 · 迁移中 3/6 · 清单6.1h/16h 迁移6.1h/",
+        "title": "[DW迁移任务单] Jerboa 迁移 · 清单+迁移 · 清单生成中 续2·r42·809/800步·5页/363项 · 迁移中 3/6 · 清单6.2h/16h 迁移6.2h/",
         "status": "in_progress",
-        "updated_at": "2026-10-05T10:16:54Z"
+        "updated_at": "2026-10-05T10:22:11Z"
       }
     },
     {
@@ -356,10 +356,9 @@
           "role": "IPD-Dev 开发工程师",
           "model": "zai:glm-5.3",
           "agent_id": "44fcec25-d8b3-4af6-b206-1774a64677ce",
-          "state": "working",
-          "issue": "IPD-274",
-          "issue_title": "[Dev] REQ-011 背单词闪卡 鸿蒙端编码（第11场景主线 P0，第3轮）",
-          "since": "2026-10-05T10:06:56Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "hermes-tester",
@@ -411,6 +410,12 @@
       },
       "latest_issues": [
         {
+          "key": "IPD-274",
+          "title": "[Dev] REQ-011 背单词闪卡 鸿蒙端编码（第11场景主线 P0，第3轮）",
+          "status": "in_progress",
+          "updated_at": "2026-10-05T10:20:54Z"
+        },
+        {
           "key": "IPD-276",
           "title": "[PM·评审] REQ-011 背单词闪卡 TR-Design 评审（第11场景门禁）",
           "status": "in_review",
@@ -421,12 +426,6 @@
           "title": "[空闲检测] 2026-10-05 leader 两小时正点检查与加派",
           "status": "done",
           "updated_at": "2026-10-05T10:07:57Z"
-        },
-        {
-          "key": "IPD-274",
-          "title": "[Dev] REQ-011 背单词闪卡 鸿蒙端编码（第11场景主线 P0，第3轮）",
-          "status": "in_progress",
-          "updated_at": "2026-10-05T10:07:44Z"
         },
         {
           "key": "IPD-277",
