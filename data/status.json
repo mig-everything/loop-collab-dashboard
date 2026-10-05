@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T00:05:12Z",
+  "generated_at": "2026-10-05T00:08:54Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -17,12 +17,9 @@
           "role": "GPT Writer（执笔者）",
           "model": "",
           "agent_id": "58ed4647-32dd-4ca1-8ddc-194b975d6024",
-          "state": "working",
-          "issue": "SUR-195",
-          "issue_title": "[SUR-193] 文献扩充核实+A/B/C新口径全库重分类（口径5修订）",
-          "since": "2026-10-05T00:04:59Z",
-          "parent_issue": "SUR-193",
-          "parent_title": "[目标调整] 范围扩大为LLM驱动代码迁移+Introduction重写+文献扩充核实（2026-10-04负责人三条要"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "kimi-adversary",
@@ -40,10 +37,9 @@
           "role": "DeepSeek Task Planner（任务规划+总结）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "04a4e04e-59d5-4f3a-8a16-acf99b80a493",
-          "state": "working",
-          "issue": "SUR-206",
-          "issue_title": "[巡检] 2026-10-05 leader Issue 状态巡检与催办",
-          "since": "2026-10-05T00:00:17Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         }
       ],
       "issue_counts": {
@@ -57,7 +53,7 @@
           "key": "SUR-206",
           "title": "[巡检] 2026-10-05 leader Issue 状态巡检与催办",
           "status": "done",
-          "updated_at": "2026-10-05T00:05:16Z"
+          "updated_at": "2026-10-05T00:06:14Z"
         },
         {
           "key": "SUR-205",
