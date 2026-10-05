@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T04:59:07Z",
+  "generated_at": "2026-10-05T05:02:46Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -99,10 +99,9 @@
           "role": "GPT Scenarist",
           "model": "",
           "agent_id": "6e6f1e24-3bc5-455a-85d2-cb3fb6c9a672",
-          "state": "working",
-          "issue": "BEN-135",
-          "issue_title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 100（ref BEN",
-          "since": "2026-10-05T04:59:14Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "glm-runner",
@@ -164,16 +163,16 @@
       },
       "latest_issues": [
         {
+          "key": "BEN-135",
+          "title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 1",
+          "status": "in_progress",
+          "updated_at": "2026-10-05T05:02:15Z"
+        },
+        {
           "key": "BEN-169",
           "title": "[任务·第2轮] AP ③a 续修：未校准239+fixture268+结构穿透430（ref BE",
           "status": "done",
           "updated_at": "2026-10-05T04:45:58Z"
-        },
-        {
-          "key": "BEN-135",
-          "title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 1",
-          "status": "in_progress",
-          "updated_at": "2026-10-05T04:43:40Z"
         },
         {
           "key": "BEN-171",
@@ -243,7 +242,7 @@
           "agent_id": "1c3481f5-135b-4959-9daa-c510c076d494",
           "state": "working",
           "issue": "DWM-181",
-          "issue_title": "[DW迁移任务单] Jerboa 迁移 · 清单+迁移 · 清单生成中 r6·80/800步·5页/72项 · 迁移中 ",
+          "issue_title": "[DW迁移任务单] Jerboa 迁移 · 清单+迁移 · 清单生成中 r7·88/800步·5页/87项 · 迁移中 ",
           "since": "2026-10-05T04:06:04Z"
         },
         {
@@ -276,9 +275,9 @@
       "latest_issues": [
         {
           "key": "DWM-181",
-          "title": "[DW迁移任务单] Jerboa 迁移 · 清单+迁移 · 清单生成中 r6·80/800步·5页/",
+          "title": "[DW迁移任务单] Jerboa 迁移 · 清单+迁移 · 清单生成中 r7·88/800步·5页/",
           "status": "in_progress",
-          "updated_at": "2026-10-05T04:56:02Z"
+          "updated_at": "2026-10-05T05:01:16Z"
         },
         {
           "key": "DWM-182",
@@ -307,9 +306,9 @@
       ],
       "order": {
         "key": "DWM-181",
-        "title": "[DW迁移任务单] Jerboa 迁移 · 清单+迁移 · 清单生成中 r6·80/800步·5页/72项 · 迁移中 2/6 · 清单0.7h/16h 迁移0.7h/24h",
+        "title": "[DW迁移任务单] Jerboa 迁移 · 清单+迁移 · 清单生成中 r7·88/800步·5页/87项 · 迁移中 2/6 · 清单0.8h/16h 迁移0.8h/24h",
         "status": "in_progress",
-        "updated_at": "2026-10-05T04:56:02Z"
+        "updated_at": "2026-10-05T05:01:16Z"
       }
     },
     {
