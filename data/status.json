@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T01:36:06Z",
+  "generated_at": "2026-10-05T01:39:44Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -355,10 +355,9 @@
           "role": "IPD-Dev 开发工程师",
           "model": "zai:glm-5.3",
           "agent_id": "44fcec25-d8b3-4af6-b206-1774a64677ce",
-          "state": "working",
-          "issue": "IPD-264",
-          "issue_title": "[Dev] Mac Mini 正式实例代码更新+重启+复验口径9⑦⑧⑨（IPD-250 收尾·部署生效，16:00巡检前",
-          "since": "2026-10-05T01:31:12Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "hermes-tester",
@@ -403,16 +402,16 @@
       ],
       "issue_counts": {
         "todo": 0,
-        "in_progress": 2,
-        "in_review": 2,
+        "in_progress": 1,
+        "in_review": 3,
         "done": 96
       },
       "latest_issues": [
         {
           "key": "IPD-264",
           "title": "[Dev] Mac Mini 正式实例代码更新+重启+复验口径9⑦⑧⑨（IPD-250 收尾·部署生",
-          "status": "in_progress",
-          "updated_at": "2026-10-05T01:32:50Z"
+          "status": "in_review",
+          "updated_at": "2026-10-05T01:37:55Z"
         },
         {
           "key": "IPD-250",
