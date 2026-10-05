@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T00:59:47Z",
+  "generated_at": "2026-10-05T01:03:27Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -150,18 +150,25 @@
           "role": "只读洞察项目目标与执行证据，用简单语言汇报进展、偏差和阻塞，",
           "model": "gpt-6-astra",
           "agent_id": "33b902ee-a4ca-46ae-9284-c8285311c687",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "BEN-166",
+          "issue_title": "[观察员日报] 2026-10-05 通过率与 Agent 时间轴",
+          "since": "2026-10-05T01:00:44Z"
         }
       ],
       "issue_counts": {
-        "todo": 0,
+        "todo": 1,
         "in_progress": 2,
         "in_review": 0,
-        "done": 83
+        "done": 82
       },
       "latest_issues": [
+        {
+          "key": "BEN-166",
+          "title": "[观察员日报] 2026-10-05 通过率与 Agent 时间轴",
+          "status": "todo",
+          "updated_at": "2026-10-05T01:00:44Z"
+        },
         {
           "key": "BEN-135",
           "title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 1",
@@ -185,12 +192,6 @@
           "title": "[观察员日报] 2026-10-04 通过率与 Agent 时间轴",
           "status": "done",
           "updated_at": "2026-10-05T00:02:19Z"
-        },
-        {
-          "key": "BEN-163",
-          "title": "[任务·第1轮] 口径⑥ R7 全链路复跑 + gold anchor fresh 保真度复测（re",
-          "status": "in_progress",
-          "updated_at": "2026-10-05T00:02:06Z"
         }
       ]
     },
@@ -231,9 +232,11 @@
           "model": "claude-opus-5-5",
           "agent_id": "c6ff7c69-0db4-4b35-ac81-dd00e5a53ba4",
           "state": "working",
-          "issue": "DWM-149",
-          "issue_title": "[DW迁移任务单] NextPlayer 迁移 · 收口",
-          "since": "2026-10-05T00:59:52Z"
+          "issue": "DWM-175",
+          "issue_title": "[DWM-149·终验] NextPlayer 终验（全量）",
+          "since": "2026-10-05T01:02:43Z",
+          "parent_issue": "DWM-149",
+          "parent_title": "[DW迁移任务单] NextPlayer 迁移 · 收口"
         },
         {
           "name": "exec-runner",
@@ -251,12 +254,9 @@
           "role": "验证员",
           "model": "claude-opus-5-5",
           "agent_id": "69822c63-0dcc-4f3e-875d-7b300d437623",
-          "state": "working",
-          "issue": "DWM-175",
-          "issue_title": "[DWM-149·终验] NextPlayer 终验（全量）",
-          "since": "2026-10-05T00:59:31Z",
-          "parent_issue": "DWM-149",
-          "parent_title": "[DW迁移任务单] NextPlayer 迁移 · 收口"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "exec-fixer",
