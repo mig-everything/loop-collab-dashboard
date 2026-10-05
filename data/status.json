@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T13:11:14Z",
+  "generated_at": "2026-10-05T13:14:53Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -240,9 +240,10 @@
           "role": "运行员",
           "model": "claude-opus-5-5",
           "agent_id": "1c3481f5-135b-4959-9daa-c510c076d494",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "DWM-181",
+          "issue_title": "[DW迁移任务单] Jerboa 迁移 · 清单+迁移 · 清单✓422 · 迁移中 3/6 · 迁移9.0h/24h",
+          "since": "2026-10-05T13:14:08Z"
         },
         {
           "name": "exec-verifier",
@@ -276,7 +277,7 @@
           "key": "DWM-181",
           "title": "[DW迁移任务单] Jerboa 迁移 · 清单+迁移 · 清单✓422 · 迁移中 3/6 · 迁",
           "status": "in_progress",
-          "updated_at": "2026-10-05T13:09:45Z"
+          "updated_at": "2026-10-05T13:14:25Z"
         },
         {
           "key": "DWM-188",
@@ -305,9 +306,9 @@
       ],
       "order": {
         "key": "DWM-181",
-        "title": "[DW迁移任务单] Jerboa 迁移 · 清单+迁移 · 清单✓422 · 迁移中 3/6 · 迁移8.9h/24h",
+        "title": "[DW迁移任务单] Jerboa 迁移 · 清单+迁移 · 清单✓422 · 迁移中 3/6 · 迁移9.0h/24h",
         "status": "in_progress",
-        "updated_at": "2026-10-05T13:09:45Z"
+        "updated_at": "2026-10-05T13:14:25Z"
       }
     },
     {
