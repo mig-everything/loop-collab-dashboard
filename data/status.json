@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T10:23:34Z",
+  "generated_at": "2026-10-05T10:27:12Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -99,9 +99,10 @@
           "role": "GPT Scenarist",
           "model": "",
           "agent_id": "6e6f1e24-3bc5-455a-85d2-cb3fb6c9a672",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "BEN-135",
+          "issue_title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 100（ref BEN",
+          "since": "2026-10-05T10:24:07Z"
         },
         {
           "name": "glm-runner",
@@ -241,7 +242,7 @@
           "agent_id": "1c3481f5-135b-4959-9daa-c510c076d494",
           "state": "working",
           "issue": "DWM-181",
-          "issue_title": "[DW迁移任务单] Jerboa 迁移 · 清单+迁移 · 清单生成中 续2·r42·809/800步·5页/363项 ",
+          "issue_title": "[DW迁移任务单] Jerboa 迁移 · 清单+迁移 · 清单生成中 续2·r44·844/800步·5页/363项 ",
           "since": "2026-10-05T09:37:11Z"
         },
         {
@@ -274,9 +275,9 @@
       "latest_issues": [
         {
           "key": "DWM-181",
-          "title": "[DW迁移任务单] Jerboa 迁移 · 清单+迁移 · 清单生成中 续2·r42·809/800",
+          "title": "[DW迁移任务单] Jerboa 迁移 · 清单+迁移 · 清单生成中 续2·r44·844/800",
           "status": "in_progress",
-          "updated_at": "2026-10-05T10:22:11Z"
+          "updated_at": "2026-10-05T10:27:26Z"
         },
         {
           "key": "DWM-186",
@@ -305,9 +306,9 @@
       ],
       "order": {
         "key": "DWM-181",
-        "title": "[DW迁移任务单] Jerboa 迁移 · 清单+迁移 · 清单生成中 续2·r42·809/800步·5页/363项 · 迁移中 3/6 · 清单6.2h/16h 迁移6.2h/",
+        "title": "[DW迁移任务单] Jerboa 迁移 · 清单+迁移 · 清单生成中 续2·r44·844/800步·5页/363项 · 迁移中 3/6 · 清单6.2h/16h 迁移6.2h/",
         "status": "in_progress",
-        "updated_at": "2026-10-05T10:22:11Z"
+        "updated_at": "2026-10-05T10:27:26Z"
       }
     },
     {
@@ -366,10 +367,9 @@
           "role": "IPD-Tester 测试工程师",
           "model": "zai:glm-5.3",
           "agent_id": "86df9f14-a2cd-46d9-ad15-dbe8606ebd73",
-          "state": "working",
-          "issue": "IPD-275",
-          "issue_title": "[Tester] REQ-011 背单词闪卡 差分用例清单+差分断言（TDD先行，第3轮）",
-          "since": "2026-10-05T10:06:58Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "hermes-rm",
@@ -404,11 +404,17 @@
       ],
       "issue_counts": {
         "todo": 0,
-        "in_progress": 2,
-        "in_review": 1,
+        "in_progress": 1,
+        "in_review": 2,
         "done": 97
       },
       "latest_issues": [
+        {
+          "key": "IPD-275",
+          "title": "[Tester] REQ-011 背单词闪卡 差分用例清单+差分断言（TDD先行，第3轮）",
+          "status": "in_review",
+          "updated_at": "2026-10-05T10:25:15Z"
+        },
         {
           "key": "IPD-274",
           "title": "[Dev] REQ-011 背单词闪卡 鸿蒙端编码（第11场景主线 P0，第3轮）",
@@ -432,12 +438,6 @@
           "title": "[临时会议·空闲加派] 2026-10-05 18点场（第3轮派单）",
           "status": "done",
           "updated_at": "2026-10-05T10:07:35Z"
-        },
-        {
-          "key": "IPD-275",
-          "title": "[Tester] REQ-011 背单词闪卡 差分用例清单+差分断言（TDD先行，第3轮）",
-          "status": "in_progress",
-          "updated_at": "2026-10-05T10:07:26Z"
         }
       ]
     }
