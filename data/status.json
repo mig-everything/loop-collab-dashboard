@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T12:04:48Z",
+  "generated_at": "2026-10-05T12:08:28Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -27,9 +27,10 @@
           "role": "Kimi Adversarial Reviewer（对抗评审",
           "model": "",
           "agent_id": "6e530cc6-6b9d-4398-936d-df9c13468125",
-          "state": "meeting",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "SUR-214",
+          "issue_title": "[评审][day-11] 第3-6章深度论证质量对抗评审（口径③④⑦⑧，TSE对标，夜间第3轮）",
+          "since": "2026-10-05T12:07:11Z"
         },
         {
           "name": "deepseek-planner",
@@ -44,12 +45,24 @@
         }
       ],
       "issue_counts": {
-        "todo": 1,
-        "in_progress": 2,
+        "todo": 2,
+        "in_progress": 3,
         "in_review": 0,
-        "done": 94
+        "done": 92
       },
       "latest_issues": [
+        {
+          "key": "SUR-214",
+          "title": "[评审][day-11] 第3-6章深度论证质量对抗评审（口径③④⑦⑧，TSE对标，夜间第3轮）",
+          "status": "in_progress",
+          "updated_at": "2026-10-05T12:07:29Z"
+        },
+        {
+          "key": "SUR-215",
+          "title": "[流程优化] Opt-020：runtime可用性判定改为routing实测而非online状态（次",
+          "status": "backlog",
+          "updated_at": "2026-10-05T12:07:20Z"
+        },
         {
           "key": "SUR-213",
           "title": "[晚会] 2026-10-05 day-11 第3轮派单与当日小结",
@@ -67,18 +80,6 @@
           "title": "[巡检] 2026-10-05 leader Issue 状态巡检与催办",
           "status": "done",
           "updated_at": "2026-10-05T08:07:09Z"
-        },
-        {
-          "key": "SUR-209",
-          "title": "[评审][day-11] SUR-195 文献核实过程评审（已 commit 73/100+A/B/",
-          "status": "done",
-          "updated_at": "2026-10-05T08:06:55Z"
-        },
-        {
-          "key": "SUR-210",
-          "title": "[空闲检测] 2026-10-05 leader 两小时正点检查与加派",
-          "status": "done",
-          "updated_at": "2026-10-05T06:02:03Z"
         }
       ],
       "progress_note": "day-4 晨 37% → 午 42% → 晚 44% → 夜 47%",
@@ -90,9 +91,9 @@
       "workspace": "ws-benchmark-loop",
       "machine": "张涛 Mac Studio",
       "machine_online": true,
-      "meeting_active": true,
-      "meeting_title": "[晚会日报] 2026-10-05",
-      "progress": 78,
+      "meeting_active": false,
+      "meeting_title": "",
+      "progress": 83,
       "agents": [
         {
           "name": "gpt-scenarist",
@@ -100,9 +101,10 @@
           "role": "GPT Scenarist",
           "model": "",
           "agent_id": "6e6f1e24-3bc5-455a-85d2-cb3fb6c9a672",
-          "state": "meeting",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "BEN-177",
+          "issue_title": "[任务·第3轮] SC authoring 收口：test2 Settings 平移 + SC011/SC116/SC0",
+          "since": "2026-10-05T12:06:41Z"
         },
         {
           "name": "glm-runner",
@@ -110,9 +112,10 @@
           "role": "GLM Runner & Analyst",
           "model": "",
           "agent_id": "bdaefa9b-7045-4264-95e4-1db664e353d0",
-          "state": "meeting",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "BEN-178",
+          "issue_title": "[任务·第3轮] 口径⑥ R9 全链路复跑：census 含 BEN-169 +88 + R8 经验沉淀（ref BEN",
+          "since": "2026-10-05T12:06:45Z"
         },
         {
           "name": "deepseek-planner",
@@ -121,9 +124,8 @@
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "547cd361-ef50-4965-9477-bc659d8a1708",
           "state": "working",
-          "issue": "BEN-175",
-          "issue_title": "[晚会日报] 2026-10-05",
-          "since": "2026-10-05T12:00:17Z"
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "minimax-visual-diff",
@@ -131,9 +133,10 @@
           "role": "MiniMax 多模态视觉差分评审",
           "model": "minimax-cn:MiniMax-M3",
           "agent_id": "843ac45d-b5db-4f35-b07b-2e5754ec5a5f",
-          "state": "meeting",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "BEN-171",
+          "issue_title": "[任务·第2轮] SC v3 视觉差分补跑至 4-end≥40 + C/D 复测（ref BEN-162）",
+          "since": "2026-10-05T12:07:02Z"
         },
         {
           "name": "项目观察员",
@@ -141,7 +144,7 @@
           "role": "只读洞察项目目标与执行证据，用简单语言汇报进展、偏差和阻塞，",
           "model": "",
           "agent_id": "4b674e90-4726-4eba-bd5c-06350e0b8b83",
-          "state": "meeting",
+          "state": "idle",
           "issue": "",
           "issue_title": ""
         },
@@ -151,47 +154,47 @@
           "role": "只读洞察项目目标与执行证据，用简单语言汇报进展、偏差和阻塞，",
           "model": "gpt-6-astra",
           "agent_id": "33b902ee-a4ca-46ae-9284-c8285311c687",
-          "state": "meeting",
+          "state": "idle",
           "issue": "",
           "issue_title": ""
         }
       ],
       "issue_counts": {
-        "todo": 1,
+        "todo": 3,
         "in_progress": 2,
         "in_review": 0,
-        "done": 82
+        "done": 80
       },
       "latest_issues": [
         {
-          "key": "BEN-170",
-          "title": "[任务·第2轮] 口径⑥ R8 全链路复跑（验证第1轮合入最新main）（ref BEN-163）",
-          "status": "done",
-          "updated_at": "2026-10-05T12:04:50Z"
-        },
-        {
-          "key": "BEN-135",
-          "title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 1",
-          "status": "in_progress",
-          "updated_at": "2026-10-05T12:04:15Z"
-        },
-        {
           "key": "BEN-175",
           "title": "[晚会日报] 2026-10-05",
+          "status": "done",
+          "updated_at": "2026-10-05T12:08:03Z"
+        },
+        {
+          "key": "BEN-178",
+          "title": "[任务·第3轮] 口径⑥ R9 全链路复跑：census 含 BEN-169 +88 + R8 经验",
           "status": "in_progress",
-          "updated_at": "2026-10-05T12:00:42Z"
+          "updated_at": "2026-10-05T12:07:12Z"
         },
         {
-          "key": "BEN-174",
-          "title": "[空闲检测] 2026-10-05 leader 两小时正点检查与加派",
-          "status": "done",
-          "updated_at": "2026-10-05T10:01:50Z"
+          "key": "BEN-171",
+          "title": "[任务·第2轮] SC v3 视觉差分补跑至 4-end≥40 + C/D 复测（ref BEN-1",
+          "status": "todo",
+          "updated_at": "2026-10-05T12:06:59Z"
         },
         {
-          "key": "BEN-173",
-          "title": "[巡检] 2026-10-05 leader Issue 状态巡检与催办",
-          "status": "done",
-          "updated_at": "2026-10-05T08:37:15Z"
+          "key": "BEN-177",
+          "title": "[任务·第3轮] SC authoring 收口：test2 Settings 平移 + SC011",
+          "status": "todo",
+          "updated_at": "2026-10-05T12:06:39Z"
+        },
+        {
+          "key": "BEN-176",
+          "title": "[任务·第3轮] AP ③a 续修：520→≥560 未校准191→≤160（ref BEN-169",
+          "status": "todo",
+          "updated_at": "2026-10-05T12:06:31Z"
         }
       ]
     },
@@ -201,8 +204,8 @@
       "workspace": "ws-dw-migration-loop",
       "machine": "奕棣 MacBook",
       "machine_online": true,
-      "meeting_active": false,
-      "meeting_title": "",
+      "meeting_active": true,
+      "meeting_title": "[晚会日报] 2026-10-05",
       "progress": 24,
       "agents": [
         {
@@ -211,7 +214,7 @@
           "role": "Opus Analyzer",
           "model": "claude-opus-5-5",
           "agent_id": "2f32549c-87c7-4202-8f54-3af79a30afa0",
-          "state": "idle",
+          "state": "meeting",
           "issue": "",
           "issue_title": ""
         },
@@ -232,7 +235,7 @@
           "role": "DW 迁移执行小队队长",
           "model": "claude-opus-5-5",
           "agent_id": "c6ff7c69-0db4-4b35-ac81-dd00e5a53ba4",
-          "state": "idle",
+          "state": "meeting",
           "issue": "",
           "issue_title": ""
         },
@@ -253,7 +256,7 @@
           "role": "验证员",
           "model": "claude-opus-5-5",
           "agent_id": "69822c63-0dcc-4f3e-875d-7b300d437623",
-          "state": "idle",
+          "state": "meeting",
           "issue": "",
           "issue_title": ""
         },
@@ -263,23 +266,29 @@
           "role": "修复员",
           "model": "claude-opus-5-5",
           "agent_id": "cd70e713-a339-4621-8699-2058d9cf7d6b",
-          "state": "idle",
+          "state": "meeting",
           "issue": "",
           "issue_title": ""
         }
       ],
       "issue_counts": {
         "todo": 1,
-        "in_progress": 1,
+        "in_progress": 2,
         "in_review": 0,
         "done": 62
       },
       "latest_issues": [
         {
+          "key": "DWM-188",
+          "title": "[任务] 批末套件层缺陷升级清单（session 截断第5次 + 复现族 P0/P1 分级）",
+          "status": "todo",
+          "updated_at": "2026-10-05T12:08:49Z"
+        },
+        {
           "key": "DWM-187",
           "title": "[晚会日报] 2026-10-05",
-          "status": "todo",
-          "updated_at": "2026-10-05T12:00:22Z"
+          "status": "in_progress",
+          "updated_at": "2026-10-05T12:08:38Z"
         },
         {
           "key": "DWM-181",
@@ -298,12 +307,6 @@
           "title": "[巡检] 2026-10-05 leader Issue 状态巡检与催办",
           "status": "done",
           "updated_at": "2026-10-05T08:01:52Z"
-        },
-        {
-          "key": "DWM-182",
-          "title": "[任务] NextPlayer 收口后差异分析 + §11.7 对抗评审 + DW 建议池入池",
-          "status": "done",
-          "updated_at": "2026-10-05T08:01:39Z"
         }
       ],
       "order": {
