@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T16:13:07Z",
+  "generated_at": "2026-10-05T16:16:52Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -44,12 +44,18 @@
         }
       ],
       "issue_counts": {
-        "todo": 2,
-        "in_progress": 1,
+        "todo": 1,
+        "in_progress": 2,
         "in_review": 0,
         "done": 94
       },
       "latest_issues": [
+        {
+          "key": "SUR-204",
+          "title": "[流程优化] Opt-019：自优化项改动须当轮落地（次日验证）",
+          "status": "in_progress",
+          "updated_at": "2026-10-05T16:15:08Z"
+        },
         {
           "key": "SUR-217",
           "title": "[巡检] 2026-10-06 leader Issue 状态巡检与催办",
@@ -61,12 +67,6 @@
           "title": "[流程优化] Opt-020：runtime可用性判定改为routing实测而非online状态（次",
           "status": "todo",
           "updated_at": "2026-10-05T16:10:14Z"
-        },
-        {
-          "key": "SUR-204",
-          "title": "[流程优化] Opt-019：自优化项改动须当轮落地（次日验证）",
-          "status": "todo",
-          "updated_at": "2026-10-05T16:10:13Z"
         },
         {
           "key": "SUR-214",
