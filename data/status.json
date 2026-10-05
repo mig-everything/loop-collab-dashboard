@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T12:19:44Z",
+  "generated_at": "2026-10-05T12:23:26Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -27,10 +27,9 @@
           "role": "Kimi Adversarial Reviewer（对抗评审",
           "model": "",
           "agent_id": "6e530cc6-6b9d-4398-936d-df9c13468125",
-          "state": "working",
-          "issue": "SUR-214",
-          "issue_title": "[评审][day-11] 第3-6章深度论证质量对抗评审（口径③④⑦⑧，TSE对标，夜间第3轮）",
-          "since": "2026-10-05T12:07:11Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "deepseek-planner",
@@ -45,22 +44,22 @@
       ],
       "issue_counts": {
         "todo": 2,
-        "in_progress": 2,
-        "in_review": 0,
+        "in_progress": 1,
+        "in_review": 1,
         "done": 93
       },
       "latest_issues": [
+        {
+          "key": "SUR-214",
+          "title": "[评审][day-11] 第3-6章深度论证质量对抗评审（口径③④⑦⑧，TSE对标，夜间第3轮）",
+          "status": "in_review",
+          "updated_at": "2026-10-05T12:20:38Z"
+        },
         {
           "key": "SUR-213",
           "title": "[晚会] 2026-10-05 day-11 第3轮派单与当日小结",
           "status": "done",
           "updated_at": "2026-10-05T12:11:57Z"
-        },
-        {
-          "key": "SUR-214",
-          "title": "[评审][day-11] 第3-6章深度论证质量对抗评审（口径③④⑦⑧，TSE对标，夜间第3轮）",
-          "status": "in_progress",
-          "updated_at": "2026-10-05T12:07:29Z"
         },
         {
           "key": "SUR-215",
@@ -279,7 +278,7 @@
           "key": "DWM-181",
           "title": "[DW迁移任务单] Jerboa 迁移 · 清单+迁移 · 清单生成中 续2·r55·1028/80",
           "status": "in_progress",
-          "updated_at": "2026-10-05T12:19:35Z"
+          "updated_at": "2026-10-05T12:22:50Z"
         },
         {
           "key": "DWM-188",
@@ -308,9 +307,9 @@
       ],
       "order": {
         "key": "DWM-181",
-        "title": "[DW迁移任务单] Jerboa 迁移 · 清单+迁移 · 清单生成中 续2·r55·1028/800步·5页/538项 · 迁移中 3/6 · 清单8.1h/16h 迁移8.1h",
+        "title": "[DW迁移任务单] Jerboa 迁移 · 清单+迁移 · 清单生成中 续2·r55·1028/800步·5页/538项 · 迁移中 3/6 · 清单8.2h/16h 迁移8.2h",
         "status": "in_progress",
-        "updated_at": "2026-10-05T12:19:35Z"
+        "updated_at": "2026-10-05T12:22:50Z"
       }
     },
     {
@@ -415,6 +414,12 @@
       },
       "latest_issues": [
         {
+          "key": "IPD-281",
+          "title": "[Tester] REQ-011 背单词闪卡 TR-Accept 差分执行 + 双端对比报告（第11",
+          "status": "in_progress",
+          "updated_at": "2026-10-05T12:21:53Z"
+        },
+        {
           "key": "IPD-280",
           "title": "[PM] REQ-011 正式 PRD 定稿（TR-Design 条件 C-B 闭合 · 第4轮夜间",
           "status": "in_review",
@@ -431,12 +436,6 @@
           "title": "[RM] 四维差收口 + 引擎降本复测 path_A 执行（第4轮夜间）",
           "status": "in_progress",
           "updated_at": "2026-10-05T12:11:44Z"
-        },
-        {
-          "key": "IPD-281",
-          "title": "[Tester] REQ-011 背单词闪卡 TR-Accept 差分执行 + 双端对比报告（第11",
-          "status": "in_progress",
-          "updated_at": "2026-10-05T12:11:26Z"
         },
         {
           "key": "IPD-279",
