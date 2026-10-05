@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T16:16:52Z",
+  "generated_at": "2026-10-05T16:20:34Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -381,10 +381,9 @@
           "role": "IPD-RM 发布经理",
           "model": "zai:glm-5.3",
           "agent_id": "78156461-9644-478e-9c80-53cd18e25e33",
-          "state": "working",
-          "issue": "IPD-282",
-          "issue_title": "[RM] 四维差收口 + 引擎降本复测 path_A 执行（第4轮夜间）",
-          "since": "2026-10-05T16:03:33Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "deepseek-planner",
@@ -409,11 +408,17 @@
       ],
       "issue_counts": {
         "todo": 0,
-        "in_progress": 2,
-        "in_review": 1,
+        "in_progress": 1,
+        "in_review": 2,
         "done": 97
       },
       "latest_issues": [
+        {
+          "key": "IPD-282",
+          "title": "[RM] 四维差收口 + 引擎降本复测 path_A 执行（第4轮夜间）",
+          "status": "in_review",
+          "updated_at": "2026-10-05T16:19:41Z"
+        },
         {
           "key": "IPD-274",
           "title": "[Dev] REQ-011 背单词闪卡 鸿蒙端编码（第11场景主线 P0，第3轮）",
@@ -437,12 +442,6 @@
           "title": "[SE] REQ-011 追踪矩阵升版（TR-Design 条件 C-A 闭合 · 第4轮夜间）",
           "status": "done",
           "updated_at": "2026-10-05T16:03:37Z"
-        },
-        {
-          "key": "IPD-282",
-          "title": "[RM] 四维差收口 + 引擎降本复测 path_A 执行（第4轮夜间）",
-          "status": "in_progress",
-          "updated_at": "2026-10-05T16:03:30Z"
         }
       ]
     }
