@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T12:45:35Z",
+  "generated_at": "2026-10-05T12:49:16Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -167,7 +167,7 @@
           "key": "BEN-176",
           "title": "[任务·第3轮] AP ③a 续修：520→≥560 未校准191→≤160（ref BEN-169",
           "status": "in_progress",
-          "updated_at": "2026-10-05T12:40:29Z"
+          "updated_at": "2026-10-05T12:49:12Z"
         },
         {
           "key": "BEN-135",
@@ -243,7 +243,7 @@
           "agent_id": "1c3481f5-135b-4959-9daa-c510c076d494",
           "state": "working",
           "issue": "DWM-181",
-          "issue_title": "[DW迁移任务单] Jerboa 迁移 · 清单+迁移 · 清单生成中 续2·r55·1028/800步·5页/538项",
+          "issue_title": "[DW迁移任务单] Jerboa 迁移 · 清单+迁移 · 清单待入库 续2·r55·1028/800步·5页/538项",
           "since": "2026-10-05T11:24:41Z"
         },
         {
@@ -276,9 +276,9 @@
       "latest_issues": [
         {
           "key": "DWM-181",
-          "title": "[DW迁移任务单] Jerboa 迁移 · 清单+迁移 · 清单生成中 续2·r55·1028/80",
+          "title": "[DW迁移任务单] Jerboa 迁移 · 清单+迁移 · 清单待入库 续2·r55·1028/80",
           "status": "in_progress",
-          "updated_at": "2026-10-05T12:43:55Z"
+          "updated_at": "2026-10-05T12:49:16Z"
         },
         {
           "key": "DWM-188",
@@ -307,9 +307,9 @@
       ],
       "order": {
         "key": "DWM-181",
-        "title": "[DW迁移任务单] Jerboa 迁移 · 清单+迁移 · 清单生成中 续2·r55·1028/800步·5页/538项 · 迁移中 3/6 · 清单8.5h/16h 迁移8.5h",
+        "title": "[DW迁移任务单] Jerboa 迁移 · 清单+迁移 · 清单待入库 续2·r55·1028/800步·5页/538项·已出清单 · 迁移中 3/6 · 清单8.6h/16h 迁",
         "status": "in_progress",
-        "updated_at": "2026-10-05T12:43:55Z"
+        "updated_at": "2026-10-05T12:49:16Z"
       }
     },
     {
@@ -379,10 +379,9 @@
           "role": "IPD-RM 发布经理",
           "model": "zai:glm-5.3",
           "agent_id": "78156461-9644-478e-9c80-53cd18e25e33",
-          "state": "working",
-          "issue": "IPD-282",
-          "issue_title": "[RM] 四维差收口 + 引擎降本复测 path_A 执行（第4轮夜间）",
-          "since": "2026-10-05T12:11:00Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "deepseek-planner",
@@ -413,6 +412,12 @@
       },
       "latest_issues": [
         {
+          "key": "IPD-282",
+          "title": "[RM] 四维差收口 + 引擎降本复测 path_A 执行（第4轮夜间）",
+          "status": "in_progress",
+          "updated_at": "2026-10-05T12:46:21Z"
+        },
+        {
           "key": "IPD-279",
           "title": "[SE] REQ-011 追踪矩阵升版（TR-Design 条件 C-A 闭合 · 第4轮夜间）",
           "status": "in_review",
@@ -435,12 +440,6 @@
           "title": "[晚会日报] 2026-10-05",
           "status": "done",
           "updated_at": "2026-10-05T12:14:03Z"
-        },
-        {
-          "key": "IPD-282",
-          "title": "[RM] 四维差收口 + 引擎降本复测 path_A 执行（第4轮夜间）",
-          "status": "in_progress",
-          "updated_at": "2026-10-05T12:11:44Z"
         }
       ]
     }
