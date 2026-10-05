@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T08:05:21Z",
+  "generated_at": "2026-10-05T08:09:03Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -37,36 +37,35 @@
           "role": "DeepSeek Task Planner（任务规划+总结）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "04a4e04e-59d5-4f3a-8a16-acf99b80a493",
-          "state": "working",
-          "issue": "SUR-211",
-          "issue_title": "[巡检] 2026-10-05 leader Issue 状态巡检与催办",
-          "since": "2026-10-05T08:00:21Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         }
       ],
       "issue_counts": {
-        "todo": 2,
+        "todo": 1,
         "in_progress": 1,
-        "in_review": 1,
-        "done": 93
+        "in_review": 0,
+        "done": 95
       },
       "latest_issues": [
         {
           "key": "SUR-211",
           "title": "[巡检] 2026-10-05 leader Issue 状态巡检与催办",
-          "status": "todo",
-          "updated_at": "2026-10-05T08:00:20Z"
+          "status": "done",
+          "updated_at": "2026-10-05T08:07:09Z"
+        },
+        {
+          "key": "SUR-209",
+          "title": "[评审][day-11] SUR-195 文献核实过程评审（已 commit 73/100+A/B/",
+          "status": "done",
+          "updated_at": "2026-10-05T08:06:55Z"
         },
         {
           "key": "SUR-210",
           "title": "[空闲检测] 2026-10-05 leader 两小时正点检查与加派",
           "status": "done",
           "updated_at": "2026-10-05T06:02:03Z"
-        },
-        {
-          "key": "SUR-209",
-          "title": "[评审][day-11] SUR-195 文献核实过程评审（已 commit 73/100+A/B/",
-          "status": "in_review",
-          "updated_at": "2026-10-05T04:30:19Z"
         },
         {
           "key": "SUR-208",
