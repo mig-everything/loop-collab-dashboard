@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T20:25:28Z",
+  "generated_at": "2026-10-05T20:29:09Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -340,10 +340,9 @@
           "role": "IPD-SA 解决方案架构师",
           "model": "zai:glm-5.3",
           "agent_id": "3e4373ef-a262-4b28-ab2a-818861fc9624",
-          "state": "working",
-          "issue": "IPD-290",
-          "issue_title": "[PM·评审] REQ-012 7分钟健身 TR-Req 评审（第12场景门禁）",
-          "since": "2026-10-05T20:15:08Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "hermes-se",
@@ -409,11 +408,17 @@
       ],
       "issue_counts": {
         "todo": 1,
-        "in_progress": 2,
-        "in_review": 1,
+        "in_progress": 1,
+        "in_review": 2,
         "done": 96
       },
       "latest_issues": [
+        {
+          "key": "IPD-290",
+          "title": "[PM·评审] REQ-012 7分钟健身 TR-Req 评审（第12场景门禁）",
+          "status": "in_review",
+          "updated_at": "2026-10-05T20:26:09Z"
+        },
         {
           "key": "IPD-281",
           "title": "[Tester] REQ-011 背单词闪卡 TR-Accept 差分执行 + 双端对比报告（第11",
@@ -425,12 +430,6 @@
           "title": "[SA] 流程通用性 P1~P4 解耦迭代（验收口径11/目标一 · day-12 第1轮）",
           "status": "in_review",
           "updated_at": "2026-10-05T20:22:02Z"
-        },
-        {
-          "key": "IPD-290",
-          "title": "[PM·评审] REQ-012 7分钟健身 TR-Req 评审（第12场景门禁）",
-          "status": "in_progress",
-          "updated_at": "2026-10-05T20:15:41Z"
         },
         {
           "key": "IPD-287",
