@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T20:50:50Z",
+  "generated_at": "2026-10-05T22:02:25Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -37,18 +37,25 @@
           "role": "DeepSeek Task Planner（任务规划+总结）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "04a4e04e-59d5-4f3a-8a16-acf99b80a493",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "SUR-223",
+          "issue_title": "[空闲检测] 2026-10-06 leader 两小时正点检查与加派",
+          "since": "2026-10-05T22:00:15Z"
         }
       ],
       "issue_counts": {
-        "todo": 2,
+        "todo": 3,
         "in_progress": 1,
         "in_review": 1,
-        "done": 93
+        "done": 92
       },
       "latest_issues": [
+        {
+          "key": "SUR-223",
+          "title": "[空闲检测] 2026-10-06 leader 两小时正点检查与加派",
+          "status": "todo",
+          "updated_at": "2026-10-05T22:00:15Z"
+        },
         {
           "key": "SUR-222",
           "title": "[任务][day-12] SUR-214 越界待办处置：lint 脚本误报修复 + 经验库条目（1+",
@@ -72,12 +79,6 @@
           "title": "[任务][day-12] 修复 SUR-214 打回 6 项（P0-1 附录编译 + P1-1 EC",
           "status": "backlog",
           "updated_at": "2026-10-05T20:12:57Z"
-        },
-        {
-          "key": "SUR-218",
-          "title": "[空闲检测] 2026-10-06 leader 两小时正点检查与加派",
-          "status": "done",
-          "updated_at": "2026-10-05T18:04:45Z"
         }
       ],
       "progress_note": "day-4 晨 37% → 午 42% → 晚 44% → 夜 47%",
@@ -163,6 +164,12 @@
       },
       "latest_issues": [
         {
+          "key": "BEN-185",
+          "title": "[空闲检测] 2026-10-06 leader 两小时正点检查与加派",
+          "status": "done",
+          "updated_at": "2026-10-05T22:01:51Z"
+        },
+        {
           "key": "BEN-183",
           "title": "[任务·第1轮] 口径⑥ R10 全链路复跑 + BEN-177 设备复跑代跑（ref BEN-17",
           "status": "in_progress",
@@ -185,12 +192,6 @@
           "title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 1",
           "status": "blocked",
           "updated_at": "2026-10-05T20:11:07Z"
-        },
-        {
-          "key": "BEN-177",
-          "title": "[任务·第3轮] SC authoring 收口：test2 Settings 平移 + SC011",
-          "status": "blocked",
-          "updated_at": "2026-10-05T20:11:06Z"
         }
       ]
     },
@@ -276,6 +277,12 @@
       },
       "latest_issues": [
         {
+          "key": "DWM-199",
+          "title": "[空闲检测] 2026-10-06 leader 两小时正点检查与加派",
+          "status": "done",
+          "updated_at": "2026-10-05T22:02:15Z"
+        },
+        {
           "key": "DWM-198",
           "title": "[任务] 建议池与套件层缺陷批末审核总提案（整合 9 缺陷族 + 126 建议池，一次性提案给奕棣）",
           "status": "in_review",
@@ -298,12 +305,6 @@
           "title": "[空闲检测] 2026-10-06 leader 两小时正点检查与加派",
           "status": "done",
           "updated_at": "2026-10-05T18:01:41Z"
-        },
-        {
-          "key": "DWM-181",
-          "title": "[DW迁移任务单] Jerboa 迁移 · 修复 wave 2/5",
-          "status": "in_progress",
-          "updated_at": "2026-10-05T17:56:27Z"
         }
       ],
       "order": {
@@ -413,6 +414,12 @@
       },
       "latest_issues": [
         {
+          "key": "IPD-291",
+          "title": "[空闲检测] 2026-10-06 leader 两小时正点检查与加派",
+          "status": "done",
+          "updated_at": "2026-10-05T22:01:48Z"
+        },
+        {
           "key": "IPD-288",
           "title": "[RM] path_B 引擎降本复测（模型单变量，收敛时长/Token差 · day-12 第1轮）",
           "status": "todo",
@@ -435,12 +442,6 @@
           "title": "[SA] 流程通用性 P1~P4 解耦迭代（验收口径11/目标一 · day-12 第1轮）",
           "status": "in_review",
           "updated_at": "2026-10-05T20:22:02Z"
-        },
-        {
-          "key": "IPD-287",
-          "title": "[PM] REQ-012 第12场景需求发布 + PRD + TR-Req（day-12 第1轮）",
-          "status": "done",
-          "updated_at": "2026-10-05T20:15:40Z"
         }
       ]
     }
