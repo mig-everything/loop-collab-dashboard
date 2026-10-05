@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T08:09:03Z",
+  "generated_at": "2026-10-05T08:12:43Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -100,9 +100,8 @@
           "model": "",
           "agent_id": "6e6f1e24-3bc5-455a-85d2-cb3fb6c9a672",
           "state": "working",
-          "issue": "BEN-135",
-          "issue_title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 100（ref BEN",
-          "since": "2026-10-05T08:04:27Z"
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "glm-runner",
@@ -165,6 +164,12 @@
       },
       "latest_issues": [
         {
+          "key": "BEN-135",
+          "title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 1",
+          "status": "in_progress",
+          "updated_at": "2026-10-05T08:12:32Z"
+        },
+        {
           "key": "BEN-173",
           "title": "[巡检] 2026-10-05 leader Issue 状态巡检与催办",
           "status": "done",
@@ -181,12 +186,6 @@
           "title": "[任务·第2轮] 口径⑥ R8 全链路复跑（验证第1轮合入最新main）（ref BEN-163）",
           "status": "in_progress",
           "updated_at": "2026-10-05T08:04:28Z"
-        },
-        {
-          "key": "BEN-135",
-          "title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 1",
-          "status": "in_progress",
-          "updated_at": "2026-10-05T08:04:25Z"
         },
         {
           "key": "BEN-166",
@@ -279,7 +278,7 @@
           "key": "DWM-181",
           "title": "[DW迁移任务单] Jerboa 迁移 · 清单+迁移 · 清单生成中 续1·r25·491/800",
           "status": "in_progress",
-          "updated_at": "2026-10-05T08:05:33Z"
+          "updated_at": "2026-10-05T08:10:48Z"
         },
         {
           "key": "DWM-185",
@@ -308,9 +307,9 @@
       ],
       "order": {
         "key": "DWM-181",
-        "title": "[DW迁移任务单] Jerboa 迁移 · 清单+迁移 · 清单生成中 续1·r25·491/800步·5页/296项 · 迁移中 3/6 · 清单3.9h/16h 迁移3.9h/",
+        "title": "[DW迁移任务单] Jerboa 迁移 · 清单+迁移 · 清单生成中 续1·r25·491/800步·5页/296项 · 迁移中 3/6 · 清单4.0h/16h 迁移4.0h/",
         "status": "in_progress",
-        "updated_at": "2026-10-05T08:05:33Z"
+        "updated_at": "2026-10-05T08:10:48Z"
       }
     },
     {
