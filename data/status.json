@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T04:18:44Z",
+  "generated_at": "2026-10-05T04:22:27Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -101,9 +101,9 @@
           "model": "",
           "agent_id": "6e6f1e24-3bc5-455a-85d2-cb3fb6c9a672",
           "state": "working",
-          "issue": "BEN-135",
-          "issue_title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 100（ref BEN",
-          "since": "2026-10-05T04:07:05Z"
+          "issue": "BEN-169",
+          "issue_title": "[任务·第2轮] AP ③a 续修：未校准239+fixture268+结构穿透430（ref BEN-161）",
+          "since": "2026-10-05T04:04:40Z"
         },
         {
           "name": "glm-runner",
@@ -165,6 +165,12 @@
       },
       "latest_issues": [
         {
+          "key": "BEN-135",
+          "title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 1",
+          "status": "in_progress",
+          "updated_at": "2026-10-05T04:20:07Z"
+        },
+        {
           "key": "BEN-171",
           "title": "[任务·第2轮] SC v3 视觉差分补跑至 4-end≥40 + C/D 复测（ref BEN-1",
           "status": "todo",
@@ -187,12 +193,6 @@
           "title": "[午会纪要] 2026-10-05",
           "status": "done",
           "updated_at": "2026-10-05T04:06:16Z"
-        },
-        {
-          "key": "BEN-135",
-          "title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 1",
-          "status": "in_progress",
-          "updated_at": "2026-10-05T03:51:44Z"
         }
       ]
     },
@@ -245,7 +245,7 @@
           "agent_id": "1c3481f5-135b-4959-9daa-c510c076d494",
           "state": "working",
           "issue": "DWM-181",
-          "issue_title": "[DW迁移任务单] Jerboa 迁移 · 清单+迁移 · 清单生成中 0/800步 · 迁移中 1/6 · 清单0.0",
+          "issue_title": "[DW迁移任务单] Jerboa 迁移 · 清单+迁移 · 清单生成中 0/800步·2页/15项 · 迁移中 2/6 ",
           "since": "2026-10-05T04:06:04Z"
         },
         {
@@ -278,9 +278,9 @@
       "latest_issues": [
         {
           "key": "DWM-181",
-          "title": "[DW迁移任务单] Jerboa 迁移 · 清单+迁移 · 清单生成中 0/800步 · 迁移中 1",
+          "title": "[DW迁移任务单] Jerboa 迁移 · 清单+迁移 · 清单生成中 0/800步·2页/15项 ",
           "status": "in_progress",
-          "updated_at": "2026-10-05T04:14:41Z"
+          "updated_at": "2026-10-05T04:19:23Z"
         },
         {
           "key": "DWM-180",
@@ -309,9 +309,9 @@
       ],
       "order": {
         "key": "DWM-181",
-        "title": "[DW迁移任务单] Jerboa 迁移 · 清单+迁移 · 清单生成中 0/800步 · 迁移中 1/6 · 清单0.0h/16h 迁移0.0h/24h",
+        "title": "[DW迁移任务单] Jerboa 迁移 · 清单+迁移 · 清单生成中 0/800步·2页/15项 · 迁移中 2/6 · 清单0.1h/16h 迁移0.1h/24h",
         "status": "in_progress",
-        "updated_at": "2026-10-05T04:14:41Z"
+        "updated_at": "2026-10-05T04:19:23Z"
       }
     },
     {
@@ -351,10 +351,9 @@
           "role": "IPD-SE 系统工程师",
           "model": "zai:glm-5.3",
           "agent_id": "b874ba6b-80e6-45c6-a8c6-aedc6f2b326b",
-          "state": "working",
-          "issue": "IPD-268",
-          "issue_title": "[SE] REQ-011 背单词闪卡 追踪矩阵（第11场景）",
-          "since": "2026-10-05T04:08:44Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "hermes-dev",
@@ -410,11 +409,17 @@
       ],
       "issue_counts": {
         "todo": 1,
-        "in_progress": 3,
-        "in_review": 1,
+        "in_progress": 2,
+        "in_review": 2,
         "done": 95
       },
       "latest_issues": [
+        {
+          "key": "IPD-268",
+          "title": "[SE] REQ-011 背单词闪卡 追踪矩阵（第11场景）",
+          "status": "in_review",
+          "updated_at": "2026-10-05T04:20:29Z"
+        },
         {
           "key": "IPD-270",
           "title": "[RM] 四维差收口 + 引擎降本复测立项（Token/时长差<0 推进）",
@@ -432,12 +437,6 @@
           "title": "[午会纪要] 2026-10-05",
           "status": "done",
           "updated_at": "2026-10-05T04:09:36Z"
-        },
-        {
-          "key": "IPD-268",
-          "title": "[SE] REQ-011 背单词闪卡 追踪矩阵（第11场景）",
-          "status": "in_progress",
-          "updated_at": "2026-10-05T04:09:29Z"
         },
         {
           "key": "IPD-267",
