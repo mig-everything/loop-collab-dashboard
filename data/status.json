@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T09:54:30Z",
+  "generated_at": "2026-10-05T10:01:41Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -37,18 +37,25 @@
           "role": "DeepSeek Task Planner（任务规划+总结）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "04a4e04e-59d5-4f3a-8a16-acf99b80a493",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "SUR-212",
+          "issue_title": "[空闲检测] 2026-10-05 leader 两小时正点检查与加派",
+          "since": "2026-10-05T10:00:16Z"
         }
       ],
       "issue_counts": {
-        "todo": 1,
+        "todo": 2,
         "in_progress": 1,
         "in_review": 0,
-        "done": 95
+        "done": 94
       },
       "latest_issues": [
+        {
+          "key": "SUR-212",
+          "title": "[空闲检测] 2026-10-05 leader 两小时正点检查与加派",
+          "status": "todo",
+          "updated_at": "2026-10-05T10:00:16Z"
+        },
         {
           "key": "SUR-211",
           "title": "[巡检] 2026-10-05 leader Issue 状态巡检与催办",
@@ -72,12 +79,6 @@
           "title": "[午会纪要] 2026-10-05",
           "status": "done",
           "updated_at": "2026-10-05T04:11:56Z"
-        },
-        {
-          "key": "SUR-207",
-          "title": "[空闲检测] 2026-10-05 leader 两小时正点检查与加派",
-          "status": "done",
-          "updated_at": "2026-10-05T02:01:56Z"
         }
       ],
       "progress_note": "day-4 晨 37% → 午 42% → 晚 44% → 夜 47%",
@@ -99,9 +100,10 @@
           "role": "GPT Scenarist",
           "model": "",
           "agent_id": "6e6f1e24-3bc5-455a-85d2-cb3fb6c9a672",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "BEN-135",
+          "issue_title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 100（ref BEN",
+          "since": "2026-10-05T09:59:06Z"
         },
         {
           "name": "glm-runner",
@@ -119,7 +121,7 @@
           "role": "DeepSeek Planner（小组 leader/PM）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "547cd361-ef50-4965-9477-bc659d8a1708",
-          "state": "idle",
+          "state": "working",
           "issue": "",
           "issue_title": ""
         },
@@ -162,6 +164,12 @@
       },
       "latest_issues": [
         {
+          "key": "BEN-174",
+          "title": "[空闲检测] 2026-10-05 leader 两小时正点检查与加派",
+          "status": "done",
+          "updated_at": "2026-10-05T10:01:50Z"
+        },
+        {
           "key": "BEN-135",
           "title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 1",
           "status": "in_progress",
@@ -184,12 +192,6 @@
           "title": "[任务·第2轮] SC v3 视觉差分补跑至 4-end≥40 + C/D 复测（ref BEN-1",
           "status": "todo",
           "updated_at": "2026-10-05T08:16:40Z"
-        },
-        {
-          "key": "BEN-166",
-          "title": "[观察员日报] 2026-10-05 通过率与 Agent 时间轴",
-          "status": "done",
-          "updated_at": "2026-10-05T08:04:23Z"
         }
       ]
     },
@@ -241,7 +243,7 @@
           "agent_id": "1c3481f5-135b-4959-9daa-c510c076d494",
           "state": "working",
           "issue": "DWM-181",
-          "issue_title": "[DW迁移任务单] Jerboa 迁移 · 清单+迁移 · 清单生成中 续1·r38·772/800步·5页/346项 ",
+          "issue_title": "[DW迁移任务单] Jerboa 迁移 · 清单+迁移 · 清单生成中 续1·r39·779/800步·5页/356项 ",
           "since": "2026-10-05T09:37:11Z"
         },
         {
@@ -269,14 +271,20 @@
         "todo": 0,
         "in_progress": 1,
         "in_review": 0,
-        "done": 62
+        "done": 63
       },
       "latest_issues": [
         {
+          "key": "DWM-186",
+          "title": "[空闲检测] 2026-10-05 leader 两小时正点检查与加派",
+          "status": "done",
+          "updated_at": "2026-10-05T10:01:46Z"
+        },
+        {
           "key": "DWM-181",
-          "title": "[DW迁移任务单] Jerboa 迁移 · 清单+迁移 · 清单生成中 续1·r38·772/800",
+          "title": "[DW迁移任务单] Jerboa 迁移 · 清单+迁移 · 清单生成中 续1·r39·779/800",
           "status": "in_progress",
-          "updated_at": "2026-10-05T09:53:12Z"
+          "updated_at": "2026-10-05T09:58:27Z"
         },
         {
           "key": "DWM-185",
@@ -295,19 +303,13 @@
           "title": "[空闲检测] 2026-10-05 leader 两小时正点检查与加派",
           "status": "done",
           "updated_at": "2026-10-05T06:01:51Z"
-        },
-        {
-          "key": "DWM-180",
-          "title": "[午会纪要] 2026-10-05",
-          "status": "done",
-          "updated_at": "2026-10-05T04:06:59Z"
         }
       ],
       "order": {
         "key": "DWM-181",
-        "title": "[DW迁移任务单] Jerboa 迁移 · 清单+迁移 · 清单生成中 续1·r38·772/800步·5页/346项 · 迁移中 3/6 · 清单5.7h/16h 迁移5.7h/",
+        "title": "[DW迁移任务单] Jerboa 迁移 · 清单+迁移 · 清单生成中 续1·r39·779/800步·5页/356项 · 迁移中 3/6 · 清单5.8h/16h 迁移5.8h/",
         "status": "in_progress",
-        "updated_at": "2026-10-05T09:53:12Z"
+        "updated_at": "2026-10-05T09:58:27Z"
       }
     },
     {
@@ -386,9 +388,10 @@
           "role": "DeepSeek Planner（小组 leader/PM ",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-273",
+          "issue_title": "[空闲检测] 2026-10-05 leader 两小时正点检查与加派",
+          "since": "2026-10-05T10:00:25Z"
         },
         {
           "name": "minimax-uijudge",
@@ -402,12 +405,18 @@
         }
       ],
       "issue_counts": {
-        "todo": 0,
+        "todo": 1,
         "in_progress": 0,
         "in_review": 0,
-        "done": 100
+        "done": 99
       },
       "latest_issues": [
+        {
+          "key": "IPD-273",
+          "title": "[空闲检测] 2026-10-05 leader 两小时正点检查与加派",
+          "status": "todo",
+          "updated_at": "2026-10-05T10:00:24Z"
+        },
         {
           "key": "IPD-272",
           "title": "[巡检] 2026-10-05 leader Issue 状态巡检与催办",
@@ -431,12 +440,6 @@
           "title": "[SE] REQ-011 背单词闪卡 追踪矩阵（第11场景）",
           "status": "done",
           "updated_at": "2026-10-05T08:02:24Z"
-        },
-        {
-          "key": "IPD-267",
-          "title": "[SA] REQ-011 背单词闪卡 TR-Design 架构+接口契约（第11场景主线 P0）",
-          "status": "done",
-          "updated_at": "2026-10-05T08:02:23Z"
         }
       ]
     }
