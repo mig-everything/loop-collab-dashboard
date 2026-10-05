@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T04:26:10Z",
+  "generated_at": "2026-10-05T04:29:52Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -244,7 +244,7 @@
           "agent_id": "1c3481f5-135b-4959-9daa-c510c076d494",
           "state": "working",
           "issue": "DWM-181",
-          "issue_title": "[DW迁移任务单] Jerboa 迁移 · 清单+迁移 · 清单生成中 r1·28/800步·2页/15项 · 迁移中 ",
+          "issue_title": "[DW迁移任务单] Jerboa 迁移 · 清单+迁移 · 清单生成中 r2·43/800步·5页/29项 · 迁移中 ",
           "since": "2026-10-05T04:06:04Z"
         },
         {
@@ -277,9 +277,9 @@
       "latest_issues": [
         {
           "key": "DWM-181",
-          "title": "[DW迁移任务单] Jerboa 迁移 · 清单+迁移 · 清单生成中 r1·28/800步·2页/",
+          "title": "[DW迁移任务单] Jerboa 迁移 · 清单+迁移 · 清单生成中 r2·43/800步·5页/",
           "status": "in_progress",
-          "updated_at": "2026-10-05T04:24:35Z"
+          "updated_at": "2026-10-05T04:29:49Z"
         },
         {
           "key": "DWM-182",
@@ -308,9 +308,9 @@
       ],
       "order": {
         "key": "DWM-181",
-        "title": "[DW迁移任务单] Jerboa 迁移 · 清单+迁移 · 清单生成中 r1·28/800步·2页/15项 · 迁移中 2/6 · 清单0.2h/16h 迁移0.2h/24h",
+        "title": "[DW迁移任务单] Jerboa 迁移 · 清单+迁移 · 清单生成中 r2·43/800步·5页/29项 · 迁移中 2/6 · 清单0.3h/16h 迁移0.3h/24h",
         "status": "in_progress",
-        "updated_at": "2026-10-05T04:24:35Z"
+        "updated_at": "2026-10-05T04:29:49Z"
       }
     },
     {
@@ -360,10 +360,9 @@
           "role": "IPD-Dev 开发工程师",
           "model": "zai:glm-5.3",
           "agent_id": "44fcec25-d8b3-4af6-b206-1774a64677ce",
-          "state": "working",
-          "issue": "IPD-269",
-          "issue_title": "[Dev] REQ-011 背单词闪卡 Android 基线生成（双端对照基准，与SA设计并行）",
-          "since": "2026-10-05T04:08:46Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "hermes-tester",
@@ -408,11 +407,17 @@
       ],
       "issue_counts": {
         "todo": 1,
-        "in_progress": 2,
-        "in_review": 2,
+        "in_progress": 1,
+        "in_review": 3,
         "done": 95
       },
       "latest_issues": [
+        {
+          "key": "IPD-269",
+          "title": "[Dev] REQ-011 背单词闪卡 Android 基线生成（双端对照基准，与SA设计并行）",
+          "status": "in_review",
+          "updated_at": "2026-10-05T04:27:03Z"
+        },
         {
           "key": "IPD-268",
           "title": "[SE] REQ-011 背单词闪卡 追踪矩阵（第11场景）",
@@ -424,12 +429,6 @@
           "title": "[RM] 四维差收口 + 引擎降本复测立项（Token/时长差<0 推进）",
           "status": "in_review",
           "updated_at": "2026-10-05T04:15:59Z"
-        },
-        {
-          "key": "IPD-269",
-          "title": "[Dev] REQ-011 背单词闪卡 Android 基线生成（双端对照基准，与SA设计并行）",
-          "status": "in_progress",
-          "updated_at": "2026-10-05T04:11:51Z"
         },
         {
           "key": "IPD-266",
