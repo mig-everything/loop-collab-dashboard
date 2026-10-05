@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T10:01:41Z",
+  "generated_at": "2026-10-05T10:05:23Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -37,24 +37,23 @@
           "role": "DeepSeek Task Planner（任务规划+总结）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "04a4e04e-59d5-4f3a-8a16-acf99b80a493",
-          "state": "working",
-          "issue": "SUR-212",
-          "issue_title": "[空闲检测] 2026-10-05 leader 两小时正点检查与加派",
-          "since": "2026-10-05T10:00:16Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         }
       ],
       "issue_counts": {
-        "todo": 2,
+        "todo": 1,
         "in_progress": 1,
         "in_review": 0,
-        "done": 94
+        "done": 95
       },
       "latest_issues": [
         {
           "key": "SUR-212",
           "title": "[空闲检测] 2026-10-05 leader 两小时正点检查与加派",
-          "status": "todo",
-          "updated_at": "2026-10-05T10:00:16Z"
+          "status": "done",
+          "updated_at": "2026-10-05T10:04:13Z"
         },
         {
           "key": "SUR-211",
@@ -121,7 +120,7 @@
           "role": "DeepSeek Planner（小组 leader/PM）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "547cd361-ef50-4965-9477-bc659d8a1708",
-          "state": "working",
+          "state": "idle",
           "issue": "",
           "issue_title": ""
         },
@@ -243,7 +242,7 @@
           "agent_id": "1c3481f5-135b-4959-9daa-c510c076d494",
           "state": "working",
           "issue": "DWM-181",
-          "issue_title": "[DW迁移任务单] Jerboa 迁移 · 清单+迁移 · 清单生成中 续1·r39·779/800步·5页/356项 ",
+          "issue_title": "[DW迁移任务单] Jerboa 迁移 · 清单+迁移 · 清单生成中 续1·r40·794/800步·5页/356项 ",
           "since": "2026-10-05T09:37:11Z"
         },
         {
@@ -275,16 +274,16 @@
       },
       "latest_issues": [
         {
+          "key": "DWM-181",
+          "title": "[DW迁移任务单] Jerboa 迁移 · 清单+迁移 · 清单生成中 续1·r40·794/800",
+          "status": "in_progress",
+          "updated_at": "2026-10-05T10:03:43Z"
+        },
+        {
           "key": "DWM-186",
           "title": "[空闲检测] 2026-10-05 leader 两小时正点检查与加派",
           "status": "done",
           "updated_at": "2026-10-05T10:01:46Z"
-        },
-        {
-          "key": "DWM-181",
-          "title": "[DW迁移任务单] Jerboa 迁移 · 清单+迁移 · 清单生成中 续1·r39·779/800",
-          "status": "in_progress",
-          "updated_at": "2026-10-05T09:58:27Z"
         },
         {
           "key": "DWM-185",
@@ -307,9 +306,9 @@
       ],
       "order": {
         "key": "DWM-181",
-        "title": "[DW迁移任务单] Jerboa 迁移 · 清单+迁移 · 清单生成中 续1·r39·779/800步·5页/356项 · 迁移中 3/6 · 清单5.8h/16h 迁移5.8h/",
+        "title": "[DW迁移任务单] Jerboa 迁移 · 清单+迁移 · 清单生成中 续1·r40·794/800步·5页/356项 · 迁移中 3/6 · 清单5.8h/16h 迁移5.8h/",
         "status": "in_progress",
-        "updated_at": "2026-10-05T09:58:27Z"
+        "updated_at": "2026-10-05T10:03:43Z"
       }
     },
     {
