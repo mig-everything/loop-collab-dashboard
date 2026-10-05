@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T10:48:59Z",
+  "generated_at": "2026-10-05T10:56:09Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -99,9 +99,10 @@
           "role": "GPT Scenarist",
           "model": "",
           "agent_id": "6e6f1e24-3bc5-455a-85d2-cb3fb6c9a672",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "BEN-135",
+          "issue_title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 100（ref BEN",
+          "since": "2026-10-05T10:54:36Z"
         },
         {
           "name": "glm-runner",
@@ -241,7 +242,7 @@
           "agent_id": "1c3481f5-135b-4959-9daa-c510c076d494",
           "state": "working",
           "issue": "DWM-181",
-          "issue_title": "[DW迁移任务单] Jerboa 迁移 · 清单+迁移 · 清单生成中 续2·r45·859/800步·5页/365项 ",
+          "issue_title": "[DW迁移任务单] Jerboa 迁移 · 清单+迁移 · 清单生成中 续2·r46·872/800步·5页/365项 ",
           "since": "2026-10-05T09:37:11Z"
         },
         {
@@ -274,9 +275,9 @@
       "latest_issues": [
         {
           "key": "DWM-181",
-          "title": "[DW迁移任务单] Jerboa 迁移 · 清单+迁移 · 清单生成中 续2·r45·859/800",
+          "title": "[DW迁移任务单] Jerboa 迁移 · 清单+迁移 · 清单生成中 续2·r46·872/800",
           "status": "in_progress",
-          "updated_at": "2026-10-05T10:48:32Z"
+          "updated_at": "2026-10-05T10:53:48Z"
         },
         {
           "key": "DWM-186",
@@ -305,9 +306,9 @@
       ],
       "order": {
         "key": "DWM-181",
-        "title": "[DW迁移任务单] Jerboa 迁移 · 清单+迁移 · 清单生成中 续2·r45·859/800步·5页/365项 · 迁移中 3/6 · 清单6.6h/16h 迁移6.6h/",
+        "title": "[DW迁移任务单] Jerboa 迁移 · 清单+迁移 · 清单生成中 续2·r46·872/800步·5页/365项 · 迁移中 3/6 · 清单6.7h/16h 迁移6.7h/",
         "status": "in_progress",
-        "updated_at": "2026-10-05T10:48:32Z"
+        "updated_at": "2026-10-05T10:53:48Z"
       }
     },
     {
