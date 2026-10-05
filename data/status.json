@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T01:14:23Z",
+  "generated_at": "2026-10-05T01:25:10Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -164,16 +164,16 @@
       },
       "latest_issues": [
         {
+          "key": "BEN-135",
+          "title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 1",
+          "status": "in_progress",
+          "updated_at": "2026-10-05T01:23:19Z"
+        },
+        {
           "key": "BEN-166",
           "title": "[观察员日报] 2026-10-05 通过率与 Agent 时间轴",
           "status": "todo",
           "updated_at": "2026-10-05T01:10:11Z"
-        },
-        {
-          "key": "BEN-135",
-          "title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 1",
-          "status": "in_progress",
-          "updated_at": "2026-10-05T00:57:37Z"
         },
         {
           "key": "BEN-162",
