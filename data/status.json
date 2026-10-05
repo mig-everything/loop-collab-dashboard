@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T08:34:38Z",
+  "generated_at": "2026-10-05T08:38:17Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -110,10 +110,9 @@
           "role": "GLM Runner & Analyst",
           "model": "",
           "agent_id": "bdaefa9b-7045-4264-95e4-1db664e353d0",
-          "state": "working",
-          "issue": "BEN-170",
-          "issue_title": "[任务·第2轮] 口径⑥ R8 全链路复跑（验证第1轮合入最新main）（ref BEN-163）",
-          "since": "2026-10-05T04:04:42Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "deepseek-planner",
@@ -158,11 +157,23 @@
       ],
       "issue_counts": {
         "todo": 1,
-        "in_progress": 2,
-        "in_review": 0,
+        "in_progress": 1,
+        "in_review": 1,
         "done": 82
       },
       "latest_issues": [
+        {
+          "key": "BEN-173",
+          "title": "[巡检] 2026-10-05 leader Issue 状态巡检与催办",
+          "status": "done",
+          "updated_at": "2026-10-05T08:37:15Z"
+        },
+        {
+          "key": "BEN-170",
+          "title": "[任务·第2轮] 口径⑥ R8 全链路复跑（验证第1轮合入最新main）（ref BEN-163）",
+          "status": "in_review",
+          "updated_at": "2026-10-05T08:37:15Z"
+        },
         {
           "key": "BEN-171",
           "title": "[任务·第2轮] SC v3 视觉差分补跑至 4-end≥40 + C/D 复测（ref BEN-1",
@@ -174,18 +185,6 @@
           "title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 1",
           "status": "in_progress",
           "updated_at": "2026-10-05T08:12:32Z"
-        },
-        {
-          "key": "BEN-173",
-          "title": "[巡检] 2026-10-05 leader Issue 状态巡检与催办",
-          "status": "done",
-          "updated_at": "2026-10-05T08:04:45Z"
-        },
-        {
-          "key": "BEN-170",
-          "title": "[任务·第2轮] 口径⑥ R8 全链路复跑（验证第1轮合入最新main）（ref BEN-163）",
-          "status": "in_progress",
-          "updated_at": "2026-10-05T08:04:28Z"
         },
         {
           "key": "BEN-166",
@@ -243,7 +242,7 @@
           "agent_id": "1c3481f5-135b-4959-9daa-c510c076d494",
           "state": "working",
           "issue": "DWM-181",
-          "issue_title": "[DW迁移任务单] Jerboa 迁移 · 清单+迁移 · 清单生成中 续1·r27·532/800步·5页/308项 ",
+          "issue_title": "[DW迁移任务单] Jerboa 迁移 · 清单+迁移 · 清单生成中 续1·r29·578/800步·5页/308项 ",
           "since": "2026-10-05T07:44:06Z"
         },
         {
@@ -276,9 +275,9 @@
       "latest_issues": [
         {
           "key": "DWM-181",
-          "title": "[DW迁移任务单] Jerboa 迁移 · 清单+迁移 · 清单生成中 续1·r27·532/800",
+          "title": "[DW迁移任务单] Jerboa 迁移 · 清单+迁移 · 清单生成中 续1·r29·578/800",
           "status": "in_progress",
-          "updated_at": "2026-10-05T08:31:49Z"
+          "updated_at": "2026-10-05T08:37:04Z"
         },
         {
           "key": "DWM-185",
@@ -307,9 +306,9 @@
       ],
       "order": {
         "key": "DWM-181",
-        "title": "[DW迁移任务单] Jerboa 迁移 · 清单+迁移 · 清单生成中 续1·r27·532/800步·5页/308项 · 迁移中 3/6 · 清单4.3h/16h 迁移4.3h/",
+        "title": "[DW迁移任务单] Jerboa 迁移 · 清单+迁移 · 清单生成中 续1·r29·578/800步·5页/308项 · 迁移中 3/6 · 清单4.4h/16h 迁移4.4h/",
         "status": "in_progress",
-        "updated_at": "2026-10-05T08:31:49Z"
+        "updated_at": "2026-10-05T08:37:04Z"
       }
     },
     {
