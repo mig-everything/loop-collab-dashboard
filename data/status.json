@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T13:51:44Z",
+  "generated_at": "2026-10-05T14:02:47Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -37,18 +37,25 @@
           "role": "DeepSeek Task Planner（任务规划+总结）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "04a4e04e-59d5-4f3a-8a16-acf99b80a493",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "SUR-216",
+          "issue_title": "[空闲检测] 2026-10-05 leader 两小时正点检查与加派",
+          "since": "2026-10-05T14:00:17Z"
         }
       ],
       "issue_counts": {
-        "todo": 2,
+        "todo": 3,
         "in_progress": 1,
         "in_review": 1,
-        "done": 93
+        "done": 92
       },
       "latest_issues": [
+        {
+          "key": "SUR-216",
+          "title": "[空闲检测] 2026-10-05 leader 两小时正点检查与加派",
+          "status": "todo",
+          "updated_at": "2026-10-05T14:00:16Z"
+        },
         {
           "key": "SUR-214",
           "title": "[评审][day-11] 第3-6章深度论证质量对抗评审（口径③④⑦⑧，TSE对标，夜间第3轮）",
@@ -72,12 +79,6 @@
           "title": "[空闲检测] 2026-10-05 leader 两小时正点检查与加派",
           "status": "done",
           "updated_at": "2026-10-05T10:04:13Z"
-        },
-        {
-          "key": "SUR-211",
-          "title": "[巡检] 2026-10-05 leader Issue 状态巡检与催办",
-          "status": "done",
-          "updated_at": "2026-10-05T08:07:09Z"
         }
       ],
       "progress_note": "day-4 晨 37% → 午 42% → 晚 44% → 夜 47%",
@@ -159,9 +160,15 @@
         "todo": 0,
         "in_progress": 2,
         "in_review": 1,
-        "done": 81
+        "done": 82
       },
       "latest_issues": [
+        {
+          "key": "BEN-179",
+          "title": "[空闲检测] 2026-10-05 leader 两小时正点检查与加派",
+          "status": "done",
+          "updated_at": "2026-10-05T14:02:20Z"
+        },
         {
           "key": "BEN-135",
           "title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 1",
@@ -185,12 +192,6 @@
           "title": "[任务·第2轮] SC v3 视觉差分补跑至 4-end≥40 + C/D 复测（ref BEN-1",
           "status": "in_review",
           "updated_at": "2026-10-05T12:18:27Z"
-        },
-        {
-          "key": "BEN-175",
-          "title": "[晚会日报] 2026-10-05",
-          "status": "done",
-          "updated_at": "2026-10-05T12:08:03Z"
         }
       ]
     },
@@ -220,7 +221,7 @@
           "role": "DeepSeek Planner（小组 leader/PM，",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "950ff614-521d-4e32-a02d-423d41a7b2b3",
-          "state": "idle",
+          "state": "working",
           "issue": "",
           "issue_title": ""
         },
@@ -275,9 +276,15 @@
         "todo": 0,
         "in_progress": 1,
         "in_review": 1,
-        "done": 62
+        "done": 63
       },
       "latest_issues": [
+        {
+          "key": "DWM-191",
+          "title": "[空闲检测] 2026-10-05 leader 两小时正点检查与加派",
+          "status": "done",
+          "updated_at": "2026-10-05T14:03:01Z"
+        },
         {
           "key": "DWM-181",
           "title": "[DW迁移任务单] Jerboa 迁移 · 还原审计",
@@ -301,12 +308,6 @@
           "title": "[空闲检测] 2026-10-05 leader 两小时正点检查与加派",
           "status": "done",
           "updated_at": "2026-10-05T10:01:46Z"
-        },
-        {
-          "key": "DWM-185",
-          "title": "[巡检] 2026-10-05 leader Issue 状态巡检与催办",
-          "status": "done",
-          "updated_at": "2026-10-05T08:01:52Z"
         }
       ],
       "order": {
@@ -415,6 +416,12 @@
       },
       "latest_issues": [
         {
+          "key": "IPD-283",
+          "title": "[空闲检测] 2026-10-05 leader 两小时正点检查与加派",
+          "status": "done",
+          "updated_at": "2026-10-05T14:02:54Z"
+        },
+        {
           "key": "IPD-282",
           "title": "[RM] 四维差收口 + 引擎降本复测 path_A 执行（第4轮夜间）",
           "status": "in_progress",
@@ -437,12 +444,6 @@
           "title": "[PM] REQ-011 正式 PRD 定稿（TR-Design 条件 C-B 闭合 · 第4轮夜间",
           "status": "in_review",
           "updated_at": "2026-10-05T12:16:34Z"
-        },
-        {
-          "key": "IPD-278",
-          "title": "[晚会日报] 2026-10-05",
-          "status": "done",
-          "updated_at": "2026-10-05T12:14:03Z"
         }
       ]
     }
