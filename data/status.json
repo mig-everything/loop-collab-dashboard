@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T16:20:34Z",
+  "generated_at": "2026-10-05T16:24:18Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -45,16 +45,16 @@
       ],
       "issue_counts": {
         "todo": 1,
-        "in_progress": 2,
+        "in_progress": 1,
         "in_review": 0,
-        "done": 94
+        "done": 95
       },
       "latest_issues": [
         {
           "key": "SUR-204",
           "title": "[流程优化] Opt-019：自优化项改动须当轮落地（次日验证）",
-          "status": "in_progress",
-          "updated_at": "2026-10-05T16:15:08Z"
+          "status": "done",
+          "updated_at": "2026-10-05T16:21:16Z"
         },
         {
           "key": "SUR-217",
