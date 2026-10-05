@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T09:28:57Z",
+  "generated_at": "2026-10-05T09:32:36Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -241,9 +241,8 @@
           "model": "claude-opus-5-5",
           "agent_id": "1c3481f5-135b-4959-9daa-c510c076d494",
           "state": "working",
-          "issue": "DWM-181",
-          "issue_title": "[DW迁移任务单] Jerboa 迁移 · 清单+迁移 · 清单生成中 续1·r34·678/800步·5页/346项 ",
-          "since": "2026-10-05T07:44:06Z"
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "exec-verifier",
@@ -275,9 +274,9 @@
       "latest_issues": [
         {
           "key": "DWM-181",
-          "title": "[DW迁移任务单] Jerboa 迁移 · 清单+迁移 · 清单生成中 续1·r34·678/800",
+          "title": "[DW迁移任务单] Jerboa 迁移 · 清单+迁移 · 清单生成中 续1·r36·738/800",
           "status": "in_progress",
-          "updated_at": "2026-10-05T09:21:58Z"
+          "updated_at": "2026-10-05T09:32:29Z"
         },
         {
           "key": "DWM-185",
@@ -306,9 +305,9 @@
       ],
       "order": {
         "key": "DWM-181",
-        "title": "[DW迁移任务单] Jerboa 迁移 · 清单+迁移 · 清单生成中 续1·r34·678/800步·5页/346项 · 迁移中 3/6 · 清单5.2h/16h 迁移5.2h/",
+        "title": "[DW迁移任务单] Jerboa 迁移 · 清单+迁移 · 清单生成中 续1·r36·738/800步·5页/346项 · 迁移中 3/6 · 清单5.3h/16h 迁移5.3h/",
         "status": "in_progress",
-        "updated_at": "2026-10-05T09:21:58Z"
+        "updated_at": "2026-10-05T09:32:29Z"
       }
     },
     {
