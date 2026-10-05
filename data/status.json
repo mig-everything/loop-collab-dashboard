@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T12:27:08Z",
+  "generated_at": "2026-10-05T12:30:49Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -158,7 +158,7 @@
       ],
       "issue_counts": {
         "todo": 0,
-        "in_progress": 4,
+        "in_progress": 3,
         "in_review": 1,
         "done": 80
       },
@@ -166,20 +166,20 @@
         {
           "key": "BEN-177",
           "title": "[任务·第3轮] SC authoring 收口：test2 Settings 平移 + SC011",
+          "status": "blocked",
+          "updated_at": "2026-10-05T12:29:16Z"
+        },
+        {
+          "key": "BEN-176",
+          "title": "[任务·第3轮] AP ③a 续修：520→≥560 未校准191→≤160（ref BEN-169",
           "status": "in_progress",
-          "updated_at": "2026-10-05T12:25:07Z"
+          "updated_at": "2026-10-05T12:27:20Z"
         },
         {
           "key": "BEN-171",
           "title": "[任务·第2轮] SC v3 视觉差分补跑至 4-end≥40 + C/D 复测（ref BEN-1",
           "status": "in_review",
           "updated_at": "2026-10-05T12:18:27Z"
-        },
-        {
-          "key": "BEN-176",
-          "title": "[任务·第3轮] AP ③a 续修：520→≥560 未校准191→≤160（ref BEN-169",
-          "status": "in_progress",
-          "updated_at": "2026-10-05T12:17:57Z"
         },
         {
           "key": "BEN-175",
@@ -278,7 +278,7 @@
           "key": "DWM-181",
           "title": "[DW迁移任务单] Jerboa 迁移 · 清单+迁移 · 清单生成中 续2·r55·1028/80",
           "status": "in_progress",
-          "updated_at": "2026-10-05T12:22:50Z"
+          "updated_at": "2026-10-05T12:28:04Z"
         },
         {
           "key": "DWM-188",
@@ -307,9 +307,9 @@
       ],
       "order": {
         "key": "DWM-181",
-        "title": "[DW迁移任务单] Jerboa 迁移 · 清单+迁移 · 清单生成中 续2·r55·1028/800步·5页/538项 · 迁移中 3/6 · 清单8.2h/16h 迁移8.2h",
+        "title": "[DW迁移任务单] Jerboa 迁移 · 清单+迁移 · 清单生成中 续2·r55·1028/800步·5页/538项 · 迁移中 3/6 · 清单8.3h/16h 迁移8.3h",
         "status": "in_progress",
-        "updated_at": "2026-10-05T12:22:50Z"
+        "updated_at": "2026-10-05T12:28:04Z"
       }
     },
     {
