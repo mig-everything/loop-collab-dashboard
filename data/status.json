@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T12:12:13Z",
+  "generated_at": "2026-10-05T12:15:59Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -166,16 +166,16 @@
       },
       "latest_issues": [
         {
+          "key": "BEN-176",
+          "title": "[任务·第3轮] AP ③a 续修：520→≥560 未校准191→≤160（ref BEN-169",
+          "status": "in_progress",
+          "updated_at": "2026-10-05T12:13:48Z"
+        },
+        {
           "key": "BEN-177",
           "title": "[任务·第3轮] SC authoring 收口：test2 Settings 平移 + SC011",
           "status": "in_progress",
           "updated_at": "2026-10-05T12:10:23Z"
-        },
-        {
-          "key": "BEN-176",
-          "title": "[任务·第3轮] AP ③a 续修：520→≥560 未校准191→≤160（ref BEN-169",
-          "status": "in_progress",
-          "updated_at": "2026-10-05T12:09:25Z"
         },
         {
           "key": "BEN-175",
@@ -224,10 +224,9 @@
           "role": "DeepSeek Planner（小组 leader/PM，",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "950ff614-521d-4e32-a02d-423d41a7b2b3",
-          "state": "working",
-          "issue": "DWM-187",
-          "issue_title": "[晚会日报] 2026-10-05",
-          "since": "2026-10-05T12:00:22Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "dw-lead",
@@ -279,6 +278,12 @@
       },
       "latest_issues": [
         {
+          "key": "DWM-181",
+          "title": "[DW迁移任务单] Jerboa 迁移 · 清单+迁移 · 清单生成中 续2·r55·1028/80",
+          "status": "in_progress",
+          "updated_at": "2026-10-05T12:14:19Z"
+        },
+        {
           "key": "DWM-187",
           "title": "[晚会日报] 2026-10-05",
           "status": "done",
@@ -289,12 +294,6 @@
           "title": "[任务] 批末套件层缺陷升级清单（session 截断第5次 + 复现族 P0/P1 分级）",
           "status": "in_progress",
           "updated_at": "2026-10-05T12:09:07Z"
-        },
-        {
-          "key": "DWM-181",
-          "title": "[DW迁移任务单] Jerboa 迁移 · 清单+迁移 · 清单生成中 续2·r55·1028/80",
-          "status": "in_progress",
-          "updated_at": "2026-10-05T12:09:04Z"
         },
         {
           "key": "DWM-186",
@@ -311,9 +310,9 @@
       ],
       "order": {
         "key": "DWM-181",
-        "title": "[DW迁移任务单] Jerboa 迁移 · 清单+迁移 · 清单生成中 续2·r55·1028/800步·5页/538项 · 迁移中 3/6 · 清单7.9h/16h 迁移7.9h",
+        "title": "[DW迁移任务单] Jerboa 迁移 · 清单+迁移 · 清单生成中 续2·r55·1028/800步·5页/538项 · 迁移中 3/6 · 清单8.0h/16h 迁移8.0h",
         "status": "in_progress",
-        "updated_at": "2026-10-05T12:09:04Z"
+        "updated_at": "2026-10-05T12:14:19Z"
       }
     },
     {
@@ -322,9 +321,9 @@
       "workspace": "ws-ipd-eazo-loop",
       "machine": "贾博 Mac Mini",
       "machine_online": true,
-      "meeting_active": true,
-      "meeting_title": "[晚会日报] 2026-10-05",
-      "progress": 80,
+      "meeting_active": false,
+      "meeting_title": "",
+      "progress": 85,
       "agents": [
         {
           "name": "hermes-pm",
@@ -343,7 +342,7 @@
           "role": "IPD-SA 解决方案架构师",
           "model": "zai:glm-5.3",
           "agent_id": "3e4373ef-a262-4b28-ab2a-818861fc9624",
-          "state": "meeting",
+          "state": "idle",
           "issue": "",
           "issue_title": ""
         },
@@ -364,7 +363,7 @@
           "role": "IPD-Dev 开发工程师",
           "model": "zai:glm-5.3",
           "agent_id": "44fcec25-d8b3-4af6-b206-1774a64677ce",
-          "state": "meeting",
+          "state": "idle",
           "issue": "",
           "issue_title": ""
         },
@@ -396,10 +395,9 @@
           "role": "DeepSeek Planner（小组 leader/PM ",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
-          "state": "working",
-          "issue": "IPD-278",
-          "issue_title": "[晚会日报] 2026-10-05",
-          "since": "2026-10-05T12:00:32Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "minimax-uijudge",
@@ -407,18 +405,24 @@
           "role": "MiniMax 多模态 UI 视觉评审",
           "model": "minimax-cn:MiniMax-M3",
           "agent_id": "97f55294-90e0-4556-93af-a1cf44889574",
-          "state": "meeting",
+          "state": "idle",
           "issue": "",
           "issue_title": ""
         }
       ],
       "issue_counts": {
         "todo": 1,
-        "in_progress": 5,
+        "in_progress": 4,
         "in_review": 0,
-        "done": 94
+        "done": 95
       },
       "latest_issues": [
+        {
+          "key": "IPD-278",
+          "title": "[晚会日报] 2026-10-05",
+          "status": "done",
+          "updated_at": "2026-10-05T12:14:03Z"
+        },
         {
           "key": "IPD-282",
           "title": "[RM] 四维差收口 + 引擎降本复测 path_A 执行（第4轮夜间）",
@@ -442,12 +446,6 @@
           "title": "[PM] REQ-011 正式 PRD 定稿（TR-Design 条件 C-B 闭合 · 第4轮夜间",
           "status": "todo",
           "updated_at": "2026-10-05T12:10:51Z"
-        },
-        {
-          "key": "IPD-275",
-          "title": "[Tester] REQ-011 背单词闪卡 差分用例清单+差分断言（TDD先行，第3轮）",
-          "status": "done",
-          "updated_at": "2026-10-05T12:09:51Z"
         }
       ]
     }
