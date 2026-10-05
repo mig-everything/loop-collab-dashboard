@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T12:52:57Z",
+  "generated_at": "2026-10-05T12:56:37Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -158,16 +158,16 @@
       ],
       "issue_counts": {
         "todo": 0,
-        "in_progress": 3,
+        "in_progress": 2,
         "in_review": 1,
-        "done": 80
+        "done": 81
       },
       "latest_issues": [
         {
           "key": "BEN-176",
           "title": "[任务·第3轮] AP ③a 续修：520→≥560 未校准191→≤160（ref BEN-169",
-          "status": "in_progress",
-          "updated_at": "2026-10-05T12:53:04Z"
+          "status": "done",
+          "updated_at": "2026-10-05T12:53:10Z"
         },
         {
           "key": "BEN-135",
@@ -243,7 +243,7 @@
           "agent_id": "1c3481f5-135b-4959-9daa-c510c076d494",
           "state": "working",
           "issue": "DWM-181",
-          "issue_title": "[DW迁移任务单] Jerboa 迁移 · 清单+迁移 · 清单✓422 · 迁移中 3/6 · 迁移8.6h/24h",
+          "issue_title": "[DW迁移任务单] Jerboa 迁移 · 清单+迁移 · 清单✓422 · 迁移中 3/6 · 迁移8.7h/24h",
           "since": "2026-10-05T11:24:41Z"
         },
         {
@@ -278,7 +278,7 @@
           "key": "DWM-181",
           "title": "[DW迁移任务单] Jerboa 迁移 · 清单+迁移 · 清单✓422 · 迁移中 3/6 · 迁",
           "status": "in_progress",
-          "updated_at": "2026-10-05T12:50:06Z"
+          "updated_at": "2026-10-05T12:55:21Z"
         },
         {
           "key": "DWM-188",
@@ -307,9 +307,9 @@
       ],
       "order": {
         "key": "DWM-181",
-        "title": "[DW迁移任务单] Jerboa 迁移 · 清单+迁移 · 清单✓422 · 迁移中 3/6 · 迁移8.6h/24h",
+        "title": "[DW迁移任务单] Jerboa 迁移 · 清单+迁移 · 清单✓422 · 迁移中 3/6 · 迁移8.7h/24h",
         "status": "in_progress",
-        "updated_at": "2026-10-05T12:50:06Z"
+        "updated_at": "2026-10-05T12:55:21Z"
       }
     },
     {
