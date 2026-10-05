@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T13:03:56Z",
+  "generated_at": "2026-10-05T13:07:35Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -242,7 +242,7 @@
           "agent_id": "1c3481f5-135b-4959-9daa-c510c076d494",
           "state": "working",
           "issue": "DWM-181",
-          "issue_title": "[DW迁移任务单] Jerboa 迁移 · 清单+迁移 · 清单✓422 · 迁移中 3/6 · 迁移8.8h/24h",
+          "issue_title": "[DW迁移任务单] Jerboa 迁移 · 清单+迁移 · 清单✓422 · 额度等待 3/6 · 迁移8.9h/24h",
           "since": "2026-10-05T11:24:41Z"
         },
         {
@@ -275,9 +275,9 @@
       "latest_issues": [
         {
           "key": "DWM-181",
-          "title": "[DW迁移任务单] Jerboa 迁移 · 清单+迁移 · 清单✓422 · 迁移中 3/6 · 迁",
+          "title": "[DW迁移任务单] Jerboa 迁移 · 清单+迁移 · 清单✓422 · 额度等待 3/6 · ",
           "status": "in_progress",
-          "updated_at": "2026-10-05T13:00:37Z"
+          "updated_at": "2026-10-05T13:05:56Z"
         },
         {
           "key": "DWM-188",
@@ -306,9 +306,9 @@
       ],
       "order": {
         "key": "DWM-181",
-        "title": "[DW迁移任务单] Jerboa 迁移 · 清单+迁移 · 清单✓422 · 迁移中 3/6 · 迁移8.8h/24h",
+        "title": "[DW迁移任务单] Jerboa 迁移 · 清单+迁移 · 清单✓422 · 额度等待 3/6 · 迁移8.9h/24h",
         "status": "in_progress",
-        "updated_at": "2026-10-05T13:00:37Z"
+        "updated_at": "2026-10-05T13:05:56Z"
       }
     },
     {
