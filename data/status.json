@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T20:29:09Z",
+  "generated_at": "2026-10-05T20:47:11Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -380,10 +380,9 @@
           "role": "IPD-RM 发布经理",
           "model": "zai:glm-5.3",
           "agent_id": "78156461-9644-478e-9c80-53cd18e25e33",
-          "state": "working",
-          "issue": "IPD-288",
-          "issue_title": "[RM] path_B 引擎降本复测（模型单变量，收敛时长/Token差 · day-12 第1轮）",
-          "since": "2026-10-05T20:05:53Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "deepseek-planner",
@@ -414,6 +413,12 @@
       },
       "latest_issues": [
         {
+          "key": "IPD-288",
+          "title": "[RM] path_B 引擎降本复测（模型单变量，收敛时长/Token差 · day-12 第1轮）",
+          "status": "todo",
+          "updated_at": "2026-10-05T20:44:34Z"
+        },
+        {
           "key": "IPD-290",
           "title": "[PM·评审] REQ-012 7分钟健身 TR-Req 评审（第12场景门禁）",
           "status": "in_review",
@@ -436,12 +441,6 @@
           "title": "[PM] REQ-012 第12场景需求发布 + PRD + TR-Req（day-12 第1轮）",
           "status": "done",
           "updated_at": "2026-10-05T20:15:40Z"
-        },
-        {
-          "key": "IPD-286",
-          "title": "[早会纪要] 2026-10-06",
-          "status": "done",
-          "updated_at": "2026-10-05T20:07:01Z"
         }
       ]
     }
