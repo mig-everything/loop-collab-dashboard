@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T22:09:06Z",
+  "generated_at": "2026-10-06T22:12:45Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -109,9 +109,10 @@
           "role": "GLM Runner & Analyst",
           "model": "",
           "agent_id": "bdaefa9b-7045-4264-95e4-1db664e353d0",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "BEN-201",
+          "issue_title": "[任务·第1轮] 口径⑥ R12 全链路复跑 + 口径⑤ test 变体 profile 补强（ref BEN-190 ",
+          "since": "2026-10-06T22:12:06Z"
         },
         {
           "name": "deepseek-planner",
@@ -229,10 +230,9 @@
           "role": "DW 迁移执行小队队长",
           "model": "claude-opus-5-5",
           "agent_id": "c6ff7c69-0db4-4b35-ac81-dd00e5a53ba4",
-          "state": "working",
-          "issue": "DWM-214",
-          "issue_title": "[DW迁移任务单] CoolMall 迁移 · 还原审计 · 待人工",
-          "since": "2026-10-06T22:05:04Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "exec-runner",
@@ -279,7 +279,7 @@
           "key": "DWM-214",
           "title": "[DW迁移任务单] CoolMall 迁移 · 还原审计 · 待人工",
           "status": "blocked",
-          "updated_at": "2026-10-06T22:05:03Z"
+          "updated_at": "2026-10-06T22:10:39Z"
         },
         {
           "key": "DWM-228",
@@ -310,7 +310,7 @@
         "key": "DWM-214",
         "title": "[DW迁移任务单] CoolMall 迁移 · 还原审计 · 待人工",
         "status": "blocked",
-        "updated_at": "2026-10-06T22:05:03Z"
+        "updated_at": "2026-10-06T22:10:39Z"
       }
     },
     {
