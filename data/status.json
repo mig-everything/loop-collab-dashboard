@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T02:16:47Z",
+  "generated_at": "2026-10-06T02:20:35Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -406,19 +406,24 @@
           "role": "MiniMax 多模态 UI 视觉评审",
           "model": "minimax-cn:MiniMax-M3",
           "agent_id": "97f55294-90e0-4556-93af-a1cf44889574",
-          "state": "working",
-          "issue": "IPD-297",
-          "issue_title": "[uijudge] REQ-011 背单词闪卡 双端视觉评审（第11场景 · day-12 第2轮）",
-          "since": "2026-10-06T02:12:56Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         }
       ],
       "issue_counts": {
-        "todo": 1,
+        "todo": 0,
         "in_progress": 3,
-        "in_review": 0,
+        "in_review": 1,
         "done": 96
       },
       "latest_issues": [
+        {
+          "key": "IPD-297",
+          "title": "[uijudge] REQ-011 背单词闪卡 双端视觉评审（第11场景 · day-12 第2轮）",
+          "status": "in_review",
+          "updated_at": "2026-10-06T02:20:25Z"
+        },
         {
           "key": "IPD-293",
           "title": "[空闲检测] 2026-10-06 leader 两小时正点检查与加派",
@@ -442,12 +447,6 @@
           "title": "[RM] path_B 收口后续——sonnet 固化评审 + android turn 膨胀归因（",
           "status": "in_progress",
           "updated_at": "2026-10-06T02:13:20Z"
-        },
-        {
-          "key": "IPD-298",
-          "title": "[临时会议·空闲加派] 2026-10-06 10点场",
-          "status": "done",
-          "updated_at": "2026-10-06T02:13:19Z"
         }
       ]
     }
