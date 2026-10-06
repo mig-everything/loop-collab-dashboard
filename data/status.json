@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T20:56:44Z",
+  "generated_at": "2026-10-06T21:00:21Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -109,9 +109,10 @@
           "role": "GLM Runner & Analyst",
           "model": "",
           "agent_id": "bdaefa9b-7045-4264-95e4-1db664e353d0",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "BEN-201",
+          "issue_title": "[任务·第1轮] 口径⑥ R12 全链路复跑 + 口径⑤ test 变体 profile 补强（ref BEN-190 ",
+          "since": "2026-10-06T20:58:11Z"
         },
         {
           "name": "deepseek-planner",
@@ -241,7 +242,7 @@
           "agent_id": "1c3481f5-135b-4959-9daa-c510c076d494",
           "state": "working",
           "issue": "DWM-214",
-          "issue_title": "[DW迁移任务单] CoolMall 迁移 · 清单+迁移 · 清单✓406 · 迁移中 4/6 · 迁移10.6h/2",
+          "issue_title": "[DW迁移任务单] CoolMall 迁移 · 清单+迁移 · 清单✓406 · 迁移中 4/6 · 迁移10.7h/2",
           "since": "2026-10-06T19:42:06Z"
         },
         {
@@ -276,7 +277,7 @@
           "key": "DWM-214",
           "title": "[DW迁移任务单] CoolMall 迁移 · 清单+迁移 · 清单✓406 · 迁移中 4/6 ·",
           "status": "in_progress",
-          "updated_at": "2026-10-06T20:54:12Z"
+          "updated_at": "2026-10-06T20:59:20Z"
         },
         {
           "key": "DWM-223",
@@ -305,9 +306,9 @@
       ],
       "order": {
         "key": "DWM-214",
-        "title": "[DW迁移任务单] CoolMall 迁移 · 清单+迁移 · 清单✓406 · 迁移中 4/6 · 迁移10.6h/24h",
+        "title": "[DW迁移任务单] CoolMall 迁移 · 清单+迁移 · 清单✓406 · 迁移中 4/6 · 迁移10.7h/24h",
         "status": "in_progress",
-        "updated_at": "2026-10-06T20:54:12Z"
+        "updated_at": "2026-10-06T20:59:20Z"
       }
     },
     {
