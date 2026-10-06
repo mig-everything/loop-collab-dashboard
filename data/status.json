@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T04:09:47Z",
+  "generated_at": "2026-10-06T04:13:49Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -7,8 +7,8 @@
       "workspace": "ws-survey-loop",
       "machine": "JordanZTdeMacBook-Pro",
       "machine_online": true,
-      "meeting_active": true,
-      "meeting_title": "[午会纪要] 2026-10-06",
+      "meeting_active": false,
+      "meeting_title": "",
       "progress": 47,
       "agents": [
         {
@@ -18,9 +18,9 @@
           "model": "gpt-6-luna",
           "agent_id": "58ed4647-32dd-4ca1-8ddc-194b975d6024",
           "state": "working",
-          "issue": "SUR-220",
-          "issue_title": "[任务][day-12] 修复 SUR-214 打回 6 项（P0-1 附录编译 + P1-1 ECAT + P1-2 ",
-          "since": "2026-10-06T04:09:31Z"
+          "issue": "SUR-226",
+          "issue_title": "[午会纪要] 2026-10-06",
+          "since": "2026-10-06T04:10:10Z"
         },
         {
           "name": "kimi-adversary",
@@ -28,7 +28,7 @@
           "role": "Kimi Adversarial Reviewer（对抗评审",
           "model": "",
           "agent_id": "6e530cc6-6b9d-4398-936d-df9c13468125",
-          "state": "meeting",
+          "state": "idle",
           "issue": "",
           "issue_title": ""
         },
@@ -38,24 +38,23 @@
           "role": "DeepSeek Task Planner（任务规划+总结）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "04a4e04e-59d5-4f3a-8a16-acf99b80a493",
-          "state": "working",
-          "issue": "SUR-226",
-          "issue_title": "[午会纪要] 2026-10-06",
-          "since": "2026-10-06T04:00:15Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         }
       ],
       "issue_counts": {
         "todo": 2,
-        "in_progress": 2,
+        "in_progress": 1,
         "in_review": 0,
-        "done": 93
+        "done": 94
       },
       "latest_issues": [
         {
           "key": "SUR-226",
           "title": "[午会纪要] 2026-10-06",
-          "status": "in_progress",
-          "updated_at": "2026-10-06T04:09:30Z"
+          "status": "done",
+          "updated_at": "2026-10-06T04:12:13Z"
         },
         {
           "key": "SUR-220",
@@ -133,10 +132,9 @@
           "role": "MiniMax 多模态视觉差分评审",
           "model": "minimax-cn:MiniMax-M3",
           "agent_id": "843ac45d-b5db-4f35-b07b-2e5754ec5a5f",
-          "state": "working",
-          "issue": "BEN-184",
-          "issue_title": "[任务·第1轮] SC v4 视觉差分续：ext harness 修复 + 合法截图重跑 + P2 复测（ref BEN",
-          "since": "2026-10-06T04:07:25Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "项目观察员",
@@ -161,22 +159,22 @@
       ],
       "issue_counts": {
         "todo": 1,
-        "in_progress": 3,
-        "in_review": 0,
+        "in_progress": 2,
+        "in_review": 1,
         "done": 83
       },
       "latest_issues": [
+        {
+          "key": "BEN-184",
+          "title": "[任务·第1轮] SC v4 视觉差分续：ext harness 修复 + 合法截图重跑 + P2 ",
+          "status": "in_review",
+          "updated_at": "2026-10-06T04:12:04Z"
+        },
         {
           "key": "BEN-189",
           "title": "[午会纪要] 2026-10-06",
           "status": "done",
           "updated_at": "2026-10-06T04:08:04Z"
-        },
-        {
-          "key": "BEN-184",
-          "title": "[任务·第1轮] SC v4 视觉差分续：ext harness 修复 + 合法截图重跑 + P2 ",
-          "status": "in_progress",
-          "updated_at": "2026-10-06T04:07:23Z"
         },
         {
           "key": "BEN-190",
@@ -214,10 +212,9 @@
           "role": "Opus Analyzer",
           "model": "claude-opus-5-5",
           "agent_id": "2f32549c-87c7-4202-8f54-3af79a30afa0",
-          "state": "working",
-          "issue": "DWM-205",
-          "issue_title": "[任务] feat/260922 上游 prompt 修复 × W1 session 截断关联核查 + 建议池证据补充",
-          "since": "2026-10-06T04:06:24Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "deepseek-planner",
@@ -275,22 +272,22 @@
       ],
       "issue_counts": {
         "todo": 0,
-        "in_progress": 2,
-        "in_review": 0,
+        "in_progress": 1,
+        "in_review": 1,
         "done": 63
       },
       "latest_issues": [
+        {
+          "key": "DWM-205",
+          "title": "[任务] feat/260922 上游 prompt 修复 × W1 session 截断关联核查 ",
+          "status": "in_review",
+          "updated_at": "2026-10-06T04:11:24Z"
+        },
         {
           "key": "DWM-204",
           "title": "[午会纪要] 2026-10-06",
           "status": "done",
           "updated_at": "2026-10-06T04:09:35Z"
-        },
-        {
-          "key": "DWM-205",
-          "title": "[任务] feat/260922 上游 prompt 修复 × W1 session 截断关联核查 ",
-          "status": "in_progress",
-          "updated_at": "2026-10-06T04:06:52Z"
         },
         {
           "key": "DWM-181",
@@ -325,8 +322,8 @@
       "workspace": "ws-ipd-eazo-loop",
       "machine": "贾博 Mac Mini",
       "machine_online": true,
-      "meeting_active": true,
-      "meeting_title": "[午会纪要] 2026-10-06",
+      "meeting_active": false,
+      "meeting_title": "",
       "progress": 87,
       "agents": [
         {
@@ -335,9 +332,10 @@
           "role": "IPD-PM 产品经理",
           "model": "",
           "agent_id": "1764c131-5c09-48cb-aa48-3177d5256dbb",
-          "state": "meeting",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-301",
+          "issue_title": "[PM] REQ-012 7分钟健身 TR-Design 评审 + REQ-012/013 PRD v1.1 回写（da",
+          "since": "2026-10-06T04:10:17Z"
         },
         {
           "name": "hermes-sa",
@@ -345,9 +343,10 @@
           "role": "IPD-SA 解决方案架构师",
           "model": "zai:glm-5.3",
           "agent_id": "3e4373ef-a262-4b28-ab2a-818861fc9624",
-          "state": "meeting",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-302",
+          "issue_title": "[SA] REQ-013 图片滤镜实验室 TR-Design 架构+契约（day-12 第3轮）",
+          "since": "2026-10-06T04:10:21Z"
         },
         {
           "name": "hermes-se",
@@ -355,9 +354,10 @@
           "role": "IPD-SE 系统工程师",
           "model": "zai:glm-5.3",
           "agent_id": "b874ba6b-80e6-45c6-a8c6-aedc6f2b326b",
-          "state": "meeting",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-303",
+          "issue_title": "[SE] REQ-012 7分钟健身 追踪矩阵（day-12 第3轮）",
+          "since": "2026-10-06T04:10:27Z"
         },
         {
           "name": "hermes-dev",
@@ -365,9 +365,10 @@
           "role": "IPD-Dev 开发工程师",
           "model": "zai:glm-5.3",
           "agent_id": "44fcec25-d8b3-4af6-b206-1774a64677ce",
-          "state": "meeting",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-304",
+          "issue_title": "[Dev] REQ-012 7分钟健身 双端编码（Android 基线 + 鸿蒙 · day-12 第3轮）",
+          "since": "2026-10-06T04:10:29Z"
         },
         {
           "name": "hermes-tester",
@@ -375,9 +376,10 @@
           "role": "IPD-Tester 测试工程师",
           "model": "zai:glm-5.3",
           "agent_id": "86df9f14-a2cd-46d9-ad15-dbe8606ebd73",
-          "state": "meeting",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-305",
+          "issue_title": "[Tester] REQ-012 7分钟健身 差分用例清单 + 差分断言（TDD 先行 · day-12 第3轮）",
+          "since": "2026-10-06T04:10:32Z"
         },
         {
           "name": "hermes-rm",
@@ -385,9 +387,10 @@
           "role": "IPD-RM 发布经理",
           "model": "zai:glm-5.3",
           "agent_id": "78156461-9644-478e-9c80-53cd18e25e33",
-          "state": "meeting",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-306",
+          "issue_title": "[RM] path_B 后续——P-D2 android_skeleton 模板 + C2 复现观察机制（day-12 ",
+          "since": "2026-10-06T04:10:37Z"
         },
         {
           "name": "deepseek-planner",
@@ -395,10 +398,9 @@
           "role": "DeepSeek Planner（小组 leader/PM ",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
-          "state": "working",
-          "issue": "IPD-300",
-          "issue_title": "[午会纪要] 2026-10-06",
-          "since": "2026-10-06T04:00:23Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "minimax-uijudge",
@@ -406,47 +408,47 @@
           "role": "MiniMax 多模态 UI 视觉评审",
           "model": "minimax-cn:MiniMax-M3",
           "agent_id": "97f55294-90e0-4556-93af-a1cf44889574",
-          "state": "meeting",
+          "state": "idle",
           "issue": "",
           "issue_title": ""
         }
       ],
       "issue_counts": {
-        "todo": 0,
-        "in_progress": 1,
+        "todo": 1,
+        "in_progress": 5,
         "in_review": 0,
-        "done": 99
+        "done": 94
       },
       "latest_issues": [
         {
-          "key": "IPD-299",
-          "title": "[PM·评审] REQ-013 图片滤镜实验室 TR-Req 评审（第13场景门禁）",
-          "status": "done",
-          "updated_at": "2026-10-06T04:06:45Z"
+          "key": "IPD-302",
+          "title": "[SA] REQ-013 图片滤镜实验室 TR-Design 架构+契约（day-12 第3轮）",
+          "status": "in_progress",
+          "updated_at": "2026-10-06T04:11:18Z"
         },
         {
-          "key": "IPD-297",
-          "title": "[uijudge] REQ-011 背单词闪卡 双端视觉评审（第11场景 · day-12 第2轮）",
-          "status": "done",
-          "updated_at": "2026-10-06T04:06:44Z"
+          "key": "IPD-301",
+          "title": "[PM] REQ-012 7分钟健身 TR-Design 评审 + REQ-012/013 PRD ",
+          "status": "in_progress",
+          "updated_at": "2026-10-06T04:11:15Z"
         },
         {
-          "key": "IPD-296",
-          "title": "[PM] REQ-013 第13场景需求发布 + PRD + TR-Req（day-12 第2轮）",
-          "status": "done",
-          "updated_at": "2026-10-06T04:06:42Z"
+          "key": "IPD-306",
+          "title": "[RM] path_B 后续——P-D2 android_skeleton 模板 + C2 复现观察",
+          "status": "in_progress",
+          "updated_at": "2026-10-06T04:11:11Z"
         },
         {
-          "key": "IPD-295",
-          "title": "[RM] path_B 收口后续——sonnet 固化评审 + android turn 膨胀归因（",
-          "status": "done",
-          "updated_at": "2026-10-06T04:06:41Z"
+          "key": "IPD-303",
+          "title": "[SE] REQ-012 7分钟健身 追踪矩阵（day-12 第3轮）",
+          "status": "in_progress",
+          "updated_at": "2026-10-06T04:11:09Z"
         },
         {
-          "key": "IPD-294",
-          "title": "[SA] REQ-012 7分钟健身 TR-Design 架构设计+契约（第12场景 · day-1",
+          "key": "IPD-300",
+          "title": "[午会纪要] 2026-10-06",
           "status": "done",
-          "updated_at": "2026-10-06T04:06:40Z"
+          "updated_at": "2026-10-06T04:11:06Z"
         }
       ]
     }
