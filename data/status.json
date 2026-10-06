@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T18:10:03Z",
+  "generated_at": "2026-10-06T18:13:46Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -38,29 +38,29 @@
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "04a4e04e-59d5-4f3a-8a16-acf99b80a493",
           "state": "working",
-          "issue": "SUR-232",
-          "issue_title": "[流程优化] Opt-022：模型账号/授权类错误纳入 routing 实测熔断判定（次日验证）",
-          "since": "2026-10-06T18:03:12Z"
+          "issue": "SUR-221",
+          "issue_title": "[流程优化] Opt-021：附录编译完整性纳入 DoD 与评审硬检查（次日验证）",
+          "since": "2026-10-06T18:03:11Z"
         }
       ],
       "issue_counts": {
-        "todo": 2,
+        "todo": 1,
         "in_progress": 0,
         "in_review": 0,
-        "done": 95
+        "done": 96
       },
       "latest_issues": [
+        {
+          "key": "SUR-232",
+          "title": "[流程优化] Opt-022：模型账号/授权类错误纳入 routing 实测熔断判定（次日验证）",
+          "status": "done",
+          "updated_at": "2026-10-06T18:11:39Z"
+        },
         {
           "key": "SUR-235",
           "title": "[空闲检测] 2026-10-07 leader 两小时正点检查与加派",
           "status": "done",
           "updated_at": "2026-10-06T18:03:22Z"
-        },
-        {
-          "key": "SUR-232",
-          "title": "[流程优化] Opt-022：模型账号/授权类错误纳入 routing 实测熔断判定（次日验证）",
-          "status": "todo",
-          "updated_at": "2026-10-06T18:03:11Z"
         },
         {
           "key": "SUR-221",
@@ -328,9 +328,9 @@
           "model": "",
           "agent_id": "1764c131-5c09-48cb-aa48-3177d5256dbb",
           "state": "working",
-          "issue": "IPD-322",
-          "issue_title": "[PM] REQ-014 新场景需求发布 + 需求池扩充（类型多样化·day-13夜间加派）",
-          "since": "2026-10-06T18:07:14Z"
+          "issue": "IPD-326",
+          "issue_title": "[PM] 补建 requirement-analysis / issue-writing 两 skill（流程通用性 R",
+          "since": "2026-10-06T18:11:42Z"
         },
         {
           "name": "hermes-sa",
@@ -338,9 +338,10 @@
           "role": "IPD-SA 解决方案架构师",
           "model": "zai:glm-5.3",
           "agent_id": "3e4373ef-a262-4b28-ab2a-818861fc9624",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-328",
+          "issue_title": "[PM·评审] REQ-014 白噪音助眠器 TR-Req 评审（第14场景门禁）",
+          "since": "2026-10-06T18:13:33Z"
         },
         {
           "name": "hermes-se",
@@ -370,9 +371,9 @@
           "model": "zai:glm-5.3",
           "agent_id": "86df9f14-a2cd-46d9-ad15-dbe8606ebd73",
           "state": "working",
-          "issue": "IPD-320",
-          "issue_title": "[Tester] REQ-013 图片滤镜实验室 TR-Accept 差分执行 + 双端对比报告（第13场景闭环·day",
-          "since": "2026-10-06T18:07:08Z"
+          "issue": "IPD-327",
+          "issue_title": "[Tester] 补建 hypium-testing / appium-testing / diff-analysis ",
+          "since": "2026-10-06T18:11:47Z"
         },
         {
           "name": "hermes-rm",
@@ -407,41 +408,41 @@
         }
       ],
       "issue_counts": {
-        "todo": 2,
-        "in_progress": 2,
-        "in_review": 0,
-        "done": 96
+        "todo": 1,
+        "in_progress": 6,
+        "in_review": 1,
+        "done": 92
       },
       "latest_issues": [
         {
-          "key": "IPD-323",
-          "title": "[SE] 流程通用性 R1~R4 收口（目标一·day-13夜间加派）",
-          "status": "in_progress",
-          "updated_at": "2026-10-06T18:08:12Z"
-        },
-        {
-          "key": "IPD-319",
-          "title": "[空闲检测] 2026-10-07 leader 两小时正点检查与加派",
-          "status": "done",
-          "updated_at": "2026-10-06T18:07:53Z"
-        },
-        {
-          "key": "IPD-321",
-          "title": "[RM] path_B C2 复测 REQ-013 样本 + 四维差复现观察（day-13夜间加派）",
-          "status": "in_progress",
-          "updated_at": "2026-10-06T18:07:41Z"
-        },
-        {
-          "key": "IPD-324",
-          "title": "[临时会议·空闲加派] 2026-10-07 02 点场",
-          "status": "done",
-          "updated_at": "2026-10-06T18:07:34Z"
-        },
-        {
           "key": "IPD-322",
           "title": "[PM] REQ-014 新场景需求发布 + 需求池扩充（类型多样化·day-13夜间加派）",
-          "status": "todo",
-          "updated_at": "2026-10-06T18:07:13Z"
+          "status": "in_review",
+          "updated_at": "2026-10-06T18:13:56Z"
+        },
+        {
+          "key": "IPD-328",
+          "title": "[PM·评审] REQ-014 白噪音助眠器 TR-Req 评审（第14场景门禁）",
+          "status": "in_progress",
+          "updated_at": "2026-10-06T18:13:47Z"
+        },
+        {
+          "key": "IPD-327",
+          "title": "[Tester] 补建 hypium-testing / appium-testing / diff",
+          "status": "in_progress",
+          "updated_at": "2026-10-06T18:12:56Z"
+        },
+        {
+          "key": "IPD-325",
+          "title": "[SA] 补建 sa-design-review skill（流程通用性 R1 收口·优先项）",
+          "status": "in_progress",
+          "updated_at": "2026-10-06T18:12:07Z"
+        },
+        {
+          "key": "IPD-320",
+          "title": "[Tester] REQ-013 图片滤镜实验室 TR-Accept 差分执行 + 双端对比报告（第",
+          "status": "in_progress",
+          "updated_at": "2026-10-06T18:11:59Z"
         }
       ]
     }
