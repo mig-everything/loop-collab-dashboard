@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T08:01:09Z",
+  "generated_at": "2026-10-06T08:04:51Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -120,10 +120,9 @@
           "role": "DeepSeek Planner（小组 leader/PM）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "547cd361-ef50-4965-9477-bc659d8a1708",
-          "state": "working",
-          "issue": "BEN-192",
-          "issue_title": "[巡检] 2026-10-06 leader Issue 状态巡检与催办",
-          "since": "2026-10-06T08:00:15Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "minimax-visual-diff",
@@ -157,41 +156,41 @@
         }
       ],
       "issue_counts": {
-        "todo": 2,
+        "todo": 0,
         "in_progress": 1,
-        "in_review": 2,
-        "done": 82
+        "in_review": 0,
+        "done": 86
       },
       "latest_issues": [
         {
           "key": "BEN-192",
           "title": "[巡检] 2026-10-06 leader Issue 状态巡检与催办",
-          "status": "todo",
-          "updated_at": "2026-10-06T08:00:10Z"
+          "status": "done",
+          "updated_at": "2026-10-06T08:03:58Z"
+        },
+        {
+          "key": "BEN-187",
+          "title": "[观察员日报] 2026-10-06 通过率与 Agent 时间轴",
+          "status": "done",
+          "updated_at": "2026-10-06T08:03:41Z"
+        },
+        {
+          "key": "BEN-184",
+          "title": "[任务·第1轮] SC v4 视觉差分续：ext harness 修复 + 合法截图重跑 + P2 ",
+          "status": "done",
+          "updated_at": "2026-10-06T08:03:39Z"
+        },
+        {
+          "key": "BEN-190",
+          "title": "[任务·第2轮] 口径⑥ R11 全链路复跑 + BEN-184 ext harness 代跑（re",
+          "status": "done",
+          "updated_at": "2026-10-06T08:03:37Z"
         },
         {
           "key": "BEN-135",
           "title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 1",
           "status": "in_progress",
           "updated_at": "2026-10-06T06:49:56Z"
-        },
-        {
-          "key": "BEN-190",
-          "title": "[任务·第2轮] 口径⑥ R11 全链路复跑 + BEN-184 ext harness 代跑（re",
-          "status": "in_review",
-          "updated_at": "2026-10-06T06:25:27Z"
-        },
-        {
-          "key": "BEN-191",
-          "title": "[空闲检测] 2026-10-06 leader 两小时正点检查与加派",
-          "status": "done",
-          "updated_at": "2026-10-06T06:02:13Z"
-        },
-        {
-          "key": "BEN-184",
-          "title": "[任务·第1轮] SC v4 视觉差分续：ext harness 修复 + 合法截图重跑 + P2 ",
-          "status": "in_review",
-          "updated_at": "2026-10-06T04:12:04Z"
         }
       ]
     },
@@ -221,10 +220,9 @@
           "role": "DeepSeek Planner（小组 leader/PM，",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "950ff614-521d-4e32-a02d-423d41a7b2b3",
-          "state": "working",
-          "issue": "DWM-211",
-          "issue_title": "[巡检] 2026-10-06 leader Issue 状态巡检与催办",
-          "since": "2026-10-06T08:00:17Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "dw-lead",
@@ -271,17 +269,23 @@
         }
       ],
       "issue_counts": {
-        "todo": 1,
+        "todo": 0,
         "in_progress": 1,
-        "in_review": 1,
-        "done": 60
+        "in_review": 0,
+        "done": 62
       },
       "latest_issues": [
         {
           "key": "DWM-211",
           "title": "[巡检] 2026-10-06 leader Issue 状态巡检与催办",
-          "status": "todo",
-          "updated_at": "2026-10-06T08:00:16Z"
+          "status": "done",
+          "updated_at": "2026-10-06T08:03:10Z"
+        },
+        {
+          "key": "DWM-205",
+          "title": "[任务] feat/260922 上游 prompt 修复 × W1 session 截断关联核查 ",
+          "status": "done",
+          "updated_at": "2026-10-06T08:02:54Z"
         },
         {
           "key": "DWM-181",
@@ -294,12 +298,6 @@
           "title": "[空闲检测] 2026-10-06 leader 两小时正点检查与加派",
           "status": "done",
           "updated_at": "2026-10-06T06:01:54Z"
-        },
-        {
-          "key": "DWM-205",
-          "title": "[任务] feat/260922 上游 prompt 修复 × W1 session 截断关联核查 ",
-          "status": "in_review",
-          "updated_at": "2026-10-06T04:11:24Z"
         },
         {
           "key": "DWM-204",
@@ -362,9 +360,10 @@
           "role": "IPD-Dev 开发工程师",
           "model": "zai:glm-5.3",
           "agent_id": "44fcec25-d8b3-4af6-b206-1774a64677ce",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-304",
+          "issue_title": "[Dev] REQ-012 7分钟健身 双端编码（Android 基线 + 鸿蒙 · day-12 第3轮）",
+          "since": "2026-10-06T08:03:51Z"
         },
         {
           "name": "hermes-tester",
@@ -382,9 +381,10 @@
           "role": "IPD-RM 发布经理",
           "model": "zai:glm-5.3",
           "agent_id": "78156461-9644-478e-9c80-53cd18e25e33",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-306",
+          "issue_title": "[RM] path_B 后续——P-D2 android_skeleton 模板 + C2 复现观察机制（day-12 ",
+          "since": "2026-10-06T08:03:50Z"
         },
         {
           "name": "deepseek-planner",
@@ -392,10 +392,9 @@
           "role": "DeepSeek Planner（小组 leader/PM ",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
-          "state": "working",
-          "issue": "IPD-308",
-          "issue_title": "[巡检] 2026-10-06 leader Issue 状态巡检与催办",
-          "since": "2026-10-06T08:00:23Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "minimax-uijudge",
@@ -409,41 +408,41 @@
         }
       ],
       "issue_counts": {
-        "todo": 2,
-        "in_progress": 1,
-        "in_review": 4,
-        "done": 93
+        "todo": 0,
+        "in_progress": 2,
+        "in_review": 0,
+        "done": 98
       },
       "latest_issues": [
         {
-          "key": "IPD-308",
-          "title": "[巡检] 2026-10-06 leader Issue 状态巡检与催办",
-          "status": "todo",
-          "updated_at": "2026-10-06T08:00:21Z"
-        },
-        {
-          "key": "IPD-307",
-          "title": "[空闲检测] 2026-10-06 leader 两小时正点检查与加派",
-          "status": "done",
-          "updated_at": "2026-10-06T06:01:39Z"
-        },
-        {
           "key": "IPD-304",
           "title": "[Dev] REQ-012 7分钟健身 双端编码（Android 基线 + 鸿蒙 · day-12 ",
-          "status": "todo",
-          "updated_at": "2026-10-06T04:34:31Z"
+          "status": "in_progress",
+          "updated_at": "2026-10-06T08:04:30Z"
+        },
+        {
+          "key": "IPD-308",
+          "title": "[巡检] 2026-10-06 leader Issue 状态巡检与催办",
+          "status": "done",
+          "updated_at": "2026-10-06T08:04:05Z"
         },
         {
           "key": "IPD-306",
           "title": "[RM] path_B 后续——P-D2 android_skeleton 模板 + C2 复现观察",
           "status": "in_progress",
-          "updated_at": "2026-10-06T04:25:56Z"
+          "updated_at": "2026-10-06T08:03:48Z"
+        },
+        {
+          "key": "IPD-305",
+          "title": "[Tester] REQ-012 7分钟健身 差分用例清单 + 差分断言（TDD 先行 · day-",
+          "status": "done",
+          "updated_at": "2026-10-06T08:03:30Z"
         },
         {
           "key": "IPD-303",
           "title": "[SE] REQ-012 7分钟健身 追踪矩阵（day-12 第3轮）",
-          "status": "in_review",
-          "updated_at": "2026-10-06T04:23:47Z"
+          "status": "done",
+          "updated_at": "2026-10-06T08:03:28Z"
         }
       ]
     }
