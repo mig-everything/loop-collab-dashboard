@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T18:24:53Z",
+  "generated_at": "2026-10-06T18:32:07Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -241,7 +241,7 @@
           "agent_id": "1c3481f5-135b-4959-9daa-c510c076d494",
           "state": "working",
           "issue": "DWM-214",
-          "issue_title": "[DW迁移任务单] CoolMall 迁移 · 清单+迁移 · 清单✓406 · 迁移中 3/6 · 迁移8.1h/24",
+          "issue_title": "[DW迁移任务单] CoolMall 迁移 · 清单+迁移 · 清单✓406 · 迁移中 3/6 · 迁移8.2h/24",
           "since": "2026-10-06T17:48:37Z"
         },
         {
@@ -276,7 +276,7 @@
           "key": "DWM-214",
           "title": "[DW迁移任务单] CoolMall 迁移 · 清单+迁移 · 清单✓406 · 迁移中 3/6 ·",
           "status": "in_progress",
-          "updated_at": "2026-10-06T18:19:40Z"
+          "updated_at": "2026-10-06T18:29:57Z"
         },
         {
           "key": "DWM-221",
@@ -305,9 +305,9 @@
       ],
       "order": {
         "key": "DWM-214",
-        "title": "[DW迁移任务单] CoolMall 迁移 · 清单+迁移 · 清单✓406 · 迁移中 3/6 · 迁移8.1h/24h",
+        "title": "[DW迁移任务单] CoolMall 迁移 · 清单+迁移 · 清单✓406 · 迁移中 3/6 · 迁移8.2h/24h",
         "status": "in_progress",
-        "updated_at": "2026-10-06T18:19:40Z"
+        "updated_at": "2026-10-06T18:29:57Z"
       }
     },
     {
@@ -377,10 +377,9 @@
           "role": "IPD-RM 发布经理",
           "model": "zai:glm-5.3",
           "agent_id": "78156461-9644-478e-9c80-53cd18e25e33",
-          "state": "working",
-          "issue": "IPD-321",
-          "issue_title": "[RM] path_B C2 复测 REQ-013 样本 + 四维差复现观察（day-13夜间加派）",
-          "since": "2026-10-06T18:07:11Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "deepseek-planner",
@@ -405,11 +404,17 @@
       ],
       "issue_counts": {
         "todo": 0,
-        "in_progress": 3,
-        "in_review": 5,
+        "in_progress": 2,
+        "in_review": 6,
         "done": 92
       },
       "latest_issues": [
+        {
+          "key": "IPD-321",
+          "title": "[RM] path_B C2 复测 REQ-013 样本 + 四维差复现观察（day-13夜间加派）",
+          "status": "in_review",
+          "updated_at": "2026-10-06T18:29:19Z"
+        },
         {
           "key": "IPD-320",
           "title": "[Tester] REQ-013 图片滤镜实验室 TR-Accept 差分执行 + 双端对比报告（第",
@@ -433,12 +438,6 @@
           "title": "[PM] 补建 requirement-analysis / issue-writing 两 ski",
           "status": "in_review",
           "updated_at": "2026-10-06T18:16:44Z"
-        },
-        {
-          "key": "IPD-325",
-          "title": "[SA] 补建 sa-design-review skill（流程通用性 R1 收口·优先项）",
-          "status": "in_review",
-          "updated_at": "2026-10-06T18:15:38Z"
         }
       ]
     }
