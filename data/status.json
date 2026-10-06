@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T16:06:44Z",
+  "generated_at": "2026-10-06T16:10:25Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -37,10 +37,9 @@
           "role": "DeepSeek Task Planner（任务规划+总结）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "04a4e04e-59d5-4f3a-8a16-acf99b80a493",
-          "state": "working",
-          "issue": "SUR-193",
-          "issue_title": "[目标调整] 范围扩大为LLM驱动代码迁移+Introduction重写+文献扩充核实（2026-10-04负责人三条要",
-          "since": "2026-10-06T16:05:08Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         }
       ],
       "issue_counts": {
@@ -51,16 +50,16 @@
       },
       "latest_issues": [
         {
+          "key": "SUR-193",
+          "title": "[目标调整] 范围扩大为LLM驱动代码迁移+Introduction重写+文献扩充核实（2026-1",
+          "status": "done",
+          "updated_at": "2026-10-06T16:09:49Z"
+        },
+        {
           "key": "SUR-234",
           "title": "[巡检] 2026-10-07 leader Issue 状态巡检与催办",
           "status": "done",
           "updated_at": "2026-10-06T16:05:26Z"
-        },
-        {
-          "key": "SUR-193",
-          "title": "[目标调整] 范围扩大为LLM驱动代码迁移+Introduction重写+文献扩充核实（2026-1",
-          "status": "done",
-          "updated_at": "2026-10-06T16:05:08Z"
         },
         {
           "key": "SUR-231",
@@ -100,10 +99,9 @@
           "role": "GPT Scenarist",
           "model": "gpt-6-luna",
           "agent_id": "6e6f1e24-3bc5-455a-85d2-cb3fb6c9a672",
-          "state": "working",
-          "issue": "BEN-135",
-          "issue_title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 100（ref BEN",
-          "since": "2026-10-06T16:03:14Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "glm-runner",
@@ -164,16 +162,16 @@
       },
       "latest_issues": [
         {
+          "key": "BEN-135",
+          "title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 1",
+          "status": "in_progress",
+          "updated_at": "2026-10-06T16:09:45Z"
+        },
+        {
           "key": "BEN-198",
           "title": "[巡检] 2026-10-07 leader Issue 状态巡检与催办",
           "status": "done",
           "updated_at": "2026-10-06T16:03:18Z"
-        },
-        {
-          "key": "BEN-135",
-          "title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 1",
-          "status": "in_progress",
-          "updated_at": "2026-10-06T16:03:10Z"
         },
         {
           "key": "BEN-196",
@@ -278,7 +276,7 @@
           "key": "DWM-214",
           "title": "[DW迁移任务单] CoolMall 迁移 · 清单+迁移 · 清单生成中 续1·r55·749/8",
           "status": "in_progress",
-          "updated_at": "2026-10-06T16:05:13Z"
+          "updated_at": "2026-10-06T16:10:21Z"
         },
         {
           "key": "DWM-220",
@@ -307,9 +305,9 @@
       ],
       "order": {
         "key": "DWM-214",
-        "title": "[DW迁移任务单] CoolMall 迁移 · 清单+迁移 · 清单生成中 续1·r55·749/800步·5页/645项 · 迁移中 3/6 · 清单5.8h/16h 迁移5.8",
+        "title": "[DW迁移任务单] CoolMall 迁移 · 清单+迁移 · 清单生成中 续1·r55·749/800步·5页/645项 · 迁移中 3/6 · 清单5.9h/16h 迁移5.9",
         "status": "in_progress",
-        "updated_at": "2026-10-06T16:05:13Z"
+        "updated_at": "2026-10-06T16:10:21Z"
       }
     },
     {
