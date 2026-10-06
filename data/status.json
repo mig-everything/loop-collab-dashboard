@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T07:36:10Z",
+  "generated_at": "2026-10-06T08:01:09Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -37,18 +37,25 @@
           "role": "DeepSeek Task Planner（任务规划+总结）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "04a4e04e-59d5-4f3a-8a16-acf99b80a493",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "SUR-228",
+          "issue_title": "[巡检] 2026-10-06 leader Issue 状态巡检与催办",
+          "since": "2026-10-06T08:00:21Z"
         }
       ],
       "issue_counts": {
         "todo": 1,
-        "in_progress": 1,
+        "in_progress": 2,
         "in_review": 0,
-        "done": 95
+        "done": 94
       },
       "latest_issues": [
+        {
+          "key": "SUR-228",
+          "title": "[巡检] 2026-10-06 leader Issue 状态巡检与催办",
+          "status": "in_progress",
+          "updated_at": "2026-10-06T08:01:11Z"
+        },
         {
           "key": "SUR-227",
           "title": "[空闲检测] 2026-10-06 leader 两小时正点检查与加派",
@@ -72,12 +79,6 @@
           "title": "[空闲检测] 2026-10-06 leader 两小时正点检查与加派",
           "status": "done",
           "updated_at": "2026-10-06T02:04:31Z"
-        },
-        {
-          "key": "SUR-224",
-          "title": "[巡检] 2026-10-06 leader Issue 状态巡检与催办",
-          "status": "done",
-          "updated_at": "2026-10-06T00:04:10Z"
         }
       ],
       "progress_note": "day-4 晨 37% → 午 42% → 晚 44% → 夜 47%",
@@ -119,9 +120,10 @@
           "role": "DeepSeek Planner（小组 leader/PM）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "547cd361-ef50-4965-9477-bc659d8a1708",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "BEN-192",
+          "issue_title": "[巡检] 2026-10-06 leader Issue 状态巡检与催办",
+          "since": "2026-10-06T08:00:15Z"
         },
         {
           "name": "minimax-visual-diff",
@@ -155,12 +157,18 @@
         }
       ],
       "issue_counts": {
-        "todo": 1,
+        "todo": 2,
         "in_progress": 1,
         "in_review": 2,
-        "done": 83
+        "done": 82
       },
       "latest_issues": [
+        {
+          "key": "BEN-192",
+          "title": "[巡检] 2026-10-06 leader Issue 状态巡检与催办",
+          "status": "todo",
+          "updated_at": "2026-10-06T08:00:10Z"
+        },
         {
           "key": "BEN-135",
           "title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 1",
@@ -184,12 +192,6 @@
           "title": "[任务·第1轮] SC v4 视觉差分续：ext harness 修复 + 合法截图重跑 + P2 ",
           "status": "in_review",
           "updated_at": "2026-10-06T04:12:04Z"
-        },
-        {
-          "key": "BEN-189",
-          "title": "[午会纪要] 2026-10-06",
-          "status": "done",
-          "updated_at": "2026-10-06T04:08:04Z"
         }
       ]
     },
@@ -219,9 +221,10 @@
           "role": "DeepSeek Planner（小组 leader/PM，",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "950ff614-521d-4e32-a02d-423d41a7b2b3",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "DWM-211",
+          "issue_title": "[巡检] 2026-10-06 leader Issue 状态巡检与催办",
+          "since": "2026-10-06T08:00:17Z"
         },
         {
           "name": "dw-lead",
@@ -268,12 +271,18 @@
         }
       ],
       "issue_counts": {
-        "todo": 0,
+        "todo": 1,
         "in_progress": 1,
         "in_review": 1,
-        "done": 61
+        "done": 60
       },
       "latest_issues": [
+        {
+          "key": "DWM-211",
+          "title": "[巡检] 2026-10-06 leader Issue 状态巡检与催办",
+          "status": "todo",
+          "updated_at": "2026-10-06T08:00:16Z"
+        },
         {
           "key": "DWM-181",
           "title": "[DW迁移任务单] Jerboa 迁移 · 终验",
@@ -297,12 +306,6 @@
           "title": "[午会纪要] 2026-10-06",
           "status": "done",
           "updated_at": "2026-10-06T04:09:35Z"
-        },
-        {
-          "key": "DWM-202",
-          "title": "[空闲检测] 2026-10-06 leader 两小时正点检查与加派",
-          "status": "done",
-          "updated_at": "2026-10-06T02:01:43Z"
         }
       ],
       "order": {
@@ -389,9 +392,10 @@
           "role": "DeepSeek Planner（小组 leader/PM ",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-308",
+          "issue_title": "[巡检] 2026-10-06 leader Issue 状态巡检与催办",
+          "since": "2026-10-06T08:00:23Z"
         },
         {
           "name": "minimax-uijudge",
@@ -405,12 +409,18 @@
         }
       ],
       "issue_counts": {
-        "todo": 1,
+        "todo": 2,
         "in_progress": 1,
         "in_review": 4,
-        "done": 94
+        "done": 93
       },
       "latest_issues": [
+        {
+          "key": "IPD-308",
+          "title": "[巡检] 2026-10-06 leader Issue 状态巡检与催办",
+          "status": "todo",
+          "updated_at": "2026-10-06T08:00:21Z"
+        },
         {
           "key": "IPD-307",
           "title": "[空闲检测] 2026-10-06 leader 两小时正点检查与加派",
@@ -434,12 +444,6 @@
           "title": "[SE] REQ-012 7分钟健身 追踪矩阵（day-12 第3轮）",
           "status": "in_review",
           "updated_at": "2026-10-06T04:23:47Z"
-        },
-        {
-          "key": "IPD-305",
-          "title": "[Tester] REQ-012 7分钟健身 差分用例清单 + 差分断言（TDD 先行 · day-",
-          "status": "in_review",
-          "updated_at": "2026-10-06T04:20:24Z"
         }
       ]
     }
