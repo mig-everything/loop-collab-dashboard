@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T10:10:35Z",
+  "generated_at": "2026-10-06T10:17:56Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -230,9 +230,10 @@
           "role": "DW 迁移执行小队队长",
           "model": "claude-opus-5-5",
           "agent_id": "c6ff7c69-0db4-4b35-ac81-dd00e5a53ba4",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "DWM-214",
+          "issue_title": "[DW迁移任务单] CoolMall 迁移 · 清单+迁移 · 清单生成中 · 迁移中 0/6 · 清单0h/16h 迁",
+          "since": "2026-10-06T10:16:49Z"
         },
         {
           "name": "exec-runner",
@@ -242,7 +243,7 @@
           "agent_id": "1c3481f5-135b-4959-9daa-c510c076d494",
           "state": "working",
           "issue": "DWM-214",
-          "issue_title": "[DW迁移任务单] CoolMall 迁移 · 清单+迁移",
+          "issue_title": "[DW迁移任务单] CoolMall 迁移 · 清单+迁移 · 清单生成中 · 迁移中 0/6 · 清单0h/16h 迁",
           "since": "2026-10-06T10:07:34Z"
         },
         {
@@ -274,6 +275,12 @@
       },
       "latest_issues": [
         {
+          "key": "DWM-214",
+          "title": "[DW迁移任务单] CoolMall 迁移 · 清单+迁移 · 清单生成中 · 迁移中 0/6 · ",
+          "status": "in_progress",
+          "updated_at": "2026-10-06T10:16:48Z"
+        },
+        {
           "key": "DWM-216",
           "title": "[临时会议·空闲加派] 2026-10-06 18 点场",
           "status": "done",
@@ -284,12 +291,6 @@
           "title": "[空闲检测] 2026-10-06 leader 两小时正点检查与加派",
           "status": "done",
           "updated_at": "2026-10-06T10:07:38Z"
-        },
-        {
-          "key": "DWM-214",
-          "title": "[DW迁移任务单] CoolMall 迁移 · 清单+迁移",
-          "status": "in_progress",
-          "updated_at": "2026-10-06T10:07:34Z"
         },
         {
           "key": "DWM-215",
@@ -306,9 +307,9 @@
       ],
       "order": {
         "key": "DWM-214",
-        "title": "[DW迁移任务单] CoolMall 迁移 · 清单+迁移",
+        "title": "[DW迁移任务单] CoolMall 迁移 · 清单+迁移 · 清单生成中 · 迁移中 0/6 · 清单0h/16h 迁移0h/24h",
         "status": "in_progress",
-        "updated_at": "2026-10-06T10:07:34Z"
+        "updated_at": "2026-10-06T10:16:48Z"
       },
       "progress_note": "10 个应用：完成 5、进行中 1、暂停 0、未开始 4；dw-lead 早会 standup 回填"
     },
@@ -348,10 +349,9 @@
           "role": "IPD-SE 系统工程师",
           "model": "zai:glm-5.3",
           "agent_id": "b874ba6b-80e6-45c6-a8c6-aedc6f2b326b",
-          "state": "working",
-          "issue": "IPD-313",
-          "issue_title": "[SE] REQ-013 图片滤镜实验室 追踪矩阵（第13场景）",
-          "since": "2026-10-06T10:06:16Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "hermes-dev",
@@ -381,10 +381,9 @@
           "role": "IPD-RM 发布经理",
           "model": "zai:glm-5.3",
           "agent_id": "78156461-9644-478e-9c80-53cd18e25e33",
-          "state": "working",
-          "issue": "IPD-315",
-          "issue_title": "[RM] path_B 四维差复测 + REQ-012 双端 run 度量采集",
-          "since": "2026-10-06T10:06:20Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "deepseek-planner",
@@ -409,22 +408,28 @@
       ],
       "issue_counts": {
         "todo": 1,
-        "in_progress": 3,
-        "in_review": 1,
+        "in_progress": 2,
+        "in_review": 2,
         "done": 95
       },
       "latest_issues": [
+        {
+          "key": "IPD-315",
+          "title": "[RM] path_B 四维差复测 + REQ-012 双端 run 度量采集",
+          "status": "todo",
+          "updated_at": "2026-10-06T10:18:17Z"
+        },
+        {
+          "key": "IPD-313",
+          "title": "[SE] REQ-013 图片滤镜实验室 追踪矩阵（第13场景）",
+          "status": "in_review",
+          "updated_at": "2026-10-06T10:17:19Z"
+        },
         {
           "key": "IPD-312",
           "title": "[PM] REQ-013 图片滤镜实验室 TR-Design 评审（第13场景）",
           "status": "in_review",
           "updated_at": "2026-10-06T10:10:33Z"
-        },
-        {
-          "key": "IPD-313",
-          "title": "[SE] REQ-013 图片滤镜实验室 追踪矩阵（第13场景）",
-          "status": "in_progress",
-          "updated_at": "2026-10-06T10:07:13Z"
         },
         {
           "key": "IPD-309",
@@ -437,12 +442,6 @@
           "title": "[临时会议·空闲加派] 2026-10-06 18 点场",
           "status": "done",
           "updated_at": "2026-10-06T10:07:00Z"
-        },
-        {
-          "key": "IPD-314",
-          "title": "[Dev] REQ-013 图片滤镜实验室 双端编码（Android 基线 + 鸿蒙）",
-          "status": "in_progress",
-          "updated_at": "2026-10-06T10:06:53Z"
         }
       ]
     }
