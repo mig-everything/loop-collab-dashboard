@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T18:32:07Z",
+  "generated_at": "2026-10-06T18:35:46Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -241,7 +241,7 @@
           "agent_id": "1c3481f5-135b-4959-9daa-c510c076d494",
           "state": "working",
           "issue": "DWM-214",
-          "issue_title": "[DW迁移任务单] CoolMall 迁移 · 清单+迁移 · 清单✓406 · 迁移中 3/6 · 迁移8.2h/24",
+          "issue_title": "[DW迁移任务单] CoolMall 迁移 · 清单+迁移 · 清单✓406 · 迁移中 3/6 · 迁移8.3h/24",
           "since": "2026-10-06T17:48:37Z"
         },
         {
@@ -276,7 +276,7 @@
           "key": "DWM-214",
           "title": "[DW迁移任务单] CoolMall 迁移 · 清单+迁移 · 清单✓406 · 迁移中 3/6 ·",
           "status": "in_progress",
-          "updated_at": "2026-10-06T18:29:57Z"
+          "updated_at": "2026-10-06T18:35:04Z"
         },
         {
           "key": "DWM-221",
@@ -305,9 +305,9 @@
       ],
       "order": {
         "key": "DWM-214",
-        "title": "[DW迁移任务单] CoolMall 迁移 · 清单+迁移 · 清单✓406 · 迁移中 3/6 · 迁移8.2h/24h",
+        "title": "[DW迁移任务单] CoolMall 迁移 · 清单+迁移 · 清单✓406 · 迁移中 3/6 · 迁移8.3h/24h",
         "status": "in_progress",
-        "updated_at": "2026-10-06T18:29:57Z"
+        "updated_at": "2026-10-06T18:35:04Z"
       }
     },
     {
@@ -336,10 +336,9 @@
           "role": "IPD-SA 解决方案架构师",
           "model": "zai:glm-5.3",
           "agent_id": "3e4373ef-a262-4b28-ab2a-818861fc9624",
-          "state": "working",
-          "issue": "IPD-328",
-          "issue_title": "[PM·评审] REQ-014 白噪音助眠器 TR-Req 评审（第14场景门禁）",
-          "since": "2026-10-06T18:13:33Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "hermes-se",
@@ -404,11 +403,17 @@
       ],
       "issue_counts": {
         "todo": 0,
-        "in_progress": 2,
-        "in_review": 6,
+        "in_progress": 1,
+        "in_review": 7,
         "done": 92
       },
       "latest_issues": [
+        {
+          "key": "IPD-328",
+          "title": "[PM·评审] REQ-014 白噪音助眠器 TR-Req 评审（第14场景门禁）",
+          "status": "in_review",
+          "updated_at": "2026-10-06T18:34:40Z"
+        },
         {
           "key": "IPD-321",
           "title": "[RM] path_B C2 复测 REQ-013 样本 + 四维差复现观察（day-13夜间加派）",
@@ -432,12 +437,6 @@
           "title": "[Tester] 补建 hypium-testing / appium-testing / diff",
           "status": "in_review",
           "updated_at": "2026-10-06T18:18:49Z"
-        },
-        {
-          "key": "IPD-326",
-          "title": "[PM] 补建 requirement-analysis / issue-writing 两 ski",
-          "status": "in_review",
-          "updated_at": "2026-10-06T18:16:44Z"
         }
       ]
     }
