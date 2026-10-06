@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T02:05:44Z",
+  "generated_at": "2026-10-06T02:09:23Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -15,11 +15,14 @@
           "name": "gpt-writer",
           "emoji": "🧠",
           "role": "GPT Writer（执笔者）",
-          "model": "",
+          "model": "gpt-6-luna",
           "agent_id": "58ed4647-32dd-4ca1-8ddc-194b975d6024",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "SUR-195",
+          "issue_title": "[SUR-193][needs-human] 文献扩充核实+A/B/C新口径全库重分类（口径5修订）— Codex Ma",
+          "since": "2026-10-06T02:07:54Z",
+          "parent_issue": "SUR-193",
+          "parent_title": "[目标调整] 范围扩大为LLM驱动代码迁移+Introduction重写+文献扩充核实（2026-10-04负责人三条要"
         },
         {
           "name": "kimi-adversary",
@@ -97,11 +100,12 @@
           "name": "gpt-scenarist",
           "emoji": "🦊",
           "role": "GPT Scenarist",
-          "model": "",
+          "model": "gpt-6-luna",
           "agent_id": "6e6f1e24-3bc5-455a-85d2-cb3fb6c9a672",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "BEN-135",
+          "issue_title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 100（ref BEN",
+          "since": "2026-10-06T02:07:56Z"
         },
         {
           "name": "glm-runner",
@@ -162,16 +166,16 @@
       },
       "latest_issues": [
         {
+          "key": "BEN-135",
+          "title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 1",
+          "status": "blocked",
+          "updated_at": "2026-10-06T02:07:54Z"
+        },
+        {
           "key": "BEN-188",
           "title": "[空闲检测] 2026-10-06 leader 两小时正点检查与加派",
           "status": "done",
           "updated_at": "2026-10-06T02:02:13Z"
-        },
-        {
-          "key": "BEN-135",
-          "title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 1",
-          "status": "blocked",
-          "updated_at": "2026-10-06T02:01:23Z"
         },
         {
           "key": "BEN-187",
