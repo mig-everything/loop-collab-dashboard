@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T02:24:17Z",
+  "generated_at": "2026-10-06T02:27:57Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -410,12 +410,24 @@
         }
       ],
       "issue_counts": {
-        "todo": 1,
+        "todo": 0,
         "in_progress": 1,
-        "in_review": 3,
+        "in_review": 4,
         "done": 95
       },
       "latest_issues": [
+        {
+          "key": "IPD-299",
+          "title": "[PM·评审] REQ-013 图片滤镜实验室 TR-Req 评审（第13场景门禁）",
+          "status": "in_progress",
+          "updated_at": "2026-10-06T02:27:08Z"
+        },
+        {
+          "key": "IPD-294",
+          "title": "[SA] REQ-012 7分钟健身 TR-Design 架构设计+契约（第12场景 · day-1",
+          "status": "in_review",
+          "updated_at": "2026-10-06T02:24:56Z"
+        },
         {
           "key": "IPD-295",
           "title": "[RM] path_B 收口后续——sonnet 固化评审 + android turn 膨胀归因（",
@@ -429,22 +441,10 @@
           "updated_at": "2026-10-06T02:21:34Z"
         },
         {
-          "key": "IPD-299",
-          "title": "[PM·评审] REQ-013 图片滤镜实验室 TR-Req 评审（第13场景门禁）",
-          "status": "todo",
-          "updated_at": "2026-10-06T02:21:14Z"
-        },
-        {
           "key": "IPD-297",
           "title": "[uijudge] REQ-011 背单词闪卡 双端视觉评审（第11场景 · day-12 第2轮）",
           "status": "in_review",
           "updated_at": "2026-10-06T02:20:25Z"
-        },
-        {
-          "key": "IPD-293",
-          "title": "[空闲检测] 2026-10-06 leader 两小时正点检查与加派",
-          "status": "done",
-          "updated_at": "2026-10-06T02:13:30Z"
         }
       ]
     }
