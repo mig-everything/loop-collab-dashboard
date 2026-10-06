@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T20:24:08Z",
+  "generated_at": "2026-10-06T20:27:49Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -210,10 +210,9 @@
           "role": "Opus Analyzer",
           "model": "claude-opus-5-5",
           "agent_id": "2f32549c-87c7-4202-8f54-3af79a30afa0",
-          "state": "working",
-          "issue": "DWM-223",
-          "issue_title": "[任务] 建议池 131 条按「领域/单APP/改进策略」三类显式分型（对齐 arXiv 洞察分类 + handoff ",
-          "since": "2026-10-06T20:07:51Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "deepseek-planner",
