@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T00:01:43Z",
+  "generated_at": "2026-10-06T00:05:25Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -37,36 +37,35 @@
           "role": "DeepSeek Task Planner（任务规划+总结）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "04a4e04e-59d5-4f3a-8a16-acf99b80a493",
-          "state": "working",
-          "issue": "SUR-224",
-          "issue_title": "[巡检] 2026-10-06 leader Issue 状态巡检与催办",
-          "since": "2026-10-06T00:00:17Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         }
       ],
       "issue_counts": {
-        "todo": 3,
+        "todo": 2,
         "in_progress": 1,
-        "in_review": 1,
-        "done": 92
+        "in_review": 0,
+        "done": 94
       },
       "latest_issues": [
         {
           "key": "SUR-224",
           "title": "[巡检] 2026-10-06 leader Issue 状态巡检与催办",
-          "status": "todo",
-          "updated_at": "2026-10-06T00:00:16Z"
+          "status": "done",
+          "updated_at": "2026-10-06T00:04:10Z"
+        },
+        {
+          "key": "SUR-222",
+          "title": "[任务][day-12] SUR-214 越界待办处置：lint 脚本误报修复 + 经验库条目（1+",
+          "status": "done",
+          "updated_at": "2026-10-06T00:03:47Z"
         },
         {
           "key": "SUR-223",
           "title": "[空闲检测] 2026-10-06 leader 两小时正点检查与加派",
           "status": "done",
           "updated_at": "2026-10-05T22:02:50Z"
-        },
-        {
-          "key": "SUR-222",
-          "title": "[任务][day-12] SUR-214 越界待办处置：lint 脚本误报修复 + 经验库条目（1+",
-          "status": "in_review",
-          "updated_at": "2026-10-05T20:20:46Z"
         },
         {
           "key": "SUR-219",
@@ -120,10 +119,9 @@
           "role": "DeepSeek Planner（小组 leader/PM）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "547cd361-ef50-4965-9477-bc659d8a1708",
-          "state": "working",
-          "issue": "BEN-186",
-          "issue_title": "[巡检] 2026-10-06 leader Issue 状态巡检与催办",
-          "since": "2026-10-06T00:00:14Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "minimax-visual-diff",
@@ -131,9 +129,10 @@
           "role": "MiniMax 多模态视觉差分评审",
           "model": "minimax-cn:MiniMax-M3",
           "agent_id": "843ac45d-b5db-4f35-b07b-2e5754ec5a5f",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "BEN-184",
+          "issue_title": "[任务·第1轮] SC v4 视觉差分续：ext harness 修复 + 合法截图重跑 + P2 复测（ref BEN",
+          "since": "2026-10-06T00:02:55Z"
         },
         {
           "name": "项目观察员",
@@ -157,35 +156,35 @@
         }
       ],
       "issue_counts": {
-        "todo": 2,
-        "in_progress": 0,
-        "in_review": 1,
-        "done": 82
+        "todo": 0,
+        "in_progress": 1,
+        "in_review": 0,
+        "done": 84
       },
       "latest_issues": [
         {
+          "key": "BEN-184",
+          "title": "[任务·第1轮] SC v4 视觉差分续：ext harness 修复 + 合法截图重跑 + P2 ",
+          "status": "in_progress",
+          "updated_at": "2026-10-06T00:03:17Z"
+        },
+        {
           "key": "BEN-186",
           "title": "[巡检] 2026-10-06 leader Issue 状态巡检与催办",
-          "status": "todo",
-          "updated_at": "2026-10-06T00:00:12Z"
+          "status": "done",
+          "updated_at": "2026-10-06T00:03:10Z"
         },
         {
           "key": "BEN-183",
           "title": "[任务·第1轮] 口径⑥ R10 全链路复跑 + BEN-177 设备复跑代跑（ref BEN-17",
-          "status": "in_review",
-          "updated_at": "2026-10-05T23:06:05Z"
+          "status": "done",
+          "updated_at": "2026-10-06T00:02:38Z"
         },
         {
           "key": "BEN-185",
           "title": "[空闲检测] 2026-10-06 leader 两小时正点检查与加派",
           "status": "done",
           "updated_at": "2026-10-05T22:01:51Z"
-        },
-        {
-          "key": "BEN-184",
-          "title": "[任务·第1轮] SC v4 视觉差分续：ext harness 修复 + 合法截图重跑 + P2 ",
-          "status": "todo",
-          "updated_at": "2026-10-05T20:17:38Z"
         },
         {
           "key": "BEN-182",
@@ -221,10 +220,9 @@
           "role": "DeepSeek Planner（小组 leader/PM，",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "950ff614-521d-4e32-a02d-423d41a7b2b3",
-          "state": "working",
-          "issue": "DWM-201",
-          "issue_title": "[巡检] 2026-10-06 leader Issue 状态巡检与催办",
-          "since": "2026-10-06T00:00:09Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "dw-lead",
@@ -271,17 +269,23 @@
         }
       ],
       "issue_counts": {
-        "todo": 1,
+        "todo": 0,
         "in_progress": 1,
-        "in_review": 1,
-        "done": 59
+        "in_review": 0,
+        "done": 61
       },
       "latest_issues": [
         {
           "key": "DWM-201",
           "title": "[巡检] 2026-10-06 leader Issue 状态巡检与催办",
-          "status": "todo",
-          "updated_at": "2026-10-06T00:00:08Z"
+          "status": "done",
+          "updated_at": "2026-10-06T00:05:22Z"
+        },
+        {
+          "key": "DWM-198",
+          "title": "[任务] 建议池与套件层缺陷批末审核总提案（整合 9 缺陷族 + 126 建议池，一次性提案给奕棣）",
+          "status": "done",
+          "updated_at": "2026-10-06T00:05:07Z"
         },
         {
           "key": "DWM-181",
@@ -294,12 +298,6 @@
           "title": "[空闲检测] 2026-10-06 leader 两小时正点检查与加派",
           "status": "done",
           "updated_at": "2026-10-05T22:02:15Z"
-        },
-        {
-          "key": "DWM-198",
-          "title": "[任务] 建议池与套件层缺陷批末审核总提案（整合 9 缺陷族 + 126 建议池，一次性提案给奕棣）",
-          "status": "in_review",
-          "updated_at": "2026-10-05T20:24:34Z"
         },
         {
           "key": "DWM-196",
@@ -372,9 +370,10 @@
           "role": "IPD-Tester 测试工程师",
           "model": "zai:glm-5.3",
           "agent_id": "86df9f14-a2cd-46d9-ad15-dbe8606ebd73",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-281",
+          "issue_title": "[Tester] REQ-011 背单词闪卡 TR-Accept 差分执行 + 双端对比报告（第11场景主线闭环 · 第",
+          "since": "2026-10-06T00:04:10Z"
         },
         {
           "name": "hermes-rm",
@@ -392,10 +391,9 @@
           "role": "DeepSeek Planner（小组 leader/PM ",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
-          "state": "working",
-          "issue": "IPD-292",
-          "issue_title": "[巡检] 2026-10-06 leader Issue 状态巡检与催办",
-          "since": "2026-10-06T00:00:20Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "minimax-uijudge",
@@ -409,41 +407,41 @@
         }
       ],
       "issue_counts": {
-        "todo": 2,
+        "todo": 0,
         "in_progress": 1,
-        "in_review": 2,
-        "done": 95
+        "in_review": 0,
+        "done": 99
       },
       "latest_issues": [
         {
           "key": "IPD-292",
           "title": "[巡检] 2026-10-06 leader Issue 状态巡检与催办",
-          "status": "todo",
-          "updated_at": "2026-10-06T00:00:19Z"
-        },
-        {
-          "key": "IPD-291",
-          "title": "[空闲检测] 2026-10-06 leader 两小时正点检查与加派",
           "status": "done",
-          "updated_at": "2026-10-05T22:01:48Z"
+          "updated_at": "2026-10-06T00:04:44Z"
         },
         {
           "key": "IPD-288",
           "title": "[RM] path_B 引擎降本复测（模型单变量，收敛时长/Token差 · day-12 第1轮）",
-          "status": "todo",
-          "updated_at": "2026-10-05T20:44:34Z"
+          "status": "done",
+          "updated_at": "2026-10-06T00:04:25Z"
         },
         {
           "key": "IPD-290",
           "title": "[PM·评审] REQ-012 7分钟健身 TR-Req 评审（第12场景门禁）",
-          "status": "in_review",
-          "updated_at": "2026-10-05T20:26:09Z"
+          "status": "done",
+          "updated_at": "2026-10-06T00:04:24Z"
+        },
+        {
+          "key": "IPD-289",
+          "title": "[SA] 流程通用性 P1~P4 解耦迭代（验收口径11/目标一 · day-12 第1轮）",
+          "status": "done",
+          "updated_at": "2026-10-06T00:04:24Z"
         },
         {
           "key": "IPD-281",
           "title": "[Tester] REQ-011 背单词闪卡 TR-Accept 差分执行 + 双端对比报告（第11",
           "status": "in_progress",
-          "updated_at": "2026-10-05T20:24:49Z"
+          "updated_at": "2026-10-06T00:04:09Z"
         }
       ]
     }
