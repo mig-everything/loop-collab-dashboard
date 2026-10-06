@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T20:16:39Z",
+  "generated_at": "2026-10-06T20:20:24Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -244,7 +244,7 @@
           "agent_id": "1c3481f5-135b-4959-9daa-c510c076d494",
           "state": "working",
           "issue": "DWM-214",
-          "issue_title": "[DW迁移任务单] CoolMall 迁移 · 清单+迁移 · 清单✓406 · 迁移中 4/6 · 迁移9.9h/24",
+          "issue_title": "[DW迁移任务单] CoolMall 迁移 · 清单+迁移 · 清单✓406 · 迁移中 4/6 · 迁移10.0h/2",
           "since": "2026-10-06T19:42:06Z"
         },
         {
@@ -276,6 +276,12 @@
       },
       "latest_issues": [
         {
+          "key": "DWM-214",
+          "title": "[DW迁移任务单] CoolMall 迁移 · 清单+迁移 · 清单✓406 · 迁移中 4/6 ·",
+          "status": "in_progress",
+          "updated_at": "2026-10-06T20:18:16Z"
+        },
+        {
           "key": "DWM-222",
           "title": "[早会纪要] 2026-10-07",
           "status": "done",
@@ -286,12 +292,6 @@
           "title": "[任务] 建议池 131 条按「领域/单APP/改进策略」三类显式分型（对齐 arXiv 洞察分类 ",
           "status": "in_progress",
           "updated_at": "2026-10-06T20:08:47Z"
-        },
-        {
-          "key": "DWM-214",
-          "title": "[DW迁移任务单] CoolMall 迁移 · 清单+迁移 · 清单✓406 · 迁移中 4/6 ·",
-          "status": "in_progress",
-          "updated_at": "2026-10-06T20:08:00Z"
         },
         {
           "key": "DWM-221",
@@ -308,9 +308,9 @@
       ],
       "order": {
         "key": "DWM-214",
-        "title": "[DW迁移任务单] CoolMall 迁移 · 清单+迁移 · 清单✓406 · 迁移中 4/6 · 迁移9.9h/24h",
+        "title": "[DW迁移任务单] CoolMall 迁移 · 清单+迁移 · 清单✓406 · 迁移中 4/6 · 迁移10.0h/24h",
         "status": "in_progress",
-        "updated_at": "2026-10-06T20:08:00Z"
+        "updated_at": "2026-10-06T20:18:16Z"
       }
     },
     {
@@ -329,10 +329,9 @@
           "role": "IPD-PM 产品经理",
           "model": "",
           "agent_id": "1764c131-5c09-48cb-aa48-3177d5256dbb",
-          "state": "working",
-          "issue": "IPD-333",
-          "issue_title": "[PM] REQ-014 PRD v1.1 回写（C1闭合）+ 需求池扩充（day-13第1轮）",
-          "since": "2026-10-06T20:07:58Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "hermes-sa",
@@ -410,12 +409,18 @@
         }
       ],
       "issue_counts": {
-        "todo": 1,
+        "todo": 0,
         "in_progress": 3,
-        "in_review": 1,
+        "in_review": 2,
         "done": 95
       },
       "latest_issues": [
+        {
+          "key": "IPD-333",
+          "title": "[PM] REQ-014 PRD v1.1 回写（C1闭合）+ 需求池扩充（day-13第1轮）",
+          "status": "in_review",
+          "updated_at": "2026-10-06T20:20:05Z"
+        },
         {
           "key": "IPD-329",
           "title": "[早会纪要] 2026-10-07",
@@ -439,12 +444,6 @@
           "title": "[Tester] REQ-013 图片滤镜实验室 TR-Accept 差分执行 + 双端对比报告（第",
           "status": "in_progress",
           "updated_at": "2026-10-06T20:08:20Z"
-        },
-        {
-          "key": "IPD-332",
-          "title": "[SA] REQ-014 白噪音助眠器 TR-Design 六件套+契约（第14场景主线·day-1",
-          "status": "in_progress",
-          "updated_at": "2026-10-06T20:08:17Z"
         }
       ]
     }
