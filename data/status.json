@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T08:26:52Z",
+  "generated_at": "2026-10-06T10:03:11Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -37,18 +37,25 @@
           "role": "DeepSeek Task Planner（任务规划+总结）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "04a4e04e-59d5-4f3a-8a16-acf99b80a493",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "SUR-229",
+          "issue_title": "[空闲检测] 2026-10-06 leader 两小时正点检查与加派",
+          "since": "2026-10-06T10:00:16Z"
         }
       ],
       "issue_counts": {
-        "todo": 1,
+        "todo": 2,
         "in_progress": 1,
         "in_review": 0,
-        "done": 95
+        "done": 94
       },
       "latest_issues": [
+        {
+          "key": "SUR-229",
+          "title": "[空闲检测] 2026-10-06 leader 两小时正点检查与加派",
+          "status": "todo",
+          "updated_at": "2026-10-06T10:00:16Z"
+        },
         {
           "key": "SUR-228",
           "title": "[巡检] 2026-10-06 leader Issue 状态巡检与催办",
@@ -72,12 +79,6 @@
           "title": "[午会纪要] 2026-10-06",
           "status": "done",
           "updated_at": "2026-10-06T04:18:58Z"
-        },
-        {
-          "key": "SUR-225",
-          "title": "[空闲检测] 2026-10-06 leader 两小时正点检查与加派",
-          "status": "done",
-          "updated_at": "2026-10-06T02:04:31Z"
         }
       ],
       "progress_note": "day-4 晨 37% → 午 42% → 晚 44% → 夜 47%",
@@ -162,6 +163,12 @@
       },
       "latest_issues": [
         {
+          "key": "BEN-193",
+          "title": "[空闲检测] 2026-10-06 leader 两小时正点检查与加派",
+          "status": "done",
+          "updated_at": "2026-10-06T10:02:21Z"
+        },
+        {
           "key": "BEN-192",
           "title": "[巡检] 2026-10-06 leader Issue 状态巡检与催办",
           "status": "done",
@@ -184,12 +191,6 @@
           "title": "[任务·第2轮] 口径⑥ R11 全链路复跑 + BEN-184 ext harness 代跑（re",
           "status": "done",
           "updated_at": "2026-10-06T08:03:37Z"
-        },
-        {
-          "key": "BEN-135",
-          "title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 1",
-          "status": "in_progress",
-          "updated_at": "2026-10-06T06:49:56Z"
         }
       ]
     },
@@ -219,9 +220,10 @@
           "role": "DeepSeek Planner（小组 leader/PM，",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "950ff614-521d-4e32-a02d-423d41a7b2b3",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "DWM-213",
+          "issue_title": "[空闲检测] 2026-10-06 leader 两小时正点检查与加派",
+          "since": "2026-10-06T10:00:15Z"
         },
         {
           "name": "dw-lead",
@@ -265,12 +267,18 @@
         }
       ],
       "issue_counts": {
-        "todo": 0,
+        "todo": 1,
         "in_progress": 0,
         "in_review": 0,
         "done": 62
       },
       "latest_issues": [
+        {
+          "key": "DWM-213",
+          "title": "[空闲检测] 2026-10-06 leader 两小时正点检查与加派",
+          "status": "todo",
+          "updated_at": "2026-10-06T10:00:14Z"
+        },
         {
           "key": "DWM-181",
           "title": "[DW迁移任务单] Jerboa 迁移 · 已完成",
@@ -294,12 +302,6 @@
           "title": "[空闲检测] 2026-10-06 leader 两小时正点检查与加派",
           "status": "done",
           "updated_at": "2026-10-06T06:01:54Z"
-        },
-        {
-          "key": "DWM-204",
-          "title": "[午会纪要] 2026-10-06",
-          "status": "done",
-          "updated_at": "2026-10-06T04:09:35Z"
         }
       ],
       "order": {
@@ -386,9 +388,10 @@
           "role": "DeepSeek Planner（小组 leader/PM ",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-309",
+          "issue_title": "[空闲检测] 2026-10-06 leader 两小时正点检查与加派",
+          "since": "2026-10-06T10:00:28Z"
         },
         {
           "name": "minimax-uijudge",
@@ -402,12 +405,18 @@
         }
       ],
       "issue_counts": {
-        "todo": 0,
+        "todo": 1,
         "in_progress": 0,
         "in_review": 0,
-        "done": 100
+        "done": 99
       },
       "latest_issues": [
+        {
+          "key": "IPD-309",
+          "title": "[空闲检测] 2026-10-06 leader 两小时正点检查与加派",
+          "status": "todo",
+          "updated_at": "2026-10-06T10:00:25Z"
+        },
         {
           "key": "IPD-304",
           "title": "[Dev] REQ-012 7分钟健身 双端编码（Android 基线 + 鸿蒙 · day-12 ",
@@ -431,12 +440,6 @@
           "title": "[Tester] REQ-012 7分钟健身 差分用例清单 + 差分断言（TDD 先行 · day-",
           "status": "done",
           "updated_at": "2026-10-06T08:03:30Z"
-        },
-        {
-          "key": "IPD-303",
-          "title": "[SE] REQ-012 7分钟健身 追踪矩阵（day-12 第3轮）",
-          "status": "done",
-          "updated_at": "2026-10-06T08:03:28Z"
         }
       ]
     }
