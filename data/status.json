@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T20:01:40Z",
+  "generated_at": "2026-10-06T20:05:21Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -7,8 +7,8 @@
       "workspace": "ws-survey-loop",
       "machine": "JordanZTdeMacBook-Pro",
       "machine_online": true,
-      "meeting_active": false,
-      "meeting_title": "",
+      "meeting_active": true,
+      "meeting_title": "[晨会纪要] 2026-10-07",
       "progress": 47,
       "agents": [
         {
@@ -17,9 +17,10 @@
           "role": "GPT Writer（执笔者）",
           "model": "gpt-6-luna",
           "agent_id": "58ed4647-32dd-4ca1-8ddc-194b975d6024",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "SUR-237",
+          "issue_title": "[任务][day-13] 修复 SUR-196 三合一终审打回项（P1-1 + P2×4 + skill P2 边界否定",
+          "since": "2026-10-06T20:04:09Z"
         },
         {
           "name": "kimi-adversary",
@@ -27,7 +28,7 @@
           "role": "Kimi Adversarial Reviewer（对抗评审",
           "model": "",
           "agent_id": "6e530cc6-6b9d-4398-936d-df9c13468125",
-          "state": "idle",
+          "state": "meeting",
           "issue": "",
           "issue_title": ""
         },
@@ -44,17 +45,29 @@
         }
       ],
       "issue_counts": {
-        "todo": 1,
-        "in_progress": 0,
+        "todo": 2,
+        "in_progress": 1,
         "in_review": 0,
-        "done": 96
+        "done": 94
       },
       "latest_issues": [
         {
+          "key": "SUR-238",
+          "title": "[评审][day-13] SUR-237 修复复核：SUR-196 打回 6 项独立对抗评审（口径③",
+          "status": "backlog",
+          "updated_at": "2026-10-06T20:04:11Z"
+        },
+        {
+          "key": "SUR-237",
+          "title": "[任务][day-13] 修复 SUR-196 三合一终审打回项（P1-1 + P2×4 + ski",
+          "status": "todo",
+          "updated_at": "2026-10-06T20:04:08Z"
+        },
+        {
           "key": "SUR-236",
           "title": "[晨会纪要] 2026-10-07",
-          "status": "todo",
-          "updated_at": "2026-10-06T20:00:11Z"
+          "status": "in_progress",
+          "updated_at": "2026-10-06T20:04:00Z"
         },
         {
           "key": "SUR-221",
@@ -67,18 +80,6 @@
           "title": "[流程优化] Opt-022：模型账号/授权类错误纳入 routing 实测熔断判定（次日验证）",
           "status": "done",
           "updated_at": "2026-10-06T18:11:39Z"
-        },
-        {
-          "key": "SUR-235",
-          "title": "[空闲检测] 2026-10-07 leader 两小时正点检查与加派",
-          "status": "done",
-          "updated_at": "2026-10-06T18:03:22Z"
-        },
-        {
-          "key": "SUR-193",
-          "title": "[目标调整] 范围扩大为LLM驱动代码迁移+Introduction重写+文献扩充核实（2026-1",
-          "status": "done",
-          "updated_at": "2026-10-06T16:09:49Z"
         }
       ],
       "progress_note": "day-4 晨 37% → 午 42% → 晚 44% → 夜 47%",
@@ -90,8 +91,8 @@
       "workspace": "ws-benchmark-loop",
       "machine": "张涛 Mac Studio",
       "machine_online": true,
-      "meeting_active": false,
-      "meeting_title": "",
+      "meeting_active": true,
+      "meeting_title": "[早会纪要] 2026-10-07",
       "progress": 84,
       "agents": [
         {
@@ -100,7 +101,7 @@
           "role": "GPT Scenarist",
           "model": "gpt-6-luna",
           "agent_id": "6e6f1e24-3bc5-455a-85d2-cb3fb6c9a672",
-          "state": "idle",
+          "state": "meeting",
           "issue": "",
           "issue_title": ""
         },
@@ -110,7 +111,7 @@
           "role": "GLM Runner & Analyst",
           "model": "",
           "agent_id": "bdaefa9b-7045-4264-95e4-1db664e353d0",
-          "state": "idle",
+          "state": "meeting",
           "issue": "",
           "issue_title": ""
         },
@@ -131,7 +132,7 @@
           "role": "MiniMax 多模态视觉差分评审",
           "model": "minimax-cn:MiniMax-M3",
           "agent_id": "843ac45d-b5db-4f35-b07b-2e5754ec5a5f",
-          "state": "idle",
+          "state": "meeting",
           "issue": "",
           "issue_title": ""
         },
@@ -141,7 +142,7 @@
           "role": "只读洞察项目目标与执行证据，用简单语言汇报进展、偏差和阻塞，",
           "model": "",
           "agent_id": "4b674e90-4726-4eba-bd5c-06350e0b8b83",
-          "state": "idle",
+          "state": "meeting",
           "issue": "",
           "issue_title": ""
         },
@@ -151,14 +152,14 @@
           "role": "只读洞察项目目标与执行证据，用简单语言汇报进展、偏差和阻塞，",
           "model": "gpt-6-astra",
           "agent_id": "33b902ee-a4ca-46ae-9284-c8285311c687",
-          "state": "idle",
+          "state": "meeting",
           "issue": "",
           "issue_title": ""
         }
       ],
       "issue_counts": {
-        "todo": 1,
-        "in_progress": 1,
+        "todo": 0,
+        "in_progress": 2,
         "in_review": 0,
         "done": 85
       },
@@ -166,8 +167,8 @@
         {
           "key": "BEN-200",
           "title": "[早会纪要] 2026-10-07",
-          "status": "todo",
-          "updated_at": "2026-10-06T20:00:19Z"
+          "status": "in_progress",
+          "updated_at": "2026-10-06T20:04:15Z"
         },
         {
           "key": "BEN-199",
@@ -244,7 +245,7 @@
           "agent_id": "1c3481f5-135b-4959-9daa-c510c076d494",
           "state": "working",
           "issue": "DWM-214",
-          "issue_title": "[DW迁移任务单] CoolMall 迁移 · 清单+迁移 · 清单✓406 · 迁移中 4/6 · 迁移9.7h/24",
+          "issue_title": "[DW迁移任务单] CoolMall 迁移 · 清单+迁移 · 清单✓406 · 迁移中 4/6 · 迁移9.8h/24",
           "since": "2026-10-06T19:42:06Z"
         },
         {
@@ -276,16 +277,16 @@
       },
       "latest_issues": [
         {
+          "key": "DWM-214",
+          "title": "[DW迁移任务单] CoolMall 迁移 · 清单+迁移 · 清单✓406 · 迁移中 4/6 ·",
+          "status": "in_progress",
+          "updated_at": "2026-10-06T20:02:52Z"
+        },
+        {
           "key": "DWM-222",
           "title": "[早会纪要] 2026-10-07",
           "status": "todo",
           "updated_at": "2026-10-06T20:00:14Z"
-        },
-        {
-          "key": "DWM-214",
-          "title": "[DW迁移任务单] CoolMall 迁移 · 清单+迁移 · 清单✓406 · 迁移中 4/6 ·",
-          "status": "in_progress",
-          "updated_at": "2026-10-06T19:57:45Z"
         },
         {
           "key": "DWM-221",
@@ -308,9 +309,9 @@
       ],
       "order": {
         "key": "DWM-214",
-        "title": "[DW迁移任务单] CoolMall 迁移 · 清单+迁移 · 清单✓406 · 迁移中 4/6 · 迁移9.7h/24h",
+        "title": "[DW迁移任务单] CoolMall 迁移 · 清单+迁移 · 清单✓406 · 迁移中 4/6 · 迁移9.8h/24h",
         "status": "in_progress",
-        "updated_at": "2026-10-06T19:57:45Z"
+        "updated_at": "2026-10-06T20:02:52Z"
       }
     },
     {
@@ -408,39 +409,39 @@
       "issue_counts": {
         "todo": 1,
         "in_progress": 1,
-        "in_review": 7,
-        "done": 91
+        "in_review": 0,
+        "done": 98
       },
       "latest_issues": [
         {
-          "key": "IPD-329",
-          "title": "[早会纪要] 2026-10-07",
-          "status": "todo",
-          "updated_at": "2026-10-06T20:00:18Z"
-        },
-        {
           "key": "IPD-328",
           "title": "[PM·评审] REQ-014 白噪音助眠器 TR-Req 评审（第14场景门禁）",
-          "status": "in_review",
-          "updated_at": "2026-10-06T18:34:40Z"
+          "status": "done",
+          "updated_at": "2026-10-06T20:05:45Z"
         },
         {
-          "key": "IPD-321",
-          "title": "[RM] path_B C2 复测 REQ-013 样本 + 四维差复现观察（day-13夜间加派）",
-          "status": "in_review",
-          "updated_at": "2026-10-06T18:29:19Z"
+          "key": "IPD-327",
+          "title": "[Tester] 补建 hypium-testing / appium-testing / diff",
+          "status": "done",
+          "updated_at": "2026-10-06T20:05:44Z"
         },
         {
-          "key": "IPD-320",
-          "title": "[Tester] REQ-013 图片滤镜实验室 TR-Accept 差分执行 + 双端对比报告（第",
-          "status": "in_progress",
-          "updated_at": "2026-10-06T18:23:34Z"
+          "key": "IPD-326",
+          "title": "[PM] 补建 requirement-analysis / issue-writing 两 ski",
+          "status": "done",
+          "updated_at": "2026-10-06T20:05:43Z"
+        },
+        {
+          "key": "IPD-325",
+          "title": "[SA] 补建 sa-design-review skill（流程通用性 R1 收口·优先项）",
+          "status": "done",
+          "updated_at": "2026-10-06T20:05:42Z"
         },
         {
           "key": "IPD-323",
           "title": "[SE] 流程通用性 R1~R4 收口（目标一·day-13夜间加派）",
-          "status": "in_review",
-          "updated_at": "2026-10-06T18:21:15Z"
+          "status": "done",
+          "updated_at": "2026-10-06T20:05:41Z"
         }
       ]
     }
