@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T06:20:54Z",
+  "generated_at": "2026-10-06T06:28:08Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -110,10 +110,9 @@
           "role": "GLM Runner & Analyst",
           "model": "",
           "agent_id": "bdaefa9b-7045-4264-95e4-1db664e353d0",
-          "state": "working",
-          "issue": "BEN-190",
-          "issue_title": "[任务·第2轮] 口径⑥ R11 全链路复跑 + BEN-184 ext harness 代跑（ref BEN-183 ",
-          "since": "2026-10-06T04:05:40Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "deepseek-planner",
@@ -158,22 +157,22 @@
       ],
       "issue_counts": {
         "todo": 1,
-        "in_progress": 2,
-        "in_review": 1,
+        "in_progress": 1,
+        "in_review": 2,
         "done": 83
       },
       "latest_issues": [
+        {
+          "key": "BEN-190",
+          "title": "[任务·第2轮] 口径⑥ R11 全链路复跑 + BEN-184 ext harness 代跑（re",
+          "status": "in_review",
+          "updated_at": "2026-10-06T06:25:27Z"
+        },
         {
           "key": "BEN-191",
           "title": "[空闲检测] 2026-10-06 leader 两小时正点检查与加派",
           "status": "done",
           "updated_at": "2026-10-06T06:02:13Z"
-        },
-        {
-          "key": "BEN-190",
-          "title": "[任务·第2轮] 口径⑥ R11 全链路复跑 + BEN-184 ext harness 代跑（re",
-          "status": "in_progress",
-          "updated_at": "2026-10-06T05:37:14Z"
         },
         {
           "key": "BEN-135",
