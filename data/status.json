@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T18:13:46Z",
+  "generated_at": "2026-10-06T18:17:30Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -242,7 +242,7 @@
           "agent_id": "1c3481f5-135b-4959-9daa-c510c076d494",
           "state": "working",
           "issue": "DWM-214",
-          "issue_title": "[DW迁移任务单] CoolMall 迁移 · 清单+迁移 · 清单✓406 · 迁移中 3/6 · 迁移7.9h/24",
+          "issue_title": "[DW迁移任务单] CoolMall 迁移 · 清单+迁移 · 清单✓406 · 迁移中 3/6 · 迁移8.0h/24",
           "since": "2026-10-06T17:48:37Z"
         },
         {
@@ -277,7 +277,7 @@
           "key": "DWM-214",
           "title": "[DW迁移任务单] CoolMall 迁移 · 清单+迁移 · 清单✓406 · 迁移中 3/6 ·",
           "status": "in_progress",
-          "updated_at": "2026-10-06T18:09:24Z"
+          "updated_at": "2026-10-06T18:14:33Z"
         },
         {
           "key": "DWM-221",
@@ -306,9 +306,9 @@
       ],
       "order": {
         "key": "DWM-214",
-        "title": "[DW迁移任务单] CoolMall 迁移 · 清单+迁移 · 清单✓406 · 迁移中 3/6 · 迁移7.9h/24h",
+        "title": "[DW迁移任务单] CoolMall 迁移 · 清单+迁移 · 清单✓406 · 迁移中 3/6 · 迁移8.0h/24h",
         "status": "in_progress",
-        "updated_at": "2026-10-06T18:09:24Z"
+        "updated_at": "2026-10-06T18:14:33Z"
       }
     },
     {
@@ -327,10 +327,9 @@
           "role": "IPD-PM 产品经理",
           "model": "",
           "agent_id": "1764c131-5c09-48cb-aa48-3177d5256dbb",
-          "state": "working",
-          "issue": "IPD-326",
-          "issue_title": "[PM] 补建 requirement-analysis / issue-writing 两 skill（流程通用性 R",
-          "since": "2026-10-06T18:11:42Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "hermes-sa",
@@ -408,12 +407,24 @@
         }
       ],
       "issue_counts": {
-        "todo": 1,
-        "in_progress": 6,
-        "in_review": 1,
+        "todo": 0,
+        "in_progress": 5,
+        "in_review": 3,
         "done": 92
       },
       "latest_issues": [
+        {
+          "key": "IPD-326",
+          "title": "[PM] 补建 requirement-analysis / issue-writing 两 ski",
+          "status": "in_review",
+          "updated_at": "2026-10-06T18:16:44Z"
+        },
+        {
+          "key": "IPD-325",
+          "title": "[SA] 补建 sa-design-review skill（流程通用性 R1 收口·优先项）",
+          "status": "in_review",
+          "updated_at": "2026-10-06T18:15:38Z"
+        },
         {
           "key": "IPD-322",
           "title": "[PM] REQ-014 新场景需求发布 + 需求池扩充（类型多样化·day-13夜间加派）",
@@ -431,18 +442,6 @@
           "title": "[Tester] 补建 hypium-testing / appium-testing / diff",
           "status": "in_progress",
           "updated_at": "2026-10-06T18:12:56Z"
-        },
-        {
-          "key": "IPD-325",
-          "title": "[SA] 补建 sa-design-review skill（流程通用性 R1 收口·优先项）",
-          "status": "in_progress",
-          "updated_at": "2026-10-06T18:12:07Z"
-        },
-        {
-          "key": "IPD-320",
-          "title": "[Tester] REQ-013 图片滤镜实验室 TR-Accept 差分执行 + 双端对比报告（第",
-          "status": "in_progress",
-          "updated_at": "2026-10-06T18:11:59Z"
         }
       ]
     }
