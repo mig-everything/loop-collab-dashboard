@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T02:02:01Z",
+  "generated_at": "2026-10-06T02:05:44Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -17,12 +17,9 @@
           "role": "GPT Writer（执笔者）",
           "model": "",
           "agent_id": "58ed4647-32dd-4ca1-8ddc-194b975d6024",
-          "state": "working",
-          "issue": "SUR-195",
-          "issue_title": "[SUR-193][needs-human] 文献扩充核实+A/B/C新口径全库重分类（口径5修订）— Codex Ma",
-          "since": "2026-10-06T02:00:11Z",
-          "parent_issue": "SUR-193",
-          "parent_title": "[目标调整] 范围扩大为LLM驱动代码迁移+Introduction重写+文献扩充核实（2026-10-04负责人三条要"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "kimi-adversary",
@@ -40,24 +37,23 @@
           "role": "DeepSeek Task Planner（任务规划+总结）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "04a4e04e-59d5-4f3a-8a16-acf99b80a493",
-          "state": "working",
-          "issue": "SUR-225",
-          "issue_title": "[空闲检测] 2026-10-06 leader 两小时正点检查与加派",
-          "since": "2026-10-06T02:00:19Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         }
       ],
       "issue_counts": {
-        "todo": 3,
+        "todo": 2,
         "in_progress": 1,
         "in_review": 0,
-        "done": 93
+        "done": 94
       },
       "latest_issues": [
         {
           "key": "SUR-225",
           "title": "[空闲检测] 2026-10-06 leader 两小时正点检查与加派",
-          "status": "todo",
-          "updated_at": "2026-10-06T02:00:18Z"
+          "status": "done",
+          "updated_at": "2026-10-06T02:04:31Z"
         },
         {
           "key": "SUR-224",
@@ -123,10 +119,9 @@
           "role": "DeepSeek Planner（小组 leader/PM）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "547cd361-ef50-4965-9477-bc659d8a1708",
-          "state": "working",
-          "issue": "BEN-188",
-          "issue_title": "[空闲检测] 2026-10-06 leader 两小时正点检查与加派",
-          "since": "2026-10-06T02:00:23Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "minimax-visual-diff",
