@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T04:28:50Z",
+  "generated_at": "2026-10-06T04:36:07Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -361,10 +361,9 @@
           "role": "IPD-Dev 开发工程师",
           "model": "zai:glm-5.3",
           "agent_id": "44fcec25-d8b3-4af6-b206-1774a64677ce",
-          "state": "working",
-          "issue": "IPD-304",
-          "issue_title": "[Dev] REQ-012 7分钟健身 双端编码（Android 基线 + 鸿蒙 · day-12 第3轮）",
-          "since": "2026-10-06T04:10:29Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "hermes-tester",
@@ -415,6 +414,12 @@
       },
       "latest_issues": [
         {
+          "key": "IPD-304",
+          "title": "[Dev] REQ-012 7分钟健身 双端编码（Android 基线 + 鸿蒙 · day-12 ",
+          "status": "todo",
+          "updated_at": "2026-10-06T04:34:31Z"
+        },
+        {
           "key": "IPD-306",
           "title": "[RM] path_B 后续——P-D2 android_skeleton 模板 + C2 复现观察",
           "status": "in_progress",
@@ -437,12 +442,6 @@
           "title": "[SA] REQ-013 图片滤镜实验室 TR-Design 架构+契约（day-12 第3轮）",
           "status": "in_review",
           "updated_at": "2026-10-06T04:19:47Z"
-        },
-        {
-          "key": "IPD-301",
-          "title": "[PM] REQ-012 7分钟健身 TR-Design 评审 + REQ-012/013 PRD ",
-          "status": "in_review",
-          "updated_at": "2026-10-06T04:17:41Z"
         }
       ]
     }
