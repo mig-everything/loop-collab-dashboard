@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T23:10:02Z",
+  "generated_at": "2026-10-06T23:38:40Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -109,10 +109,9 @@
           "role": "GLM Runner & Analyst",
           "model": "",
           "agent_id": "bdaefa9b-7045-4264-95e4-1db664e353d0",
-          "state": "working",
-          "issue": "BEN-201",
-          "issue_title": "[任务·第1轮] 口径⑥ R12 全链路复跑 + 口径⑤ test 变体 profile 补强（ref BEN-190 ",
-          "since": "2026-10-06T22:12:06Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "deepseek-planner",
