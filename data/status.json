@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T01:40:26Z",
+  "generated_at": "2026-10-06T02:02:01Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -17,9 +17,12 @@
           "role": "GPT Writer（执笔者）",
           "model": "",
           "agent_id": "58ed4647-32dd-4ca1-8ddc-194b975d6024",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "SUR-195",
+          "issue_title": "[SUR-193][needs-human] 文献扩充核实+A/B/C新口径全库重分类（口径5修订）— Codex Ma",
+          "since": "2026-10-06T02:00:11Z",
+          "parent_issue": "SUR-193",
+          "parent_title": "[目标调整] 范围扩大为LLM驱动代码迁移+Introduction重写+文献扩充核实（2026-10-04负责人三条要"
         },
         {
           "name": "kimi-adversary",
@@ -37,18 +40,25 @@
           "role": "DeepSeek Task Planner（任务规划+总结）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "04a4e04e-59d5-4f3a-8a16-acf99b80a493",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "SUR-225",
+          "issue_title": "[空闲检测] 2026-10-06 leader 两小时正点检查与加派",
+          "since": "2026-10-06T02:00:19Z"
         }
       ],
       "issue_counts": {
-        "todo": 2,
+        "todo": 3,
         "in_progress": 1,
         "in_review": 0,
-        "done": 94
+        "done": 93
       },
       "latest_issues": [
+        {
+          "key": "SUR-225",
+          "title": "[空闲检测] 2026-10-06 leader 两小时正点检查与加派",
+          "status": "todo",
+          "updated_at": "2026-10-06T02:00:18Z"
+        },
         {
           "key": "SUR-224",
           "title": "[巡检] 2026-10-06 leader Issue 状态巡检与催办",
@@ -72,12 +82,6 @@
           "title": "[晨会纪要] 2026-10-06",
           "status": "done",
           "updated_at": "2026-10-05T20:16:17Z"
-        },
-        {
-          "key": "SUR-221",
-          "title": "[流程优化] Opt-021：附录编译完整性纳入 DoD 与评审硬检查（次日验证）",
-          "status": "backlog",
-          "updated_at": "2026-10-05T20:13:03Z"
         }
       ],
       "progress_note": "day-4 晨 37% → 午 42% → 晚 44% → 夜 47%",
@@ -119,9 +123,10 @@
           "role": "DeepSeek Planner（小组 leader/PM）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "547cd361-ef50-4965-9477-bc659d8a1708",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "BEN-188",
+          "issue_title": "[空闲检测] 2026-10-06 leader 两小时正点检查与加派",
+          "since": "2026-10-06T02:00:23Z"
         },
         {
           "name": "minimax-visual-diff",
@@ -162,10 +167,16 @@
       },
       "latest_issues": [
         {
+          "key": "BEN-188",
+          "title": "[空闲检测] 2026-10-06 leader 两小时正点检查与加派",
+          "status": "done",
+          "updated_at": "2026-10-06T02:02:13Z"
+        },
+        {
           "key": "BEN-135",
           "title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 1",
           "status": "blocked",
-          "updated_at": "2026-10-06T01:35:37Z"
+          "updated_at": "2026-10-06T02:01:23Z"
         },
         {
           "key": "BEN-187",
@@ -184,12 +195,6 @@
           "title": "[巡检] 2026-10-06 leader Issue 状态巡检与催办",
           "status": "done",
           "updated_at": "2026-10-06T00:03:10Z"
-        },
-        {
-          "key": "BEN-183",
-          "title": "[任务·第1轮] 口径⑥ R10 全链路复跑 + BEN-177 设备复跑代跑（ref BEN-17",
-          "status": "done",
-          "updated_at": "2026-10-06T00:02:38Z"
         }
       ]
     },
@@ -271,9 +276,15 @@
         "todo": 0,
         "in_progress": 1,
         "in_review": 0,
-        "done": 61
+        "done": 62
       },
       "latest_issues": [
+        {
+          "key": "DWM-202",
+          "title": "[空闲检测] 2026-10-06 leader 两小时正点检查与加派",
+          "status": "done",
+          "updated_at": "2026-10-06T02:01:43Z"
+        },
         {
           "key": "DWM-201",
           "title": "[巡检] 2026-10-06 leader Issue 状态巡检与催办",
@@ -297,12 +308,6 @@
           "title": "[空闲检测] 2026-10-06 leader 两小时正点检查与加派",
           "status": "done",
           "updated_at": "2026-10-05T22:02:15Z"
-        },
-        {
-          "key": "DWM-196",
-          "title": "[早会纪要] 2026-10-06",
-          "status": "done",
-          "updated_at": "2026-10-05T20:21:17Z"
         }
       ],
       "order": {
@@ -389,9 +394,10 @@
           "role": "DeepSeek Planner（小组 leader/PM ",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-293",
+          "issue_title": "[空闲检测] 2026-10-06 leader 两小时正点检查与加派",
+          "since": "2026-10-06T02:00:33Z"
         },
         {
           "name": "minimax-uijudge",
@@ -405,12 +411,18 @@
         }
       ],
       "issue_counts": {
-        "todo": 0,
+        "todo": 1,
         "in_progress": 0,
         "in_review": 1,
-        "done": 99
+        "done": 98
       },
       "latest_issues": [
+        {
+          "key": "IPD-293",
+          "title": "[空闲检测] 2026-10-06 leader 两小时正点检查与加派",
+          "status": "todo",
+          "updated_at": "2026-10-06T02:00:28Z"
+        },
         {
           "key": "IPD-281",
           "title": "[Tester] REQ-011 背单词闪卡 TR-Accept 差分执行 + 双端对比报告（第11",
@@ -432,12 +444,6 @@
         {
           "key": "IPD-290",
           "title": "[PM·评审] REQ-012 7分钟健身 TR-Req 评审（第12场景门禁）",
-          "status": "done",
-          "updated_at": "2026-10-06T00:04:24Z"
-        },
-        {
-          "key": "IPD-289",
-          "title": "[SA] 流程通用性 P1~P4 解耦迭代（验收口径11/目标一 · day-12 第1轮）",
           "status": "done",
           "updated_at": "2026-10-06T00:04:24Z"
         }
