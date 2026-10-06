@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T21:25:47Z",
+  "generated_at": "2026-10-06T21:29:28Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -109,10 +109,9 @@
           "role": "GLM Runner & Analyst",
           "model": "",
           "agent_id": "bdaefa9b-7045-4264-95e4-1db664e353d0",
-          "state": "working",
-          "issue": "BEN-201",
-          "issue_title": "[任务·第1轮] 口径⑥ R12 全链路复跑 + 口径⑤ test 变体 profile 补强（ref BEN-190 ",
-          "since": "2026-10-06T20:58:11Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "deepseek-planner",
@@ -163,16 +162,16 @@
       },
       "latest_issues": [
         {
+          "key": "BEN-201",
+          "title": "[任务·第1轮] 口径⑥ R12 全链路复跑 + 口径⑤ test 变体 profile 补强（re",
+          "status": "in_progress",
+          "updated_at": "2026-10-06T21:27:01Z"
+        },
+        {
           "key": "BEN-135",
           "title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 1",
           "status": "in_progress",
           "updated_at": "2026-10-06T20:31:55Z"
-        },
-        {
-          "key": "BEN-201",
-          "title": "[任务·第1轮] 口径⑥ R12 全链路复跑 + 口径⑤ test 变体 profile 补强（re",
-          "status": "in_progress",
-          "updated_at": "2026-10-06T20:22:38Z"
         },
         {
           "key": "BEN-202",
@@ -230,10 +229,9 @@
           "role": "DW 迁移执行小队队长",
           "model": "claude-opus-5-5",
           "agent_id": "c6ff7c69-0db4-4b35-ac81-dd00e5a53ba4",
-          "state": "working",
-          "issue": "DWM-214",
-          "issue_title": "[DW迁移任务单] CoolMall 迁移 · 还原审计 · 待人工",
-          "since": "2026-10-06T21:24:16Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "exec-runner",
@@ -283,7 +281,7 @@
           "key": "DWM-214",
           "title": "[DW迁移任务单] CoolMall 迁移 · 还原审计 · 待人工",
           "status": "blocked",
-          "updated_at": "2026-10-06T21:24:15Z"
+          "updated_at": "2026-10-06T21:26:32Z"
         },
         {
           "key": "DWM-223",
@@ -314,7 +312,7 @@
         "key": "DWM-214",
         "title": "[DW迁移任务单] CoolMall 迁移 · 还原审计 · 待人工",
         "status": "blocked",
-        "updated_at": "2026-10-06T21:24:15Z"
+        "updated_at": "2026-10-06T21:26:32Z"
       }
     },
     {
