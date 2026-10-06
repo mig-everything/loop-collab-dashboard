@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T05:44:41Z",
+  "generated_at": "2026-10-06T06:02:44Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -50,6 +50,12 @@
       },
       "latest_issues": [
         {
+          "key": "SUR-227",
+          "title": "[空闲检测] 2026-10-06 leader 两小时正点检查与加派",
+          "status": "done",
+          "updated_at": "2026-10-06T06:02:24Z"
+        },
+        {
           "key": "SUR-220",
           "title": "[任务][day-12] 修复 SUR-214 打回 6 项（P0-1 附录编译 + P1-1 EC",
           "status": "done",
@@ -72,12 +78,6 @@
           "title": "[巡检] 2026-10-06 leader Issue 状态巡检与催办",
           "status": "done",
           "updated_at": "2026-10-06T00:04:10Z"
-        },
-        {
-          "key": "SUR-222",
-          "title": "[任务][day-12] SUR-214 越界待办处置：lint 脚本误报修复 + 经验库条目（1+",
-          "status": "done",
-          "updated_at": "2026-10-06T00:03:47Z"
         }
       ],
       "progress_note": "day-4 晨 37% → 午 42% → 晚 44% → 夜 47%",
@@ -164,6 +164,12 @@
       },
       "latest_issues": [
         {
+          "key": "BEN-191",
+          "title": "[空闲检测] 2026-10-06 leader 两小时正点检查与加派",
+          "status": "done",
+          "updated_at": "2026-10-06T06:02:13Z"
+        },
+        {
           "key": "BEN-190",
           "title": "[任务·第2轮] 口径⑥ R11 全链路复跑 + BEN-184 ext harness 代跑（re",
           "status": "in_progress",
@@ -186,12 +192,6 @@
           "title": "[午会纪要] 2026-10-06",
           "status": "done",
           "updated_at": "2026-10-06T04:08:04Z"
-        },
-        {
-          "key": "BEN-177",
-          "title": "[任务·第3轮] SC authoring 收口：test2 Settings 平移 + SC011",
-          "status": "done",
-          "updated_at": "2026-10-06T02:36:10Z"
         }
       ]
     },
@@ -276,9 +276,15 @@
         "todo": 0,
         "in_progress": 1,
         "in_review": 1,
-        "done": 61
+        "done": 62
       },
       "latest_issues": [
+        {
+          "key": "DWM-209",
+          "title": "[空闲检测] 2026-10-06 leader 两小时正点检查与加派",
+          "status": "done",
+          "updated_at": "2026-10-06T06:01:54Z"
+        },
         {
           "key": "DWM-181",
           "title": "[DW迁移任务单] Jerboa 迁移 · 终验",
@@ -302,12 +308,6 @@
           "title": "[空闲检测] 2026-10-06 leader 两小时正点检查与加派",
           "status": "done",
           "updated_at": "2026-10-06T02:01:43Z"
-        },
-        {
-          "key": "DWM-201",
-          "title": "[巡检] 2026-10-06 leader Issue 状态巡检与催办",
-          "status": "done",
-          "updated_at": "2026-10-06T00:05:22Z"
         }
       ],
       "order": {
@@ -417,6 +417,12 @@
       },
       "latest_issues": [
         {
+          "key": "IPD-307",
+          "title": "[空闲检测] 2026-10-06 leader 两小时正点检查与加派",
+          "status": "done",
+          "updated_at": "2026-10-06T06:01:39Z"
+        },
+        {
           "key": "IPD-304",
           "title": "[Dev] REQ-012 7分钟健身 双端编码（Android 基线 + 鸿蒙 · day-12 ",
           "status": "todo",
@@ -439,12 +445,6 @@
           "title": "[Tester] REQ-012 7分钟健身 差分用例清单 + 差分断言（TDD 先行 · day-",
           "status": "in_review",
           "updated_at": "2026-10-06T04:20:24Z"
-        },
-        {
-          "key": "IPD-302",
-          "title": "[SA] REQ-013 图片滤镜实验室 TR-Design 架构+契约（day-12 第3轮）",
-          "status": "in_review",
-          "updated_at": "2026-10-06T04:19:47Z"
         }
       ]
     }
