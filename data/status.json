@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T00:27:04Z",
+  "generated_at": "2026-10-06T00:37:51Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -249,9 +249,12 @@
           "role": "验证员",
           "model": "claude-opus-5-5",
           "agent_id": "69822c63-0dcc-4f3e-875d-7b300d437623",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "DWM-200",
+          "issue_title": "[DWM-181·wave3] Jerboa 修复第 3 波（30 条）",
+          "since": "2026-10-06T00:37:26Z",
+          "parent_issue": "DWM-181",
+          "parent_title": "[DW迁移任务单] Jerboa 迁移 · 修复 wave 3/5"
         },
         {
           "name": "exec-fixer",
@@ -259,12 +262,9 @@
           "role": "修复员",
           "model": "claude-opus-5-5",
           "agent_id": "cd70e713-a339-4621-8699-2058d9cf7d6b",
-          "state": "working",
-          "issue": "DWM-200",
-          "issue_title": "[DWM-181·wave3] Jerboa 修复第 3 波（30 条）",
-          "since": "2026-10-05T23:48:36Z",
-          "parent_issue": "DWM-181",
-          "parent_title": "[DW迁移任务单] Jerboa 迁移 · 修复 wave 3/5"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         }
       ],
       "issue_counts": {
