@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T22:55:40Z",
+  "generated_at": "2026-10-06T23:10:02Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -157,22 +157,22 @@
       ],
       "issue_counts": {
         "todo": 0,
-        "in_progress": 3,
-        "in_review": 0,
+        "in_progress": 2,
+        "in_review": 1,
         "done": 84
       },
       "latest_issues": [
+        {
+          "key": "BEN-201",
+          "title": "[任务·第1轮] 口径⑥ R12 全链路复跑 + 口径⑤ test 变体 profile 补强（re",
+          "status": "in_review",
+          "updated_at": "2026-10-06T23:07:00Z"
+        },
         {
           "key": "BEN-203",
           "title": "[空闲检测] 2026-10-07 leader 两小时正点检查与加派",
           "status": "done",
           "updated_at": "2026-10-06T22:01:54Z"
-        },
-        {
-          "key": "BEN-201",
-          "title": "[任务·第1轮] 口径⑥ R12 全链路复跑 + 口径⑤ test 变体 profile 补强（re",
-          "status": "in_progress",
-          "updated_at": "2026-10-06T21:27:01Z"
         },
         {
           "key": "BEN-135",
