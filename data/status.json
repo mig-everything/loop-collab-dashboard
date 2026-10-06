@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T20:35:08Z",
+  "generated_at": "2026-10-06T20:38:48Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -241,7 +241,7 @@
           "agent_id": "1c3481f5-135b-4959-9daa-c510c076d494",
           "state": "working",
           "issue": "DWM-214",
-          "issue_title": "[DW迁移任务单] CoolMall 迁移 · 清单+迁移 · 清单✓406 · 迁移中 4/6 · 迁移10.3h/2",
+          "issue_title": "[DW迁移任务单] CoolMall 迁移 · 清单+迁移 · 清单✓406 · 迁移中 4/6 · 迁移10.4h/2",
           "since": "2026-10-06T19:42:06Z"
         },
         {
@@ -276,7 +276,7 @@
           "key": "DWM-214",
           "title": "[DW迁移任务单] CoolMall 迁移 · 清单+迁移 · 清单✓406 · 迁移中 4/6 ·",
           "status": "in_progress",
-          "updated_at": "2026-10-06T20:33:40Z"
+          "updated_at": "2026-10-06T20:38:48Z"
         },
         {
           "key": "DWM-223",
@@ -305,9 +305,9 @@
       ],
       "order": {
         "key": "DWM-214",
-        "title": "[DW迁移任务单] CoolMall 迁移 · 清单+迁移 · 清单✓406 · 迁移中 4/6 · 迁移10.3h/24h",
+        "title": "[DW迁移任务单] CoolMall 迁移 · 清单+迁移 · 清单✓406 · 迁移中 4/6 · 迁移10.4h/24h",
         "status": "in_progress",
-        "updated_at": "2026-10-06T20:33:40Z"
+        "updated_at": "2026-10-06T20:38:48Z"
       }
     },
     {
@@ -377,10 +377,9 @@
           "role": "IPD-RM 发布经理",
           "model": "zai:glm-5.3",
           "agent_id": "78156461-9644-478e-9c80-53cd18e25e33",
-          "state": "working",
-          "issue": "IPD-329",
-          "issue_title": "[早会纪要] 2026-10-07",
-          "since": "2026-10-06T20:10:43Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "deepseek-planner",
@@ -411,6 +410,12 @@
       },
       "latest_issues": [
         {
+          "key": "IPD-329",
+          "title": "[早会纪要] 2026-10-07",
+          "status": "done",
+          "updated_at": "2026-10-06T20:35:32Z"
+        },
+        {
           "key": "IPD-330",
           "title": "[RM] path_B sonnet C2-FAIL 裁决执行（重开评审+有条件维持+REQ-014",
           "status": "in_review",
@@ -433,12 +438,6 @@
           "title": "[Tester] REQ-013 图片滤镜实验室 TR-Accept 差分执行 + 双端对比报告（第",
           "status": "in_review",
           "updated_at": "2026-10-06T20:20:52Z"
-        },
-        {
-          "key": "IPD-333",
-          "title": "[PM] REQ-014 PRD v1.1 回写（C1闭合）+ 需求池扩充（day-13第1轮）",
-          "status": "in_review",
-          "updated_at": "2026-10-06T20:20:05Z"
         }
       ]
     }
