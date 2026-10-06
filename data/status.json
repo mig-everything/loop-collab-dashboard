@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T02:20:35Z",
+  "generated_at": "2026-10-06T02:24:17Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -333,10 +333,9 @@
           "role": "IPD-PM 产品经理",
           "model": "",
           "agent_id": "1764c131-5c09-48cb-aa48-3177d5256dbb",
-          "state": "working",
-          "issue": "IPD-296",
-          "issue_title": "[PM] REQ-013 第13场景需求发布 + PRD + TR-Req（day-12 第2轮）",
-          "since": "2026-10-06T02:12:54Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "hermes-sa",
@@ -345,9 +344,9 @@
           "model": "zai:glm-5.3",
           "agent_id": "3e4373ef-a262-4b28-ab2a-818861fc9624",
           "state": "working",
-          "issue": "IPD-294",
-          "issue_title": "[SA] REQ-012 7分钟健身 TR-Design 架构设计+契约（第12场景 · day-12 第2轮）",
-          "since": "2026-10-06T02:12:38Z"
+          "issue": "IPD-299",
+          "issue_title": "[PM·评审] REQ-013 图片滤镜实验室 TR-Req 评审（第13场景门禁）",
+          "since": "2026-10-06T02:21:16Z"
         },
         {
           "name": "hermes-se",
@@ -385,10 +384,9 @@
           "role": "IPD-RM 发布经理",
           "model": "zai:glm-5.3",
           "agent_id": "78156461-9644-478e-9c80-53cd18e25e33",
-          "state": "working",
-          "issue": "IPD-295",
-          "issue_title": "[RM] path_B 收口后续——sonnet 固化评审 + android turn 膨胀归因（day-12 第2轮",
-          "since": "2026-10-06T02:12:41Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "deepseek-planner",
@@ -412,12 +410,30 @@
         }
       ],
       "issue_counts": {
-        "todo": 0,
-        "in_progress": 3,
-        "in_review": 1,
-        "done": 96
+        "todo": 1,
+        "in_progress": 1,
+        "in_review": 3,
+        "done": 95
       },
       "latest_issues": [
+        {
+          "key": "IPD-295",
+          "title": "[RM] path_B 收口后续——sonnet 固化评审 + android turn 膨胀归因（",
+          "status": "in_review",
+          "updated_at": "2026-10-06T02:23:21Z"
+        },
+        {
+          "key": "IPD-296",
+          "title": "[PM] REQ-013 第13场景需求发布 + PRD + TR-Req（day-12 第2轮）",
+          "status": "in_review",
+          "updated_at": "2026-10-06T02:21:34Z"
+        },
+        {
+          "key": "IPD-299",
+          "title": "[PM·评审] REQ-013 图片滤镜实验室 TR-Req 评审（第13场景门禁）",
+          "status": "todo",
+          "updated_at": "2026-10-06T02:21:14Z"
+        },
         {
           "key": "IPD-297",
           "title": "[uijudge] REQ-011 背单词闪卡 双端视觉评审（第11场景 · day-12 第2轮）",
@@ -429,24 +445,6 @@
           "title": "[空闲检测] 2026-10-06 leader 两小时正点检查与加派",
           "status": "done",
           "updated_at": "2026-10-06T02:13:30Z"
-        },
-        {
-          "key": "IPD-296",
-          "title": "[PM] REQ-013 第13场景需求发布 + PRD + TR-Req（day-12 第2轮）",
-          "status": "in_progress",
-          "updated_at": "2026-10-06T02:13:25Z"
-        },
-        {
-          "key": "IPD-294",
-          "title": "[SA] REQ-012 7分钟健身 TR-Design 架构设计+契约（第12场景 · day-1",
-          "status": "in_progress",
-          "updated_at": "2026-10-06T02:13:24Z"
-        },
-        {
-          "key": "IPD-295",
-          "title": "[RM] path_B 收口后续——sonnet 固化评审 + android turn 膨胀归因（",
-          "status": "in_progress",
-          "updated_at": "2026-10-06T02:13:20Z"
         }
       ]
     }
