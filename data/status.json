@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T18:21:12Z",
+  "generated_at": "2026-10-06T18:24:53Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -367,10 +367,9 @@
           "role": "IPD-Tester 测试工程师",
           "model": "zai:glm-5.3",
           "agent_id": "86df9f14-a2cd-46d9-ad15-dbe8606ebd73",
-          "state": "working",
-          "issue": "IPD-320",
-          "issue_title": "[Tester] REQ-013 图片滤镜实验室 TR-Accept 差分执行 + 双端对比报告（第13场景闭环·day",
-          "since": "2026-10-06T18:07:08Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "hermes-rm",
@@ -412,6 +411,12 @@
       },
       "latest_issues": [
         {
+          "key": "IPD-320",
+          "title": "[Tester] REQ-013 图片滤镜实验室 TR-Accept 差分执行 + 双端对比报告（第",
+          "status": "in_progress",
+          "updated_at": "2026-10-06T18:23:34Z"
+        },
+        {
           "key": "IPD-323",
           "title": "[SE] 流程通用性 R1~R4 收口（目标一·day-13夜间加派）",
           "status": "in_review",
@@ -434,12 +439,6 @@
           "title": "[SA] 补建 sa-design-review skill（流程通用性 R1 收口·优先项）",
           "status": "in_review",
           "updated_at": "2026-10-06T18:15:38Z"
-        },
-        {
-          "key": "IPD-322",
-          "title": "[PM] REQ-014 新场景需求发布 + 需求池扩充（类型多样化·day-13夜间加派）",
-          "status": "in_review",
-          "updated_at": "2026-10-06T18:13:56Z"
         }
       ]
     }
