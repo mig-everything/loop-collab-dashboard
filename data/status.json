@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T08:19:34Z",
+  "generated_at": "2026-10-06T08:23:13Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -233,9 +233,11 @@
           "model": "claude-opus-5-5",
           "agent_id": "c6ff7c69-0db4-4b35-ac81-dd00e5a53ba4",
           "state": "working",
-          "issue": "DWM-181",
-          "issue_title": "[DW迁移任务单] Jerboa 迁移 · 收口",
-          "since": "2026-10-06T08:19:42Z"
+          "issue": "DWM-207",
+          "issue_title": "[DWM-181·终验] Jerboa 终验（全量）",
+          "since": "2026-10-06T08:22:31Z",
+          "parent_issue": "DWM-181",
+          "parent_title": "[DW迁移任务单] Jerboa 迁移 · 收口"
         },
         {
           "name": "exec-runner",
@@ -263,7 +265,7 @@
           "role": "修复员",
           "model": "claude-opus-5-5",
           "agent_id": "cd70e713-a339-4621-8699-2058d9cf7d6b",
-          "state": "working",
+          "state": "idle",
           "issue": "",
           "issue_title": ""
         }
@@ -279,7 +281,7 @@
           "key": "DWM-181",
           "title": "[DW迁移任务单] Jerboa 迁移 · 收口",
           "status": "in_progress",
-          "updated_at": "2026-10-06T08:19:42Z"
+          "updated_at": "2026-10-06T08:21:52Z"
         },
         {
           "key": "DWM-211",
@@ -310,7 +312,7 @@
         "key": "DWM-181",
         "title": "[DW迁移任务单] Jerboa 迁移 · 收口",
         "status": "in_progress",
-        "updated_at": "2026-10-06T08:19:42Z"
+        "updated_at": "2026-10-06T08:21:52Z"
       },
       "progress_note": "10 个应用：完成 5、进行中 1、暂停 0、未开始 4；dw-lead 早会 standup 回填"
     },
