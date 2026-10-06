@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T01:33:08Z",
+  "generated_at": "2026-10-06T01:36:47Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -17,9 +17,12 @@
           "role": "GPT Writer（执笔者）",
           "model": "",
           "agent_id": "58ed4647-32dd-4ca1-8ddc-194b975d6024",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "SUR-195",
+          "issue_title": "[SUR-193][needs-human] 文献扩充核实+A/B/C新口径全库重分类（口径5修订）— Codex Ma",
+          "since": "2026-10-06T01:35:23Z",
+          "parent_issue": "SUR-193",
+          "parent_title": "[目标调整] 范围扩大为LLM驱动代码迁移+Introduction重写+文献扩充核实（2026-10-04负责人三条要"
         },
         {
           "name": "kimi-adversary",
@@ -97,7 +100,7 @@
           "name": "gpt-scenarist",
           "emoji": "🦊",
           "role": "GPT Scenarist",
-          "model": "gpt-6-astra",
+          "model": "",
           "agent_id": "6e6f1e24-3bc5-455a-85d2-cb3fb6c9a672",
           "state": "idle",
           "issue": "",
@@ -165,7 +168,7 @@
           "key": "BEN-135",
           "title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 1",
           "status": "blocked",
-          "updated_at": "2026-10-06T01:31:17Z"
+          "updated_at": "2026-10-06T01:35:37Z"
         },
         {
           "key": "BEN-187",
