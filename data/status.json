@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T15:57:53Z",
+  "generated_at": "2026-10-06T16:01:32Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -37,18 +37,25 @@
           "role": "DeepSeek Task Planner（任务规划+总结）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "04a4e04e-59d5-4f3a-8a16-acf99b80a493",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "SUR-234",
+          "issue_title": "[巡检] 2026-10-07 leader Issue 状态巡检与催办",
+          "since": "2026-10-06T16:00:18Z"
         }
       ],
       "issue_counts": {
         "todo": 2,
-        "in_progress": 1,
+        "in_progress": 2,
         "in_review": 1,
-        "done": 93
+        "done": 92
       },
       "latest_issues": [
+        {
+          "key": "SUR-234",
+          "title": "[巡检] 2026-10-07 leader Issue 状态巡检与催办",
+          "status": "in_progress",
+          "updated_at": "2026-10-06T16:01:18Z"
+        },
         {
           "key": "SUR-233",
           "title": "[空闲检测] 2026-10-06 leader 两小时正点检查与加派",
@@ -72,12 +79,6 @@
           "title": "[目标调整] 范围扩大为LLM驱动代码迁移+Introduction重写+文献扩充核实（2026-1",
           "status": "in_progress",
           "updated_at": "2026-10-06T12:12:04Z"
-        },
-        {
-          "key": "SUR-232",
-          "title": "[流程优化] Opt-022：模型账号/授权类错误纳入 routing 实测熔断判定（次日验证）",
-          "status": "backlog",
-          "updated_at": "2026-10-06T12:11:28Z"
         }
       ],
       "progress_note": "day-4 晨 37% → 午 42% → 晚 44% → 夜 47%",
@@ -119,9 +120,10 @@
           "role": "DeepSeek Planner（小组 leader/PM）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "547cd361-ef50-4965-9477-bc659d8a1708",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "BEN-198",
+          "issue_title": "[巡检] 2026-10-07 leader Issue 状态巡检与催办",
+          "since": "2026-10-06T16:00:27Z"
         },
         {
           "name": "minimax-visual-diff",
@@ -156,11 +158,17 @@
       ],
       "issue_counts": {
         "todo": 0,
-        "in_progress": 1,
+        "in_progress": 2,
         "in_review": 2,
-        "done": 84
+        "done": 83
       },
       "latest_issues": [
+        {
+          "key": "BEN-198",
+          "title": "[巡检] 2026-10-07 leader Issue 状态巡检与催办",
+          "status": "in_progress",
+          "updated_at": "2026-10-06T16:00:52Z"
+        },
         {
           "key": "BEN-197",
           "title": "[空闲检测] 2026-10-06 leader 两小时正点检查与加派",
@@ -184,12 +192,6 @@
           "title": "[任务·第3轮] SC v4 视觉差分定稿 + cofi 视觉锚定补强（source-side，re",
           "status": "in_review",
           "updated_at": "2026-10-06T12:28:00Z"
-        },
-        {
-          "key": "BEN-194",
-          "title": "[晚会日报] 2026-10-06",
-          "status": "done",
-          "updated_at": "2026-10-06T12:10:25Z"
         }
       ]
     },
@@ -204,62 +206,62 @@
       "progress": 37,
       "agents": [
         {
-          "name": "opus-analyzer",
-          "emoji": "🦁",
-          "role": "Opus Analyzer",
-          "model": "claude-opus-5-5",
-          "agent_id": "2f32549c-87c7-4202-8f54-3af79a30afa0",
+          "name": "gpt-scenarist",
+          "emoji": "🦊",
+          "role": "GPT Scenarist",
+          "model": "gpt-6-luna",
+          "agent_id": "6e6f1e24-3bc5-455a-85d2-cb3fb6c9a672",
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
+        },
+        {
+          "name": "glm-runner",
+          "emoji": "👾",
+          "role": "GLM Runner & Analyst",
+          "model": "",
+          "agent_id": "bdaefa9b-7045-4264-95e4-1db664e353d0",
           "state": "idle",
           "issue": "",
           "issue_title": ""
         },
         {
           "name": "deepseek-planner",
-          "emoji": "⚡",
-          "role": "DeepSeek Planner（小组 leader/PM，",
+          "emoji": "🍀",
+          "role": "DeepSeek Planner（小组 leader/PM）",
           "model": "deepseek:deepseek-v4-pro",
-          "agent_id": "950ff614-521d-4e32-a02d-423d41a7b2b3",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
-        },
-        {
-          "name": "dw-lead",
-          "emoji": "🐵",
-          "role": "DW 迁移执行小队队长",
-          "model": "claude-opus-5-5",
-          "agent_id": "c6ff7c69-0db4-4b35-ac81-dd00e5a53ba4",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
-        },
-        {
-          "name": "exec-runner",
-          "emoji": "🐙",
-          "role": "运行员",
-          "model": "claude-opus-5-5",
-          "agent_id": "1c3481f5-135b-4959-9daa-c510c076d494",
+          "agent_id": "547cd361-ef50-4965-9477-bc659d8a1708",
           "state": "working",
-          "issue": "DWM-214",
-          "issue_title": "[DW迁移任务单] CoolMall 迁移 · 清单+迁移 · 清单生成中 续1·r55·749/800步·5页/645",
-          "since": "2026-10-06T15:54:37Z"
+          "issue": "BEN-198",
+          "issue_title": "[巡检] 2026-10-07 leader Issue 状态巡检与催办",
+          "since": "2026-10-06T16:00:27Z"
         },
         {
-          "name": "exec-verifier",
-          "emoji": "🐝",
-          "role": "验证员",
-          "model": "claude-opus-5-5",
-          "agent_id": "69822c63-0dcc-4f3e-875d-7b300d437623",
+          "name": "minimax-visual-diff",
+          "emoji": "🐼",
+          "role": "MiniMax 多模态视觉差分评审",
+          "model": "minimax-cn:MiniMax-M3",
+          "agent_id": "843ac45d-b5db-4f35-b07b-2e5754ec5a5f",
           "state": "idle",
           "issue": "",
           "issue_title": ""
         },
         {
-          "name": "exec-fixer",
-          "emoji": "⭐",
-          "role": "修复员",
-          "model": "claude-opus-5-5",
-          "agent_id": "cd70e713-a339-4621-8699-2058d9cf7d6b",
+          "name": "项目观察员",
+          "emoji": "🔍",
+          "role": "只读洞察项目目标与执行证据，用简单语言汇报进展、偏差和阻塞，",
+          "model": "",
+          "agent_id": "4b674e90-4726-4eba-bd5c-06350e0b8b83",
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
+        },
+        {
+          "name": "项目观察员（GPT-6）",
+          "emoji": "🔍",
+          "role": "只读洞察项目目标与执行证据，用简单语言汇报进展、偏差和阻塞，",
+          "model": "gpt-6-astra",
+          "agent_id": "33b902ee-a4ca-46ae-9284-c8285311c687",
           "state": "idle",
           "issue": "",
           "issue_title": ""
@@ -267,48 +269,42 @@
       ],
       "issue_counts": {
         "todo": 0,
-        "in_progress": 1,
+        "in_progress": 2,
         "in_review": 1,
-        "done": 64
+        "done": 84
       },
       "latest_issues": [
         {
-          "key": "DWM-214",
-          "title": "[DW迁移任务单] CoolMall 迁移 · 清单+迁移 · 清单生成中 续1·r55·749/8",
-          "status": "in_progress",
-          "updated_at": "2026-10-06T15:54:55Z"
+          "key": "BEN-195",
+          "title": "[任务·第3轮] 口径⑤ test 变体横向评分深化 + SC/test2 提升（ref BEN-1",
+          "status": "done",
+          "updated_at": "2026-10-06T16:03:05Z"
         },
         {
-          "key": "DWM-219",
+          "key": "BEN-198",
+          "title": "[巡检] 2026-10-07 leader Issue 状态巡检与催办",
+          "status": "in_progress",
+          "updated_at": "2026-10-06T16:00:52Z"
+        },
+        {
+          "key": "BEN-197",
           "title": "[空闲检测] 2026-10-06 leader 两小时正点检查与加派",
           "status": "done",
-          "updated_at": "2026-10-06T14:02:48Z"
+          "updated_at": "2026-10-06T14:02:16Z"
         },
         {
-          "key": "DWM-218",
-          "title": "[任务] 记忆增强验证报告（同梯队迁移轮次/Token 对比，验证 ≥20% 降幅目标）",
+          "key": "BEN-135",
+          "title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 1",
+          "status": "in_progress",
+          "updated_at": "2026-10-06T12:47:15Z"
+        },
+        {
+          "key": "BEN-196",
+          "title": "[任务·第3轮] SC v4 视觉差分定稿 + cofi 视觉锚定补强（source-side，re",
           "status": "in_review",
-          "updated_at": "2026-10-06T12:30:59Z"
-        },
-        {
-          "key": "DWM-217",
-          "title": "[晚会日报] 2026-10-06",
-          "status": "done",
-          "updated_at": "2026-10-06T12:15:45Z"
-        },
-        {
-          "key": "DWM-215",
-          "title": "[任务] Jerboa 收口后差异分析 + §11.7 对抗评审 + DW 建议池入池",
-          "status": "done",
-          "updated_at": "2026-10-06T12:12:40Z"
+          "updated_at": "2026-10-06T12:28:00Z"
         }
-      ],
-      "order": {
-        "key": "DWM-214",
-        "title": "[DW迁移任务单] CoolMall 迁移 · 清单+迁移 · 清单生成中 续1·r55·749/800步·5页/645项 · 迁移中 3/6 · 清单5.6h/16h 迁移5.6",
-        "status": "in_progress",
-        "updated_at": "2026-10-06T15:54:55Z"
-      }
+      ]
     },
     {
       "id": "task4-ipd-eazo",
@@ -386,9 +382,10 @@
           "role": "DeepSeek Planner（小组 leader/PM ",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-318",
+          "issue_title": "[巡检] 2026-10-07 leader Issue 状态巡检与催办",
+          "since": "2026-10-06T16:00:26Z"
         },
         {
           "name": "minimax-uijudge",
@@ -402,12 +399,18 @@
         }
       ],
       "issue_counts": {
-        "todo": 0,
+        "todo": 1,
         "in_progress": 1,
         "in_review": 2,
-        "done": 97
+        "done": 96
       },
       "latest_issues": [
+        {
+          "key": "IPD-318",
+          "title": "[巡检] 2026-10-07 leader Issue 状态巡检与催办",
+          "status": "todo",
+          "updated_at": "2026-10-06T16:00:23Z"
+        },
         {
           "key": "IPD-317",
           "title": "[空闲检测] 2026-10-06 leader 两小时正点检查与加派",
@@ -431,12 +434,6 @@
           "title": "[Dev] REQ-013 图片滤镜实验室 双端编码（Android 基线 + 鸿蒙）",
           "status": "in_review",
           "updated_at": "2026-10-06T12:13:16Z"
-        },
-        {
-          "key": "IPD-316",
-          "title": "[晚会日报] 2026-10-06",
-          "status": "done",
-          "updated_at": "2026-10-06T12:11:34Z"
         }
       ]
     }
