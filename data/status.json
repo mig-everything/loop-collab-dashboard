@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T08:12:15Z",
+  "generated_at": "2026-10-06T08:15:55Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -362,10 +362,9 @@
           "role": "IPD-Dev 开发工程师",
           "model": "zai:glm-5.3",
           "agent_id": "44fcec25-d8b3-4af6-b206-1774a64677ce",
-          "state": "working",
-          "issue": "IPD-304",
-          "issue_title": "[Dev] REQ-012 7分钟健身 双端编码（Android 基线 + 鸿蒙 · day-12 第3轮）",
-          "since": "2026-10-06T08:03:51Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "hermes-tester",
@@ -410,22 +409,22 @@
       ],
       "issue_counts": {
         "todo": 0,
-        "in_progress": 1,
+        "in_progress": 0,
         "in_review": 0,
-        "done": 99
+        "done": 100
       },
       "latest_issues": [
+        {
+          "key": "IPD-304",
+          "title": "[Dev] REQ-012 7分钟健身 双端编码（Android 基线 + 鸿蒙 · day-12 ",
+          "status": "done",
+          "updated_at": "2026-10-06T08:14:48Z"
+        },
         {
           "key": "IPD-306",
           "title": "[RM] path_B 后续——P-D2 android_skeleton 模板 + C2 复现观察",
           "status": "done",
           "updated_at": "2026-10-06T08:12:01Z"
-        },
-        {
-          "key": "IPD-304",
-          "title": "[Dev] REQ-012 7分钟健身 双端编码（Android 基线 + 鸿蒙 · day-12 ",
-          "status": "in_progress",
-          "updated_at": "2026-10-06T08:04:30Z"
         },
         {
           "key": "IPD-308",
