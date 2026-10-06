@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T05:37:21Z",
+  "generated_at": "2026-10-06T05:41:01Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -231,9 +231,10 @@
           "role": "DW 迁移执行小队队长",
           "model": "claude-opus-5-5",
           "agent_id": "c6ff7c69-0db4-4b35-ac81-dd00e5a53ba4",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "DWM-181",
+          "issue_title": "[DW迁移任务单] Jerboa 迁移 · 尾波",
+          "since": "2026-10-06T05:41:04Z"
         },
         {
           "name": "exec-runner",
@@ -262,11 +263,8 @@
           "model": "claude-opus-5-5",
           "agent_id": "cd70e713-a339-4621-8699-2058d9cf7d6b",
           "state": "working",
-          "issue": "DWM-206",
-          "issue_title": "[DWM-181·尾波] Jerboa 修复尾波（2 条）",
-          "since": "2026-10-06T04:53:34Z",
-          "parent_issue": "DWM-181",
-          "parent_title": "[DW迁移任务单] Jerboa 迁移 · 尾波"
+          "issue": "",
+          "issue_title": ""
         }
       ],
       "issue_counts": {
@@ -280,7 +278,7 @@
           "key": "DWM-181",
           "title": "[DW迁移任务单] Jerboa 迁移 · 尾波",
           "status": "in_progress",
-          "updated_at": "2026-10-06T04:53:47Z"
+          "updated_at": "2026-10-06T05:41:04Z"
         },
         {
           "key": "DWM-205",
@@ -311,7 +309,7 @@
         "key": "DWM-181",
         "title": "[DW迁移任务单] Jerboa 迁移 · 尾波",
         "status": "in_progress",
-        "updated_at": "2026-10-06T04:53:47Z"
+        "updated_at": "2026-10-06T05:41:04Z"
       },
       "progress_note": "10 个应用：完成 5、进行中 1、暂停 0、未开始 4；dw-lead 早会 standup 回填"
     },
