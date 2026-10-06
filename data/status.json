@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T11:16:15Z",
+  "generated_at": "2026-10-06T11:19:52Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -241,7 +241,7 @@
           "agent_id": "1c3481f5-135b-4959-9daa-c510c076d494",
           "state": "working",
           "issue": "DWM-214",
-          "issue_title": "[DW迁移任务单] CoolMall 迁移 · 清单+迁移 · 清单生成中 r6·105/800步·5页/117项 · ",
+          "issue_title": "[DW迁移任务单] CoolMall 迁移 · 清单+迁移 · 清单生成中 r8·135/800步·5页/117项 · ",
           "since": "2026-10-06T10:07:34Z"
         },
         {
@@ -274,9 +274,9 @@
       "latest_issues": [
         {
           "key": "DWM-214",
-          "title": "[DW迁移任务单] CoolMall 迁移 · 清单+迁移 · 清单生成中 r6·105/800步·",
+          "title": "[DW迁移任务单] CoolMall 迁移 · 清单+迁移 · 清单生成中 r8·135/800步·",
           "status": "in_progress",
-          "updated_at": "2026-10-06T11:13:53Z"
+          "updated_at": "2026-10-06T11:19:03Z"
         },
         {
           "key": "DWM-215",
@@ -305,9 +305,9 @@
       ],
       "order": {
         "key": "DWM-214",
-        "title": "[DW迁移任务单] CoolMall 迁移 · 清单+迁移 · 清单生成中 r6·105/800步·5页/117项 · 迁移中 2/6 · 清单1.0h/16h 迁移1.0h/24",
+        "title": "[DW迁移任务单] CoolMall 迁移 · 清单+迁移 · 清单生成中 r8·135/800步·5页/117项 · 迁移中 2/6 · 清单1.0h/16h 迁移1.0h/24",
         "status": "in_progress",
-        "updated_at": "2026-10-06T11:13:53Z"
+        "updated_at": "2026-10-06T11:19:03Z"
       },
       "progress_note": "10 个应用：完成 5、进行中 1、暂停 0、未开始 4；dw-lead 早会 standup 回填"
     },
