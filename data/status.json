@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T12:22:09Z",
+  "generated_at": "2026-10-06T12:25:53Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -27,10 +27,9 @@
           "role": "Kimi Adversarial Reviewer（对抗评审",
           "model": "",
           "agent_id": "6e530cc6-6b9d-4398-936d-df9c13468125",
-          "state": "working",
-          "issue": "SUR-231",
-          "issue_title": "[评审][day-12] SUR-220 修复复核：SUR-214 打回 6 项独立对抗评审（口径③④⑦⑧⑨，Opt-0",
-          "since": "2026-10-06T12:11:12Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "deepseek-planner",
@@ -45,11 +44,17 @@
       ],
       "issue_counts": {
         "todo": 2,
-        "in_progress": 2,
-        "in_review": 0,
+        "in_progress": 1,
+        "in_review": 1,
         "done": 93
       },
       "latest_issues": [
+        {
+          "key": "SUR-231",
+          "title": "[评审][day-12] SUR-220 修复复核：SUR-214 打回 6 项独立对抗评审（口径③",
+          "status": "in_review",
+          "updated_at": "2026-10-06T12:25:28Z"
+        },
         {
           "key": "SUR-230",
           "title": "[晚会] 2026-10-06 day-12 第3轮派单与当日小结（草稿）",
@@ -61,12 +66,6 @@
           "title": "[目标调整] 范围扩大为LLM驱动代码迁移+Introduction重写+文献扩充核实（2026-1",
           "status": "in_progress",
           "updated_at": "2026-10-06T12:12:04Z"
-        },
-        {
-          "key": "SUR-231",
-          "title": "[评审][day-12] SUR-220 修复复核：SUR-214 打回 6 项独立对抗评审（口径③",
-          "status": "in_progress",
-          "updated_at": "2026-10-06T12:11:40Z"
         },
         {
           "key": "SUR-232",
@@ -246,7 +245,7 @@
           "agent_id": "1c3481f5-135b-4959-9daa-c510c076d494",
           "state": "working",
           "issue": "DWM-214",
-          "issue_title": "[DW迁移任务单] CoolMall 迁移 · 清单+迁移 · 清单生成中 r23·249/800步·5页/201项 ·",
+          "issue_title": "[DW迁移任务单] CoolMall 迁移 · 清单+迁移 · 清单生成中 r24·262/800步·5页/205项 ·",
           "since": "2026-10-06T12:00:06Z"
         },
         {
@@ -279,9 +278,9 @@
       "latest_issues": [
         {
           "key": "DWM-214",
-          "title": "[DW迁移任务单] CoolMall 迁移 · 清单+迁移 · 清单生成中 r23·249/800步",
+          "title": "[DW迁移任务单] CoolMall 迁移 · 清单+迁移 · 清单生成中 r24·262/800步",
           "status": "in_progress",
-          "updated_at": "2026-10-06T12:21:01Z"
+          "updated_at": "2026-10-06T12:26:10Z"
         },
         {
           "key": "DWM-217",
@@ -310,9 +309,9 @@
       ],
       "order": {
         "key": "DWM-214",
-        "title": "[DW迁移任务单] CoolMall 迁移 · 清单+迁移 · 清单生成中 r23·249/800步·5页/201项 · 迁移中 3/6 · 清单2.1h/16h 迁移2.1h/2",
+        "title": "[DW迁移任务单] CoolMall 迁移 · 清单+迁移 · 清单生成中 r24·262/800步·5页/205项 · 迁移中 3/6 · 清单2.2h/16h 迁移2.2h/2",
         "status": "in_progress",
-        "updated_at": "2026-10-06T12:21:01Z"
+        "updated_at": "2026-10-06T12:26:10Z"
       }
     },
     {
@@ -371,10 +370,9 @@
           "role": "IPD-Tester 测试工程师",
           "model": "zai:glm-5.3",
           "agent_id": "86df9f14-a2cd-46d9-ad15-dbe8606ebd73",
-          "state": "working",
-          "issue": "IPD-311",
-          "issue_title": "[Tester] REQ-012 7分钟健身 TR-Accept 差分执行 + 双端对比报告（第12场景闭环）",
-          "since": "2026-10-06T12:09:38Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "hermes-rm",
@@ -410,11 +408,17 @@
       ],
       "issue_counts": {
         "todo": 0,
-        "in_progress": 2,
-        "in_review": 1,
+        "in_progress": 1,
+        "in_review": 2,
         "done": 97
       },
       "latest_issues": [
+        {
+          "key": "IPD-311",
+          "title": "[Tester] REQ-012 7分钟健身 TR-Accept 差分执行 + 双端对比报告（第12",
+          "status": "in_review",
+          "updated_at": "2026-10-06T12:22:46Z"
+        },
         {
           "key": "IPD-314",
           "title": "[Dev] REQ-013 图片滤镜实验室 双端编码（Android 基线 + 鸿蒙）",
@@ -432,12 +436,6 @@
           "title": "[晚会日报] 2026-10-06",
           "status": "done",
           "updated_at": "2026-10-06T12:11:34Z"
-        },
-        {
-          "key": "IPD-311",
-          "title": "[Tester] REQ-012 7分钟健身 TR-Accept 差分执行 + 双端对比报告（第12",
-          "status": "in_progress",
-          "updated_at": "2026-10-06T12:09:36Z"
         },
         {
           "key": "IPD-313",
