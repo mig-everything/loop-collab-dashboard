@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T13:25:11Z",
+  "generated_at": "2026-10-06T13:32:29Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -241,7 +241,7 @@
           "agent_id": "1c3481f5-135b-4959-9daa-c510c076d494",
           "state": "working",
           "issue": "DWM-214",
-          "issue_title": "[DW迁移任务单] CoolMall 迁移 · 清单+迁移 · 清单生成中 续1·r35·380/800步·5页/245",
+          "issue_title": "[DW迁移任务单] CoolMall 迁移 · 清单+迁移 · 清单生成中 续1·r36·387/800步·5页/245",
           "since": "2026-10-06T12:00:06Z"
         },
         {
@@ -274,9 +274,9 @@
       "latest_issues": [
         {
           "key": "DWM-214",
-          "title": "[DW迁移任务单] CoolMall 迁移 · 清单+迁移 · 清单生成中 续1·r35·380/8",
+          "title": "[DW迁移任务单] CoolMall 迁移 · 清单+迁移 · 清单生成中 续1·r36·387/8",
           "status": "in_progress",
-          "updated_at": "2026-10-06T13:25:18Z"
+          "updated_at": "2026-10-06T13:30:26Z"
         },
         {
           "key": "DWM-218",
@@ -305,9 +305,9 @@
       ],
       "order": {
         "key": "DWM-214",
-        "title": "[DW迁移任务单] CoolMall 迁移 · 清单+迁移 · 清单生成中 续1·r35·380/800步·5页/245项 · 迁移中 3/6 · 清单3.1h/16h 迁移3.1",
+        "title": "[DW迁移任务单] CoolMall 迁移 · 清单+迁移 · 清单生成中 续1·r36·387/800步·5页/245项 · 迁移中 3/6 · 清单3.2h/16h 迁移3.2",
         "status": "in_progress",
-        "updated_at": "2026-10-06T13:25:18Z"
+        "updated_at": "2026-10-06T13:30:26Z"
       }
     },
     {
@@ -376,10 +376,9 @@
           "role": "IPD-RM 发布经理",
           "model": "zai:glm-5.3",
           "agent_id": "78156461-9644-478e-9c80-53cd18e25e33",
-          "state": "working",
-          "issue": "IPD-315",
-          "issue_title": "[RM] path_B 四维差复测 + REQ-012 双端 run 度量采集",
-          "since": "2026-10-06T12:09:43Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "deepseek-planner",
@@ -410,6 +409,12 @@
       },
       "latest_issues": [
         {
+          "key": "IPD-315",
+          "title": "[RM] path_B 四维差复测 + REQ-012 双端 run 度量采集",
+          "status": "in_progress",
+          "updated_at": "2026-10-06T13:31:09Z"
+        },
+        {
           "key": "IPD-311",
           "title": "[Tester] REQ-012 7分钟健身 TR-Accept 差分执行 + 双端对比报告（第12",
           "status": "in_review",
@@ -420,12 +425,6 @@
           "title": "[Dev] REQ-013 图片滤镜实验室 双端编码（Android 基线 + 鸿蒙）",
           "status": "in_review",
           "updated_at": "2026-10-06T12:13:16Z"
-        },
-        {
-          "key": "IPD-315",
-          "title": "[RM] path_B 四维差复测 + REQ-012 双端 run 度量采集",
-          "status": "in_progress",
-          "updated_at": "2026-10-06T12:12:11Z"
         },
         {
           "key": "IPD-316",
