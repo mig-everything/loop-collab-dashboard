@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T12:25:53Z",
+  "generated_at": "2026-10-06T12:29:35Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -131,10 +131,9 @@
           "role": "MiniMax 多模态视觉差分评审",
           "model": "minimax-cn:MiniMax-M3",
           "agent_id": "843ac45d-b5db-4f35-b07b-2e5754ec5a5f",
-          "state": "working",
-          "issue": "BEN-196",
-          "issue_title": "[任务·第3轮] SC v4 视觉差分定稿 + cofi 视觉锚定补强（source-side，ref BEN-184）",
-          "since": "2026-10-06T12:08:52Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "项目观察员",
@@ -158,12 +157,18 @@
         }
       ],
       "issue_counts": {
-        "todo": 1,
+        "todo": 0,
         "in_progress": 2,
-        "in_review": 0,
+        "in_review": 1,
         "done": 84
       },
       "latest_issues": [
+        {
+          "key": "BEN-196",
+          "title": "[任务·第3轮] SC v4 视觉差分定稿 + cofi 视觉锚定补强（source-side，re",
+          "status": "in_review",
+          "updated_at": "2026-10-06T12:28:00Z"
+        },
         {
           "key": "BEN-194",
           "title": "[晚会日报] 2026-10-06",
@@ -181,12 +186,6 @@
           "title": "[任务·第3轮] 口径⑤ test 变体横向评分深化 + SC/test2 提升（ref BEN-1",
           "status": "in_progress",
           "updated_at": "2026-10-06T12:08:59Z"
-        },
-        {
-          "key": "BEN-196",
-          "title": "[任务·第3轮] SC v4 视觉差分定稿 + cofi 视觉锚定补强（source-side，re",
-          "status": "todo",
-          "updated_at": "2026-10-06T12:08:50Z"
         },
         {
           "key": "BEN-193",
