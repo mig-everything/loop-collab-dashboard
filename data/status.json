@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T17:59:06Z",
+  "generated_at": "2026-10-06T18:02:44Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -37,18 +37,25 @@
           "role": "DeepSeek Task Planner（任务规划+总结）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "04a4e04e-59d5-4f3a-8a16-acf99b80a493",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "SUR-235",
+          "issue_title": "[空闲检测] 2026-10-07 leader 两小时正点检查与加派",
+          "since": "2026-10-06T18:00:15Z"
         }
       ],
       "issue_counts": {
-        "todo": 2,
+        "todo": 3,
         "in_progress": 0,
         "in_review": 0,
-        "done": 95
+        "done": 94
       },
       "latest_issues": [
+        {
+          "key": "SUR-235",
+          "title": "[空闲检测] 2026-10-07 leader 两小时正点检查与加派",
+          "status": "todo",
+          "updated_at": "2026-10-06T18:00:14Z"
+        },
         {
           "key": "SUR-193",
           "title": "[目标调整] 范围扩大为LLM驱动代码迁移+Introduction重写+文献扩充核实（2026-1",
@@ -72,12 +79,6 @@
           "title": "[空闲检测] 2026-10-06 leader 两小时正点检查与加派",
           "status": "done",
           "updated_at": "2026-10-06T14:03:48Z"
-        },
-        {
-          "key": "SUR-230",
-          "title": "[晚会] 2026-10-06 day-12 第3轮派单与当日小结（草稿）",
-          "status": "done",
-          "updated_at": "2026-10-06T12:15:00Z"
         }
       ],
       "progress_note": "day-4 晨 37% → 午 42% → 晚 44% → 夜 47%",
@@ -162,6 +163,12 @@
       },
       "latest_issues": [
         {
+          "key": "BEN-199",
+          "title": "[空闲检测] 2026-10-07 leader 两小时正点检查与加派",
+          "status": "done",
+          "updated_at": "2026-10-06T18:01:30Z"
+        },
+        {
           "key": "BEN-135",
           "title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 1",
           "status": "in_progress",
@@ -184,12 +191,6 @@
           "title": "[任务·第3轮] 口径⑤ test 变体横向评分深化 + SC/test2 提升（ref BEN-1",
           "status": "done",
           "updated_at": "2026-10-06T16:03:05Z"
-        },
-        {
-          "key": "BEN-197",
-          "title": "[空闲检测] 2026-10-06 leader 两小时正点检查与加派",
-          "status": "done",
-          "updated_at": "2026-10-06T14:02:16Z"
         }
       ]
     },
@@ -269,9 +270,15 @@
         "todo": 0,
         "in_progress": 1,
         "in_review": 0,
-        "done": 65
+        "done": 66
       },
       "latest_issues": [
+        {
+          "key": "DWM-221",
+          "title": "[空闲检测] 2026-10-07 leader 两小时正点检查与加派",
+          "status": "done",
+          "updated_at": "2026-10-06T18:01:40Z"
+        },
         {
           "key": "DWM-214",
           "title": "[DW迁移任务单] CoolMall 迁移 · 清单+迁移 · 清单✓406 · 迁移中 3/6 ·",
@@ -295,12 +302,6 @@
           "title": "[空闲检测] 2026-10-06 leader 两小时正点检查与加派",
           "status": "done",
           "updated_at": "2026-10-06T14:02:48Z"
-        },
-        {
-          "key": "DWM-217",
-          "title": "[晚会日报] 2026-10-06",
-          "status": "done",
-          "updated_at": "2026-10-06T12:15:45Z"
         }
       ],
       "order": {
@@ -386,9 +387,10 @@
           "role": "DeepSeek Planner（小组 leader/PM ",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-319",
+          "issue_title": "[空闲检测] 2026-10-07 leader 两小时正点检查与加派",
+          "since": "2026-10-06T18:00:23Z"
         },
         {
           "name": "minimax-uijudge",
@@ -402,12 +404,18 @@
         }
       ],
       "issue_counts": {
-        "todo": 0,
+        "todo": 1,
         "in_progress": 0,
         "in_review": 1,
-        "done": 99
+        "done": 98
       },
       "latest_issues": [
+        {
+          "key": "IPD-319",
+          "title": "[空闲检测] 2026-10-07 leader 两小时正点检查与加派",
+          "status": "todo",
+          "updated_at": "2026-10-06T18:00:21Z"
+        },
         {
           "key": "IPD-315",
           "title": "[RM] path_B 四维差复测 + REQ-012 双端 run 度量采集",
@@ -431,12 +439,6 @@
           "title": "[Tester] REQ-012 7分钟健身 TR-Accept 差分执行 + 双端对比报告（第12",
           "status": "done",
           "updated_at": "2026-10-06T16:03:37Z"
-        },
-        {
-          "key": "IPD-317",
-          "title": "[空闲检测] 2026-10-06 leader 两小时正点检查与加派",
-          "status": "done",
-          "updated_at": "2026-10-06T14:02:25Z"
         }
       ]
     }
