@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T16:10:25Z",
+  "generated_at": "2026-10-06T16:14:06Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -376,10 +376,9 @@
           "role": "IPD-RM 发布经理",
           "model": "zai:glm-5.3",
           "agent_id": "78156461-9644-478e-9c80-53cd18e25e33",
-          "state": "working",
-          "issue": "IPD-315",
-          "issue_title": "[RM] path_B 四维差复测 + REQ-012 双端 run 度量采集",
-          "since": "2026-10-06T16:03:46Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "deepseek-planner",
@@ -404,22 +403,22 @@
       ],
       "issue_counts": {
         "todo": 0,
-        "in_progress": 1,
-        "in_review": 0,
+        "in_progress": 0,
+        "in_review": 1,
         "done": 99
       },
       "latest_issues": [
+        {
+          "key": "IPD-315",
+          "title": "[RM] path_B 四维差复测 + REQ-012 双端 run 度量采集",
+          "status": "in_review",
+          "updated_at": "2026-10-06T16:12:03Z"
+        },
         {
           "key": "IPD-318",
           "title": "[巡检] 2026-10-07 leader Issue 状态巡检与催办",
           "status": "done",
           "updated_at": "2026-10-06T16:03:52Z"
-        },
-        {
-          "key": "IPD-315",
-          "title": "[RM] path_B 四维差复测 + REQ-012 双端 run 度量采集",
-          "status": "in_progress",
-          "updated_at": "2026-10-06T16:03:43Z"
         },
         {
           "key": "IPD-314",
