@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T04:02:20Z",
+  "generated_at": "2026-10-06T04:06:04Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -111,9 +111,10 @@
           "role": "GLM Runner & Analyst",
           "model": "",
           "agent_id": "bdaefa9b-7045-4264-95e4-1db664e353d0",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "BEN-190",
+          "issue_title": "[任务·第2轮] 口径⑥ R11 全链路复跑 + BEN-184 ext harness 代跑（ref BEN-183 ",
+          "since": "2026-10-06T04:05:40Z"
         },
         {
           "name": "deepseek-planner",
@@ -159,11 +160,17 @@
       ],
       "issue_counts": {
         "todo": 2,
-        "in_progress": 2,
+        "in_progress": 3,
         "in_review": 0,
-        "done": 83
+        "done": 82
       },
       "latest_issues": [
+        {
+          "key": "BEN-190",
+          "title": "[任务·第2轮] 口径⑥ R11 全链路复跑 + BEN-184 ext harness 代跑（re",
+          "status": "in_progress",
+          "updated_at": "2026-10-06T04:05:59Z"
+        },
         {
           "key": "BEN-189",
           "title": "[午会纪要] 2026-10-06",
@@ -187,12 +194,6 @@
           "title": "[空闲检测] 2026-10-06 leader 两小时正点检查与加派",
           "status": "done",
           "updated_at": "2026-10-06T02:02:13Z"
-        },
-        {
-          "key": "BEN-187",
-          "title": "[观察员日报] 2026-10-06 通过率与 Agent 时间轴",
-          "status": "todo",
-          "updated_at": "2026-10-06T01:07:42Z"
         }
       ]
     },
@@ -212,9 +213,10 @@
           "role": "Opus Analyzer",
           "model": "claude-opus-5-5",
           "agent_id": "2f32549c-87c7-4202-8f54-3af79a30afa0",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "DWM-205",
+          "issue_title": "[任务] feat/260922 上游 prompt 修复 × W1 session 截断关联核查 + 建议池证据补充",
+          "since": "2026-10-06T04:06:24Z"
         },
         {
           "name": "deepseek-planner",
@@ -272,12 +274,18 @@
         }
       ],
       "issue_counts": {
-        "todo": 1,
+        "todo": 2,
         "in_progress": 1,
         "in_review": 0,
         "done": 62
       },
       "latest_issues": [
+        {
+          "key": "DWM-205",
+          "title": "[任务] feat/260922 上游 prompt 修复 × W1 session 截断关联核查 ",
+          "status": "todo",
+          "updated_at": "2026-10-06T04:06:21Z"
+        },
         {
           "key": "DWM-204",
           "title": "[午会纪要] 2026-10-06",
@@ -301,12 +309,6 @@
           "title": "[巡检] 2026-10-06 leader Issue 状态巡检与催办",
           "status": "done",
           "updated_at": "2026-10-06T00:05:22Z"
-        },
-        {
-          "key": "DWM-198",
-          "title": "[任务] 建议池与套件层缺陷批末审核总提案（整合 9 缺陷族 + 126 建议池，一次性提案给奕棣）",
-          "status": "done",
-          "updated_at": "2026-10-06T00:05:07Z"
         }
       ],
       "order": {
