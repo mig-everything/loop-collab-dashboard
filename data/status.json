@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T13:58:37Z",
+  "generated_at": "2026-10-06T14:02:27Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -37,18 +37,25 @@
           "role": "DeepSeek Task Planner（任务规划+总结）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "04a4e04e-59d5-4f3a-8a16-acf99b80a493",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "SUR-233",
+          "issue_title": "[空闲检测] 2026-10-06 leader 两小时正点检查与加派",
+          "since": "2026-10-06T14:00:17Z"
         }
       ],
       "issue_counts": {
-        "todo": 2,
+        "todo": 3,
         "in_progress": 1,
         "in_review": 1,
-        "done": 93
+        "done": 92
       },
       "latest_issues": [
+        {
+          "key": "SUR-233",
+          "title": "[空闲检测] 2026-10-06 leader 两小时正点检查与加派",
+          "status": "todo",
+          "updated_at": "2026-10-06T14:00:16Z"
+        },
         {
           "key": "SUR-231",
           "title": "[评审][day-12] SUR-220 修复复核：SUR-214 打回 6 项独立对抗评审（口径③",
@@ -72,12 +79,6 @@
           "title": "[流程优化] Opt-022：模型账号/授权类错误纳入 routing 实测熔断判定（次日验证）",
           "status": "backlog",
           "updated_at": "2026-10-06T12:11:28Z"
-        },
-        {
-          "key": "SUR-229",
-          "title": "[空闲检测] 2026-10-06 leader 两小时正点检查与加派",
-          "status": "done",
-          "updated_at": "2026-10-06T10:04:24Z"
         }
       ],
       "progress_note": "day-4 晨 37% → 午 42% → 晚 44% → 夜 47%",
@@ -162,6 +163,12 @@
       },
       "latest_issues": [
         {
+          "key": "BEN-197",
+          "title": "[空闲检测] 2026-10-06 leader 两小时正点检查与加派",
+          "status": "done",
+          "updated_at": "2026-10-06T14:02:16Z"
+        },
+        {
           "key": "BEN-195",
           "title": "[任务·第3轮] 口径⑤ test 变体横向评分深化 + SC/test2 提升（ref BEN-1",
           "status": "in_review",
@@ -184,12 +191,6 @@
           "title": "[晚会日报] 2026-10-06",
           "status": "done",
           "updated_at": "2026-10-06T12:10:25Z"
-        },
-        {
-          "key": "BEN-193",
-          "title": "[空闲检测] 2026-10-06 leader 两小时正点检查与加派",
-          "status": "done",
-          "updated_at": "2026-10-06T10:02:21Z"
         }
       ]
     },
@@ -219,9 +220,10 @@
           "role": "DeepSeek Planner（小组 leader/PM，",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "950ff614-521d-4e32-a02d-423d41a7b2b3",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "DWM-219",
+          "issue_title": "[空闲检测] 2026-10-06 leader 两小时正点检查与加派",
+          "since": "2026-10-06T14:00:16Z"
         },
         {
           "name": "dw-lead",
@@ -241,7 +243,7 @@
           "agent_id": "1c3481f5-135b-4959-9daa-c510c076d494",
           "state": "working",
           "issue": "DWM-214",
-          "issue_title": "[DW迁移任务单] CoolMall 迁移 · 清单+迁移 · 清单生成中 续1·r42·483/800步·5页/347",
+          "issue_title": "[DW迁移任务单] CoolMall 迁移 · 清单+迁移 · 清单生成中 续1·r43·513/800步·5页/347",
           "since": "2026-10-06T13:56:08Z"
         },
         {
@@ -266,17 +268,23 @@
         }
       ],
       "issue_counts": {
-        "todo": 0,
+        "todo": 1,
         "in_progress": 1,
         "in_review": 1,
         "done": 63
       },
       "latest_issues": [
         {
+          "key": "DWM-219",
+          "title": "[空闲检测] 2026-10-06 leader 两小时正点检查与加派",
+          "status": "todo",
+          "updated_at": "2026-10-06T14:02:45Z"
+        },
+        {
           "key": "DWM-214",
-          "title": "[DW迁移任务单] CoolMall 迁移 · 清单+迁移 · 清单生成中 续1·r42·483/8",
+          "title": "[DW迁移任务单] CoolMall 迁移 · 清单+迁移 · 清单生成中 续1·r43·513/8",
           "status": "in_progress",
-          "updated_at": "2026-10-06T13:56:29Z"
+          "updated_at": "2026-10-06T14:01:36Z"
         },
         {
           "key": "DWM-218",
@@ -295,19 +303,13 @@
           "title": "[任务] Jerboa 收口后差异分析 + §11.7 对抗评审 + DW 建议池入池",
           "status": "done",
           "updated_at": "2026-10-06T12:12:40Z"
-        },
-        {
-          "key": "DWM-216",
-          "title": "[临时会议·空闲加派] 2026-10-06 18 点场",
-          "status": "done",
-          "updated_at": "2026-10-06T10:09:06Z"
         }
       ],
       "order": {
         "key": "DWM-214",
-        "title": "[DW迁移任务单] CoolMall 迁移 · 清单+迁移 · 清单生成中 续1·r42·483/800步·5页/347项 · 迁移中 3/6 · 清单3.7h/16h 迁移3.7",
+        "title": "[DW迁移任务单] CoolMall 迁移 · 清单+迁移 · 清单生成中 续1·r43·513/800步·5页/347项 · 迁移中 3/6 · 清单3.8h/16h 迁移3.8",
         "status": "in_progress",
-        "updated_at": "2026-10-06T13:56:29Z"
+        "updated_at": "2026-10-06T14:01:36Z"
       }
     },
     {
@@ -409,6 +411,12 @@
       },
       "latest_issues": [
         {
+          "key": "IPD-317",
+          "title": "[空闲检测] 2026-10-06 leader 两小时正点检查与加派",
+          "status": "done",
+          "updated_at": "2026-10-06T14:02:25Z"
+        },
+        {
           "key": "IPD-315",
           "title": "[RM] path_B 四维差复测 + REQ-012 双端 run 度量采集",
           "status": "in_progress",
@@ -431,12 +439,6 @@
           "title": "[晚会日报] 2026-10-06",
           "status": "done",
           "updated_at": "2026-10-06T12:11:34Z"
-        },
-        {
-          "key": "IPD-313",
-          "title": "[SE] REQ-013 图片滤镜实验室 追踪矩阵（第13场景）",
-          "status": "done",
-          "updated_at": "2026-10-06T12:09:33Z"
         }
       ]
     }
