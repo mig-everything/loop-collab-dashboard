@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T04:21:24Z",
+  "generated_at": "2026-10-06T04:25:07Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -352,10 +352,9 @@
           "role": "IPD-SE 系统工程师",
           "model": "zai:glm-5.3",
           "agent_id": "b874ba6b-80e6-45c6-a8c6-aedc6f2b326b",
-          "state": "working",
-          "issue": "IPD-303",
-          "issue_title": "[SE] REQ-012 7分钟健身 追踪矩阵（day-12 第3轮）",
-          "since": "2026-10-06T04:10:27Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "hermes-dev",
@@ -412,11 +411,17 @@
       ],
       "issue_counts": {
         "todo": 1,
-        "in_progress": 2,
-        "in_review": 3,
+        "in_progress": 1,
+        "in_review": 4,
         "done": 94
       },
       "latest_issues": [
+        {
+          "key": "IPD-303",
+          "title": "[SE] REQ-012 7分钟健身 追踪矩阵（day-12 第3轮）",
+          "status": "in_review",
+          "updated_at": "2026-10-06T04:23:47Z"
+        },
         {
           "key": "IPD-305",
           "title": "[Tester] REQ-012 7分钟健身 差分用例清单 + 差分断言（TDD 先行 · day-",
@@ -440,12 +445,6 @@
           "title": "[RM] path_B 后续——P-D2 android_skeleton 模板 + C2 复现观察",
           "status": "in_progress",
           "updated_at": "2026-10-06T04:11:11Z"
-        },
-        {
-          "key": "IPD-303",
-          "title": "[SE] REQ-012 7分钟健身 追踪矩阵（day-12 第3轮）",
-          "status": "in_progress",
-          "updated_at": "2026-10-06T04:11:09Z"
         }
       ]
     }
