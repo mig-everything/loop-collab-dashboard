@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T05:26:31Z",
+  "generated_at": "2026-10-06T05:37:21Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -164,6 +164,12 @@
       },
       "latest_issues": [
         {
+          "key": "BEN-190",
+          "title": "[任务·第2轮] 口径⑥ R11 全链路复跑 + BEN-184 ext harness 代跑（re",
+          "status": "in_progress",
+          "updated_at": "2026-10-06T05:37:14Z"
+        },
+        {
           "key": "BEN-135",
           "title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 1",
           "status": "in_progress",
@@ -180,12 +186,6 @@
           "title": "[午会纪要] 2026-10-06",
           "status": "done",
           "updated_at": "2026-10-06T04:08:04Z"
-        },
-        {
-          "key": "BEN-190",
-          "title": "[任务·第2轮] 口径⑥ R11 全链路复跑 + BEN-184 ext harness 代跑（re",
-          "status": "in_progress",
-          "updated_at": "2026-10-06T04:05:59Z"
         },
         {
           "key": "BEN-177",
