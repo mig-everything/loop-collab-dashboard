@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T04:25:07Z",
+  "generated_at": "2026-10-06T04:28:50Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -17,10 +17,9 @@
           "role": "GPT Writer（执笔者）",
           "model": "gpt-6-luna",
           "agent_id": "58ed4647-32dd-4ca1-8ddc-194b975d6024",
-          "state": "working",
-          "issue": "SUR-220",
-          "issue_title": "[任务][day-12] 修复 SUR-214 打回 6 项（P0-1 附录编译 + P1-1 ECAT + P1-2 ",
-          "since": "2026-10-06T04:09:31Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "kimi-adversary",
@@ -44,23 +43,23 @@
         }
       ],
       "issue_counts": {
-        "todo": 2,
+        "todo": 1,
         "in_progress": 1,
         "in_review": 0,
-        "done": 94
+        "done": 95
       },
       "latest_issues": [
+        {
+          "key": "SUR-220",
+          "title": "[任务][day-12] 修复 SUR-214 打回 6 项（P0-1 附录编译 + P1-1 EC",
+          "status": "done",
+          "updated_at": "2026-10-06T04:28:27Z"
+        },
         {
           "key": "SUR-226",
           "title": "[午会纪要] 2026-10-06",
           "status": "done",
           "updated_at": "2026-10-06T04:18:58Z"
-        },
-        {
-          "key": "SUR-220",
-          "title": "[任务][day-12] 修复 SUR-214 打回 6 项（P0-1 附录编译 + P1-1 EC",
-          "status": "todo",
-          "updated_at": "2026-10-06T04:09:30Z"
         },
         {
           "key": "SUR-225",
@@ -383,10 +382,9 @@
           "role": "IPD-RM 发布经理",
           "model": "zai:glm-5.3",
           "agent_id": "78156461-9644-478e-9c80-53cd18e25e33",
-          "state": "working",
-          "issue": "IPD-306",
-          "issue_title": "[RM] path_B 后续——P-D2 android_skeleton 模板 + C2 复现观察机制（day-12 ",
-          "since": "2026-10-06T04:10:37Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "deepseek-planner",
@@ -417,6 +415,12 @@
       },
       "latest_issues": [
         {
+          "key": "IPD-306",
+          "title": "[RM] path_B 后续——P-D2 android_skeleton 模板 + C2 复现观察",
+          "status": "in_progress",
+          "updated_at": "2026-10-06T04:25:56Z"
+        },
+        {
           "key": "IPD-303",
           "title": "[SE] REQ-012 7分钟健身 追踪矩阵（day-12 第3轮）",
           "status": "in_review",
@@ -439,12 +443,6 @@
           "title": "[PM] REQ-012 7分钟健身 TR-Design 评审 + REQ-012/013 PRD ",
           "status": "in_review",
           "updated_at": "2026-10-06T04:17:41Z"
-        },
-        {
-          "key": "IPD-306",
-          "title": "[RM] path_B 后续——P-D2 android_skeleton 模板 + C2 复现观察",
-          "status": "in_progress",
-          "updated_at": "2026-10-06T04:11:11Z"
         }
       ]
     }
