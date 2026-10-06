@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T20:05:21Z",
+  "generated_at": "2026-10-06T20:09:02Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -91,9 +91,9 @@
       "workspace": "ws-benchmark-loop",
       "machine": "张涛 Mac Studio",
       "machine_online": true,
-      "meeting_active": true,
-      "meeting_title": "[早会纪要] 2026-10-07",
-      "progress": 84,
+      "meeting_active": false,
+      "meeting_title": "",
+      "progress": 85,
       "agents": [
         {
           "name": "gpt-scenarist",
@@ -101,9 +101,10 @@
           "role": "GPT Scenarist",
           "model": "gpt-6-luna",
           "agent_id": "6e6f1e24-3bc5-455a-85d2-cb3fb6c9a672",
-          "state": "meeting",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "BEN-135",
+          "issue_title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 100（ref BEN",
+          "since": "2026-10-06T20:08:29Z"
         },
         {
           "name": "glm-runner",
@@ -111,9 +112,10 @@
           "role": "GLM Runner & Analyst",
           "model": "",
           "agent_id": "bdaefa9b-7045-4264-95e4-1db664e353d0",
-          "state": "meeting",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "BEN-200",
+          "issue_title": "[早会纪要] 2026-10-07",
+          "since": "2026-10-06T20:09:04Z"
         },
         {
           "name": "deepseek-planner",
@@ -132,9 +134,10 @@
           "role": "MiniMax 多模态视觉差分评审",
           "model": "minimax-cn:MiniMax-M3",
           "agent_id": "843ac45d-b5db-4f35-b07b-2e5754ec5a5f",
-          "state": "meeting",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "BEN-202",
+          "issue_title": "[任务·第1轮] AntennaPod 视觉差分 v1：gold vs test 变体视觉锚定（ref BEN-196 ",
+          "since": "2026-10-06T20:07:59Z"
         },
         {
           "name": "项目观察员",
@@ -142,7 +145,7 @@
           "role": "只读洞察项目目标与执行证据，用简单语言汇报进展、偏差和阻塞，",
           "model": "",
           "agent_id": "4b674e90-4726-4eba-bd5c-06350e0b8b83",
-          "state": "meeting",
+          "state": "idle",
           "issue": "",
           "issue_title": ""
         },
@@ -152,47 +155,47 @@
           "role": "只读洞察项目目标与执行证据，用简单语言汇报进展、偏差和阻塞，",
           "model": "gpt-6-astra",
           "agent_id": "33b902ee-a4ca-46ae-9284-c8285311c687",
-          "state": "meeting",
+          "state": "idle",
           "issue": "",
           "issue_title": ""
         }
       ],
       "issue_counts": {
-        "todo": 0,
+        "todo": 1,
         "in_progress": 2,
         "in_review": 0,
-        "done": 85
+        "done": 84
       },
       "latest_issues": [
         {
           "key": "BEN-200",
           "title": "[早会纪要] 2026-10-07",
+          "status": "done",
+          "updated_at": "2026-10-06T20:09:10Z"
+        },
+        {
+          "key": "BEN-135",
+          "title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 1",
           "status": "in_progress",
-          "updated_at": "2026-10-06T20:04:15Z"
+          "updated_at": "2026-10-06T20:08:28Z"
+        },
+        {
+          "key": "BEN-202",
+          "title": "[任务·第1轮] AntennaPod 视觉差分 v1：gold vs test 变体视觉锚定（re",
+          "status": "in_progress",
+          "updated_at": "2026-10-06T20:08:18Z"
+        },
+        {
+          "key": "BEN-201",
+          "title": "[任务·第1轮] 口径⑥ R12 全链路复跑 + 口径⑤ test 变体 profile 补强（re",
+          "status": "todo",
+          "updated_at": "2026-10-06T20:07:57Z"
         },
         {
           "key": "BEN-199",
           "title": "[空闲检测] 2026-10-07 leader 两小时正点检查与加派",
           "status": "done",
           "updated_at": "2026-10-06T18:01:30Z"
-        },
-        {
-          "key": "BEN-135",
-          "title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 1",
-          "status": "in_progress",
-          "updated_at": "2026-10-06T16:09:45Z"
-        },
-        {
-          "key": "BEN-198",
-          "title": "[巡检] 2026-10-07 leader Issue 状态巡检与催办",
-          "status": "done",
-          "updated_at": "2026-10-06T16:03:18Z"
-        },
-        {
-          "key": "BEN-196",
-          "title": "[任务·第3轮] SC v4 视觉差分定稿 + cofi 视觉锚定补强（source-side，re",
-          "status": "done",
-          "updated_at": "2026-10-06T16:03:06Z"
         }
       ]
     },
@@ -212,9 +215,10 @@
           "role": "Opus Analyzer",
           "model": "claude-opus-5-5",
           "agent_id": "2f32549c-87c7-4202-8f54-3af79a30afa0",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "DWM-223",
+          "issue_title": "[任务] 建议池 131 条按「领域/单APP/改进策略」三类显式分型（对齐 arXiv 洞察分类 + handoff ",
+          "since": "2026-10-06T20:07:51Z"
         },
         {
           "name": "deepseek-planner",
@@ -233,9 +237,10 @@
           "role": "DW 迁移执行小队队长",
           "model": "claude-opus-5-5",
           "agent_id": "c6ff7c69-0db4-4b35-ac81-dd00e5a53ba4",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "DWM-222",
+          "issue_title": "[早会纪要] 2026-10-07",
+          "since": "2026-10-06T20:08:53Z"
         },
         {
           "name": "exec-runner",
@@ -245,7 +250,7 @@
           "agent_id": "1c3481f5-135b-4959-9daa-c510c076d494",
           "state": "working",
           "issue": "DWM-214",
-          "issue_title": "[DW迁移任务单] CoolMall 迁移 · 清单+迁移 · 清单✓406 · 迁移中 4/6 · 迁移9.8h/24",
+          "issue_title": "[DW迁移任务单] CoolMall 迁移 · 清单+迁移 · 清单✓406 · 迁移中 4/6 · 迁移9.9h/24",
           "since": "2026-10-06T19:42:06Z"
         },
         {
@@ -271,22 +276,28 @@
       ],
       "issue_counts": {
         "todo": 1,
-        "in_progress": 1,
+        "in_progress": 2,
         "in_review": 0,
         "done": 65
       },
       "latest_issues": [
         {
-          "key": "DWM-214",
-          "title": "[DW迁移任务单] CoolMall 迁移 · 清单+迁移 · 清单✓406 · 迁移中 4/6 ·",
-          "status": "in_progress",
-          "updated_at": "2026-10-06T20:02:52Z"
-        },
-        {
           "key": "DWM-222",
           "title": "[早会纪要] 2026-10-07",
           "status": "todo",
-          "updated_at": "2026-10-06T20:00:14Z"
+          "updated_at": "2026-10-06T20:09:22Z"
+        },
+        {
+          "key": "DWM-223",
+          "title": "[任务] 建议池 131 条按「领域/单APP/改进策略」三类显式分型（对齐 arXiv 洞察分类 ",
+          "status": "in_progress",
+          "updated_at": "2026-10-06T20:08:47Z"
+        },
+        {
+          "key": "DWM-214",
+          "title": "[DW迁移任务单] CoolMall 迁移 · 清单+迁移 · 清单✓406 · 迁移中 4/6 ·",
+          "status": "in_progress",
+          "updated_at": "2026-10-06T20:08:00Z"
         },
         {
           "key": "DWM-221",
@@ -299,19 +310,13 @@
           "title": "[巡检] 2026-10-07 leader Issue 状态巡检与催办",
           "status": "done",
           "updated_at": "2026-10-06T16:04:38Z"
-        },
-        {
-          "key": "DWM-218",
-          "title": "[任务] 记忆增强验证报告（同梯队迁移轮次/Token 对比，验证 ≥20% 降幅目标）",
-          "status": "done",
-          "updated_at": "2026-10-06T16:04:11Z"
         }
       ],
       "order": {
         "key": "DWM-214",
-        "title": "[DW迁移任务单] CoolMall 迁移 · 清单+迁移 · 清单✓406 · 迁移中 4/6 · 迁移9.8h/24h",
+        "title": "[DW迁移任务单] CoolMall 迁移 · 清单+迁移 · 清单✓406 · 迁移中 4/6 · 迁移9.9h/24h",
         "status": "in_progress",
-        "updated_at": "2026-10-06T20:02:52Z"
+        "updated_at": "2026-10-06T20:08:00Z"
       }
     },
     {
@@ -322,7 +327,7 @@
       "machine_online": true,
       "meeting_active": false,
       "meeting_title": "",
-      "progress": 88,
+      "progress": 89,
       "agents": [
         {
           "name": "hermes-pm",
@@ -330,9 +335,10 @@
           "role": "IPD-PM 产品经理",
           "model": "",
           "agent_id": "1764c131-5c09-48cb-aa48-3177d5256dbb",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-333",
+          "issue_title": "[PM] REQ-014 PRD v1.1 回写（C1闭合）+ 需求池扩充（day-13第1轮）",
+          "since": "2026-10-06T20:07:58Z"
         },
         {
           "name": "hermes-sa",
@@ -340,9 +346,10 @@
           "role": "IPD-SA 解决方案架构师",
           "model": "zai:glm-5.3",
           "agent_id": "3e4373ef-a262-4b28-ab2a-818861fc9624",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-332",
+          "issue_title": "[SA] REQ-014 白噪音助眠器 TR-Design 六件套+契约（第14场景主线·day-13第1轮）",
+          "since": "2026-10-06T20:07:56Z"
         },
         {
           "name": "hermes-se",
@@ -360,9 +367,10 @@
           "role": "IPD-Dev 开发工程师",
           "model": "zai:glm-5.3",
           "agent_id": "44fcec25-d8b3-4af6-b206-1774a64677ce",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-331",
+          "issue_title": "[Dev] Token差根因修复 + Eazo 工具优化四合一（C2-FAIL 归因闭环·day-13第1轮）",
+          "since": "2026-10-06T20:07:55Z"
         },
         {
           "name": "hermes-tester",
@@ -370,9 +378,10 @@
           "role": "IPD-Tester 测试工程师",
           "model": "zai:glm-5.3",
           "agent_id": "86df9f14-a2cd-46d9-ad15-dbe8606ebd73",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-320",
+          "issue_title": "[Tester] REQ-013 图片滤镜实验室 TR-Accept 差分执行 + 双端对比报告（第13场景闭环·day",
+          "since": "2026-10-06T20:08:21Z"
         },
         {
           "name": "hermes-rm",
@@ -380,9 +389,10 @@
           "role": "IPD-RM 发布经理",
           "model": "zai:glm-5.3",
           "agent_id": "78156461-9644-478e-9c80-53cd18e25e33",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-330",
+          "issue_title": "[RM] path_B sonnet C2-FAIL 裁决执行（重开评审+有条件维持+REQ-014 第3样本发车准备·",
+          "since": "2026-10-06T20:07:49Z"
         },
         {
           "name": "deepseek-planner",
@@ -407,41 +417,41 @@
         }
       ],
       "issue_counts": {
-        "todo": 1,
-        "in_progress": 1,
+        "todo": 2,
+        "in_progress": 4,
         "in_review": 0,
-        "done": 98
+        "done": 94
       },
       "latest_issues": [
         {
-          "key": "IPD-328",
-          "title": "[PM·评审] REQ-014 白噪音助眠器 TR-Req 评审（第14场景门禁）",
-          "status": "done",
-          "updated_at": "2026-10-06T20:05:45Z"
+          "key": "IPD-331",
+          "title": "[Dev] Token差根因修复 + Eazo 工具优化四合一（C2-FAIL 归因闭环·day-1",
+          "status": "in_progress",
+          "updated_at": "2026-10-06T20:08:37Z"
         },
         {
-          "key": "IPD-327",
-          "title": "[Tester] 补建 hypium-testing / appium-testing / diff",
-          "status": "done",
-          "updated_at": "2026-10-06T20:05:44Z"
+          "key": "IPD-330",
+          "title": "[RM] path_B sonnet C2-FAIL 裁决执行（重开评审+有条件维持+REQ-014",
+          "status": "in_progress",
+          "updated_at": "2026-10-06T20:08:31Z"
         },
         {
-          "key": "IPD-326",
-          "title": "[PM] 补建 requirement-analysis / issue-writing 两 ski",
-          "status": "done",
-          "updated_at": "2026-10-06T20:05:43Z"
+          "key": "IPD-320",
+          "title": "[Tester] REQ-013 图片滤镜实验室 TR-Accept 差分执行 + 双端对比报告（第",
+          "status": "in_progress",
+          "updated_at": "2026-10-06T20:08:20Z"
         },
         {
-          "key": "IPD-325",
-          "title": "[SA] 补建 sa-design-review skill（流程通用性 R1 收口·优先项）",
-          "status": "done",
-          "updated_at": "2026-10-06T20:05:42Z"
+          "key": "IPD-332",
+          "title": "[SA] REQ-014 白噪音助眠器 TR-Design 六件套+契约（第14场景主线·day-1",
+          "status": "in_progress",
+          "updated_at": "2026-10-06T20:08:17Z"
         },
         {
-          "key": "IPD-323",
-          "title": "[SE] 流程通用性 R1~R4 收口（目标一·day-13夜间加派）",
-          "status": "done",
-          "updated_at": "2026-10-06T20:05:41Z"
+          "key": "IPD-333",
+          "title": "[PM] REQ-014 PRD v1.1 回写（C1闭合）+ 需求池扩充（day-13第1轮）",
+          "status": "todo",
+          "updated_at": "2026-10-06T20:07:57Z"
         }
       ]
     }
