@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T10:19:22Z",
+  "generated_at": "2026-10-07T10:23:04Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -369,10 +369,9 @@
           "role": "IPD-Tester 测试工程师",
           "model": "zai:glm-5.3",
           "agent_id": "86df9f14-a2cd-46d9-ad15-dbe8606ebd73",
-          "state": "working",
-          "issue": "IPD-348",
-          "issue_title": "[Tester] REQ-014 白噪音助眠器 TR-Accept 差分执行 + 双端对比报告（第14场景收口·P0）",
-          "since": "2026-10-07T10:06:08Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "hermes-rm",
@@ -413,16 +412,16 @@
       },
       "latest_issues": [
         {
+          "key": "IPD-348",
+          "title": "[Tester] REQ-014 白噪音助眠器 TR-Accept 差分执行 + 双端对比报告（第1",
+          "status": "in_progress",
+          "updated_at": "2026-10-07T10:21:42Z"
+        },
+        {
           "key": "IPD-349",
           "title": "[PM] REQ-015 第15场景预研 + 需求池扩充（需求多样化续扩·P1）",
           "status": "in_review",
           "updated_at": "2026-10-07T10:17:26Z"
-        },
-        {
-          "key": "IPD-348",
-          "title": "[Tester] REQ-014 白噪音助眠器 TR-Accept 差分执行 + 双端对比报告（第1",
-          "status": "in_progress",
-          "updated_at": "2026-10-07T10:07:02Z"
         },
         {
           "key": "IPD-346",
