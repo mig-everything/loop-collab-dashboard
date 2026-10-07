@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T17:47:10Z",
+  "generated_at": "2026-10-07T17:50:53Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -239,10 +239,9 @@
           "role": "运行员",
           "model": "claude-opus-5-5",
           "agent_id": "1c3481f5-135b-4959-9daa-c510c076d494",
-          "state": "working",
-          "issue": "DWM-251",
-          "issue_title": "[DW迁移任务单] OpenCamera 迁移 · 清单+迁移 · 清单生成中 r18·164/800步·1页/99项 ",
-          "since": "2026-10-07T16:10:02Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "exec-verifier",
@@ -274,9 +273,9 @@
       "latest_issues": [
         {
           "key": "DWM-251",
-          "title": "[DW迁移任务单] OpenCamera 迁移 · 清单+迁移 · 清单生成中 r18·164/80",
+          "title": "[DW迁移任务单] OpenCamera 迁移 · 清单+迁移 · 清单生成中 r19·174/80",
           "status": "in_progress",
-          "updated_at": "2026-10-07T17:45:00Z"
+          "updated_at": "2026-10-07T17:50:07Z"
         },
         {
           "key": "DWM-250",
@@ -305,9 +304,9 @@
       ],
       "order": {
         "key": "DWM-251",
-        "title": "[DW迁移任务单] OpenCamera 迁移 · 清单+迁移 · 清单生成中 r18·164/800步·1页/99项 · 迁移中 3/6 · 清单1.5h/24h 迁移1.5h/",
+        "title": "[DW迁移任务单] OpenCamera 迁移 · 清单+迁移 · 清单生成中 r19·174/800步·1页/112项 · 迁移中 3/6 · 清单1.6h/24h 迁移1.6h",
         "status": "in_progress",
-        "updated_at": "2026-10-07T17:45:00Z"
+        "updated_at": "2026-10-07T17:50:07Z"
       }
     },
     {
