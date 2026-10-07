@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T11:10:24Z",
+  "generated_at": "2026-10-07T12:00:51Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -37,18 +37,25 @@
           "role": "DeepSeek Task Planner（任务规划+总结）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "04a4e04e-59d5-4f3a-8a16-acf99b80a493",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "SUR-253",
+          "issue_title": "[晚会日报] 2026-10-07",
+          "since": "2026-10-07T12:00:21Z"
         }
       ],
       "issue_counts": {
-        "todo": 0,
+        "todo": 1,
         "in_progress": 0,
         "in_review": 2,
-        "done": 95
+        "done": 94
       },
       "latest_issues": [
+        {
+          "key": "SUR-253",
+          "title": "[晚会日报] 2026-10-07",
+          "status": "todo",
+          "updated_at": "2026-10-07T12:00:20Z"
+        },
         {
           "key": "SUR-252",
           "title": "[任务][day-13] 修复 SUR-248 终审通过残留 P2-1：附录 A/B 正文入口引用（",
@@ -72,12 +79,6 @@
           "title": "[巡检] 2026-10-07 leader Issue 状态巡检与催办",
           "status": "done",
           "updated_at": "2026-10-07T08:03:55Z"
-        },
-        {
-          "key": "SUR-247",
-          "title": "[任务][day-13] 修复 SUR-243 终审打回 2 项 P1（Table I 资格规则口径",
-          "status": "done",
-          "updated_at": "2026-10-07T08:03:07Z"
         }
       ],
       "progress_note": "day-4 晨 37% → 午 42% → 晚 44% → 夜 47%",
@@ -119,9 +120,10 @@
           "role": "DeepSeek Planner（小组 leader/PM）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "547cd361-ef50-4965-9477-bc659d8a1708",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "BEN-214",
+          "issue_title": "[晚会日报] 2026-10-07",
+          "since": "2026-10-07T12:00:22Z"
         },
         {
           "name": "minimax-visual-diff",
@@ -155,12 +157,18 @@
         }
       ],
       "issue_counts": {
-        "todo": 0,
+        "todo": 1,
         "in_progress": 1,
         "in_review": 1,
         "done": 95
       },
       "latest_issues": [
+        {
+          "key": "BEN-214",
+          "title": "[晚会日报] 2026-10-07",
+          "status": "todo",
+          "updated_at": "2026-10-07T12:00:15Z"
+        },
         {
           "key": "BEN-213",
           "title": "[空闲检测] 2026-10-07 leader 两小时正点检查与加派",
@@ -184,12 +192,6 @@
           "title": "[巡检] 2026-10-07 leader Issue 状态巡检与催办",
           "status": "done",
           "updated_at": "2026-10-07T08:03:26Z"
-        },
-        {
-          "key": "BEN-205",
-          "title": "[观察员日报] 2026-10-07 通过率与 Agent 时间轴",
-          "status": "done",
-          "updated_at": "2026-10-07T08:03:08Z"
         }
       ]
     },
@@ -219,9 +221,10 @@
           "role": "DeepSeek Planner（小组 leader/PM，",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "950ff614-521d-4e32-a02d-423d41a7b2b3",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "DWM-244",
+          "issue_title": "[晚会日报] 2026-10-07",
+          "since": "2026-10-07T12:00:21Z"
         },
         {
           "name": "dw-lead",
@@ -268,12 +271,18 @@
         }
       ],
       "issue_counts": {
-        "todo": 0,
+        "todo": 1,
         "in_progress": 1,
         "in_review": 1,
         "done": 63
       },
       "latest_issues": [
+        {
+          "key": "DWM-244",
+          "title": "[晚会日报] 2026-10-07",
+          "status": "todo",
+          "updated_at": "2026-10-07T12:00:20Z"
+        },
         {
           "key": "DWM-243",
           "title": "[任务] 口径④对齐 goals/（SQUAD.md/README 修订）并关闭 loop-coll",
@@ -297,12 +306,6 @@
           "title": "[任务] 记忆增强验证报告（同梯队迁移轮次/Token 对比，验证 ≥20% 降幅目标）",
           "status": "done",
           "updated_at": "2026-10-07T11:03:00Z"
-        },
-        {
-          "key": "DWM-240",
-          "title": "[空闲检测] 2026-10-07 leader 两小时正点检查与加派",
-          "status": "done",
-          "updated_at": "2026-10-07T10:03:36Z"
         }
       ],
       "order": {
@@ -388,9 +391,10 @@
           "role": "DeepSeek Planner（小组 leader/PM ",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-352",
+          "issue_title": "[晚会] 2026-10-07 第三轮派单",
+          "since": "2026-10-07T12:00:30Z"
         },
         {
           "name": "minimax-uijudge",
@@ -404,12 +408,18 @@
         }
       ],
       "issue_counts": {
-        "todo": 1,
+        "todo": 2,
         "in_progress": 1,
         "in_review": 2,
-        "done": 96
+        "done": 95
       },
       "latest_issues": [
+        {
+          "key": "IPD-352",
+          "title": "[晚会] 2026-10-07 第三轮派单",
+          "status": "todo",
+          "updated_at": "2026-10-07T12:01:09Z"
+        },
         {
           "key": "IPD-347",
           "title": "[Dev] sonnet→glm 无条件回滚执行 + Kimi K3 升首选（IPD-342 C2 ",
@@ -433,12 +443,6 @@
           "title": "[空闲检测] 2026-10-07 leader 两小时正点检查与加派",
           "status": "done",
           "updated_at": "2026-10-07T10:06:55Z"
-        },
-        {
-          "key": "IPD-351",
-          "title": "[临时会议·空闲加派] 2026-10-07 18点场",
-          "status": "done",
-          "updated_at": "2026-10-07T10:06:33Z"
         }
       ]
     }
