@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T02:10:10Z",
+  "generated_at": "2026-10-07T02:17:25Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -17,10 +17,9 @@
           "role": "GPT Writer（执笔者）",
           "model": "gpt-6-luna",
           "agent_id": "58ed4647-32dd-4ca1-8ddc-194b975d6024",
-          "state": "working",
-          "issue": "SUR-242",
-          "issue_title": "[任务][day-13] 投稿就绪收尾（口径⑨）：投稿检查清单+CHANGELOG+终版编译回归+中文过程稿冻结归档",
-          "since": "2026-10-07T02:04:59Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "kimi-adversary",
@@ -44,12 +43,18 @@
         }
       ],
       "issue_counts": {
-        "todo": 2,
+        "todo": 1,
         "in_progress": 0,
         "in_review": 0,
-        "done": 95
+        "done": 96
       },
       "latest_issues": [
+        {
+          "key": "SUR-242",
+          "title": "[任务][day-13] 投稿就绪收尾（口径⑨）：投稿检查清单+CHANGELOG+终版编译回归+中",
+          "status": "done",
+          "updated_at": "2026-10-07T02:16:10Z"
+        },
         {
           "key": "SUR-244",
           "title": "[临时会议·空闲加派] 2026-10-07 10点场",
@@ -67,12 +72,6 @@
           "title": "[评审][day-13] 投稿检查清单独立复核 + 终审模拟 accept（口径⑦⑨，成对 Opt-",
           "status": "backlog",
           "updated_at": "2026-10-07T02:05:02Z"
-        },
-        {
-          "key": "SUR-242",
-          "title": "[任务][day-13] 投稿就绪收尾（口径⑨）：投稿检查清单+CHANGELOG+终版编译回归+中",
-          "status": "todo",
-          "updated_at": "2026-10-07T02:04:58Z"
         },
         {
           "key": "SUR-240",
@@ -349,10 +348,9 @@
           "role": "IPD-SE 系统工程师",
           "model": "zai:glm-5.3",
           "agent_id": "b874ba6b-80e6-45c6-a8c6-aedc6f2b326b",
-          "state": "working",
-          "issue": "IPD-338",
-          "issue_title": "[SE] REQ-014 白噪音助眠器 追踪矩阵（第14场景·day-13空闲加派）",
-          "since": "2026-10-07T02:06:45Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "hermes-dev",
@@ -408,11 +406,17 @@
       ],
       "issue_counts": {
         "todo": 0,
-        "in_progress": 2,
-        "in_review": 0,
+        "in_progress": 1,
+        "in_review": 1,
         "done": 98
       },
       "latest_issues": [
+        {
+          "key": "IPD-338",
+          "title": "[SE] REQ-014 白噪音助眠器 追踪矩阵（第14场景·day-13空闲加派）",
+          "status": "in_review",
+          "updated_at": "2026-10-07T02:15:42Z"
+        },
         {
           "key": "IPD-339",
           "title": "[临时会议·空闲加派] 2026-10-07 10点场",
@@ -424,12 +428,6 @@
           "title": "[空闲检测] 2026-10-07 leader 两小时正点检查与加派",
           "status": "done",
           "updated_at": "2026-10-07T02:07:42Z"
-        },
-        {
-          "key": "IPD-338",
-          "title": "[SE] REQ-014 白噪音助眠器 追踪矩阵（第14场景·day-13空闲加派）",
-          "status": "in_progress",
-          "updated_at": "2026-10-07T02:07:34Z"
         },
         {
           "key": "IPD-331",
