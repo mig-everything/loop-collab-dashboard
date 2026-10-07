@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T08:02:03Z",
+  "generated_at": "2026-10-07T08:05:45Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -27,9 +27,10 @@
           "role": "Kimi Adversarial Reviewer（对抗评审",
           "model": "",
           "agent_id": "6e530cc6-6b9d-4398-936d-df9c13468125",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "SUR-248",
+          "issue_title": "[评审][day-13] SUR-243 打回修复复核 + 终审模拟 accept 重跑（口径⑦，成对 Opt-013）",
+          "since": "2026-10-07T08:03:08Z"
         },
         {
           "name": "deepseek-planner",
@@ -37,30 +38,35 @@
           "role": "DeepSeek Task Planner（任务规划+总结）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "04a4e04e-59d5-4f3a-8a16-acf99b80a493",
-          "state": "working",
-          "issue": "SUR-250",
-          "issue_title": "[巡检] 2026-10-07 leader Issue 状态巡检与催办",
-          "since": "2026-10-07T08:00:20Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         }
       ],
       "issue_counts": {
-        "todo": 1,
+        "todo": 0,
         "in_progress": 1,
-        "in_review": 1,
-        "done": 94
+        "in_review": 0,
+        "done": 96
       },
       "latest_issues": [
         {
           "key": "SUR-250",
           "title": "[巡检] 2026-10-07 leader Issue 状态巡检与催办",
+          "status": "done",
+          "updated_at": "2026-10-07T08:03:55Z"
+        },
+        {
+          "key": "SUR-248",
+          "title": "[评审][day-13] SUR-243 打回修复复核 + 终审模拟 accept 重跑（口径⑦，成",
           "status": "in_progress",
-          "updated_at": "2026-10-07T08:01:09Z"
+          "updated_at": "2026-10-07T08:03:41Z"
         },
         {
           "key": "SUR-247",
           "title": "[任务][day-13] 修复 SUR-243 终审打回 2 项 P1（Table I 资格规则口径",
-          "status": "in_review",
-          "updated_at": "2026-10-07T06:13:42Z"
+          "status": "done",
+          "updated_at": "2026-10-07T08:03:07Z"
         },
         {
           "key": "SUR-246",
@@ -73,12 +79,6 @@
           "title": "[临时会议·空闲加派] 2026-10-07 14点场",
           "status": "done",
           "updated_at": "2026-10-07T06:06:42Z"
-        },
-        {
-          "key": "SUR-243",
-          "title": "[评审][day-13] 投稿检查清单独立复核 + 终审模拟 accept（口径⑦⑨，成对 Opt-",
-          "status": "done",
-          "updated_at": "2026-10-07T06:05:50Z"
         }
       ],
       "progress_note": "day-4 晨 37% → 午 42% → 晚 44% → 夜 47%",
@@ -100,9 +100,10 @@
           "role": "GPT Scenarist",
           "model": "gpt-6-luna",
           "agent_id": "6e6f1e24-3bc5-455a-85d2-cb3fb6c9a672",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "BEN-135",
+          "issue_title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 100（ref BEN",
+          "since": "2026-10-07T08:03:18Z"
         },
         {
           "name": "glm-runner",
@@ -120,10 +121,9 @@
           "role": "DeepSeek Planner（小组 leader/PM）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "547cd361-ef50-4965-9477-bc659d8a1708",
-          "state": "working",
-          "issue": "BEN-212",
-          "issue_title": "[巡检] 2026-10-07 leader Issue 状态巡检与催办",
-          "since": "2026-10-07T08:00:13Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "minimax-visual-diff",
@@ -157,41 +157,41 @@
         }
       ],
       "issue_counts": {
-        "todo": 2,
-        "in_progress": 2,
+        "todo": 0,
+        "in_progress": 1,
         "in_review": 1,
-        "done": 91
+        "done": 94
       },
       "latest_issues": [
         {
-          "key": "BEN-212",
-          "title": "[巡检] 2026-10-07 leader Issue 状态巡检与催办",
-          "status": "todo",
-          "updated_at": "2026-10-07T08:00:10Z"
-        },
-        {
-          "key": "BEN-211",
-          "title": "[空闲检测] 2026-10-07 leader 两小时正点检查与加派",
-          "status": "done",
-          "updated_at": "2026-10-07T06:02:07Z"
-        },
-        {
-          "key": "BEN-209",
-          "title": "[任务·第2轮] 口径⑤ test 变体 profile 批量深化：5 个 0/20 变体 own-",
-          "status": "in_review",
-          "updated_at": "2026-10-07T05:31:16Z"
-        },
-        {
           "key": "BEN-210",
           "title": "[任务·第2轮] DIFF⑥ R12 regression 视觉归因：flip 振荡族四分类定根（r",
-          "status": "in_progress",
-          "updated_at": "2026-10-07T04:15:31Z"
+          "status": "in_review",
+          "updated_at": "2026-10-07T08:05:24Z"
+        },
+        {
+          "key": "BEN-212",
+          "title": "[巡检] 2026-10-07 leader Issue 状态巡检与催办",
+          "status": "done",
+          "updated_at": "2026-10-07T08:03:26Z"
         },
         {
           "key": "BEN-135",
           "title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 1",
           "status": "in_progress",
-          "updated_at": "2026-10-07T04:14:08Z"
+          "updated_at": "2026-10-07T08:03:13Z"
+        },
+        {
+          "key": "BEN-205",
+          "title": "[观察员日报] 2026-10-07 通过率与 Agent 时间轴",
+          "status": "done",
+          "updated_at": "2026-10-07T08:03:08Z"
+        },
+        {
+          "key": "BEN-209",
+          "title": "[任务·第2轮] 口径⑤ test 变体 profile 批量深化：5 个 0/20 变体 own-",
+          "status": "done",
+          "updated_at": "2026-10-07T08:03:07Z"
         }
       ]
     },
@@ -221,10 +221,9 @@
           "role": "DeepSeek Planner（小组 leader/PM，",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "950ff614-521d-4e32-a02d-423d41a7b2b3",
-          "state": "working",
-          "issue": "DWM-238",
-          "issue_title": "[巡检] 2026-10-07 leader Issue 状态巡检与催办",
-          "since": "2026-10-07T08:00:17Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "dw-lead",
@@ -272,16 +271,22 @@
       ],
       "issue_counts": {
         "todo": 0,
-        "in_progress": 1,
-        "in_review": 1,
-        "done": 63
+        "in_progress": 0,
+        "in_review": 0,
+        "done": 65
       },
       "latest_issues": [
         {
           "key": "DWM-238",
           "title": "[巡检] 2026-10-07 leader Issue 状态巡检与催办",
-          "status": "in_progress",
-          "updated_at": "2026-10-07T08:01:13Z"
+          "status": "done",
+          "updated_at": "2026-10-07T08:03:40Z"
+        },
+        {
+          "key": "DWM-234",
+          "title": "[任务] 清洁执行隔离失效影响面评估（cofi/omni-notes/simple-calendar",
+          "status": "done",
+          "updated_at": "2026-10-07T08:03:27Z"
         },
         {
           "key": "DWM-214",
@@ -294,12 +299,6 @@
           "title": "[空闲检测] 2026-10-07 leader 两小时正点检查与加派",
           "status": "done",
           "updated_at": "2026-10-07T06:02:52Z"
-        },
-        {
-          "key": "DWM-234",
-          "title": "[任务] 清洁执行隔离失效影响面评估（cofi/omni-notes/simple-calendar",
-          "status": "in_review",
-          "updated_at": "2026-10-07T04:27:22Z"
         },
         {
           "key": "DWM-233",
@@ -361,9 +360,10 @@
           "role": "IPD-Dev 开发工程师",
           "model": "zai:glm-5.3",
           "agent_id": "44fcec25-d8b3-4af6-b206-1774a64677ce",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-341",
+          "issue_title": "[Dev] REQ-014 白噪音助眠器 双端编码（第14场景主线·day-13第2轮）",
+          "since": "2026-10-07T08:03:23Z"
         },
         {
           "name": "hermes-tester",
@@ -391,10 +391,9 @@
           "role": "DeepSeek Planner（小组 leader/PM ",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
-          "state": "working",
-          "issue": "IPD-345",
-          "issue_title": "[巡检] 2026-10-07 leader Issue 状态巡检与催办",
-          "since": "2026-10-07T08:00:22Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "minimax-uijudge",
@@ -408,41 +407,41 @@
         }
       ],
       "issue_counts": {
-        "todo": 2,
+        "todo": 1,
         "in_progress": 0,
-        "in_review": 2,
-        "done": 96
+        "in_review": 0,
+        "done": 99
       },
       "latest_issues": [
         {
           "key": "IPD-345",
           "title": "[巡检] 2026-10-07 leader Issue 状态巡检与催办",
+          "status": "done",
+          "updated_at": "2026-10-07T08:03:31Z"
+        },
+        {
+          "key": "IPD-341",
+          "title": "[Dev] REQ-014 白噪音助眠器 双端编码（第14场景主线·day-13第2轮）",
           "status": "todo",
-          "updated_at": "2026-10-07T08:00:20Z"
+          "updated_at": "2026-10-07T08:03:19Z"
+        },
+        {
+          "key": "IPD-343",
+          "title": "[uijudge] REQ-012+REQ-013 双端视觉评审（UI差维度送评·day-13第2轮",
+          "status": "done",
+          "updated_at": "2026-10-07T08:03:15Z"
+        },
+        {
+          "key": "IPD-342",
+          "title": "[RM] REQ-014 C2 第3样本度量（sonnet 决胜判定·day-13第2轮）",
+          "status": "done",
+          "updated_at": "2026-10-07T08:03:14Z"
         },
         {
           "key": "IPD-344",
           "title": "[空闲检测] 2026-10-07 leader 两小时正点检查与加派",
           "status": "done",
           "updated_at": "2026-10-07T06:03:40Z"
-        },
-        {
-          "key": "IPD-343",
-          "title": "[uijudge] REQ-012+REQ-013 双端视觉评审（UI差维度送评·day-13第2轮",
-          "status": "in_review",
-          "updated_at": "2026-10-07T04:19:37Z"
-        },
-        {
-          "key": "IPD-341",
-          "title": "[Dev] REQ-014 白噪音助眠器 双端编码（第14场景主线·day-13第2轮）",
-          "status": "todo",
-          "updated_at": "2026-10-07T04:16:43Z"
-        },
-        {
-          "key": "IPD-342",
-          "title": "[RM] REQ-014 C2 第3样本度量（sonnet 决胜判定·day-13第2轮）",
-          "status": "in_review",
-          "updated_at": "2026-10-07T04:14:41Z"
         }
       ]
     }
