@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T17:58:09Z",
+  "generated_at": "2026-10-07T18:01:51Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -37,18 +37,25 @@
           "role": "DeepSeek Task Planner（任务规划+总结）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "04a4e04e-59d5-4f3a-8a16-acf99b80a493",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "SUR-258",
+          "issue_title": "[空闲检测] 2026-10-08 leader 两小时正点检查与加派",
+          "since": "2026-10-07T18:00:15Z"
         }
       ],
       "issue_counts": {
-        "todo": 0,
+        "todo": 1,
         "in_progress": 0,
         "in_review": 0,
-        "done": 96
+        "done": 95
       },
       "latest_issues": [
+        {
+          "key": "SUR-258",
+          "title": "[空闲检测] 2026-10-08 leader 两小时正点检查与加派",
+          "status": "todo",
+          "updated_at": "2026-10-07T18:00:14Z"
+        },
         {
           "key": "SUR-257",
           "title": "[巡检] 2026-10-08 leader Issue 状态巡检与催办",
@@ -72,12 +79,6 @@
           "title": "[晚会日报] 2026-10-07",
           "status": "done",
           "updated_at": "2026-10-07T12:12:19Z"
-        },
-        {
-          "key": "SUR-255",
-          "title": "[流程优化] Opt-023：结项声明须附新口径逐项自评+旧声明取代标注（次日验证）",
-          "status": "done",
-          "updated_at": "2026-10-07T12:11:53Z"
         }
       ],
       "progress_note": "day-4 晨 37% → 午 42% → 晚 44% → 夜 47%",
@@ -119,9 +120,10 @@
           "role": "DeepSeek Planner（小组 leader/PM）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "547cd361-ef50-4965-9477-bc659d8a1708",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "BEN-219",
+          "issue_title": "[空闲检测] 2026-10-08 leader 两小时正点检查与加派",
+          "since": "2026-10-07T18:00:18Z"
         },
         {
           "name": "minimax-visual-diff",
@@ -155,12 +157,18 @@
         }
       ],
       "issue_counts": {
-        "todo": 0,
+        "todo": 1,
         "in_progress": 1,
         "in_review": 0,
-        "done": 99
+        "done": 98
       },
       "latest_issues": [
+        {
+          "key": "BEN-219",
+          "title": "[空闲检测] 2026-10-08 leader 两小时正点检查与加派",
+          "status": "todo",
+          "updated_at": "2026-10-07T18:00:16Z"
+        },
         {
           "key": "BEN-218",
           "title": "[巡检] 2026-10-08 leader Issue 状态巡检与催办",
@@ -184,12 +192,6 @@
           "title": "[任务·第3轮] DIFF⑥ 确定性化修复 batch：承接 BEN-210 视觉归因 4 项（re",
           "status": "done",
           "updated_at": "2026-10-07T16:03:10Z"
-        },
-        {
-          "key": "BEN-217",
-          "title": "[空闲检测] 2026-10-07 leader 两小时正点检查与加派",
-          "status": "done",
-          "updated_at": "2026-10-07T14:02:47Z"
         }
       ]
     },
@@ -219,9 +221,10 @@
           "role": "DeepSeek Planner（小组 leader/PM，",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "950ff614-521d-4e32-a02d-423d41a7b2b3",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "DWM-252",
+          "issue_title": "[空闲检测] 2026-10-08 leader 两小时正点检查与加派",
+          "since": "2026-10-07T18:00:13Z"
         },
         {
           "name": "dw-lead",
@@ -266,17 +269,23 @@
         }
       ],
       "issue_counts": {
-        "todo": 0,
+        "todo": 1,
         "in_progress": 1,
         "in_review": 0,
-        "done": 63
+        "done": 62
       },
       "latest_issues": [
         {
           "key": "DWM-251",
           "title": "[DW迁移任务单] OpenCamera 迁移 · 清单+迁移 · 清单生成中 r21·206/80",
           "status": "in_progress",
-          "updated_at": "2026-10-07T17:55:31Z"
+          "updated_at": "2026-10-07T18:00:35Z"
+        },
+        {
+          "key": "DWM-252",
+          "title": "[空闲检测] 2026-10-08 leader 两小时正点检查与加派",
+          "status": "todo",
+          "updated_at": "2026-10-07T18:00:12Z"
         },
         {
           "key": "DWM-250",
@@ -295,19 +304,13 @@
           "title": "[DW迁移任务单] CoolMall 迁移 · 已完成",
           "status": "done",
           "updated_at": "2026-10-07T15:28:53Z"
-        },
-        {
-          "key": "DWM-248",
-          "title": "[空闲检测] 2026-10-07 leader 两小时正点检查与加派",
-          "status": "done",
-          "updated_at": "2026-10-07T14:05:51Z"
         }
       ],
       "order": {
         "key": "DWM-251",
-        "title": "[DW迁移任务单] OpenCamera 迁移 · 清单+迁移 · 清单生成中 r21·206/800步·1页/112项 · 迁移中 3/6 · 清单1.7h/24h 迁移1.7h",
+        "title": "[DW迁移任务单] OpenCamera 迁移 · 清单+迁移 · 清单生成中 r21·206/800步·1页/112项 · 迁移中 3/6 · 清单1.8h/24h 迁移1.8h",
         "status": "in_progress",
-        "updated_at": "2026-10-07T17:55:31Z"
+        "updated_at": "2026-10-07T18:00:35Z"
       }
     },
     {
@@ -386,9 +389,10 @@
           "role": "DeepSeek Planner（小组 leader/PM ",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-356",
+          "issue_title": "[空闲检测] 2026-10-08 leader 两小时正点检查与加派",
+          "since": "2026-10-07T18:00:22Z"
         },
         {
           "name": "minimax-uijudge",
@@ -402,12 +406,18 @@
         }
       ],
       "issue_counts": {
-        "todo": 0,
+        "todo": 1,
         "in_progress": 0,
         "in_review": 0,
-        "done": 100
+        "done": 99
       },
       "latest_issues": [
+        {
+          "key": "IPD-356",
+          "title": "[空闲检测] 2026-10-08 leader 两小时正点检查与加派",
+          "status": "todo",
+          "updated_at": "2026-10-07T18:00:21Z"
+        },
         {
           "key": "IPD-355",
           "title": "[巡检] 2026-10-08 leader Issue 状态巡检与催办",
@@ -431,12 +441,6 @@
           "title": "[Dev] Android 引擎契约注入生成器优化（IPD-341 上报 9 语义偏差·纪律5·队列",
           "status": "done",
           "updated_at": "2026-10-07T16:03:54Z"
-        },
-        {
-          "key": "IPD-354",
-          "title": "[空闲检测] 2026-10-07 leader 两小时正点检查与加派",
-          "status": "done",
-          "updated_at": "2026-10-07T14:05:09Z"
         }
       ]
     }
