@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T05:34:29Z",
+  "generated_at": "2026-10-07T06:03:22Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -37,18 +37,25 @@
           "role": "DeepSeek Task Planner（任务规划+总结）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "04a4e04e-59d5-4f3a-8a16-acf99b80a493",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "SUR-246",
+          "issue_title": "[空闲检测] 2026-10-07 leader 两小时正点检查与加派",
+          "since": "2026-10-07T06:00:17Z"
         }
       ],
       "issue_counts": {
-        "todo": 0,
+        "todo": 1,
         "in_progress": 0,
         "in_review": 1,
-        "done": 96
+        "done": 95
       },
       "latest_issues": [
+        {
+          "key": "SUR-246",
+          "title": "[空闲检测] 2026-10-07 leader 两小时正点检查与加派",
+          "status": "todo",
+          "updated_at": "2026-10-07T06:00:16Z"
+        },
         {
           "key": "SUR-243",
           "title": "[评审][day-13] 投稿检查清单独立复核 + 终审模拟 accept（口径⑦⑨，成对 Opt-",
@@ -72,12 +79,6 @@
           "title": "[临时会议·空闲加派] 2026-10-07 10点场",
           "status": "done",
           "updated_at": "2026-10-07T02:08:45Z"
-        },
-        {
-          "key": "SUR-241",
-          "title": "[空闲检测] 2026-10-07 leader 两小时正点检查与加派",
-          "status": "done",
-          "updated_at": "2026-10-07T02:06:10Z"
         }
       ],
       "progress_note": "day-4 晨 37% → 午 42% → 晚 44% → 夜 47%",
@@ -158,9 +159,15 @@
         "todo": 1,
         "in_progress": 2,
         "in_review": 1,
-        "done": 90
+        "done": 91
       },
       "latest_issues": [
+        {
+          "key": "BEN-211",
+          "title": "[空闲检测] 2026-10-07 leader 两小时正点检查与加派",
+          "status": "done",
+          "updated_at": "2026-10-07T06:02:07Z"
+        },
         {
           "key": "BEN-209",
           "title": "[任务·第2轮] 口径⑤ test 变体 profile 批量深化：5 个 0/20 变体 own-",
@@ -184,12 +191,6 @@
           "title": "[午会纪要] 2026-10-07",
           "status": "done",
           "updated_at": "2026-10-07T04:07:59Z"
-        },
-        {
-          "key": "BEN-207",
-          "title": "[空闲检测] 2026-10-07 leader 两小时正点检查与加派",
-          "status": "done",
-          "updated_at": "2026-10-07T02:02:33Z"
         }
       ]
     },
@@ -271,9 +272,15 @@
         "todo": 0,
         "in_progress": 0,
         "in_review": 1,
-        "done": 63
+        "done": 64
       },
       "latest_issues": [
+        {
+          "key": "DWM-237",
+          "title": "[空闲检测] 2026-10-07 leader 两小时正点检查与加派",
+          "status": "done",
+          "updated_at": "2026-10-07T06:02:52Z"
+        },
         {
           "key": "DWM-214",
           "title": "[DW迁移任务单] CoolMall 迁移 · 修复 wave 2/5 · 待人工",
@@ -297,12 +304,6 @@
           "title": "[任务] 建议池 131 条按「领域/单APP/改进策略」三类显式分型（对齐 arXiv 洞察分类 ",
           "status": "done",
           "updated_at": "2026-10-07T04:13:17Z"
-        },
-        {
-          "key": "DWM-232",
-          "title": "[空闲检测] 2026-10-07 leader 两小时正点检查与加派",
-          "status": "done",
-          "updated_at": "2026-10-07T02:02:00Z"
         }
       ],
       "order": {
@@ -388,7 +389,7 @@
           "role": "DeepSeek Planner（小组 leader/PM ",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
-          "state": "idle",
+          "state": "working",
           "issue": "",
           "issue_title": ""
         },
@@ -410,6 +411,12 @@
         "done": 97
       },
       "latest_issues": [
+        {
+          "key": "IPD-344",
+          "title": "[空闲检测] 2026-10-07 leader 两小时正点检查与加派",
+          "status": "done",
+          "updated_at": "2026-10-07T06:03:40Z"
+        },
         {
           "key": "IPD-343",
           "title": "[uijudge] REQ-012+REQ-013 双端视觉评审（UI差维度送评·day-13第2轮",
@@ -433,12 +440,6 @@
           "title": "[午会纪要] 2026-10-07",
           "status": "done",
           "updated_at": "2026-10-07T04:09:13Z"
-        },
-        {
-          "key": "IPD-338",
-          "title": "[SE] REQ-014 白噪音助眠器 追踪矩阵（第14场景·day-13空闲加派）",
-          "status": "done",
-          "updated_at": "2026-10-07T04:05:34Z"
         }
       ]
     }
