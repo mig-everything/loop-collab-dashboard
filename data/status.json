@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T00:21:56Z",
+  "generated_at": "2026-10-07T00:25:37Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -99,10 +99,9 @@
           "role": "GPT Scenarist",
           "model": "gpt-6-luna",
           "agent_id": "6e6f1e24-3bc5-455a-85d2-cb3fb6c9a672",
-          "state": "working",
-          "issue": "BEN-135",
-          "issue_title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 100（ref BEN",
-          "since": "2026-10-07T00:20:16Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "glm-runner",
@@ -166,7 +165,7 @@
           "key": "BEN-135",
           "title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 1",
           "status": "in_progress",
-          "updated_at": "2026-10-07T00:20:09Z"
+          "updated_at": "2026-10-07T00:23:23Z"
         },
         {
           "key": "BEN-202",
@@ -260,9 +259,12 @@
           "role": "修复员",
           "model": "claude-opus-5-5",
           "agent_id": "cd70e713-a339-4621-8699-2058d9cf7d6b",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "DWM-229",
+          "issue_title": "[DWM-214·wave1] CoolMall 修复第 1 波 · 第 1/2 份（全局 18 条）",
+          "since": "2026-10-07T00:24:37Z",
+          "parent_issue": "DWM-214",
+          "parent_title": "[DW迁移任务单] CoolMall 迁移 · 修复 wave 1/5 · 待人工"
         }
       ],
       "issue_counts": {
