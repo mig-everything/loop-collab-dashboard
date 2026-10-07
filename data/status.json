@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T15:30:38Z",
+  "generated_at": "2026-10-07T15:56:10Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -209,10 +209,9 @@
           "role": "Opus Analyzer",
           "model": "claude-opus-5-5",
           "agent_id": "2f32549c-87c7-4202-8f54-3af79a30afa0",
-          "state": "working",
-          "issue": "DWM-245",
-          "issue_title": "[任务] CoolMall 收口后差异分析 + §11.7 对抗评审 + DW 建议池入池",
-          "since": "2026-10-07T15:30:08Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "deepseek-planner",
@@ -267,16 +266,16 @@
       ],
       "issue_counts": {
         "todo": 0,
-        "in_progress": 1,
-        "in_review": 0,
+        "in_progress": 0,
+        "in_review": 1,
         "done": 63
       },
       "latest_issues": [
         {
           "key": "DWM-245",
           "title": "[任务] CoolMall 收口后差异分析 + §11.7 对抗评审 + DW 建议池入池",
-          "status": "in_progress",
-          "updated_at": "2026-10-07T15:30:28Z"
+          "status": "in_review",
+          "updated_at": "2026-10-07T15:55:22Z"
         },
         {
           "key": "DWM-214",
