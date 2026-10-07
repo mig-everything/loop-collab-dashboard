@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T12:56:45Z",
+  "generated_at": "2026-10-07T13:04:16Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -99,10 +99,9 @@
           "role": "GPT Scenarist",
           "model": "gpt-6-luna",
           "agent_id": "6e6f1e24-3bc5-455a-85d2-cb3fb6c9a672",
-          "state": "working",
-          "issue": "BEN-135",
-          "issue_title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 100（ref BEN",
-          "since": "2026-10-07T12:07:50Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "glm-runner",
@@ -164,6 +163,12 @@
       },
       "latest_issues": [
         {
+          "key": "BEN-135",
+          "title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 1",
+          "status": "in_progress",
+          "updated_at": "2026-10-07T13:00:56Z"
+        },
+        {
           "key": "BEN-216",
           "title": "[任务·第3轮] 口径⑤ 9 变体视觉锚定矩阵 + 迁移质量观察项台账（ref BEN-209）",
           "status": "in_review",
@@ -186,12 +191,6 @@
           "title": "[任务·第2轮] DIFF⑥ R12 regression 视觉归因：flip 振荡族四分类定根（r",
           "status": "done",
           "updated_at": "2026-10-07T12:07:57Z"
-        },
-        {
-          "key": "BEN-135",
-          "title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 1",
-          "status": "in_progress",
-          "updated_at": "2026-10-07T12:07:48Z"
         }
       ]
     },
