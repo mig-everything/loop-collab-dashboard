@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T20:33:31Z",
+  "generated_at": "2026-10-07T20:37:15Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -109,10 +109,9 @@
           "role": "GLM Runner & Analyst",
           "model": "",
           "agent_id": "bdaefa9b-7045-4264-95e4-1db664e353d0",
-          "state": "working",
-          "issue": "BEN-221",
-          "issue_title": "[任务·第1轮] R13 全链路复跑 + DIFF⑥ 修复复跑验证 + 口径⑤ 变体分数环比（ref BEN-215）",
-          "since": "2026-10-07T20:07:04Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "deepseek-planner",
@@ -130,10 +129,9 @@
           "role": "MiniMax 多模态视觉差分评审",
           "model": "minimax-cn:MiniMax-M3",
           "agent_id": "843ac45d-b5db-4f35-b07b-2e5754ec5a5f",
-          "state": "working",
-          "issue": "BEN-222",
-          "issue_title": "[任务·第1轮] 口径⑤ 视觉差分执行清单落地：9 变体锚定矩阵 → 实际视觉差分（ref BEN-216）",
-          "since": "2026-10-07T20:07:07Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "项目观察员",
@@ -164,6 +162,12 @@
       },
       "latest_issues": [
         {
+          "key": "BEN-221",
+          "title": "[任务·第1轮] R13 全链路复跑 + DIFF⑥ 修复复跑验证 + 口径⑤ 变体分数环比（ref",
+          "status": "in_progress",
+          "updated_at": "2026-10-07T20:35:05Z"
+        },
+        {
           "key": "BEN-222",
           "title": "[任务·第1轮] 口径⑤ 视觉差分执行清单落地：9 变体锚定矩阵 → 实际视觉差分（ref BEN-",
           "status": "in_review",
@@ -180,12 +184,6 @@
           "title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 1",
           "status": "in_progress",
           "updated_at": "2026-10-07T20:11:00Z"
-        },
-        {
-          "key": "BEN-221",
-          "title": "[任务·第1轮] R13 全链路复跑 + DIFF⑥ 修复复跑验证 + 口径⑤ 变体分数环比（ref",
-          "status": "in_progress",
-          "updated_at": "2026-10-07T20:07:24Z"
         },
         {
           "key": "BEN-219",
