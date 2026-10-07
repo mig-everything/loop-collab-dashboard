@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T20:07:09Z",
+  "generated_at": "2026-10-07T20:10:59Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -7,8 +7,8 @@
       "workspace": "ws-survey-loop",
       "machine": "JordanZTdeMacBook-Pro",
       "machine_online": true,
-      "meeting_active": false,
-      "meeting_title": "",
+      "meeting_active": true,
+      "meeting_title": "[晨会纪要] 2026-10-08",
       "progress": 47,
       "agents": [
         {
@@ -17,7 +17,7 @@
           "role": "GPT Writer（执笔者）",
           "model": "gpt-6-luna",
           "agent_id": "58ed4647-32dd-4ca1-8ddc-194b975d6024",
-          "state": "idle",
+          "state": "meeting",
           "issue": "",
           "issue_title": ""
         },
@@ -27,7 +27,7 @@
           "role": "Kimi Adversarial Reviewer（对抗评审",
           "model": "",
           "agent_id": "6e530cc6-6b9d-4398-936d-df9c13468125",
-          "state": "idle",
+          "state": "meeting",
           "issue": "",
           "issue_title": ""
         },
@@ -44,8 +44,8 @@
         }
       ],
       "issue_counts": {
-        "todo": 1,
-        "in_progress": 0,
+        "todo": 0,
+        "in_progress": 1,
         "in_review": 0,
         "done": 95
       },
@@ -53,8 +53,8 @@
         {
           "key": "SUR-259",
           "title": "[晨会纪要] 2026-10-08",
-          "status": "todo",
-          "updated_at": "2026-10-07T20:00:11Z"
+          "status": "in_progress",
+          "updated_at": "2026-10-07T20:09:24Z"
         },
         {
           "key": "SUR-258",
@@ -90,8 +90,8 @@
       "workspace": "ws-benchmark-loop",
       "machine": "张涛 Mac Studio",
       "machine_online": true,
-      "meeting_active": true,
-      "meeting_title": "[早会纪要] 2026-10-08",
+      "meeting_active": false,
+      "meeting_title": "",
       "progress": 88,
       "agents": [
         {
@@ -101,9 +101,9 @@
           "model": "gpt-6-luna",
           "agent_id": "6e6f1e24-3bc5-455a-85d2-cb3fb6c9a672",
           "state": "working",
-          "issue": "BEN-135",
-          "issue_title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 100（ref BEN",
-          "since": "2026-10-07T20:07:17Z"
+          "issue": "BEN-220",
+          "issue_title": "[早会纪要] 2026-10-08",
+          "since": "2026-10-07T20:07:58Z"
         },
         {
           "name": "glm-runner",
@@ -122,10 +122,9 @@
           "role": "DeepSeek Planner（小组 leader/PM）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "547cd361-ef50-4965-9477-bc659d8a1708",
-          "state": "working",
-          "issue": "BEN-220",
-          "issue_title": "[早会纪要] 2026-10-08",
-          "since": "2026-10-07T20:00:21Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "minimax-visual-diff",
@@ -134,9 +133,9 @@
           "model": "minimax-cn:MiniMax-M3",
           "agent_id": "843ac45d-b5db-4f35-b07b-2e5754ec5a5f",
           "state": "working",
-          "issue": "BEN-222",
-          "issue_title": "[任务·第1轮] 口径⑤ 视觉差分执行清单落地：9 变体锚定矩阵 → 实际视觉差分（ref BEN-216）",
-          "since": "2026-10-07T20:07:07Z"
+          "issue": "BEN-220",
+          "issue_title": "[早会纪要] 2026-10-08",
+          "since": "2026-10-07T20:07:58Z"
         },
         {
           "name": "项目观察员",
@@ -144,7 +143,7 @@
           "role": "只读洞察项目目标与执行证据，用简单语言汇报进展、偏差和阻塞，",
           "model": "",
           "agent_id": "4b674e90-4726-4eba-bd5c-06350e0b8b83",
-          "state": "meeting",
+          "state": "idle",
           "issue": "",
           "issue_title": ""
         },
@@ -154,41 +153,41 @@
           "role": "只读洞察项目目标与执行证据，用简单语言汇报进展、偏差和阻塞，",
           "model": "gpt-6-astra",
           "agent_id": "33b902ee-a4ca-46ae-9284-c8285311c687",
-          "state": "meeting",
+          "state": "idle",
           "issue": "",
           "issue_title": ""
         }
       ],
       "issue_counts": {
-        "todo": 2,
-        "in_progress": 2,
+        "todo": 0,
+        "in_progress": 3,
         "in_review": 0,
-        "done": 96
+        "done": 97
       },
       "latest_issues": [
+        {
+          "key": "BEN-220",
+          "title": "[早会纪要] 2026-10-08",
+          "status": "done",
+          "updated_at": "2026-10-07T20:11:00Z"
+        },
         {
           "key": "BEN-135",
           "title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 1",
           "status": "in_progress",
-          "updated_at": "2026-10-07T20:07:16Z"
+          "updated_at": "2026-10-07T20:11:00Z"
         },
         {
           "key": "BEN-222",
           "title": "[任务·第1轮] 口径⑤ 视觉差分执行清单落地：9 变体锚定矩阵 → 实际视觉差分（ref BEN-",
-          "status": "todo",
-          "updated_at": "2026-10-07T20:07:07Z"
+          "status": "in_progress",
+          "updated_at": "2026-10-07T20:09:11Z"
         },
         {
           "key": "BEN-221",
           "title": "[任务·第1轮] R13 全链路复跑 + DIFF⑥ 修复复跑验证 + 口径⑤ 变体分数环比（ref",
-          "status": "todo",
-          "updated_at": "2026-10-07T20:07:04Z"
-        },
-        {
-          "key": "BEN-220",
-          "title": "[早会纪要] 2026-10-08",
           "status": "in_progress",
-          "updated_at": "2026-10-07T20:01:05Z"
+          "updated_at": "2026-10-07T20:07:24Z"
         },
         {
           "key": "BEN-219",
@@ -247,7 +246,7 @@
           "agent_id": "1c3481f5-135b-4959-9daa-c510c076d494",
           "state": "working",
           "issue": "DWM-251",
-          "issue_title": "[DW迁移任务单] OpenCamera 迁移 · 清单+迁移 · 清单生成中 续1·r34·465/800步·1页/3",
+          "issue_title": "[DW迁移任务单] OpenCamera 迁移 · 清单+迁移 · 清单生成中 续1·r35·495/800步·1页/3",
           "since": "2026-10-07T19:47:07Z"
         },
         {
@@ -279,16 +278,16 @@
       },
       "latest_issues": [
         {
+          "key": "DWM-251",
+          "title": "[DW迁移任务单] OpenCamera 迁移 · 清单+迁移 · 清单生成中 续1·r35·495",
+          "status": "in_progress",
+          "updated_at": "2026-10-07T20:08:01Z"
+        },
+        {
           "key": "DWM-253",
           "title": "[早会纪要] 2026-10-08",
           "status": "todo",
           "updated_at": "2026-10-07T20:00:14Z"
-        },
-        {
-          "key": "DWM-251",
-          "title": "[DW迁移任务单] OpenCamera 迁移 · 清单+迁移 · 清单生成中 续1·r34·465",
-          "status": "in_progress",
-          "updated_at": "2026-10-07T19:57:43Z"
         },
         {
           "key": "DWM-252",
@@ -311,9 +310,9 @@
       ],
       "order": {
         "key": "DWM-251",
-        "title": "[DW迁移任务单] OpenCamera 迁移 · 清单+迁移 · 清单生成中 续1·r34·465/800步·1页/312项 · 迁移中 3/6 · 清单3.8h/24h 迁移3",
+        "title": "[DW迁移任务单] OpenCamera 迁移 · 清单+迁移 · 清单生成中 续1·r35·495/800步·1页/312项 · 迁移中 3/6 · 清单3.9h/24h 迁移3",
         "status": "in_progress",
-        "updated_at": "2026-10-07T19:57:43Z"
+        "updated_at": "2026-10-07T20:08:01Z"
       }
     },
     {
@@ -322,8 +321,8 @@
       "workspace": "ws-ipd-eazo-loop",
       "machine": "贾博 Mac Mini",
       "machine_online": true,
-      "meeting_active": true,
-      "meeting_title": "[早会纪要] 2026-10-08",
+      "meeting_active": false,
+      "meeting_title": "",
       "progress": 92,
       "agents": [
         {
@@ -343,7 +342,7 @@
           "role": "IPD-SA 解决方案架构师",
           "model": "zai:glm-5.3",
           "agent_id": "3e4373ef-a262-4b28-ab2a-818861fc9624",
-          "state": "meeting",
+          "state": "idle",
           "issue": "",
           "issue_title": ""
         },
@@ -364,9 +363,10 @@
           "role": "IPD-Dev 开发工程师",
           "model": "zai:glm-5.3",
           "agent_id": "44fcec25-d8b3-4af6-b206-1774a64677ce",
-          "state": "meeting",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-362",
+          "issue_title": "[早会纪要] 2026-10-08",
+          "since": "2026-10-07T20:07:54Z"
         },
         {
           "name": "hermes-tester",
@@ -374,9 +374,10 @@
           "role": "IPD-Tester 测试工程师",
           "model": "zai:glm-5.3",
           "agent_id": "86df9f14-a2cd-46d9-ad15-dbe8606ebd73",
-          "state": "meeting",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-362",
+          "issue_title": "[早会纪要] 2026-10-08",
+          "since": "2026-10-07T20:07:54Z"
         },
         {
           "name": "hermes-rm",
@@ -384,7 +385,7 @@
           "role": "IPD-RM 发布经理",
           "model": "zai:glm-5.3",
           "agent_id": "78156461-9644-478e-9c80-53cd18e25e33",
-          "state": "meeting",
+          "state": "idle",
           "issue": "",
           "issue_title": ""
         },
@@ -394,10 +395,9 @@
           "role": "DeepSeek Planner（小组 leader/PM ",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
-          "state": "working",
-          "issue": "IPD-362",
-          "issue_title": "[早会纪要] 2026-10-08",
-          "since": "2026-10-07T20:00:20Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "minimax-uijudge",
@@ -405,29 +405,35 @@
           "role": "MiniMax 多模态 UI 视觉评审",
           "model": "minimax-cn:MiniMax-M3",
           "agent_id": "97f55294-90e0-4556-93af-a1cf44889574",
-          "state": "meeting",
+          "state": "idle",
           "issue": "",
           "issue_title": ""
         }
       ],
       "issue_counts": {
-        "todo": 3,
+        "todo": 2,
         "in_progress": 1,
         "in_review": 0,
-        "done": 96
+        "done": 97
       },
       "latest_issues": [
+        {
+          "key": "IPD-363",
+          "title": "[PM] REQ-016 数独 正式 PRD + TR-Req 评审（第16场景·game 益智填数",
+          "status": "in_progress",
+          "updated_at": "2026-10-07T20:11:25Z"
+        },
+        {
+          "key": "IPD-362",
+          "title": "[早会纪要] 2026-10-08",
+          "status": "done",
+          "updated_at": "2026-10-07T20:11:04Z"
+        },
         {
           "key": "IPD-364",
           "title": "[Dev] REQ-015 房贷计算器 双端编码（第15场景·finance 主线·gated on",
           "status": "backlog",
           "updated_at": "2026-10-07T20:07:04Z"
-        },
-        {
-          "key": "IPD-363",
-          "title": "[PM] REQ-016 数独 正式 PRD + TR-Req 评审（第16场景·game 益智填数",
-          "status": "todo",
-          "updated_at": "2026-10-07T20:06:59Z"
         },
         {
           "key": "IPD-360",
@@ -440,12 +446,6 @@
           "title": "[PM] REQ-016 第16场景预研 + 需求池扩充（需求多样化续扩·P1）",
           "status": "done",
           "updated_at": "2026-10-07T20:06:21Z"
-        },
-        {
-          "key": "IPD-358",
-          "title": "[uijudge] REQ-014 白噪音助眠器 双端视觉评审 五维打分 + 视觉差分表（UI差维度",
-          "status": "done",
-          "updated_at": "2026-10-07T20:06:20Z"
         }
       ]
     }
