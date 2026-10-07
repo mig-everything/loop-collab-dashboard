@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T14:38:41Z",
+  "generated_at": "2026-10-07T14:42:30Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -231,8 +231,8 @@
           "agent_id": "c6ff7c69-0db4-4b35-ac81-dd00e5a53ba4",
           "state": "working",
           "issue": "DWM-214",
-          "issue_title": "[DW迁移任务单] CoolMall 迁移 · 终验",
-          "since": "2026-10-07T14:38:40Z"
+          "issue_title": "[DW迁移任务单] CoolMall 迁移 · 收口",
+          "since": "2026-10-07T14:42:37Z"
         },
         {
           "name": "exec-runner",
@@ -265,21 +265,21 @@
           "issue_title": "[DWM-214·工具修复] mig export-session 导出的会话 JSON 截在约 2MB，本批 7 单的",
           "since": "2026-10-07T14:32:51Z",
           "parent_issue": "DWM-214",
-          "parent_title": "[DW迁移任务单] CoolMall 迁移 · 终验"
+          "parent_title": "[DW迁移任务单] CoolMall 迁移 · 收口"
         }
       ],
       "issue_counts": {
         "todo": 1,
         "in_progress": 1,
         "in_review": 0,
-        "done": 63
+        "done": 62
       },
       "latest_issues": [
         {
           "key": "DWM-214",
-          "title": "[DW迁移任务单] CoolMall 迁移 · 终验",
+          "title": "[DW迁移任务单] CoolMall 迁移 · 收口",
           "status": "in_progress",
-          "updated_at": "2026-10-07T14:38:39Z"
+          "updated_at": "2026-10-07T14:42:14Z"
         },
         {
           "key": "DWM-248",
@@ -308,9 +308,9 @@
       ],
       "order": {
         "key": "DWM-214",
-        "title": "[DW迁移任务单] CoolMall 迁移 · 终验",
+        "title": "[DW迁移任务单] CoolMall 迁移 · 收口",
         "status": "in_progress",
-        "updated_at": "2026-10-07T14:38:39Z"
+        "updated_at": "2026-10-07T14:42:14Z"
       }
     },
     {
