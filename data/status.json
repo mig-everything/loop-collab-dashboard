@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T12:15:51Z",
+  "generated_at": "2026-10-07T12:19:34Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -37,10 +37,9 @@
           "role": "DeepSeek Task Planner（任务规划+总结）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "04a4e04e-59d5-4f3a-8a16-acf99b80a493",
-          "state": "working",
-          "issue": "SUR-254",
-          "issue_title": "[结项确认][needs-human] 任务1 survey 新口径12项 agent侧100%达成，请负责人确认结项+",
-          "since": "2026-10-07T12:07:44Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         }
       ],
       "issue_counts": {
@@ -50,6 +49,12 @@
         "done": 96
       },
       "latest_issues": [
+        {
+          "key": "SUR-254",
+          "title": "[结项确认][needs-human] 任务1 survey 新口径12项 agent侧100%达成",
+          "status": "blocked",
+          "updated_at": "2026-10-07T12:17:33Z"
+        },
         {
           "key": "SUR-253",
           "title": "[晚会日报] 2026-10-07",
@@ -61,12 +66,6 @@
           "title": "[流程优化] Opt-023：结项声明须附新口径逐项自评+旧声明取代标注（次日验证）",
           "status": "done",
           "updated_at": "2026-10-07T12:11:53Z"
-        },
-        {
-          "key": "SUR-254",
-          "title": "[结项确认][needs-human] 任务1 survey 新口径12项 agent侧100%达成",
-          "status": "blocked",
-          "updated_at": "2026-10-07T12:07:43Z"
         },
         {
           "key": "SUR-252",
