@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T04:17:48Z",
+  "generated_at": "2026-10-07T04:21:33Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -401,19 +401,24 @@
           "role": "MiniMax 多模态 UI 视觉评审",
           "model": "minimax-cn:MiniMax-M3",
           "agent_id": "97f55294-90e0-4556-93af-a1cf44889574",
-          "state": "working",
-          "issue": "IPD-343",
-          "issue_title": "[uijudge] REQ-012+REQ-013 双端视觉评审（UI差维度送评·day-13第2轮）",
-          "since": "2026-10-07T04:06:06Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         }
       ],
       "issue_counts": {
         "todo": 1,
-        "in_progress": 1,
-        "in_review": 1,
+        "in_progress": 0,
+        "in_review": 2,
         "done": 97
       },
       "latest_issues": [
+        {
+          "key": "IPD-343",
+          "title": "[uijudge] REQ-012+REQ-013 双端视觉评审（UI差维度送评·day-13第2轮",
+          "status": "in_review",
+          "updated_at": "2026-10-07T04:19:37Z"
+        },
         {
           "key": "IPD-341",
           "title": "[Dev] REQ-014 白噪音助眠器 双端编码（第14场景主线·day-13第2轮）",
@@ -425,12 +430,6 @@
           "title": "[RM] REQ-014 C2 第3样本度量（sonnet 决胜判定·day-13第2轮）",
           "status": "in_review",
           "updated_at": "2026-10-07T04:14:41Z"
-        },
-        {
-          "key": "IPD-343",
-          "title": "[uijudge] REQ-012+REQ-013 双端视觉评审（UI差维度送评·day-13第2轮",
-          "status": "in_progress",
-          "updated_at": "2026-10-07T04:12:16Z"
         },
         {
           "key": "IPD-340",
