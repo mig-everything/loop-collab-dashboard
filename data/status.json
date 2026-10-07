@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T02:02:48Z",
+  "generated_at": "2026-10-07T02:06:28Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -17,9 +17,10 @@
           "role": "GPT Writer（执笔者）",
           "model": "gpt-6-luna",
           "agent_id": "58ed4647-32dd-4ca1-8ddc-194b975d6024",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "SUR-244",
+          "issue_title": "[临时会议·空闲加派] 2026-10-07 10点场",
+          "since": "2026-10-07T02:05:56Z"
         },
         {
           "name": "kimi-adversary",
@@ -27,9 +28,10 @@
           "role": "Kimi Adversarial Reviewer（对抗评审",
           "model": "",
           "agent_id": "6e530cc6-6b9d-4398-936d-df9c13468125",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "SUR-244",
+          "issue_title": "[临时会议·空闲加派] 2026-10-07 10点场",
+          "since": "2026-10-07T02:05:56Z"
         },
         {
           "name": "deepseek-planner",
@@ -37,48 +39,47 @@
           "role": "DeepSeek Task Planner（任务规划+总结）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "04a4e04e-59d5-4f3a-8a16-acf99b80a493",
-          "state": "working",
-          "issue": "SUR-241",
-          "issue_title": "[空闲检测] 2026-10-07 leader 两小时正点检查与加派",
-          "since": "2026-10-07T02:00:19Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         }
       ],
       "issue_counts": {
-        "todo": 1,
+        "todo": 2,
         "in_progress": 0,
         "in_review": 0,
-        "done": 96
+        "done": 95
       },
       "latest_issues": [
         {
           "key": "SUR-241",
           "title": "[空闲检测] 2026-10-07 leader 两小时正点检查与加派",
+          "status": "done",
+          "updated_at": "2026-10-07T02:06:10Z"
+        },
+        {
+          "key": "SUR-244",
+          "title": "[临时会议·空闲加派] 2026-10-07 10点场",
+          "status": "done",
+          "updated_at": "2026-10-07T02:05:59Z"
+        },
+        {
+          "key": "SUR-243",
+          "title": "[评审][day-13] 投稿检查清单独立复核 + 终审模拟 accept（口径⑦⑨，成对 Opt-",
+          "status": "backlog",
+          "updated_at": "2026-10-07T02:05:02Z"
+        },
+        {
+          "key": "SUR-242",
+          "title": "[任务][day-13] 投稿就绪收尾（口径⑨）：投稿检查清单+CHANGELOG+终版编译回归+中",
           "status": "todo",
-          "updated_at": "2026-10-07T02:00:18Z"
+          "updated_at": "2026-10-07T02:04:58Z"
         },
         {
           "key": "SUR-240",
           "title": "[巡检] 2026-10-07 leader Issue 状态巡检与催办",
           "status": "done",
           "updated_at": "2026-10-07T00:02:35Z"
-        },
-        {
-          "key": "SUR-238",
-          "title": "[评审][day-13] SUR-237 修复复核：SUR-196 打回 6 项独立对抗评审（口径③",
-          "status": "done",
-          "updated_at": "2026-10-07T00:02:07Z"
-        },
-        {
-          "key": "SUR-239",
-          "title": "[空闲检测] 2026-10-07 leader 两小时正点检查与加派",
-          "status": "done",
-          "updated_at": "2026-10-06T22:01:50Z"
-        },
-        {
-          "key": "SUR-236",
-          "title": "[晨会纪要] 2026-10-07",
-          "status": "done",
-          "updated_at": "2026-10-06T20:15:06Z"
         }
       ],
       "progress_note": "day-4 晨 37% → 午 42% → 晚 44% → 夜 47%",
@@ -349,9 +350,10 @@
           "role": "IPD-SE 系统工程师",
           "model": "zai:glm-5.3",
           "agent_id": "b874ba6b-80e6-45c6-a8c6-aedc6f2b326b",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-338",
+          "issue_title": "[SE] REQ-014 白噪音助眠器 追踪矩阵（第14场景·day-13空闲加派）",
+          "since": "2026-10-07T02:06:45Z"
         },
         {
           "name": "hermes-dev",
@@ -359,9 +361,10 @@
           "role": "IPD-Dev 开发工程师",
           "model": "zai:glm-5.3",
           "agent_id": "44fcec25-d8b3-4af6-b206-1774a64677ce",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-337",
+          "issue_title": "[Dev] Eazo 引擎 UNIQUE 约束 TOCTOU 缺陷修复（P0·阻塞 REQ-014 发车·RM 上报·d",
+          "since": "2026-10-07T02:06:36Z"
         },
         {
           "name": "hermes-tester",
@@ -406,12 +409,24 @@
         }
       ],
       "issue_counts": {
-        "todo": 1,
+        "todo": 3,
         "in_progress": 0,
         "in_review": 1,
-        "done": 98
+        "done": 96
       },
       "latest_issues": [
+        {
+          "key": "IPD-338",
+          "title": "[SE] REQ-014 白噪音助眠器 追踪矩阵（第14场景·day-13空闲加派）",
+          "status": "todo",
+          "updated_at": "2026-10-07T02:06:45Z"
+        },
+        {
+          "key": "IPD-337",
+          "title": "[Dev] Eazo 引擎 UNIQUE 约束 TOCTOU 缺陷修复（P0·阻塞 REQ-014 ",
+          "status": "todo",
+          "updated_at": "2026-10-07T02:06:35Z"
+        },
         {
           "key": "IPD-336",
           "title": "[空闲检测] 2026-10-07 leader 两小时正点检查与加派",
@@ -429,18 +444,6 @@
           "title": "[巡检] 2026-10-07 leader Issue 状态巡检与催办",
           "status": "done",
           "updated_at": "2026-10-07T00:03:09Z"
-        },
-        {
-          "key": "IPD-330",
-          "title": "[RM] path_B sonnet C2-FAIL 裁决执行（重开评审+有条件维持+REQ-014",
-          "status": "done",
-          "updated_at": "2026-10-07T00:02:49Z"
-        },
-        {
-          "key": "IPD-333",
-          "title": "[PM] REQ-014 PRD v1.1 回写（C1闭合）+ 需求池扩充（day-13第1轮）",
-          "status": "done",
-          "updated_at": "2026-10-07T00:02:48Z"
         }
       ]
     }
