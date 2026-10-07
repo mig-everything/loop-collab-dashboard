@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T00:43:27Z",
+  "generated_at": "2026-10-07T00:47:06Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -262,12 +262,9 @@
           "role": "修复员",
           "model": "claude-opus-5-5",
           "agent_id": "cd70e713-a339-4621-8699-2058d9cf7d6b",
-          "state": "working",
-          "issue": "DWM-229",
-          "issue_title": "[DWM-214·wave1] CoolMall 修复第 1 波 · 第 1/2 份（全局 18 条）",
-          "since": "2026-10-07T00:24:37Z",
-          "parent_issue": "DWM-214",
-          "parent_title": "[DW迁移任务单] CoolMall 迁移 · 修复 wave 1/5 · 待人工"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         }
       ],
       "issue_counts": {
