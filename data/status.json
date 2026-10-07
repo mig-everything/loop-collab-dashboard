@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T04:06:08Z",
+  "generated_at": "2026-10-07T04:09:55Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -27,9 +27,10 @@
           "role": "Kimi Adversarial Reviewer（对抗评审",
           "model": "",
           "agent_id": "6e530cc6-6b9d-4398-936d-df9c13468125",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "SUR-245",
+          "issue_title": "[午会纪要] 2026-10-07",
+          "since": "2026-10-07T04:06:56Z"
         },
         {
           "name": "deepseek-planner",
@@ -37,24 +38,29 @@
           "role": "DeepSeek Task Planner（任务规划+总结）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "04a4e04e-59d5-4f3a-8a16-acf99b80a493",
-          "state": "working",
-          "issue": "SUR-245",
-          "issue_title": "[午会纪要] 2026-10-07",
-          "since": "2026-10-07T04:00:15Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         }
       ],
       "issue_counts": {
-        "todo": 2,
-        "in_progress": 0,
+        "todo": 0,
+        "in_progress": 1,
         "in_review": 0,
-        "done": 95
+        "done": 96
       },
       "latest_issues": [
         {
           "key": "SUR-245",
           "title": "[午会纪要] 2026-10-07",
-          "status": "todo",
-          "updated_at": "2026-10-07T04:00:14Z"
+          "status": "done",
+          "updated_at": "2026-10-07T04:09:08Z"
+        },
+        {
+          "key": "SUR-243",
+          "title": "[评审][day-13] 投稿检查清单独立复核 + 终审模拟 accept（口径⑦⑨，成对 Opt-",
+          "status": "in_progress",
+          "updated_at": "2026-10-07T04:07:16Z"
         },
         {
           "key": "SUR-242",
@@ -73,12 +79,6 @@
           "title": "[空闲检测] 2026-10-07 leader 两小时正点检查与加派",
           "status": "done",
           "updated_at": "2026-10-07T02:06:10Z"
-        },
-        {
-          "key": "SUR-243",
-          "title": "[评审][day-13] 投稿检查清单独立复核 + 终审模拟 accept（口径⑦⑨，成对 Opt-",
-          "status": "backlog",
-          "updated_at": "2026-10-07T02:05:02Z"
         }
       ],
       "progress_note": "day-4 晨 37% → 午 42% → 晚 44% → 夜 47%",
@@ -90,8 +90,8 @@
       "workspace": "ws-benchmark-loop",
       "machine": "张涛 Mac Studio",
       "machine_online": true,
-      "meeting_active": true,
-      "meeting_title": "[午会纪要] 2026-10-07",
+      "meeting_active": false,
+      "meeting_title": "",
       "progress": 85,
       "agents": [
         {
@@ -100,9 +100,10 @@
           "role": "GPT Scenarist",
           "model": "gpt-6-luna",
           "agent_id": "6e6f1e24-3bc5-455a-85d2-cb3fb6c9a672",
-          "state": "meeting",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "BEN-135",
+          "issue_title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 100（ref BEN",
+          "since": "2026-10-07T04:06:55Z"
         },
         {
           "name": "glm-runner",
@@ -110,9 +111,10 @@
           "role": "GLM Runner & Analyst",
           "model": "",
           "agent_id": "bdaefa9b-7045-4264-95e4-1db664e353d0",
-          "state": "meeting",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "BEN-209",
+          "issue_title": "[任务·第2轮] 口径⑤ test 变体 profile 批量深化：5 个 0/20 变体 own-dump 重定基（r",
+          "since": "2026-10-07T04:06:43Z"
         },
         {
           "name": "deepseek-planner",
@@ -120,10 +122,9 @@
           "role": "DeepSeek Planner（小组 leader/PM）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "547cd361-ef50-4965-9477-bc659d8a1708",
-          "state": "working",
-          "issue": "BEN-208",
-          "issue_title": "[午会纪要] 2026-10-07",
-          "since": "2026-10-07T04:00:17Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "minimax-visual-diff",
@@ -131,9 +132,10 @@
           "role": "MiniMax 多模态视觉差分评审",
           "model": "minimax-cn:MiniMax-M3",
           "agent_id": "843ac45d-b5db-4f35-b07b-2e5754ec5a5f",
-          "state": "meeting",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "BEN-210",
+          "issue_title": "[任务·第2轮] DIFF⑥ R12 regression 视觉归因：flip 振荡族四分类定根（ref BEN-201",
+          "since": "2026-10-07T04:06:49Z"
         },
         {
           "name": "项目观察员",
@@ -141,7 +143,7 @@
           "role": "只读洞察项目目标与执行证据，用简单语言汇报进展、偏差和阻塞，",
           "model": "",
           "agent_id": "4b674e90-4726-4eba-bd5c-06350e0b8b83",
-          "state": "meeting",
+          "state": "idle",
           "issue": "",
           "issue_title": ""
         },
@@ -151,47 +153,47 @@
           "role": "只读洞察项目目标与执行证据，用简单语言汇报进展、偏差和阻塞，",
           "model": "gpt-6-astra",
           "agent_id": "33b902ee-a4ca-46ae-9284-c8285311c687",
-          "state": "meeting",
+          "state": "idle",
           "issue": "",
           "issue_title": ""
         }
       ],
       "issue_counts": {
-        "todo": 1,
+        "todo": 2,
         "in_progress": 2,
         "in_review": 0,
-        "done": 89
+        "done": 90
       },
       "latest_issues": [
         {
           "key": "BEN-208",
           "title": "[午会纪要] 2026-10-07",
+          "status": "done",
+          "updated_at": "2026-10-07T04:07:59Z"
+        },
+        {
+          "key": "BEN-209",
+          "title": "[任务·第2轮] 口径⑤ test 变体 profile 批量深化：5 个 0/20 变体 own-",
           "status": "in_progress",
-          "updated_at": "2026-10-07T04:00:46Z"
+          "updated_at": "2026-10-07T04:07:03Z"
+        },
+        {
+          "key": "BEN-135",
+          "title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 1",
+          "status": "in_progress",
+          "updated_at": "2026-10-07T04:06:53Z"
+        },
+        {
+          "key": "BEN-210",
+          "title": "[任务·第2轮] DIFF⑥ R12 regression 视觉归因：flip 振荡族四分类定根（r",
+          "status": "todo",
+          "updated_at": "2026-10-07T04:06:47Z"
         },
         {
           "key": "BEN-207",
           "title": "[空闲检测] 2026-10-07 leader 两小时正点检查与加派",
           "status": "done",
           "updated_at": "2026-10-07T02:02:33Z"
-        },
-        {
-          "key": "BEN-206",
-          "title": "[冒烟] 模型通道验证：gpt-6-luna 改绑后连通性测试（负责人委托， BEN-47 惯例）",
-          "status": "done",
-          "updated_at": "2026-10-07T01:55:17Z"
-        },
-        {
-          "key": "BEN-205",
-          "title": "[观察员日报] 2026-10-07 通过率与 Agent 时间轴",
-          "status": "todo",
-          "updated_at": "2026-10-07T01:06:58Z"
-        },
-        {
-          "key": "BEN-135",
-          "title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 1",
-          "status": "in_progress",
-          "updated_at": "2026-10-07T00:23:23Z"
         }
       ]
     },
@@ -321,8 +323,8 @@
       "workspace": "ws-ipd-eazo-loop",
       "machine": "贾博 Mac Mini",
       "machine_online": true,
-      "meeting_active": true,
-      "meeting_title": "[午会纪要] 2026-10-07",
+      "meeting_active": false,
+      "meeting_title": "",
       "progress": 89,
       "agents": [
         {
@@ -331,7 +333,7 @@
           "role": "IPD-PM 产品经理",
           "model": "",
           "agent_id": "1764c131-5c09-48cb-aa48-3177d5256dbb",
-          "state": "meeting",
+          "state": "idle",
           "issue": "",
           "issue_title": ""
         },
@@ -341,7 +343,7 @@
           "role": "IPD-SA 解决方案架构师",
           "model": "zai:glm-5.3",
           "agent_id": "3e4373ef-a262-4b28-ab2a-818861fc9624",
-          "state": "meeting",
+          "state": "idle",
           "issue": "",
           "issue_title": ""
         },
@@ -351,7 +353,7 @@
           "role": "IPD-SE 系统工程师",
           "model": "zai:glm-5.3",
           "agent_id": "b874ba6b-80e6-45c6-a8c6-aedc6f2b326b",
-          "state": "meeting",
+          "state": "idle",
           "issue": "",
           "issue_title": ""
         },
@@ -372,7 +374,7 @@
           "role": "IPD-Tester 测试工程师",
           "model": "zai:glm-5.3",
           "agent_id": "86df9f14-a2cd-46d9-ad15-dbe8606ebd73",
-          "state": "meeting",
+          "state": "idle",
           "issue": "",
           "issue_title": ""
         },
@@ -411,23 +413,29 @@
         }
       ],
       "issue_counts": {
-        "todo": 3,
+        "todo": 2,
         "in_progress": 1,
         "in_review": 0,
-        "done": 96
+        "done": 97
       },
       "latest_issues": [
+        {
+          "key": "IPD-340",
+          "title": "[午会纪要] 2026-10-07",
+          "status": "done",
+          "updated_at": "2026-10-07T04:09:13Z"
+        },
+        {
+          "key": "IPD-342",
+          "title": "[RM] REQ-014 C2 第3样本度量（sonnet 决胜判定·day-13第2轮）",
+          "status": "in_progress",
+          "updated_at": "2026-10-07T04:06:50Z"
+        },
         {
           "key": "IPD-343",
           "title": "[uijudge] REQ-012+REQ-013 双端视觉评审（UI差维度送评·day-13第2轮",
           "status": "todo",
           "updated_at": "2026-10-07T04:06:05Z"
-        },
-        {
-          "key": "IPD-342",
-          "title": "[RM] REQ-014 C2 第3样本度量（sonnet 决胜判定·day-13第2轮）",
-          "status": "todo",
-          "updated_at": "2026-10-07T04:06:02Z"
         },
         {
           "key": "IPD-341",
@@ -440,12 +448,6 @@
           "title": "[SE] REQ-014 白噪音助眠器 追踪矩阵（第14场景·day-13空闲加派）",
           "status": "done",
           "updated_at": "2026-10-07T04:05:34Z"
-        },
-        {
-          "key": "IPD-337",
-          "title": "[Dev] Eazo 引擎 UNIQUE 约束 TOCTOU 缺陷修复（P0·阻塞 REQ-014 ",
-          "status": "done",
-          "updated_at": "2026-10-07T04:05:33Z"
         }
       ]
     }
