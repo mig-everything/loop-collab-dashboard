@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T18:09:21Z",
+  "generated_at": "2026-10-07T18:13:05Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -241,7 +241,7 @@
           "agent_id": "1c3481f5-135b-4959-9daa-c510c076d494",
           "state": "working",
           "issue": "DWM-251",
-          "issue_title": "[DW迁移任务单] OpenCamera 迁移 · 清单+迁移 · 清单生成中 r21·206/800步·1页/174项",
+          "issue_title": "[DW迁移任务单] OpenCamera 迁移 · 清单+迁移 · 清单生成中 r22·221/800步·1页/174项",
           "since": "2026-10-07T17:55:11Z"
         },
         {
@@ -274,9 +274,9 @@
       "latest_issues": [
         {
           "key": "DWM-251",
-          "title": "[DW迁移任务单] OpenCamera 迁移 · 清单+迁移 · 清单生成中 r21·206/80",
+          "title": "[DW迁移任务单] OpenCamera 迁移 · 清单+迁移 · 清单生成中 r22·221/80",
           "status": "in_progress",
-          "updated_at": "2026-10-07T18:05:42Z"
+          "updated_at": "2026-10-07T18:10:48Z"
         },
         {
           "key": "DWM-252",
@@ -305,9 +305,9 @@
       ],
       "order": {
         "key": "DWM-251",
-        "title": "[DW迁移任务单] OpenCamera 迁移 · 清单+迁移 · 清单生成中 r21·206/800步·1页/174项 · 迁移中 3/6 · 清单1.9h/24h 迁移1.9h",
+        "title": "[DW迁移任务单] OpenCamera 迁移 · 清单+迁移 · 清单生成中 r22·221/800步·1页/174项 · 迁移中 3/6 · 清单2.0h/24h 迁移2.0h",
         "status": "in_progress",
-        "updated_at": "2026-10-07T18:05:42Z"
+        "updated_at": "2026-10-07T18:10:48Z"
       }
     },
     {
@@ -398,19 +398,24 @@
           "role": "MiniMax 多模态 UI 视觉评审",
           "model": "minimax-cn:MiniMax-M3",
           "agent_id": "97f55294-90e0-4556-93af-a1cf44889574",
-          "state": "working",
-          "issue": "IPD-358",
-          "issue_title": "[uijudge] REQ-014 白噪音助眠器 双端视觉评审 五维打分 + 视觉差分表（UI差维度·第14场景）",
-          "since": "2026-10-07T18:07:09Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         }
       ],
       "issue_counts": {
-        "todo": 2,
+        "todo": 1,
         "in_progress": 2,
-        "in_review": 0,
+        "in_review": 1,
         "done": 96
       },
       "latest_issues": [
+        {
+          "key": "IPD-358",
+          "title": "[uijudge] REQ-014 白噪音助眠器 双端视觉评审 五维打分 + 视觉差分表（UI差维度",
+          "status": "in_review",
+          "updated_at": "2026-10-07T18:12:16Z"
+        },
         {
           "key": "IPD-361",
           "title": "[临时会议·空闲加派] 2026-10-08 02点场（day-14 第1轮派单 · deepsee",
@@ -434,12 +439,6 @@
           "title": "[SA] REQ-015 房贷计算器 TR-Design 六件套 + 契约 v1.0（第15场景·f",
           "status": "in_progress",
           "updated_at": "2026-10-07T18:07:34Z"
-        },
-        {
-          "key": "IPD-360",
-          "title": "[SE] REQ-015 房贷计算器 追踪矩阵 v1.0（第15场景·gated on SA 契约·",
-          "status": "backlog",
-          "updated_at": "2026-10-07T18:07:12Z"
         }
       ]
     }
