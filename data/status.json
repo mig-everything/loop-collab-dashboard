@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T13:04:16Z",
+  "generated_at": "2026-10-07T13:11:43Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -109,10 +109,9 @@
           "role": "GLM Runner & Analyst",
           "model": "",
           "agent_id": "bdaefa9b-7045-4264-95e4-1db664e353d0",
-          "state": "working",
-          "issue": "BEN-215",
-          "issue_title": "[任务·第3轮] DIFF⑥ 确定性化修复 batch：承接 BEN-210 视觉归因 4 项（ref BEN-210）",
-          "since": "2026-10-07T12:09:50Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "deepseek-planner",
@@ -157,11 +156,17 @@
       ],
       "issue_counts": {
         "todo": 0,
-        "in_progress": 2,
-        "in_review": 1,
+        "in_progress": 1,
+        "in_review": 2,
         "done": 97
       },
       "latest_issues": [
+        {
+          "key": "BEN-215",
+          "title": "[任务·第3轮] DIFF⑥ 确定性化修复 batch：承接 BEN-210 视觉归因 4 项（re",
+          "status": "in_review",
+          "updated_at": "2026-10-07T13:10:41Z"
+        },
         {
           "key": "BEN-135",
           "title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 1",
@@ -173,12 +178,6 @@
           "title": "[任务·第3轮] 口径⑤ 9 变体视觉锚定矩阵 + 迁移质量观察项台账（ref BEN-209）",
           "status": "in_review",
           "updated_at": "2026-10-07T12:20:41Z"
-        },
-        {
-          "key": "BEN-215",
-          "title": "[任务·第3轮] DIFF⑥ 确定性化修复 batch：承接 BEN-210 视觉归因 4 项（re",
-          "status": "in_progress",
-          "updated_at": "2026-10-07T12:10:18Z"
         },
         {
           "key": "BEN-214",
