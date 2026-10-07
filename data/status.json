@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T12:30:53Z",
+  "generated_at": "2026-10-07T12:52:59Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -231,9 +231,10 @@
           "role": "DW 迁移执行小队队长",
           "model": "claude-opus-5-5",
           "agent_id": "c6ff7c69-0db4-4b35-ac81-dd00e5a53ba4",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "DWM-214",
+          "issue_title": "[DW迁移任务单] CoolMall 迁移 · 终验",
+          "since": "2026-10-07T12:53:15Z"
         },
         {
           "name": "exec-runner",
@@ -283,7 +284,7 @@
           "key": "DWM-214",
           "title": "[DW迁移任务单] CoolMall 迁移 · 终验",
           "status": "in_progress",
-          "updated_at": "2026-10-07T12:29:51Z"
+          "updated_at": "2026-10-07T12:53:14Z"
         },
         {
           "key": "DWM-244",
@@ -314,7 +315,7 @@
         "key": "DWM-214",
         "title": "[DW迁移任务单] CoolMall 迁移 · 终验",
         "status": "in_progress",
-        "updated_at": "2026-10-07T12:29:51Z"
+        "updated_at": "2026-10-07T12:53:14Z"
       }
     },
     {
