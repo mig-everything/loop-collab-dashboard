@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T23:23:16Z",
+  "generated_at": "2026-10-07T23:26:56Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -109,9 +109,10 @@
           "role": "GLM Runner & Analyst",
           "model": "",
           "agent_id": "bdaefa9b-7045-4264-95e4-1db664e353d0",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "BEN-221",
+          "issue_title": "[任务·第1轮] R13 全链路复跑 + DIFF⑥ 修复复跑验证 + 口径⑤ 变体分数环比（ref BEN-215）",
+          "since": "2026-10-07T23:25:41Z"
         },
         {
           "name": "deepseek-planner",
@@ -276,7 +277,7 @@
           "key": "DWM-251",
           "title": "[DW迁移任务单] OpenCamera 迁移 · 清单+迁移 · 清单生成中 续2·r55·860",
           "status": "in_progress",
-          "updated_at": "2026-10-07T23:21:14Z"
+          "updated_at": "2026-10-07T23:26:34Z"
         },
         {
           "key": "DWM-255",
@@ -305,9 +306,9 @@
       ],
       "order": {
         "key": "DWM-251",
-        "title": "[DW迁移任务单] OpenCamera 迁移 · 清单+迁移 · 清单生成中 续2·r55·860/800步·1页/510项 · 迁移中 3/6 · 清单7.1h/24h 迁移7",
+        "title": "[DW迁移任务单] OpenCamera 迁移 · 清单+迁移 · 清单生成中 续2·r55·860/800步·1页/510项 · 迁移中 3/6 · 清单7.2h/24h 迁移7",
         "status": "in_progress",
-        "updated_at": "2026-10-07T23:21:14Z"
+        "updated_at": "2026-10-07T23:26:34Z"
       },
       "progress_note": "10 个应用：完成 7、进行中 1、暂停 0、未开始 2；早会 dw-lead standup"
     },
