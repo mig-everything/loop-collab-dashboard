@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T06:07:02Z",
+  "generated_at": "2026-10-07T06:10:44Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -38,7 +38,7 @@
           "role": "DeepSeek Task Planner（任务规划+总结）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "04a4e04e-59d5-4f3a-8a16-acf99b80a493",
-          "state": "working",
+          "state": "idle",
           "issue": "",
           "issue_title": ""
         }
