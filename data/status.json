@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T20:26:02Z",
+  "generated_at": "2026-10-07T20:29:47Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -158,11 +158,17 @@
       ],
       "issue_counts": {
         "todo": 0,
-        "in_progress": 3,
-        "in_review": 0,
+        "in_progress": 2,
+        "in_review": 1,
         "done": 97
       },
       "latest_issues": [
+        {
+          "key": "BEN-222",
+          "title": "[任务·第1轮] 口径⑤ 视觉差分执行清单落地：9 变体锚定矩阵 → 实际视觉差分（ref BEN-",
+          "status": "in_review",
+          "updated_at": "2026-10-07T20:27:53Z"
+        },
         {
           "key": "BEN-220",
           "title": "[早会纪要] 2026-10-08",
@@ -174,12 +180,6 @@
           "title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 1",
           "status": "in_progress",
           "updated_at": "2026-10-07T20:11:00Z"
-        },
-        {
-          "key": "BEN-222",
-          "title": "[任务·第1轮] 口径⑤ 视觉差分执行清单落地：9 变体锚定矩阵 → 实际视觉差分（ref BEN-",
-          "status": "in_progress",
-          "updated_at": "2026-10-07T20:09:11Z"
         },
         {
           "key": "BEN-221",
@@ -278,7 +278,7 @@
           "key": "DWM-251",
           "title": "[DW迁移任务单] OpenCamera 迁移 · 清单+迁移 · 清单生成中 续1·r37·555",
           "status": "in_progress",
-          "updated_at": "2026-10-07T20:23:22Z"
+          "updated_at": "2026-10-07T20:28:29Z"
         },
         {
           "key": "DWM-254",
@@ -307,9 +307,9 @@
       ],
       "order": {
         "key": "DWM-251",
-        "title": "[DW迁移任务单] OpenCamera 迁移 · 清单+迁移 · 清单生成中 续1·r37·555/800步·1页/312项 · 迁移中 3/6 · 清单4.2h/24h 迁移4",
+        "title": "[DW迁移任务单] OpenCamera 迁移 · 清单+迁移 · 清单生成中 续1·r37·555/800步·1页/312项 · 迁移中 3/6 · 清单4.3h/24h 迁移4",
         "status": "in_progress",
-        "updated_at": "2026-10-07T20:23:22Z"
+        "updated_at": "2026-10-07T20:28:29Z"
       },
       "progress_note": "10 个应用：完成 7、进行中 1、暂停 0、未开始 2；早会 dw-lead standup"
     },
