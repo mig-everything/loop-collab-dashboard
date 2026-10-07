@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T18:01:51Z",
+  "generated_at": "2026-10-07T18:05:37Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -120,10 +120,9 @@
           "role": "DeepSeek Planner（小组 leader/PM）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "547cd361-ef50-4965-9477-bc659d8a1708",
-          "state": "working",
-          "issue": "BEN-219",
-          "issue_title": "[空闲检测] 2026-10-08 leader 两小时正点检查与加派",
-          "since": "2026-10-07T18:00:18Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "minimax-visual-diff",
@@ -157,17 +156,17 @@
         }
       ],
       "issue_counts": {
-        "todo": 1,
+        "todo": 0,
         "in_progress": 1,
         "in_review": 0,
-        "done": 98
+        "done": 99
       },
       "latest_issues": [
         {
           "key": "BEN-219",
           "title": "[空闲检测] 2026-10-08 leader 两小时正点检查与加派",
-          "status": "todo",
-          "updated_at": "2026-10-07T18:00:16Z"
+          "status": "done",
+          "updated_at": "2026-10-07T18:02:09Z"
         },
         {
           "key": "BEN-218",
@@ -221,10 +220,9 @@
           "role": "DeepSeek Planner（小组 leader/PM，",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "950ff614-521d-4e32-a02d-423d41a7b2b3",
-          "state": "working",
-          "issue": "DWM-252",
-          "issue_title": "[空闲检测] 2026-10-08 leader 两小时正点检查与加派",
-          "since": "2026-10-07T18:00:13Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "dw-lead",
@@ -244,7 +242,7 @@
           "agent_id": "1c3481f5-135b-4959-9daa-c510c076d494",
           "state": "working",
           "issue": "DWM-251",
-          "issue_title": "[DW迁移任务单] OpenCamera 迁移 · 清单+迁移 · 清单生成中 r21·206/800步·1页/112项",
+          "issue_title": "[DW迁移任务单] OpenCamera 迁移 · 清单+迁移 · 清单生成中 r21·206/800步·1页/174项",
           "since": "2026-10-07T17:55:11Z"
         },
         {
@@ -269,23 +267,23 @@
         }
       ],
       "issue_counts": {
-        "todo": 1,
+        "todo": 0,
         "in_progress": 1,
         "in_review": 0,
-        "done": 62
+        "done": 63
       },
       "latest_issues": [
         {
           "key": "DWM-251",
           "title": "[DW迁移任务单] OpenCamera 迁移 · 清单+迁移 · 清单生成中 r21·206/80",
           "status": "in_progress",
-          "updated_at": "2026-10-07T18:00:35Z"
+          "updated_at": "2026-10-07T18:05:42Z"
         },
         {
           "key": "DWM-252",
           "title": "[空闲检测] 2026-10-08 leader 两小时正点检查与加派",
-          "status": "todo",
-          "updated_at": "2026-10-07T18:00:12Z"
+          "status": "done",
+          "updated_at": "2026-10-07T18:05:29Z"
         },
         {
           "key": "DWM-250",
@@ -308,9 +306,9 @@
       ],
       "order": {
         "key": "DWM-251",
-        "title": "[DW迁移任务单] OpenCamera 迁移 · 清单+迁移 · 清单生成中 r21·206/800步·1页/112项 · 迁移中 3/6 · 清单1.8h/24h 迁移1.8h",
+        "title": "[DW迁移任务单] OpenCamera 迁移 · 清单+迁移 · 清单生成中 r21·206/800步·1页/174项 · 迁移中 3/6 · 清单1.9h/24h 迁移1.9h",
         "status": "in_progress",
-        "updated_at": "2026-10-07T18:00:35Z"
+        "updated_at": "2026-10-07T18:05:42Z"
       }
     },
     {
