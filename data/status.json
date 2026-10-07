@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T12:23:21Z",
+  "generated_at": "2026-10-07T12:27:08Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -360,10 +360,9 @@
           "role": "IPD-Dev 开发工程师",
           "model": "zai:glm-5.3",
           "agent_id": "44fcec25-d8b3-4af6-b206-1774a64677ce",
-          "state": "working",
-          "issue": "IPD-350",
-          "issue_title": "[Dev] Android 引擎契约注入生成器优化（IPD-341 上报 9 语义偏差·纪律5·队列单）",
-          "since": "2026-10-07T12:05:13Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "hermes-tester",
@@ -408,11 +407,17 @@
       ],
       "issue_counts": {
         "todo": 0,
-        "in_progress": 1,
-        "in_review": 2,
+        "in_progress": 0,
+        "in_review": 3,
         "done": 97
       },
       "latest_issues": [
+        {
+          "key": "IPD-350",
+          "title": "[Dev] Android 引擎契约注入生成器优化（IPD-341 上报 9 语义偏差·纪律5·队列",
+          "status": "in_review",
+          "updated_at": "2026-10-07T12:24:30Z"
+        },
         {
           "key": "IPD-353",
           "title": "[PM] REQ-015 房贷计算器 正式 PRD + TR-Req 评审（第15场景·financ",
@@ -430,12 +435,6 @@
           "title": "[晚会] 2026-10-07 第三轮派单",
           "status": "done",
           "updated_at": "2026-10-07T12:08:05Z"
-        },
-        {
-          "key": "IPD-350",
-          "title": "[Dev] Android 引擎契约注入生成器优化（IPD-341 上报 9 语义偏差·纪律5·队列",
-          "status": "in_progress",
-          "updated_at": "2026-10-07T12:06:01Z"
         },
         {
           "key": "IPD-349",
