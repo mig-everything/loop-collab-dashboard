@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T13:46:31Z",
+  "generated_at": "2026-10-07T14:01:10Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -37,18 +37,25 @@
           "role": "DeepSeek Task Planner（任务规划+总结）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "04a4e04e-59d5-4f3a-8a16-acf99b80a493",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "SUR-256",
+          "issue_title": "[空闲检测] 2026-10-07 leader 两小时正点检查与加派",
+          "since": "2026-10-07T14:00:17Z"
         }
       ],
       "issue_counts": {
-        "todo": 0,
+        "todo": 1,
         "in_progress": 0,
         "in_review": 0,
-        "done": 96
+        "done": 95
       },
       "latest_issues": [
+        {
+          "key": "SUR-256",
+          "title": "[空闲检测] 2026-10-07 leader 两小时正点检查与加派",
+          "status": "todo",
+          "updated_at": "2026-10-07T14:00:16Z"
+        },
         {
           "key": "SUR-254",
           "title": "[结项确认][needs-human] 任务1 survey 新口径12项 agent侧100%达成",
@@ -72,12 +79,6 @@
           "title": "[任务][day-13] 修复 SUR-248 终审通过残留 P2-1：附录 A/B 正文入口引用（",
           "status": "done",
           "updated_at": "2026-10-07T12:05:36Z"
-        },
-        {
-          "key": "SUR-248",
-          "title": "[评审][day-13] SUR-243 打回修复复核 + 终审模拟 accept 重跑（口径⑦，成",
-          "status": "done",
-          "updated_at": "2026-10-07T12:05:35Z"
         }
       ],
       "progress_note": "day-4 晨 37% → 午 42% → 晚 44% → 夜 47%",
@@ -119,9 +120,10 @@
           "role": "DeepSeek Planner（小组 leader/PM）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "547cd361-ef50-4965-9477-bc659d8a1708",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "BEN-217",
+          "issue_title": "[空闲检测] 2026-10-07 leader 两小时正点检查与加派",
+          "since": "2026-10-07T14:00:25Z"
         },
         {
           "name": "minimax-visual-diff",
@@ -155,12 +157,18 @@
         }
       ],
       "issue_counts": {
-        "todo": 0,
+        "todo": 1,
         "in_progress": 1,
         "in_review": 2,
-        "done": 97
+        "done": 96
       },
       "latest_issues": [
+        {
+          "key": "BEN-217",
+          "title": "[空闲检测] 2026-10-07 leader 两小时正点检查与加派",
+          "status": "todo",
+          "updated_at": "2026-10-07T14:00:18Z"
+        },
         {
           "key": "BEN-215",
           "title": "[任务·第3轮] DIFF⑥ 确定性化修复 batch：承接 BEN-210 视觉归因 4 项（re",
@@ -184,12 +192,6 @@
           "title": "[晚会日报] 2026-10-07",
           "status": "done",
           "updated_at": "2026-10-07T12:07:59Z"
-        },
-        {
-          "key": "BEN-210",
-          "title": "[任务·第2轮] DIFF⑥ R12 regression 视觉归因：flip 振荡族四分类定根（r",
-          "status": "done",
-          "updated_at": "2026-10-07T12:07:57Z"
         }
       ]
     },
@@ -219,9 +221,10 @@
           "role": "DeepSeek Planner（小组 leader/PM，",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "950ff614-521d-4e32-a02d-423d41a7b2b3",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "DWM-248",
+          "issue_title": "[空闲检测] 2026-10-07 leader 两小时正点检查与加派",
+          "since": "2026-10-07T14:00:14Z"
         },
         {
           "name": "dw-lead",
@@ -268,12 +271,18 @@
         }
       ],
       "issue_counts": {
-        "todo": 1,
+        "todo": 2,
         "in_progress": 1,
         "in_review": 0,
-        "done": 63
+        "done": 62
       },
       "latest_issues": [
+        {
+          "key": "DWM-248",
+          "title": "[空闲检测] 2026-10-07 leader 两小时正点检查与加派",
+          "status": "todo",
+          "updated_at": "2026-10-07T14:00:13Z"
+        },
         {
           "key": "DWM-214",
           "title": "[DW迁移任务单] CoolMall 迁移 · 终验",
@@ -297,12 +306,6 @@
           "title": "[任务] 口径④对齐 goals/（SQUAD.md/README 修订）并关闭 loop-coll",
           "status": "done",
           "updated_at": "2026-10-07T12:07:12Z"
-        },
-        {
-          "key": "DWM-197",
-          "title": "[需人工] 套件层缺陷批末审核 P0 阻断清单（session JSON 截断第5次 + 8 P1 ",
-          "status": "cancelled",
-          "updated_at": "2026-10-07T11:08:13Z"
         }
       ],
       "order": {
@@ -388,9 +391,10 @@
           "role": "DeepSeek Planner（小组 leader/PM ",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-354",
+          "issue_title": "[空闲检测] 2026-10-07 leader 两小时正点检查与加派",
+          "since": "2026-10-07T14:00:26Z"
         },
         {
           "name": "minimax-uijudge",
@@ -404,12 +408,18 @@
         }
       ],
       "issue_counts": {
-        "todo": 0,
+        "todo": 1,
         "in_progress": 0,
         "in_review": 3,
-        "done": 97
+        "done": 96
       },
       "latest_issues": [
+        {
+          "key": "IPD-354",
+          "title": "[空闲检测] 2026-10-07 leader 两小时正点检查与加派",
+          "status": "todo",
+          "updated_at": "2026-10-07T14:00:24Z"
+        },
         {
           "key": "IPD-350",
           "title": "[Dev] Android 引擎契约注入生成器优化（IPD-341 上报 9 语义偏差·纪律5·队列",
@@ -433,12 +443,6 @@
           "title": "[晚会] 2026-10-07 第三轮派单",
           "status": "done",
           "updated_at": "2026-10-07T12:08:05Z"
-        },
-        {
-          "key": "IPD-349",
-          "title": "[PM] REQ-015 第15场景预研 + 需求池扩充（需求多样化续扩·P1）",
-          "status": "done",
-          "updated_at": "2026-10-07T12:04:58Z"
         }
       ]
     }
