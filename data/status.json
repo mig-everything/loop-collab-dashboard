@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T22:01:49Z",
+  "generated_at": "2026-10-07T22:05:34Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -120,10 +120,9 @@
           "role": "DeepSeek Planner（小组 leader/PM）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "547cd361-ef50-4965-9477-bc659d8a1708",
-          "state": "working",
-          "issue": "BEN-223",
-          "issue_title": "[空闲检测] 2026-10-08 leader 两小时正点检查与加派",
-          "since": "2026-10-07T22:00:18Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "minimax-visual-diff",
@@ -157,17 +156,17 @@
         }
       ],
       "issue_counts": {
-        "todo": 1,
+        "todo": 0,
         "in_progress": 2,
         "in_review": 1,
-        "done": 96
+        "done": 97
       },
       "latest_issues": [
         {
           "key": "BEN-223",
           "title": "[空闲检测] 2026-10-08 leader 两小时正点检查与加派",
-          "status": "todo",
-          "updated_at": "2026-10-07T22:00:17Z"
+          "status": "done",
+          "updated_at": "2026-10-07T22:02:23Z"
         },
         {
           "key": "BEN-221",
@@ -221,10 +220,9 @@
           "role": "DeepSeek Planner（小组 leader/PM，",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "950ff614-521d-4e32-a02d-423d41a7b2b3",
-          "state": "working",
-          "issue": "DWM-255",
-          "issue_title": "[空闲检测] 2026-10-08 leader 两小时正点检查与加派",
-          "since": "2026-10-07T22:00:14Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "dw-lead",
@@ -269,23 +267,23 @@
         }
       ],
       "issue_counts": {
-        "todo": 1,
+        "todo": 0,
         "in_progress": 1,
         "in_review": 1,
-        "done": 61
+        "done": 62
       },
       "latest_issues": [
         {
           "key": "DWM-255",
           "title": "[空闲检测] 2026-10-08 leader 两小时正点检查与加派",
-          "status": "todo",
-          "updated_at": "2026-10-07T22:00:13Z"
+          "status": "done",
+          "updated_at": "2026-10-07T22:05:17Z"
         },
         {
           "key": "DWM-251",
           "title": "[DW迁移任务单] OpenCamera 迁移 · 清单+迁移 · 清单生成中 续1·r44·707",
           "status": "in_progress",
-          "updated_at": "2026-10-07T21:52:16Z"
+          "updated_at": "2026-10-07T22:02:38Z"
         },
         {
           "key": "DWM-254",
@@ -308,9 +306,9 @@
       ],
       "order": {
         "key": "DWM-251",
-        "title": "[DW迁移任务单] OpenCamera 迁移 · 清单+迁移 · 清单生成中 续1·r44·707/800步·1页/422项 · 迁移中 3/6 · 清单5.7h/24h 迁移5",
+        "title": "[DW迁移任务单] OpenCamera 迁移 · 清单+迁移 · 清单生成中 续1·r44·707/800步·1页/447项 · 迁移中 3/6 · 清单5.8h/24h 迁移5",
         "status": "in_progress",
-        "updated_at": "2026-10-07T21:52:16Z"
+        "updated_at": "2026-10-07T22:02:38Z"
       },
       "progress_note": "10 个应用：完成 7、进行中 1、暂停 0、未开始 2；早会 dw-lead standup"
     },
@@ -360,9 +358,10 @@
           "role": "IPD-Dev 开发工程师",
           "model": "zai:glm-5.3",
           "agent_id": "44fcec25-d8b3-4af6-b206-1774a64677ce",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-364",
+          "issue_title": "[Dev] REQ-015 房贷计算器 双端编码（第15场景·finance 主线·gated on SE 矩阵）",
+          "since": "2026-10-07T22:03:04Z"
         },
         {
           "name": "hermes-tester",
@@ -390,10 +389,9 @@
           "role": "DeepSeek Planner（小组 leader/PM ",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
-          "state": "working",
-          "issue": "IPD-365",
-          "issue_title": "[空闲检测] 2026-10-08 leader 两小时正点检查与加派",
-          "since": "2026-10-07T22:00:23Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "minimax-uijudge",
@@ -407,17 +405,23 @@
         }
       ],
       "issue_counts": {
-        "todo": 2,
-        "in_progress": 0,
+        "todo": 0,
+        "in_progress": 1,
         "in_review": 2,
-        "done": 96
+        "done": 97
       },
       "latest_issues": [
         {
           "key": "IPD-365",
           "title": "[空闲检测] 2026-10-08 leader 两小时正点检查与加派",
-          "status": "todo",
-          "updated_at": "2026-10-07T22:00:22Z"
+          "status": "done",
+          "updated_at": "2026-10-07T22:03:29Z"
+        },
+        {
+          "key": "IPD-364",
+          "title": "[Dev] REQ-015 房贷计算器 双端编码（第15场景·finance 主线·gated on",
+          "status": "in_progress",
+          "updated_at": "2026-10-07T22:03:21Z"
         },
         {
           "key": "IPD-360",
@@ -436,12 +440,6 @@
           "title": "[早会纪要] 2026-10-08",
           "status": "done",
           "updated_at": "2026-10-07T20:13:21Z"
-        },
-        {
-          "key": "IPD-364",
-          "title": "[Dev] REQ-015 房贷计算器 双端编码（第15场景·finance 主线·gated on",
-          "status": "backlog",
-          "updated_at": "2026-10-07T20:07:04Z"
         }
       ]
     }
