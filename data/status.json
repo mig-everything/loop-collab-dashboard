@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T23:34:20Z",
+  "generated_at": "2026-10-07T23:38:04Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -277,7 +277,7 @@
           "key": "DWM-251",
           "title": "[DW迁移任务单] OpenCamera 迁移 · 清单+迁移 · 清单生成中 续2·r55·860",
           "status": "in_progress",
-          "updated_at": "2026-10-07T23:31:53Z"
+          "updated_at": "2026-10-07T23:37:22Z"
         },
         {
           "key": "DWM-255",
@@ -306,9 +306,9 @@
       ],
       "order": {
         "key": "DWM-251",
-        "title": "[DW迁移任务单] OpenCamera 迁移 · 清单+迁移 · 清单生成中 续2·r55·860/800步·1页/510项 · 迁移中 3/6 · 清单7.3h/24h 迁移7",
+        "title": "[DW迁移任务单] OpenCamera 迁移 · 清单+迁移 · 清单生成中 续2·r55·860/800步·1页/526项 · 迁移中 3/6 · 清单7.4h/24h 迁移7",
         "status": "in_progress",
-        "updated_at": "2026-10-07T23:31:53Z"
+        "updated_at": "2026-10-07T23:37:22Z"
       },
       "progress_note": "10 个应用：完成 7、进行中 1、暂停 0、未开始 2；早会 dw-lead standup"
     },
