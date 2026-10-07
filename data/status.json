@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T12:19:34Z",
+  "generated_at": "2026-10-07T12:23:21Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -131,10 +131,9 @@
           "role": "MiniMax 多模态视觉差分评审",
           "model": "minimax-cn:MiniMax-M3",
           "agent_id": "843ac45d-b5db-4f35-b07b-2e5754ec5a5f",
-          "state": "working",
-          "issue": "BEN-216",
-          "issue_title": "[任务·第3轮] 口径⑤ 9 变体视觉锚定矩阵 + 迁移质量观察项台账（ref BEN-209）",
-          "since": "2026-10-07T12:07:50Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "项目观察员",
@@ -158,12 +157,18 @@
         }
       ],
       "issue_counts": {
-        "todo": 1,
+        "todo": 0,
         "in_progress": 2,
-        "in_review": 0,
+        "in_review": 1,
         "done": 97
       },
       "latest_issues": [
+        {
+          "key": "BEN-216",
+          "title": "[任务·第3轮] 口径⑤ 9 变体视觉锚定矩阵 + 迁移质量观察项台账（ref BEN-209）",
+          "status": "in_review",
+          "updated_at": "2026-10-07T12:20:41Z"
+        },
         {
           "key": "BEN-215",
           "title": "[任务·第3轮] DIFF⑥ 确定性化修复 batch：承接 BEN-210 视觉归因 4 项（re",
@@ -187,12 +192,6 @@
           "title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 1",
           "status": "in_progress",
           "updated_at": "2026-10-07T12:07:48Z"
-        },
-        {
-          "key": "BEN-216",
-          "title": "[任务·第3轮] 口径⑤ 9 变体视觉锚定矩阵 + 迁移质量观察项台账（ref BEN-209）",
-          "status": "todo",
-          "updated_at": "2026-10-07T12:07:38Z"
         }
       ]
     },
