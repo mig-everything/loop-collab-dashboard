@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T10:20:18Z",
+  "generated_at": "2026-10-08T10:29:16Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -268,7 +268,7 @@
         "todo": 0,
         "in_progress": 0,
         "in_review": 0,
-        "done": 66
+        "done": 65
       },
       "latest_issues": [
         {
@@ -303,10 +303,10 @@
         }
       ],
       "order": {
-        "key": "DWM-214",
-        "title": "[DW迁移任务单] CoolMall 迁移 · 已完成",
-        "status": "done",
-        "updated_at": "2026-10-07T15:28:53Z"
+        "key": "DWM-251",
+        "title": "[DW迁移任务单] OpenCamera 迁移 · 暂停（负责人要求）",
+        "status": "blocked",
+        "updated_at": "2026-10-08T01:32:00Z"
       },
       "progress_note": "10 个应用：完成 7、进行中 1、暂停 0、未开始 2；早会 dw-lead standup"
     },
