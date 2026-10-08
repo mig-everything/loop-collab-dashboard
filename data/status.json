@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T20:38:58Z",
+  "generated_at": "2026-10-08T20:42:40Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -109,10 +109,9 @@
           "role": "GLM Runner & Analyst",
           "model": "",
           "agent_id": "bdaefa9b-7045-4264-95e4-1db664e353d0",
-          "state": "working",
-          "issue": "BEN-240",
-          "issue_title": "[早会纪要] 2026-10-09",
-          "since": "2026-10-08T20:08:35Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "deepseek-planner",
