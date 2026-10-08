@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T08:05:44Z",
+  "generated_at": "2026-10-08T08:10:16Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -37,7 +37,7 @@
           "role": "DeepSeek Task Planner（任务规划+总结）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "04a4e04e-59d5-4f3a-8a16-acf99b80a493",
-          "state": "working",
+          "state": "idle",
           "issue": "",
           "issue_title": ""
         }
@@ -141,12 +141,9 @@
           "role": "只读洞察项目目标与执行证据，用简单语言汇报进展、偏差和阻塞，",
           "model": "gpt-6-astra",
           "agent_id": "33b902ee-a4ca-46ae-9284-c8285311c687",
-          "state": "working",
-          "issue": "BEN-233",
-          "issue_title": "查看控件定位表：同一 App 多次鸿蒙迁移的 ID 匹配",
-          "since": "2026-10-08T08:05:59Z",
-          "parent_issue": "BEN-225",
-          "parent_title": "[观察员日报] 2026-10-08 通过率与 Agent 时间轴"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         }
       ],
       "issue_counts": {
@@ -361,9 +358,10 @@
           "role": "IPD-Tester 测试工程师",
           "model": "zai:glm-5.3",
           "agent_id": "86df9f14-a2cd-46d9-ad15-dbe8606ebd73",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-370",
+          "issue_title": "[Tester] REQ-015 房贷计算器 TR-Accept 差分执行 + 双端对比报告（第15场景收口·gated",
+          "since": "2026-10-08T08:07:28Z"
         },
         {
           "name": "hermes-rm",
@@ -371,9 +369,10 @@
           "role": "IPD-RM 发布经理",
           "model": "zai:glm-5.3",
           "agent_id": "78156461-9644-478e-9c80-53cd18e25e33",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-371",
+          "issue_title": "[RM] REQ-015 房贷计算器 C2 决胜样本度量（四维差终局+glm回滚首收敛观测·gated on Dev 发",
+          "since": "2026-10-08T08:07:30Z"
         },
         {
           "name": "deepseek-planner",
@@ -382,9 +381,9 @@
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
           "state": "working",
-          "issue": "IPD-373",
-          "issue_title": "[巡检] 2026-10-08 leader Issue 状态巡检与催办",
-          "since": "2026-10-08T08:00:22Z"
+          "issue": "IPD-250",
+          "issue_title": "[验收标准更新] Eazo 网页 UI 对比体验优化首批已落地（246c1cc），收尾：features数据生产/Mac",
+          "since": "2026-10-08T07:46:54Z"
         },
         {
           "name": "minimax-uijudge",
@@ -398,41 +397,41 @@
         }
       ],
       "issue_counts": {
-        "todo": 1,
+        "todo": 0,
         "in_progress": 2,
-        "in_review": 2,
-        "done": 95
+        "in_review": 0,
+        "done": 98
       },
       "latest_issues": [
         {
           "key": "IPD-373",
           "title": "[巡检] 2026-10-08 leader Issue 状态巡检与催办",
-          "status": "todo",
-          "updated_at": "2026-10-08T08:00:21Z"
+          "status": "done",
+          "updated_at": "2026-10-08T08:07:48Z"
         },
         {
           "key": "IPD-371",
           "title": "[RM] REQ-015 房贷计算器 C2 决胜样本度量（四维差终局+glm回滚首收敛观测·gate",
           "status": "in_progress",
-          "updated_at": "2026-10-08T06:33:24Z"
+          "updated_at": "2026-10-08T08:07:28Z"
         },
         {
           "key": "IPD-370",
           "title": "[Tester] REQ-015 房贷计算器 TR-Accept 差分执行 + 双端对比报告（第15",
           "status": "in_progress",
-          "updated_at": "2026-10-08T06:19:17Z"
+          "updated_at": "2026-10-08T08:07:27Z"
         },
         {
-          "key": "IPD-372",
-          "title": "[空闲检测] 2026-10-08 leader 两小时正点检查与加派",
+          "key": "IPD-364",
+          "title": "[Dev] REQ-015 房贷计算器 双端编码（第15场景·finance 主线·gated on",
           "status": "done",
-          "updated_at": "2026-10-08T06:04:16Z"
+          "updated_at": "2026-10-08T08:07:01Z"
         },
         {
           "key": "IPD-369",
           "title": "[SA] REQ-016 数独 TR-Design 六件套 + 契约 v1.0（第16场景·game",
-          "status": "in_review",
-          "updated_at": "2026-10-08T04:30:27Z"
+          "status": "done",
+          "updated_at": "2026-10-08T08:06:55Z"
         }
       ]
     }
