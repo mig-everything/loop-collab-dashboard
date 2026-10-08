@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T06:47:44Z",
+  "generated_at": "2026-10-08T06:51:57Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -149,9 +149,10 @@
           "role": "只读洞察项目目标与执行证据，用简单语言汇报进展、偏差和阻塞，",
           "model": "gpt-6-astra",
           "agent_id": "33b902ee-a4ca-46ae-9284-c8285311c687",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "BEN-225",
+          "issue_title": "[观察员日报] 2026-10-08 通过率与 Agent 时间轴",
+          "since": "2026-10-08T06:50:08Z"
         }
       ],
       "issue_counts": {
@@ -165,7 +166,7 @@
           "key": "BEN-225",
           "title": "[观察员日报] 2026-10-08 通过率与 Agent 时间轴",
           "status": "todo",
-          "updated_at": "2026-10-08T06:48:06Z"
+          "updated_at": "2026-10-08T06:50:07Z"
         },
         {
           "key": "BEN-231",
