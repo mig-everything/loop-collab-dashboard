@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T16:21:17Z",
+  "generated_at": "2026-10-08T16:25:27Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -358,11 +358,9 @@
           "model": "zai:glm-5.3",
           "agent_id": "44fcec25-d8b3-4af6-b206-1774a64677ce",
           "state": "working",
-          "issue": "IPD-381",
-          "issue_title": "[Dev] 双端构建后自动截图采集 worker：无头AVD/monkey(安卓) + hdc install/snap",
-          "since": "2026-10-08T16:16:07Z",
-          "parent_issue": "IPD-379",
-          "parent_title": "[流程补缺] 鸿蒙端自动截图采集——签名 hap(人类资产) + 模拟器执行机 worker"
+          "issue": "IPD-378",
+          "issue_title": "[Dev] REQ-016 数独 双端编码（第16场景·game 益智填数·P0主线·gated on SE 矩阵·队列",
+          "since": "2026-10-08T16:14:43Z"
         },
         {
           "name": "hermes-tester",
