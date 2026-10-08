@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T11:39:03Z",
+  "generated_at": "2026-10-08T11:43:55Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -119,9 +119,10 @@
           "role": "DeepSeek Planner（小组 leader/PM）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "547cd361-ef50-4965-9477-bc659d8a1708",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "BEN-225",
+          "issue_title": "[观察员日报] 2026-10-08 通过率与 Agent 时间轴",
+          "since": "2026-10-08T11:42:15Z"
         },
         {
           "name": "minimax-visual-diff",
@@ -139,10 +140,9 @@
           "role": "只读洞察项目目标与执行证据，用简单语言汇报进展、偏差和阻塞，",
           "model": "gpt-6-astra",
           "agent_id": "33b902ee-a4ca-46ae-9284-c8285311c687",
-          "state": "working",
-          "issue": "BEN-225",
-          "issue_title": "[观察员日报] 2026-10-08 通过率与 Agent 时间轴",
-          "since": "2026-10-08T11:37:15Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         }
       ],
       "issue_counts": {
@@ -156,7 +156,7 @@
           "key": "BEN-225",
           "title": "[观察员日报] 2026-10-08 通过率与 Agent 时间轴",
           "status": "todo",
-          "updated_at": "2026-10-08T11:37:15Z"
+          "updated_at": "2026-10-08T11:42:11Z"
         },
         {
           "key": "BEN-234",
@@ -193,78 +193,7 @@
       "meeting_active": false,
       "meeting_title": "",
       "progress": 49,
-      "agents": [
-        {
-          "name": "opus-analyzer",
-          "emoji": "🦁",
-          "role": "Opus Analyzer",
-          "model": "claude-opus-5-5",
-          "agent_id": "2f32549c-87c7-4202-8f54-3af79a30afa0",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
-        },
-        {
-          "name": "deepseek-planner",
-          "emoji": "⚡",
-          "role": "DeepSeek Planner（小组 leader/PM，",
-          "model": "deepseek:deepseek-v4-pro",
-          "agent_id": "950ff614-521d-4e32-a02d-423d41a7b2b3",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
-        },
-        {
-          "name": "dw-lead",
-          "emoji": "🐵",
-          "role": "DW 迁移执行小队队长",
-          "model": "claude-opus-5-5",
-          "agent_id": "c6ff7c69-0db4-4b35-ac81-dd00e5a53ba4",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
-        },
-        {
-          "name": "exec-runner",
-          "emoji": "🐙",
-          "role": "运行员",
-          "model": "claude-opus-5-5",
-          "agent_id": "1c3481f5-135b-4959-9daa-c510c076d494",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
-        },
-        {
-          "name": "exec-verifier",
-          "emoji": "🐝",
-          "role": "验证员",
-          "model": "claude-opus-5-5",
-          "agent_id": "69822c63-0dcc-4f3e-875d-7b300d437623",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
-        },
-        {
-          "name": "exec-fixer",
-          "emoji": "⭐",
-          "role": "修复员",
-          "model": "claude-opus-5-5",
-          "agent_id": "cd70e713-a339-4621-8699-2058d9cf7d6b",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
-        },
-        {
-          "name": "deveco",
-          "emoji": "👾",
-          "role": null,
-          "model": "",
-          "agent_id": "08a037a0-da6b-4ef0-b623-24732954c8fe",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
-        }
-      ],
+      "agents": [],
       "issue_counts": {
         "todo": 0,
         "in_progress": 0,
