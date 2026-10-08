@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T10:56:06Z",
+  "generated_at": "2026-10-08T11:15:57Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -386,9 +386,10 @@
           "role": "DeepSeek Planner（小组 leader/PM ",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-250",
+          "issue_title": "[验收标准更新] Eazo 网页 UI 对比体验优化首批已落地（246c1cc），收尾：features数据生产/Mac",
+          "since": "2026-10-08T11:15:29Z"
         },
         {
           "name": "minimax-uijudge",
