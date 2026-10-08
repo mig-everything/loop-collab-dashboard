@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T12:38:11Z",
+  "generated_at": "2026-10-08T12:42:37Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -415,7 +415,7 @@
           "key": "IPD-382",
           "title": "[环境修复] Mac Mini 双端自动截图接通：实例更新+设备可见性+鸿蒙签名+E2E 验证",
           "status": "in_progress",
-          "updated_at": "2026-10-08T12:35:37Z"
+          "updated_at": "2026-10-08T12:42:55Z"
         },
         {
           "key": "IPD-379",
