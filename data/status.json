@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T20:16:56Z",
+  "generated_at": "2026-10-08T20:24:18Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -154,16 +154,16 @@
       },
       "latest_issues": [
         {
+          "key": "BEN-241",
+          "title": "[任务·第1轮] 视觉差分 P0/P1 修复·scenarist 侧：binding 重定基 + 注",
+          "status": "in_progress",
+          "updated_at": "2026-10-08T20:22:19Z"
+        },
+        {
           "key": "BEN-240",
           "title": "[早会纪要] 2026-10-09",
           "status": "done",
           "updated_at": "2026-10-08T20:14:33Z"
-        },
-        {
-          "key": "BEN-241",
-          "title": "[任务·第1轮] 视觉差分 P0/P1 修复·scenarist 侧：binding 重定基 + 注",
-          "status": "in_progress",
-          "updated_at": "2026-10-08T20:09:11Z"
         },
         {
           "key": "BEN-135",
