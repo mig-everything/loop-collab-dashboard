@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T04:44:49Z",
+  "generated_at": "2026-10-08T04:49:23Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -99,10 +99,9 @@
           "role": "GPT Scenarist",
           "model": "zai:glm-5.3",
           "agent_id": "6e6f1e24-3bc5-455a-85d2-cb3fb6c9a672",
-          "state": "working",
-          "issue": "BEN-135",
-          "issue_title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 100（ref BEN",
-          "since": "2026-10-08T04:24:22Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "glm-runner",
@@ -164,6 +163,12 @@
       },
       "latest_issues": [
         {
+          "key": "BEN-135",
+          "title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 1",
+          "status": "in_progress",
+          "updated_at": "2026-10-08T04:47:22Z"
+        },
+        {
           "key": "BEN-228",
           "title": "[任务·第2轮] DIFF⑥ AP 振荡族确定性化 + 视觉差分 runner 维护项承接（ref ",
           "status": "in_progress",
@@ -180,12 +185,6 @@
           "title": "[任务·第2轮] 口径⑤ 视觉差分续：剩余 6 变体 gold-vs-test + SC/test3",
           "status": "todo",
           "updated_at": "2026-10-08T04:28:46Z"
-        },
-        {
-          "key": "BEN-135",
-          "title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 1",
-          "status": "in_progress",
-          "updated_at": "2026-10-08T04:24:18Z"
         },
         {
           "key": "BEN-227",
