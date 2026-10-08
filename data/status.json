@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T14:05:10Z",
+  "generated_at": "2026-10-08T15:04:43Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -386,9 +386,10 @@
           "role": "DeepSeek Planner（小组 leader/PM ",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-384",
+          "issue_title": "[环境] 任务四 glm 新 key 换绑（agents + 平台生成通道）并执行 IPD-382 DoD-5 E2E",
+          "since": "2026-10-08T15:02:26Z"
         },
         {
           "name": "minimax-uijudge",
@@ -402,23 +403,29 @@
         }
       ],
       "issue_counts": {
-        "todo": 1,
+        "todo": 2,
         "in_progress": 2,
         "in_review": 1,
-        "done": 92
+        "done": 91
       },
       "latest_issues": [
+        {
+          "key": "IPD-382",
+          "title": "[环境修复] Mac Mini 双端自动截图接通：实例更新+设备可见性+鸿蒙签名+E2E 验证",
+          "status": "in_review",
+          "updated_at": "2026-10-08T15:04:21Z"
+        },
+        {
+          "key": "IPD-384",
+          "title": "[环境] 任务四 glm 新 key 换绑（agents + 平台生成通道）并执行 IPD-382 ",
+          "status": "todo",
+          "updated_at": "2026-10-08T15:02:24Z"
+        },
         {
           "key": "IPD-383",
           "title": "[空闲检测] 2026-10-08 leader 两小时正点检查与加派",
           "status": "done",
           "updated_at": "2026-10-08T14:03:20Z"
-        },
-        {
-          "key": "IPD-382",
-          "title": "[环境修复] Mac Mini 双端自动截图接通：实例更新+设备可见性+鸿蒙签名+E2E 验证",
-          "status": "in_review",
-          "updated_at": "2026-10-08T12:53:22Z"
         },
         {
           "key": "IPD-377",
@@ -431,12 +438,6 @@
           "title": "[流程补缺] 鸿蒙端自动截图采集——签名 hap(人类资产) + 模拟器执行机 worker",
           "status": "in_progress",
           "updated_at": "2026-10-08T12:20:07Z"
-        },
-        {
-          "key": "IPD-380",
-          "title": "[误建作废] 误操作创建,内容见 IPD-379",
-          "status": "cancelled",
-          "updated_at": "2026-10-08T12:13:45Z"
         }
       ]
     }
