@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T20:01:43Z",
+  "generated_at": "2026-10-08T20:09:19Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -7,8 +7,8 @@
       "workspace": "ws-survey-loop",
       "machine": "JordanZTdeMacBook-Pro",
       "machine_online": true,
-      "meeting_active": false,
-      "meeting_title": "",
+      "meeting_active": true,
+      "meeting_title": "[晨会纪要] 2026-10-09",
       "progress": 47,
       "agents": [
         {
@@ -17,7 +17,7 @@
           "role": "GPT Writer（执笔者）",
           "model": "gpt-6-luna",
           "agent_id": "58ed4647-32dd-4ca1-8ddc-194b975d6024",
-          "state": "idle",
+          "state": "meeting",
           "issue": "",
           "issue_title": ""
         },
@@ -27,7 +27,7 @@
           "role": "Kimi Adversarial Reviewer（对抗评审",
           "model": "",
           "agent_id": "6e530cc6-6b9d-4398-936d-df9c13468125",
-          "state": "idle",
+          "state": "meeting",
           "issue": "",
           "issue_title": ""
         },
@@ -45,16 +45,22 @@
       ],
       "issue_counts": {
         "todo": 3,
-        "in_progress": 0,
+        "in_progress": 1,
         "in_review": 0,
-        "done": 93
+        "done": 92
       },
       "latest_issues": [
         {
+          "key": "SUR-273",
+          "title": "[流程优化] Opt-026：会议目标对齐/日报归档复用本地 SSH 工作仓（次日验证）",
+          "status": "backlog",
+          "updated_at": "2026-10-08T20:09:18Z"
+        },
+        {
           "key": "SUR-272",
           "title": "[晨会纪要] 2026-10-09",
-          "status": "todo",
-          "updated_at": "2026-10-08T20:00:11Z"
+          "status": "in_progress",
+          "updated_at": "2026-10-08T20:06:13Z"
         },
         {
           "key": "SUR-271",
@@ -73,12 +79,6 @@
           "title": "[晚会日报] 2026-10-08",
           "status": "done",
           "updated_at": "2026-10-08T12:28:19Z"
-        },
-        {
-          "key": "SUR-269",
-          "title": "[流程优化] Opt-025：全员发言触发核验（次日验证）",
-          "status": "backlog",
-          "updated_at": "2026-10-08T12:14:20Z"
         }
       ],
       "progress_note": "day-4 晨 37% → 午 42% → 晚 44% → 夜 47%",
@@ -92,7 +92,7 @@
       "machine_online": true,
       "meeting_active": false,
       "meeting_title": "",
-      "progress": 88,
+      "progress": 90,
       "agents": [
         {
           "name": "gpt-scenarist",
@@ -100,9 +100,10 @@
           "role": "GPT Scenarist",
           "model": "zai:glm-5.3",
           "agent_id": "6e6f1e24-3bc5-455a-85d2-cb3fb6c9a672",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "BEN-135",
+          "issue_title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 100（ref BEN",
+          "since": "2026-10-08T20:08:33Z"
         },
         {
           "name": "glm-runner",
@@ -110,9 +111,10 @@
           "role": "GLM Runner & Analyst",
           "model": "",
           "agent_id": "bdaefa9b-7045-4264-95e4-1db664e353d0",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "BEN-240",
+          "issue_title": "[早会纪要] 2026-10-09",
+          "since": "2026-10-08T20:08:35Z"
         },
         {
           "name": "deepseek-planner",
@@ -120,10 +122,9 @@
           "role": "DeepSeek Planner（小组 leader/PM）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "547cd361-ef50-4965-9477-bc659d8a1708",
-          "state": "working",
-          "issue": "BEN-240",
-          "issue_title": "[早会纪要] 2026-10-09",
-          "since": "2026-10-08T20:00:21Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "minimax-visual-diff",
@@ -147,43 +148,44 @@
         }
       ],
       "issue_counts": {
-        "todo": 2,
-        "in_progress": 1,
+        "todo": 1,
+        "in_progress": 3,
         "in_review": 0,
-        "done": 97
+        "done": 96
       },
       "latest_issues": [
         {
           "key": "BEN-240",
           "title": "[早会纪要] 2026-10-09",
-          "status": "todo",
-          "updated_at": "2026-10-08T20:00:20Z"
+          "status": "done",
+          "updated_at": "2026-10-08T20:09:24Z"
+        },
+        {
+          "key": "BEN-241",
+          "title": "[任务·第1轮] 视觉差分 P0/P1 修复·scenarist 侧：binding 重定基 + 注",
+          "status": "in_progress",
+          "updated_at": "2026-10-08T20:09:11Z"
         },
         {
           "key": "BEN-135",
           "title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 1",
           "status": "in_progress",
-          "updated_at": "2026-10-08T16:29:14Z"
+          "updated_at": "2026-10-08T20:08:32Z"
+        },
+        {
+          "key": "BEN-242",
+          "title": "[任务·第1轮] 视觉差分 P0/P1 修复·runner 侧 pre-grant + test2 ",
+          "status": "in_progress",
+          "updated_at": "2026-10-08T20:08:22Z"
         },
         {
           "key": "BEN-239",
           "title": "[巡检] 2026-10-09 leader Issue 状态巡检与催办",
           "status": "done",
           "updated_at": "2026-10-08T16:07:46Z"
-        },
-        {
-          "key": "BEN-237",
-          "title": "[任务·第3轮] 视觉差分 P0/P1 修复 backlog 整理：可派发修复归属台账（ref BE",
-          "status": "done",
-          "updated_at": "2026-10-08T16:07:24Z"
-        },
-        {
-          "key": "BEN-235",
-          "title": "[鸿蒙覆盖缺口] 鸿蒙每日主线停留各 app ~20 条固定 subset，未随轮次扩大测试范围（相",
-          "status": "done",
-          "updated_at": "2026-10-08T16:07:23Z"
         }
-      ]
+      ],
+      "progress_note": "环比 +1pp，主缺口仍 ③a 安卓可执行覆盖率；夜间三线均有落地增量"
     },
     {
       "id": "task3-dw-migration",
@@ -191,8 +193,8 @@
       "workspace": "ws-dw-migration-loop",
       "machine": "奕棣 MacBook",
       "machine_online": true,
-      "meeting_active": false,
-      "meeting_title": "",
+      "meeting_active": true,
+      "meeting_title": "[早会纪要] 2026-10-09",
       "progress": 49,
       "agents": [
         {
@@ -201,7 +203,7 @@
           "role": "Opus Analyzer",
           "model": "claude-opus-5-5",
           "agent_id": "2f32549c-87c7-4202-8f54-3af79a30afa0",
-          "state": "idle",
+          "state": "meeting",
           "issue": "",
           "issue_title": ""
         },
@@ -222,9 +224,10 @@
           "role": "DW 迁移执行小队队长",
           "model": "claude-opus-5-5",
           "agent_id": "c6ff7c69-0db4-4b35-ac81-dd00e5a53ba4",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "DWM-265",
+          "issue_title": "[早会纪要] 2026-10-09",
+          "since": "2026-10-08T20:09:37Z"
         },
         {
           "name": "exec-runner",
@@ -232,7 +235,7 @@
           "role": "运行员",
           "model": "claude-opus-5-5",
           "agent_id": "1c3481f5-135b-4959-9daa-c510c076d494",
-          "state": "idle",
+          "state": "meeting",
           "issue": "",
           "issue_title": ""
         },
@@ -242,7 +245,7 @@
           "role": "验证员",
           "model": "claude-opus-5-5",
           "agent_id": "69822c63-0dcc-4f3e-875d-7b300d437623",
-          "state": "idle",
+          "state": "meeting",
           "issue": "",
           "issue_title": ""
         },
@@ -252,7 +255,7 @@
           "role": "修复员",
           "model": "claude-opus-5-5",
           "agent_id": "cd70e713-a339-4621-8699-2058d9cf7d6b",
-          "state": "idle",
+          "state": "meeting",
           "issue": "",
           "issue_title": ""
         },
@@ -262,14 +265,14 @@
           "role": null,
           "model": "",
           "agent_id": "08a037a0-da6b-4ef0-b623-24732954c8fe",
-          "state": "idle",
+          "state": "meeting",
           "issue": "",
           "issue_title": ""
         }
       ],
       "issue_counts": {
-        "todo": 1,
-        "in_progress": 0,
+        "todo": 0,
+        "in_progress": 1,
         "in_review": 0,
         "done": 65
       },
@@ -277,8 +280,8 @@
         {
           "key": "DWM-265",
           "title": "[早会纪要] 2026-10-09",
-          "status": "todo",
-          "updated_at": "2026-10-08T20:00:14Z"
+          "status": "in_progress",
+          "updated_at": "2026-10-08T20:09:35Z"
         },
         {
           "key": "DWM-264",
@@ -311,7 +314,7 @@
         "status": "blocked",
         "updated_at": "2026-10-08T01:32:00Z"
       },
-      "progress_note": "10 个应用：完成 7、进行中 1、暂停 0、未开始 2；早会 dw-lead standup"
+      "progress_note": "10 个应用：完成 7、暂停 1、未开始 2"
     },
     {
       "id": "task4-ipd-eazo",
@@ -321,7 +324,7 @@
       "machine_online": true,
       "meeting_active": false,
       "meeting_title": "",
-      "progress": 93,
+      "progress": 94,
       "agents": [
         {
           "name": "hermes-pm",
@@ -329,9 +332,10 @@
           "role": "IPD-PM 产品经理",
           "model": "",
           "agent_id": "1764c131-5c09-48cb-aa48-3177d5256dbb",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-388",
+          "issue_title": "[PM] REQ-017 第17场景预研 + 需求池扩充（day-15第1轮·P1·番茄钟正式化决策）",
+          "since": "2026-10-08T20:09:21Z"
         },
         {
           "name": "hermes-sa",
@@ -359,9 +363,10 @@
           "role": "IPD-Dev 开发工程师",
           "model": "zai:glm-5.3",
           "agent_id": "44fcec25-d8b3-4af6-b206-1774a64677ce",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-378",
+          "issue_title": "[Dev] REQ-016 数独 双端编码（第16场景·game 益智填数·P0主线·gated on SE 矩阵·队列",
+          "since": "2026-10-08T20:09:11Z"
         },
         {
           "name": "hermes-tester",
@@ -379,9 +384,10 @@
           "role": "IPD-RM 发布经理",
           "model": "zai:glm-5.3",
           "agent_id": "78156461-9644-478e-9c80-53cd18e25e33",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-371",
+          "issue_title": "[RM] REQ-015 房贷计算器 C2 决胜样本度量（四维差终局+glm回滚首收敛观测·gated on Dev 发",
+          "since": "2026-10-08T20:09:01Z"
         },
         {
           "name": "deepseek-planner",
@@ -406,41 +412,41 @@
         }
       ],
       "issue_counts": {
-        "todo": 3,
+        "todo": 4,
         "in_progress": 0,
         "in_review": 2,
-        "done": 93
+        "done": 92
       },
       "latest_issues": [
         {
-          "key": "IPD-387",
-          "title": "[早会纪要] 2026-10-09",
+          "key": "IPD-388",
+          "title": "[PM] REQ-017 第17场景预研 + 需求池扩充（day-15第1轮·P1·番茄钟正式化决策",
           "status": "todo",
-          "updated_at": "2026-10-08T20:00:19Z"
+          "updated_at": "2026-10-08T20:09:20Z"
+        },
+        {
+          "key": "IPD-378",
+          "title": "[Dev] REQ-016 数独 双端编码（第16场景·game 益智填数·P0主线·gated o",
+          "status": "todo",
+          "updated_at": "2026-10-08T20:09:11Z"
+        },
+        {
+          "key": "IPD-374",
+          "title": "[Dev] uijudge 通道生产部署 + 正式场景 UI 维转正（gated on 763bd0",
+          "status": "in_review",
+          "updated_at": "2026-10-08T20:09:03Z"
         },
         {
           "key": "IPD-386",
           "title": "[Dev] Eazo 引擎时长/Token 双维负差归因与收敛（番茄钟样本 鸿蒙+43.7%/+42",
           "status": "todo",
-          "updated_at": "2026-10-08T17:28:05Z"
-        },
-        {
-          "key": "IPD-384",
-          "title": "[环境] 任务四 glm 新 key 换绑（agents + 平台生成通道）并执行 IPD-382 ",
-          "status": "done",
-          "updated_at": "2026-10-08T16:45:13Z"
+          "updated_at": "2026-10-08T20:09:02Z"
         },
         {
           "key": "IPD-371",
           "title": "[RM] REQ-015 房贷计算器 C2 决胜样本度量（四维差终局+glm回滚首收敛观测·gate",
           "status": "in_review",
-          "updated_at": "2026-10-08T16:43:52Z"
-        },
-        {
-          "key": "IPD-382",
-          "title": "[环境修复] Mac Mini 双端自动截图接通：实例更新+设备可见性+鸿蒙签名+E2E 验证",
-          "status": "done",
-          "updated_at": "2026-10-08T16:41:42Z"
+          "updated_at": "2026-10-08T20:09:01Z"
         }
       ]
     }
