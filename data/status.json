@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T12:56:16Z",
+  "generated_at": "2026-10-08T13:42:16Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -109,10 +109,9 @@
           "role": "GLM Runner & Analyst",
           "model": "",
           "agent_id": "bdaefa9b-7045-4264-95e4-1db664e353d0",
-          "state": "working",
-          "issue": "BEN-235",
-          "issue_title": "[鸿蒙覆盖缺口] 鸿蒙每日主线停留各 app ~20 条固定 subset，未随轮次扩大测试范围（相对安卓 backfi",
-          "since": "2026-10-08T11:46:21Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "deepseek-planner",
@@ -147,11 +146,17 @@
       ],
       "issue_counts": {
         "todo": 1,
-        "in_progress": 2,
-        "in_review": 1,
+        "in_progress": 1,
+        "in_review": 2,
         "done": 96
       },
       "latest_issues": [
+        {
+          "key": "BEN-235",
+          "title": "[鸿蒙覆盖缺口] 鸿蒙每日主线停留各 app ~20 条固定 subset，未随轮次扩大测试范围（相",
+          "status": "in_review",
+          "updated_at": "2026-10-08T13:39:36Z"
+        },
         {
           "key": "BEN-135",
           "title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 1",
@@ -175,12 +180,6 @@
           "title": "[任务·第2轮] 口径⑤ 视觉差分续：剩余 6 变体 gold-vs-test + SC/test3",
           "status": "done",
           "updated_at": "2026-10-08T12:07:53Z"
-        },
-        {
-          "key": "BEN-235",
-          "title": "[鸿蒙覆盖缺口] 鸿蒙每日主线停留各 app ~20 条固定 subset，未随轮次扩大测试范围（相",
-          "status": "in_progress",
-          "updated_at": "2026-10-08T11:46:57Z"
         }
       ]
     },
