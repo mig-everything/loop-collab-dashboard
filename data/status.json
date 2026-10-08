@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T16:25:27Z",
+  "generated_at": "2026-10-08T16:29:58Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -99,10 +99,9 @@
           "role": "GPT Scenarist",
           "model": "zai:glm-5.3",
           "agent_id": "6e6f1e24-3bc5-455a-85d2-cb3fb6c9a672",
-          "state": "working",
-          "issue": "BEN-135",
-          "issue_title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 100（ref BEN",
-          "since": "2026-10-08T16:07:41Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "glm-runner",
@@ -153,16 +152,16 @@
       },
       "latest_issues": [
         {
+          "key": "BEN-135",
+          "title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 1",
+          "status": "in_progress",
+          "updated_at": "2026-10-08T16:29:14Z"
+        },
+        {
           "key": "BEN-239",
           "title": "[巡检] 2026-10-09 leader Issue 状态巡检与催办",
           "status": "done",
           "updated_at": "2026-10-08T16:07:46Z"
-        },
-        {
-          "key": "BEN-135",
-          "title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 1",
-          "status": "in_progress",
-          "updated_at": "2026-10-08T16:07:38Z"
         },
         {
           "key": "BEN-237",
@@ -357,10 +356,9 @@
           "role": "IPD-Dev 开发工程师",
           "model": "zai:glm-5.3",
           "agent_id": "44fcec25-d8b3-4af6-b206-1774a64677ce",
-          "state": "working",
-          "issue": "IPD-378",
-          "issue_title": "[Dev] REQ-016 数独 双端编码（第16场景·game 益智填数·P0主线·gated on SE 矩阵·队列",
-          "since": "2026-10-08T16:14:43Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "hermes-tester",
@@ -412,6 +410,12 @@
       },
       "latest_issues": [
         {
+          "key": "IPD-378",
+          "title": "[Dev] REQ-016 数独 双端编码（第16场景·game 益智填数·P0主线·gated o",
+          "status": "todo",
+          "updated_at": "2026-10-08T16:29:12Z"
+        },
+        {
           "key": "IPD-374",
           "title": "[Dev] uijudge 通道生产部署 + 正式场景 UI 维转正（gated on 763bd0",
           "status": "in_review",
@@ -428,12 +432,6 @@
           "title": "[RM] REQ-015 房贷计算器 C2 决胜样本度量（四维差终局+glm回滚首收敛观测·gate",
           "status": "in_progress",
           "updated_at": "2026-10-08T16:16:01Z"
-        },
-        {
-          "key": "IPD-378",
-          "title": "[Dev] REQ-016 数独 双端编码（第16场景·game 益智填数·P0主线·gated o",
-          "status": "todo",
-          "updated_at": "2026-10-08T16:15:46Z"
         },
         {
           "key": "IPD-379",
