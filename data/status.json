@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T20:13:10Z",
+  "generated_at": "2026-10-08T20:16:56Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -157,7 +157,7 @@
           "key": "BEN-240",
           "title": "[早会纪要] 2026-10-09",
           "status": "done",
-          "updated_at": "2026-10-08T20:09:24Z"
+          "updated_at": "2026-10-08T20:14:33Z"
         },
         {
           "key": "BEN-241",
@@ -192,9 +192,9 @@
       "workspace": "ws-dw-migration-loop",
       "machine": "奕棣 MacBook",
       "machine_online": true,
-      "meeting_active": true,
-      "meeting_title": "[早会纪要] 2026-10-09",
-      "progress": 49,
+      "meeting_active": false,
+      "meeting_title": "",
+      "progress": 50,
       "agents": [
         {
           "name": "opus-analyzer",
@@ -202,7 +202,7 @@
           "role": "Opus Analyzer",
           "model": "claude-opus-5-5",
           "agent_id": "2f32549c-87c7-4202-8f54-3af79a30afa0",
-          "state": "meeting",
+          "state": "idle",
           "issue": "",
           "issue_title": ""
         },
@@ -212,7 +212,7 @@
           "role": "DeepSeek Planner（小组 leader/PM，",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "950ff614-521d-4e32-a02d-423d41a7b2b3",
-          "state": "meeting",
+          "state": "idle",
           "issue": "",
           "issue_title": ""
         },
@@ -222,7 +222,7 @@
           "role": "DW 迁移执行小队队长",
           "model": "claude-opus-5-5",
           "agent_id": "c6ff7c69-0db4-4b35-ac81-dd00e5a53ba4",
-          "state": "meeting",
+          "state": "idle",
           "issue": "",
           "issue_title": ""
         },
@@ -232,7 +232,7 @@
           "role": "运行员",
           "model": "claude-opus-5-5",
           "agent_id": "1c3481f5-135b-4959-9daa-c510c076d494",
-          "state": "meeting",
+          "state": "idle",
           "issue": "",
           "issue_title": ""
         },
@@ -242,7 +242,7 @@
           "role": "验证员",
           "model": "claude-opus-5-5",
           "agent_id": "69822c63-0dcc-4f3e-875d-7b300d437623",
-          "state": "meeting",
+          "state": "idle",
           "issue": "",
           "issue_title": ""
         },
@@ -252,7 +252,7 @@
           "role": "修复员",
           "model": "claude-opus-5-5",
           "agent_id": "cd70e713-a339-4621-8699-2058d9cf7d6b",
-          "state": "meeting",
+          "state": "idle",
           "issue": "",
           "issue_title": ""
         },
@@ -262,23 +262,23 @@
           "role": null,
           "model": "",
           "agent_id": "08a037a0-da6b-4ef0-b623-24732954c8fe",
-          "state": "meeting",
+          "state": "idle",
           "issue": "",
           "issue_title": ""
         }
       ],
       "issue_counts": {
         "todo": 0,
-        "in_progress": 1,
+        "in_progress": 0,
         "in_review": 0,
-        "done": 65
+        "done": 66
       },
       "latest_issues": [
         {
           "key": "DWM-265",
           "title": "[早会纪要] 2026-10-09",
-          "status": "in_progress",
-          "updated_at": "2026-10-08T20:11:23Z"
+          "status": "done",
+          "updated_at": "2026-10-08T20:16:54Z"
         },
         {
           "key": "DWM-264",
@@ -311,7 +311,7 @@
         "status": "blocked",
         "updated_at": "2026-10-08T01:32:00Z"
       },
-      "progress_note": "10 个应用：完成 7、暂停 1、未开始 2"
+      "progress_note": "10 个应用：完成 7、进行中 0、暂停 1、未开始 2"
     },
     {
       "id": "task4-ipd-eazo",
@@ -329,10 +329,9 @@
           "role": "IPD-PM 产品经理",
           "model": "",
           "agent_id": "1764c131-5c09-48cb-aa48-3177d5256dbb",
-          "state": "working",
-          "issue": "IPD-388",
-          "issue_title": "[PM] REQ-017 第17场景预研 + 需求池扩充（day-15第1轮·P1·番茄钟正式化决策）",
-          "since": "2026-10-08T20:09:21Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "hermes-sa",
@@ -350,10 +349,9 @@
           "role": "IPD-SE 系统工程师",
           "model": "zai:glm-5.3",
           "agent_id": "b874ba6b-80e6-45c6-a8c6-aedc6f2b326b",
-          "state": "working",
-          "issue": "IPD-387",
-          "issue_title": "[早会纪要] 2026-10-09",
-          "since": "2026-10-08T20:10:16Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "hermes-dev",
@@ -361,10 +359,9 @@
           "role": "IPD-Dev 开发工程师",
           "model": "zai:glm-5.3",
           "agent_id": "44fcec25-d8b3-4af6-b206-1774a64677ce",
-          "state": "working",
-          "issue": "IPD-387",
-          "issue_title": "[早会纪要] 2026-10-09",
-          "since": "2026-10-08T20:10:16Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "hermes-tester",
@@ -408,41 +405,41 @@
         }
       ],
       "issue_counts": {
-        "todo": 2,
+        "todo": 0,
         "in_progress": 0,
-        "in_review": 3,
+        "in_review": 5,
         "done": 93
       },
       "latest_issues": [
         {
+          "key": "IPD-388",
+          "title": "[PM] REQ-017 第17场景预研 + 需求池扩充（day-15第1轮·P1·番茄钟正式化决策",
+          "status": "in_review",
+          "updated_at": "2026-10-08T20:16:54Z"
+        },
+        {
+          "key": "IPD-378",
+          "title": "[Dev] REQ-016 数独 双端编码（第16场景·game 益智填数·P0主线·gated o",
+          "status": "in_review",
+          "updated_at": "2026-10-08T20:16:04Z"
+        },
+        {
           "key": "IPD-387",
           "title": "[早会纪要] 2026-10-09",
           "status": "done",
-          "updated_at": "2026-10-08T20:13:02Z"
+          "updated_at": "2026-10-08T20:15:31Z"
+        },
+        {
+          "key": "IPD-374",
+          "title": "[Dev] uijudge 通道生产部署 + 正式场景 UI 维转正（gated on 763bd0",
+          "status": "in_review",
+          "updated_at": "2026-10-08T20:14:26Z"
         },
         {
           "key": "IPD-371",
           "title": "[RM] REQ-015 房贷计算器 C2 决胜样本度量（四维差终局+glm回滚首收敛观测·gate",
           "status": "in_review",
           "updated_at": "2026-10-08T20:10:34Z"
-        },
-        {
-          "key": "IPD-386",
-          "title": "[Dev] Eazo 引擎时长/Token 双维负差归因与收敛（番茄钟样本 鸿蒙+43.7%/+42",
-          "status": "in_review",
-          "updated_at": "2026-10-08T20:10:26Z"
-        },
-        {
-          "key": "IPD-388",
-          "title": "[PM] REQ-017 第17场景预研 + 需求池扩充（day-15第1轮·P1·番茄钟正式化决策",
-          "status": "todo",
-          "updated_at": "2026-10-08T20:09:20Z"
-        },
-        {
-          "key": "IPD-378",
-          "title": "[Dev] REQ-016 数独 双端编码（第16场景·game 益智填数·P0主线·gated o",
-          "status": "todo",
-          "updated_at": "2026-10-08T20:09:11Z"
         }
       ]
     }
