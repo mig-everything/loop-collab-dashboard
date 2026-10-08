@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T15:19:40Z",
+  "generated_at": "2026-10-08T15:57:09Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -386,10 +386,9 @@
           "role": "DeepSeek Planner（小组 leader/PM ",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
-          "state": "working",
-          "issue": "IPD-384",
-          "issue_title": "[环境] 任务四 glm 新 key 换绑（agents + 平台生成通道）并执行 IPD-382 DoD-5 E2E",
-          "since": "2026-10-08T15:02:26Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "minimax-uijudge",
@@ -410,16 +409,16 @@
       },
       "latest_issues": [
         {
+          "key": "IPD-384",
+          "title": "[环境] 任务四 glm 新 key 换绑（agents + 平台生成通道）并执行 IPD-382 ",
+          "status": "todo",
+          "updated_at": "2026-10-08T15:55:57Z"
+        },
+        {
           "key": "IPD-382",
           "title": "[环境修复] Mac Mini 双端自动截图接通：实例更新+设备可见性+鸿蒙签名+E2E 验证",
           "status": "in_review",
           "updated_at": "2026-10-08T15:04:21Z"
-        },
-        {
-          "key": "IPD-384",
-          "title": "[环境] 任务四 glm 新 key 换绑（agents + 平台生成通道）并执行 IPD-382 ",
-          "status": "todo",
-          "updated_at": "2026-10-08T15:02:24Z"
         },
         {
           "key": "IPD-383",
