@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T08:32:17Z",
+  "generated_at": "2026-10-08T08:36:27Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -346,10 +346,9 @@
           "role": "IPD-Dev 开发工程师",
           "model": "zai:glm-5.3",
           "agent_id": "44fcec25-d8b3-4af6-b206-1774a64677ce",
-          "state": "working",
-          "issue": "IPD-374",
-          "issue_title": "[Dev] uijudge 通道生产部署 + 正式场景 UI 维转正（gated on 763bd05）",
-          "since": "2026-10-08T08:18:50Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "hermes-tester",
@@ -400,16 +399,16 @@
       },
       "latest_issues": [
         {
+          "key": "IPD-374",
+          "title": "[Dev] uijudge 通道生产部署 + 正式场景 UI 维转正（gated on 763bd0",
+          "status": "in_progress",
+          "updated_at": "2026-10-08T08:36:50Z"
+        },
+        {
           "key": "IPD-370",
           "title": "[Tester] REQ-015 房贷计算器 TR-Accept 差分执行 + 双端对比报告（第15",
           "status": "in_review",
           "updated_at": "2026-10-08T08:30:45Z"
-        },
-        {
-          "key": "IPD-374",
-          "title": "[Dev] uijudge 通道生产部署 + 正式场景 UI 维转正（gated on 763bd0",
-          "status": "in_progress",
-          "updated_at": "2026-10-08T08:20:41Z"
         },
         {
           "key": "IPD-371",
