@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T11:49:08Z",
+  "generated_at": "2026-10-08T11:54:15Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -140,12 +140,9 @@
           "role": "只读洞察项目目标与执行证据，用简单语言汇报进展、偏差和阻塞，",
           "model": "gpt-6-astra",
           "agent_id": "33b902ee-a4ca-46ae-9284-c8285311c687",
-          "state": "working",
-          "issue": "BEN-233",
-          "issue_title": "查看控件定位表：同一 App 多次鸿蒙迁移的 ID 匹配",
-          "since": "2026-10-08T11:48:48Z",
-          "parent_issue": "BEN-225",
-          "parent_title": "[观察员日报] 2026-10-08 通过率与 Agent 时间轴"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         }
       ],
       "issue_counts": {
@@ -272,7 +269,7 @@
         "todo": 0,
         "in_progress": 0,
         "in_review": 0,
-        "done": 65
+        "done": 66
       },
       "latest_issues": [
         {
@@ -307,10 +304,10 @@
         }
       ],
       "order": {
-        "key": "DWM-251",
-        "title": "[DW迁移任务单] OpenCamera 迁移 · 暂停（负责人要求）",
-        "status": "blocked",
-        "updated_at": "2026-10-08T01:32:00Z"
+        "key": "DWM-214",
+        "title": "[DW迁移任务单] CoolMall 迁移 · 已完成",
+        "status": "done",
+        "updated_at": "2026-10-07T15:28:53Z"
       },
       "progress_note": "10 个应用：完成 7、进行中 1、暂停 0、未开始 2；早会 dw-lead standup"
     },
@@ -390,7 +387,7 @@
           "role": "DeepSeek Planner（小组 leader/PM ",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
-          "state": "working",
+          "state": "idle",
           "issue": "",
           "issue_title": ""
         },
