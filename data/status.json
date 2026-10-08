@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T16:16:34Z",
+  "generated_at": "2026-10-08T16:21:17Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -391,7 +391,7 @@
           "role": "DeepSeek Planner（小组 leader/PM ",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
-          "state": "working",
+          "state": "idle",
           "issue": "",
           "issue_title": ""
         },
@@ -408,22 +408,22 @@
       ],
       "issue_counts": {
         "todo": 1,
-        "in_progress": 2,
-        "in_review": 1,
+        "in_progress": 1,
+        "in_review": 2,
         "done": 94
       },
       "latest_issues": [
+        {
+          "key": "IPD-374",
+          "title": "[Dev] uijudge 通道生产部署 + 正式场景 UI 维转正（gated on 763bd0",
+          "status": "in_review",
+          "updated_at": "2026-10-08T16:21:57Z"
+        },
         {
           "key": "IPD-385",
           "title": "[巡检] 2026-10-09 leader Issue 状态巡检与催办",
           "status": "done",
           "updated_at": "2026-10-08T16:17:14Z"
-        },
-        {
-          "key": "IPD-374",
-          "title": "[Dev] uijudge 通道生产部署 + 正式场景 UI 维转正（gated on 763bd0",
-          "status": "in_progress",
-          "updated_at": "2026-10-08T16:16:03Z"
         },
         {
           "key": "IPD-371",
