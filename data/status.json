@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T16:43:03Z",
+  "generated_at": "2026-10-08T16:47:21Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -356,9 +356,10 @@
           "role": "IPD-Dev 开发工程师",
           "model": "zai:glm-5.3",
           "agent_id": "44fcec25-d8b3-4af6-b206-1774a64677ce",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-386",
+          "issue_title": "[Dev] Eazo 引擎时长/Token 双维负差归因与收敛（番茄钟样本 鸿蒙+43.7%/+42.5% · 目标二四",
+          "since": "2026-10-08T16:44:43Z"
         },
         {
           "name": "hermes-tester",
@@ -376,7 +377,7 @@
           "role": "IPD-RM 发布经理",
           "model": "zai:glm-5.3",
           "agent_id": "78156461-9644-478e-9c80-53cd18e25e33",
-          "state": "working",
+          "state": "idle",
           "issue": "",
           "issue_title": ""
         },
@@ -386,10 +387,9 @@
           "role": "DeepSeek Planner（小组 leader/PM ",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
-          "state": "working",
-          "issue": "IPD-384",
-          "issue_title": "[环境] 任务四 glm 新 key 换绑（agents + 平台生成通道）并执行 IPD-382 DoD-5 E2E",
-          "since": "2026-10-08T16:41:10Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "minimax-uijudge",
@@ -403,12 +403,24 @@
         }
       ],
       "issue_counts": {
-        "todo": 1,
+        "todo": 2,
         "in_progress": 0,
         "in_review": 2,
-        "done": 95
+        "done": 94
       },
       "latest_issues": [
+        {
+          "key": "IPD-384",
+          "title": "[环境] 任务四 glm 新 key 换绑（agents + 平台生成通道）并执行 IPD-382 ",
+          "status": "done",
+          "updated_at": "2026-10-08T16:45:13Z"
+        },
+        {
+          "key": "IPD-386",
+          "title": "[Dev] Eazo 引擎时长/Token 双维负差归因与收敛（番茄钟样本 鸿蒙+43.7%/+42",
+          "status": "todo",
+          "updated_at": "2026-10-08T16:44:41Z"
+        },
         {
           "key": "IPD-371",
           "title": "[RM] REQ-015 房贷计算器 C2 决胜样本度量（四维差终局+glm回滚首收敛观测·gate",
@@ -422,22 +434,10 @@
           "updated_at": "2026-10-08T16:41:42Z"
         },
         {
-          "key": "IPD-384",
-          "title": "[环境] 任务四 glm 新 key 换绑（agents + 平台生成通道）并执行 IPD-382 ",
-          "status": "done",
-          "updated_at": "2026-10-08T16:41:09Z"
-        },
-        {
           "key": "IPD-378",
           "title": "[Dev] REQ-016 数独 双端编码（第16场景·game 益智填数·P0主线·gated o",
           "status": "todo",
           "updated_at": "2026-10-08T16:29:12Z"
-        },
-        {
-          "key": "IPD-374",
-          "title": "[Dev] uijudge 通道生产部署 + 正式场景 UI 维转正（gated on 763bd0",
-          "status": "in_review",
-          "updated_at": "2026-10-08T16:21:57Z"
         }
       ]
     }
