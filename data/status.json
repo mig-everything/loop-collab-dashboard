@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T01:31:35Z",
+  "generated_at": "2026-10-08T01:35:45Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -37,24 +37,35 @@
           "role": "DeepSeek Task Planner（任务规划+总结）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "04a4e04e-59d5-4f3a-8a16-acf99b80a493",
-          "state": "working",
-          "issue": "SUR-261",
-          "issue_title": "[巡检] 2026-10-08 leader Issue 状态巡检与催办",
-          "since": "2026-10-08T01:19:30Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         }
       ],
       "issue_counts": {
-        "todo": 0,
-        "in_progress": 2,
+        "todo": 1,
+        "in_progress": 0,
         "in_review": 0,
-        "done": 94
+        "done": 95
       },
       "latest_issues": [
         {
           "key": "SUR-261",
           "title": "[巡检] 2026-10-08 leader Issue 状态巡检与催办",
-          "status": "in_progress",
-          "updated_at": "2026-10-08T01:24:24Z"
+          "status": "done",
+          "updated_at": "2026-10-08T01:32:21Z"
+        },
+        {
+          "key": "SUR-259",
+          "title": "[晨会纪要] 2026-10-08",
+          "status": "done",
+          "updated_at": "2026-10-08T01:32:00Z"
+        },
+        {
+          "key": "SUR-262",
+          "title": "[流程优化] Opt-024：结项等待期负责人确认即时唤醒（次日验证）",
+          "status": "backlog",
+          "updated_at": "2026-10-08T01:31:57Z"
         },
         {
           "key": "SUR-260",
@@ -63,22 +74,10 @@
           "updated_at": "2026-10-07T22:06:10Z"
         },
         {
-          "key": "SUR-259",
-          "title": "[晨会纪要] 2026-10-08",
-          "status": "in_progress",
-          "updated_at": "2026-10-07T20:22:49Z"
-        },
-        {
           "key": "SUR-258",
           "title": "[空闲检测] 2026-10-08 leader 两小时正点检查与加派",
           "status": "done",
           "updated_at": "2026-10-07T18:06:11Z"
-        },
-        {
-          "key": "SUR-257",
-          "title": "[巡检] 2026-10-08 leader Issue 状态巡检与催办",
-          "status": "done",
-          "updated_at": "2026-10-07T16:06:10Z"
         }
       ],
       "progress_note": "day-4 晨 37% → 午 42% → 晚 44% → 夜 47%",
@@ -110,10 +109,9 @@
           "role": "GLM Runner & Analyst",
           "model": "",
           "agent_id": "bdaefa9b-7045-4264-95e4-1db664e353d0",
-          "state": "working",
-          "issue": "BEN-135",
-          "issue_title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 100（ref BEN",
-          "since": "2026-10-08T01:31:25Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "deepseek-planner",
@@ -167,7 +165,7 @@
           "key": "BEN-135",
           "title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 1",
           "status": "blocked",
-          "updated_at": "2026-10-08T01:31:20Z"
+          "updated_at": "2026-10-08T01:34:42Z"
         },
         {
           "key": "BEN-225",
@@ -231,10 +229,9 @@
           "role": "DW 迁移执行小队队长",
           "model": "claude-opus-5-5",
           "agent_id": "c6ff7c69-0db4-4b35-ac81-dd00e5a53ba4",
-          "state": "working",
-          "issue": "DWM-251",
-          "issue_title": "[DW迁移任务单] OpenCamera 迁移 · 暂停（负责人要求）",
-          "since": "2026-10-08T01:32:00Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "exec-runner",
@@ -242,10 +239,9 @@
           "role": "运行员",
           "model": "claude-opus-5-5",
           "agent_id": "1c3481f5-135b-4959-9daa-c510c076d494",
-          "state": "working",
-          "issue": "DWM-251",
-          "issue_title": "[DW迁移任务单] OpenCamera 迁移 · 暂停（负责人要求）",
-          "since": "2026-10-07T23:15:42Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "exec-verifier",
