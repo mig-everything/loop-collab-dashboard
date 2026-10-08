@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T04:25:35Z",
+  "generated_at": "2026-10-08T04:31:35Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -94,72 +94,104 @@
       "progress": 88,
       "agents": [
         {
-          "name": "gpt-writer",
-          "emoji": "🧠",
-          "role": "GPT Writer（执笔者）",
-          "model": "gpt-6-luna",
-          "agent_id": "58ed4647-32dd-4ca1-8ddc-194b975d6024",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "name": "gpt-scenarist",
+          "emoji": "🦊",
+          "role": "GPT Scenarist",
+          "model": "zai:glm-5.3",
+          "agent_id": "6e6f1e24-3bc5-455a-85d2-cb3fb6c9a672",
+          "state": "working",
+          "issue": "BEN-135",
+          "issue_title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 100（ref BEN",
+          "since": "2026-10-08T04:24:22Z"
         },
         {
-          "name": "kimi-adversary",
-          "emoji": "🦋",
-          "role": "Kimi Adversarial Reviewer（对抗评审",
+          "name": "glm-runner",
+          "emoji": "👾",
+          "role": "GLM Runner & Analyst",
           "model": "",
-          "agent_id": "6e530cc6-6b9d-4398-936d-df9c13468125",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "agent_id": "bdaefa9b-7045-4264-95e4-1db664e353d0",
+          "state": "working",
+          "issue": "BEN-227",
+          "issue_title": "[午会纪要] 2026-10-08",
+          "since": "2026-10-08T04:08:50Z"
         },
         {
           "name": "deepseek-planner",
-          "emoji": "🐸",
-          "role": "DeepSeek Task Planner（任务规划+总结）",
+          "emoji": "🍀",
+          "role": "DeepSeek Planner（小组 leader/PM）",
           "model": "deepseek:deepseek-v4-pro",
-          "agent_id": "04a4e04e-59d5-4f3a-8a16-acf99b80a493",
+          "agent_id": "547cd361-ef50-4965-9477-bc659d8a1708",
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
+        },
+        {
+          "name": "minimax-visual-diff",
+          "emoji": "🐼",
+          "role": "MiniMax 多模态视觉差分评审",
+          "model": "minimax-cn:MiniMax-M3",
+          "agent_id": "843ac45d-b5db-4f35-b07b-2e5754ec5a5f",
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
+        },
+        {
+          "name": "项目观察员",
+          "emoji": "🔍",
+          "role": "只读洞察项目目标与执行证据，用简单语言汇报进展、偏差和阻塞，",
+          "model": "",
+          "agent_id": "4b674e90-4726-4eba-bd5c-06350e0b8b83",
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
+        },
+        {
+          "name": "项目观察员（GPT-6）",
+          "emoji": "🔍",
+          "role": "只读洞察项目目标与执行证据，用简单语言汇报进展、偏差和阻塞，",
+          "model": "gpt-6-astra",
+          "agent_id": "33b902ee-a4ca-46ae-9284-c8285311c687",
           "state": "idle",
           "issue": "",
           "issue_title": ""
         }
       ],
       "issue_counts": {
-        "todo": 1,
-        "in_progress": 0,
+        "todo": 3,
+        "in_progress": 2,
         "in_review": 0,
         "done": 95
       },
       "latest_issues": [
         {
-          "key": "SUR-264",
+          "key": "BEN-230",
+          "title": "了解当前测试代码如何处理 UI 对象 ID 不确定时的模糊匹配",
+          "status": "todo",
+          "updated_at": "2026-10-08T04:28:56Z"
+        },
+        {
+          "key": "BEN-229",
+          "title": "[任务·第2轮] 口径⑤ 视觉差分续：剩余 6 变体 gold-vs-test + SC/test3",
+          "status": "todo",
+          "updated_at": "2026-10-08T04:28:46Z"
+        },
+        {
+          "key": "BEN-135",
+          "title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 1",
+          "status": "in_progress",
+          "updated_at": "2026-10-08T04:24:18Z"
+        },
+        {
+          "key": "BEN-227",
           "title": "[午会纪要] 2026-10-08",
           "status": "done",
-          "updated_at": "2026-10-08T04:25:48Z"
+          "updated_at": "2026-10-08T04:12:50Z"
         },
         {
-          "key": "SUR-263",
-          "title": "[空闲检测] 2026-10-08 leader 两小时正点检查与加派",
-          "status": "done",
-          "updated_at": "2026-10-08T02:07:04Z"
-        },
-        {
-          "key": "SUR-261",
-          "title": "[巡检] 2026-10-08 leader Issue 状态巡检与催办",
-          "status": "done",
-          "updated_at": "2026-10-08T01:32:21Z"
-        },
-        {
-          "key": "SUR-259",
-          "title": "[晨会纪要] 2026-10-08",
-          "status": "done",
-          "updated_at": "2026-10-08T01:32:00Z"
-        },
-        {
-          "key": "SUR-262",
-          "title": "[流程优化] Opt-024：结项等待期负责人确认即时唤醒（次日验证）",
-          "status": "backlog",
-          "updated_at": "2026-10-08T01:31:57Z"
+          "key": "BEN-228",
+          "title": "[任务·第2轮] DIFF⑥ AP 振荡族确定性化 + 视觉差分 runner 维护项承接（ref ",
+          "status": "in_progress",
+          "updated_at": "2026-10-08T04:08:18Z"
         }
       ]
     },
@@ -306,10 +338,9 @@
           "role": "IPD-SA 解决方案架构师",
           "model": "zai:glm-5.3",
           "agent_id": "3e4373ef-a262-4b28-ab2a-818861fc9624",
-          "state": "working",
-          "issue": "IPD-369",
-          "issue_title": "[SA] REQ-016 数独 TR-Design 六件套 + 契约 v1.0（第16场景·game 益智填数·P0主线",
-          "since": "2026-10-08T04:07:11Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "hermes-se",
@@ -374,11 +405,17 @@
       ],
       "issue_counts": {
         "todo": 2,
-        "in_progress": 1,
-        "in_review": 1,
+        "in_progress": 0,
+        "in_review": 2,
         "done": 96
       },
       "latest_issues": [
+        {
+          "key": "IPD-369",
+          "title": "[SA] REQ-016 数独 TR-Design 六件套 + 契约 v1.0（第16场景·game",
+          "status": "in_review",
+          "updated_at": "2026-10-08T04:30:27Z"
+        },
         {
           "key": "IPD-364",
           "title": "[Dev] REQ-015 房贷计算器 双端编码（第15场景·finance 主线·gated on",
@@ -390,12 +427,6 @@
           "title": "[午会纪要] 2026-10-08",
           "status": "done",
           "updated_at": "2026-10-08T04:09:50Z"
-        },
-        {
-          "key": "IPD-369",
-          "title": "[SA] REQ-016 数独 TR-Design 六件套 + 契约 v1.0（第16场景·game",
-          "status": "in_progress",
-          "updated_at": "2026-10-08T04:07:54Z"
         },
         {
           "key": "IPD-371",
