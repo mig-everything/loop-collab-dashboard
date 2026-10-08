@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T02:08:57Z",
+  "generated_at": "2026-10-08T02:26:25Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -149,9 +149,10 @@
           "role": "只读洞察项目目标与执行证据，用简单语言汇报进展、偏差和阻塞，",
           "model": "gpt-6-astra",
           "agent_id": "33b902ee-a4ca-46ae-9284-c8285311c687",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "BEN-225",
+          "issue_title": "[观察员日报] 2026-10-08 通过率与 Agent 时间轴",
+          "since": "2026-10-08T02:26:36Z"
         }
       ],
       "issue_counts": {
@@ -161,6 +162,12 @@
         "done": 98
       },
       "latest_issues": [
+        {
+          "key": "BEN-225",
+          "title": "[观察员日报] 2026-10-08 通过率与 Agent 时间轴",
+          "status": "todo",
+          "updated_at": "2026-10-08T02:26:34Z"
+        },
         {
           "key": "BEN-226",
           "title": "[空闲检测] 2026-10-08 leader 两小时正点检查与加派",
@@ -172,12 +179,6 @@
           "title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 1",
           "status": "blocked",
           "updated_at": "2026-10-08T01:57:36Z"
-        },
-        {
-          "key": "BEN-225",
-          "title": "[观察员日报] 2026-10-08 通过率与 Agent 时间轴",
-          "status": "todo",
-          "updated_at": "2026-10-08T01:22:24Z"
         },
         {
           "key": "BEN-224",
