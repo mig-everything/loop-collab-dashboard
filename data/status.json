@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T04:20:07Z",
+  "generated_at": "2026-10-08T04:25:35Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -7,8 +7,8 @@
       "workspace": "ws-survey-loop",
       "machine": "JordanZTdeMacBook-Pro",
       "machine_online": true,
-      "meeting_active": true,
-      "meeting_title": "[午会纪要] 2026-10-08",
+      "meeting_active": false,
+      "meeting_title": "",
       "progress": 47,
       "agents": [
         {
@@ -17,7 +17,7 @@
           "role": "GPT Writer（执笔者）",
           "model": "gpt-6-luna",
           "agent_id": "58ed4647-32dd-4ca1-8ddc-194b975d6024",
-          "state": "meeting",
+          "state": "idle",
           "issue": "",
           "issue_title": ""
         },
@@ -27,7 +27,7 @@
           "role": "Kimi Adversarial Reviewer（对抗评审",
           "model": "",
           "agent_id": "6e530cc6-6b9d-4398-936d-df9c13468125",
-          "state": "meeting",
+          "state": "idle",
           "issue": "",
           "issue_title": ""
         },
@@ -37,24 +37,23 @@
           "role": "DeepSeek Task Planner（任务规划+总结）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "04a4e04e-59d5-4f3a-8a16-acf99b80a493",
-          "state": "working",
-          "issue": "SUR-264",
-          "issue_title": "[午会纪要] 2026-10-08",
-          "since": "2026-10-08T04:00:18Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         }
       ],
       "issue_counts": {
         "todo": 1,
-        "in_progress": 1,
+        "in_progress": 0,
         "in_review": 0,
-        "done": 94
+        "done": 95
       },
       "latest_issues": [
         {
           "key": "SUR-264",
           "title": "[午会纪要] 2026-10-08",
-          "status": "in_progress",
-          "updated_at": "2026-10-08T04:20:00Z"
+          "status": "done",
+          "updated_at": "2026-10-08T04:25:48Z"
         },
         {
           "key": "SUR-263",
@@ -95,105 +94,72 @@
       "progress": 88,
       "agents": [
         {
-          "name": "gpt-scenarist",
-          "emoji": "🦊",
-          "role": "GPT Scenarist",
-          "model": "zai:glm-5.3",
-          "agent_id": "6e6f1e24-3bc5-455a-85d2-cb3fb6c9a672",
-          "state": "working",
-          "issue": "BEN-135",
-          "issue_title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 100（ref BEN",
-          "since": "2026-10-08T04:08:06Z"
+          "name": "gpt-writer",
+          "emoji": "🧠",
+          "role": "GPT Writer（执笔者）",
+          "model": "gpt-6-luna",
+          "agent_id": "58ed4647-32dd-4ca1-8ddc-194b975d6024",
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
-          "name": "glm-runner",
-          "emoji": "👾",
-          "role": "GLM Runner & Analyst",
+          "name": "kimi-adversary",
+          "emoji": "🦋",
+          "role": "Kimi Adversarial Reviewer（对抗评审",
           "model": "",
-          "agent_id": "bdaefa9b-7045-4264-95e4-1db664e353d0",
-          "state": "working",
-          "issue": "BEN-227",
-          "issue_title": "[午会纪要] 2026-10-08",
-          "since": "2026-10-08T04:08:50Z"
+          "agent_id": "6e530cc6-6b9d-4398-936d-df9c13468125",
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "deepseek-planner",
-          "emoji": "🍀",
-          "role": "DeepSeek Planner（小组 leader/PM）",
+          "emoji": "🐸",
+          "role": "DeepSeek Task Planner（任务规划+总结）",
           "model": "deepseek:deepseek-v4-pro",
-          "agent_id": "547cd361-ef50-4965-9477-bc659d8a1708",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
-        },
-        {
-          "name": "minimax-visual-diff",
-          "emoji": "🐼",
-          "role": "MiniMax 多模态视觉差分评审",
-          "model": "minimax-cn:MiniMax-M3",
-          "agent_id": "843ac45d-b5db-4f35-b07b-2e5754ec5a5f",
-          "state": "working",
-          "issue": "BEN-229",
-          "issue_title": "[任务·第2轮] 口径⑤ 视觉差分续：剩余 6 变体 gold-vs-test + SC/test3 theme P1 ",
-          "since": "2026-10-08T04:07:50Z"
-        },
-        {
-          "name": "项目观察员",
-          "emoji": "🔍",
-          "role": "只读洞察项目目标与执行证据，用简单语言汇报进展、偏差和阻塞，",
-          "model": "",
-          "agent_id": "4b674e90-4726-4eba-bd5c-06350e0b8b83",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
-        },
-        {
-          "name": "项目观察员（GPT-6）",
-          "emoji": "🔍",
-          "role": "只读洞察项目目标与执行证据，用简单语言汇报进展、偏差和阻塞，",
-          "model": "gpt-6-astra",
-          "agent_id": "33b902ee-a4ca-46ae-9284-c8285311c687",
+          "agent_id": "04a4e04e-59d5-4f3a-8a16-acf99b80a493",
           "state": "idle",
           "issue": "",
           "issue_title": ""
         }
       ],
       "issue_counts": {
-        "todo": 2,
-        "in_progress": 2,
+        "todo": 1,
+        "in_progress": 0,
         "in_review": 0,
-        "done": 96
+        "done": 95
       },
       "latest_issues": [
         {
-          "key": "BEN-227",
+          "key": "SUR-264",
           "title": "[午会纪要] 2026-10-08",
           "status": "done",
-          "updated_at": "2026-10-08T04:12:50Z"
+          "updated_at": "2026-10-08T04:25:48Z"
         },
         {
-          "key": "BEN-228",
-          "title": "[任务·第2轮] DIFF⑥ AP 振荡族确定性化 + 视觉差分 runner 维护项承接（ref ",
-          "status": "in_progress",
-          "updated_at": "2026-10-08T04:08:18Z"
+          "key": "SUR-263",
+          "title": "[空闲检测] 2026-10-08 leader 两小时正点检查与加派",
+          "status": "done",
+          "updated_at": "2026-10-08T02:07:04Z"
         },
         {
-          "key": "BEN-135",
-          "title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 1",
-          "status": "in_progress",
-          "updated_at": "2026-10-08T04:08:08Z"
+          "key": "SUR-261",
+          "title": "[巡检] 2026-10-08 leader Issue 状态巡检与催办",
+          "status": "done",
+          "updated_at": "2026-10-08T01:32:21Z"
         },
         {
-          "key": "BEN-229",
-          "title": "[任务·第2轮] 口径⑤ 视觉差分续：剩余 6 变体 gold-vs-test + SC/test3",
-          "status": "todo",
-          "updated_at": "2026-10-08T04:07:47Z"
+          "key": "SUR-259",
+          "title": "[晨会纪要] 2026-10-08",
+          "status": "done",
+          "updated_at": "2026-10-08T01:32:00Z"
         },
         {
-          "key": "BEN-225",
-          "title": "[观察员日报] 2026-10-08 通过率与 Agent 时间轴",
-          "status": "todo",
-          "updated_at": "2026-10-08T02:28:15Z"
+          "key": "SUR-262",
+          "title": "[流程优化] Opt-024：结项等待期负责人确认即时唤醒（次日验证）",
+          "status": "backlog",
+          "updated_at": "2026-10-08T01:31:57Z"
         }
       ]
     },
@@ -272,7 +238,7 @@
         "todo": 0,
         "in_progress": 0,
         "in_review": 0,
-        "done": 19
+        "done": 63
       },
       "latest_issues": [
         {
@@ -288,6 +254,12 @@
           "updated_at": "2026-10-08T02:07:06Z"
         },
         {
+          "key": "DWM-251",
+          "title": "[DW迁移任务单] OpenCamera 迁移 · 暂停（负责人要求）",
+          "status": "blocked",
+          "updated_at": "2026-10-08T01:32:00Z"
+        },
+        {
           "key": "DWM-256",
           "title": "[巡检] 2026-10-08 leader Issue 状态巡检与催办",
           "status": "done",
@@ -298,19 +270,13 @@
           "title": "[任务] 对抗评审方法论增强评估：Locksmith Loop 确定性 parity oracle ",
           "status": "done",
           "updated_at": "2026-10-08T01:27:57Z"
-        },
-        {
-          "key": "DWM-255",
-          "title": "[空闲检测] 2026-10-08 leader 两小时正点检查与加派",
-          "status": "done",
-          "updated_at": "2026-10-07T22:05:17Z"
         }
       ],
       "order": {
-        "key": "DWM-214",
-        "title": "[DW迁移任务单] CoolMall 迁移 · 已完成",
-        "status": "done",
-        "updated_at": "2026-10-07T15:28:53Z"
+        "key": "DWM-251",
+        "title": "[DW迁移任务单] OpenCamera 迁移 · 暂停（负责人要求）",
+        "status": "blocked",
+        "updated_at": "2026-10-08T01:32:00Z"
       },
       "progress_note": "10 个应用：完成 7、进行中 1、暂停 0、未开始 2；早会 dw-lead standup"
     },
