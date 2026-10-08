@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T06:06:54Z",
+  "generated_at": "2026-10-08T06:11:10Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -37,24 +37,23 @@
           "role": "DeepSeek Task Planner（任务规划+总结）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "04a4e04e-59d5-4f3a-8a16-acf99b80a493",
-          "state": "working",
-          "issue": "SUR-265",
-          "issue_title": "[空闲检测] 2026-10-08 leader 两小时正点检查与加派",
-          "since": "2026-10-08T06:00:21Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         }
       ],
       "issue_counts": {
-        "todo": 2,
+        "todo": 1,
         "in_progress": 0,
         "in_review": 0,
-        "done": 94
+        "done": 95
       },
       "latest_issues": [
         {
           "key": "SUR-265",
           "title": "[空闲检测] 2026-10-08 leader 两小时正点检查与加派",
-          "status": "todo",
-          "updated_at": "2026-10-08T06:00:16Z"
+          "status": "done",
+          "updated_at": "2026-10-08T06:07:28Z"
         },
         {
           "key": "SUR-264",
