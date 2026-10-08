@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T16:11:55Z",
+  "generated_at": "2026-10-08T16:16:34Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -357,9 +357,12 @@
           "role": "IPD-Dev 开发工程师",
           "model": "zai:glm-5.3",
           "agent_id": "44fcec25-d8b3-4af6-b206-1774a64677ce",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-381",
+          "issue_title": "[Dev] 双端构建后自动截图采集 worker：无头AVD/monkey(安卓) + hdc install/snap",
+          "since": "2026-10-08T16:16:07Z",
+          "parent_issue": "IPD-379",
+          "parent_title": "[流程补缺] 鸿蒙端自动截图采集——签名 hap(人类资产) + 模拟器执行机 worker"
         },
         {
           "name": "hermes-tester",
@@ -377,9 +380,10 @@
           "role": "IPD-RM 发布经理",
           "model": "zai:glm-5.3",
           "agent_id": "78156461-9644-478e-9c80-53cd18e25e33",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-371",
+          "issue_title": "[RM] REQ-015 房贷计算器 C2 决胜样本度量（四维差终局+glm回滚首收敛观测·gated on Dev 发",
+          "since": "2026-10-08T16:16:01Z"
         },
         {
           "name": "deepseek-planner",
@@ -388,9 +392,8 @@
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
           "state": "working",
-          "issue": "IPD-385",
-          "issue_title": "[巡检] 2026-10-09 leader Issue 状态巡检与催办",
-          "since": "2026-10-08T16:00:28Z"
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "minimax-uijudge",
@@ -404,41 +407,41 @@
         }
       ],
       "issue_counts": {
-        "todo": 3,
+        "todo": 1,
         "in_progress": 2,
         "in_review": 1,
-        "done": 90
+        "done": 94
       },
       "latest_issues": [
         {
           "key": "IPD-385",
           "title": "[巡检] 2026-10-09 leader Issue 状态巡检与催办",
-          "status": "todo",
-          "updated_at": "2026-10-08T16:00:24Z"
-        },
-        {
-          "key": "IPD-384",
-          "title": "[环境] 任务四 glm 新 key 换绑（agents + 平台生成通道）并执行 IPD-382 ",
-          "status": "todo",
-          "updated_at": "2026-10-08T15:55:57Z"
-        },
-        {
-          "key": "IPD-382",
-          "title": "[环境修复] Mac Mini 双端自动截图接通：实例更新+设备可见性+鸿蒙签名+E2E 验证",
-          "status": "in_review",
-          "updated_at": "2026-10-08T15:04:21Z"
-        },
-        {
-          "key": "IPD-383",
-          "title": "[空闲检测] 2026-10-08 leader 两小时正点检查与加派",
           "status": "done",
-          "updated_at": "2026-10-08T14:03:20Z"
+          "updated_at": "2026-10-08T16:17:14Z"
         },
         {
-          "key": "IPD-377",
-          "title": "[SE] REQ-016 数独 追踪矩阵 v1.0（第16场景·game 益智填数·P0主线·gat",
+          "key": "IPD-374",
+          "title": "[Dev] uijudge 通道生产部署 + 正式场景 UI 维转正（gated on 763bd0",
           "status": "in_progress",
-          "updated_at": "2026-10-08T12:45:01Z"
+          "updated_at": "2026-10-08T16:16:03Z"
+        },
+        {
+          "key": "IPD-371",
+          "title": "[RM] REQ-015 房贷计算器 C2 决胜样本度量（四维差终局+glm回滚首收敛观测·gate",
+          "status": "in_progress",
+          "updated_at": "2026-10-08T16:16:01Z"
+        },
+        {
+          "key": "IPD-378",
+          "title": "[Dev] REQ-016 数独 双端编码（第16场景·game 益智填数·P0主线·gated o",
+          "status": "todo",
+          "updated_at": "2026-10-08T16:15:46Z"
+        },
+        {
+          "key": "IPD-379",
+          "title": "[流程补缺] 鸿蒙端自动截图采集——签名 hap(人类资产) + 模拟器执行机 worker",
+          "status": "done",
+          "updated_at": "2026-10-08T16:14:41Z"
         }
       ]
     }
