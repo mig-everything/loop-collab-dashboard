@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T01:39:56Z",
+  "generated_at": "2026-10-08T01:48:16Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -97,12 +97,12 @@
           "name": "gpt-scenarist",
           "emoji": "🦊",
           "role": "GPT Scenarist",
-          "model": "gpt-6-luna",
+          "model": "zai:glm-5.3",
           "agent_id": "6e6f1e24-3bc5-455a-85d2-cb3fb6c9a672",
           "state": "working",
           "issue": "BEN-135",
           "issue_title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 100（ref BEN",
-          "since": "2026-10-08T01:37:37Z"
+          "since": "2026-10-08T01:43:55Z"
         },
         {
           "name": "glm-runner",
@@ -166,7 +166,7 @@
           "key": "BEN-135",
           "title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 1",
           "status": "blocked",
-          "updated_at": "2026-10-08T01:37:33Z"
+          "updated_at": "2026-10-08T01:43:53Z"
         },
         {
           "key": "BEN-225",
