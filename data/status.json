@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T12:14:08Z",
+  "generated_at": "2026-10-08T12:18:48Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -17,7 +17,7 @@
           "role": "GPT Writer（执笔者）",
           "model": "gpt-6-luna",
           "agent_id": "58ed4647-32dd-4ca1-8ddc-194b975d6024",
-          "state": "idle",
+          "state": "working",
           "issue": "",
           "issue_title": ""
         },
@@ -27,7 +27,7 @@
           "role": "Kimi Adversarial Reviewer（对抗评审",
           "model": "",
           "agent_id": "6e530cc6-6b9d-4398-936d-df9c13468125",
-          "state": "idle",
+          "state": "working",
           "issue": "",
           "issue_title": ""
         },
@@ -37,10 +37,9 @@
           "role": "DeepSeek Task Planner（任务规划+总结）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "04a4e04e-59d5-4f3a-8a16-acf99b80a493",
-          "state": "working",
-          "issue": "SUR-268",
-          "issue_title": "[晚会日报] 2026-10-08",
-          "since": "2026-10-08T12:00:23Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         }
       ],
       "issue_counts": {
@@ -53,8 +52,14 @@
         {
           "key": "SUR-268",
           "title": "[晚会日报] 2026-10-08",
-          "status": "todo",
-          "updated_at": "2026-10-08T12:00:20Z"
+          "status": "done",
+          "updated_at": "2026-10-08T12:18:16Z"
+        },
+        {
+          "key": "SUR-269",
+          "title": "[流程优化] Opt-025：全员发言触发核验（次日验证）",
+          "status": "backlog",
+          "updated_at": "2026-10-08T12:14:20Z"
         },
         {
           "key": "SUR-267",
@@ -73,12 +78,6 @@
           "title": "[空闲检测] 2026-10-08 leader 两小时正点检查与加派",
           "status": "done",
           "updated_at": "2026-10-08T06:07:28Z"
-        },
-        {
-          "key": "SUR-264",
-          "title": "[午会纪要] 2026-10-08",
-          "status": "done",
-          "updated_at": "2026-10-08T04:25:48Z"
         }
       ],
       "progress_note": "day-4 晨 37% → 午 42% → 晚 44% → 夜 47%",
@@ -361,9 +360,12 @@
           "role": "IPD-Dev 开发工程师",
           "model": "zai:glm-5.3",
           "agent_id": "44fcec25-d8b3-4af6-b206-1774a64677ce",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-381",
+          "issue_title": "[Dev] 双端构建后自动截图采集 worker：无头AVD/monkey(安卓) + hdc install/snap",
+          "since": "2026-10-08T12:19:29Z",
+          "parent_issue": "IPD-379",
+          "parent_title": "[流程补缺] 鸿蒙端自动截图采集——签名 hap(人类资产) + 模拟器执行机 worker"
         },
         {
           "name": "hermes-tester",
@@ -392,9 +394,8 @@
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
           "state": "working",
-          "issue": "IPD-379",
-          "issue_title": "[流程补缺] 鸿蒙端自动截图采集——签名 hap(人类资产) + 模拟器执行机 worker",
-          "since": "2026-10-08T12:12:00Z"
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "minimax-uijudge",
@@ -408,12 +409,24 @@
         }
       ],
       "issue_counts": {
-        "todo": 3,
-        "in_progress": 0,
+        "todo": 1,
+        "in_progress": 2,
         "in_review": 0,
-        "done": 94
+        "done": 93
       },
       "latest_issues": [
+        {
+          "key": "IPD-379",
+          "title": "[流程补缺] 鸿蒙端自动截图采集——签名 hap(人类资产) + 模拟器执行机 worker",
+          "status": "in_progress",
+          "updated_at": "2026-10-08T12:20:07Z"
+        },
+        {
+          "key": "IPD-377",
+          "title": "[SE] REQ-016 数独 追踪矩阵 v1.0（第16场景·game 益智填数·P0主线·gat",
+          "status": "in_progress",
+          "updated_at": "2026-10-08T12:16:03Z"
+        },
         {
           "key": "IPD-380",
           "title": "[误建作废] 误操作创建,内容见 IPD-379",
@@ -427,22 +440,10 @@
           "updated_at": "2026-10-08T12:12:56Z"
         },
         {
-          "key": "IPD-379",
-          "title": "[流程补缺] 鸿蒙端自动截图采集——签名 hap(人类资产) + 模拟器执行机 worker",
-          "status": "todo",
-          "updated_at": "2026-10-08T12:11:59Z"
-        },
-        {
           "key": "IPD-378",
           "title": "[Dev] REQ-016 数独 双端编码（第16场景·game 益智填数·P0主线·gated o",
           "status": "backlog",
           "updated_at": "2026-10-08T12:09:35Z"
-        },
-        {
-          "key": "IPD-377",
-          "title": "[SE] REQ-016 数独 追踪矩阵 v1.0（第16场景·game 益智填数·P0主线·gat",
-          "status": "todo",
-          "updated_at": "2026-10-08T12:09:29Z"
         }
       ]
     }
