@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T17:30:17Z",
+  "generated_at": "2026-10-08T20:01:43Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -37,18 +37,25 @@
           "role": "DeepSeek Task Planner（任务规划+总结）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "04a4e04e-59d5-4f3a-8a16-acf99b80a493",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "SUR-272",
+          "issue_title": "[晨会纪要] 2026-10-09",
+          "since": "2026-10-08T20:00:12Z"
         }
       ],
       "issue_counts": {
-        "todo": 2,
+        "todo": 3,
         "in_progress": 0,
         "in_review": 0,
-        "done": 94
+        "done": 93
       },
       "latest_issues": [
+        {
+          "key": "SUR-272",
+          "title": "[晨会纪要] 2026-10-09",
+          "status": "todo",
+          "updated_at": "2026-10-08T20:00:11Z"
+        },
         {
           "key": "SUR-271",
           "title": "[巡检] 2026-10-09 leader Issue 状态巡检与催办",
@@ -72,12 +79,6 @@
           "title": "[流程优化] Opt-025：全员发言触发核验（次日验证）",
           "status": "backlog",
           "updated_at": "2026-10-08T12:14:20Z"
-        },
-        {
-          "key": "SUR-267",
-          "title": "[空闲检测] 2026-10-08 leader 两小时正点检查与加派",
-          "status": "done",
-          "updated_at": "2026-10-08T10:03:39Z"
         }
       ],
       "progress_note": "day-4 晨 37% → 午 42% → 晚 44% → 夜 47%",
@@ -119,9 +120,10 @@
           "role": "DeepSeek Planner（小组 leader/PM）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "547cd361-ef50-4965-9477-bc659d8a1708",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "BEN-240",
+          "issue_title": "[早会纪要] 2026-10-09",
+          "since": "2026-10-08T20:00:21Z"
         },
         {
           "name": "minimax-visual-diff",
@@ -145,12 +147,18 @@
         }
       ],
       "issue_counts": {
-        "todo": 1,
+        "todo": 2,
         "in_progress": 1,
         "in_review": 0,
-        "done": 98
+        "done": 97
       },
       "latest_issues": [
+        {
+          "key": "BEN-240",
+          "title": "[早会纪要] 2026-10-09",
+          "status": "todo",
+          "updated_at": "2026-10-08T20:00:20Z"
+        },
         {
           "key": "BEN-135",
           "title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 1",
@@ -174,12 +182,6 @@
           "title": "[鸿蒙覆盖缺口] 鸿蒙每日主线停留各 app ~20 条固定 subset，未随轮次扩大测试范围（相",
           "status": "done",
           "updated_at": "2026-10-08T16:07:23Z"
-        },
-        {
-          "key": "BEN-238",
-          "title": "[空闲检测] 2026-10-08 leader 两小时正点检查与加派",
-          "status": "done",
-          "updated_at": "2026-10-08T14:04:46Z"
         }
       ]
     },
@@ -209,9 +211,10 @@
           "role": "DeepSeek Planner（小组 leader/PM，",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "950ff614-521d-4e32-a02d-423d41a7b2b3",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "DWM-265",
+          "issue_title": "[早会纪要] 2026-10-09",
+          "since": "2026-10-08T20:00:14Z"
         },
         {
           "name": "dw-lead",
@@ -265,12 +268,18 @@
         }
       ],
       "issue_counts": {
-        "todo": 0,
+        "todo": 1,
         "in_progress": 0,
         "in_review": 0,
-        "done": 66
+        "done": 65
       },
       "latest_issues": [
+        {
+          "key": "DWM-265",
+          "title": "[早会纪要] 2026-10-09",
+          "status": "todo",
+          "updated_at": "2026-10-08T20:00:14Z"
+        },
         {
           "key": "DWM-264",
           "title": "[巡检] 2026-10-09 leader Issue 状态巡检与催办",
@@ -294,12 +303,6 @@
           "title": "[空闲检测] 2026-10-08 leader 两小时正点检查与加派",
           "status": "done",
           "updated_at": "2026-10-08T10:04:16Z"
-        },
-        {
-          "key": "DWM-260",
-          "title": "[巡检] 2026-10-08 leader Issue 状态巡检与催办",
-          "status": "done",
-          "updated_at": "2026-10-08T08:05:34Z"
         }
       ],
       "order": {
@@ -386,9 +389,10 @@
           "role": "DeepSeek Planner（小组 leader/PM ",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-387",
+          "issue_title": "[早会纪要] 2026-10-09",
+          "since": "2026-10-08T20:00:19Z"
         },
         {
           "name": "minimax-uijudge",
@@ -402,12 +406,18 @@
         }
       ],
       "issue_counts": {
-        "todo": 2,
+        "todo": 3,
         "in_progress": 0,
         "in_review": 2,
-        "done": 94
+        "done": 93
       },
       "latest_issues": [
+        {
+          "key": "IPD-387",
+          "title": "[早会纪要] 2026-10-09",
+          "status": "todo",
+          "updated_at": "2026-10-08T20:00:19Z"
+        },
         {
           "key": "IPD-386",
           "title": "[Dev] Eazo 引擎时长/Token 双维负差归因与收敛（番茄钟样本 鸿蒙+43.7%/+42",
@@ -431,12 +441,6 @@
           "title": "[环境修复] Mac Mini 双端自动截图接通：实例更新+设备可见性+鸿蒙签名+E2E 验证",
           "status": "done",
           "updated_at": "2026-10-08T16:41:42Z"
-        },
-        {
-          "key": "IPD-378",
-          "title": "[Dev] REQ-016 数独 双端编码（第16场景·game 益智填数·P0主线·gated o",
-          "status": "todo",
-          "updated_at": "2026-10-08T16:29:12Z"
         }
       ]
     }
