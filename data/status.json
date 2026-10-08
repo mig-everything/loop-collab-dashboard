@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T08:18:57Z",
+  "generated_at": "2026-10-08T08:25:19Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -99,10 +99,9 @@
           "role": "GPT Scenarist",
           "model": "zai:glm-5.3",
           "agent_id": "6e6f1e24-3bc5-455a-85d2-cb3fb6c9a672",
-          "state": "working",
-          "issue": "BEN-135",
-          "issue_title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 100（ref BEN",
-          "since": "2026-10-08T08:05:30Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "glm-runner",
@@ -130,10 +129,9 @@
           "role": "MiniMax 多模态视觉差分评审",
           "model": "minimax-cn:MiniMax-M3",
           "agent_id": "843ac45d-b5db-4f35-b07b-2e5754ec5a5f",
-          "state": "working",
-          "issue": "BEN-229",
-          "issue_title": "[任务·第2轮] 口径⑤ 视觉差分续：剩余 6 变体 gold-vs-test + SC/test3 theme P1 ",
-          "since": "2026-10-08T08:05:33Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "项目观察员（GPT-6）",
@@ -154,6 +152,12 @@
       },
       "latest_issues": [
         {
+          "key": "BEN-135",
+          "title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 1",
+          "status": "in_progress",
+          "updated_at": "2026-10-08T08:22:42Z"
+        },
+        {
           "key": "BEN-229",
           "title": "[任务·第2轮] 口径⑤ 视觉差分续：剩余 6 变体 gold-vs-test + SC/test3",
           "status": "in_review",
@@ -170,12 +174,6 @@
           "title": "了解当前测试代码如何处理 UI 对象 ID 不确定时的模糊匹配",
           "status": "done",
           "updated_at": "2026-10-08T08:05:39Z"
-        },
-        {
-          "key": "BEN-135",
-          "title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 1",
-          "status": "in_progress",
-          "updated_at": "2026-10-08T08:05:28Z"
         },
         {
           "key": "BEN-225",
@@ -380,10 +378,9 @@
           "role": "DeepSeek Planner（小组 leader/PM ",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
-          "state": "working",
-          "issue": "IPD-250",
-          "issue_title": "[验收标准更新] Eazo 网页 UI 对比体验优化首批已落地（246c1cc），收尾：features数据生产/Mac",
-          "since": "2026-10-08T07:46:54Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "minimax-uijudge",
@@ -397,8 +394,8 @@
         }
       ],
       "issue_counts": {
-        "todo": 1,
-        "in_progress": 1,
+        "todo": 0,
+        "in_progress": 2,
         "in_review": 1,
         "done": 97
       },
@@ -406,8 +403,8 @@
         {
           "key": "IPD-374",
           "title": "[Dev] uijudge 通道生产部署 + 正式场景 UI 维转正（gated on 763bd0",
-          "status": "todo",
-          "updated_at": "2026-10-08T08:18:48Z"
+          "status": "in_progress",
+          "updated_at": "2026-10-08T08:20:41Z"
         },
         {
           "key": "IPD-371",
