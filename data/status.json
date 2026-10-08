@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T09:59:45Z",
+  "generated_at": "2026-10-08T10:04:04Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -50,6 +50,12 @@
       },
       "latest_issues": [
         {
+          "key": "SUR-267",
+          "title": "[空闲检测] 2026-10-08 leader 两小时正点检查与加派",
+          "status": "done",
+          "updated_at": "2026-10-08T10:03:39Z"
+        },
+        {
           "key": "SUR-266",
           "title": "[巡检] 2026-10-08 leader Issue 状态巡检与催办",
           "status": "done",
@@ -72,12 +78,6 @@
           "title": "[空闲检测] 2026-10-08 leader 两小时正点检查与加派",
           "status": "done",
           "updated_at": "2026-10-08T02:07:04Z"
-        },
-        {
-          "key": "SUR-261",
-          "title": "[巡检] 2026-10-08 leader Issue 状态巡检与催办",
-          "status": "done",
-          "updated_at": "2026-10-08T01:32:21Z"
         }
       ],
       "progress_note": "day-4 晨 37% → 午 42% → 晚 44% → 夜 47%",
@@ -152,6 +152,12 @@
       },
       "latest_issues": [
         {
+          "key": "BEN-234",
+          "title": "[空闲检测] 2026-10-08 leader 两小时正点检查与加派",
+          "status": "done",
+          "updated_at": "2026-10-08T10:03:36Z"
+        },
+        {
           "key": "BEN-135",
           "title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 1",
           "status": "in_progress",
@@ -174,12 +180,6 @@
           "title": "了解当前测试代码如何处理 UI 对象 ID 不确定时的模糊匹配",
           "status": "done",
           "updated_at": "2026-10-08T08:05:39Z"
-        },
-        {
-          "key": "BEN-225",
-          "title": "[观察员日报] 2026-10-08 通过率与 Agent 时间轴",
-          "status": "todo",
-          "updated_at": "2026-10-08T07:52:24Z"
         }
       ]
     },
@@ -209,10 +209,9 @@
           "role": "DeepSeek Planner（小组 leader/PM，",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "950ff614-521d-4e32-a02d-423d41a7b2b3",
-          "state": "working",
-          "issue": "DWM-261",
-          "issue_title": "[空闲检测] 2026-10-08 leader 两小时正点检查与加派",
-          "since": "2026-10-08T10:00:16Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "dw-lead",
@@ -266,17 +265,17 @@
         }
       ],
       "issue_counts": {
-        "todo": 1,
+        "todo": 0,
         "in_progress": 0,
         "in_review": 0,
-        "done": 64
+        "done": 65
       },
       "latest_issues": [
         {
           "key": "DWM-261",
           "title": "[空闲检测] 2026-10-08 leader 两小时正点检查与加派",
-          "status": "todo",
-          "updated_at": "2026-10-08T10:00:14Z"
+          "status": "done",
+          "updated_at": "2026-10-08T10:04:16Z"
         },
         {
           "key": "DWM-260",
@@ -387,10 +386,9 @@
           "role": "DeepSeek Planner（小组 leader/PM ",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
-          "state": "working",
-          "issue": "IPD-375",
-          "issue_title": "[空闲检测] 2026-10-08 leader 两小时正点检查与加派",
-          "since": "2026-10-08T10:00:26Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "minimax-uijudge",
@@ -404,17 +402,17 @@
         }
       ],
       "issue_counts": {
-        "todo": 1,
+        "todo": 0,
         "in_progress": 1,
         "in_review": 2,
-        "done": 96
+        "done": 97
       },
       "latest_issues": [
         {
           "key": "IPD-375",
           "title": "[空闲检测] 2026-10-08 leader 两小时正点检查与加派",
-          "status": "todo",
-          "updated_at": "2026-10-08T10:00:25Z"
+          "status": "done",
+          "updated_at": "2026-10-08T10:03:09Z"
         },
         {
           "key": "IPD-374",
