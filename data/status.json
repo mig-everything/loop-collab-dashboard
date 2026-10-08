@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T04:00:14Z",
+  "generated_at": "2026-10-08T04:09:23Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -100,9 +100,10 @@
           "role": "GPT Scenarist",
           "model": "zai:glm-5.3",
           "agent_id": "6e6f1e24-3bc5-455a-85d2-cb3fb6c9a672",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "BEN-227",
+          "issue_title": "[午会纪要] 2026-10-08",
+          "since": "2026-10-08T04:08:50Z"
         },
         {
           "name": "glm-runner",
@@ -110,9 +111,10 @@
           "role": "GLM Runner & Analyst",
           "model": "",
           "agent_id": "bdaefa9b-7045-4264-95e4-1db664e353d0",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "BEN-227",
+          "issue_title": "[午会纪要] 2026-10-08",
+          "since": "2026-10-08T04:08:50Z"
         },
         {
           "name": "deepseek-planner",
@@ -120,10 +122,9 @@
           "role": "DeepSeek Planner（小组 leader/PM）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "547cd361-ef50-4965-9477-bc659d8a1708",
-          "state": "working",
-          "issue": "BEN-227",
-          "issue_title": "[午会纪要] 2026-10-08",
-          "since": "2026-10-08T04:00:18Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "minimax-visual-diff",
@@ -131,9 +132,10 @@
           "role": "MiniMax 多模态视觉差分评审",
           "model": "minimax-cn:MiniMax-M3",
           "agent_id": "843ac45d-b5db-4f35-b07b-2e5754ec5a5f",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "BEN-227",
+          "issue_title": "[午会纪要] 2026-10-08",
+          "since": "2026-10-08T04:08:50Z"
         },
         {
           "name": "项目观察员",
@@ -158,40 +160,40 @@
       ],
       "issue_counts": {
         "todo": 2,
-        "in_progress": 0,
+        "in_progress": 2,
         "in_review": 0,
-        "done": 97
+        "done": 96
       },
       "latest_issues": [
         {
           "key": "BEN-227",
           "title": "[午会纪要] 2026-10-08",
+          "status": "done",
+          "updated_at": "2026-10-08T04:09:05Z"
+        },
+        {
+          "key": "BEN-228",
+          "title": "[任务·第2轮] DIFF⑥ AP 振荡族确定性化 + 视觉差分 runner 维护项承接（ref ",
+          "status": "in_progress",
+          "updated_at": "2026-10-08T04:08:18Z"
+        },
+        {
+          "key": "BEN-135",
+          "title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 1",
+          "status": "in_progress",
+          "updated_at": "2026-10-08T04:08:08Z"
+        },
+        {
+          "key": "BEN-229",
+          "title": "[任务·第2轮] 口径⑤ 视觉差分续：剩余 6 变体 gold-vs-test + SC/test3",
           "status": "todo",
-          "updated_at": "2026-10-08T04:00:15Z"
+          "updated_at": "2026-10-08T04:07:47Z"
         },
         {
           "key": "BEN-225",
           "title": "[观察员日报] 2026-10-08 通过率与 Agent 时间轴",
           "status": "todo",
           "updated_at": "2026-10-08T02:28:15Z"
-        },
-        {
-          "key": "BEN-226",
-          "title": "[空闲检测] 2026-10-08 leader 两小时正点检查与加派",
-          "status": "done",
-          "updated_at": "2026-10-08T02:03:00Z"
-        },
-        {
-          "key": "BEN-135",
-          "title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 1",
-          "status": "blocked",
-          "updated_at": "2026-10-08T01:57:36Z"
-        },
-        {
-          "key": "BEN-224",
-          "title": "[巡检] 2026-10-08 leader Issue 状态巡检与催办",
-          "status": "done",
-          "updated_at": "2026-10-08T00:04:23Z"
         }
       ]
     },
@@ -339,9 +341,10 @@
           "role": "IPD-SA 解决方案架构师",
           "model": "zai:glm-5.3",
           "agent_id": "3e4373ef-a262-4b28-ab2a-818861fc9624",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-369",
+          "issue_title": "[SA] REQ-016 数独 TR-Design 六件套 + 契约 v1.0（第16场景·game 益智填数·P0主线",
+          "since": "2026-10-08T04:07:11Z"
         },
         {
           "name": "hermes-se",
@@ -359,9 +362,10 @@
           "role": "IPD-Dev 开发工程师",
           "model": "zai:glm-5.3",
           "agent_id": "44fcec25-d8b3-4af6-b206-1774a64677ce",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-364",
+          "issue_title": "[Dev] REQ-015 房贷计算器 双端编码（第15场景·finance 主线·gated on SE 矩阵）",
+          "since": "2026-10-08T04:08:55Z"
         },
         {
           "name": "hermes-tester",
@@ -389,10 +393,9 @@
           "role": "DeepSeek Planner（小组 leader/PM ",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
-          "state": "working",
-          "issue": "IPD-368",
-          "issue_title": "[午会纪要] 2026-10-08",
-          "since": "2026-10-08T04:00:25Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "minimax-uijudge",
@@ -406,41 +409,41 @@
         }
       ],
       "issue_counts": {
-        "todo": 1,
-        "in_progress": 1,
+        "todo": 2,
+        "in_progress": 2,
         "in_review": 0,
-        "done": 98
+        "done": 96
       },
       "latest_issues": [
         {
           "key": "IPD-368",
           "title": "[午会纪要] 2026-10-08",
-          "status": "todo",
-          "updated_at": "2026-10-08T04:00:23Z"
+          "status": "done",
+          "updated_at": "2026-10-08T04:09:50Z"
         },
         {
-          "key": "IPD-367",
-          "title": "[空闲检测] 2026-10-08 leader 两小时正点检查与加派",
-          "status": "done",
-          "updated_at": "2026-10-08T02:02:41Z"
+          "key": "IPD-364",
+          "title": "[Dev] REQ-015 房贷计算器 双端编码（第15场景·finance 主线·gated on",
+          "status": "in_progress",
+          "updated_at": "2026-10-08T04:08:54Z"
         },
         {
-          "key": "IPD-366",
-          "title": "[巡检] 2026-10-08 leader Issue 状态巡检与催办",
-          "status": "done",
-          "updated_at": "2026-10-08T00:02:05Z"
+          "key": "IPD-369",
+          "title": "[SA] REQ-016 数独 TR-Design 六件套 + 契约 v1.0（第16场景·game",
+          "status": "in_progress",
+          "updated_at": "2026-10-08T04:07:54Z"
         },
         {
-          "key": "IPD-363",
-          "title": "[PM] REQ-016 数独 正式 PRD + TR-Req 评审（第16场景·game 益智填数",
-          "status": "done",
-          "updated_at": "2026-10-08T00:01:54Z"
+          "key": "IPD-371",
+          "title": "[RM] REQ-015 房贷计算器 C2 决胜样本度量（四维差终局+glm回滚首收敛观测·gate",
+          "status": "backlog",
+          "updated_at": "2026-10-08T04:07:21Z"
         },
         {
-          "key": "IPD-360",
-          "title": "[SE] REQ-015 房贷计算器 追踪矩阵 v1.0（第15场景·gated on SA 契约·",
-          "status": "done",
-          "updated_at": "2026-10-08T00:01:53Z"
+          "key": "IPD-370",
+          "title": "[Tester] REQ-015 房贷计算器 TR-Accept 差分执行 + 双端对比报告（第15",
+          "status": "backlog",
+          "updated_at": "2026-10-08T04:07:18Z"
         }
       ]
     }
