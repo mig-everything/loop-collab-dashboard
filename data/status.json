@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T06:11:10Z",
+  "generated_at": "2026-10-08T06:20:15Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -366,10 +366,9 @@
           "role": "IPD-Tester 测试工程师",
           "model": "zai:glm-5.3",
           "agent_id": "86df9f14-a2cd-46d9-ad15-dbe8606ebd73",
-          "state": "working",
-          "issue": "IPD-370",
-          "issue_title": "[Tester] REQ-015 房贷计算器 TR-Accept 差分执行 + 双端对比报告（第15场景收口·gated",
-          "since": "2026-10-08T06:03:44Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "hermes-rm",
@@ -411,16 +410,16 @@
       },
       "latest_issues": [
         {
+          "key": "IPD-370",
+          "title": "[Tester] REQ-015 房贷计算器 TR-Accept 差分执行 + 双端对比报告（第15",
+          "status": "in_progress",
+          "updated_at": "2026-10-08T06:19:17Z"
+        },
+        {
           "key": "IPD-371",
           "title": "[RM] REQ-015 房贷计算器 C2 决胜样本度量（四维差终局+glm回滚首收敛观测·gate",
           "status": "in_progress",
           "updated_at": "2026-10-08T06:05:55Z"
-        },
-        {
-          "key": "IPD-370",
-          "title": "[Tester] REQ-015 房贷计算器 TR-Accept 差分执行 + 双端对比报告（第15",
-          "status": "in_progress",
-          "updated_at": "2026-10-08T06:05:08Z"
         },
         {
           "key": "IPD-372",
