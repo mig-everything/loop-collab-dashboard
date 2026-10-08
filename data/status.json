@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T12:09:24Z",
+  "generated_at": "2026-10-08T12:14:08Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -90,8 +90,8 @@
       "workspace": "ws-benchmark-loop",
       "machine": "张涛 Mac Studio",
       "machine_online": true,
-      "meeting_active": true,
-      "meeting_title": "[晚会日报] 2026-10-08",
+      "meeting_active": false,
+      "meeting_title": "",
       "progress": 88,
       "agents": [
         {
@@ -122,10 +122,9 @@
           "role": "DeepSeek Planner（小组 leader/PM）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "547cd361-ef50-4965-9477-bc659d8a1708",
-          "state": "working",
-          "issue": "BEN-236",
-          "issue_title": "[晚会日报] 2026-10-08",
-          "since": "2026-10-08T12:00:19Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "minimax-visual-diff",
@@ -133,9 +132,10 @@
           "role": "MiniMax 多模态视觉差分评审",
           "model": "minimax-cn:MiniMax-M3",
           "agent_id": "843ac45d-b5db-4f35-b07b-2e5754ec5a5f",
-          "state": "meeting",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "BEN-237",
+          "issue_title": "[任务·第3轮] 视觉差分 P0/P1 修复 backlog 整理：可派发修复归属台账（ref BEN-229 R2）",
+          "since": "2026-10-08T12:10:59Z"
         },
         {
           "name": "项目观察员（GPT-6）",
@@ -143,18 +143,24 @@
           "role": "只读洞察项目目标与执行证据，用简单语言汇报进展、偏差和阻塞，",
           "model": "gpt-6-astra",
           "agent_id": "33b902ee-a4ca-46ae-9284-c8285311c687",
-          "state": "meeting",
+          "state": "idle",
           "issue": "",
           "issue_title": ""
         }
       ],
       "issue_counts": {
         "todo": 2,
-        "in_progress": 3,
+        "in_progress": 2,
         "in_review": 0,
-        "done": 95
+        "done": 96
       },
       "latest_issues": [
+        {
+          "key": "BEN-236",
+          "title": "[晚会日报] 2026-10-08",
+          "status": "done",
+          "updated_at": "2026-10-08T12:10:22Z"
+        },
         {
           "key": "BEN-237",
           "title": "[任务·第3轮] 视觉差分 P0/P1 修复 backlog 整理：可派发修复归属台账（ref BE",
@@ -172,12 +178,6 @@
           "title": "[任务·第2轮] 口径⑤ 视觉差分续：剩余 6 变体 gold-vs-test + SC/test3",
           "status": "done",
           "updated_at": "2026-10-08T12:07:53Z"
-        },
-        {
-          "key": "BEN-236",
-          "title": "[晚会日报] 2026-10-08",
-          "status": "in_progress",
-          "updated_at": "2026-10-08T12:07:35Z"
         },
         {
           "key": "BEN-235",
@@ -213,10 +213,9 @@
           "role": "DeepSeek Planner（小组 leader/PM，",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "950ff614-521d-4e32-a02d-423d41a7b2b3",
-          "state": "working",
-          "issue": "DWM-262",
-          "issue_title": "[晚会日报] 2026-10-08",
-          "since": "2026-10-08T12:00:24Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "dw-lead",
@@ -270,17 +269,17 @@
         }
       ],
       "issue_counts": {
-        "todo": 1,
+        "todo": 0,
         "in_progress": 0,
         "in_review": 0,
-        "done": 64
+        "done": 65
       },
       "latest_issues": [
         {
           "key": "DWM-262",
           "title": "[晚会日报] 2026-10-08",
-          "status": "todo",
-          "updated_at": "2026-10-08T12:00:21Z"
+          "status": "done",
+          "updated_at": "2026-10-08T12:13:16Z"
         },
         {
           "key": "DWM-261",
@@ -321,9 +320,9 @@
       "workspace": "ws-ipd-eazo-loop",
       "machine": "贾博 Mac Mini",
       "machine_online": true,
-      "meeting_active": true,
-      "meeting_title": "[晚会日报] 2026-10-08",
-      "progress": 92,
+      "meeting_active": false,
+      "meeting_title": "",
+      "progress": 93,
       "agents": [
         {
           "name": "hermes-pm",
@@ -331,7 +330,7 @@
           "role": "IPD-PM 产品经理",
           "model": "",
           "agent_id": "1764c131-5c09-48cb-aa48-3177d5256dbb",
-          "state": "meeting",
+          "state": "idle",
           "issue": "",
           "issue_title": ""
         },
@@ -341,7 +340,7 @@
           "role": "IPD-SA 解决方案架构师",
           "model": "zai:glm-5.3",
           "agent_id": "3e4373ef-a262-4b28-ab2a-818861fc9624",
-          "state": "meeting",
+          "state": "idle",
           "issue": "",
           "issue_title": ""
         },
@@ -362,7 +361,7 @@
           "role": "IPD-Dev 开发工程师",
           "model": "zai:glm-5.3",
           "agent_id": "44fcec25-d8b3-4af6-b206-1774a64677ce",
-          "state": "meeting",
+          "state": "idle",
           "issue": "",
           "issue_title": ""
         },
@@ -372,7 +371,7 @@
           "role": "IPD-Tester 测试工程师",
           "model": "zai:glm-5.3",
           "agent_id": "86df9f14-a2cd-46d9-ad15-dbe8606ebd73",
-          "state": "meeting",
+          "state": "idle",
           "issue": "",
           "issue_title": ""
         },
@@ -382,7 +381,7 @@
           "role": "IPD-RM 发布经理",
           "model": "zai:glm-5.3",
           "agent_id": "78156461-9644-478e-9c80-53cd18e25e33",
-          "state": "meeting",
+          "state": "idle",
           "issue": "",
           "issue_title": ""
         },
@@ -393,9 +392,9 @@
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
           "state": "working",
-          "issue": "IPD-376",
-          "issue_title": "[晚会日报] 2026-10-08",
-          "since": "2026-10-08T12:00:31Z"
+          "issue": "IPD-379",
+          "issue_title": "[流程补缺] 鸿蒙端自动截图采集——签名 hap(人类资产) + 模拟器执行机 worker",
+          "since": "2026-10-08T12:12:00Z"
         },
         {
           "name": "minimax-uijudge",
@@ -403,18 +402,36 @@
           "role": "MiniMax 多模态 UI 视觉评审",
           "model": "minimax-cn:MiniMax-M3",
           "agent_id": "97f55294-90e0-4556-93af-a1cf44889574",
-          "state": "meeting",
+          "state": "idle",
           "issue": "",
           "issue_title": ""
         }
       ],
       "issue_counts": {
-        "todo": 2,
-        "in_progress": 1,
+        "todo": 3,
+        "in_progress": 0,
         "in_review": 0,
-        "done": 95
+        "done": 94
       },
       "latest_issues": [
+        {
+          "key": "IPD-380",
+          "title": "[误建作废] 误操作创建,内容见 IPD-379",
+          "status": "cancelled",
+          "updated_at": "2026-10-08T12:13:45Z"
+        },
+        {
+          "key": "IPD-376",
+          "title": "[晚会纪要] 2026-10-08（day-14 第3轮夜间派单）",
+          "status": "done",
+          "updated_at": "2026-10-08T12:12:56Z"
+        },
+        {
+          "key": "IPD-379",
+          "title": "[流程补缺] 鸿蒙端自动截图采集——签名 hap(人类资产) + 模拟器执行机 worker",
+          "status": "todo",
+          "updated_at": "2026-10-08T12:11:59Z"
+        },
         {
           "key": "IPD-378",
           "title": "[Dev] REQ-016 数独 双端编码（第16场景·game 益智填数·P0主线·gated o",
@@ -426,24 +443,6 @@
           "title": "[SE] REQ-016 数独 追踪矩阵 v1.0（第16场景·game 益智填数·P0主线·gat",
           "status": "todo",
           "updated_at": "2026-10-08T12:09:29Z"
-        },
-        {
-          "key": "IPD-371",
-          "title": "[RM] REQ-015 房贷计算器 C2 决胜样本度量（四维差终局+glm回滚首收敛观测·gate",
-          "status": "blocked",
-          "updated_at": "2026-10-08T12:08:54Z"
-        },
-        {
-          "key": "IPD-370",
-          "title": "[Tester] REQ-015 房贷计算器 TR-Accept 差分执行 + 双端对比报告（第15",
-          "status": "done",
-          "updated_at": "2026-10-08T12:08:49Z"
-        },
-        {
-          "key": "IPD-376",
-          "title": "[晚会日报] 2026-10-08",
-          "status": "in_progress",
-          "updated_at": "2026-10-08T12:08:47Z"
         }
       ]
     }
