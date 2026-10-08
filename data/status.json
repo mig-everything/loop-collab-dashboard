@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T12:47:20Z",
+  "generated_at": "2026-10-08T12:56:16Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -357,10 +357,9 @@
           "role": "IPD-Dev 开发工程师",
           "model": "zai:glm-5.3",
           "agent_id": "44fcec25-d8b3-4af6-b206-1774a64677ce",
-          "state": "working",
-          "issue": "IPD-382",
-          "issue_title": "[环境修复] Mac Mini 双端自动截图接通：实例更新+设备可见性+鸿蒙签名+E2E 验证",
-          "since": "2026-10-08T12:46:47Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "hermes-tester",
@@ -405,16 +404,16 @@
       ],
       "issue_counts": {
         "todo": 1,
-        "in_progress": 3,
-        "in_review": 0,
+        "in_progress": 2,
+        "in_review": 1,
         "done": 92
       },
       "latest_issues": [
         {
           "key": "IPD-382",
           "title": "[环境修复] Mac Mini 双端自动截图接通：实例更新+设备可见性+鸿蒙签名+E2E 验证",
-          "status": "in_progress",
-          "updated_at": "2026-10-08T12:46:45Z"
+          "status": "in_review",
+          "updated_at": "2026-10-08T12:53:22Z"
         },
         {
           "key": "IPD-377",
