@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T10:35:09Z",
+  "generated_at": "2026-10-09T10:43:39Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -357,10 +357,9 @@
           "role": "IPD-Dev 开发工程师",
           "model": "zai:glm-5.3",
           "agent_id": "44fcec25-d8b3-4af6-b206-1774a64677ce",
-          "state": "working",
-          "issue": "IPD-406",
-          "issue_title": "[Dev] REQ-016 数独 四缺陷修复（IPD-393 TR-Accept 有条件通过条件转 Dev · 第16场",
-          "since": "2026-10-09T10:12:42Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "hermes-tester",
@@ -411,16 +410,16 @@
       },
       "latest_issues": [
         {
+          "key": "IPD-406",
+          "title": "[Dev] REQ-016 数独 四缺陷修复（IPD-393 TR-Accept 有条件通过条件转 ",
+          "status": "in_progress",
+          "updated_at": "2026-10-09T10:40:53Z"
+        },
+        {
           "key": "IPD-405",
           "title": "[空闲检测] 2026-10-09 leader 两小时正点检查与加派",
           "status": "done",
           "updated_at": "2026-10-09T10:16:01Z"
-        },
-        {
-          "key": "IPD-406",
-          "title": "[Dev] REQ-016 数独 四缺陷修复（IPD-393 TR-Accept 有条件通过条件转 ",
-          "status": "in_progress",
-          "updated_at": "2026-10-09T10:13:13Z"
         },
         {
           "key": "IPD-393",
