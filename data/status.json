@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T08:02:41Z",
+  "generated_at": "2026-10-09T08:08:25Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -37,24 +37,23 @@
           "role": "DeepSeek Task Planner（任务规划+总结）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "04a4e04e-59d5-4f3a-8a16-acf99b80a493",
-          "state": "working",
-          "issue": "SUR-279",
-          "issue_title": "[巡检] 2026-10-09 leader Issue 状态巡检与催办",
-          "since": "2026-10-09T08:00:25Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         }
       ],
       "issue_counts": {
-        "todo": 2,
+        "todo": 1,
         "in_progress": 0,
         "in_review": 0,
-        "done": 94
+        "done": 95
       },
       "latest_issues": [
         {
           "key": "SUR-279",
           "title": "[巡检] 2026-10-09 leader Issue 状态巡检与催办",
-          "status": "todo",
-          "updated_at": "2026-10-09T08:00:22Z"
+          "status": "done",
+          "updated_at": "2026-10-09T08:07:08Z"
         },
         {
           "key": "SUR-278",
@@ -93,7 +92,59 @@
       "meeting_active": false,
       "meeting_title": "",
       "progress": 90,
-      "agents": [],
+      "agents": [
+        {
+          "name": "gpt-scenarist",
+          "emoji": "🦊",
+          "role": "GPT Scenarist",
+          "model": "zai:glm-5.3",
+          "agent_id": "6e6f1e24-3bc5-455a-85d2-cb3fb6c9a672",
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
+        },
+        {
+          "name": "glm-runner",
+          "emoji": "👾",
+          "role": "GLM Runner & Analyst",
+          "model": "",
+          "agent_id": "bdaefa9b-7045-4264-95e4-1db664e353d0",
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
+        },
+        {
+          "name": "deepseek-planner",
+          "emoji": "🍀",
+          "role": "DeepSeek Planner（小组 leader/PM）",
+          "model": "deepseek:deepseek-v4-pro",
+          "agent_id": "547cd361-ef50-4965-9477-bc659d8a1708",
+          "state": "working",
+          "issue": "BEN-251",
+          "issue_title": "[巡检] 2026-10-09 leader Issue 状态巡检与催办",
+          "since": "2026-10-09T08:00:12Z"
+        },
+        {
+          "name": "minimax-visual-diff",
+          "emoji": "🐼",
+          "role": "MiniMax 多模态视觉差分评审",
+          "model": "minimax-cn:MiniMax-M3",
+          "agent_id": "843ac45d-b5db-4f35-b07b-2e5754ec5a5f",
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
+        },
+        {
+          "name": "项目观察员（GPT-6）",
+          "emoji": "🔍",
+          "role": "只读洞察项目目标与执行证据，用简单语言汇报进展、偏差和阻塞，",
+          "model": "gpt-6-astra",
+          "agent_id": "33b902ee-a4ca-46ae-9284-c8285311c687",
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
+        }
+      ],
       "issue_counts": {
         "todo": 3,
         "in_progress": 3,
@@ -219,7 +270,7 @@
         "todo": 0,
         "in_progress": 0,
         "in_review": 0,
-        "done": 69
+        "done": 68
       },
       "latest_issues": [
         {
@@ -254,10 +305,10 @@
         }
       ],
       "order": {
-        "key": "DWM-214",
-        "title": "[DW迁移任务单] CoolMall 迁移 · 已完成",
-        "status": "done",
-        "updated_at": "2026-10-07T15:28:53Z"
+        "key": "DWM-251",
+        "title": "[DW迁移任务单] OpenCamera 迁移 · 暂停（负责人要求）",
+        "status": "blocked",
+        "updated_at": "2026-10-08T01:32:00Z"
       },
       "progress_note": "10 个应用：完成 7、进行中 0、暂停 1、未开始 2"
     },
