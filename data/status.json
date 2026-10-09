@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T02:02:40Z",
+  "generated_at": "2026-10-09T02:06:41Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -37,24 +37,23 @@
           "role": "DeepSeek Task Planner（任务规划+总结）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "04a4e04e-59d5-4f3a-8a16-acf99b80a493",
-          "state": "working",
-          "issue": "SUR-276",
-          "issue_title": "[空闲检测] 2026-10-09 leader 两小时正点检查与加派",
-          "since": "2026-10-09T02:00:21Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         }
       ],
       "issue_counts": {
-        "todo": 2,
+        "todo": 1,
         "in_progress": 0,
         "in_review": 0,
-        "done": 94
+        "done": 95
       },
       "latest_issues": [
         {
           "key": "SUR-276",
           "title": "[空闲检测] 2026-10-09 leader 两小时正点检查与加派",
-          "status": "todo",
-          "updated_at": "2026-10-09T02:00:19Z"
+          "status": "done",
+          "updated_at": "2026-10-09T02:05:04Z"
         },
         {
           "key": "SUR-275",
@@ -211,10 +210,9 @@
           "role": "DeepSeek Planner（小组 leader/PM，",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "950ff614-521d-4e32-a02d-423d41a7b2b3",
-          "state": "working",
-          "issue": "DWM-268",
-          "issue_title": "[空闲检测] 2026-10-09 leader 两小时正点检查与加派",
-          "since": "2026-10-09T02:00:18Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "dw-lead",
@@ -268,17 +266,17 @@
         }
       ],
       "issue_counts": {
-        "todo": 1,
+        "todo": 0,
         "in_progress": 0,
         "in_review": 0,
-        "done": 66
+        "done": 67
       },
       "latest_issues": [
         {
           "key": "DWM-268",
           "title": "[空闲检测] 2026-10-09 leader 两小时正点检查与加派",
-          "status": "todo",
-          "updated_at": "2026-10-09T02:00:16Z"
+          "status": "done",
+          "updated_at": "2026-10-09T02:05:23Z"
         },
         {
           "key": "DWM-267",
@@ -406,12 +404,18 @@
         }
       ],
       "issue_counts": {
-        "todo": 1,
+        "todo": 2,
         "in_progress": 0,
         "in_review": 0,
-        "done": 97
+        "done": 96
       },
       "latest_issues": [
+        {
+          "key": "IPD-392",
+          "title": "[临时会议·空闲加派] 2026-10-09 10点场（day-15 第2轮派单 · deepsee",
+          "status": "todo",
+          "updated_at": "2026-10-09T02:07:08Z"
+        },
         {
           "key": "IPD-391",
           "title": "[空闲检测] 2026-10-09 leader 两小时正点检查与加派",
@@ -435,12 +439,6 @@
           "title": "[RM] REQ-015 房贷计算器 C2 决胜样本度量（四维差终局+glm回滚首收敛观测·gate",
           "status": "done",
           "updated_at": "2026-10-09T00:01:57Z"
-        },
-        {
-          "key": "IPD-386",
-          "title": "[Dev] Eazo 引擎时长/Token 双维负差归因与收敛（番茄钟样本 鸿蒙+43.7%/+42",
-          "status": "done",
-          "updated_at": "2026-10-09T00:01:56Z"
         }
       ]
     }
