@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T12:14:16Z",
+  "generated_at": "2026-10-09T12:18:53Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -277,7 +277,7 @@
           "key": "DWM-273",
           "title": "[晚会日报] 2026-10-09",
           "status": "in_progress",
-          "updated_at": "2026-10-09T12:13:50Z"
+          "updated_at": "2026-10-09T12:17:41Z"
         },
         {
           "key": "DWM-272",
@@ -328,10 +328,9 @@
           "role": "IPD-PM 产品经理",
           "model": "",
           "agent_id": "1764c131-5c09-48cb-aa48-3177d5256dbb",
-          "state": "working",
-          "issue": "IPD-407",
-          "issue_title": "[晚会纪要] 2026-10-09（day-15 第3轮夜间派单）",
-          "since": "2026-10-09T12:11:37Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "hermes-sa",
@@ -340,9 +339,9 @@
           "model": "zai:glm-5.3",
           "agent_id": "3e4373ef-a262-4b28-ab2a-818861fc9624",
           "state": "working",
-          "issue": "IPD-407",
-          "issue_title": "[晚会纪要] 2026-10-09（day-15 第3轮夜间派单）",
-          "since": "2026-10-09T12:11:37Z"
+          "issue": "IPD-411",
+          "issue_title": "[SA] 六件套复算自证范式模板化 → ai-native-ipd 通用 skill（Opt-030 流程优化项）",
+          "since": "2026-10-09T12:09:36Z"
         },
         {
           "name": "hermes-se",
@@ -351,9 +350,9 @@
           "model": "zai:glm-5.3",
           "agent_id": "b874ba6b-80e6-45c6-a8c6-aedc6f2b326b",
           "state": "working",
-          "issue": "IPD-407",
-          "issue_title": "[晚会纪要] 2026-10-09（day-15 第3轮夜间派单）",
-          "since": "2026-10-09T12:11:37Z"
+          "issue": "IPD-409",
+          "issue_title": "[SE] REQ-017 习惯打卡 追踪矩阵 v1.0（第17场景 · gated on SA 契约已交付）",
+          "since": "2026-10-09T12:09:29Z"
         },
         {
           "name": "hermes-dev",
@@ -382,10 +381,9 @@
           "role": "IPD-RM 发布经理",
           "model": "zai:glm-5.3",
           "agent_id": "78156461-9644-478e-9c80-53cd18e25e33",
-          "state": "working",
-          "issue": "IPD-407",
-          "issue_title": "[晚会纪要] 2026-10-09（day-15 第3轮夜间派单）",
-          "since": "2026-10-09T12:11:37Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "deepseek-planner",
@@ -403,16 +401,15 @@
           "role": "MiniMax 多模态 UI 视觉评审",
           "model": "minimax-cn:MiniMax-M3",
           "agent_id": "97f55294-90e0-4556-93af-a1cf44889574",
-          "state": "working",
-          "issue": "IPD-410",
-          "issue_title": "[uijudge] REQ-015 房贷计算器 视觉复评（以 h3_ep_toggle_clean 干净帧为准 · ga",
-          "since": "2026-10-09T12:09:32Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         }
       ],
       "issue_counts": {
         "todo": 2,
-        "in_progress": 3,
-        "in_review": 0,
+        "in_progress": 2,
+        "in_review": 1,
         "done": 92
       },
       "latest_issues": [
@@ -420,7 +417,19 @@
           "key": "IPD-407",
           "title": "[晚会纪要] 2026-10-09（day-15 第3轮夜间派单）",
           "status": "done",
-          "updated_at": "2026-10-09T12:13:49Z"
+          "updated_at": "2026-10-09T12:17:57Z"
+        },
+        {
+          "key": "IPD-408",
+          "title": "[PM] REQ-016/017 PRD 差异回写（P-1 硬门槛 20ms→500ms · 第16",
+          "status": "in_review",
+          "updated_at": "2026-10-09T12:17:51Z"
+        },
+        {
+          "key": "IPD-410",
+          "title": "[uijudge] REQ-015 房贷计算器 视觉复评（以 h3_ep_toggle_clean ",
+          "status": "todo",
+          "updated_at": "2026-10-09T12:16:25Z"
         },
         {
           "key": "IPD-406",
@@ -433,18 +442,6 @@
           "title": "[SE] REQ-017 习惯打卡 追踪矩阵 v1.0（第17场景 · gated on SA 契约",
           "status": "in_progress",
           "updated_at": "2026-10-09T12:10:18Z"
-        },
-        {
-          "key": "IPD-408",
-          "title": "[PM] REQ-016/017 PRD 差异回写（P-1 硬门槛 20ms→500ms · 第16",
-          "status": "in_progress",
-          "updated_at": "2026-10-09T12:09:52Z"
-        },
-        {
-          "key": "IPD-411",
-          "title": "[SA] 六件套复算自证范式模板化 → ai-native-ipd 通用 skill（Opt-030",
-          "status": "todo",
-          "updated_at": "2026-10-09T12:09:34Z"
         }
       ]
     }
