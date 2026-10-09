@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T00:00:07Z",
+  "generated_at": "2026-10-09T00:03:56Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -50,6 +50,12 @@
       },
       "latest_issues": [
         {
+          "key": "SUR-275",
+          "title": "[巡检] 2026-10-09 leader Issue 状态巡检与催办",
+          "status": "done",
+          "updated_at": "2026-10-09T00:02:54Z"
+        },
+        {
           "key": "SUR-274",
           "title": "[空闲检测] 2026-10-09 leader 两小时正点检查与加派",
           "status": "done",
@@ -72,12 +78,6 @@
           "title": "[流程优化] Opt-024：结项等待期负责人确认即时唤醒（次日验证）",
           "status": "done",
           "updated_at": "2026-10-08T20:10:46Z"
-        },
-        {
-          "key": "SUR-273",
-          "title": "[流程优化] Opt-026：会议目标对齐/日报归档复用本地 SSH 工作仓（次日验证）",
-          "status": "backlog",
-          "updated_at": "2026-10-08T20:09:18Z"
         }
       ],
       "progress_note": "day-4 晨 37% → 午 42% → 晚 44% → 夜 47%",
@@ -99,9 +99,10 @@
           "role": "GPT Scenarist",
           "model": "zai:glm-5.3",
           "agent_id": "6e6f1e24-3bc5-455a-85d2-cb3fb6c9a672",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "BEN-241",
+          "issue_title": "[任务·第1轮] 视觉差分 P0/P1 修复·scenarist 侧：binding 重定基 + 注脚（ref BEN-",
+          "since": "2026-10-09T00:03:11Z"
         },
         {
           "name": "glm-runner",
@@ -119,10 +120,9 @@
           "role": "DeepSeek Planner（小组 leader/PM）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "547cd361-ef50-4965-9477-bc659d8a1708",
-          "state": "working",
-          "issue": "BEN-244",
-          "issue_title": "[巡检] 2026-10-09 leader Issue 状态巡检与催办",
-          "since": "2026-10-09T00:00:14Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "minimax-visual-diff",
@@ -146,17 +146,29 @@
         }
       ],
       "issue_counts": {
-        "todo": 2,
+        "todo": 1,
         "in_progress": 2,
         "in_review": 0,
-        "done": 96
+        "done": 97
       },
       "latest_issues": [
         {
           "key": "BEN-244",
           "title": "[巡检] 2026-10-09 leader Issue 状态巡检与催办",
-          "status": "todo",
-          "updated_at": "2026-10-09T00:00:13Z"
+          "status": "done",
+          "updated_at": "2026-10-09T00:03:24Z"
+        },
+        {
+          "key": "BEN-241",
+          "title": "[任务·第1轮] 视觉差分 P0/P1 修复·scenarist 侧：binding 重定基 + 注",
+          "status": "in_progress",
+          "updated_at": "2026-10-09T00:03:10Z"
+        },
+        {
+          "key": "BEN-135",
+          "title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 1",
+          "status": "in_progress",
+          "updated_at": "2026-10-09T00:03:08Z"
         },
         {
           "key": "BEN-243",
@@ -169,18 +181,6 @@
           "title": "[任务·第1轮] 视觉差分 P0/P1 修复·runner 侧 pre-grant + test2 ",
           "status": "done",
           "updated_at": "2026-10-08T20:38:55Z"
-        },
-        {
-          "key": "BEN-135",
-          "title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 1",
-          "status": "in_progress",
-          "updated_at": "2026-10-08T20:26:17Z"
-        },
-        {
-          "key": "BEN-241",
-          "title": "[任务·第1轮] 视觉差分 P0/P1 修复·scenarist 侧：binding 重定基 + 注",
-          "status": "in_progress",
-          "updated_at": "2026-10-08T20:22:19Z"
         }
       ],
       "progress_note": "环比 +1pp，主缺口仍 ③a 安卓可执行覆盖率；夜间三线均有落地增量"
@@ -268,8 +268,8 @@
         }
       ],
       "issue_counts": {
-        "todo": 1,
-        "in_progress": 0,
+        "todo": 0,
+        "in_progress": 1,
         "in_review": 0,
         "done": 66
       },
@@ -277,8 +277,8 @@
         {
           "key": "DWM-267",
           "title": "[巡检] 2026-10-09 leader Issue 状态巡检与催办",
-          "status": "todo",
-          "updated_at": "2026-10-09T00:00:08Z"
+          "status": "in_progress",
+          "updated_at": "2026-10-09T00:01:07Z"
         },
         {
           "key": "DWM-266",
@@ -389,10 +389,9 @@
           "role": "DeepSeek Planner（小组 leader/PM ",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
-          "state": "working",
-          "issue": "IPD-390",
-          "issue_title": "[巡检] 2026-10-09 leader Issue 状态巡检与催办",
-          "since": "2026-10-09T00:00:21Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "minimax-uijudge",
@@ -406,41 +405,41 @@
         }
       ],
       "issue_counts": {
-        "todo": 1,
+        "todo": 0,
         "in_progress": 0,
-        "in_review": 5,
-        "done": 92
+        "in_review": 0,
+        "done": 98
       },
       "latest_issues": [
         {
           "key": "IPD-390",
           "title": "[巡检] 2026-10-09 leader Issue 状态巡检与催办",
-          "status": "todo",
-          "updated_at": "2026-10-09T00:00:19Z"
-        },
-        {
-          "key": "IPD-389",
-          "title": "[空闲检测] 2026-10-09 leader 两小时正点检查与加派",
           "status": "done",
-          "updated_at": "2026-10-08T22:04:48Z"
+          "updated_at": "2026-10-09T00:02:17Z"
         },
         {
-          "key": "IPD-388",
-          "title": "[PM] REQ-017 第17场景预研 + 需求池扩充（day-15第1轮·P1·番茄钟正式化决策",
-          "status": "in_review",
-          "updated_at": "2026-10-08T20:16:54Z"
+          "key": "IPD-374",
+          "title": "[Dev] uijudge 通道生产部署 + 正式场景 UI 维转正（gated on 763bd0",
+          "status": "done",
+          "updated_at": "2026-10-09T00:01:59Z"
+        },
+        {
+          "key": "IPD-371",
+          "title": "[RM] REQ-015 房贷计算器 C2 决胜样本度量（四维差终局+glm回滚首收敛观测·gate",
+          "status": "done",
+          "updated_at": "2026-10-09T00:01:57Z"
+        },
+        {
+          "key": "IPD-386",
+          "title": "[Dev] Eazo 引擎时长/Token 双维负差归因与收敛（番茄钟样本 鸿蒙+43.7%/+42",
+          "status": "done",
+          "updated_at": "2026-10-09T00:01:56Z"
         },
         {
           "key": "IPD-378",
           "title": "[Dev] REQ-016 数独 双端编码（第16场景·game 益智填数·P0主线·gated o",
-          "status": "in_review",
-          "updated_at": "2026-10-08T20:16:04Z"
-        },
-        {
-          "key": "IPD-387",
-          "title": "[早会纪要] 2026-10-09",
           "status": "done",
-          "updated_at": "2026-10-08T20:15:31Z"
+          "updated_at": "2026-10-09T00:01:55Z"
         }
       ]
     }
