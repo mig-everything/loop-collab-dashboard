@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T10:26:28Z",
+  "generated_at": "2026-10-09T10:30:43Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -140,18 +140,24 @@
           "model": "gpt-6-astra",
           "agent_id": "33b902ee-a4ca-46ae-9284-c8285311c687",
           "state": "working",
-          "issue": "",
-          "issue_title": "",
-          "since": "2026-10-09T10:26:45Z"
+          "issue": "BEN-253",
+          "issue_title": "对比安卓测例，复核鸿蒙测试完备性及通用性对测试性能的影响",
+          "since": "2026-10-09T10:27:06Z"
         }
       ],
       "issue_counts": {
-        "todo": 2,
+        "todo": 3,
         "in_progress": 0,
         "in_review": 0,
-        "done": 95
+        "done": 94
       },
       "latest_issues": [
+        {
+          "key": "BEN-253",
+          "title": "对比安卓测例，复核鸿蒙测试完备性及通用性对测试性能的影响",
+          "status": "todo",
+          "updated_at": "2026-10-09T10:27:06Z"
+        },
         {
           "key": "BEN-252",
           "title": "[空闲检测] 2026-10-09 leader 两小时正点检查与加派",
@@ -175,12 +181,6 @@
           "title": "[任务·第2轮] 鸿蒙 test 变体执行扩容 + 差分归因（报告工具已修复，ref BEN-242",
           "status": "blocked",
           "updated_at": "2026-10-09T08:11:22Z"
-        },
-        {
-          "key": "BEN-249",
-          "title": "[任务·第2轮] 视觉差分复检 runner 侧修复项（P0/P1 台账逐屏核对，ref BEN-2",
-          "status": "done",
-          "updated_at": "2026-10-09T08:10:28Z"
         }
       ],
       "progress_note": "环比 +1pp，主缺口仍 ③a 安卓可执行覆盖率；夜间三线均有落地增量"
