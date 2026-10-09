@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T20:10:59Z",
+  "generated_at": "2026-10-09T20:14:48Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -147,23 +147,23 @@
         }
       ],
       "issue_counts": {
-        "todo": 2,
+        "todo": 1,
         "in_progress": 0,
-        "in_review": 0,
+        "in_review": 1,
         "done": 95
       },
       "latest_issues": [
+        {
+          "key": "BEN-259",
+          "title": "[任务·第1轮] 视觉差分 playbook 通知族 A类差异预标注（设备无关，ref BEN-25",
+          "status": "in_review",
+          "updated_at": "2026-10-09T20:14:54Z"
+        },
         {
           "key": "BEN-258",
           "title": "[早会纪要] 2026-10-10",
           "status": "done",
           "updated_at": "2026-10-09T20:07:29Z"
-        },
-        {
-          "key": "BEN-259",
-          "title": "[任务·第1轮] 视觉差分 playbook 通知族 A类差异预标注（设备无关，ref BEN-25",
-          "status": "todo",
-          "updated_at": "2026-10-09T20:06:39Z"
         },
         {
           "key": "BEN-257",
@@ -191,8 +191,8 @@
       "workspace": "ws-dw-migration-loop",
       "machine": "奕棣 MacBook",
       "machine_online": true,
-      "meeting_active": false,
-      "meeting_title": "",
+      "meeting_active": true,
+      "meeting_title": "[早会纪要] 2026-10-10",
       "progress": 50,
       "agents": [
         {
@@ -201,7 +201,7 @@
           "role": "Opus Analyzer",
           "model": "claude-opus-5-5",
           "agent_id": "2f32549c-87c7-4202-8f54-3af79a30afa0",
-          "state": "idle",
+          "state": "meeting",
           "issue": "",
           "issue_title": ""
         },
@@ -222,9 +222,10 @@
           "role": "DW 迁移执行小队队长",
           "model": "claude-opus-5-5",
           "agent_id": "c6ff7c69-0db4-4b35-ac81-dd00e5a53ba4",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "DWM-276",
+          "issue_title": "[早会纪要] 2026-10-10",
+          "since": "2026-10-09T20:14:32Z"
         },
         {
           "name": "exec-runner",
@@ -232,7 +233,7 @@
           "role": "运行员",
           "model": "claude-opus-5-5",
           "agent_id": "1c3481f5-135b-4959-9daa-c510c076d494",
-          "state": "idle",
+          "state": "meeting",
           "issue": "",
           "issue_title": ""
         },
@@ -242,7 +243,7 @@
           "role": "验证员",
           "model": "claude-opus-5-5",
           "agent_id": "69822c63-0dcc-4f3e-875d-7b300d437623",
-          "state": "idle",
+          "state": "meeting",
           "issue": "",
           "issue_title": ""
         },
@@ -252,7 +253,7 @@
           "role": "修复员",
           "model": "claude-opus-5-5",
           "agent_id": "cd70e713-a339-4621-8699-2058d9cf7d6b",
-          "state": "idle",
+          "state": "meeting",
           "issue": "",
           "issue_title": ""
         },
@@ -262,14 +263,14 @@
           "role": null,
           "model": "",
           "agent_id": "08a037a0-da6b-4ef0-b623-24732954c8fe",
-          "state": "idle",
+          "state": "meeting",
           "issue": "",
           "issue_title": ""
         }
       ],
       "issue_counts": {
-        "todo": 1,
-        "in_progress": 0,
+        "todo": 0,
+        "in_progress": 1,
         "in_review": 0,
         "done": 70
       },
@@ -277,8 +278,8 @@
         {
           "key": "DWM-276",
           "title": "[早会纪要] 2026-10-10",
-          "status": "todo",
-          "updated_at": "2026-10-09T20:00:14Z"
+          "status": "in_progress",
+          "updated_at": "2026-10-09T20:14:30Z"
         },
         {
           "key": "DWM-275",
@@ -329,10 +330,9 @@
           "role": "IPD-PM 产品经理",
           "model": "",
           "agent_id": "1764c131-5c09-48cb-aa48-3177d5256dbb",
-          "state": "working",
-          "issue": "IPD-418",
-          "issue_title": "[PM] REQ-018 第18场景预研 + 需求池扩充（需求多样化续扩）",
-          "since": "2026-10-09T20:05:33Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "hermes-sa",
@@ -340,10 +340,9 @@
           "role": "IPD-SA 解决方案架构师",
           "model": "zai:glm-5.3",
           "agent_id": "3e4373ef-a262-4b28-ab2a-818861fc9624",
-          "state": "working",
-          "issue": "IPD-414",
-          "issue_title": "[早会纪要] 2026-10-10",
-          "since": "2026-10-09T20:06:30Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "hermes-se",
@@ -384,9 +383,9 @@
           "model": "zai:glm-5.3",
           "agent_id": "78156461-9644-478e-9c80-53cd18e25e33",
           "state": "working",
-          "issue": "IPD-414",
-          "issue_title": "[早会纪要] 2026-10-10",
-          "since": "2026-10-09T20:06:30Z"
+          "issue": "IPD-419",
+          "issue_title": "[RM] REQ-012/013/015 release-notes 欠账清偿（发版收口 · 012/013 非 gat",
+          "since": "2026-10-09T20:05:35Z"
         },
         {
           "name": "deepseek-planner",
@@ -411,22 +410,28 @@
       ],
       "issue_counts": {
         "todo": 0,
-        "in_progress": 5,
+        "in_progress": 3,
         "in_review": 0,
-        "done": 92
+        "done": 94
       },
       "latest_issues": [
+        {
+          "key": "IPD-418",
+          "title": "[PM] REQ-018 第18场景预研 + 需求池扩充（需求多样化续扩）",
+          "status": "done",
+          "updated_at": "2026-10-09T20:14:50Z"
+        },
         {
           "key": "IPD-414",
           "title": "[早会纪要] 2026-10-10",
           "status": "done",
-          "updated_at": "2026-10-09T20:09:15Z"
+          "updated_at": "2026-10-09T20:12:44Z"
         },
         {
           "key": "IPD-419",
           "title": "[RM] REQ-012/013/015 release-notes 欠账清偿（发版收口 · 012",
-          "status": "in_progress",
-          "updated_at": "2026-10-09T20:06:14Z"
+          "status": "done",
+          "updated_at": "2026-10-09T20:12:28Z"
         },
         {
           "key": "IPD-416",
@@ -439,12 +444,6 @@
           "title": "[Dev] REQ-017 习惯打卡 双端编码（第17场景·efficiency 效率类·gated",
           "status": "in_progress",
           "updated_at": "2026-10-09T20:06:08Z"
-        },
-        {
-          "key": "IPD-418",
-          "title": "[PM] REQ-018 第18场景预研 + 需求池扩充（需求多样化续扩）",
-          "status": "in_progress",
-          "updated_at": "2026-10-09T20:06:05Z"
         }
       ]
     }
