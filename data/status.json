@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T14:02:07Z",
+  "generated_at": "2026-10-09T14:06:51Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -37,36 +37,29 @@
           "role": "DeepSeek Task Planner（任务规划+总结）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "04a4e04e-59d5-4f3a-8a16-acf99b80a493",
-          "state": "working",
-          "issue": "SUR-283",
-          "issue_title": "[空闲检测] 2026-10-09 leader 两小时正点检查与加派",
-          "since": "2026-10-09T14:00:25Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         }
       ],
       "issue_counts": {
-        "todo": 3,
+        "todo": 0,
         "in_progress": 0,
         "in_review": 0,
-        "done": 93
+        "done": 97
       },
       "latest_issues": [
         {
           "key": "SUR-283",
           "title": "[空闲检测] 2026-10-09 leader 两小时正点检查与加派",
-          "status": "todo",
-          "updated_at": "2026-10-09T14:00:17Z"
+          "status": "done",
+          "updated_at": "2026-10-09T14:04:22Z"
         },
         {
           "key": "SUR-281",
           "title": "[晚会日报] 2026-10-09",
           "status": "done",
           "updated_at": "2026-10-09T12:12:46Z"
-        },
-        {
-          "key": "SUR-282",
-          "title": "[流程优化] Opt-027：会前洞察 arXiv 检索降级（API Rate exceeded →",
-          "status": "backlog",
-          "updated_at": "2026-10-09T12:08:36Z"
         },
         {
           "key": "SUR-280",
@@ -79,6 +72,12 @@
           "title": "[巡检] 2026-10-09 leader Issue 状态巡检与催办",
           "status": "done",
           "updated_at": "2026-10-09T08:07:08Z"
+        },
+        {
+          "key": "SUR-278",
+          "title": "[空闲检测] 2026-10-09 leader 两小时正点检查与加派",
+          "status": "done",
+          "updated_at": "2026-10-09T06:03:30Z"
         }
       ],
       "progress_note": "day-4 晨 37% → 午 42% → 晚 44% → 夜 47%",
@@ -212,10 +211,9 @@
           "role": "DeepSeek Planner（小组 leader/PM，",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "950ff614-521d-4e32-a02d-423d41a7b2b3",
-          "state": "working",
-          "issue": "DWM-274",
-          "issue_title": "[空闲检测] 2026-10-09 leader 两小时正点检查与加派",
-          "since": "2026-10-09T14:00:22Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "dw-lead",
@@ -269,17 +267,17 @@
         }
       ],
       "issue_counts": {
-        "todo": 1,
+        "todo": 0,
         "in_progress": 0,
         "in_review": 0,
-        "done": 68
+        "done": 69
       },
       "latest_issues": [
         {
           "key": "DWM-274",
           "title": "[空闲检测] 2026-10-09 leader 两小时正点检查与加派",
-          "status": "todo",
-          "updated_at": "2026-10-09T14:00:14Z"
+          "status": "done",
+          "updated_at": "2026-10-09T14:03:29Z"
         },
         {
           "key": "DWM-273",
@@ -390,7 +388,7 @@
           "role": "DeepSeek Planner（小组 leader/PM ",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
-          "state": "working",
+          "state": "idle",
           "issue": "",
           "issue_title": ""
         },
@@ -406,17 +404,17 @@
         }
       ],
       "issue_counts": {
-        "todo": 2,
+        "todo": 1,
         "in_progress": 1,
         "in_review": 3,
-        "done": 91
+        "done": 92
       },
       "latest_issues": [
         {
           "key": "IPD-412",
           "title": "[空闲检测] 2026-10-09 leader 两小时正点检查与加派",
-          "status": "todo",
-          "updated_at": "2026-10-09T14:00:25Z"
+          "status": "done",
+          "updated_at": "2026-10-09T14:03:26Z"
         },
         {
           "key": "IPD-407",
