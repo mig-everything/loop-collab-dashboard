@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T04:00:14Z",
+  "generated_at": "2026-10-09T04:05:52Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -7,8 +7,8 @@
       "workspace": "ws-survey-loop",
       "machine": "JordanZTdeMacBook-Pro",
       "machine_online": true,
-      "meeting_active": false,
-      "meeting_title": "",
+      "meeting_active": true,
+      "meeting_title": "[午会纪要] 2026-10-09",
       "progress": 47,
       "agents": [
         {
@@ -17,7 +17,7 @@
           "role": "GPT Writer（执笔者）",
           "model": "gpt-6-luna",
           "agent_id": "58ed4647-32dd-4ca1-8ddc-194b975d6024",
-          "state": "idle",
+          "state": "meeting",
           "issue": "",
           "issue_title": ""
         },
@@ -27,7 +27,7 @@
           "role": "Kimi Adversarial Reviewer（对抗评审",
           "model": "",
           "agent_id": "6e530cc6-6b9d-4398-936d-df9c13468125",
-          "state": "idle",
+          "state": "meeting",
           "issue": "",
           "issue_title": ""
         },
@@ -44,8 +44,8 @@
         }
       ],
       "issue_counts": {
-        "todo": 2,
-        "in_progress": 0,
+        "todo": 1,
+        "in_progress": 1,
         "in_review": 0,
         "done": 94
       },
@@ -53,8 +53,8 @@
         {
           "key": "SUR-277",
           "title": "[午会纪要] 2026-10-09",
-          "status": "todo",
-          "updated_at": "2026-10-09T04:00:15Z"
+          "status": "in_progress",
+          "updated_at": "2026-10-09T04:01:41Z"
         },
         {
           "key": "SUR-276",
@@ -100,9 +100,10 @@
           "role": "GPT Scenarist",
           "model": "zai:glm-5.3",
           "agent_id": "6e6f1e24-3bc5-455a-85d2-cb3fb6c9a672",
-          "state": "meeting",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "BEN-241",
+          "issue_title": "[任务·第1轮] 视觉差分 P0/P1 修复·scenarist 侧：binding 重定基 + 注脚（ref BEN-",
+          "since": "2026-10-09T04:06:18Z"
         },
         {
           "name": "glm-runner",
@@ -110,9 +111,10 @@
           "role": "GLM Runner & Analyst",
           "model": "",
           "agent_id": "bdaefa9b-7045-4264-95e4-1db664e353d0",
-          "state": "meeting",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "BEN-248",
+          "issue_title": "[任务·第2轮] 鸿蒙 test 变体执行扩容 + 差分归因（报告工具已修复，ref BEN-242/BEN-235）",
+          "since": "2026-10-09T04:05:50Z"
         },
         {
           "name": "deepseek-planner",
@@ -131,9 +133,10 @@
           "role": "MiniMax 多模态视觉差分评审",
           "model": "minimax-cn:MiniMax-M3",
           "agent_id": "843ac45d-b5db-4f35-b07b-2e5754ec5a5f",
-          "state": "meeting",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "BEN-249",
+          "issue_title": "[任务·第2轮] 视觉差分复检 runner 侧修复项（P0/P1 台账逐屏核对，ref BEN-242）",
+          "since": "2026-10-09T04:05:57Z"
         },
         {
           "name": "项目观察员（GPT-6）",
@@ -147,41 +150,41 @@
         }
       ],
       "issue_counts": {
-        "todo": 2,
-        "in_progress": 2,
+        "todo": 3,
+        "in_progress": 4,
         "in_review": 0,
-        "done": 95
+        "done": 93
       },
       "latest_issues": [
         {
-          "key": "BEN-247",
-          "title": "[午会纪要] 2026-10-09",
+          "key": "BEN-248",
+          "title": "[任务·第2轮] 鸿蒙 test 变体执行扩容 + 差分归因（报告工具已修复，ref BEN-242",
           "status": "in_progress",
-          "updated_at": "2026-10-09T04:01:03Z"
+          "updated_at": "2026-10-09T04:06:24Z"
         },
         {
-          "key": "BEN-246",
-          "title": "[空闲检测] 2026-10-09 leader 两小时正点检查与加派",
-          "status": "done",
-          "updated_at": "2026-10-09T02:02:25Z"
-        },
-        {
-          "key": "BEN-245",
-          "title": "[观察员日报] 2026-10-09 通过率与 Agent 时间轴",
-          "status": "todo",
-          "updated_at": "2026-10-09T01:13:52Z"
+          "key": "BEN-135",
+          "title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 1",
+          "status": "in_progress",
+          "updated_at": "2026-10-09T04:06:18Z"
         },
         {
           "key": "BEN-241",
           "title": "[任务·第1轮] 视觉差分 P0/P1 修复·scenarist 侧：binding 重定基 + 注",
           "status": "in_progress",
-          "updated_at": "2026-10-09T00:20:54Z"
+          "updated_at": "2026-10-09T04:06:15Z"
         },
         {
-          "key": "BEN-244",
-          "title": "[巡检] 2026-10-09 leader Issue 状态巡检与催办",
-          "status": "done",
-          "updated_at": "2026-10-09T00:03:24Z"
+          "key": "BEN-249",
+          "title": "[任务·第2轮] 视觉差分复检 runner 侧修复项（P0/P1 台账逐屏核对，ref BEN-2",
+          "status": "todo",
+          "updated_at": "2026-10-09T04:05:54Z"
+        },
+        {
+          "key": "BEN-247",
+          "title": "[午会纪要] 2026-10-09",
+          "status": "in_progress",
+          "updated_at": "2026-10-09T04:01:03Z"
         }
       ],
       "progress_note": "环比 +1pp，主缺口仍 ③a 安卓可执行覆盖率；夜间三线均有落地增量"
@@ -269,12 +272,18 @@
         }
       ],
       "issue_counts": {
-        "todo": 0,
+        "todo": 1,
         "in_progress": 0,
         "in_review": 0,
-        "done": 68
+        "done": 66
       },
       "latest_issues": [
+        {
+          "key": "DWM-269",
+          "title": "[午会纪要] 2026-10-09",
+          "status": "todo",
+          "updated_at": "2026-10-09T04:00:06Z"
+        },
         {
           "key": "DWM-268",
           "title": "[空闲检测] 2026-10-09 leader 两小时正点检查与加派",
@@ -298,19 +307,13 @@
           "title": "[早会纪要] 2026-10-09",
           "status": "done",
           "updated_at": "2026-10-08T20:16:54Z"
-        },
-        {
-          "key": "DWM-264",
-          "title": "[巡检] 2026-10-09 leader Issue 状态巡检与催办",
-          "status": "done",
-          "updated_at": "2026-10-08T16:06:10Z"
         }
       ],
       "order": {
-        "key": "DWM-214",
-        "title": "[DW迁移任务单] CoolMall 迁移 · 已完成",
-        "status": "done",
-        "updated_at": "2026-10-07T15:28:53Z"
+        "key": "DWM-251",
+        "title": "[DW迁移任务单] OpenCamera 迁移 · 暂停（负责人要求）",
+        "status": "blocked",
+        "updated_at": "2026-10-08T01:32:00Z"
       },
       "progress_note": "10 个应用：完成 7、进行中 0、暂停 1、未开始 2"
     },
