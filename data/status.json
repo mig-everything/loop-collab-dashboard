@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T04:34:56Z",
+  "generated_at": "2026-10-09T04:39:31Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -338,9 +338,8 @@
           "model": "zai:glm-5.3",
           "agent_id": "3e4373ef-a262-4b28-ab2a-818861fc9624",
           "state": "working",
-          "issue": "IPD-397",
-          "issue_title": "[SA] REQ-017 习惯打卡 TR-Design 六件套 + 契约 v1.0（第17场景·efficiency·P",
-          "since": "2026-10-09T04:21:34Z"
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "hermes-se",
@@ -406,11 +405,17 @@
       ],
       "issue_counts": {
         "todo": 1,
-        "in_progress": 1,
-        "in_review": 3,
+        "in_progress": 0,
+        "in_review": 4,
         "done": 92
       },
       "latest_issues": [
+        {
+          "key": "IPD-397",
+          "title": "[SA] REQ-017 习惯打卡 TR-Design 六件套 + 契约 v1.0（第17场景·ef",
+          "status": "in_review",
+          "updated_at": "2026-10-09T04:41:25Z"
+        },
         {
           "key": "IPD-401",
           "title": "[Dev] REQ-016 数独 三缺口修复（SE 矩阵 v1.1 转 Dev 处置 · 第16场景",
@@ -434,12 +439,6 @@
           "title": "[Tester] REQ-016 数独 TR-Accept 差分执行 + 双端对比报告（第16场景收",
           "status": "todo",
           "updated_at": "2026-10-09T04:23:42Z"
-        },
-        {
-          "key": "IPD-397",
-          "title": "[SA] REQ-017 习惯打卡 TR-Design 六件套 + 契约 v1.0（第17场景·ef",
-          "status": "in_progress",
-          "updated_at": "2026-10-09T04:22:59Z"
         }
       ]
     }
