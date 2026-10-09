@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T03:55:59Z",
+  "generated_at": "2026-10-09T04:00:14Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -37,18 +37,25 @@
           "role": "DeepSeek Task Planner（任务规划+总结）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "04a4e04e-59d5-4f3a-8a16-acf99b80a493",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "SUR-277",
+          "issue_title": "[午会纪要] 2026-10-09",
+          "since": "2026-10-09T04:00:18Z"
         }
       ],
       "issue_counts": {
-        "todo": 1,
+        "todo": 2,
         "in_progress": 0,
         "in_review": 0,
-        "done": 95
+        "done": 94
       },
       "latest_issues": [
+        {
+          "key": "SUR-277",
+          "title": "[午会纪要] 2026-10-09",
+          "status": "todo",
+          "updated_at": "2026-10-09T04:00:15Z"
+        },
         {
           "key": "SUR-276",
           "title": "[空闲检测] 2026-10-09 leader 两小时正点检查与加派",
@@ -72,12 +79,6 @@
           "title": "[晨会纪要] 2026-10-09",
           "status": "done",
           "updated_at": "2026-10-08T20:10:48Z"
-        },
-        {
-          "key": "SUR-269",
-          "title": "[流程优化] Opt-025：全员发言触发核验（次日验证）",
-          "status": "done",
-          "updated_at": "2026-10-08T20:10:47Z"
         }
       ],
       "progress_note": "day-4 晨 37% → 午 42% → 晚 44% → 夜 47%",
@@ -89,8 +90,8 @@
       "workspace": "ws-benchmark-loop",
       "machine": "张涛 Mac Studio",
       "machine_online": true,
-      "meeting_active": false,
-      "meeting_title": "",
+      "meeting_active": true,
+      "meeting_title": "[午会纪要] 2026-10-09",
       "progress": 90,
       "agents": [
         {
@@ -99,7 +100,7 @@
           "role": "GPT Scenarist",
           "model": "zai:glm-5.3",
           "agent_id": "6e6f1e24-3bc5-455a-85d2-cb3fb6c9a672",
-          "state": "idle",
+          "state": "meeting",
           "issue": "",
           "issue_title": ""
         },
@@ -109,7 +110,7 @@
           "role": "GLM Runner & Analyst",
           "model": "",
           "agent_id": "bdaefa9b-7045-4264-95e4-1db664e353d0",
-          "state": "idle",
+          "state": "meeting",
           "issue": "",
           "issue_title": ""
         },
@@ -119,9 +120,10 @@
           "role": "DeepSeek Planner（小组 leader/PM）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "547cd361-ef50-4965-9477-bc659d8a1708",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "BEN-247",
+          "issue_title": "[午会纪要] 2026-10-09",
+          "since": "2026-10-09T04:00:18Z"
         },
         {
           "name": "minimax-visual-diff",
@@ -129,7 +131,7 @@
           "role": "MiniMax 多模态视觉差分评审",
           "model": "minimax-cn:MiniMax-M3",
           "agent_id": "843ac45d-b5db-4f35-b07b-2e5754ec5a5f",
-          "state": "idle",
+          "state": "meeting",
           "issue": "",
           "issue_title": ""
         },
@@ -139,18 +141,24 @@
           "role": "只读洞察项目目标与执行证据，用简单语言汇报进展、偏差和阻塞，",
           "model": "gpt-6-astra",
           "agent_id": "33b902ee-a4ca-46ae-9284-c8285311c687",
-          "state": "idle",
+          "state": "meeting",
           "issue": "",
           "issue_title": ""
         }
       ],
       "issue_counts": {
         "todo": 2,
-        "in_progress": 1,
+        "in_progress": 2,
         "in_review": 0,
-        "done": 96
+        "done": 95
       },
       "latest_issues": [
+        {
+          "key": "BEN-247",
+          "title": "[午会纪要] 2026-10-09",
+          "status": "in_progress",
+          "updated_at": "2026-10-09T04:01:03Z"
+        },
         {
           "key": "BEN-246",
           "title": "[空闲检测] 2026-10-09 leader 两小时正点检查与加派",
@@ -174,12 +182,6 @@
           "title": "[巡检] 2026-10-09 leader Issue 状态巡检与催办",
           "status": "done",
           "updated_at": "2026-10-09T00:03:24Z"
-        },
-        {
-          "key": "BEN-243",
-          "title": "[空闲检测] 2026-10-09 leader 两小时正点检查与加派",
-          "status": "done",
-          "updated_at": "2026-10-08T22:02:14Z"
         }
       ],
       "progress_note": "环比 +1pp，主缺口仍 ③a 安卓可执行覆盖率；夜间三线均有落地增量"
@@ -210,9 +212,10 @@
           "role": "DeepSeek Planner（小组 leader/PM，",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "950ff614-521d-4e32-a02d-423d41a7b2b3",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "DWM-269",
+          "issue_title": "[午会纪要] 2026-10-09",
+          "since": "2026-10-09T04:00:08Z"
         },
         {
           "name": "dw-lead",
@@ -269,7 +272,7 @@
         "todo": 0,
         "in_progress": 0,
         "in_review": 0,
-        "done": 67
+        "done": 68
       },
       "latest_issues": [
         {
@@ -304,10 +307,10 @@
         }
       ],
       "order": {
-        "key": "DWM-251",
-        "title": "[DW迁移任务单] OpenCamera 迁移 · 暂停（负责人要求）",
-        "status": "blocked",
-        "updated_at": "2026-10-08T01:32:00Z"
+        "key": "DWM-214",
+        "title": "[DW迁移任务单] CoolMall 迁移 · 已完成",
+        "status": "done",
+        "updated_at": "2026-10-07T15:28:53Z"
       },
       "progress_note": "10 个应用：完成 7、进行中 0、暂停 1、未开始 2"
     },
@@ -387,9 +390,10 @@
           "role": "DeepSeek Planner（小组 leader/PM ",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-400",
+          "issue_title": "[午会纪要] 2026-10-09",
+          "since": "2026-10-09T04:00:25Z"
         },
         {
           "name": "minimax-uijudge",
@@ -403,12 +407,18 @@
         }
       ],
       "issue_counts": {
-        "todo": 2,
+        "todo": 3,
         "in_progress": 1,
         "in_review": 3,
-        "done": 91
+        "done": 90
       },
       "latest_issues": [
+        {
+          "key": "IPD-400",
+          "title": "[午会纪要] 2026-10-09",
+          "status": "todo",
+          "updated_at": "2026-10-09T04:00:24Z"
+        },
         {
           "key": "IPD-398",
           "title": "[planner] 番茄钟四维负差归因 + 编码 skill 优化首轮（2026-10-09 负责人",
@@ -432,12 +442,6 @@
           "title": "[PM] REQ-017 习惯打卡 正式 PRD + TR-Req 评审（第17场景·efficie",
           "status": "in_review",
           "updated_at": "2026-10-09T02:16:49Z"
-        },
-        {
-          "key": "IPD-396",
-          "title": "[uijudge] REQ-015 房贷计算器 双端视觉评审（UI 差维度·回填趋势表 UI 列·g",
-          "status": "in_review",
-          "updated_at": "2026-10-09T02:12:26Z"
         }
       ]
     }
