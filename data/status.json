@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T10:13:57Z",
+  "generated_at": "2026-10-09T10:18:29Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -388,10 +388,9 @@
           "role": "DeepSeek Planner（小组 leader/PM ",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
-          "state": "working",
-          "issue": "IPD-405",
-          "issue_title": "[空闲检测] 2026-10-09 leader 两小时正点检查与加派",
-          "since": "2026-10-09T10:00:28Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "minimax-uijudge",
@@ -405,23 +404,23 @@
         }
       ],
       "issue_counts": {
-        "todo": 1,
+        "todo": 0,
         "in_progress": 1,
         "in_review": 1,
-        "done": 94
+        "done": 95
       },
       "latest_issues": [
+        {
+          "key": "IPD-405",
+          "title": "[空闲检测] 2026-10-09 leader 两小时正点检查与加派",
+          "status": "done",
+          "updated_at": "2026-10-09T10:16:01Z"
+        },
         {
           "key": "IPD-406",
           "title": "[Dev] REQ-016 数独 四缺陷修复（IPD-393 TR-Accept 有条件通过条件转 ",
           "status": "in_progress",
           "updated_at": "2026-10-09T10:13:13Z"
-        },
-        {
-          "key": "IPD-405",
-          "title": "[空闲检测] 2026-10-09 leader 两小时正点检查与加派",
-          "status": "todo",
-          "updated_at": "2026-10-09T10:00:27Z"
         },
         {
           "key": "IPD-393",
