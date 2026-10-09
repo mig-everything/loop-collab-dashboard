@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T12:23:25Z",
+  "generated_at": "2026-10-09T12:27:55Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -347,10 +347,9 @@
           "role": "IPD-SE 系统工程师",
           "model": "zai:glm-5.3",
           "agent_id": "b874ba6b-80e6-45c6-a8c6-aedc6f2b326b",
-          "state": "working",
-          "issue": "IPD-409",
-          "issue_title": "[SE] REQ-017 习惯打卡 追踪矩阵 v1.0（第17场景 · gated on SA 契约已交付）",
-          "since": "2026-10-09T12:09:29Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "hermes-dev",
@@ -358,10 +357,9 @@
           "role": "IPD-Dev 开发工程师",
           "model": "zai:glm-5.3",
           "agent_id": "44fcec25-d8b3-4af6-b206-1774a64677ce",
-          "state": "working",
-          "issue": "IPD-407",
-          "issue_title": "[晚会纪要] 2026-10-09（day-15 第3轮夜间派单）",
-          "since": "2026-10-09T12:11:37Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "hermes-tester",
@@ -406,11 +404,29 @@
       ],
       "issue_counts": {
         "todo": 1,
-        "in_progress": 2,
-        "in_review": 2,
+        "in_progress": 1,
+        "in_review": 3,
         "done": 92
       },
       "latest_issues": [
+        {
+          "key": "IPD-407",
+          "title": "[晚会纪要] 2026-10-09（day-15 第3轮夜间派单）",
+          "status": "done",
+          "updated_at": "2026-10-09T12:26:31Z"
+        },
+        {
+          "key": "IPD-398",
+          "title": "[planner] 番茄钟四维负差归因 + 编码 skill 优化首轮（2026-10-09 负责人",
+          "status": "done",
+          "updated_at": "2026-10-09T12:26:19Z"
+        },
+        {
+          "key": "IPD-409",
+          "title": "[SE] REQ-017 习惯打卡 追踪矩阵 v1.0（第17场景 · gated on SA 契约",
+          "status": "in_review",
+          "updated_at": "2026-10-09T12:25:01Z"
+        },
         {
           "key": "IPD-411",
           "title": "[SA] 六件套复算自证范式模板化 → ai-native-ipd 通用 skill（Opt-030",
@@ -418,28 +434,10 @@
           "updated_at": "2026-10-09T12:22:09Z"
         },
         {
-          "key": "IPD-407",
-          "title": "[晚会纪要] 2026-10-09（day-15 第3轮夜间派单）",
-          "status": "done",
-          "updated_at": "2026-10-09T12:17:57Z"
-        },
-        {
           "key": "IPD-408",
           "title": "[PM] REQ-016/017 PRD 差异回写（P-1 硬门槛 20ms→500ms · 第16",
           "status": "in_review",
           "updated_at": "2026-10-09T12:17:51Z"
-        },
-        {
-          "key": "IPD-410",
-          "title": "[uijudge] REQ-015 房贷计算器 视觉复评（以 h3_ep_toggle_clean ",
-          "status": "todo",
-          "updated_at": "2026-10-09T12:16:25Z"
-        },
-        {
-          "key": "IPD-406",
-          "title": "[Dev] REQ-016 数独 四缺陷修复（IPD-393 TR-Accept 有条件通过条件转 ",
-          "status": "in_progress",
-          "updated_at": "2026-10-09T12:13:33Z"
         }
       ]
     }
