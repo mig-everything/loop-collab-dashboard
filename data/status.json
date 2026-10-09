@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T02:06:41Z",
+  "generated_at": "2026-10-09T02:10:43Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -327,9 +327,10 @@
           "role": "IPD-PM 产品经理",
           "model": "",
           "agent_id": "1764c131-5c09-48cb-aa48-3177d5256dbb",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-394",
+          "issue_title": "[PM] REQ-017 习惯打卡 正式 PRD + TR-Req 评审（第17场景·efficiency 效率类·P0",
+          "since": "2026-10-09T02:07:29Z"
         },
         {
           "name": "hermes-sa",
@@ -347,9 +348,10 @@
           "role": "IPD-SE 系统工程师",
           "model": "zai:glm-5.3",
           "agent_id": "b874ba6b-80e6-45c6-a8c6-aedc6f2b326b",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-395",
+          "issue_title": "[SE] REQ-016 数独 追踪矩阵代码列回填 + trace-check 复跑（第16场景·gated on De",
+          "since": "2026-10-09T02:07:34Z"
         },
         {
           "name": "hermes-dev",
@@ -367,9 +369,10 @@
           "role": "IPD-Tester 测试工程师",
           "model": "zai:glm-5.3",
           "agent_id": "86df9f14-a2cd-46d9-ad15-dbe8606ebd73",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-393",
+          "issue_title": "[Tester] REQ-016 数独 TR-Accept 差分执行 + 双端对比报告（第16场景收口·gated on",
+          "since": "2026-10-09T02:07:26Z"
         },
         {
           "name": "hermes-rm",
@@ -387,10 +390,9 @@
           "role": "DeepSeek Planner（小组 leader/PM ",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
-          "state": "working",
-          "issue": "IPD-391",
-          "issue_title": "[空闲检测] 2026-10-09 leader 两小时正点检查与加派",
-          "since": "2026-10-09T02:00:31Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "minimax-uijudge",
@@ -398,47 +400,48 @@
           "role": "MiniMax 多模态 UI 视觉评审",
           "model": "minimax-cn:MiniMax-M3",
           "agent_id": "97f55294-90e0-4556-93af-a1cf44889574",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-396",
+          "issue_title": "[uijudge] REQ-015 房贷计算器 双端视觉评审（UI 差维度·回填趋势表 UI 列·gated on TR",
+          "since": "2026-10-09T02:07:37Z"
         }
       ],
       "issue_counts": {
-        "todo": 2,
-        "in_progress": 0,
+        "todo": 3,
+        "in_progress": 2,
         "in_review": 0,
-        "done": 96
+        "done": 93
       },
       "latest_issues": [
         {
-          "key": "IPD-392",
-          "title": "[临时会议·空闲加派] 2026-10-09 10点场（day-15 第2轮派单 · deepsee",
-          "status": "todo",
-          "updated_at": "2026-10-09T02:07:08Z"
+          "key": "IPD-396",
+          "title": "[uijudge] REQ-015 房贷计算器 双端视觉评审（UI 差维度·回填趋势表 UI 列·g",
+          "status": "in_progress",
+          "updated_at": "2026-10-09T02:09:01Z"
         },
         {
           "key": "IPD-391",
           "title": "[空闲检测] 2026-10-09 leader 两小时正点检查与加派",
-          "status": "todo",
-          "updated_at": "2026-10-09T02:00:29Z"
+          "status": "done",
+          "updated_at": "2026-10-09T02:08:04Z"
         },
         {
-          "key": "IPD-390",
-          "title": "[巡检] 2026-10-09 leader Issue 状态巡检与催办",
-          "status": "done",
-          "updated_at": "2026-10-09T00:02:17Z"
+          "key": "IPD-395",
+          "title": "[SE] REQ-016 数独 追踪矩阵代码列回填 + trace-check 复跑（第16场景·g",
+          "status": "in_progress",
+          "updated_at": "2026-10-09T02:07:55Z"
         },
         {
-          "key": "IPD-374",
-          "title": "[Dev] uijudge 通道生产部署 + 正式场景 UI 维转正（gated on 763bd0",
+          "key": "IPD-392",
+          "title": "[临时会议·空闲加派] 2026-10-09 10点场（day-15 第2轮派单 · deepsee",
           "status": "done",
-          "updated_at": "2026-10-09T00:01:59Z"
+          "updated_at": "2026-10-09T02:07:50Z"
         },
         {
-          "key": "IPD-371",
-          "title": "[RM] REQ-015 房贷计算器 C2 决胜样本度量（四维差终局+glm回滚首收敛观测·gate",
-          "status": "done",
-          "updated_at": "2026-10-09T00:01:57Z"
+          "key": "IPD-397",
+          "title": "[SA] REQ-017 习惯打卡 TR-Design 六件套 + 契约 v1.0（第17场景·ef",
+          "status": "backlog",
+          "updated_at": "2026-10-09T02:07:38Z"
         }
       ]
     }
