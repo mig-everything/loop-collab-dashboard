@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T20:07:05Z",
+  "generated_at": "2026-10-09T20:10:59Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -120,10 +120,9 @@
           "role": "DeepSeek Planner（小组 leader/PM）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "547cd361-ef50-4965-9477-bc659d8a1708",
-          "state": "working",
-          "issue": "BEN-258",
-          "issue_title": "[早会纪要] 2026-10-10",
-          "since": "2026-10-09T20:00:21Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "minimax-visual-diff",
@@ -148,23 +147,23 @@
         }
       ],
       "issue_counts": {
-        "todo": 3,
+        "todo": 2,
         "in_progress": 0,
         "in_review": 0,
-        "done": 94
+        "done": 95
       },
       "latest_issues": [
+        {
+          "key": "BEN-258",
+          "title": "[早会纪要] 2026-10-10",
+          "status": "done",
+          "updated_at": "2026-10-09T20:07:29Z"
+        },
         {
           "key": "BEN-259",
           "title": "[任务·第1轮] 视觉差分 playbook 通知族 A类差异预标注（设备无关，ref BEN-25",
           "status": "todo",
           "updated_at": "2026-10-09T20:06:39Z"
-        },
-        {
-          "key": "BEN-258",
-          "title": "[早会纪要] 2026-10-10",
-          "status": "todo",
-          "updated_at": "2026-10-09T20:00:20Z"
         },
         {
           "key": "BEN-257",
@@ -331,9 +330,9 @@
           "model": "",
           "agent_id": "1764c131-5c09-48cb-aa48-3177d5256dbb",
           "state": "working",
-          "issue": "IPD-414",
-          "issue_title": "[早会纪要] 2026-10-10",
-          "since": "2026-10-09T20:06:30Z"
+          "issue": "IPD-418",
+          "issue_title": "[PM] REQ-018 第18场景预研 + 需求池扩充（需求多样化续扩）",
+          "since": "2026-10-09T20:05:33Z"
         },
         {
           "name": "hermes-sa",
@@ -352,10 +351,9 @@
           "role": "IPD-SE 系统工程师",
           "model": "zai:glm-5.3",
           "agent_id": "b874ba6b-80e6-45c6-a8c6-aedc6f2b326b",
-          "state": "working",
-          "issue": "IPD-414",
-          "issue_title": "[早会纪要] 2026-10-10",
-          "since": "2026-10-09T20:06:30Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "hermes-dev",
@@ -375,9 +373,9 @@
           "model": "zai:glm-5.3",
           "agent_id": "86df9f14-a2cd-46d9-ad15-dbe8606ebd73",
           "state": "working",
-          "issue": "IPD-414",
-          "issue_title": "[早会纪要] 2026-10-10",
-          "since": "2026-10-09T20:06:30Z"
+          "issue": "IPD-415",
+          "issue_title": "[Tester] REQ-016 数独复验转无条件通过（IPD-406 四缺陷修复后 · 第16场景收口）",
+          "since": "2026-10-09T20:05:25Z"
         },
         {
           "name": "hermes-rm",
@@ -422,7 +420,7 @@
           "key": "IPD-414",
           "title": "[早会纪要] 2026-10-10",
           "status": "done",
-          "updated_at": "2026-10-09T20:07:17Z"
+          "updated_at": "2026-10-09T20:09:15Z"
         },
         {
           "key": "IPD-419",
