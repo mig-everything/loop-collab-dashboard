@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T03:02:07Z",
+  "generated_at": "2026-10-09T03:06:28Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -357,12 +357,9 @@
           "role": "IPD-Dev 开发工程师",
           "model": "zai:glm-5.3",
           "agent_id": "44fcec25-d8b3-4af6-b206-1774a64677ce",
-          "state": "working",
-          "issue": "IPD-399",
-          "issue_title": "[Dev] 番茄钟归因落地 arkts-coding skill + 规模≤5000行约束固化（IPD-398 DoD-",
-          "since": "2026-10-09T03:00:04Z",
-          "parent_issue": "IPD-398",
-          "parent_title": "[planner] 番茄钟四维负差归因 + 编码 skill 优化首轮（2026-10-09 负责人：持续优化编码 Sk"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "hermes-tester",
