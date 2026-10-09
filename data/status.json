@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T08:22:58Z",
+  "generated_at": "2026-10-09T08:27:32Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -367,7 +367,7 @@
           "role": "IPD-Tester 测试工程师",
           "model": "zai:glm-5.3",
           "agent_id": "86df9f14-a2cd-46d9-ad15-dbe8606ebd73",
-          "state": "working",
+          "state": "idle",
           "issue": "",
           "issue_title": ""
         },
