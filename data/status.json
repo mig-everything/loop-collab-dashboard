@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T20:22:19Z",
+  "generated_at": "2026-10-09T20:26:03Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -17,10 +17,9 @@
           "role": "GPT Writer（执笔者）",
           "model": "gpt-6-luna",
           "agent_id": "58ed4647-32dd-4ca1-8ddc-194b975d6024",
-          "state": "working",
-          "issue": "SUR-285",
-          "issue_title": "[晨会纪要] 2026-10-10",
-          "since": "2026-10-09T20:20:41Z"
+          "state": "meeting",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "kimi-adversary",
@@ -38,10 +37,9 @@
           "role": "DeepSeek Task Planner（任务规划+总结）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "04a4e04e-59d5-4f3a-8a16-acf99b80a493",
-          "state": "working",
-          "issue": "SUR-285",
-          "issue_title": "[晨会纪要] 2026-10-10",
-          "since": "2026-10-09T20:00:12Z"
+          "state": "meeting",
+          "issue": "",
+          "issue_title": ""
         }
       ],
       "issue_counts": {
@@ -55,7 +53,7 @@
           "key": "SUR-285",
           "title": "[晨会纪要] 2026-10-10",
           "status": "in_progress",
-          "updated_at": "2026-10-09T20:21:13Z"
+          "updated_at": "2026-10-09T20:23:02Z"
         },
         {
           "key": "SUR-282",
@@ -358,10 +356,9 @@
           "role": "IPD-Dev 开发工程师",
           "model": "zai:glm-5.3",
           "agent_id": "44fcec25-d8b3-4af6-b206-1774a64677ce",
-          "state": "working",
-          "issue": "IPD-414",
-          "issue_title": "[早会纪要] 2026-10-10",
-          "since": "2026-10-09T20:06:30Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "hermes-tester",
@@ -412,6 +409,12 @@
       },
       "latest_issues": [
         {
+          "key": "IPD-414",
+          "title": "[早会纪要] 2026-10-10",
+          "status": "done",
+          "updated_at": "2026-10-09T20:23:10Z"
+        },
+        {
           "key": "IPD-416",
           "title": "[Dev] REQ-015 房贷 双 P1 缺陷修复（uijudge IPD-410 复评转 Dev",
           "status": "in_progress",
@@ -434,12 +437,6 @@
           "title": "[Tester] REQ-016 数独复验转无条件通过（IPD-406 四缺陷修复后 · 第16场景",
           "status": "in_progress",
           "updated_at": "2026-10-09T20:15:48Z"
-        },
-        {
-          "key": "IPD-418",
-          "title": "[PM] REQ-018 第18场景预研 + 需求池扩充（需求多样化续扩）",
-          "status": "done",
-          "updated_at": "2026-10-09T20:14:50Z"
         }
       ]
     }
