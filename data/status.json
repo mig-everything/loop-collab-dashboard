@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T16:06:08Z",
+  "generated_at": "2026-10-09T16:10:27Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -119,10 +119,9 @@
           "role": "DeepSeek Planner（小组 leader/PM）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "547cd361-ef50-4965-9477-bc659d8a1708",
-          "state": "working",
-          "issue": "BEN-257",
-          "issue_title": "[巡检] 2026-10-10 leader Issue 状态巡检与催办",
-          "since": "2026-10-09T16:00:26Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "minimax-visual-diff",
@@ -146,12 +145,18 @@
         }
       ],
       "issue_counts": {
-        "todo": 2,
+        "todo": 1,
         "in_progress": 0,
         "in_review": 0,
-        "done": 95
+        "done": 96
       },
       "latest_issues": [
+        {
+          "key": "BEN-257",
+          "title": "[巡检] 2026-10-10 leader Issue 状态巡检与催办",
+          "status": "done",
+          "updated_at": "2026-10-09T16:06:45Z"
+        },
         {
           "key": "BEN-225",
           "title": "[观察员日报] 2026-10-08 通过率与 Agent 时间轴",
@@ -163,12 +168,6 @@
           "title": "[观察员日报] 2026-10-09 通过率与 Agent 时间轴",
           "status": "done",
           "updated_at": "2026-10-09T16:06:25Z"
-        },
-        {
-          "key": "BEN-257",
-          "title": "[巡检] 2026-10-10 leader Issue 状态巡检与催办",
-          "status": "todo",
-          "updated_at": "2026-10-09T16:00:22Z"
         },
         {
           "key": "BEN-253",
