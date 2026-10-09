@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T00:07:43Z",
+  "generated_at": "2026-10-09T00:11:30Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -147,7 +147,7 @@
       ],
       "issue_counts": {
         "todo": 1,
-        "in_progress": 2,
+        "in_progress": 1,
         "in_review": 0,
         "done": 97
       },
@@ -165,12 +165,6 @@
           "updated_at": "2026-10-09T00:03:10Z"
         },
         {
-          "key": "BEN-135",
-          "title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 1",
-          "status": "in_progress",
-          "updated_at": "2026-10-09T00:03:08Z"
-        },
-        {
           "key": "BEN-243",
           "title": "[空闲检测] 2026-10-09 leader 两小时正点检查与加派",
           "status": "done",
@@ -181,6 +175,12 @@
           "title": "[任务·第1轮] 视觉差分 P0/P1 修复·runner 侧 pre-grant + test2 ",
           "status": "done",
           "updated_at": "2026-10-08T20:38:55Z"
+        },
+        {
+          "key": "BEN-240",
+          "title": "[早会纪要] 2026-10-09",
+          "status": "done",
+          "updated_at": "2026-10-08T20:14:33Z"
         }
       ],
       "progress_note": "环比 +1pp，主缺口仍 ③a 安卓可执行覆盖率；夜间三线均有落地增量"
