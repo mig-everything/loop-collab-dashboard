@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T12:09:23Z",
+  "generated_at": "2026-10-09T12:14:16Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -7,8 +7,8 @@
       "workspace": "ws-survey-loop",
       "machine": "JordanZTdeMacBook-Pro",
       "machine_online": true,
-      "meeting_active": true,
-      "meeting_title": "[晚会日报] 2026-10-09",
+      "meeting_active": false,
+      "meeting_title": "",
       "progress": 47,
       "agents": [
         {
@@ -17,7 +17,7 @@
           "role": "GPT Writer（执笔者）",
           "model": "gpt-6-luna",
           "agent_id": "58ed4647-32dd-4ca1-8ddc-194b975d6024",
-          "state": "meeting",
+          "state": "idle",
           "issue": "",
           "issue_title": ""
         },
@@ -27,7 +27,7 @@
           "role": "Kimi Adversarial Reviewer（对抗评审",
           "model": "",
           "agent_id": "6e530cc6-6b9d-4398-936d-df9c13468125",
-          "state": "meeting",
+          "state": "idle",
           "issue": "",
           "issue_title": ""
         },
@@ -37,30 +37,29 @@
           "role": "DeepSeek Task Planner（任务规划+总结）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "04a4e04e-59d5-4f3a-8a16-acf99b80a493",
-          "state": "working",
-          "issue": "SUR-281",
-          "issue_title": "[晚会日报] 2026-10-09",
-          "since": "2026-10-09T12:00:27Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         }
       ],
       "issue_counts": {
         "todo": 2,
-        "in_progress": 1,
+        "in_progress": 0,
         "in_review": 0,
-        "done": 93
+        "done": 94
       },
       "latest_issues": [
+        {
+          "key": "SUR-281",
+          "title": "[晚会日报] 2026-10-09",
+          "status": "done",
+          "updated_at": "2026-10-09T12:12:46Z"
+        },
         {
           "key": "SUR-282",
           "title": "[流程优化] Opt-027：会前洞察 arXiv 检索降级（API Rate exceeded →",
           "status": "backlog",
           "updated_at": "2026-10-09T12:08:36Z"
-        },
-        {
-          "key": "SUR-281",
-          "title": "[晚会日报] 2026-10-09",
-          "status": "in_progress",
-          "updated_at": "2026-10-09T12:01:55Z"
         },
         {
           "key": "SUR-280",
@@ -120,10 +119,9 @@
           "role": "DeepSeek Planner（小组 leader/PM）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "547cd361-ef50-4965-9477-bc659d8a1708",
-          "state": "working",
-          "issue": "BEN-254",
-          "issue_title": "[晚会日报] 2026-10-09",
-          "since": "2026-10-09T12:00:20Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "minimax-visual-diff",
@@ -131,10 +129,9 @@
           "role": "MiniMax 多模态视觉差分评审",
           "model": "minimax-cn:MiniMax-M3",
           "agent_id": "843ac45d-b5db-4f35-b07b-2e5754ec5a5f",
-          "state": "working",
-          "issue": "BEN-255",
-          "issue_title": "[任务·第3轮夜间] 视觉差分 playbook 收口 + BEN-249 三条转派项挂起标记（设备无关，ref BEN",
-          "since": "2026-10-09T12:09:13Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "项目观察员（GPT-6）",
@@ -148,23 +145,23 @@
         }
       ],
       "issue_counts": {
-        "todo": 5,
+        "todo": 3,
         "in_progress": 0,
         "in_review": 0,
-        "done": 92
+        "done": 94
       },
       "latest_issues": [
         {
           "key": "BEN-255",
           "title": "[任务·第3轮夜间] 视觉差分 playbook 收口 + BEN-249 三条转派项挂起标记（设备",
-          "status": "todo",
-          "updated_at": "2026-10-09T12:09:11Z"
+          "status": "done",
+          "updated_at": "2026-10-09T12:12:01Z"
         },
         {
           "key": "BEN-254",
           "title": "[晚会日报] 2026-10-09",
-          "status": "todo",
-          "updated_at": "2026-10-09T12:00:16Z"
+          "status": "done",
+          "updated_at": "2026-10-09T12:10:25Z"
         },
         {
           "key": "BEN-253",
@@ -193,8 +190,8 @@
       "workspace": "ws-dw-migration-loop",
       "machine": "奕棣 MacBook",
       "machine_online": true,
-      "meeting_active": false,
-      "meeting_title": "",
+      "meeting_active": true,
+      "meeting_title": "[晚会日报] 2026-10-09",
       "progress": 50,
       "agents": [
         {
@@ -203,7 +200,7 @@
           "role": "Opus Analyzer",
           "model": "claude-opus-5-5",
           "agent_id": "2f32549c-87c7-4202-8f54-3af79a30afa0",
-          "state": "idle",
+          "state": "meeting",
           "issue": "",
           "issue_title": ""
         },
@@ -224,7 +221,7 @@
           "role": "DW 迁移执行小队队长",
           "model": "claude-opus-5-5",
           "agent_id": "c6ff7c69-0db4-4b35-ac81-dd00e5a53ba4",
-          "state": "idle",
+          "state": "meeting",
           "issue": "",
           "issue_title": ""
         },
@@ -234,7 +231,7 @@
           "role": "运行员",
           "model": "claude-opus-5-5",
           "agent_id": "1c3481f5-135b-4959-9daa-c510c076d494",
-          "state": "idle",
+          "state": "meeting",
           "issue": "",
           "issue_title": ""
         },
@@ -244,7 +241,7 @@
           "role": "验证员",
           "model": "claude-opus-5-5",
           "agent_id": "69822c63-0dcc-4f3e-875d-7b300d437623",
-          "state": "idle",
+          "state": "meeting",
           "issue": "",
           "issue_title": ""
         },
@@ -254,7 +251,7 @@
           "role": "修复员",
           "model": "claude-opus-5-5",
           "agent_id": "cd70e713-a339-4621-8699-2058d9cf7d6b",
-          "state": "idle",
+          "state": "meeting",
           "issue": "",
           "issue_title": ""
         },
@@ -264,14 +261,14 @@
           "role": null,
           "model": "",
           "agent_id": "08a037a0-da6b-4ef0-b623-24732954c8fe",
-          "state": "idle",
+          "state": "meeting",
           "issue": "",
           "issue_title": ""
         }
       ],
       "issue_counts": {
-        "todo": 1,
-        "in_progress": 0,
+        "todo": 0,
+        "in_progress": 1,
         "in_review": 0,
         "done": 68
       },
@@ -279,8 +276,8 @@
         {
           "key": "DWM-273",
           "title": "[晚会日报] 2026-10-09",
-          "status": "todo",
-          "updated_at": "2026-10-09T12:00:22Z"
+          "status": "in_progress",
+          "updated_at": "2026-10-09T12:13:50Z"
         },
         {
           "key": "DWM-272",
@@ -321,8 +318,8 @@
       "workspace": "ws-ipd-eazo-loop",
       "machine": "贾博 Mac Mini",
       "machine_online": true,
-      "meeting_active": true,
-      "meeting_title": "[晚会日报] 2026-10-09",
+      "meeting_active": false,
+      "meeting_title": "",
       "progress": 94,
       "agents": [
         {
@@ -332,9 +329,9 @@
           "model": "",
           "agent_id": "1764c131-5c09-48cb-aa48-3177d5256dbb",
           "state": "working",
-          "issue": "IPD-408",
-          "issue_title": "[PM] REQ-016/017 PRD 差异回写（P-1 硬门槛 20ms→500ms · 第16/17场景追溯一致性",
-          "since": "2026-10-09T12:09:21Z"
+          "issue": "IPD-407",
+          "issue_title": "[晚会纪要] 2026-10-09（day-15 第3轮夜间派单）",
+          "since": "2026-10-09T12:11:37Z"
         },
         {
           "name": "hermes-sa",
@@ -343,9 +340,9 @@
           "model": "zai:glm-5.3",
           "agent_id": "3e4373ef-a262-4b28-ab2a-818861fc9624",
           "state": "working",
-          "issue": "IPD-411",
-          "issue_title": "[SA] 六件套复算自证范式模板化 → ai-native-ipd 通用 skill（Opt-030 流程优化项）",
-          "since": "2026-10-09T12:09:36Z"
+          "issue": "IPD-407",
+          "issue_title": "[晚会纪要] 2026-10-09（day-15 第3轮夜间派单）",
+          "since": "2026-10-09T12:11:37Z"
         },
         {
           "name": "hermes-se",
@@ -354,9 +351,9 @@
           "model": "zai:glm-5.3",
           "agent_id": "b874ba6b-80e6-45c6-a8c6-aedc6f2b326b",
           "state": "working",
-          "issue": "IPD-409",
-          "issue_title": "[SE] REQ-017 习惯打卡 追踪矩阵 v1.0（第17场景 · gated on SA 契约已交付）",
-          "since": "2026-10-09T12:09:29Z"
+          "issue": "IPD-407",
+          "issue_title": "[晚会纪要] 2026-10-09（day-15 第3轮夜间派单）",
+          "since": "2026-10-09T12:11:37Z"
         },
         {
           "name": "hermes-dev",
@@ -364,9 +361,10 @@
           "role": "IPD-Dev 开发工程师",
           "model": "zai:glm-5.3",
           "agent_id": "44fcec25-d8b3-4af6-b206-1774a64677ce",
-          "state": "meeting",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-407",
+          "issue_title": "[晚会纪要] 2026-10-09（day-15 第3轮夜间派单）",
+          "since": "2026-10-09T12:11:37Z"
         },
         {
           "name": "hermes-tester",
@@ -374,7 +372,7 @@
           "role": "IPD-Tester 测试工程师",
           "model": "zai:glm-5.3",
           "agent_id": "86df9f14-a2cd-46d9-ad15-dbe8606ebd73",
-          "state": "meeting",
+          "state": "idle",
           "issue": "",
           "issue_title": ""
         },
@@ -384,9 +382,10 @@
           "role": "IPD-RM 发布经理",
           "model": "zai:glm-5.3",
           "agent_id": "78156461-9644-478e-9c80-53cd18e25e33",
-          "state": "meeting",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-407",
+          "issue_title": "[晚会纪要] 2026-10-09（day-15 第3轮夜间派单）",
+          "since": "2026-10-09T12:11:37Z"
         },
         {
           "name": "deepseek-planner",
@@ -394,10 +393,9 @@
           "role": "DeepSeek Planner（小组 leader/PM ",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
-          "state": "working",
-          "issue": "IPD-407",
-          "issue_title": "[晚会日报] 2026-10-09",
-          "since": "2026-10-09T12:00:31Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "minimax-uijudge",
@@ -413,11 +411,23 @@
       ],
       "issue_counts": {
         "todo": 2,
-        "in_progress": 4,
+        "in_progress": 3,
         "in_review": 0,
-        "done": 91
+        "done": 92
       },
       "latest_issues": [
+        {
+          "key": "IPD-407",
+          "title": "[晚会纪要] 2026-10-09（day-15 第3轮夜间派单）",
+          "status": "done",
+          "updated_at": "2026-10-09T12:13:49Z"
+        },
+        {
+          "key": "IPD-406",
+          "title": "[Dev] REQ-016 数独 四缺陷修复（IPD-393 TR-Accept 有条件通过条件转 ",
+          "status": "in_progress",
+          "updated_at": "2026-10-09T12:13:33Z"
+        },
         {
           "key": "IPD-409",
           "title": "[SE] REQ-017 习惯打卡 追踪矩阵 v1.0（第17场景 · gated on SA 契约",
@@ -435,18 +445,6 @@
           "title": "[SA] 六件套复算自证范式模板化 → ai-native-ipd 通用 skill（Opt-030",
           "status": "todo",
           "updated_at": "2026-10-09T12:09:34Z"
-        },
-        {
-          "key": "IPD-410",
-          "title": "[uijudge] REQ-015 房贷计算器 视觉复评（以 h3_ep_toggle_clean ",
-          "status": "todo",
-          "updated_at": "2026-10-09T12:09:30Z"
-        },
-        {
-          "key": "IPD-393",
-          "title": "[Tester] REQ-016 数独 TR-Accept 差分执行 + 双端对比报告（第16场景收",
-          "status": "done",
-          "updated_at": "2026-10-09T12:08:37Z"
         }
       ]
     }
