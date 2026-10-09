@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T16:23:04Z",
+  "generated_at": "2026-10-09T20:03:16Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -37,18 +37,25 @@
           "role": "DeepSeek Task Planner（任务规划+总结）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "04a4e04e-59d5-4f3a-8a16-acf99b80a493",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "SUR-285",
+          "issue_title": "[晨会纪要] 2026-10-10",
+          "since": "2026-10-09T20:00:12Z"
         }
       ],
       "issue_counts": {
-        "todo": 2,
+        "todo": 3,
         "in_progress": 0,
         "in_review": 0,
-        "done": 94
+        "done": 93
       },
       "latest_issues": [
+        {
+          "key": "SUR-285",
+          "title": "[晨会纪要] 2026-10-10",
+          "status": "todo",
+          "updated_at": "2026-10-09T20:00:11Z"
+        },
         {
           "key": "SUR-284",
           "title": "[巡检] 2026-10-10 leader Issue 状态巡检与催办",
@@ -72,12 +79,6 @@
           "title": "[流程优化] Opt-027：会前洞察 arXiv 检索降级（API Rate exceeded →",
           "status": "backlog",
           "updated_at": "2026-10-09T12:08:36Z"
-        },
-        {
-          "key": "SUR-280",
-          "title": "[空闲检测] 2026-10-09 leader 两小时正点检查与加派",
-          "status": "done",
-          "updated_at": "2026-10-09T10:03:17Z"
         }
       ],
       "progress_note": "day-4 晨 37% → 午 42% → 晚 44% → 夜 47%",
@@ -119,9 +120,10 @@
           "role": "DeepSeek Planner（小组 leader/PM）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "547cd361-ef50-4965-9477-bc659d8a1708",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "BEN-258",
+          "issue_title": "[早会纪要] 2026-10-10",
+          "since": "2026-10-09T20:00:21Z"
         },
         {
           "name": "minimax-visual-diff",
@@ -145,12 +147,18 @@
         }
       ],
       "issue_counts": {
-        "todo": 1,
+        "todo": 2,
         "in_progress": 0,
         "in_review": 0,
-        "done": 96
+        "done": 95
       },
       "latest_issues": [
+        {
+          "key": "BEN-258",
+          "title": "[早会纪要] 2026-10-10",
+          "status": "todo",
+          "updated_at": "2026-10-09T20:00:20Z"
+        },
         {
           "key": "BEN-257",
           "title": "[巡检] 2026-10-10 leader Issue 状态巡检与催办",
@@ -174,12 +182,6 @@
           "title": "对比安卓测例，复核鸿蒙测试完备性及通用性对测试性能的影响",
           "status": "todo",
           "updated_at": "2026-10-09T15:39:47Z"
-        },
-        {
-          "key": "BEN-256",
-          "title": "[空闲检测] 2026-10-09 leader 两小时正点检查与加派",
-          "status": "done",
-          "updated_at": "2026-10-09T14:09:04Z"
         }
       ],
       "progress_note": "环比 +1pp，主缺口仍 ③a 安卓可执行覆盖率；夜间三线均有落地增量"
@@ -210,9 +212,10 @@
           "role": "DeepSeek Planner（小组 leader/PM，",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "950ff614-521d-4e32-a02d-423d41a7b2b3",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "DWM-276",
+          "issue_title": "[早会纪要] 2026-10-10",
+          "since": "2026-10-09T20:00:14Z"
         },
         {
           "name": "dw-lead",
@@ -266,12 +269,18 @@
         }
       ],
       "issue_counts": {
-        "todo": 0,
+        "todo": 1,
         "in_progress": 0,
         "in_review": 0,
         "done": 70
       },
       "latest_issues": [
+        {
+          "key": "DWM-276",
+          "title": "[早会纪要] 2026-10-10",
+          "status": "todo",
+          "updated_at": "2026-10-09T20:00:14Z"
+        },
         {
           "key": "DWM-275",
           "title": "[巡检] 2026-10-10 leader Issue 状态巡检与催办",
@@ -295,12 +304,6 @@
           "title": "[空闲检测] 2026-10-09 leader 两小时正点检查与加派",
           "status": "done",
           "updated_at": "2026-10-09T10:04:38Z"
-        },
-        {
-          "key": "DWM-271",
-          "title": "[巡检] 2026-10-09 leader Issue 状态巡检与催办",
-          "status": "done",
-          "updated_at": "2026-10-09T08:03:56Z"
         }
       ],
       "order": {
@@ -387,9 +390,10 @@
           "role": "DeepSeek Planner（小组 leader/PM ",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-414",
+          "issue_title": "[早会纪要] 2026-10-10",
+          "since": "2026-10-09T20:00:19Z"
         },
         {
           "name": "minimax-uijudge",
@@ -403,12 +407,18 @@
         }
       ],
       "issue_counts": {
-        "todo": 0,
+        "todo": 1,
         "in_progress": 0,
         "in_review": 1,
-        "done": 96
+        "done": 95
       },
       "latest_issues": [
+        {
+          "key": "IPD-414",
+          "title": "[早会纪要] 2026-10-10",
+          "status": "todo",
+          "updated_at": "2026-10-09T20:00:19Z"
+        },
         {
           "key": "IPD-406",
           "title": "[Dev] REQ-016 数独 四缺陷修复（IPD-393 TR-Accept 有条件通过条件转 ",
@@ -432,12 +442,6 @@
           "title": "[SA] 六件套复算自证范式模板化 → ai-native-ipd 通用 skill（Opt-030",
           "status": "done",
           "updated_at": "2026-10-09T16:06:11Z"
-        },
-        {
-          "key": "IPD-409",
-          "title": "[SE] REQ-017 习惯打卡 追踪矩阵 v1.0（第17场景 · gated on SA 契约",
-          "status": "done",
-          "updated_at": "2026-10-09T16:06:08Z"
         }
       ]
     }
