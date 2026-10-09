@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T14:06:51Z",
+  "generated_at": "2026-10-09T14:12:19Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -43,10 +43,10 @@
         }
       ],
       "issue_counts": {
-        "todo": 0,
+        "todo": 2,
         "in_progress": 0,
         "in_review": 0,
-        "done": 97
+        "done": 94
       },
       "latest_issues": [
         {
@@ -62,6 +62,12 @@
           "updated_at": "2026-10-09T12:12:46Z"
         },
         {
+          "key": "SUR-282",
+          "title": "[流程优化] Opt-027：会前洞察 arXiv 检索降级（API Rate exceeded →",
+          "status": "backlog",
+          "updated_at": "2026-10-09T12:08:36Z"
+        },
+        {
           "key": "SUR-280",
           "title": "[空闲检测] 2026-10-09 leader 两小时正点检查与加派",
           "status": "done",
@@ -72,12 +78,6 @@
           "title": "[巡检] 2026-10-09 leader Issue 状态巡检与催办",
           "status": "done",
           "updated_at": "2026-10-09T08:07:08Z"
-        },
-        {
-          "key": "SUR-278",
-          "title": "[空闲检测] 2026-10-09 leader 两小时正点检查与加派",
-          "status": "done",
-          "updated_at": "2026-10-09T06:03:30Z"
         }
       ],
       "progress_note": "day-4 晨 37% → 午 42% → 晚 44% → 夜 47%",
@@ -119,10 +119,9 @@
           "role": "DeepSeek Planner（小组 leader/PM）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "547cd361-ef50-4965-9477-bc659d8a1708",
-          "state": "working",
-          "issue": "BEN-256",
-          "issue_title": "[空闲检测] 2026-10-09 leader 两小时正点检查与加派",
-          "since": "2026-10-09T14:00:22Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "minimax-visual-diff",
@@ -146,17 +145,17 @@
         }
       ],
       "issue_counts": {
-        "todo": 4,
+        "todo": 3,
         "in_progress": 0,
         "in_review": 0,
-        "done": 93
+        "done": 94
       },
       "latest_issues": [
         {
           "key": "BEN-256",
           "title": "[空闲检测] 2026-10-09 leader 两小时正点检查与加派",
-          "status": "todo",
-          "updated_at": "2026-10-09T14:00:19Z"
+          "status": "done",
+          "updated_at": "2026-10-09T14:09:04Z"
         },
         {
           "key": "BEN-255",
