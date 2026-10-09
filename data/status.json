@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T10:05:58Z",
+  "generated_at": "2026-10-09T10:13:57Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -119,10 +119,9 @@
           "role": "DeepSeek Planner（小组 leader/PM）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "547cd361-ef50-4965-9477-bc659d8a1708",
-          "state": "working",
-          "issue": "BEN-252",
-          "issue_title": "[空闲检测] 2026-10-09 leader 两小时正点检查与加派",
-          "since": "2026-10-09T10:00:22Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "minimax-visual-diff",
@@ -146,17 +145,17 @@
         }
       ],
       "issue_counts": {
-        "todo": 3,
+        "todo": 2,
         "in_progress": 0,
         "in_review": 0,
-        "done": 94
+        "done": 95
       },
       "latest_issues": [
         {
           "key": "BEN-252",
           "title": "[空闲检测] 2026-10-09 leader 两小时正点检查与加派",
-          "status": "todo",
-          "updated_at": "2026-10-09T10:00:20Z"
+          "status": "done",
+          "updated_at": "2026-10-09T10:11:01Z"
         },
         {
           "key": "BEN-251",
@@ -358,9 +357,10 @@
           "role": "IPD-Dev 开发工程师",
           "model": "zai:glm-5.3",
           "agent_id": "44fcec25-d8b3-4af6-b206-1774a64677ce",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-406",
+          "issue_title": "[Dev] REQ-016 数独 四缺陷修复（IPD-393 TR-Accept 有条件通过条件转 Dev · 第16场",
+          "since": "2026-10-09T10:12:42Z"
         },
         {
           "name": "hermes-tester",
@@ -406,11 +406,17 @@
       ],
       "issue_counts": {
         "todo": 1,
-        "in_progress": 0,
+        "in_progress": 1,
         "in_review": 1,
-        "done": 95
+        "done": 94
       },
       "latest_issues": [
+        {
+          "key": "IPD-406",
+          "title": "[Dev] REQ-016 数独 四缺陷修复（IPD-393 TR-Accept 有条件通过条件转 ",
+          "status": "in_progress",
+          "updated_at": "2026-10-09T10:13:13Z"
+        },
         {
           "key": "IPD-405",
           "title": "[空闲检测] 2026-10-09 leader 两小时正点检查与加派",
@@ -434,12 +440,6 @@
           "title": "[SA] REQ-017 习惯打卡 TR-Design 六件套 + 契约 v1.0（第17场景·ef",
           "status": "done",
           "updated_at": "2026-10-09T08:03:34Z"
-        },
-        {
-          "key": "IPD-402",
-          "title": "[Dev] REQ-015 房贷 鸿蒙 EP 切换态干净截图补拍（uijudge FAIL 后续）",
-          "status": "done",
-          "updated_at": "2026-10-09T08:03:32Z"
         }
       ]
     }
