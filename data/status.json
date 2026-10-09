@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T10:30:43Z",
+  "generated_at": "2026-10-09T10:35:09Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -139,10 +139,9 @@
           "role": "只读洞察项目目标与执行证据，用简单语言汇报进展、偏差和阻塞，",
           "model": "gpt-6-astra",
           "agent_id": "33b902ee-a4ca-46ae-9284-c8285311c687",
-          "state": "working",
-          "issue": "BEN-253",
-          "issue_title": "对比安卓测例，复核鸿蒙测试完备性及通用性对测试性能的影响",
-          "since": "2026-10-09T10:27:06Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         }
       ],
       "issue_counts": {
@@ -156,7 +155,7 @@
           "key": "BEN-253",
           "title": "对比安卓测例，复核鸿蒙测试完备性及通用性对测试性能的影响",
           "status": "todo",
-          "updated_at": "2026-10-09T10:27:06Z"
+          "updated_at": "2026-10-09T10:31:44Z"
         },
         {
           "key": "BEN-252",
