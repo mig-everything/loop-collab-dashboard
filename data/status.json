@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T06:35:17Z",
+  "generated_at": "2026-10-09T06:40:58Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -403,10 +403,10 @@
         }
       ],
       "issue_counts": {
-        "todo": 0,
+        "todo": 1,
         "in_progress": 0,
-        "in_review": 0,
-        "done": 98
+        "in_review": 4,
+        "done": 92
       },
       "latest_issues": [
         {
@@ -416,28 +416,28 @@
           "updated_at": "2026-10-09T06:02:25Z"
         },
         {
-          "key": "IPD-400",
-          "title": "[午会纪要] 2026-10-09",
-          "status": "done",
-          "updated_at": "2026-10-09T04:28:33Z"
+          "key": "IPD-393",
+          "title": "[Tester] REQ-016 数独 TR-Accept 差分执行 + 双端对比报告（第16场景收",
+          "status": "todo",
+          "updated_at": "2026-10-09T04:59:20Z"
         },
         {
-          "key": "IPD-396",
-          "title": "[uijudge] REQ-015 房贷计算器 双端视觉评审（UI 差维度·回填趋势表 UI 列·g",
-          "status": "done",
-          "updated_at": "2026-10-09T04:17:42Z"
+          "key": "IPD-397",
+          "title": "[SA] REQ-017 习惯打卡 TR-Design 六件套 + 契约 v1.0（第17场景·ef",
+          "status": "in_review",
+          "updated_at": "2026-10-09T04:41:25Z"
         },
         {
-          "key": "IPD-395",
-          "title": "[SE] REQ-016 数独 追踪矩阵代码列回填 + trace-check 复跑（第16场景·g",
-          "status": "done",
-          "updated_at": "2026-10-09T04:17:35Z"
+          "key": "IPD-401",
+          "title": "[Dev] REQ-016 数独 三缺口修复（SE 矩阵 v1.1 转 Dev 处置 · 第16场景",
+          "status": "in_review",
+          "updated_at": "2026-10-09T04:33:46Z"
         },
         {
-          "key": "IPD-394",
-          "title": "[PM] REQ-017 习惯打卡 正式 PRD + TR-Req 评审（第17场景·efficie",
-          "status": "done",
-          "updated_at": "2026-10-09T04:17:33Z"
+          "key": "IPD-402",
+          "title": "[Dev] REQ-015 房贷 鸿蒙 EP 切换态干净截图补拍（uijudge FAIL 后续）",
+          "status": "in_review",
+          "updated_at": "2026-10-09T04:30:24Z"
         }
       ]
     }
