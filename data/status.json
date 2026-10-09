@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T00:03:56Z",
+  "generated_at": "2026-10-09T00:07:43Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -211,10 +211,9 @@
           "role": "DeepSeek Planner（小组 leader/PM，",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "950ff614-521d-4e32-a02d-423d41a7b2b3",
-          "state": "working",
-          "issue": "DWM-267",
-          "issue_title": "[巡检] 2026-10-09 leader Issue 状态巡检与催办",
-          "since": "2026-10-09T00:00:10Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "dw-lead",
@@ -269,16 +268,16 @@
       ],
       "issue_counts": {
         "todo": 0,
-        "in_progress": 1,
+        "in_progress": 0,
         "in_review": 0,
-        "done": 66
+        "done": 67
       },
       "latest_issues": [
         {
           "key": "DWM-267",
           "title": "[巡检] 2026-10-09 leader Issue 状态巡检与催办",
-          "status": "in_progress",
-          "updated_at": "2026-10-09T00:01:07Z"
+          "status": "done",
+          "updated_at": "2026-10-09T00:04:34Z"
         },
         {
           "key": "DWM-266",
