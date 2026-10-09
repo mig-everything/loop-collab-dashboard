@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T20:14:48Z",
+  "generated_at": "2026-10-09T20:18:36Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -130,10 +130,9 @@
           "role": "MiniMax 多模态视觉差分评审",
           "model": "minimax-cn:MiniMax-M3",
           "agent_id": "843ac45d-b5db-4f35-b07b-2e5754ec5a5f",
-          "state": "working",
-          "issue": "BEN-259",
-          "issue_title": "[任务·第1轮] 视觉差分 playbook 通知族 A类差异预标注（设备无关，ref BEN-255/BEN-258）",
-          "since": "2026-10-09T20:06:39Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "项目观察员（GPT-6）",
@@ -157,7 +156,7 @@
           "key": "BEN-259",
           "title": "[任务·第1轮] 视觉差分 playbook 通知族 A类差异预标注（设备无关，ref BEN-25",
           "status": "in_review",
-          "updated_at": "2026-10-09T20:14:54Z"
+          "updated_at": "2026-10-09T20:15:19Z"
         },
         {
           "key": "BEN-258",
@@ -211,10 +210,9 @@
           "role": "DeepSeek Planner（小组 leader/PM，",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "950ff614-521d-4e32-a02d-423d41a7b2b3",
-          "state": "working",
-          "issue": "DWM-276",
-          "issue_title": "[早会纪要] 2026-10-10",
-          "since": "2026-10-09T20:00:14Z"
+          "state": "meeting",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "dw-lead",
@@ -222,10 +220,9 @@
           "role": "DW 迁移执行小队队长",
           "model": "claude-opus-5-5",
           "agent_id": "c6ff7c69-0db4-4b35-ac81-dd00e5a53ba4",
-          "state": "working",
-          "issue": "DWM-276",
-          "issue_title": "[早会纪要] 2026-10-10",
-          "since": "2026-10-09T20:14:32Z"
+          "state": "meeting",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "exec-runner",
@@ -279,7 +276,7 @@
           "key": "DWM-276",
           "title": "[早会纪要] 2026-10-10",
           "status": "in_progress",
-          "updated_at": "2026-10-09T20:14:30Z"
+          "updated_at": "2026-10-09T20:15:40Z"
         },
         {
           "key": "DWM-275",
@@ -371,10 +368,9 @@
           "role": "IPD-Tester 测试工程师",
           "model": "zai:glm-5.3",
           "agent_id": "86df9f14-a2cd-46d9-ad15-dbe8606ebd73",
-          "state": "working",
-          "issue": "IPD-415",
-          "issue_title": "[Tester] REQ-016 数独复验转无条件通过（IPD-406 四缺陷修复后 · 第16场景收口）",
-          "since": "2026-10-09T20:05:25Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "hermes-rm",
@@ -382,10 +378,9 @@
           "role": "IPD-RM 发布经理",
           "model": "zai:glm-5.3",
           "agent_id": "78156461-9644-478e-9c80-53cd18e25e33",
-          "state": "working",
-          "issue": "IPD-419",
-          "issue_title": "[RM] REQ-012/013/015 release-notes 欠账清偿（发版收口 · 012/013 非 gat",
-          "since": "2026-10-09T20:05:35Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "deepseek-planner",
@@ -416,6 +411,24 @@
       },
       "latest_issues": [
         {
+          "key": "IPD-417",
+          "title": "[Dev] REQ-017 习惯打卡 双端编码（第17场景·efficiency 效率类·gated",
+          "status": "in_progress",
+          "updated_at": "2026-10-09T20:17:53Z"
+        },
+        {
+          "key": "IPD-419",
+          "title": "[RM] REQ-012/013/015 release-notes 欠账清偿（发版收口 · 012",
+          "status": "done",
+          "updated_at": "2026-10-09T20:16:29Z"
+        },
+        {
+          "key": "IPD-415",
+          "title": "[Tester] REQ-016 数独复验转无条件通过（IPD-406 四缺陷修复后 · 第16场景",
+          "status": "in_progress",
+          "updated_at": "2026-10-09T20:15:48Z"
+        },
+        {
           "key": "IPD-418",
           "title": "[PM] REQ-018 第18场景预研 + 需求池扩充（需求多样化续扩）",
           "status": "done",
@@ -426,24 +439,6 @@
           "title": "[早会纪要] 2026-10-10",
           "status": "done",
           "updated_at": "2026-10-09T20:12:44Z"
-        },
-        {
-          "key": "IPD-419",
-          "title": "[RM] REQ-012/013/015 release-notes 欠账清偿（发版收口 · 012",
-          "status": "done",
-          "updated_at": "2026-10-09T20:12:28Z"
-        },
-        {
-          "key": "IPD-416",
-          "title": "[Dev] REQ-015 房贷 双 P1 缺陷修复（uijudge IPD-410 复评转 Dev",
-          "status": "in_progress",
-          "updated_at": "2026-10-09T20:06:12Z"
-        },
-        {
-          "key": "IPD-417",
-          "title": "[Dev] REQ-017 习惯打卡 双端编码（第17场景·efficiency 效率类·gated",
-          "status": "in_progress",
-          "updated_at": "2026-10-09T20:06:08Z"
         }
       ]
     }
