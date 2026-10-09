@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T14:12:19Z",
+  "generated_at": "2026-10-09T15:40:05Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -152,6 +152,12 @@
       },
       "latest_issues": [
         {
+          "key": "BEN-253",
+          "title": "对比安卓测例，复核鸿蒙测试完备性及通用性对测试性能的影响",
+          "status": "todo",
+          "updated_at": "2026-10-09T15:39:47Z"
+        },
+        {
           "key": "BEN-256",
           "title": "[空闲检测] 2026-10-09 leader 两小时正点检查与加派",
           "status": "done",
@@ -168,12 +174,6 @@
           "title": "[晚会日报] 2026-10-09",
           "status": "done",
           "updated_at": "2026-10-09T12:10:25Z"
-        },
-        {
-          "key": "BEN-253",
-          "title": "对比安卓测例，复核鸿蒙测试完备性及通用性对测试性能的影响",
-          "status": "todo",
-          "updated_at": "2026-10-09T10:31:44Z"
         },
         {
           "key": "BEN-252",
