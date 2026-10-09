@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T20:03:16Z",
+  "generated_at": "2026-10-09T20:07:05Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -131,9 +131,10 @@
           "role": "MiniMax 多模态视觉差分评审",
           "model": "minimax-cn:MiniMax-M3",
           "agent_id": "843ac45d-b5db-4f35-b07b-2e5754ec5a5f",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "BEN-259",
+          "issue_title": "[任务·第1轮] 视觉差分 playbook 通知族 A类差异预标注（设备无关，ref BEN-255/BEN-258）",
+          "since": "2026-10-09T20:06:39Z"
         },
         {
           "name": "项目观察员（GPT-6）",
@@ -147,12 +148,18 @@
         }
       ],
       "issue_counts": {
-        "todo": 2,
+        "todo": 3,
         "in_progress": 0,
         "in_review": 0,
-        "done": 95
+        "done": 94
       },
       "latest_issues": [
+        {
+          "key": "BEN-259",
+          "title": "[任务·第1轮] 视觉差分 playbook 通知族 A类差异预标注（设备无关，ref BEN-25",
+          "status": "todo",
+          "updated_at": "2026-10-09T20:06:39Z"
+        },
         {
           "key": "BEN-258",
           "title": "[早会纪要] 2026-10-10",
@@ -176,15 +183,8 @@
           "title": "[观察员日报] 2026-10-09 通过率与 Agent 时间轴",
           "status": "done",
           "updated_at": "2026-10-09T16:06:25Z"
-        },
-        {
-          "key": "BEN-253",
-          "title": "对比安卓测例，复核鸿蒙测试完备性及通用性对测试性能的影响",
-          "status": "todo",
-          "updated_at": "2026-10-09T15:39:47Z"
         }
-      ],
-      "progress_note": "环比 +1pp，主缺口仍 ③a 安卓可执行覆盖率；夜间三线均有落地增量"
+      ]
     },
     {
       "id": "task3-dw-migration",
@@ -322,7 +322,7 @@
       "machine_online": true,
       "meeting_active": false,
       "meeting_title": "",
-      "progress": 94,
+      "progress": 95,
       "agents": [
         {
           "name": "hermes-pm",
@@ -330,9 +330,10 @@
           "role": "IPD-PM 产品经理",
           "model": "",
           "agent_id": "1764c131-5c09-48cb-aa48-3177d5256dbb",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-414",
+          "issue_title": "[早会纪要] 2026-10-10",
+          "since": "2026-10-09T20:06:30Z"
         },
         {
           "name": "hermes-sa",
@@ -340,9 +341,10 @@
           "role": "IPD-SA 解决方案架构师",
           "model": "zai:glm-5.3",
           "agent_id": "3e4373ef-a262-4b28-ab2a-818861fc9624",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-414",
+          "issue_title": "[早会纪要] 2026-10-10",
+          "since": "2026-10-09T20:06:30Z"
         },
         {
           "name": "hermes-se",
@@ -350,9 +352,10 @@
           "role": "IPD-SE 系统工程师",
           "model": "zai:glm-5.3",
           "agent_id": "b874ba6b-80e6-45c6-a8c6-aedc6f2b326b",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-414",
+          "issue_title": "[早会纪要] 2026-10-10",
+          "since": "2026-10-09T20:06:30Z"
         },
         {
           "name": "hermes-dev",
@@ -360,9 +363,10 @@
           "role": "IPD-Dev 开发工程师",
           "model": "zai:glm-5.3",
           "agent_id": "44fcec25-d8b3-4af6-b206-1774a64677ce",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-414",
+          "issue_title": "[早会纪要] 2026-10-10",
+          "since": "2026-10-09T20:06:30Z"
         },
         {
           "name": "hermes-tester",
@@ -370,9 +374,10 @@
           "role": "IPD-Tester 测试工程师",
           "model": "zai:glm-5.3",
           "agent_id": "86df9f14-a2cd-46d9-ad15-dbe8606ebd73",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-414",
+          "issue_title": "[早会纪要] 2026-10-10",
+          "since": "2026-10-09T20:06:30Z"
         },
         {
           "name": "hermes-rm",
@@ -380,9 +385,10 @@
           "role": "IPD-RM 发布经理",
           "model": "zai:glm-5.3",
           "agent_id": "78156461-9644-478e-9c80-53cd18e25e33",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-414",
+          "issue_title": "[早会纪要] 2026-10-10",
+          "since": "2026-10-09T20:06:30Z"
         },
         {
           "name": "deepseek-planner",
@@ -390,10 +396,9 @@
           "role": "DeepSeek Planner（小组 leader/PM ",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
-          "state": "working",
-          "issue": "IPD-414",
-          "issue_title": "[早会纪要] 2026-10-10",
-          "since": "2026-10-09T20:00:19Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "minimax-uijudge",
@@ -407,41 +412,41 @@
         }
       ],
       "issue_counts": {
-        "todo": 1,
-        "in_progress": 0,
-        "in_review": 1,
-        "done": 95
+        "todo": 0,
+        "in_progress": 5,
+        "in_review": 0,
+        "done": 92
       },
       "latest_issues": [
         {
           "key": "IPD-414",
           "title": "[早会纪要] 2026-10-10",
-          "status": "todo",
-          "updated_at": "2026-10-09T20:00:19Z"
-        },
-        {
-          "key": "IPD-406",
-          "title": "[Dev] REQ-016 数独 四缺陷修复（IPD-393 TR-Accept 有条件通过条件转 ",
-          "status": "in_review",
-          "updated_at": "2026-10-09T16:20:06Z"
-        },
-        {
-          "key": "IPD-413",
-          "title": "[巡检] 2026-10-10 leader Issue 状态巡检与催办",
           "status": "done",
-          "updated_at": "2026-10-09T16:06:35Z"
+          "updated_at": "2026-10-09T20:07:17Z"
         },
         {
-          "key": "IPD-410",
-          "title": "[uijudge] REQ-015 房贷计算器 视觉复评（以 h3_ep_toggle_clean ",
-          "status": "done",
-          "updated_at": "2026-10-09T16:06:13Z"
+          "key": "IPD-419",
+          "title": "[RM] REQ-012/013/015 release-notes 欠账清偿（发版收口 · 012",
+          "status": "in_progress",
+          "updated_at": "2026-10-09T20:06:14Z"
         },
         {
-          "key": "IPD-411",
-          "title": "[SA] 六件套复算自证范式模板化 → ai-native-ipd 通用 skill（Opt-030",
-          "status": "done",
-          "updated_at": "2026-10-09T16:06:11Z"
+          "key": "IPD-416",
+          "title": "[Dev] REQ-015 房贷 双 P1 缺陷修复（uijudge IPD-410 复评转 Dev",
+          "status": "in_progress",
+          "updated_at": "2026-10-09T20:06:12Z"
+        },
+        {
+          "key": "IPD-417",
+          "title": "[Dev] REQ-017 习惯打卡 双端编码（第17场景·efficiency 效率类·gated",
+          "status": "in_progress",
+          "updated_at": "2026-10-09T20:06:08Z"
+        },
+        {
+          "key": "IPD-418",
+          "title": "[PM] REQ-018 第18场景预研 + 需求池扩充（需求多样化续扩）",
+          "status": "in_progress",
+          "updated_at": "2026-10-09T20:06:05Z"
         }
       ]
     }
