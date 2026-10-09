@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T10:43:39Z",
+  "generated_at": "2026-10-09T12:00:13Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -37,18 +37,25 @@
           "role": "DeepSeek Task Planner（任务规划+总结）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "04a4e04e-59d5-4f3a-8a16-acf99b80a493",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "SUR-281",
+          "issue_title": "[晚会日报] 2026-10-09",
+          "since": "2026-10-09T12:00:27Z"
         }
       ],
       "issue_counts": {
-        "todo": 1,
+        "todo": 2,
         "in_progress": 0,
         "in_review": 0,
-        "done": 95
+        "done": 94
       },
       "latest_issues": [
+        {
+          "key": "SUR-281",
+          "title": "[晚会日报] 2026-10-09",
+          "status": "todo",
+          "updated_at": "2026-10-09T12:00:21Z"
+        },
         {
           "key": "SUR-280",
           "title": "[空闲检测] 2026-10-09 leader 两小时正点检查与加派",
@@ -72,12 +79,6 @@
           "title": "[午会纪要] 2026-10-09",
           "status": "done",
           "updated_at": "2026-10-09T04:11:03Z"
-        },
-        {
-          "key": "SUR-276",
-          "title": "[空闲检测] 2026-10-09 leader 两小时正点检查与加派",
-          "status": "done",
-          "updated_at": "2026-10-09T02:05:04Z"
         }
       ],
       "progress_note": "day-4 晨 37% → 午 42% → 晚 44% → 夜 47%",
@@ -119,9 +120,10 @@
           "role": "DeepSeek Planner（小组 leader/PM）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "547cd361-ef50-4965-9477-bc659d8a1708",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "BEN-254",
+          "issue_title": "[晚会日报] 2026-10-09",
+          "since": "2026-10-09T12:00:20Z"
         },
         {
           "name": "minimax-visual-diff",
@@ -145,12 +147,18 @@
         }
       ],
       "issue_counts": {
-        "todo": 3,
+        "todo": 4,
         "in_progress": 0,
         "in_review": 0,
-        "done": 94
+        "done": 93
       },
       "latest_issues": [
+        {
+          "key": "BEN-254",
+          "title": "[晚会日报] 2026-10-09",
+          "status": "todo",
+          "updated_at": "2026-10-09T12:00:16Z"
+        },
         {
           "key": "BEN-253",
           "title": "对比安卓测例，复核鸿蒙测试完备性及通用性对测试性能的影响",
@@ -174,12 +182,6 @@
           "title": "[任务·第1轮] 视觉差分 P0/P1 修复·scenarist 侧：binding 重定基 + 注",
           "status": "blocked",
           "updated_at": "2026-10-09T08:11:26Z"
-        },
-        {
-          "key": "BEN-248",
-          "title": "[任务·第2轮] 鸿蒙 test 变体执行扩容 + 差分归因（报告工具已修复，ref BEN-242",
-          "status": "blocked",
-          "updated_at": "2026-10-09T08:11:22Z"
         }
       ],
       "progress_note": "环比 +1pp，主缺口仍 ③a 安卓可执行覆盖率；夜间三线均有落地增量"
@@ -210,9 +212,10 @@
           "role": "DeepSeek Planner（小组 leader/PM，",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "950ff614-521d-4e32-a02d-423d41a7b2b3",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "DWM-273",
+          "issue_title": "[晚会日报] 2026-10-09",
+          "since": "2026-10-09T12:00:31Z"
         },
         {
           "name": "dw-lead",
@@ -266,12 +269,18 @@
         }
       ],
       "issue_counts": {
-        "todo": 0,
+        "todo": 1,
         "in_progress": 0,
         "in_review": 0,
         "done": 68
       },
       "latest_issues": [
+        {
+          "key": "DWM-273",
+          "title": "[晚会日报] 2026-10-09",
+          "status": "todo",
+          "updated_at": "2026-10-09T12:00:22Z"
+        },
         {
           "key": "DWM-272",
           "title": "[空闲检测] 2026-10-09 leader 两小时正点检查与加派",
@@ -295,12 +304,6 @@
           "title": "[午会纪要] 2026-10-09",
           "status": "done",
           "updated_at": "2026-10-09T04:13:38Z"
-        },
-        {
-          "key": "DWM-268",
-          "title": "[空闲检测] 2026-10-09 leader 两小时正点检查与加派",
-          "status": "done",
-          "updated_at": "2026-10-09T02:05:23Z"
         }
       ],
       "order": {
@@ -387,9 +390,10 @@
           "role": "DeepSeek Planner（小组 leader/PM ",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-407",
+          "issue_title": "[晚会日报] 2026-10-09",
+          "since": "2026-10-09T12:00:31Z"
         },
         {
           "name": "minimax-uijudge",
@@ -403,12 +407,18 @@
         }
       ],
       "issue_counts": {
-        "todo": 0,
+        "todo": 1,
         "in_progress": 1,
         "in_review": 1,
-        "done": 95
+        "done": 94
       },
       "latest_issues": [
+        {
+          "key": "IPD-407",
+          "title": "[晚会日报] 2026-10-09",
+          "status": "todo",
+          "updated_at": "2026-10-09T12:00:30Z"
+        },
         {
           "key": "IPD-406",
           "title": "[Dev] REQ-016 数独 四缺陷修复（IPD-393 TR-Accept 有条件通过条件转 ",
@@ -432,12 +442,6 @@
           "title": "[巡检] 2026-10-09 leader Issue 状态巡检与催办",
           "status": "done",
           "updated_at": "2026-10-09T08:04:25Z"
-        },
-        {
-          "key": "IPD-397",
-          "title": "[SA] REQ-017 习惯打卡 TR-Design 六件套 + 契约 v1.0（第17场景·ef",
-          "status": "done",
-          "updated_at": "2026-10-09T08:03:34Z"
         }
       ]
     }
