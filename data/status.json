@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T16:01:49Z",
+  "generated_at": "2026-10-09T16:06:08Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -37,24 +37,23 @@
           "role": "DeepSeek Task Planner（任务规划+总结）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "04a4e04e-59d5-4f3a-8a16-acf99b80a493",
-          "state": "working",
-          "issue": "SUR-284",
-          "issue_title": "[巡检] 2026-10-10 leader Issue 状态巡检与催办",
-          "since": "2026-10-09T16:00:21Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         }
       ],
       "issue_counts": {
         "todo": 2,
-        "in_progress": 1,
+        "in_progress": 0,
         "in_review": 0,
-        "done": 93
+        "done": 94
       },
       "latest_issues": [
         {
           "key": "SUR-284",
           "title": "[巡检] 2026-10-10 leader Issue 状态巡检与催办",
-          "status": "in_progress",
-          "updated_at": "2026-10-09T16:01:23Z"
+          "status": "done",
+          "updated_at": "2026-10-09T16:04:27Z"
         },
         {
           "key": "SUR-283",
@@ -147,12 +146,24 @@
         }
       ],
       "issue_counts": {
-        "todo": 4,
+        "todo": 2,
         "in_progress": 0,
         "in_review": 0,
-        "done": 93
+        "done": 95
       },
       "latest_issues": [
+        {
+          "key": "BEN-225",
+          "title": "[观察员日报] 2026-10-08 通过率与 Agent 时间轴",
+          "status": "done",
+          "updated_at": "2026-10-09T16:06:26Z"
+        },
+        {
+          "key": "BEN-245",
+          "title": "[观察员日报] 2026-10-09 通过率与 Agent 时间轴",
+          "status": "done",
+          "updated_at": "2026-10-09T16:06:25Z"
+        },
         {
           "key": "BEN-257",
           "title": "[巡检] 2026-10-10 leader Issue 状态巡检与催办",
@@ -170,18 +181,6 @@
           "title": "[空闲检测] 2026-10-09 leader 两小时正点检查与加派",
           "status": "done",
           "updated_at": "2026-10-09T14:09:04Z"
-        },
-        {
-          "key": "BEN-255",
-          "title": "[任务·第3轮夜间] 视觉差分 playbook 收口 + BEN-249 三条转派项挂起标记（设备",
-          "status": "done",
-          "updated_at": "2026-10-09T12:12:01Z"
-        },
-        {
-          "key": "BEN-254",
-          "title": "[晚会日报] 2026-10-09",
-          "status": "done",
-          "updated_at": "2026-10-09T12:10:25Z"
         }
       ],
       "progress_note": "环比 +1pp，主缺口仍 ③a 安卓可执行覆盖率；夜间三线均有落地增量"
@@ -212,10 +211,9 @@
           "role": "DeepSeek Planner（小组 leader/PM，",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "950ff614-521d-4e32-a02d-423d41a7b2b3",
-          "state": "working",
-          "issue": "DWM-275",
-          "issue_title": "[巡检] 2026-10-10 leader Issue 状态巡检与催办",
-          "since": "2026-10-09T16:00:24Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "dw-lead",
@@ -269,17 +267,17 @@
         }
       ],
       "issue_counts": {
-        "todo": 1,
+        "todo": 0,
         "in_progress": 0,
         "in_review": 0,
-        "done": 69
+        "done": 70
       },
       "latest_issues": [
         {
           "key": "DWM-275",
           "title": "[巡检] 2026-10-10 leader Issue 状态巡检与催办",
-          "status": "todo",
-          "updated_at": "2026-10-09T16:00:21Z"
+          "status": "done",
+          "updated_at": "2026-10-09T16:03:37Z"
         },
         {
           "key": "DWM-274",
@@ -360,9 +358,10 @@
           "role": "IPD-Dev 开发工程师",
           "model": "zai:glm-5.3",
           "agent_id": "44fcec25-d8b3-4af6-b206-1774a64677ce",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-406",
+          "issue_title": "[Dev] REQ-016 数独 四缺陷修复（IPD-393 TR-Accept 有条件通过条件转 Dev · 第16场",
+          "since": "2026-10-09T16:05:44Z"
         },
         {
           "name": "hermes-tester",
@@ -390,10 +389,9 @@
           "role": "DeepSeek Planner（小组 leader/PM ",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
-          "state": "working",
-          "issue": "IPD-413",
-          "issue_title": "[巡检] 2026-10-10 leader Issue 状态巡检与催办",
-          "since": "2026-10-09T16:00:27Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "minimax-uijudge",
@@ -407,41 +405,41 @@
         }
       ],
       "issue_counts": {
-        "todo": 2,
+        "todo": 0,
         "in_progress": 1,
-        "in_review": 3,
-        "done": 91
+        "in_review": 0,
+        "done": 96
       },
       "latest_issues": [
         {
           "key": "IPD-413",
           "title": "[巡检] 2026-10-10 leader Issue 状态巡检与催办",
-          "status": "todo",
-          "updated_at": "2026-10-09T16:00:23Z"
+          "status": "done",
+          "updated_at": "2026-10-09T16:06:35Z"
         },
         {
-          "key": "IPD-412",
-          "title": "[空闲检测] 2026-10-09 leader 两小时正点检查与加派",
+          "key": "IPD-410",
+          "title": "[uijudge] REQ-015 房贷计算器 视觉复评（以 h3_ep_toggle_clean ",
           "status": "done",
-          "updated_at": "2026-10-09T14:03:26Z"
+          "updated_at": "2026-10-09T16:06:13Z"
         },
         {
-          "key": "IPD-407",
-          "title": "[晚会纪要] 2026-10-09（day-15 第3轮夜间派单）",
+          "key": "IPD-411",
+          "title": "[SA] 六件套复算自证范式模板化 → ai-native-ipd 通用 skill（Opt-030",
           "status": "done",
-          "updated_at": "2026-10-09T12:26:31Z"
-        },
-        {
-          "key": "IPD-398",
-          "title": "[planner] 番茄钟四维负差归因 + 编码 skill 优化首轮（2026-10-09 负责人",
-          "status": "done",
-          "updated_at": "2026-10-09T12:26:19Z"
+          "updated_at": "2026-10-09T16:06:11Z"
         },
         {
           "key": "IPD-409",
           "title": "[SE] REQ-017 习惯打卡 追踪矩阵 v1.0（第17场景 · gated on SA 契约",
-          "status": "in_review",
-          "updated_at": "2026-10-09T12:25:01Z"
+          "status": "done",
+          "updated_at": "2026-10-09T16:06:08Z"
+        },
+        {
+          "key": "IPD-408",
+          "title": "[PM] REQ-016/017 PRD 差异回写（P-1 硬门槛 20ms→500ms · 第16",
+          "status": "done",
+          "updated_at": "2026-10-09T16:06:06Z"
         }
       ]
     }
