@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T02:56:54Z",
+  "generated_at": "2026-10-09T03:02:07Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -357,9 +357,12 @@
           "role": "IPD-Dev 开发工程师",
           "model": "zai:glm-5.3",
           "agent_id": "44fcec25-d8b3-4af6-b206-1774a64677ce",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-399",
+          "issue_title": "[Dev] 番茄钟归因落地 arkts-coding skill + 规模≤5000行约束固化（IPD-398 DoD-",
+          "since": "2026-10-09T03:00:04Z",
+          "parent_issue": "IPD-398",
+          "parent_title": "[planner] 番茄钟四维负差归因 + 编码 skill 优化首轮（2026-10-09 负责人：持续优化编码 Sk"
         },
         {
           "name": "hermes-tester",
@@ -387,10 +390,9 @@
           "role": "DeepSeek Planner（小组 leader/PM ",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
-          "state": "working",
-          "issue": "IPD-398",
-          "issue_title": "[planner] 番茄钟四维负差归因 + 编码 skill 优化首轮（2026-10-09 负责人：持续优化编码 Sk",
-          "since": "2026-10-09T02:53:36Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "minimax-uijudge",
@@ -404,17 +406,17 @@
         }
       ],
       "issue_counts": {
-        "todo": 3,
-        "in_progress": 0,
+        "todo": 2,
+        "in_progress": 1,
         "in_review": 3,
-        "done": 92
+        "done": 91
       },
       "latest_issues": [
         {
           "key": "IPD-398",
           "title": "[planner] 番茄钟四维负差归因 + 编码 skill 优化首轮（2026-10-09 负责人",
-          "status": "todo",
-          "updated_at": "2026-10-09T02:53:34Z"
+          "status": "in_progress",
+          "updated_at": "2026-10-09T03:00:39Z"
         },
         {
           "key": "IPD-393",
