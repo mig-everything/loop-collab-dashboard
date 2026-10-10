@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T10:08:21Z",
+  "generated_at": "2026-10-10T10:12:28Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -44,11 +44,17 @@
       ],
       "issue_counts": {
         "todo": 0,
-        "in_progress": 0,
+        "in_progress": 1,
         "in_review": 0,
-        "done": 96
+        "done": 95
       },
       "latest_issues": [
+        {
+          "key": "SUR-293",
+          "title": "任务一负责人新大纲与目标同步（2026-10-10）",
+          "status": "in_progress",
+          "updated_at": "2026-10-10T10:10:31Z"
+        },
         {
           "key": "SUR-292",
           "title": "[空闲检测] 2026-10-10 leader 两小时正点检查与加派",
@@ -72,12 +78,6 @@
           "title": "[空闲检测] 2026-10-10 leader 两小时正点检查与加派",
           "status": "done",
           "updated_at": "2026-10-10T06:03:29Z"
-        },
-        {
-          "key": "SUR-288",
-          "title": "[空闲检测] 2026-10-10 leader 两小时正点检查与加派",
-          "status": "done",
-          "updated_at": "2026-10-10T02:02:39Z"
         }
       ],
       "progress_note": "day-4 晨 37% → 午 42% → 晚 44% → 夜 47%",
