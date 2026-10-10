@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T04:01:04Z",
+  "generated_at": "2026-10-10T04:05:10Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -7,8 +7,8 @@
       "workspace": "ws-survey-loop",
       "machine": "JordanZTdeMacBook-Pro",
       "machine_online": true,
-      "meeting_active": false,
-      "meeting_title": "",
+      "meeting_active": true,
+      "meeting_title": "[午会纪要] 2026-10-10",
       "progress": 47,
       "agents": [
         {
@@ -17,9 +17,10 @@
           "role": "GPT Writer（执笔者）",
           "model": "gpt-6-luna",
           "agent_id": "58ed4647-32dd-4ca1-8ddc-194b975d6024",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "SUR-289",
+          "issue_title": "[午会纪要] 2026-10-10",
+          "since": "2026-10-10T04:04:44Z"
         },
         {
           "name": "kimi-adversary",
@@ -27,9 +28,10 @@
           "role": "Kimi Adversarial Reviewer（对抗评审",
           "model": "",
           "agent_id": "6e530cc6-6b9d-4398-936d-df9c13468125",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "SUR-289",
+          "issue_title": "[午会纪要] 2026-10-10",
+          "since": "2026-10-10T04:04:44Z"
         },
         {
           "name": "deepseek-planner",
@@ -37,15 +39,14 @@
           "role": "DeepSeek Task Planner（任务规划+总结）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "04a4e04e-59d5-4f3a-8a16-acf99b80a493",
-          "state": "working",
-          "issue": "SUR-289",
-          "issue_title": "[午会纪要] 2026-10-10",
-          "since": "2026-10-10T04:00:17Z"
+          "state": "meeting",
+          "issue": "",
+          "issue_title": ""
         }
       ],
       "issue_counts": {
-        "todo": 1,
-        "in_progress": 0,
+        "todo": 0,
+        "in_progress": 1,
         "in_review": 0,
         "done": 95
       },
@@ -53,8 +54,8 @@
         {
           "key": "SUR-289",
           "title": "[午会纪要] 2026-10-10",
-          "status": "todo",
-          "updated_at": "2026-10-10T04:00:14Z"
+          "status": "in_progress",
+          "updated_at": "2026-10-10T04:04:41Z"
         },
         {
           "key": "SUR-288",
@@ -234,7 +235,7 @@
           "agent_id": "1c3481f5-135b-4959-9daa-c510c076d494",
           "state": "working",
           "issue": "DWM-251",
-          "issue_title": "[DW迁移任务单] OpenCamera 迁移 · 清单+迁移 · 清单生成中 续3·r59·920/800步·1页/5",
+          "issue_title": "[DW迁移任务单] OpenCamera 迁移 · 清单+迁移 · 清单生成中 续3·r60·932/800步·1页/5",
           "since": "2026-10-10T02:33:09Z"
         },
         {
@@ -277,9 +278,9 @@
       "latest_issues": [
         {
           "key": "DWM-251",
-          "title": "[DW迁移任务单] OpenCamera 迁移 · 清单+迁移 · 清单生成中 续3·r59·920",
+          "title": "[DW迁移任务单] OpenCamera 迁移 · 清单+迁移 · 清单生成中 续3·r60·932",
           "status": "in_progress",
-          "updated_at": "2026-10-10T04:00:08Z"
+          "updated_at": "2026-10-10T04:05:17Z"
         },
         {
           "key": "DWM-280",
@@ -308,9 +309,9 @@
       ],
       "order": {
         "key": "DWM-251",
-        "title": "[DW迁移任务单] OpenCamera 迁移 · 清单+迁移 · 清单生成中 续3·r59·920/800步·1页/526项 · 迁移中 3/6 · 清单8.9h/24h 迁移8",
+        "title": "[DW迁移任务单] OpenCamera 迁移 · 清单+迁移 · 清单生成中 续3·r60·932/800步·1页/526项 · 迁移中 3/6 · 清单9.0h/24h 迁移9",
         "status": "in_progress",
-        "updated_at": "2026-10-10T04:00:08Z"
+        "updated_at": "2026-10-10T04:05:17Z"
       },
       "progress_note": "10 个应用：完成 7、进行中 0、暂停 1、未开始 2"
     },
