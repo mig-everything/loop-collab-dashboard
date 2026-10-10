@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T10:04:19Z",
+  "generated_at": "2026-10-10T10:08:21Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -119,10 +119,9 @@
           "role": "DeepSeek Planner（小组 leader/PM）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "547cd361-ef50-4965-9477-bc659d8a1708",
-          "state": "working",
-          "issue": "BEN-270",
-          "issue_title": "[空闲检测] 2026-10-10 leader 两小时正点检查与加派",
-          "since": "2026-10-10T10:00:18Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "minimax-visual-diff",
@@ -146,17 +145,17 @@
         }
       ],
       "issue_counts": {
-        "todo": 4,
+        "todo": 3,
         "in_progress": 0,
         "in_review": 0,
-        "done": 93
+        "done": 94
       },
       "latest_issues": [
         {
           "key": "BEN-270",
           "title": "[空闲检测] 2026-10-10 leader 两小时正点检查与加派",
-          "status": "todo",
-          "updated_at": "2026-10-10T10:00:17Z"
+          "status": "done",
+          "updated_at": "2026-10-10T10:05:54Z"
         },
         {
           "key": "BEN-264",
@@ -387,10 +386,9 @@
           "role": "DeepSeek Planner（小组 leader/PM ",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
-          "state": "working",
-          "issue": "IPD-430",
-          "issue_title": "[空闲检测] 2026-10-10 leader 两小时正点检查与加派",
-          "since": "2026-10-10T10:00:24Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "minimax-uijudge",
@@ -404,17 +402,17 @@
         }
       ],
       "issue_counts": {
-        "todo": 1,
+        "todo": 0,
         "in_progress": 0,
         "in_review": 2,
-        "done": 94
+        "done": 95
       },
       "latest_issues": [
         {
           "key": "IPD-430",
           "title": "[空闲检测] 2026-10-10 leader 两小时正点检查与加派",
-          "status": "todo",
-          "updated_at": "2026-10-10T10:00:23Z"
+          "status": "done",
+          "updated_at": "2026-10-10T10:05:50Z"
         },
         {
           "key": "IPD-427",
