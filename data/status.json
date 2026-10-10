@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T22:32:40Z",
+  "generated_at": "2026-10-10T22:36:21Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -27,9 +27,10 @@
           "role": "Kimi Adversarial Reviewer（对抗评审",
           "model": "",
           "agent_id": "6e530cc6-6b9d-4398-936d-df9c13468125",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "SUR-304",
+          "issue_title": "[评审][day-17] 对抗评审：正文重写第2批（第3章五阶段可证伪性+RQ2局部→整体证据链+跨章重复，口径7/11",
+          "since": "2026-10-10T22:34:11Z"
         },
         {
           "name": "deepseek-planner",
@@ -37,18 +38,25 @@
           "role": "DeepSeek Task Planner（任务规划+总结）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "04a4e04e-59d5-4f3a-8a16-acf99b80a493",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "SUR-304",
+          "issue_title": "[评审][day-17] 对抗评审：正文重写第2批（第3章五阶段可证伪性+RQ2局部→整体证据链+跨章重复，口径7/11",
+          "since": "2026-10-10T22:34:11Z"
         }
       ],
       "issue_counts": {
-        "todo": 1,
-        "in_progress": 0,
+        "todo": 0,
+        "in_progress": 1,
         "in_review": 3,
         "done": 95
       },
       "latest_issues": [
+        {
+          "key": "SUR-304",
+          "title": "[评审][day-17] 对抗评审：正文重写第2批（第3章五阶段可证伪性+RQ2局部→整体证据链+跨",
+          "status": "in_progress",
+          "updated_at": "2026-10-10T22:34:26Z"
+        },
         {
           "key": "SUR-303",
           "title": "[任务][day-17] 正文重写第2批：第3章 pipeline（五阶段主线+RQ2局部→集成衔接",
@@ -60,12 +68,6 @@
           "title": "[空闲检测] 2026-10-11 leader 两小时正点检查与加派",
           "status": "done",
           "updated_at": "2026-10-10T22:06:26Z"
-        },
-        {
-          "key": "SUR-304",
-          "title": "[评审][day-17] 对抗评审：正文重写第2批（第3章五阶段可证伪性+RQ2局部→整体证据链+跨",
-          "status": "backlog",
-          "updated_at": "2026-10-10T22:05:36Z"
         },
         {
           "key": "SUR-301",
