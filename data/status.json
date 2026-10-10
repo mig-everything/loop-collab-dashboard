@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T07:21:04Z",
+  "generated_at": "2026-10-10T07:30:25Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -139,9 +139,10 @@
           "role": "只读洞察项目目标与执行证据，用简单语言汇报进展、偏差和阻塞，",
           "model": "gpt-6-astra",
           "agent_id": "33b902ee-a4ca-46ae-9284-c8285311c687",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "BEN-264",
+          "issue_title": "鸿蒙平台测列图片仅绘制全量测试结果（滑窗更新 drop 历史数据，避免图片冗长）",
+          "since": "2026-10-10T07:27:36Z"
         }
       ],
       "issue_counts": {
@@ -151,6 +152,12 @@
         "done": 93
       },
       "latest_issues": [
+        {
+          "key": "BEN-264",
+          "title": "鸿蒙平台测列图片仅绘制全量测试结果（滑窗更新 drop 历史数据，避免图片冗长）",
+          "status": "todo",
+          "updated_at": "2026-10-10T07:27:34Z"
+        },
         {
           "key": "BEN-268",
           "title": "[空闲检测] 2026-10-10 leader 两小时正点检查与加派",
@@ -174,12 +181,6 @@
           "title": "蒸馏 binding.json 生成方法为 skill 并迭代优化至一次生成正确完整结果",
           "status": "done",
           "updated_at": "2026-10-10T04:16:36Z"
-        },
-        {
-          "key": "BEN-264",
-          "title": "鸿蒙平台测列图片仅绘制全量测试结果（滑窗更新 drop 历史数据，避免图片冗长）",
-          "status": "todo",
-          "updated_at": "2026-10-10T02:25:22Z"
         }
       ]
     },
