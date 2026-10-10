@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T14:02:09Z",
+  "generated_at": "2026-10-10T14:06:36Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -37,24 +37,23 @@
           "role": "DeepSeek Task Planner（任务规划+总结）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "04a4e04e-59d5-4f3a-8a16-acf99b80a493",
-          "state": "working",
-          "issue": "SUR-297",
-          "issue_title": "[空闲检测] 2026-10-10 leader 两小时正点检查与加派",
-          "since": "2026-10-10T14:00:18Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         }
       ],
       "issue_counts": {
-        "todo": 2,
+        "todo": 1,
         "in_progress": 0,
         "in_review": 1,
-        "done": 96
+        "done": 97
       },
       "latest_issues": [
         {
           "key": "SUR-297",
           "title": "[空闲检测] 2026-10-10 leader 两小时正点检查与加派",
-          "status": "todo",
-          "updated_at": "2026-10-10T14:00:15Z"
+          "status": "done",
+          "updated_at": "2026-10-10T14:04:43Z"
         },
         {
           "key": "SUR-295",
@@ -120,10 +119,9 @@
           "role": "DeepSeek Planner（小组 leader/PM）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "547cd361-ef50-4965-9477-bc659d8a1708",
-          "state": "working",
-          "issue": "BEN-272",
-          "issue_title": "[空闲检测] 2026-10-10 leader 两小时正点检查与加派",
-          "since": "2026-10-10T14:00:23Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "minimax-visual-diff",
@@ -147,17 +145,17 @@
         }
       ],
       "issue_counts": {
-        "todo": 4,
+        "todo": 3,
         "in_progress": 3,
         "in_review": 0,
-        "done": 93
+        "done": 94
       },
       "latest_issues": [
         {
           "key": "BEN-272",
           "title": "[空闲检测] 2026-10-10 leader 两小时正点检查与加派",
-          "status": "todo",
-          "updated_at": "2026-10-10T14:00:18Z"
+          "status": "done",
+          "updated_at": "2026-10-10T14:02:58Z"
         },
         {
           "key": "BEN-135",
@@ -211,10 +209,9 @@
           "role": "DeepSeek Planner（小组 leader/PM，",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "950ff614-521d-4e32-a02d-423d41a7b2b3",
-          "state": "working",
-          "issue": "DWM-285",
-          "issue_title": "[空闲检测] 2026-10-10 leader 两小时正点检查与加派",
-          "since": "2026-10-10T14:00:16Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "dw-lead",
@@ -268,17 +265,17 @@
         }
       ],
       "issue_counts": {
-        "todo": 1,
+        "todo": 0,
         "in_progress": 0,
         "in_review": 0,
-        "done": 72
+        "done": 73
       },
       "latest_issues": [
         {
           "key": "DWM-285",
           "title": "[空闲检测] 2026-10-10 leader 两小时正点检查与加派",
-          "status": "todo",
-          "updated_at": "2026-10-10T14:00:13Z"
+          "status": "done",
+          "updated_at": "2026-10-10T14:03:57Z"
         },
         {
           "key": "DWM-284",
