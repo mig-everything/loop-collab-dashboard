@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T07:35:28Z",
+  "generated_at": "2026-10-10T07:44:21Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -142,7 +142,7 @@
           "state": "working",
           "issue": "BEN-264",
           "issue_title": "鸿蒙平台测列图片仅绘制全量测试结果（滑窗更新 drop 历史数据，避免图片冗长）",
-          "since": "2026-10-10T07:27:36Z"
+          "since": "2026-10-10T07:43:23Z"
         }
       ],
       "issue_counts": {
@@ -156,7 +156,7 @@
           "key": "BEN-264",
           "title": "鸿蒙平台测列图片仅绘制全量测试结果（滑窗更新 drop 历史数据，避免图片冗长）",
           "status": "todo",
-          "updated_at": "2026-10-10T07:27:34Z"
+          "updated_at": "2026-10-10T07:42:53Z"
         },
         {
           "key": "BEN-268",
