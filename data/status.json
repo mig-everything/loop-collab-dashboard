@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T20:13:46Z",
+  "generated_at": "2026-10-10T20:17:33Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -329,10 +329,9 @@
           "role": "IPD-PM 产品经理",
           "model": "",
           "agent_id": "1764c131-5c09-48cb-aa48-3177d5256dbb",
-          "state": "working",
-          "issue": "IPD-443",
-          "issue_title": "[PM] REQ-020 抽奖转盘 预研+PRD+TR-Req+契约冻结（第20场景·娱乐类·第1轮新需求A）",
-          "since": "2026-10-10T20:07:25Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "hermes-sa",
@@ -341,9 +340,9 @@
           "model": "zai:glm-5.3",
           "agent_id": "3e4373ef-a262-4b28-ab2a-818861fc9624",
           "state": "working",
-          "issue": "IPD-433",
-          "issue_title": "[SA] REQ-019 二维码生成器 TR-Design 六件套+契约 v1.0（第19场景·tool·gated o",
-          "since": "2026-10-10T20:08:16Z"
+          "issue": "IPD-444",
+          "issue_title": "[SA] REQ-020 抽奖转盘 TR-Design 六件套+契约 v1.0（第20场景·gated on PM PR",
+          "since": "2026-10-10T20:15:50Z"
         },
         {
           "name": "hermes-se",
@@ -361,10 +360,9 @@
           "role": "IPD-Dev 开发工程师",
           "model": "zai:glm-5.3",
           "agent_id": "44fcec25-d8b3-4af6-b206-1774a64677ce",
-          "state": "working",
-          "issue": "IPD-442",
-          "issue_title": "[早会纪要] 2026-10-11",
-          "since": "2026-10-10T20:09:05Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "hermes-tester",
@@ -410,12 +408,24 @@
         }
       ],
       "issue_counts": {
-        "todo": 13,
-        "in_progress": 3,
-        "in_review": 0,
+        "todo": 11,
+        "in_progress": 4,
+        "in_review": 1,
         "done": 81
       },
       "latest_issues": [
+        {
+          "key": "IPD-444",
+          "title": "[SA] REQ-020 抽奖转盘 TR-Design 六件套+契约 v1.0（第20场景·gate",
+          "status": "in_progress",
+          "updated_at": "2026-10-10T20:16:50Z"
+        },
+        {
+          "key": "IPD-443",
+          "title": "[PM] REQ-020 抽奖转盘 预研+PRD+TR-Req+契约冻结（第20场景·娱乐类·第1轮",
+          "status": "in_review",
+          "updated_at": "2026-10-10T20:16:04Z"
+        },
         {
           "key": "IPD-442",
           "title": "[早会纪要] 2026-10-11",
@@ -433,18 +443,6 @@
           "title": "[Tester] REQ-017 D-1 条件复验→转无条件通过（第17场景收口·gated on ",
           "status": "in_progress",
           "updated_at": "2026-10-10T20:09:05Z"
-        },
-        {
-          "key": "IPD-433",
-          "title": "[SA] REQ-019 二维码生成器 TR-Design 六件套+契约 v1.0（第19场景·to",
-          "status": "in_progress",
-          "updated_at": "2026-10-10T20:08:15Z"
-        },
-        {
-          "key": "IPD-452",
-          "title": "[RM] 建立 metrics/daily-iterations 迭代台账（口径15 落账·10-1",
-          "status": "todo",
-          "updated_at": "2026-10-10T20:07:56Z"
         }
       ]
     }
