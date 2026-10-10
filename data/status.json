@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T03:40:04Z",
+  "generated_at": "2026-10-10T03:48:08Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -46,7 +46,7 @@
         "todo": 0,
         "in_progress": 0,
         "in_review": 0,
-        "done": 96
+        "done": 97
       },
       "latest_issues": [
         {
@@ -119,10 +119,9 @@
           "role": "DeepSeek Planner（小组 leader/PM）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "547cd361-ef50-4965-9477-bc659d8a1708",
-          "state": "working",
-          "issue": "BEN-265",
-          "issue_title": "蒸馏 binding.json 生成方法为 skill 并迭代优化至一次生成正确完整结果",
-          "since": "2026-10-10T03:33:42Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "minimax-visual-diff",
@@ -146,17 +145,17 @@
         }
       ],
       "issue_counts": {
-        "todo": 4,
+        "todo": 3,
         "in_progress": 0,
-        "in_review": 0,
+        "in_review": 1,
         "done": 93
       },
       "latest_issues": [
         {
           "key": "BEN-265",
           "title": "蒸馏 binding.json 生成方法为 skill 并迭代优化至一次生成正确完整结果",
-          "status": "todo",
-          "updated_at": "2026-10-10T03:33:41Z"
+          "status": "in_review",
+          "updated_at": "2026-10-10T03:46:17Z"
         },
         {
           "key": "BEN-264",
@@ -232,7 +231,7 @@
           "agent_id": "1c3481f5-135b-4959-9daa-c510c076d494",
           "state": "working",
           "issue": "DWM-251",
-          "issue_title": "[DW迁移任务单] OpenCamera 迁移 · 清单+迁移 · 清单生成中 续3·r57·905/800步·1页/5",
+          "issue_title": "[DW迁移任务单] OpenCamera 迁移 · 清单+迁移 · 清单生成中 续3·r58·912/800步·1页/5",
           "since": "2026-10-10T02:33:09Z"
         },
         {
@@ -275,9 +274,9 @@
       "latest_issues": [
         {
           "key": "DWM-251",
-          "title": "[DW迁移任务单] OpenCamera 迁移 · 清单+迁移 · 清单生成中 续3·r57·905",
+          "title": "[DW迁移任务单] OpenCamera 迁移 · 清单+迁移 · 清单生成中 续3·r58·912",
           "status": "in_progress",
-          "updated_at": "2026-10-10T03:39:30Z"
+          "updated_at": "2026-10-10T03:44:34Z"
         },
         {
           "key": "DWM-279",
@@ -306,9 +305,9 @@
       ],
       "order": {
         "key": "DWM-251",
-        "title": "[DW迁移任务单] OpenCamera 迁移 · 清单+迁移 · 清单生成中 续3·r57·905/800步·1页/526项 · 迁移中 3/6 · 清单8.6h/24h 迁移8",
+        "title": "[DW迁移任务单] OpenCamera 迁移 · 清单+迁移 · 清单生成中 续3·r58·912/800步·1页/526项 · 迁移中 3/6 · 清单8.7h/24h 迁移8",
         "status": "in_progress",
-        "updated_at": "2026-10-10T03:39:30Z"
+        "updated_at": "2026-10-10T03:44:34Z"
       },
       "progress_note": "10 个应用：完成 7、进行中 0、暂停 1、未开始 2"
     },
