@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T22:07:07Z",
+  "generated_at": "2026-10-10T22:10:49Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -44,12 +44,18 @@
         }
       ],
       "issue_counts": {
-        "todo": 2,
-        "in_progress": 0,
+        "todo": 1,
+        "in_progress": 1,
         "in_review": 2,
         "done": 95
       },
       "latest_issues": [
+        {
+          "key": "SUR-303",
+          "title": "[任务][day-17] 正文重写第2批：第3章 pipeline（五阶段主线+RQ2局部→集成衔接",
+          "status": "in_progress",
+          "updated_at": "2026-10-10T22:10:43Z"
+        },
         {
           "key": "SUR-302",
           "title": "[空闲检测] 2026-10-11 leader 两小时正点检查与加派",
@@ -61,12 +67,6 @@
           "title": "[评审][day-17] 对抗评审：正文重写第2批（第3章五阶段可证伪性+RQ2局部→整体证据链+跨",
           "status": "backlog",
           "updated_at": "2026-10-10T22:05:36Z"
-        },
-        {
-          "key": "SUR-303",
-          "title": "[任务][day-17] 正文重写第2批：第3章 pipeline（五阶段主线+RQ2局部→集成衔接",
-          "status": "todo",
-          "updated_at": "2026-10-10T22:05:31Z"
         },
         {
           "key": "SUR-301",
