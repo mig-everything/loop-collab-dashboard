@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T20:21:19Z",
+  "generated_at": "2026-10-10T20:28:43Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -17,10 +17,9 @@
           "role": "GPT Writer（执笔者）",
           "model": "gpt-6-luna",
           "agent_id": "58ed4647-32dd-4ca1-8ddc-194b975d6024",
-          "state": "working",
-          "issue": "SUR-300",
-          "issue_title": "[任务][day-17] 正文重写第1批：标题/摘要/引言1.1-1.3+第2章方法论（五阶段依据论证，口径1/5/11",
-          "since": "2026-10-10T20:07:52Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "kimi-adversary",
@@ -44,12 +43,18 @@
         }
       ],
       "issue_counts": {
-        "todo": 2,
+        "todo": 1,
         "in_progress": 0,
-        "in_review": 0,
+        "in_review": 1,
         "done": 97
       },
       "latest_issues": [
+        {
+          "key": "SUR-300",
+          "title": "[任务][day-17] 正文重写第1批：标题/摘要/引言1.1-1.3+第2章方法论（五阶段依据论",
+          "status": "in_review",
+          "updated_at": "2026-10-10T20:26:12Z"
+        },
         {
           "key": "SUR-299",
           "title": "[晨会纪要] 2026-10-11",
@@ -67,12 +72,6 @@
           "title": "[评审][day-17] 对抗评审：正文重写第1批（范围一致性+RQ充分性+五阶段依据可证伪性，口径",
           "status": "backlog",
           "updated_at": "2026-10-10T20:08:38Z"
-        },
-        {
-          "key": "SUR-300",
-          "title": "[任务][day-17] 正文重写第1批：标题/摘要/引言1.1-1.3+第2章方法论（五阶段依据论",
-          "status": "todo",
-          "updated_at": "2026-10-10T20:07:52Z"
         },
         {
           "key": "SUR-298",
@@ -370,10 +369,9 @@
           "role": "IPD-Tester 测试工程师",
           "model": "zai:glm-5.3",
           "agent_id": "86df9f14-a2cd-46d9-ad15-dbe8606ebd73",
-          "state": "working",
-          "issue": "IPD-451",
-          "issue_title": "[Tester] REQ-017 D-1 条件复验→转无条件通过（第17场景收口·gated on IPD-439）",
-          "since": "2026-10-10T20:07:55Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "hermes-rm",
@@ -408,11 +406,17 @@
       ],
       "issue_counts": {
         "todo": 10,
-        "in_progress": 3,
-        "in_review": 3,
+        "in_progress": 2,
+        "in_review": 4,
         "done": 81
       },
       "latest_issues": [
+        {
+          "key": "IPD-451",
+          "title": "[Tester] REQ-017 D-1 条件复验→转无条件通过（第17场景收口·gated on ",
+          "status": "in_review",
+          "updated_at": "2026-10-10T20:26:23Z"
+        },
         {
           "key": "IPD-450",
           "title": "[SA] REQ-018 倒数日 TR-Design 六件套+契约 v1.0（第18场景·续跑缺口补",
@@ -436,12 +440,6 @@
           "title": "[SA] REQ-020 抽奖转盘 TR-Design 六件套+契约 v1.0（第20场景·gate",
           "status": "in_progress",
           "updated_at": "2026-10-10T20:16:50Z"
-        },
-        {
-          "key": "IPD-443",
-          "title": "[PM] REQ-020 抽奖转盘 预研+PRD+TR-Req+契约冻结（第20场景·娱乐类·第1轮",
-          "status": "in_review",
-          "updated_at": "2026-10-10T20:16:04Z"
         }
       ]
     }
