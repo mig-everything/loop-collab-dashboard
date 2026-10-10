@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T16:01:09Z",
+  "generated_at": "2026-10-10T16:05:36Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -37,36 +37,35 @@
           "role": "DeepSeek Task Planner（任务规划+总结）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "04a4e04e-59d5-4f3a-8a16-acf99b80a493",
-          "state": "working",
-          "issue": "SUR-298",
-          "issue_title": "[巡检] 2026-10-11 leader Issue 状态巡检与催办",
-          "since": "2026-10-10T16:00:20Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         }
       ],
       "issue_counts": {
-        "todo": 2,
+        "todo": 1,
         "in_progress": 0,
-        "in_review": 1,
-        "done": 96
+        "in_review": 0,
+        "done": 98
       },
       "latest_issues": [
         {
           "key": "SUR-298",
           "title": "[巡检] 2026-10-11 leader Issue 状态巡检与催办",
-          "status": "todo",
-          "updated_at": "2026-10-10T16:00:16Z"
+          "status": "done",
+          "updated_at": "2026-10-10T16:04:52Z"
+        },
+        {
+          "key": "SUR-295",
+          "title": "[任务][day-16] 新版大纲对齐前置研究：检索协议更新+文献角色/粒度重查+五阶段试映射+移动",
+          "status": "done",
+          "updated_at": "2026-10-10T16:04:44Z"
         },
         {
           "key": "SUR-297",
           "title": "[空闲检测] 2026-10-10 leader 两小时正点检查与加派",
           "status": "done",
           "updated_at": "2026-10-10T14:04:43Z"
-        },
-        {
-          "key": "SUR-295",
-          "title": "[任务][day-16] 新版大纲对齐前置研究：检索协议更新+文献角色/粒度重查+五阶段试映射+移动",
-          "status": "in_review",
-          "updated_at": "2026-10-10T12:28:21Z"
         },
         {
           "key": "SUR-294",
@@ -100,9 +99,10 @@
           "role": "GPT Scenarist",
           "model": "zai:glm-5.3",
           "agent_id": "6e6f1e24-3bc5-455a-85d2-cb3fb6c9a672",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "BEN-241",
+          "issue_title": "[任务·第1轮] 视觉差分 P0/P1 修复·scenarist 侧：binding 重定基 + 注脚（ref BEN-",
+          "since": "2026-10-10T16:06:00Z"
         },
         {
           "name": "glm-runner",
@@ -154,6 +154,24 @@
       },
       "latest_issues": [
         {
+          "key": "BEN-248",
+          "title": "[任务·第2轮] 鸿蒙 test 变体执行扩容 + 差分归因（报告工具已修复，ref BEN-242",
+          "status": "in_progress",
+          "updated_at": "2026-10-10T16:05:59Z"
+        },
+        {
+          "key": "BEN-241",
+          "title": "[任务·第1轮] 视觉差分 P0/P1 修复·scenarist 侧：binding 重定基 + 注",
+          "status": "in_progress",
+          "updated_at": "2026-10-10T16:05:56Z"
+        },
+        {
+          "key": "BEN-135",
+          "title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 1",
+          "status": "in_progress",
+          "updated_at": "2026-10-10T16:05:55Z"
+        },
+        {
           "key": "BEN-273",
           "title": "[巡检] 2026-10-11 leader Issue 状态巡检与催办",
           "status": "todo",
@@ -164,24 +182,6 @@
           "title": "[空闲检测] 2026-10-10 leader 两小时正点检查与加派",
           "status": "done",
           "updated_at": "2026-10-10T14:02:58Z"
-        },
-        {
-          "key": "BEN-135",
-          "title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 1",
-          "status": "in_progress",
-          "updated_at": "2026-10-10T12:43:37Z"
-        },
-        {
-          "key": "BEN-241",
-          "title": "[任务·第1轮] 视觉差分 P0/P1 修复·scenarist 侧：binding 重定基 + 注",
-          "status": "in_progress",
-          "updated_at": "2026-10-10T12:34:11Z"
-        },
-        {
-          "key": "BEN-248",
-          "title": "[任务·第2轮] 鸿蒙 test 变体执行扩容 + 差分归因（报告工具已修复，ref BEN-242",
-          "status": "in_progress",
-          "updated_at": "2026-10-10T12:26:56Z"
         }
       ]
     },
@@ -211,10 +211,9 @@
           "role": "DeepSeek Planner（小组 leader/PM，",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "950ff614-521d-4e32-a02d-423d41a7b2b3",
-          "state": "working",
-          "issue": "DWM-286",
-          "issue_title": "[巡检] 2026-10-11 leader Issue 状态巡检与催办",
-          "since": "2026-10-10T16:00:23Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "dw-lead",
@@ -268,17 +267,17 @@
         }
       ],
       "issue_counts": {
-        "todo": 1,
+        "todo": 0,
         "in_progress": 0,
         "in_review": 0,
-        "done": 72
+        "done": 73
       },
       "latest_issues": [
         {
           "key": "DWM-286",
           "title": "[巡检] 2026-10-11 leader Issue 状态巡检与催办",
-          "status": "todo",
-          "updated_at": "2026-10-10T16:00:21Z"
+          "status": "done",
+          "updated_at": "2026-10-10T16:03:49Z"
         },
         {
           "key": "DWM-285",
@@ -339,9 +338,10 @@
           "role": "IPD-SA 解决方案架构师",
           "model": "zai:glm-5.3",
           "agent_id": "3e4373ef-a262-4b28-ab2a-818861fc9624",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-433",
+          "issue_title": "[SA] REQ-019 二维码生成器 TR-Design 六件套+契约 v1.0（第19场景·tool·gated o",
+          "since": "2026-10-10T16:03:44Z"
         },
         {
           "name": "hermes-se",
@@ -359,9 +359,10 @@
           "role": "IPD-Dev 开发工程师",
           "model": "zai:glm-5.3",
           "agent_id": "44fcec25-d8b3-4af6-b206-1774a64677ce",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-439",
+          "issue_title": "[Dev] REQ-017 D-1 修复：安卓打卡勾选/横幅即时刷新（version++ 缺失）",
+          "since": "2026-10-10T16:03:49Z"
         },
         {
           "name": "hermes-tester",
@@ -389,10 +390,9 @@
           "role": "DeepSeek Planner（小组 leader/PM ",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
-          "state": "working",
-          "issue": "IPD-441",
-          "issue_title": "[巡检] 2026-10-11 leader Issue 状态巡检与催办",
-          "since": "2026-10-10T16:00:25Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "minimax-uijudge",
@@ -406,41 +406,41 @@
         }
       ],
       "issue_counts": {
-        "todo": 6,
+        "todo": 5,
         "in_progress": 2,
-        "in_review": 1,
-        "done": 88
+        "in_review": 0,
+        "done": 90
       },
       "latest_issues": [
         {
           "key": "IPD-441",
           "title": "[巡检] 2026-10-11 leader Issue 状态巡检与催办",
-          "status": "todo",
-          "updated_at": "2026-10-10T16:00:22Z"
+          "status": "done",
+          "updated_at": "2026-10-10T16:03:53Z"
+        },
+        {
+          "key": "IPD-439",
+          "title": "[Dev] REQ-017 D-1 修复：安卓打卡勾选/横幅即时刷新（version++ 缺失）",
+          "status": "in_progress",
+          "updated_at": "2026-10-10T16:03:45Z"
+        },
+        {
+          "key": "IPD-433",
+          "title": "[SA] REQ-019 二维码生成器 TR-Design 六件套+契约 v1.0（第19场景·to",
+          "status": "in_progress",
+          "updated_at": "2026-10-10T16:03:42Z"
+        },
+        {
+          "key": "IPD-432",
+          "title": "[PM] REQ-019 二维码生成器 预研+PRD+TR-Req+契约冻结（第19场景·tool工",
+          "status": "done",
+          "updated_at": "2026-10-10T16:03:39Z"
         },
         {
           "key": "IPD-440",
           "title": "[空闲检测] 2026-10-10 leader 两小时正点检查与加派",
           "status": "done",
           "updated_at": "2026-10-10T14:02:21Z"
-        },
-        {
-          "key": "IPD-433",
-          "title": "[SA] REQ-019 二维码生成器 TR-Design 六件套+契约 v1.0（第19场景·to",
-          "status": "in_progress",
-          "updated_at": "2026-10-10T13:12:52Z"
-        },
-        {
-          "key": "IPD-439",
-          "title": "[Dev] REQ-017 D-1 修复：安卓打卡勾选/横幅即时刷新（version++ 缺失）",
-          "status": "in_progress",
-          "updated_at": "2026-10-10T12:58:29Z"
-        },
-        {
-          "key": "IPD-432",
-          "title": "[PM] REQ-019 二维码生成器 预研+PRD+TR-Req+契约冻结（第19场景·tool工",
-          "status": "in_review",
-          "updated_at": "2026-10-10T12:30:57Z"
         }
       ]
     }
