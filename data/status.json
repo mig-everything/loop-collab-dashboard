@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T20:58:13Z",
+  "generated_at": "2026-10-10T21:12:47Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -414,7 +414,7 @@
           "key": "IPD-446",
           "title": "[Dev] REQ-020 抽奖转盘 双端生成+构建+运行+四维度量（第20场景·实验·gated ",
           "status": "in_progress",
-          "updated_at": "2026-10-10T20:50:19Z"
+          "updated_at": "2026-10-10T21:11:13Z"
         },
         {
           "key": "IPD-445",
