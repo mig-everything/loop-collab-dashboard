@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T13:15:11Z",
+  "generated_at": "2026-10-10T14:02:09Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -37,18 +37,25 @@
           "role": "DeepSeek Task Planner（任务规划+总结）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "04a4e04e-59d5-4f3a-8a16-acf99b80a493",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "SUR-297",
+          "issue_title": "[空闲检测] 2026-10-10 leader 两小时正点检查与加派",
+          "since": "2026-10-10T14:00:18Z"
         }
       ],
       "issue_counts": {
-        "todo": 1,
+        "todo": 2,
         "in_progress": 0,
         "in_review": 1,
-        "done": 97
+        "done": 96
       },
       "latest_issues": [
+        {
+          "key": "SUR-297",
+          "title": "[空闲检测] 2026-10-10 leader 两小时正点检查与加派",
+          "status": "todo",
+          "updated_at": "2026-10-10T14:00:15Z"
+        },
         {
           "key": "SUR-295",
           "title": "[任务][day-16] 新版大纲对齐前置研究：检索协议更新+文献角色/粒度重查+五阶段试映射+移动",
@@ -72,12 +79,6 @@
           "title": "任务一负责人新大纲与目标同步（2026-10-10）",
           "status": "done",
           "updated_at": "2026-10-10T11:15:15Z"
-        },
-        {
-          "key": "SUR-254",
-          "title": "[历史10-04口径结项申请] 新目标待重新评估；作者信息仍待补充",
-          "status": "blocked",
-          "updated_at": "2026-10-10T11:14:33Z"
         }
       ],
       "progress_note": "day-4 晨 37% → 午 42% → 晚 44% → 夜 47%",
@@ -119,9 +120,10 @@
           "role": "DeepSeek Planner（小组 leader/PM）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "547cd361-ef50-4965-9477-bc659d8a1708",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "BEN-272",
+          "issue_title": "[空闲检测] 2026-10-10 leader 两小时正点检查与加派",
+          "since": "2026-10-10T14:00:23Z"
         },
         {
           "name": "minimax-visual-diff",
@@ -145,12 +147,18 @@
         }
       ],
       "issue_counts": {
-        "todo": 3,
+        "todo": 4,
         "in_progress": 3,
         "in_review": 0,
-        "done": 94
+        "done": 93
       },
       "latest_issues": [
+        {
+          "key": "BEN-272",
+          "title": "[空闲检测] 2026-10-10 leader 两小时正点检查与加派",
+          "status": "todo",
+          "updated_at": "2026-10-10T14:00:18Z"
+        },
         {
           "key": "BEN-135",
           "title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 1",
@@ -174,12 +182,6 @@
           "title": "[晚会日报] 2026-10-10",
           "status": "done",
           "updated_at": "2026-10-10T12:08:51Z"
-        },
-        {
-          "key": "BEN-270",
-          "title": "[空闲检测] 2026-10-10 leader 两小时正点检查与加派",
-          "status": "done",
-          "updated_at": "2026-10-10T10:05:54Z"
         }
       ]
     },
@@ -209,9 +211,10 @@
           "role": "DeepSeek Planner（小组 leader/PM，",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "950ff614-521d-4e32-a02d-423d41a7b2b3",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "DWM-285",
+          "issue_title": "[空闲检测] 2026-10-10 leader 两小时正点检查与加派",
+          "since": "2026-10-10T14:00:16Z"
         },
         {
           "name": "dw-lead",
@@ -265,12 +268,18 @@
         }
       ],
       "issue_counts": {
-        "todo": 0,
+        "todo": 1,
         "in_progress": 0,
         "in_review": 0,
-        "done": 73
+        "done": 72
       },
       "latest_issues": [
+        {
+          "key": "DWM-285",
+          "title": "[空闲检测] 2026-10-10 leader 两小时正点检查与加派",
+          "status": "todo",
+          "updated_at": "2026-10-10T14:00:13Z"
+        },
         {
           "key": "DWM-284",
           "title": "[晚会日报] 2026-10-10",
@@ -294,12 +303,6 @@
           "title": "[午会纪要] 2026-10-10",
           "status": "done",
           "updated_at": "2026-10-10T08:04:41Z"
-        },
-        {
-          "key": "DWM-251",
-          "title": "[DW迁移任务单] OpenCamera 迁移 · 暂停（负责人要求·额度用尽）",
-          "status": "blocked",
-          "updated_at": "2026-10-10T07:33:48Z"
         }
       ],
       "order": {
@@ -409,6 +412,12 @@
       },
       "latest_issues": [
         {
+          "key": "IPD-440",
+          "title": "[空闲检测] 2026-10-10 leader 两小时正点检查与加派",
+          "status": "done",
+          "updated_at": "2026-10-10T14:02:21Z"
+        },
+        {
           "key": "IPD-433",
           "title": "[SA] REQ-019 二维码生成器 TR-Design 六件套+契约 v1.0（第19场景·to",
           "status": "in_progress",
@@ -431,12 +440,6 @@
           "title": "[晚会纪要] 2026-10-10（day-16 第3轮派单 · 口径15 首会）",
           "status": "done",
           "updated_at": "2026-10-10T12:14:12Z"
-        },
-        {
-          "key": "IPD-427",
-          "title": "[Dev] 双端模拟器点击注入管线修复（环境恶化处置）",
-          "status": "done",
-          "updated_at": "2026-10-10T12:13:45Z"
         }
       ]
     }
