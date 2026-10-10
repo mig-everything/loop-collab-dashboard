@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T09:22:56Z",
+  "generated_at": "2026-10-10T09:27:01Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -119,9 +119,10 @@
           "role": "DeepSeek Planner（小组 leader/PM）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "547cd361-ef50-4965-9477-bc659d8a1708",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "BEN-265",
+          "issue_title": "蒸馏 binding.json 生成方法为 skill 并迭代优化至一次生成正确完整结果",
+          "since": "2026-10-10T09:24:34Z"
         },
         {
           "name": "minimax-visual-diff",
@@ -155,7 +156,7 @@
           "key": "BEN-265",
           "title": "蒸馏 binding.json 生成方法为 skill 并迭代优化至一次生成正确完整结果",
           "status": "done",
-          "updated_at": "2026-10-10T08:45:55Z"
+          "updated_at": "2026-10-10T09:24:32Z"
         },
         {
           "key": "BEN-267",
