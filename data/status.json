@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T09:27:01Z",
+  "generated_at": "2026-10-10T09:31:03Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -119,10 +119,9 @@
           "role": "DeepSeek Planner（小组 leader/PM）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "547cd361-ef50-4965-9477-bc659d8a1708",
-          "state": "working",
-          "issue": "BEN-265",
-          "issue_title": "蒸馏 binding.json 生成方法为 skill 并迭代优化至一次生成正确完整结果",
-          "since": "2026-10-10T09:24:34Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "minimax-visual-diff",
@@ -153,10 +152,16 @@
       },
       "latest_issues": [
         {
+          "key": "BEN-264",
+          "title": "鸿蒙平台测列图片仅绘制全量测试结果（滑窗更新 drop 历史数据，避免图片冗长）",
+          "status": "todo",
+          "updated_at": "2026-10-10T09:29:38Z"
+        },
+        {
           "key": "BEN-265",
           "title": "蒸馏 binding.json 生成方法为 skill 并迭代优化至一次生成正确完整结果",
           "status": "done",
-          "updated_at": "2026-10-10T09:24:32Z"
+          "updated_at": "2026-10-10T09:28:56Z"
         },
         {
           "key": "BEN-267",
@@ -169,12 +174,6 @@
           "title": "[巡检] 2026-10-10 leader Issue 状态巡检与催办",
           "status": "done",
           "updated_at": "2026-10-10T08:07:02Z"
-        },
-        {
-          "key": "BEN-264",
-          "title": "鸿蒙平台测列图片仅绘制全量测试结果（滑窗更新 drop 历史数据，避免图片冗长）",
-          "status": "todo",
-          "updated_at": "2026-10-10T07:48:52Z"
         },
         {
           "key": "BEN-268",
