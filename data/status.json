@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T12:30:52Z",
+  "generated_at": "2026-10-10T12:35:27Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -100,9 +100,9 @@
           "model": "zai:glm-5.3",
           "agent_id": "6e6f1e24-3bc5-455a-85d2-cb3fb6c9a672",
           "state": "working",
-          "issue": "BEN-241",
-          "issue_title": "[任务·第1轮] 视觉差分 P0/P1 修复·scenarist 侧：binding 重定基 + 注脚（ref BEN-",
-          "since": "2026-10-10T12:06:56Z"
+          "issue": "BEN-135",
+          "issue_title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 100（ref BEN",
+          "since": "2026-10-10T12:06:45Z"
         },
         {
           "name": "glm-runner",
@@ -153,6 +153,12 @@
       },
       "latest_issues": [
         {
+          "key": "BEN-241",
+          "title": "[任务·第1轮] 视觉差分 P0/P1 修复·scenarist 侧：binding 重定基 + 注",
+          "status": "in_progress",
+          "updated_at": "2026-10-10T12:34:11Z"
+        },
+        {
           "key": "BEN-248",
           "title": "[任务·第2轮] 鸿蒙 test 变体执行扩容 + 差分归因（报告工具已修复，ref BEN-242",
           "status": "in_progress",
@@ -163,12 +169,6 @@
           "title": "[晚会日报] 2026-10-10",
           "status": "done",
           "updated_at": "2026-10-10T12:08:51Z"
-        },
-        {
-          "key": "BEN-241",
-          "title": "[任务·第1轮] 视觉差分 P0/P1 修复·scenarist 侧：binding 重定基 + 注",
-          "status": "in_progress",
-          "updated_at": "2026-10-10T12:06:48Z"
         },
         {
           "key": "BEN-135",
