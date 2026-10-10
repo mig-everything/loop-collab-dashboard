@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T11:19:15Z",
+  "generated_at": "2026-10-10T12:02:42Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -37,18 +37,25 @@
           "role": "DeepSeek Task Planner（任务规划+总结）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "04a4e04e-59d5-4f3a-8a16-acf99b80a493",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "SUR-294",
+          "issue_title": "[晚会日报] 2026-10-10",
+          "since": "2026-10-10T12:00:21Z"
         }
       ],
       "issue_counts": {
-        "todo": 0,
+        "todo": 1,
         "in_progress": 0,
         "in_review": 0,
         "done": 96
       },
       "latest_issues": [
+        {
+          "key": "SUR-294",
+          "title": "[晚会日报] 2026-10-10",
+          "status": "todo",
+          "updated_at": "2026-10-10T12:00:19Z"
+        },
         {
           "key": "SUR-293",
           "title": "任务一负责人新大纲与目标同步（2026-10-10）",
@@ -72,12 +79,6 @@
           "title": "[巡检] 2026-10-10 leader Issue 状态巡检与催办",
           "status": "done",
           "updated_at": "2026-10-10T08:06:19Z"
-        },
-        {
-          "key": "SUR-289",
-          "title": "[午会纪要] 2026-10-10",
-          "status": "done",
-          "updated_at": "2026-10-10T08:05:48Z"
         }
       ],
       "progress_note": "day-4 晨 37% → 午 42% → 晚 44% → 夜 47%",
@@ -119,9 +120,10 @@
           "role": "DeepSeek Planner（小组 leader/PM）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "547cd361-ef50-4965-9477-bc659d8a1708",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "BEN-271",
+          "issue_title": "[晚会日报] 2026-10-10",
+          "since": "2026-10-10T12:00:19Z"
         },
         {
           "name": "minimax-visual-diff",
@@ -145,12 +147,18 @@
         }
       ],
       "issue_counts": {
-        "todo": 3,
+        "todo": 4,
         "in_progress": 0,
         "in_review": 0,
-        "done": 94
+        "done": 93
       },
       "latest_issues": [
+        {
+          "key": "BEN-271",
+          "title": "[晚会日报] 2026-10-10",
+          "status": "todo",
+          "updated_at": "2026-10-10T12:00:15Z"
+        },
         {
           "key": "BEN-270",
           "title": "[空闲检测] 2026-10-10 leader 两小时正点检查与加派",
@@ -174,12 +182,6 @@
           "title": "[任务·第2轮] cofi 安卓 R2 129 失败视觉四分类归因预分析（设备无关，ref BEN-",
           "status": "done",
           "updated_at": "2026-10-10T08:15:06Z"
-        },
-        {
-          "key": "BEN-269",
-          "title": "[巡检] 2026-10-10 leader Issue 状态巡检与催办",
-          "status": "done",
-          "updated_at": "2026-10-10T08:07:02Z"
         }
       ]
     },
@@ -209,9 +211,10 @@
           "role": "DeepSeek Planner（小组 leader/PM，",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "950ff614-521d-4e32-a02d-423d41a7b2b3",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "DWM-284",
+          "issue_title": "[晚会日报] 2026-10-10",
+          "since": "2026-10-10T12:00:23Z"
         },
         {
           "name": "dw-lead",
@@ -265,12 +268,18 @@
         }
       ],
       "issue_counts": {
-        "todo": 0,
+        "todo": 1,
         "in_progress": 0,
         "in_review": 0,
         "done": 72
       },
       "latest_issues": [
+        {
+          "key": "DWM-284",
+          "title": "[晚会日报] 2026-10-10",
+          "status": "todo",
+          "updated_at": "2026-10-10T12:00:19Z"
+        },
         {
           "key": "DWM-283",
           "title": "[空闲检测] 2026-10-10 leader 两小时正点检查与加派",
@@ -294,12 +303,6 @@
           "title": "[DW迁移任务单] OpenCamera 迁移 · 暂停（负责人要求·额度用尽）",
           "status": "blocked",
           "updated_at": "2026-10-10T07:33:48Z"
-        },
-        {
-          "key": "DWM-281",
-          "title": "[空闲检测] 2026-10-10 leader 两小时正点检查与加派",
-          "status": "done",
-          "updated_at": "2026-10-10T06:07:13Z"
         }
       ],
       "order": {
@@ -386,9 +389,10 @@
           "role": "DeepSeek Planner（小组 leader/PM ",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-431",
+          "issue_title": "[晚会日报] 2026-10-10",
+          "since": "2026-10-10T12:00:30Z"
         },
         {
           "name": "minimax-uijudge",
@@ -402,12 +406,18 @@
         }
       ],
       "issue_counts": {
-        "todo": 0,
+        "todo": 1,
         "in_progress": 0,
         "in_review": 2,
-        "done": 95
+        "done": 94
       },
       "latest_issues": [
+        {
+          "key": "IPD-431",
+          "title": "[晚会日报] 2026-10-10",
+          "status": "todo",
+          "updated_at": "2026-10-10T12:00:27Z"
+        },
         {
           "key": "IPD-430",
           "title": "[空闲检测] 2026-10-10 leader 两小时正点检查与加派",
@@ -431,12 +441,6 @@
           "title": "[Tester] REQ-017 习惯打卡 TR-Accept 差分执行 + 双端对比报告（第17场",
           "status": "in_review",
           "updated_at": "2026-10-10T08:13:00Z"
-        },
-        {
-          "key": "IPD-428",
-          "title": "[空闲检测] 2026-10-10 leader 两小时正点检查与加派",
-          "status": "done",
-          "updated_at": "2026-10-10T06:02:33Z"
         }
       ]
     }
