@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T20:50:53Z",
+  "generated_at": "2026-10-10T20:58:13Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -109,10 +109,9 @@
           "role": "GLM Runner & Analyst",
           "model": "",
           "agent_id": "bdaefa9b-7045-4264-95e4-1db664e353d0",
-          "state": "working",
-          "issue": "BEN-248",
-          "issue_title": "[任务·第2轮] 鸿蒙 test 变体执行扩容 + 差分归因（报告工具已修复，ref BEN-242/BEN-235）",
-          "since": "2026-10-10T20:04:55Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "deepseek-planner",
@@ -147,22 +146,22 @@
       ],
       "issue_counts": {
         "todo": 3,
-        "in_progress": 1,
+        "in_progress": 0,
         "in_review": 0,
-        "done": 95
+        "done": 96
       },
       "latest_issues": [
+        {
+          "key": "BEN-248",
+          "title": "[任务·第2轮] 鸿蒙 test 变体执行扩容 + 差分归因（报告工具已修复，ref BEN-242",
+          "status": "done",
+          "updated_at": "2026-10-10T20:55:46Z"
+        },
         {
           "key": "BEN-274",
           "title": "[早会纪要] 2026-10-11",
           "status": "done",
           "updated_at": "2026-10-10T20:05:55Z"
-        },
-        {
-          "key": "BEN-248",
-          "title": "[任务·第2轮] 鸿蒙 test 变体执行扩容 + 差分归因（报告工具已修复，ref BEN-242",
-          "status": "in_progress",
-          "updated_at": "2026-10-10T20:04:54Z"
         },
         {
           "key": "BEN-241",
