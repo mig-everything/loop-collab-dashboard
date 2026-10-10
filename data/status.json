@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T12:44:27Z",
+  "generated_at": "2026-10-10T12:57:35Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -357,10 +357,9 @@
           "role": "IPD-Dev 开发工程师",
           "model": "zai:glm-5.3",
           "agent_id": "44fcec25-d8b3-4af6-b206-1774a64677ce",
-          "state": "working",
-          "issue": "IPD-439",
-          "issue_title": "[Dev] REQ-017 D-1 修复：安卓打卡勾选/横幅即时刷新（version++ 缺失）",
-          "since": "2026-10-10T12:08:57Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "hermes-tester",
@@ -411,6 +410,12 @@
       },
       "latest_issues": [
         {
+          "key": "IPD-439",
+          "title": "[Dev] REQ-017 D-1 修复：安卓打卡勾选/横幅即时刷新（version++ 缺失）",
+          "status": "in_progress",
+          "updated_at": "2026-10-10T12:58:29Z"
+        },
+        {
           "key": "IPD-433",
           "title": "[SA] REQ-019 二维码生成器 TR-Design 六件套+契约 v1.0（第19场景·to",
           "status": "in_progress",
@@ -433,12 +438,6 @@
           "title": "[Dev] 双端模拟器点击注入管线修复（环境恶化处置）",
           "status": "done",
           "updated_at": "2026-10-10T12:13:45Z"
-        },
-        {
-          "key": "IPD-424",
-          "title": "[Tester] REQ-017 习惯打卡 TR-Accept 差分执行 + 双端对比报告（第17场",
-          "status": "done",
-          "updated_at": "2026-10-10T12:13:41Z"
         }
       ]
     }
