@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T08:01:39Z",
+  "generated_at": "2026-10-10T08:06:22Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -37,36 +37,35 @@
           "role": "DeepSeek Task Planner（任务规划+总结）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "04a4e04e-59d5-4f3a-8a16-acf99b80a493",
-          "state": "working",
-          "issue": "SUR-291",
-          "issue_title": "[巡检] 2026-10-10 leader Issue 状态巡检与催办",
-          "since": "2026-10-10T08:00:23Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         }
       ],
       "issue_counts": {
-        "todo": 1,
-        "in_progress": 1,
+        "todo": 0,
+        "in_progress": 0,
         "in_review": 0,
-        "done": 94
+        "done": 96
       },
       "latest_issues": [
         {
           "key": "SUR-291",
           "title": "[巡检] 2026-10-10 leader Issue 状态巡检与催办",
-          "status": "todo",
-          "updated_at": "2026-10-10T08:00:20Z"
+          "status": "done",
+          "updated_at": "2026-10-10T08:06:19Z"
+        },
+        {
+          "key": "SUR-289",
+          "title": "[午会纪要] 2026-10-10",
+          "status": "done",
+          "updated_at": "2026-10-10T08:05:48Z"
         },
         {
           "key": "SUR-290",
           "title": "[空闲检测] 2026-10-10 leader 两小时正点检查与加派",
           "status": "done",
           "updated_at": "2026-10-10T06:03:29Z"
-        },
-        {
-          "key": "SUR-289",
-          "title": "[午会纪要] 2026-10-10",
-          "status": "in_progress",
-          "updated_at": "2026-10-10T04:06:57Z"
         },
         {
           "key": "SUR-288",
@@ -131,9 +130,10 @@
           "role": "MiniMax 多模态视觉差分评审",
           "model": "minimax-cn:MiniMax-M3",
           "agent_id": "843ac45d-b5db-4f35-b07b-2e5754ec5a5f",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "BEN-267",
+          "issue_title": "[任务·第2轮] cofi 安卓 R2 129 失败视觉四分类归因预分析（设备无关，ref BEN-135/BEN-25",
+          "since": "2026-10-10T08:06:53Z"
         },
         {
           "name": "项目观察员（GPT-6）",
@@ -157,7 +157,13 @@
           "key": "BEN-269",
           "title": "[巡检] 2026-10-10 leader Issue 状态巡检与催办",
           "status": "todo",
-          "updated_at": "2026-10-10T08:00:10Z"
+          "updated_at": "2026-10-10T08:06:56Z"
+        },
+        {
+          "key": "BEN-267",
+          "title": "[任务·第2轮] cofi 安卓 R2 129 失败视觉四分类归因预分析（设备无关，ref BEN-",
+          "status": "todo",
+          "updated_at": "2026-10-10T08:06:51Z"
         },
         {
           "key": "BEN-264",
@@ -170,12 +176,6 @@
           "title": "[空闲检测] 2026-10-10 leader 两小时正点检查与加派",
           "status": "done",
           "updated_at": "2026-10-10T06:03:57Z"
-        },
-        {
-          "key": "BEN-267",
-          "title": "[任务·第2轮] cofi 安卓 R2 129 失败视觉四分类归因预分析（设备无关，ref BEN-",
-          "status": "todo",
-          "updated_at": "2026-10-10T04:23:42Z"
         },
         {
           "key": "BEN-266",
@@ -211,10 +211,9 @@
           "role": "DeepSeek Planner（小组 leader/PM，",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "950ff614-521d-4e32-a02d-423d41a7b2b3",
-          "state": "working",
-          "issue": "DWM-282",
-          "issue_title": "[巡检] 2026-10-10 leader Issue 状态巡检与催办",
-          "since": "2026-10-10T08:00:21Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "dw-lead",
@@ -268,17 +267,23 @@
         }
       ],
       "issue_counts": {
-        "todo": 1,
-        "in_progress": 1,
+        "todo": 0,
+        "in_progress": 0,
         "in_review": 0,
-        "done": 70
+        "done": 72
       },
       "latest_issues": [
         {
           "key": "DWM-282",
           "title": "[巡检] 2026-10-10 leader Issue 状态巡检与催办",
-          "status": "todo",
-          "updated_at": "2026-10-10T08:00:16Z"
+          "status": "done",
+          "updated_at": "2026-10-10T08:05:14Z"
+        },
+        {
+          "key": "DWM-280",
+          "title": "[午会纪要] 2026-10-10",
+          "status": "done",
+          "updated_at": "2026-10-10T08:04:41Z"
         },
         {
           "key": "DWM-251",
@@ -291,12 +296,6 @@
           "title": "[空闲检测] 2026-10-10 leader 两小时正点检查与加派",
           "status": "done",
           "updated_at": "2026-10-10T06:07:13Z"
-        },
-        {
-          "key": "DWM-280",
-          "title": "[午会纪要] 2026-10-10",
-          "status": "in_progress",
-          "updated_at": "2026-10-10T04:10:46Z"
         },
         {
           "key": "DWM-279",
@@ -369,9 +368,10 @@
           "role": "IPD-Tester 测试工程师",
           "model": "zai:glm-5.3",
           "agent_id": "86df9f14-a2cd-46d9-ad15-dbe8606ebd73",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-424",
+          "issue_title": "[Tester] REQ-017 习惯打卡 TR-Accept 差分执行 + 双端对比报告（第17场景收口）",
+          "since": "2026-10-10T08:03:45Z"
         },
         {
           "name": "hermes-rm",
@@ -392,7 +392,7 @@
           "state": "working",
           "issue": "IPD-429",
           "issue_title": "[巡检] 2026-10-10 leader Issue 状态巡检与催办",
-          "since": "2026-10-10T08:00:22Z"
+          "since": "2026-10-10T08:05:43Z"
         },
         {
           "name": "minimax-uijudge",
@@ -406,35 +406,35 @@
         }
       ],
       "issue_counts": {
-        "todo": 2,
-        "in_progress": 1,
+        "todo": 0,
+        "in_progress": 2,
         "in_review": 0,
-        "done": 94
+        "done": 95
       },
       "latest_issues": [
         {
           "key": "IPD-429",
           "title": "[巡检] 2026-10-10 leader Issue 状态巡检与催办",
-          "status": "todo",
-          "updated_at": "2026-10-10T08:00:21Z"
+          "status": "done",
+          "updated_at": "2026-10-10T08:05:34Z"
+        },
+        {
+          "key": "IPD-424",
+          "title": "[Tester] REQ-017 习惯打卡 TR-Accept 差分执行 + 双端对比报告（第17场",
+          "status": "in_progress",
+          "updated_at": "2026-10-10T08:05:12Z"
+        },
+        {
+          "key": "IPD-427",
+          "title": "[Dev] 双端模拟器点击注入管线修复（环境恶化处置）",
+          "status": "in_progress",
+          "updated_at": "2026-10-10T08:03:59Z"
         },
         {
           "key": "IPD-428",
           "title": "[空闲检测] 2026-10-10 leader 两小时正点检查与加派",
           "status": "done",
           "updated_at": "2026-10-10T06:02:33Z"
-        },
-        {
-          "key": "IPD-427",
-          "title": "[Dev] 双端模拟器点击注入管线修复（环境恶化处置）",
-          "status": "in_progress",
-          "updated_at": "2026-10-10T04:34:13Z"
-        },
-        {
-          "key": "IPD-424",
-          "title": "[Tester] REQ-017 习惯打卡 TR-Accept 差分执行 + 双端对比报告（第17场",
-          "status": "todo",
-          "updated_at": "2026-10-10T04:23:18Z"
         },
         {
           "key": "IPD-426",
