@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T12:35:27Z",
+  "generated_at": "2026-10-10T12:39:58Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -337,9 +337,10 @@
           "role": "IPD-SA 解决方案架构师",
           "model": "zai:glm-5.3",
           "agent_id": "3e4373ef-a262-4b28-ab2a-818861fc9624",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-433",
+          "issue_title": "[SA] REQ-019 二维码生成器 TR-Design 六件套+契约 v1.0（第19场景·tool·gated o",
+          "since": "2026-10-10T12:37:52Z"
         },
         {
           "name": "hermes-se",
@@ -404,12 +405,18 @@
         }
       ],
       "issue_counts": {
-        "todo": 6,
-        "in_progress": 1,
+        "todo": 5,
+        "in_progress": 2,
         "in_review": 1,
         "done": 89
       },
       "latest_issues": [
+        {
+          "key": "IPD-433",
+          "title": "[SA] REQ-019 二维码生成器 TR-Design 六件套+契约 v1.0（第19场景·to",
+          "status": "in_progress",
+          "updated_at": "2026-10-10T12:39:56Z"
+        },
         {
           "key": "IPD-432",
           "title": "[PM] REQ-019 二维码生成器 预研+PRD+TR-Req+契约冻结（第19场景·tool工",
@@ -433,12 +440,6 @@
           "title": "[Tester] REQ-017 习惯打卡 TR-Accept 差分执行 + 双端对比报告（第17场",
           "status": "done",
           "updated_at": "2026-10-10T12:13:41Z"
-        },
-        {
-          "key": "IPD-437",
-          "title": "[uijudge] REQ-019 二维码生成器 双端视觉评审（第19场景 UI维度·gated o",
-          "status": "backlog",
-          "updated_at": "2026-10-10T12:11:32Z"
         }
       ]
     }
