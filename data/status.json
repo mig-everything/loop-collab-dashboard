@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T10:20:35Z",
+  "generated_at": "2026-10-10T11:14:50Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -50,16 +50,16 @@
       },
       "latest_issues": [
         {
+          "key": "SUR-254",
+          "title": "[历史10-04口径结项申请] 新目标待重新评估；作者信息仍待补充",
+          "status": "blocked",
+          "updated_at": "2026-10-10T11:14:33Z"
+        },
+        {
           "key": "SUR-293",
           "title": "任务一负责人新大纲与目标同步（2026-10-10）",
           "status": "blocked",
           "updated_at": "2026-10-10T10:18:08Z"
-        },
-        {
-          "key": "SUR-254",
-          "title": "[历史10-04口径结项申请] 新目标待重新评估；作者信息仍待补充",
-          "status": "blocked",
-          "updated_at": "2026-10-10T10:17:03Z"
         },
         {
           "key": "SUR-292",
