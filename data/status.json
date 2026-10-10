@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T09:39:14Z",
+  "generated_at": "2026-10-10T10:00:04Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -119,9 +119,10 @@
           "role": "DeepSeek Planner（小组 leader/PM）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "547cd361-ef50-4965-9477-bc659d8a1708",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "BEN-270",
+          "issue_title": "[空闲检测] 2026-10-10 leader 两小时正点检查与加派",
+          "since": "2026-10-10T10:00:18Z"
         },
         {
           "name": "minimax-visual-diff",
@@ -145,12 +146,18 @@
         }
       ],
       "issue_counts": {
-        "todo": 3,
+        "todo": 4,
         "in_progress": 0,
         "in_review": 0,
-        "done": 94
+        "done": 93
       },
       "latest_issues": [
+        {
+          "key": "BEN-270",
+          "title": "[空闲检测] 2026-10-10 leader 两小时正点检查与加派",
+          "status": "todo",
+          "updated_at": "2026-10-10T10:00:17Z"
+        },
         {
           "key": "BEN-264",
           "title": "鸿蒙平台测列图片仅绘制全量测试结果（滑窗更新 drop 历史数据，避免图片冗长）",
@@ -174,12 +181,6 @@
           "title": "[巡检] 2026-10-10 leader Issue 状态巡检与催办",
           "status": "done",
           "updated_at": "2026-10-10T08:07:02Z"
-        },
-        {
-          "key": "BEN-268",
-          "title": "[空闲检测] 2026-10-10 leader 两小时正点检查与加派",
-          "status": "done",
-          "updated_at": "2026-10-10T06:03:57Z"
         }
       ]
     },
@@ -209,9 +210,10 @@
           "role": "DeepSeek Planner（小组 leader/PM，",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "950ff614-521d-4e32-a02d-423d41a7b2b3",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "DWM-283",
+          "issue_title": "[空闲检测] 2026-10-10 leader 两小时正点检查与加派",
+          "since": "2026-10-10T10:00:17Z"
         },
         {
           "name": "dw-lead",
@@ -265,12 +267,18 @@
         }
       ],
       "issue_counts": {
-        "todo": 0,
+        "todo": 1,
         "in_progress": 0,
         "in_review": 0,
-        "done": 72
+        "done": 71
       },
       "latest_issues": [
+        {
+          "key": "DWM-283",
+          "title": "[空闲检测] 2026-10-10 leader 两小时正点检查与加派",
+          "status": "todo",
+          "updated_at": "2026-10-10T10:00:13Z"
+        },
         {
           "key": "DWM-282",
           "title": "[巡检] 2026-10-10 leader Issue 状态巡检与催办",
@@ -294,12 +302,6 @@
           "title": "[空闲检测] 2026-10-10 leader 两小时正点检查与加派",
           "status": "done",
           "updated_at": "2026-10-10T06:07:13Z"
-        },
-        {
-          "key": "DWM-279",
-          "title": "[空闲检测] 2026-10-10 leader 两小时正点检查与加派",
-          "status": "done",
-          "updated_at": "2026-10-10T02:02:58Z"
         }
       ],
       "order": {
@@ -386,9 +388,10 @@
           "role": "DeepSeek Planner（小组 leader/PM ",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-430",
+          "issue_title": "[空闲检测] 2026-10-10 leader 两小时正点检查与加派",
+          "since": "2026-10-10T10:00:24Z"
         },
         {
           "name": "minimax-uijudge",
@@ -402,12 +405,18 @@
         }
       ],
       "issue_counts": {
-        "todo": 0,
+        "todo": 1,
         "in_progress": 0,
         "in_review": 2,
-        "done": 95
+        "done": 94
       },
       "latest_issues": [
+        {
+          "key": "IPD-430",
+          "title": "[空闲检测] 2026-10-10 leader 两小时正点检查与加派",
+          "status": "todo",
+          "updated_at": "2026-10-10T10:00:23Z"
+        },
         {
           "key": "IPD-427",
           "title": "[Dev] 双端模拟器点击注入管线修复（环境恶化处置）",
@@ -431,12 +440,6 @@
           "title": "[空闲检测] 2026-10-10 leader 两小时正点检查与加派",
           "status": "done",
           "updated_at": "2026-10-10T06:02:33Z"
-        },
-        {
-          "key": "IPD-426",
-          "title": "[PM] REQ-018 倒数日 正式 PRD + TR-Req 评审（第18场景启动）",
-          "status": "done",
-          "updated_at": "2026-10-10T04:20:45Z"
         }
       ]
     }
