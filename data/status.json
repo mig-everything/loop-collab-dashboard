@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T04:43:02Z",
+  "generated_at": "2026-10-10T04:47:35Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -231,7 +231,7 @@
           "agent_id": "1c3481f5-135b-4959-9daa-c510c076d494",
           "state": "working",
           "issue": "DWM-251",
-          "issue_title": "[DW迁移任务单] OpenCamera 迁移 · 清单+迁移 · 清单生成中 续3·r63·951/800步·1页/5",
+          "issue_title": "[DW迁移任务单] OpenCamera 迁移 · 清单+迁移 · 清单生成中 续3·r63·965/800步·1页/5",
           "since": "2026-10-10T04:31:10Z"
         },
         {
@@ -274,9 +274,9 @@
       "latest_issues": [
         {
           "key": "DWM-251",
-          "title": "[DW迁移任务单] OpenCamera 迁移 · 清单+迁移 · 清单生成中 续3·r63·951",
+          "title": "[DW迁移任务单] OpenCamera 迁移 · 清单+迁移 · 清单生成中 续3·r63·965",
           "status": "in_progress",
-          "updated_at": "2026-10-10T04:41:53Z"
+          "updated_at": "2026-10-10T04:47:03Z"
         },
         {
           "key": "DWM-280",
@@ -305,9 +305,9 @@
       ],
       "order": {
         "key": "DWM-251",
-        "title": "[DW迁移任务单] OpenCamera 迁移 · 清单+迁移 · 清单生成中 续3·r63·951/800步·1页/526项 · 迁移中 3/6 · 清单9.6h/24h 迁移9",
+        "title": "[DW迁移任务单] OpenCamera 迁移 · 清单+迁移 · 清单生成中 续3·r63·965/800步·1页/526项 · 迁移中 3/6 · 清单9.7h/24h 迁移9",
         "status": "in_progress",
-        "updated_at": "2026-10-10T04:41:53Z"
+        "updated_at": "2026-10-10T04:47:03Z"
       },
       "progress_note": "10 个应用：完成 7、进行中 0、暂停 1、未开始 2"
     },
@@ -403,10 +403,10 @@
         }
       ],
       "issue_counts": {
-        "todo": 1,
+        "todo": 0,
         "in_progress": 1,
         "in_review": 0,
-        "done": 95
+        "done": 98
       },
       "latest_issues": [
         {
@@ -414,12 +414,6 @@
           "title": "[Dev] 双端模拟器点击注入管线修复（环境恶化处置）",
           "status": "in_progress",
           "updated_at": "2026-10-10T04:34:13Z"
-        },
-        {
-          "key": "IPD-424",
-          "title": "[Tester] REQ-017 习惯打卡 TR-Accept 差分执行 + 双端对比报告（第17场",
-          "status": "todo",
-          "updated_at": "2026-10-10T04:23:18Z"
         },
         {
           "key": "IPD-426",
@@ -438,6 +432,12 @@
           "title": "[午会纪要] 2026-10-10",
           "status": "done",
           "updated_at": "2026-10-10T04:09:41Z"
+        },
+        {
+          "key": "IPD-417",
+          "title": "[Dev] REQ-017 习惯打卡 双端编码（第17场景·efficiency 效率类·gated",
+          "status": "done",
+          "updated_at": "2026-10-10T04:06:30Z"
         }
       ]
     }
