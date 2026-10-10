@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T01:22:47Z",
+  "generated_at": "2026-10-10T01:26:59Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -37,29 +37,30 @@
           "role": "DeepSeek Task Planner（任务规划+总结）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "04a4e04e-59d5-4f3a-8a16-acf99b80a493",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "SUR-287",
+          "issue_title": "[巡检] 2026-10-10 leader Issue 状态巡检与催办",
+          "since": "2026-10-10T01:23:43Z"
         }
       ],
       "issue_counts": {
-        "todo": 2,
+        "todo": 1,
         "in_progress": 1,
         "in_review": 0,
-        "done": 93
+        "done": 94
       },
       "latest_issues": [
+        {
+          "key": "SUR-286",
+          "title": "[空闲检测] 2026-10-10 leader 两小时正点检查与加派",
+          "status": "done",
+          "updated_at": "2026-10-10T01:26:50Z"
+        },
         {
           "key": "SUR-287",
           "title": "[巡检] 2026-10-10 leader Issue 状态巡检与催办",
           "status": "todo",
           "updated_at": "2026-10-10T00:00:15Z"
-        },
-        {
-          "key": "SUR-286",
-          "title": "[空闲检测] 2026-10-10 leader 两小时正点检查与加派",
-          "status": "todo",
-          "updated_at": "2026-10-09T22:00:16Z"
         },
         {
           "key": "SUR-285",
@@ -209,9 +210,10 @@
           "role": "DeepSeek Planner（小组 leader/PM，",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "950ff614-521d-4e32-a02d-423d41a7b2b3",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "DWM-278",
+          "issue_title": "[巡检] 2026-10-10 leader Issue 状态巡检与催办",
+          "since": "2026-10-10T01:23:43Z"
         },
         {
           "name": "dw-lead",
@@ -265,23 +267,23 @@
         }
       ],
       "issue_counts": {
-        "todo": 2,
+        "todo": 1,
         "in_progress": 0,
         "in_review": 0,
-        "done": 70
+        "done": 71
       },
       "latest_issues": [
+        {
+          "key": "DWM-277",
+          "title": "[空闲检测] 2026-10-10 leader 两小时正点检查与加派",
+          "status": "done",
+          "updated_at": "2026-10-10T01:26:53Z"
+        },
         {
           "key": "DWM-278",
           "title": "[巡检] 2026-10-10 leader Issue 状态巡检与催办",
           "status": "todo",
           "updated_at": "2026-10-10T00:00:07Z"
-        },
-        {
-          "key": "DWM-277",
-          "title": "[空闲检测] 2026-10-10 leader 两小时正点检查与加派",
-          "status": "todo",
-          "updated_at": "2026-10-09T22:00:13Z"
         },
         {
           "key": "DWM-276",
