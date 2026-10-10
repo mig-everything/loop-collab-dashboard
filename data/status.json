@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T12:57:35Z",
+  "generated_at": "2026-10-10T13:15:11Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -336,10 +336,9 @@
           "role": "IPD-SA 解决方案架构师",
           "model": "zai:glm-5.3",
           "agent_id": "3e4373ef-a262-4b28-ab2a-818861fc9624",
-          "state": "working",
-          "issue": "IPD-433",
-          "issue_title": "[SA] REQ-019 二维码生成器 TR-Design 六件套+契约 v1.0（第19场景·tool·gated o",
-          "since": "2026-10-10T12:37:52Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "hermes-se",
@@ -410,16 +409,16 @@
       },
       "latest_issues": [
         {
+          "key": "IPD-433",
+          "title": "[SA] REQ-019 二维码生成器 TR-Design 六件套+契约 v1.0（第19场景·to",
+          "status": "in_progress",
+          "updated_at": "2026-10-10T13:12:52Z"
+        },
+        {
           "key": "IPD-439",
           "title": "[Dev] REQ-017 D-1 修复：安卓打卡勾选/横幅即时刷新（version++ 缺失）",
           "status": "in_progress",
           "updated_at": "2026-10-10T12:58:29Z"
-        },
-        {
-          "key": "IPD-433",
-          "title": "[SA] REQ-019 二维码生成器 TR-Design 六件套+契约 v1.0（第19场景·to",
-          "status": "in_progress",
-          "updated_at": "2026-10-10T12:39:56Z"
         },
         {
           "key": "IPD-432",
