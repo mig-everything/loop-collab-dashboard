@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T16:18:59Z",
+  "generated_at": "2026-10-10T16:44:20Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -99,10 +99,9 @@
           "role": "GPT Scenarist",
           "model": "zai:glm-5.3",
           "agent_id": "6e6f1e24-3bc5-455a-85d2-cb3fb6c9a672",
-          "state": "working",
-          "issue": "BEN-135",
-          "issue_title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 100（ref BEN",
-          "since": "2026-10-10T16:05:57Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "glm-runner",
@@ -154,6 +153,12 @@
       },
       "latest_issues": [
         {
+          "key": "BEN-135",
+          "title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 1",
+          "status": "in_progress",
+          "updated_at": "2026-10-10T16:41:34Z"
+        },
+        {
           "key": "BEN-241",
           "title": "[任务·第1轮] 视觉差分 P0/P1 修复·scenarist 侧：binding 重定基 + 注",
           "status": "in_review",
@@ -170,12 +175,6 @@
           "title": "[任务·第2轮] 鸿蒙 test 变体执行扩容 + 差分归因（报告工具已修复，ref BEN-242",
           "status": "in_progress",
           "updated_at": "2026-10-10T16:05:59Z"
-        },
-        {
-          "key": "BEN-135",
-          "title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 1",
-          "status": "in_progress",
-          "updated_at": "2026-10-10T16:05:55Z"
         },
         {
           "key": "BEN-272",
