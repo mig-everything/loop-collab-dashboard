@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T06:48:53Z",
+  "generated_at": "2026-10-10T06:53:35Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -276,7 +276,7 @@
           "key": "DWM-251",
           "title": "[DW迁移任务单] OpenCamera 迁移 · 清单+迁移 · 清单生成中 续3·r71·110",
           "status": "in_progress",
-          "updated_at": "2026-10-10T06:47:01Z"
+          "updated_at": "2026-10-10T06:52:11Z"
         },
         {
           "key": "DWM-281",
@@ -305,9 +305,9 @@
       ],
       "order": {
         "key": "DWM-251",
-        "title": "[DW迁移任务单] OpenCamera 迁移 · 清单+迁移 · 清单生成中 续3·r71·1109/800步·1页/526项 · 迁移中 3/6 · 清单11.7h/24h 迁",
+        "title": "[DW迁移任务单] OpenCamera 迁移 · 清单+迁移 · 清单生成中 续3·r71·1109/800步·1页/526项 · 迁移中 3/6 · 清单11.8h/24h 迁",
         "status": "in_progress",
-        "updated_at": "2026-10-10T06:47:01Z"
+        "updated_at": "2026-10-10T06:52:11Z"
       },
       "progress_note": "10 个应用：完成 7、进行中 0、暂停 1、未开始 2"
     },
