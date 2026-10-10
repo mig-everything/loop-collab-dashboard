@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T04:17:41Z",
+  "generated_at": "2026-10-10T04:21:52Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -232,7 +232,7 @@
           "agent_id": "1c3481f5-135b-4959-9daa-c510c076d494",
           "state": "working",
           "issue": "DWM-251",
-          "issue_title": "[DW迁移任务单] OpenCamera 迁移 · 清单+迁移 · 清单生成中 续3·r60·932/800步·1页/5",
+          "issue_title": "[DW迁移任务单] OpenCamera 迁移 · 清单+迁移 · 清单生成中 续3·r61·942/800步·1页/5",
           "since": "2026-10-10T02:33:09Z"
         },
         {
@@ -275,9 +275,9 @@
       "latest_issues": [
         {
           "key": "DWM-251",
-          "title": "[DW迁移任务单] OpenCamera 迁移 · 清单+迁移 · 清单生成中 续3·r60·932",
+          "title": "[DW迁移任务单] OpenCamera 迁移 · 清单+迁移 · 清单生成中 续3·r61·942",
           "status": "in_progress",
-          "updated_at": "2026-10-10T04:15:30Z"
+          "updated_at": "2026-10-10T04:20:35Z"
         },
         {
           "key": "DWM-280",
@@ -306,9 +306,9 @@
       ],
       "order": {
         "key": "DWM-251",
-        "title": "[DW迁移任务单] OpenCamera 迁移 · 清单+迁移 · 清单生成中 续3·r60·932/800步·1页/526项 · 迁移中 3/6 · 清单9.2h/24h 迁移9",
+        "title": "[DW迁移任务单] OpenCamera 迁移 · 清单+迁移 · 清单生成中 续3·r61·942/800步·1页/526项 · 迁移中 3/6 · 清单9.3h/24h 迁移9",
         "status": "in_progress",
-        "updated_at": "2026-10-10T04:15:30Z"
+        "updated_at": "2026-10-10T04:20:35Z"
       },
       "progress_note": "10 个应用：完成 7、进行中 0、暂停 1、未开始 2"
     },
@@ -328,10 +328,9 @@
           "role": "IPD-PM 产品经理",
           "model": "",
           "agent_id": "1764c131-5c09-48cb-aa48-3177d5256dbb",
-          "state": "working",
-          "issue": "IPD-426",
-          "issue_title": "[PM] REQ-018 倒数日 正式 PRD + TR-Req 评审（第18场景启动）",
-          "since": "2026-10-10T04:07:57Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "hermes-sa",
@@ -407,12 +406,18 @@
         }
       ],
       "issue_counts": {
-        "todo": 2,
+        "todo": 1,
         "in_progress": 1,
         "in_review": 0,
-        "done": 94
+        "done": 95
       },
       "latest_issues": [
+        {
+          "key": "IPD-426",
+          "title": "[PM] REQ-018 倒数日 正式 PRD + TR-Req 评审（第18场景启动）",
+          "status": "done",
+          "updated_at": "2026-10-10T04:20:45Z"
+        },
         {
           "key": "IPD-425",
           "title": "[uijudge] REQ-015 房贷计算器 三轮复评（双 P1 修复后 · 第15场景发版收口）",
@@ -430,12 +435,6 @@
           "title": "[午会纪要] 2026-10-10",
           "status": "done",
           "updated_at": "2026-10-10T04:09:41Z"
-        },
-        {
-          "key": "IPD-426",
-          "title": "[PM] REQ-018 倒数日 正式 PRD + TR-Req 评审（第18场景启动）",
-          "status": "todo",
-          "updated_at": "2026-10-10T04:07:53Z"
         },
         {
           "key": "IPD-424",
