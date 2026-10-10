@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T22:36:21Z",
+  "generated_at": "2026-10-10T22:40:04Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -38,10 +38,9 @@
           "role": "DeepSeek Task Planner（任务规划+总结）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "04a4e04e-59d5-4f3a-8a16-acf99b80a493",
-          "state": "working",
-          "issue": "SUR-304",
-          "issue_title": "[评审][day-17] 对抗评审：正文重写第2批（第3章五阶段可证伪性+RQ2局部→整体证据链+跨章重复，口径7/11",
-          "since": "2026-10-10T22:34:11Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         }
       ],
       "issue_counts": {
@@ -55,7 +54,7 @@
           "key": "SUR-304",
           "title": "[评审][day-17] 对抗评审：正文重写第2批（第3章五阶段可证伪性+RQ2局部→整体证据链+跨",
           "status": "in_progress",
-          "updated_at": "2026-10-10T22:34:26Z"
+          "updated_at": "2026-10-10T22:38:12Z"
         },
         {
           "key": "SUR-303",
