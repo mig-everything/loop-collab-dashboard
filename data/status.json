@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T21:39:01Z",
+  "generated_at": "2026-10-10T01:22:47Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -43,12 +43,24 @@
         }
       ],
       "issue_counts": {
-        "todo": 0,
+        "todo": 2,
         "in_progress": 1,
         "in_review": 0,
-        "done": 95
+        "done": 93
       },
       "latest_issues": [
+        {
+          "key": "SUR-287",
+          "title": "[巡检] 2026-10-10 leader Issue 状态巡检与催办",
+          "status": "todo",
+          "updated_at": "2026-10-10T00:00:15Z"
+        },
+        {
+          "key": "SUR-286",
+          "title": "[空闲检测] 2026-10-10 leader 两小时正点检查与加派",
+          "status": "todo",
+          "updated_at": "2026-10-09T22:00:16Z"
+        },
         {
           "key": "SUR-285",
           "title": "[晨会纪要] 2026-10-10",
@@ -66,18 +78,6 @@
           "title": "[流程优化] Opt-026：会议目标对齐/日报归档复用本地 SSH 工作仓（次日验证）",
           "status": "done",
           "updated_at": "2026-10-09T20:20:12Z"
-        },
-        {
-          "key": "SUR-284",
-          "title": "[巡检] 2026-10-10 leader Issue 状态巡检与催办",
-          "status": "done",
-          "updated_at": "2026-10-09T16:04:27Z"
-        },
-        {
-          "key": "SUR-283",
-          "title": "[空闲检测] 2026-10-09 leader 两小时正点检查与加派",
-          "status": "done",
-          "updated_at": "2026-10-09T14:04:22Z"
         }
       ],
       "progress_note": "day-4 晨 37% → 午 42% → 晚 44% → 夜 47%",
@@ -145,41 +145,41 @@
         }
       ],
       "issue_counts": {
-        "todo": 1,
+        "todo": 2,
         "in_progress": 0,
-        "in_review": 1,
+        "in_review": 0,
         "done": 95
       },
       "latest_issues": [
         {
+          "key": "BEN-262",
+          "title": "[观察员日报] 2026-10-10 通过率与 Agent 时间轴",
+          "status": "todo",
+          "updated_at": "2026-10-10T01:06:00Z"
+        },
+        {
+          "key": "BEN-261",
+          "title": "[巡检] 2026-10-10 leader Issue 状态巡检与催办",
+          "status": "done",
+          "updated_at": "2026-10-10T00:03:18Z"
+        },
+        {
           "key": "BEN-259",
           "title": "[任务·第1轮] 视觉差分 playbook 通知族 A类差异预标注（设备无关，ref BEN-25",
-          "status": "in_review",
-          "updated_at": "2026-10-09T20:15:19Z"
+          "status": "done",
+          "updated_at": "2026-10-10T00:03:05Z"
+        },
+        {
+          "key": "BEN-260",
+          "title": "[空闲检测] 2026-10-10 leader 两小时正点检查与加派",
+          "status": "done",
+          "updated_at": "2026-10-09T22:03:01Z"
         },
         {
           "key": "BEN-258",
           "title": "[早会纪要] 2026-10-10",
           "status": "done",
           "updated_at": "2026-10-09T20:07:29Z"
-        },
-        {
-          "key": "BEN-257",
-          "title": "[巡检] 2026-10-10 leader Issue 状态巡检与催办",
-          "status": "done",
-          "updated_at": "2026-10-09T16:06:45Z"
-        },
-        {
-          "key": "BEN-225",
-          "title": "[观察员日报] 2026-10-08 通过率与 Agent 时间轴",
-          "status": "done",
-          "updated_at": "2026-10-09T16:06:26Z"
-        },
-        {
-          "key": "BEN-245",
-          "title": "[观察员日报] 2026-10-09 通过率与 Agent 时间轴",
-          "status": "done",
-          "updated_at": "2026-10-09T16:06:25Z"
         }
       ]
     },
@@ -265,12 +265,24 @@
         }
       ],
       "issue_counts": {
-        "todo": 0,
+        "todo": 2,
         "in_progress": 0,
         "in_review": 0,
-        "done": 71
+        "done": 70
       },
       "latest_issues": [
+        {
+          "key": "DWM-278",
+          "title": "[巡检] 2026-10-10 leader Issue 状态巡检与催办",
+          "status": "todo",
+          "updated_at": "2026-10-10T00:00:07Z"
+        },
+        {
+          "key": "DWM-277",
+          "title": "[空闲检测] 2026-10-10 leader 两小时正点检查与加派",
+          "status": "todo",
+          "updated_at": "2026-10-09T22:00:13Z"
+        },
         {
           "key": "DWM-276",
           "title": "[早会纪要] 2026-10-10",
@@ -288,18 +300,6 @@
           "title": "[空闲检测] 2026-10-09 leader 两小时正点检查与加派",
           "status": "done",
           "updated_at": "2026-10-09T14:03:29Z"
-        },
-        {
-          "key": "DWM-273",
-          "title": "[晚会日报] 2026-10-09",
-          "status": "done",
-          "updated_at": "2026-10-09T12:19:42Z"
-        },
-        {
-          "key": "DWM-272",
-          "title": "[空闲检测] 2026-10-09 leader 两小时正点检查与加派",
-          "status": "done",
-          "updated_at": "2026-10-09T10:04:38Z"
         }
       ],
       "order": {
@@ -403,40 +403,40 @@
       ],
       "issue_counts": {
         "todo": 0,
-        "in_progress": 3,
-        "in_review": 0,
+        "in_progress": 0,
+        "in_review": 3,
         "done": 94
       },
       "latest_issues": [
         {
-          "key": "IPD-414",
-          "title": "[早会纪要] 2026-10-10",
-          "status": "done",
-          "updated_at": "2026-10-09T20:23:10Z"
-        },
-        {
           "key": "IPD-416",
           "title": "[Dev] REQ-015 房贷 双 P1 缺陷修复（uijudge IPD-410 复评转 Dev",
-          "status": "in_progress",
-          "updated_at": "2026-10-09T20:19:49Z"
+          "status": "in_review",
+          "updated_at": "2026-10-10T00:18:12Z"
         },
         {
           "key": "IPD-417",
           "title": "[Dev] REQ-017 习惯打卡 双端编码（第17场景·efficiency 效率类·gated",
-          "status": "in_progress",
-          "updated_at": "2026-10-09T20:17:53Z"
-        },
-        {
-          "key": "IPD-419",
-          "title": "[RM] REQ-012/013/015 release-notes 欠账清偿（发版收口 · 012",
-          "status": "done",
-          "updated_at": "2026-10-09T20:16:29Z"
+          "status": "in_review",
+          "updated_at": "2026-10-10T00:10:48Z"
         },
         {
           "key": "IPD-415",
           "title": "[Tester] REQ-016 数独复验转无条件通过（IPD-406 四缺陷修复后 · 第16场景",
-          "status": "in_progress",
-          "updated_at": "2026-10-09T20:15:48Z"
+          "status": "in_review",
+          "updated_at": "2026-10-10T00:05:46Z"
+        },
+        {
+          "key": "IPD-421",
+          "title": "[巡检] 2026-10-10 leader Issue 状态巡检与催办",
+          "status": "done",
+          "updated_at": "2026-10-10T00:02:52Z"
+        },
+        {
+          "key": "IPD-420",
+          "title": "[空闲检测] 2026-10-10 leader 两小时正点检查与加派",
+          "status": "done",
+          "updated_at": "2026-10-09T22:01:47Z"
         }
       ]
     }
