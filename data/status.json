@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T20:17:33Z",
+  "generated_at": "2026-10-10T20:21:19Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -381,10 +381,9 @@
           "role": "IPD-RM 发布经理",
           "model": "zai:glm-5.3",
           "agent_id": "78156461-9644-478e-9c80-53cd18e25e33",
-          "state": "working",
-          "issue": "IPD-452",
-          "issue_title": "[RM] 建立 metrics/daily-iterations 迭代台账（口径15 落账·10-10 第3轮起）",
-          "since": "2026-10-10T20:07:57Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "deepseek-planner",
@@ -408,12 +407,30 @@
         }
       ],
       "issue_counts": {
-        "todo": 11,
-        "in_progress": 4,
-        "in_review": 1,
+        "todo": 10,
+        "in_progress": 3,
+        "in_review": 3,
         "done": 81
       },
       "latest_issues": [
+        {
+          "key": "IPD-450",
+          "title": "[SA] REQ-018 倒数日 TR-Design 六件套+契约 v1.0（第18场景·续跑缺口补",
+          "status": "in_review",
+          "updated_at": "2026-10-10T20:21:44Z"
+        },
+        {
+          "key": "IPD-452",
+          "title": "[RM] 建立 metrics/daily-iterations 迭代台账（口径15 落账·10-1",
+          "status": "in_review",
+          "updated_at": "2026-10-10T20:20:57Z"
+        },
+        {
+          "key": "IPD-433",
+          "title": "[SA] REQ-019 二维码生成器 TR-Design 六件套+契约 v1.0（第19场景·to",
+          "status": "in_progress",
+          "updated_at": "2026-10-10T20:20:48Z"
+        },
         {
           "key": "IPD-444",
           "title": "[SA] REQ-020 抽奖转盘 TR-Design 六件套+契约 v1.0（第20场景·gate",
@@ -425,24 +442,6 @@
           "title": "[PM] REQ-020 抽奖转盘 预研+PRD+TR-Req+契约冻结（第20场景·娱乐类·第1轮",
           "status": "in_review",
           "updated_at": "2026-10-10T20:16:04Z"
-        },
-        {
-          "key": "IPD-442",
-          "title": "[早会纪要] 2026-10-11",
-          "status": "done",
-          "updated_at": "2026-10-10T20:14:10Z"
-        },
-        {
-          "key": "IPD-450",
-          "title": "[SA] REQ-018 倒数日 TR-Design 六件套+契约 v1.0（第18场景·续跑缺口补",
-          "status": "in_progress",
-          "updated_at": "2026-10-10T20:11:01Z"
-        },
-        {
-          "key": "IPD-451",
-          "title": "[Tester] REQ-017 D-1 条件复验→转无条件通过（第17场景收口·gated on ",
-          "status": "in_progress",
-          "updated_at": "2026-10-10T20:09:05Z"
         }
       ]
     }
