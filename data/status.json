@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T20:43:28Z",
+  "generated_at": "2026-10-10T20:47:10Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -348,10 +348,9 @@
           "role": "IPD-SE 系统工程师",
           "model": "zai:glm-5.3",
           "agent_id": "b874ba6b-80e6-45c6-a8c6-aedc6f2b326b",
-          "state": "working",
-          "issue": "IPD-445",
-          "issue_title": "[SE] REQ-020 抽奖转盘 追踪矩阵 v1.0（第20场景·gated on SA 契约）",
-          "since": "2026-10-10T20:31:14Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "hermes-dev",
@@ -359,9 +358,10 @@
           "role": "IPD-Dev 开发工程师",
           "model": "zai:glm-5.3",
           "agent_id": "44fcec25-d8b3-4af6-b206-1774a64677ce",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-446",
+          "issue_title": "[Dev] REQ-020 抽奖转盘 双端生成+构建+运行+四维度量（第20场景·实验·gated on SE）",
+          "since": "2026-10-10T20:44:42Z"
         },
         {
           "name": "hermes-tester",
@@ -405,17 +405,23 @@
         }
       ],
       "issue_counts": {
-        "todo": 10,
-        "in_progress": 1,
-        "in_review": 5,
+        "todo": 8,
+        "in_progress": 2,
+        "in_review": 6,
         "done": 81
       },
       "latest_issues": [
         {
+          "key": "IPD-446",
+          "title": "[Dev] REQ-020 抽奖转盘 双端生成+构建+运行+四维度量（第20场景·实验·gated ",
+          "status": "in_progress",
+          "updated_at": "2026-10-10T20:45:57Z"
+        },
+        {
           "key": "IPD-445",
           "title": "[SE] REQ-020 抽奖转盘 追踪矩阵 v1.0（第20场景·gated on SA 契约）",
-          "status": "todo",
-          "updated_at": "2026-10-10T20:31:14Z"
+          "status": "in_review",
+          "updated_at": "2026-10-10T20:45:01Z"
         },
         {
           "key": "IPD-444",
@@ -434,12 +440,6 @@
           "title": "[SA] REQ-018 倒数日 TR-Design 六件套+契约 v1.0（第18场景·续跑缺口补",
           "status": "in_review",
           "updated_at": "2026-10-10T20:21:44Z"
-        },
-        {
-          "key": "IPD-452",
-          "title": "[RM] 建立 metrics/daily-iterations 迭代台账（口径15 落账·10-1",
-          "status": "in_review",
-          "updated_at": "2026-10-10T20:20:57Z"
         }
       ]
     }
