@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T08:28:32Z",
+  "generated_at": "2026-10-10T08:45:37Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -155,7 +155,7 @@
           "key": "BEN-265",
           "title": "蒸馏 binding.json 生成方法为 skill 并迭代优化至一次生成正确完整结果",
           "status": "done",
-          "updated_at": "2026-10-10T08:28:23Z"
+          "updated_at": "2026-10-10T08:45:55Z"
         },
         {
           "key": "BEN-267",
