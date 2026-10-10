@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T07:48:45Z",
+  "generated_at": "2026-10-10T07:53:08Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -139,10 +139,9 @@
           "role": "只读洞察项目目标与执行证据，用简单语言汇报进展、偏差和阻塞，",
           "model": "gpt-6-astra",
           "agent_id": "33b902ee-a4ca-46ae-9284-c8285311c687",
-          "state": "working",
-          "issue": "BEN-264",
-          "issue_title": "鸿蒙平台测列图片仅绘制全量测试结果（滑窗更新 drop 历史数据，避免图片冗长）",
-          "since": "2026-10-10T07:43:23Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         }
       ],
       "issue_counts": {
