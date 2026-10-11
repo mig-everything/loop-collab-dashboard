@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T16:17:14Z",
+  "generated_at": "2026-10-11T16:21:22Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -404,12 +404,24 @@
         }
       ],
       "issue_counts": {
-        "todo": 8,
-        "in_progress": 0,
+        "todo": 7,
+        "in_progress": 1,
         "in_review": 3,
         "done": 86
       },
       "latest_issues": [
+        {
+          "key": "IPD-472",
+          "title": "[Tester] REQ-022 节拍器 TR-Accept 差分+双端对比报告（第22场景收口·g",
+          "status": "in_progress",
+          "updated_at": "2026-10-11T16:21:24Z"
+        },
+        {
+          "key": "IPD-436",
+          "title": "[Tester] REQ-019 二维码生成器 TR-Accept 差分+双端对比报告（第19场景收",
+          "status": "todo",
+          "updated_at": "2026-10-11T16:18:38Z"
+        },
         {
           "key": "IPD-463",
           "title": "[Dev] REQ-021 心情打卡/情绪追踪 四维归因+skill优化+复测（第21场景·gate",
@@ -423,22 +435,10 @@
           "updated_at": "2026-10-11T16:11:54Z"
         },
         {
-          "key": "IPD-472",
-          "title": "[Tester] REQ-022 节拍器 TR-Accept 差分+双端对比报告（第22场景收口·g",
-          "status": "todo",
-          "updated_at": "2026-10-11T16:11:48Z"
-        },
-        {
           "key": "IPD-437",
           "title": "[uijudge] REQ-019 二维码生成器 双端视觉评审（第19场景 UI维度·gated o",
           "status": "in_review",
           "updated_at": "2026-10-11T16:10:01Z"
-        },
-        {
-          "key": "IPD-478",
-          "title": "[巡检] 2026-10-12 leader Issue 状态巡检与催办",
-          "status": "done",
-          "updated_at": "2026-10-11T16:06:19Z"
         }
       ]
     }
