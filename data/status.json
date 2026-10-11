@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T04:18:18Z",
+  "generated_at": "2026-10-11T04:22:44Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -329,10 +329,9 @@
           "role": "IPD-PM 产品经理",
           "model": "",
           "agent_id": "1764c131-5c09-48cb-aa48-3177d5256dbb",
-          "state": "working",
-          "issue": "IPD-457",
-          "issue_title": "[PM] REQ-021 心情打卡/情绪追踪 预研+PRD+TR-Req+契约冻结（第21场景·note·第2轮新需求B",
-          "since": "2026-10-11T04:06:16Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "hermes-sa",
@@ -340,9 +339,10 @@
           "role": "IPD-SA 解决方案架构师",
           "model": "zai:glm-5.3",
           "agent_id": "3e4373ef-a262-4b28-ab2a-818861fc9624",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-458",
+          "issue_title": "[SA] REQ-021 心情打卡/情绪追踪 TR-Design 六件套+契约 v1.0（第21场景·note·gate",
+          "since": "2026-10-11T04:22:02Z"
         },
         {
           "name": "hermes-se",
@@ -407,12 +407,24 @@
         }
       ],
       "issue_counts": {
-        "todo": 11,
-        "in_progress": 3,
-        "in_review": 0,
+        "todo": 9,
+        "in_progress": 4,
+        "in_review": 1,
         "done": 83
       },
       "latest_issues": [
+        {
+          "key": "IPD-458",
+          "title": "[SA] REQ-021 心情打卡/情绪追踪 TR-Design 六件套+契约 v1.0（第21场景",
+          "status": "in_progress",
+          "updated_at": "2026-10-11T04:23:16Z"
+        },
+        {
+          "key": "IPD-457",
+          "title": "[PM] REQ-021 心情打卡/情绪追踪 预研+PRD+TR-Req+契约冻结（第21场景·no",
+          "status": "in_review",
+          "updated_at": "2026-10-11T04:22:06Z"
+        },
         {
           "key": "IPD-456",
           "title": "[午会纪要] 2026-10-11",
@@ -430,18 +442,6 @@
           "title": "[uijudge] REQ-021 心情打卡/情绪追踪 双端视觉评审（第21场景 UI维度·gate",
           "status": "backlog",
           "updated_at": "2026-10-11T04:07:31Z"
-        },
-        {
-          "key": "IPD-461",
-          "title": "[Tester] REQ-021 心情打卡/情绪追踪 TR-Accept 差分+双端对比报告（第21",
-          "status": "backlog",
-          "updated_at": "2026-10-11T04:07:30Z"
-        },
-        {
-          "key": "IPD-460",
-          "title": "[Dev] REQ-021 心情打卡/情绪追踪 双端生成+构建+运行+四维度量（第21场景·实验·g",
-          "status": "backlog",
-          "updated_at": "2026-10-11T04:07:29Z"
         }
       ]
     }
