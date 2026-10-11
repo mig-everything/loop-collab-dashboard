@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T16:37:21Z",
+  "generated_at": "2026-10-11T20:02:18Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -37,18 +37,25 @@
           "role": "DeepSeek Task Planner（任务规划+总结）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "04a4e04e-59d5-4f3a-8a16-acf99b80a493",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "SUR-322",
+          "issue_title": "[晨会纪要] 2026-10-12",
+          "since": "2026-10-11T20:00:12Z"
         }
       ],
       "issue_counts": {
-        "todo": 3,
+        "todo": 4,
         "in_progress": 0,
         "in_review": 0,
-        "done": 96
+        "done": 95
       },
       "latest_issues": [
+        {
+          "key": "SUR-322",
+          "title": "[晨会纪要] 2026-10-12",
+          "status": "todo",
+          "updated_at": "2026-10-11T20:00:11Z"
+        },
         {
           "key": "SUR-321",
           "title": "[巡检] 2026-10-12 leader Issue 状态巡检与催办",
@@ -72,12 +79,6 @@
           "title": "[晚会日报] 2026-10-11",
           "status": "done",
           "updated_at": "2026-10-11T12:18:31Z"
-        },
-        {
-          "key": "SUR-319",
-          "title": "[流程优化] Opt-039：研究契约显式化（口径11/12 具体化，次日验证）",
-          "status": "backlog",
-          "updated_at": "2026-10-11T12:10:34Z"
         }
       ],
       "progress_note": "day-4 晨 37% → 午 42% → 晚 44% → 夜 47%",
@@ -210,9 +211,10 @@
           "role": "DeepSeek Planner（小组 leader/PM，",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "950ff614-521d-4e32-a02d-423d41a7b2b3",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "DWM-298",
+          "issue_title": "[早会纪要] 2026-10-12",
+          "since": "2026-10-11T20:00:14Z"
         },
         {
           "name": "dw-lead",
@@ -266,12 +268,18 @@
         }
       ],
       "issue_counts": {
-        "todo": 0,
+        "todo": 1,
         "in_progress": 0,
         "in_review": 0,
-        "done": 78
+        "done": 77
       },
       "latest_issues": [
+        {
+          "key": "DWM-298",
+          "title": "[早会纪要] 2026-10-12",
+          "status": "todo",
+          "updated_at": "2026-10-11T20:00:14Z"
+        },
         {
           "key": "DWM-297",
           "title": "[巡检] 2026-10-12 leader Issue 状态巡检与催办",
@@ -295,12 +303,6 @@
           "title": "[空闲检测] 2026-10-11 leader 两小时正点检查与加派",
           "status": "done",
           "updated_at": "2026-10-11T10:03:36Z"
-        },
-        {
-          "key": "DWM-293",
-          "title": "[巡检] 2026-10-11 leader Issue 状态巡检与催办",
-          "status": "done",
-          "updated_at": "2026-10-11T08:08:11Z"
         }
       ],
       "order": {
@@ -387,9 +389,10 @@
           "role": "DeepSeek Planner（小组 leader/PM ",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-479",
+          "issue_title": "[早会纪要] 2026-10-12",
+          "since": "2026-10-11T20:00:19Z"
         },
         {
           "name": "minimax-uijudge",
@@ -403,12 +406,18 @@
         }
       ],
       "issue_counts": {
-        "todo": 6,
+        "todo": 7,
         "in_progress": 1,
         "in_review": 4,
-        "done": 86
+        "done": 85
       },
       "latest_issues": [
+        {
+          "key": "IPD-479",
+          "title": "[早会纪要] 2026-10-12",
+          "status": "todo",
+          "updated_at": "2026-10-11T20:00:19Z"
+        },
         {
           "key": "IPD-437",
           "title": "[uijudge] REQ-019 二维码生成器 双端视觉评审（第19场景 UI维度·gated o",
@@ -432,12 +441,6 @@
           "title": "[Dev] REQ-021 心情打卡/情绪追踪 四维归因+skill优化+复测（第21场景·gate",
           "status": "in_review",
           "updated_at": "2026-10-11T16:15:23Z"
-        },
-        {
-          "key": "IPD-471",
-          "title": "[Dev] REQ-022 节拍器 双端生成+构建+运行+四维度量（第22场景·实验·gated o",
-          "status": "in_review",
-          "updated_at": "2026-10-11T16:11:54Z"
         }
       ]
     }
