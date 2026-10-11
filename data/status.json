@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T00:22:02Z",
+  "generated_at": "2026-10-11T00:44:04Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -357,10 +357,9 @@
           "role": "IPD-Dev 开发工程师",
           "model": "zai:glm-5.3",
           "agent_id": "44fcec25-d8b3-4af6-b206-1774a64677ce",
-          "state": "working",
-          "issue": "IPD-435",
-          "issue_title": "[Dev] REQ-019 二维码生成器 双端生成+构建+运行+四维度量（第19场景·实验·gated on SE）",
-          "since": "2026-10-11T00:21:05Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "hermes-tester",
@@ -414,7 +413,7 @@
           "key": "IPD-435",
           "title": "[Dev] REQ-019 二维码生成器 双端生成+构建+运行+四维度量（第19场景·实验·gate",
           "status": "in_progress",
-          "updated_at": "2026-10-11T00:21:33Z"
+          "updated_at": "2026-10-11T00:43:05Z"
         },
         {
           "key": "IPD-434",
