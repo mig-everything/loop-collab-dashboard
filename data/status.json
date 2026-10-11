@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T10:05:00Z",
+  "generated_at": "2026-10-11T10:08:50Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -27,9 +27,10 @@
           "role": "Kimi Adversarial Reviewer（对抗评审",
           "model": "",
           "agent_id": "6e530cc6-6b9d-4398-936d-df9c13468125",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "SUR-315",
+          "issue_title": "[评审][day-17] SUR-313 打回修复复核：SUR-310 2P1+3P2 闭环验证（口径7/11/12）",
+          "since": "2026-10-11T10:05:48Z"
         },
         {
           "name": "deepseek-planner",
@@ -37,15 +38,14 @@
           "role": "DeepSeek Task Planner（任务规划+总结）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "04a4e04e-59d5-4f3a-8a16-acf99b80a493",
-          "state": "working",
-          "issue": "SUR-314",
-          "issue_title": "[空闲检测] 2026-10-11 leader 两小时正点检查与加派",
-          "since": "2026-10-11T10:00:17Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         }
       ],
       "issue_counts": {
-        "todo": 1,
-        "in_progress": 0,
+        "todo": 0,
+        "in_progress": 1,
         "in_review": 1,
         "done": 97
       },
@@ -53,8 +53,14 @@
         {
           "key": "SUR-314",
           "title": "[空闲检测] 2026-10-11 leader 两小时正点检查与加派",
-          "status": "todo",
-          "updated_at": "2026-10-11T10:00:15Z"
+          "status": "done",
+          "updated_at": "2026-10-11T10:06:10Z"
+        },
+        {
+          "key": "SUR-315",
+          "title": "[评审][day-17] SUR-313 打回修复复核：SUR-310 2P1+3P2 闭环验证（口",
+          "status": "in_progress",
+          "updated_at": "2026-10-11T10:06:06Z"
         },
         {
           "key": "SUR-313",
@@ -73,12 +79,6 @@
           "title": "[评审][day-17] 对抗评审：正文重写第3批（第4章关键使能技术 RQ3 机制综合，口径7/1",
           "status": "in_review",
           "updated_at": "2026-10-11T06:14:57Z"
-        },
-        {
-          "key": "SUR-311",
-          "title": "[空闲检测] 2026-10-11 leader 两小时正点检查与加派",
-          "status": "done",
-          "updated_at": "2026-10-11T06:03:07Z"
         }
       ],
       "progress_note": "day-4 晨 37% → 午 42% → 晚 44% → 夜 47%",
