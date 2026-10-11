@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T07:00:54Z",
+  "generated_at": "2026-10-11T07:06:13Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -109,10 +109,9 @@
           "role": "GLM Runner & Analyst",
           "model": "",
           "agent_id": "bdaefa9b-7045-4264-95e4-1db664e353d0",
-          "state": "working",
-          "issue": "BEN-280",
-          "issue_title": "[任务·第2轮] 鸿蒙 test 变体扩容：口径⑤ 剩余 7 变体 + SC 收口 + 口径⑥ 全链路复跑（ref BE",
-          "since": "2026-10-11T04:04:49Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "deepseek-planner",
@@ -153,6 +152,12 @@
       },
       "latest_issues": [
         {
+          "key": "BEN-280",
+          "title": "[任务·第2轮] 鸿蒙 test 变体扩容：口径⑤ 剩余 7 变体 + SC 收口 + 口径⑥ 全链",
+          "status": "in_progress",
+          "updated_at": "2026-10-11T07:04:43Z"
+        },
+        {
           "key": "BEN-282",
           "title": "[空闲检测] 2026-10-11 leader 两小时正点检查与加派",
           "status": "done",
@@ -175,12 +180,6 @@
           "title": "[午会纪要] 2026-10-11",
           "status": "done",
           "updated_at": "2026-10-11T04:05:51Z"
-        },
-        {
-          "key": "BEN-280",
-          "title": "[任务·第2轮] 鸿蒙 test 变体扩容：口径⑤ 剩余 7 变体 + SC 收口 + 口径⑥ 全链",
-          "status": "in_progress",
-          "updated_at": "2026-10-11T04:05:15Z"
         }
       ],
       "progress_note": "环比持平"
@@ -270,7 +269,7 @@
         "todo": 0,
         "in_progress": 0,
         "in_review": 0,
-        "done": 30
+        "done": 76
       },
       "latest_issues": [
         {
@@ -304,6 +303,12 @@
           "updated_at": "2026-10-10T22:02:38Z"
         }
       ],
+      "order": {
+        "key": "DWM-251",
+        "title": "[DW迁移任务单] OpenCamera 迁移 · 暂停（负责人要求·额度用尽）",
+        "status": "blocked",
+        "updated_at": "2026-10-10T20:10:57Z"
+      },
       "progress_note": "10 个应用：完成 7、进行中 0、暂停 1、未开始 2"
     },
     {
