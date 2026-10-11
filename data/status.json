@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T20:28:40Z",
+  "generated_at": "2026-10-11T20:36:01Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -347,10 +347,9 @@
           "role": "IPD-SE 系统工程师",
           "model": "zai:glm-5.3",
           "agent_id": "b874ba6b-80e6-45c6-a8c6-aedc6f2b326b",
-          "state": "working",
-          "issue": "IPD-482",
-          "issue_title": "[SE] REQ-023 新需求A 追踪矩阵 v1.0（第23场景·gated on SA）",
-          "since": "2026-10-11T20:26:34Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "hermes-dev",
@@ -359,9 +358,9 @@
           "model": "zai:glm-5.3",
           "agent_id": "44fcec25-d8b3-4af6-b206-1774a64677ce",
           "state": "working",
-          "issue": "IPD-479",
-          "issue_title": "[早会纪要] 2026-10-12",
-          "since": "2026-10-11T20:08:06Z"
+          "issue": "IPD-483",
+          "issue_title": "[Dev] REQ-023 新需求A 双端生成+构建+运行+四维度量（第23场景·实验·gated on SE）",
+          "since": "2026-10-11T20:34:03Z"
         },
         {
           "name": "hermes-tester",
@@ -405,17 +404,23 @@
         }
       ],
       "issue_counts": {
-        "todo": 11,
+        "todo": 10,
         "in_progress": 1,
-        "in_review": 1,
+        "in_review": 2,
         "done": 86
       },
       "latest_issues": [
         {
           "key": "IPD-482",
           "title": "[SE] REQ-023 新需求A 追踪矩阵 v1.0（第23场景·gated on SA）",
+          "status": "in_review",
+          "updated_at": "2026-10-11T20:34:29Z"
+        },
+        {
+          "key": "IPD-483",
+          "title": "[Dev] REQ-023 新需求A 双端生成+构建+运行+四维度量（第23场景·实验·gated ",
           "status": "todo",
-          "updated_at": "2026-10-11T20:26:34Z"
+          "updated_at": "2026-10-11T20:34:02Z"
         },
         {
           "key": "IPD-481",
@@ -434,12 +439,6 @@
           "title": "[Dev] REQ-022 节拍器 四维负差归因+编码skill优化+同需求复测（第22场景·优化闭",
           "status": "backlog",
           "updated_at": "2026-10-11T20:19:35Z"
-        },
-        {
-          "key": "IPD-479",
-          "title": "[早会纪要] 2026-10-12",
-          "status": "done",
-          "updated_at": "2026-10-11T20:19:33Z"
         }
       ]
     }
