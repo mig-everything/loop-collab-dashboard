@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T00:10:45Z",
+  "generated_at": "2026-10-11T00:14:32Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -17,10 +17,9 @@
           "role": "GPT Writer（执笔者）",
           "model": "gpt-6-luna",
           "agent_id": "58ed4647-32dd-4ca1-8ddc-194b975d6024",
-          "state": "working",
-          "issue": "SUR-303",
-          "issue_title": "[任务][day-17] 正文重写第2批：第3章 pipeline（五阶段主线+RQ2局部→集成衔接）+折叠SUR-30",
-          "since": "2026-10-11T00:05:43Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "kimi-adversary",
@@ -45,22 +44,22 @@
       ],
       "issue_counts": {
         "todo": 0,
-        "in_progress": 1,
-        "in_review": 0,
+        "in_progress": 0,
+        "in_review": 1,
         "done": 98
       },
       "latest_issues": [
+        {
+          "key": "SUR-303",
+          "title": "[任务][day-17] 正文重写第2批：第3章 pipeline（五阶段主线+RQ2局部→集成衔接",
+          "status": "in_review",
+          "updated_at": "2026-10-11T00:14:02Z"
+        },
         {
           "key": "SUR-305",
           "title": "[巡检] 2026-10-11 leader Issue 状态巡检与催办",
           "status": "done",
           "updated_at": "2026-10-11T00:05:49Z"
-        },
-        {
-          "key": "SUR-303",
-          "title": "[任务][day-17] 正文重写第2批：第3章 pipeline（五阶段主线+RQ2局部→集成衔接",
-          "status": "in_progress",
-          "updated_at": "2026-10-11T00:05:43Z"
         },
         {
           "key": "SUR-304",
@@ -154,6 +153,12 @@
       },
       "latest_issues": [
         {
+          "key": "BEN-135",
+          "title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 1",
+          "status": "in_progress",
+          "updated_at": "2026-10-11T00:14:34Z"
+        },
+        {
           "key": "BEN-276",
           "title": "[巡检] 2026-10-11 leader Issue 状态巡检与催办",
           "status": "done",
@@ -164,12 +169,6 @@
           "title": "鸿蒙平台测列图片仅绘制全量测试结果（滑窗更新 drop 历史数据，避免图片冗长）",
           "status": "todo",
           "updated_at": "2026-10-11T00:03:31Z"
-        },
-        {
-          "key": "BEN-135",
-          "title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 1",
-          "status": "in_progress",
-          "updated_at": "2026-10-11T00:03:29Z"
         },
         {
           "key": "BEN-275",
@@ -370,10 +369,9 @@
           "role": "IPD-Tester 测试工程师",
           "model": "zai:glm-5.3",
           "agent_id": "86df9f14-a2cd-46d9-ad15-dbe8606ebd73",
-          "state": "working",
-          "issue": "IPD-447",
-          "issue_title": "[Tester] REQ-020 抽奖转盘 TR-Accept 差分+双端对比报告（第20场景收口·gated on D",
-          "since": "2026-10-11T00:05:25Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "hermes-rm",
@@ -401,10 +399,9 @@
           "role": "MiniMax 多模态 UI 视觉评审",
           "model": "minimax-cn:MiniMax-M3",
           "agent_id": "97f55294-90e0-4556-93af-a1cf44889574",
-          "state": "working",
-          "issue": "IPD-448",
-          "issue_title": "[uijudge] REQ-020 抽奖转盘 双端视觉评审（第20场景 UI维度·gated on Dev/Tester",
-          "since": "2026-10-11T00:05:26Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         }
       ],
       "issue_counts": {
@@ -414,6 +411,18 @@
         "done": 87
       },
       "latest_issues": [
+        {
+          "key": "IPD-447",
+          "title": "[Tester] REQ-020 抽奖转盘 TR-Accept 差分+双端对比报告（第20场景收口·",
+          "status": "in_progress",
+          "updated_at": "2026-10-11T00:14:52Z"
+        },
+        {
+          "key": "IPD-448",
+          "title": "[uijudge] REQ-020 抽奖转盘 双端视觉评审（第20场景 UI维度·gated on ",
+          "status": "in_progress",
+          "updated_at": "2026-10-11T00:12:05Z"
+        },
         {
           "key": "IPD-434",
           "title": "[SE] REQ-019 二维码生成器 追踪矩阵 v1.0（第19场景·gated on SA 契约",
@@ -425,18 +434,6 @@
           "title": "[SA] REQ-019 二维码生成器 TR-Design 六件套+契约 v1.0（第19场景·to",
           "status": "in_review",
           "updated_at": "2026-10-11T00:09:44Z"
-        },
-        {
-          "key": "IPD-448",
-          "title": "[uijudge] REQ-020 抽奖转盘 双端视觉评审（第20场景 UI维度·gated on ",
-          "status": "in_progress",
-          "updated_at": "2026-10-11T00:07:25Z"
-        },
-        {
-          "key": "IPD-447",
-          "title": "[Tester] REQ-020 抽奖转盘 TR-Accept 差分+双端对比报告（第20场景收口·",
-          "status": "in_progress",
-          "updated_at": "2026-10-11T00:06:00Z"
         },
         {
           "key": "IPD-446",
