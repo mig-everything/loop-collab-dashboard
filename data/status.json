@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T13:12:38Z",
+  "generated_at": "2026-10-11T13:29:08Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -153,6 +153,12 @@
       },
       "latest_issues": [
         {
+          "key": "BEN-280",
+          "title": "[任务·第2轮] 鸿蒙 test 变体扩容：口径⑤ 剩余 7 变体 + SC 收口 + 口径⑥ 全链",
+          "status": "in_progress",
+          "updated_at": "2026-10-11T13:29:06Z"
+        },
+        {
           "key": "BEN-135",
           "title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 1",
           "status": "in_progress",
@@ -169,12 +175,6 @@
           "title": "[晚会日报] 2026-10-11",
           "status": "done",
           "updated_at": "2026-10-11T12:07:08Z"
-        },
-        {
-          "key": "BEN-280",
-          "title": "[任务·第2轮] 鸿蒙 test 变体扩容：口径⑤ 剩余 7 变体 + SC 收口 + 口径⑥ 全链",
-          "status": "in_progress",
-          "updated_at": "2026-10-11T12:06:00Z"
         },
         {
           "key": "BEN-284",
