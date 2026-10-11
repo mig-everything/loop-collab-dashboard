@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T04:44:53Z",
+  "generated_at": "2026-10-11T05:11:05Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -358,10 +358,9 @@
           "role": "IPD-Dev 开发工程师",
           "model": "zai:glm-5.3",
           "agent_id": "44fcec25-d8b3-4af6-b206-1774a64677ce",
-          "state": "working",
-          "issue": "IPD-460",
-          "issue_title": "[Dev] REQ-021 心情打卡/情绪追踪 双端生成+构建+运行+四维度量（第21场景·实验·gated on SE",
-          "since": "2026-10-11T04:42:14Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "hermes-tester",
@@ -415,7 +414,7 @@
           "key": "IPD-460",
           "title": "[Dev] REQ-021 心情打卡/情绪追踪 双端生成+构建+运行+四维度量（第21场景·实验·g",
           "status": "in_progress",
-          "updated_at": "2026-10-11T04:42:51Z"
+          "updated_at": "2026-10-11T05:09:03Z"
         },
         {
           "key": "IPD-459",
