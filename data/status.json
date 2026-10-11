@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T20:36:01Z",
+  "generated_at": "2026-10-11T20:39:43Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -404,12 +404,24 @@
         }
       ],
       "issue_counts": {
-        "todo": 10,
-        "in_progress": 1,
+        "todo": 9,
+        "in_progress": 2,
         "in_review": 2,
         "done": 86
       },
       "latest_issues": [
+        {
+          "key": "IPD-483",
+          "title": "[Dev] REQ-023 新需求A 双端生成+构建+运行+四维度量（第23场景·实验·gated ",
+          "status": "in_progress",
+          "updated_at": "2026-10-11T20:38:57Z"
+        },
+        {
+          "key": "IPD-449",
+          "title": "[Dev] REQ-020 抽奖转盘 四维负差归因+编码skill优化+同需求复测（第20场景·优化",
+          "status": "in_progress",
+          "updated_at": "2026-10-11T20:37:47Z"
+        },
         {
           "key": "IPD-482",
           "title": "[SE] REQ-023 新需求A 追踪矩阵 v1.0（第23场景·gated on SA）",
@@ -417,22 +429,10 @@
           "updated_at": "2026-10-11T20:34:29Z"
         },
         {
-          "key": "IPD-483",
-          "title": "[Dev] REQ-023 新需求A 双端生成+构建+运行+四维度量（第23场景·实验·gated ",
-          "status": "todo",
-          "updated_at": "2026-10-11T20:34:02Z"
-        },
-        {
           "key": "IPD-481",
           "title": "[SA] REQ-023 新需求A TR-Design 六件套+契约 v1.0（第23场景·gate",
           "status": "in_review",
           "updated_at": "2026-10-11T20:26:25Z"
-        },
-        {
-          "key": "IPD-449",
-          "title": "[Dev] REQ-020 抽奖转盘 四维负差归因+编码skill优化+同需求复测（第20场景·优化",
-          "status": "in_progress",
-          "updated_at": "2026-10-11T20:20:56Z"
         },
         {
           "key": "IPD-474",
