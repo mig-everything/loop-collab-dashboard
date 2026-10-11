@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T12:21:59Z",
+  "generated_at": "2026-10-11T12:26:07Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -99,10 +99,9 @@
           "role": "GPT Scenarist",
           "model": "zai:glm-5.3",
           "agent_id": "6e6f1e24-3bc5-455a-85d2-cb3fb6c9a672",
-          "state": "working",
-          "issue": "BEN-135",
-          "issue_title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 100（ref BEN",
-          "since": "2026-10-11T12:06:03Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "glm-runner",
@@ -154,6 +153,12 @@
       },
       "latest_issues": [
         {
+          "key": "BEN-135",
+          "title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 1",
+          "status": "in_progress",
+          "updated_at": "2026-10-11T12:25:05Z"
+        },
+        {
           "key": "BEN-281",
           "title": "[任务·第2轮] BEN-248 新三数视觉四分类复核 + 新覆盖变体锚定（ref BEN-248/",
           "status": "done",
@@ -170,12 +175,6 @@
           "title": "[任务·第2轮] 鸿蒙 test 变体扩容：口径⑤ 剩余 7 变体 + SC 收口 + 口径⑥ 全链",
           "status": "in_progress",
           "updated_at": "2026-10-11T12:06:00Z"
-        },
-        {
-          "key": "BEN-135",
-          "title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 1",
-          "status": "in_progress",
-          "updated_at": "2026-10-11T12:05:58Z"
         },
         {
           "key": "BEN-284",
@@ -339,10 +338,9 @@
           "role": "IPD-SA 解决方案架构师",
           "model": "zai:glm-5.3",
           "agent_id": "3e4373ef-a262-4b28-ab2a-818861fc9624",
-          "state": "working",
-          "issue": "IPD-469",
-          "issue_title": "[SA] REQ-022 节拍器 TR-Design 六件套+契约 v1.0（第22场景·audio·gated on ",
-          "since": "2026-10-11T12:16:28Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "hermes-se",
@@ -350,9 +348,10 @@
           "role": "IPD-SE 系统工程师",
           "model": "zai:glm-5.3",
           "agent_id": "b874ba6b-80e6-45c6-a8c6-aedc6f2b326b",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-470",
+          "issue_title": "[SE] REQ-022 节拍器 追踪矩阵 v1.0（第22场景·audio·gated on SA IPD-469）",
+          "since": "2026-10-11T12:25:51Z"
         },
         {
           "name": "hermes-dev",
@@ -409,17 +408,29 @@
         }
       ],
       "issue_counts": {
-        "todo": 12,
-        "in_progress": 1,
-        "in_review": 3,
+        "todo": 10,
+        "in_progress": 2,
+        "in_review": 4,
         "done": 81
       },
       "latest_issues": [
         {
           "key": "IPD-437",
           "title": "[uijudge] REQ-019 二维码生成器 双端视觉评审（第19场景 UI维度·gated o",
+          "status": "in_progress",
+          "updated_at": "2026-10-11T12:25:51Z"
+        },
+        {
+          "key": "IPD-470",
+          "title": "[SE] REQ-022 节拍器 追踪矩阵 v1.0（第22场景·audio·gated on SA",
           "status": "todo",
-          "updated_at": "2026-10-11T12:20:31Z"
+          "updated_at": "2026-10-11T12:25:49Z"
+        },
+        {
+          "key": "IPD-469",
+          "title": "[SA] REQ-022 节拍器 TR-Design 六件套+契约 v1.0（第22场景·audio",
+          "status": "in_review",
+          "updated_at": "2026-10-11T12:25:40Z"
         },
         {
           "key": "IPD-436",
@@ -432,18 +443,6 @@
           "title": "[Dev] REQ-019 二维码生成器 双端生成+构建+运行+四维度量（第19场景·实验·gate",
           "status": "in_review",
           "updated_at": "2026-10-11T12:20:28Z"
-        },
-        {
-          "key": "IPD-469",
-          "title": "[SA] REQ-022 节拍器 TR-Design 六件套+契约 v1.0（第22场景·audio",
-          "status": "todo",
-          "updated_at": "2026-10-11T12:16:26Z"
-        },
-        {
-          "key": "IPD-468",
-          "title": "[PM] REQ-022 节拍器 预研+PRD+TR-Req+契约冻结（第22场景·audio类首个",
-          "status": "in_review",
-          "updated_at": "2026-10-11T12:16:22Z"
         }
       ]
     }
