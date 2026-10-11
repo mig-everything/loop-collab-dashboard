@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T00:07:00Z",
+  "generated_at": "2026-10-11T00:10:45Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -339,10 +339,9 @@
           "role": "IPD-SA 解决方案架构师",
           "model": "zai:glm-5.3",
           "agent_id": "3e4373ef-a262-4b28-ab2a-818861fc9624",
-          "state": "working",
-          "issue": "IPD-433",
-          "issue_title": "[SA] REQ-019 二维码生成器 TR-Design 六件套+契约 v1.0（第19场景·tool·gated o",
-          "since": "2026-10-11T00:02:40Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "hermes-se",
@@ -350,9 +349,10 @@
           "role": "IPD-SE 系统工程师",
           "model": "zai:glm-5.3",
           "agent_id": "b874ba6b-80e6-45c6-a8c6-aedc6f2b326b",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-434",
+          "issue_title": "[SE] REQ-019 二维码生成器 追踪矩阵 v1.0（第19场景·gated on SA 契约）",
+          "since": "2026-10-11T00:09:25Z"
         },
         {
           "name": "hermes-dev",
@@ -408,12 +408,24 @@
         }
       ],
       "issue_counts": {
-        "todo": 6,
+        "todo": 5,
         "in_progress": 3,
-        "in_review": 1,
+        "in_review": 2,
         "done": 87
       },
       "latest_issues": [
+        {
+          "key": "IPD-434",
+          "title": "[SE] REQ-019 二维码生成器 追踪矩阵 v1.0（第19场景·gated on SA 契约",
+          "status": "in_progress",
+          "updated_at": "2026-10-11T00:10:06Z"
+        },
+        {
+          "key": "IPD-433",
+          "title": "[SA] REQ-019 二维码生成器 TR-Design 六件套+契约 v1.0（第19场景·to",
+          "status": "in_review",
+          "updated_at": "2026-10-11T00:09:44Z"
+        },
         {
           "key": "IPD-448",
           "title": "[uijudge] REQ-020 抽奖转盘 双端视觉评审（第20场景 UI维度·gated on ",
@@ -431,18 +443,6 @@
           "title": "[Dev] REQ-020 抽奖转盘 双端生成+构建+运行+四维度量（第20场景·实验·gated ",
           "status": "in_review",
           "updated_at": "2026-10-11T00:05:24Z"
-        },
-        {
-          "key": "IPD-454",
-          "title": "[巡检] 2026-10-11 leader Issue 状态巡检与催办",
-          "status": "done",
-          "updated_at": "2026-10-11T00:02:55Z"
-        },
-        {
-          "key": "IPD-433",
-          "title": "[SA] REQ-019 二维码生成器 TR-Design 六件套+契约 v1.0（第19场景·to",
-          "status": "in_progress",
-          "updated_at": "2026-10-11T00:02:40Z"
         }
       ]
     }
