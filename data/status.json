@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T07:06:13Z",
+  "generated_at": "2026-10-11T08:02:39Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -37,18 +37,25 @@
           "role": "DeepSeek Task Planner（任务规划+总结）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "04a4e04e-59d5-4f3a-8a16-acf99b80a493",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "SUR-312",
+          "issue_title": "[巡检] 2026-10-11 leader Issue 状态巡检与催办",
+          "since": "2026-10-11T08:00:54Z"
         }
       ],
       "issue_counts": {
-        "todo": 0,
+        "todo": 1,
         "in_progress": 0,
         "in_review": 1,
-        "done": 98
+        "done": 97
       },
       "latest_issues": [
+        {
+          "key": "SUR-312",
+          "title": "[巡检] 2026-10-11 leader Issue 状态巡检与催办",
+          "status": "todo",
+          "updated_at": "2026-10-11T08:00:19Z"
+        },
         {
           "key": "SUR-310",
           "title": "[评审][day-17] 对抗评审：正文重写第3批（第4章关键使能技术 RQ3 机制综合，口径7/1",
@@ -72,12 +79,6 @@
           "title": "[午会纪要] 2026-10-11",
           "status": "done",
           "updated_at": "2026-10-11T04:06:48Z"
-        },
-        {
-          "key": "SUR-303",
-          "title": "[任务][day-17] 正文重写第2批：第3章 pipeline（五阶段主线+RQ2局部→集成衔接",
-          "status": "done",
-          "updated_at": "2026-10-11T04:05:47Z"
         }
       ],
       "progress_note": "day-4 晨 37% → 午 42% → 晚 44% → 夜 47%",
@@ -119,9 +120,10 @@
           "role": "DeepSeek Planner（小组 leader/PM）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "547cd361-ef50-4965-9477-bc659d8a1708",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "BEN-283",
+          "issue_title": "[巡检] 2026-10-11 leader Issue 状态巡检与催办",
+          "since": "2026-10-11T08:00:17Z"
         },
         {
           "name": "minimax-visual-diff",
@@ -145,12 +147,18 @@
         }
       ],
       "issue_counts": {
-        "todo": 5,
+        "todo": 6,
         "in_progress": 2,
         "in_review": 0,
-        "done": 93
+        "done": 92
       },
       "latest_issues": [
+        {
+          "key": "BEN-283",
+          "title": "[巡检] 2026-10-11 leader Issue 状态巡检与催办",
+          "status": "todo",
+          "updated_at": "2026-10-11T08:00:08Z"
+        },
         {
           "key": "BEN-280",
           "title": "[任务·第2轮] 鸿蒙 test 变体扩容：口径⑤ 剩余 7 变体 + SC 收口 + 口径⑥ 全链",
@@ -174,12 +182,6 @@
           "title": "[任务·第2轮] BEN-248 新三数视觉四分类复核 + 新覆盖变体锚定（ref BEN-248/",
           "status": "todo",
           "updated_at": "2026-10-11T04:11:03Z"
-        },
-        {
-          "key": "BEN-279",
-          "title": "[午会纪要] 2026-10-11",
-          "status": "done",
-          "updated_at": "2026-10-11T04:05:51Z"
         }
       ],
       "progress_note": "环比持平"
@@ -210,7 +212,7 @@
           "role": "DeepSeek Planner（小组 leader/PM，",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "950ff614-521d-4e32-a02d-423d41a7b2b3",
-          "state": "idle",
+          "state": "working",
           "issue": "",
           "issue_title": ""
         },
@@ -266,12 +268,18 @@
         }
       ],
       "issue_counts": {
-        "todo": 0,
+        "todo": 1,
         "in_progress": 0,
         "in_review": 0,
-        "done": 76
+        "done": 75
       },
       "latest_issues": [
+        {
+          "key": "DWM-293",
+          "title": "[巡检] 2026-10-11 leader Issue 状态巡检与催办",
+          "status": "todo",
+          "updated_at": "2026-10-11T08:00:15Z"
+        },
         {
           "key": "DWM-292",
           "title": "[空闲检测] 2026-10-11 leader 两小时正点检查与加派",
@@ -295,12 +303,6 @@
           "title": "[巡检] 2026-10-11 leader Issue 状态巡检与催办",
           "status": "done",
           "updated_at": "2026-10-11T00:02:43Z"
-        },
-        {
-          "key": "DWM-288",
-          "title": "[空闲检测] 2026-10-11 leader 两小时正点检查与加派",
-          "status": "done",
-          "updated_at": "2026-10-10T22:02:38Z"
         }
       ],
       "order": {
@@ -387,9 +389,10 @@
           "role": "DeepSeek Planner（小组 leader/PM ",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-465",
+          "issue_title": "[巡检] 2026-10-11 leader Issue 状态巡检与催办",
+          "since": "2026-10-11T08:00:21Z"
         },
         {
           "name": "minimax-uijudge",
@@ -403,12 +406,18 @@
         }
       ],
       "issue_counts": {
-        "todo": 7,
+        "todo": 8,
         "in_progress": 4,
         "in_review": 3,
-        "done": 83
+        "done": 82
       },
       "latest_issues": [
+        {
+          "key": "IPD-465",
+          "title": "[巡检] 2026-10-11 leader Issue 状态巡检与催办",
+          "status": "todo",
+          "updated_at": "2026-10-11T08:00:19Z"
+        },
         {
           "key": "IPD-464",
           "title": "[空闲检测] 2026-10-11 leader 两小时正点检查与加派",
@@ -432,12 +441,6 @@
           "title": "[SA] REQ-021 心情打卡/情绪追踪 TR-Design 六件套+契约 v1.0（第21场景",
           "status": "in_review",
           "updated_at": "2026-10-11T04:33:20Z"
-        },
-        {
-          "key": "IPD-456",
-          "title": "[午会纪要] 2026-10-11",
-          "status": "done",
-          "updated_at": "2026-10-11T04:23:50Z"
         }
       ]
     }
