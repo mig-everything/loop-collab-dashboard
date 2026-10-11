@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T06:17:19Z",
+  "generated_at": "2026-10-11T07:00:54Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -270,7 +270,7 @@
         "todo": 0,
         "in_progress": 0,
         "in_review": 0,
-        "done": 76
+        "done": 30
       },
       "latest_issues": [
         {
@@ -304,12 +304,6 @@
           "updated_at": "2026-10-10T22:02:38Z"
         }
       ],
-      "order": {
-        "key": "DWM-251",
-        "title": "[DW迁移任务单] OpenCamera 迁移 · 暂停（负责人要求·额度用尽）",
-        "status": "blocked",
-        "updated_at": "2026-10-10T20:10:57Z"
-      },
       "progress_note": "10 个应用：完成 7、进行中 0、暂停 1、未开始 2"
     },
     {
