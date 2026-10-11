@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T08:02:39Z",
+  "generated_at": "2026-10-11T08:07:10Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -100,9 +100,10 @@
           "role": "GPT Scenarist",
           "model": "zai:glm-5.3",
           "agent_id": "6e6f1e24-3bc5-455a-85d2-cb3fb6c9a672",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "BEN-135",
+          "issue_title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 100（ref BEN",
+          "since": "2026-10-11T08:04:24Z"
         },
         {
           "name": "glm-runner",
@@ -120,10 +121,9 @@
           "role": "DeepSeek Planner（小组 leader/PM）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "547cd361-ef50-4965-9477-bc659d8a1708",
-          "state": "working",
-          "issue": "BEN-283",
-          "issue_title": "[巡检] 2026-10-11 leader Issue 状态巡检与催办",
-          "since": "2026-10-11T08:00:17Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "minimax-visual-diff",
@@ -131,9 +131,10 @@
           "role": "MiniMax 多模态视觉差分评审",
           "model": "minimax-cn:MiniMax-M3",
           "agent_id": "843ac45d-b5db-4f35-b07b-2e5754ec5a5f",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "BEN-281",
+          "issue_title": "[任务·第2轮] BEN-248 新三数视觉四分类复核 + 新覆盖变体锚定（ref BEN-248/BEN-280）",
+          "since": "2026-10-11T08:04:26Z"
         },
         {
           "name": "项目观察员（GPT-6）",
@@ -147,17 +148,29 @@
         }
       ],
       "issue_counts": {
-        "todo": 6,
-        "in_progress": 2,
+        "todo": 4,
+        "in_progress": 3,
         "in_review": 0,
-        "done": 92
+        "done": 93
       },
       "latest_issues": [
         {
           "key": "BEN-283",
           "title": "[巡检] 2026-10-11 leader Issue 状态巡检与催办",
-          "status": "todo",
-          "updated_at": "2026-10-11T08:00:08Z"
+          "status": "done",
+          "updated_at": "2026-10-11T08:04:35Z"
+        },
+        {
+          "key": "BEN-281",
+          "title": "[任务·第2轮] BEN-248 新三数视觉四分类复核 + 新覆盖变体锚定（ref BEN-248/",
+          "status": "in_progress",
+          "updated_at": "2026-10-11T08:04:35Z"
+        },
+        {
+          "key": "BEN-135",
+          "title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 1",
+          "status": "in_progress",
+          "updated_at": "2026-10-11T08:04:20Z"
         },
         {
           "key": "BEN-280",
@@ -170,18 +183,6 @@
           "title": "[空闲检测] 2026-10-11 leader 两小时正点检查与加派",
           "status": "done",
           "updated_at": "2026-10-11T06:02:12Z"
-        },
-        {
-          "key": "BEN-135",
-          "title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 1",
-          "status": "in_progress",
-          "updated_at": "2026-10-11T04:17:40Z"
-        },
-        {
-          "key": "BEN-281",
-          "title": "[任务·第2轮] BEN-248 新三数视觉四分类复核 + 新覆盖变体锚定（ref BEN-248/",
-          "status": "todo",
-          "updated_at": "2026-10-11T04:11:03Z"
         }
       ],
       "progress_note": "环比持平"
@@ -213,8 +214,9 @@
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "950ff614-521d-4e32-a02d-423d41a7b2b3",
           "state": "working",
-          "issue": "",
-          "issue_title": ""
+          "issue": "DWM-293",
+          "issue_title": "[巡检] 2026-10-11 leader Issue 状态巡检与催办",
+          "since": "2026-10-11T08:03:59Z"
         },
         {
           "name": "dw-lead",
@@ -359,9 +361,10 @@
           "role": "IPD-Dev 开发工程师",
           "model": "zai:glm-5.3",
           "agent_id": "44fcec25-d8b3-4af6-b206-1774a64677ce",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-460",
+          "issue_title": "[Dev] REQ-021 心情打卡/情绪追踪 双端生成+构建+运行+四维度量（第21场景·实验·gated on SE",
+          "since": "2026-10-11T08:05:10Z"
         },
         {
           "name": "hermes-tester",
@@ -369,9 +372,10 @@
           "role": "IPD-Tester 测试工程师",
           "model": "zai:glm-5.3",
           "agent_id": "86df9f14-a2cd-46d9-ad15-dbe8606ebd73",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-447",
+          "issue_title": "[Tester] REQ-020 抽奖转盘 TR-Accept 差分+双端对比报告（第20场景收口·gated on D",
+          "since": "2026-10-11T08:05:13Z"
         },
         {
           "name": "hermes-rm",
@@ -389,10 +393,9 @@
           "role": "DeepSeek Planner（小组 leader/PM ",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
-          "state": "working",
-          "issue": "IPD-465",
-          "issue_title": "[巡检] 2026-10-11 leader Issue 状态巡检与催办",
-          "since": "2026-10-11T08:00:21Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "minimax-uijudge",
@@ -406,41 +409,41 @@
         }
       ],
       "issue_counts": {
-        "todo": 8,
-        "in_progress": 4,
-        "in_review": 3,
-        "done": 82
+        "todo": 7,
+        "in_progress": 3,
+        "in_review": 1,
+        "done": 86
       },
       "latest_issues": [
         {
-          "key": "IPD-465",
-          "title": "[巡检] 2026-10-11 leader Issue 状态巡检与催办",
-          "status": "todo",
-          "updated_at": "2026-10-11T08:00:19Z"
+          "key": "IPD-448",
+          "title": "[uijudge] REQ-020 抽奖转盘 双端视觉评审（第20场景 UI维度·gated on ",
+          "status": "in_review",
+          "updated_at": "2026-10-11T08:06:17Z"
         },
         {
-          "key": "IPD-464",
-          "title": "[空闲检测] 2026-10-11 leader 两小时正点检查与加派",
+          "key": "IPD-465",
+          "title": "[巡检] 2026-10-11 leader Issue 状态巡检与催办",
           "status": "done",
-          "updated_at": "2026-10-11T06:02:37Z"
+          "updated_at": "2026-10-11T08:05:34Z"
+        },
+        {
+          "key": "IPD-447",
+          "title": "[Tester] REQ-020 抽奖转盘 TR-Accept 差分+双端对比报告（第20场景收口·",
+          "status": "in_progress",
+          "updated_at": "2026-10-11T08:05:11Z"
         },
         {
           "key": "IPD-460",
           "title": "[Dev] REQ-021 心情打卡/情绪追踪 双端生成+构建+运行+四维度量（第21场景·实验·g",
           "status": "in_progress",
-          "updated_at": "2026-10-11T05:09:03Z"
+          "updated_at": "2026-10-11T08:05:08Z"
         },
         {
-          "key": "IPD-459",
-          "title": "[SE] REQ-021 心情打卡/情绪追踪 追踪矩阵 v1.0（第21场景·note·gated ",
-          "status": "in_review",
-          "updated_at": "2026-10-11T04:42:12Z"
-        },
-        {
-          "key": "IPD-458",
-          "title": "[SA] REQ-021 心情打卡/情绪追踪 TR-Design 六件套+契约 v1.0（第21场景",
-          "status": "in_review",
-          "updated_at": "2026-10-11T04:33:20Z"
+          "key": "IPD-435",
+          "title": "[Dev] REQ-019 二维码生成器 双端生成+构建+运行+四维度量（第19场景·实验·gate",
+          "status": "in_progress",
+          "updated_at": "2026-10-11T08:05:07Z"
         }
       ]
     }
