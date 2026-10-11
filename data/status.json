@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T16:04:45Z",
+  "generated_at": "2026-10-11T16:09:02Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -358,9 +358,10 @@
           "role": "IPD-Dev 开发工程师",
           "model": "zai:glm-5.3",
           "agent_id": "44fcec25-d8b3-4af6-b206-1774a64677ce",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-463",
+          "issue_title": "[Dev] REQ-021 心情打卡/情绪追踪 四维归因+skill优化+复测（第21场景·gated on Teste",
+          "since": "2026-10-11T16:05:54Z"
         },
         {
           "name": "hermes-tester",
@@ -368,9 +369,10 @@
           "role": "IPD-Tester 测试工程师",
           "model": "zai:glm-5.3",
           "agent_id": "86df9f14-a2cd-46d9-ad15-dbe8606ebd73",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-436",
+          "issue_title": "[Tester] REQ-019 二维码生成器 TR-Accept 差分+双端对比报告（第19场景收口·gated on",
+          "since": "2026-10-11T16:05:59Z"
         },
         {
           "name": "hermes-rm",
@@ -388,10 +390,9 @@
           "role": "DeepSeek Planner（小组 leader/PM ",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
-          "state": "working",
-          "issue": "IPD-478",
-          "issue_title": "[巡检] 2026-10-12 leader Issue 状态巡检与催办",
-          "since": "2026-10-11T16:00:25Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "minimax-uijudge",
@@ -399,47 +400,48 @@
           "role": "MiniMax 多模态 UI 视觉评审",
           "model": "minimax-cn:MiniMax-M3",
           "agent_id": "97f55294-90e0-4556-93af-a1cf44889574",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-437",
+          "issue_title": "[uijudge] REQ-019 二维码生成器 双端视觉评审（第19场景 UI维度·gated on Dev/Test",
+          "since": "2026-10-11T16:05:58Z"
         }
       ],
       "issue_counts": {
         "todo": 8,
-        "in_progress": 4,
-        "in_review": 0,
-        "done": 85
+        "in_progress": 2,
+        "in_review": 1,
+        "done": 86
       },
       "latest_issues": [
         {
-          "key": "IPD-435",
-          "title": "[Dev] REQ-019 二维码生成器 双端生成+构建+运行+四维度量（第19场景·实验·gate",
-          "status": "done",
-          "updated_at": "2026-10-11T16:05:07Z"
+          "key": "IPD-437",
+          "title": "[uijudge] REQ-019 二维码生成器 双端视觉评审（第19场景 UI维度·gated o",
+          "status": "in_review",
+          "updated_at": "2026-10-11T16:09:44Z"
         },
         {
-          "key": "IPD-461",
-          "title": "[Tester] REQ-021 心情打卡/情绪追踪 TR-Accept 差分+双端对比报告（第21",
+          "key": "IPD-478",
+          "title": "[巡检] 2026-10-12 leader Issue 状态巡检与催办",
           "status": "done",
-          "updated_at": "2026-10-11T16:05:06Z"
+          "updated_at": "2026-10-11T16:06:19Z"
         },
         {
-          "key": "IPD-468",
-          "title": "[PM] REQ-022 节拍器 预研+PRD+TR-Req+契约冻结（第22场景·audio类首个",
-          "status": "done",
-          "updated_at": "2026-10-11T16:05:05Z"
+          "key": "IPD-436",
+          "title": "[Tester] REQ-019 二维码生成器 TR-Accept 差分+双端对比报告（第19场景收",
+          "status": "todo",
+          "updated_at": "2026-10-11T16:05:55Z"
         },
         {
-          "key": "IPD-469",
-          "title": "[SA] REQ-022 节拍器 TR-Design 六件套+契约 v1.0（第22场景·audio",
-          "status": "done",
-          "updated_at": "2026-10-11T16:05:02Z"
+          "key": "IPD-463",
+          "title": "[Dev] REQ-021 心情打卡/情绪追踪 四维归因+skill优化+复测（第21场景·gate",
+          "status": "in_progress",
+          "updated_at": "2026-10-11T16:05:50Z"
         },
         {
-          "key": "IPD-470",
-          "title": "[SE] REQ-022 节拍器 追踪矩阵 v1.0（第22场景·audio·gated on SA",
-          "status": "done",
-          "updated_at": "2026-10-11T16:05:00Z"
+          "key": "IPD-471",
+          "title": "[Dev] REQ-022 节拍器 双端生成+构建+运行+四维度量（第22场景·实验·gated o",
+          "status": "in_progress",
+          "updated_at": "2026-10-11T16:05:49Z"
         }
       ]
     }
