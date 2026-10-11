@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T12:17:48Z",
+  "generated_at": "2026-10-11T12:21:59Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -17,10 +17,9 @@
           "role": "GPT Writer（执笔者）",
           "model": "gpt-6-luna",
           "agent_id": "58ed4647-32dd-4ca1-8ddc-194b975d6024",
-          "state": "working",
-          "issue": "SUR-317",
-          "issue_title": "[任务][day-17] 第4章残留修复：P1-2「mobile」删除 + appendix-b [24] TRAVEL",
-          "since": "2026-10-11T12:10:26Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "kimi-adversary",
@@ -51,10 +50,16 @@
       },
       "latest_issues": [
         {
+          "key": "SUR-317",
+          "title": "[任务][day-17] 第4章残留修复：P1-2「mobile」删除 + appendix-b [",
+          "status": "todo",
+          "updated_at": "2026-10-11T12:18:31Z"
+        },
+        {
           "key": "SUR-316",
           "title": "[晚会日报] 2026-10-11",
           "status": "done",
-          "updated_at": "2026-10-11T12:13:07Z"
+          "updated_at": "2026-10-11T12:18:31Z"
         },
         {
           "key": "SUR-319",
@@ -67,12 +72,6 @@
           "title": "[评审][day-17] SUR-317 修复复核：P1-2「mobile」残留 + TRAVEL ",
           "status": "backlog",
           "updated_at": "2026-10-11T12:10:31Z"
-        },
-        {
-          "key": "SUR-317",
-          "title": "[任务][day-17] 第4章残留修复：P1-2「mobile」删除 + appendix-b [",
-          "status": "todo",
-          "updated_at": "2026-10-11T12:10:24Z"
         },
         {
           "key": "SUR-315",
@@ -372,9 +371,10 @@
           "role": "IPD-Tester 测试工程师",
           "model": "zai:glm-5.3",
           "agent_id": "86df9f14-a2cd-46d9-ad15-dbe8606ebd73",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-436",
+          "issue_title": "[Tester] REQ-019 二维码生成器 TR-Accept 差分+双端对比报告（第19场景收口·gated on",
+          "since": "2026-10-11T12:20:31Z"
         },
         {
           "name": "hermes-rm",
@@ -402,18 +402,37 @@
           "role": "MiniMax 多模态 UI 视觉评审",
           "model": "minimax-cn:MiniMax-M3",
           "agent_id": "97f55294-90e0-4556-93af-a1cf44889574",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-437",
+          "issue_title": "[uijudge] REQ-019 二维码生成器 双端视觉评审（第19场景 UI维度·gated on Dev/Test",
+          "since": "2026-10-11T12:20:33Z"
         }
       ],
       "issue_counts": {
         "todo": 12,
-        "in_progress": 2,
-        "in_review": 2,
+        "in_progress": 1,
+        "in_review": 3,
         "done": 81
       },
       "latest_issues": [
+        {
+          "key": "IPD-437",
+          "title": "[uijudge] REQ-019 二维码生成器 双端视觉评审（第19场景 UI维度·gated o",
+          "status": "todo",
+          "updated_at": "2026-10-11T12:20:31Z"
+        },
+        {
+          "key": "IPD-436",
+          "title": "[Tester] REQ-019 二维码生成器 TR-Accept 差分+双端对比报告（第19场景收",
+          "status": "todo",
+          "updated_at": "2026-10-11T12:20:29Z"
+        },
+        {
+          "key": "IPD-435",
+          "title": "[Dev] REQ-019 二维码生成器 双端生成+构建+运行+四维度量（第19场景·实验·gate",
+          "status": "in_review",
+          "updated_at": "2026-10-11T12:20:28Z"
+        },
         {
           "key": "IPD-469",
           "title": "[SA] REQ-022 节拍器 TR-Design 六件套+契约 v1.0（第22场景·audio",
@@ -425,24 +444,6 @@
           "title": "[PM] REQ-022 节拍器 预研+PRD+TR-Req+契约冻结（第22场景·audio类首个",
           "status": "in_review",
           "updated_at": "2026-10-11T12:16:22Z"
-        },
-        {
-          "key": "IPD-463",
-          "title": "[Dev] REQ-021 心情打卡/情绪追踪 四维归因+skill优化+复测（第21场景·gate",
-          "status": "in_progress",
-          "updated_at": "2026-10-11T12:13:18Z"
-        },
-        {
-          "key": "IPD-461",
-          "title": "[Tester] REQ-021 心情打卡/情绪追踪 TR-Accept 差分+双端对比报告（第21",
-          "status": "in_review",
-          "updated_at": "2026-10-11T12:12:05Z"
-        },
-        {
-          "key": "IPD-467",
-          "title": "[晚会纪要] 2026-10-11（day-17 第3轮派单）",
-          "status": "done",
-          "updated_at": "2026-10-11T12:10:58Z"
         }
       ]
     }
