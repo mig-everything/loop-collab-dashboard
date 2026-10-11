@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T20:17:26Z",
+  "generated_at": "2026-10-11T20:21:12Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -37,9 +37,10 @@
           "role": "DeepSeek Task Planner（任务规划+总结）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "04a4e04e-59d5-4f3a-8a16-acf99b80a493",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "SUR-324",
+          "issue_title": "[评审][day-18] 对抗评审：第5章评价综合（RQ4）+ 越界待办#1/#3 闭环验证（口径4/7/11/12）",
+          "since": "2026-10-11T20:21:06Z"
         }
       ],
       "issue_counts": {
@@ -348,10 +349,9 @@
           "role": "IPD-SE 系统工程师",
           "model": "zai:glm-5.3",
           "agent_id": "b874ba6b-80e6-45c6-a8c6-aedc6f2b326b",
-          "state": "working",
-          "issue": "IPD-479",
-          "issue_title": "[早会纪要] 2026-10-12",
-          "since": "2026-10-11T20:08:06Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "hermes-dev",
@@ -390,10 +390,9 @@
           "role": "DeepSeek Planner（小组 leader/PM ",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
-          "state": "working",
-          "issue": "IPD-479",
-          "issue_title": "[早会纪要] 2026-10-12",
-          "since": "2026-10-11T20:17:27Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "minimax-uijudge",
@@ -408,40 +407,40 @@
       ],
       "issue_counts": {
         "todo": 12,
-        "in_progress": 0,
-        "in_review": 2,
-        "done": 85
+        "in_progress": 1,
+        "in_review": 0,
+        "done": 86
       },
       "latest_issues": [
+        {
+          "key": "IPD-449",
+          "title": "[Dev] REQ-020 抽奖转盘 四维负差归因+编码skill优化+同需求复测（第20场景·优化",
+          "status": "in_progress",
+          "updated_at": "2026-10-11T20:20:56Z"
+        },
+        {
+          "key": "IPD-474",
+          "title": "[Dev] REQ-022 节拍器 四维负差归因+编码skill优化+同需求复测（第22场景·优化闭",
+          "status": "backlog",
+          "updated_at": "2026-10-11T20:19:35Z"
+        },
         {
           "key": "IPD-479",
           "title": "[早会纪要] 2026-10-12",
           "status": "done",
-          "updated_at": "2026-10-11T20:17:44Z"
+          "updated_at": "2026-10-11T20:19:33Z"
+        },
+        {
+          "key": "IPD-487",
+          "title": "[Dev] REQ-019 D-1 修复：双端位流边界输入缺陷（安卓崩溃+鸿蒙静默错矩阵）+ 边界锚",
+          "status": "backlog",
+          "updated_at": "2026-10-11T20:18:53Z"
         },
         {
           "key": "IPD-480",
           "title": "[PM] REQ-023 新需求A 预研+PRD+TR-Req+契约冻结（第23场景·口径15 第1",
-          "status": "in_review",
-          "updated_at": "2026-10-11T20:15:45Z"
-        },
-        {
-          "key": "IPD-481",
-          "title": "[SA] REQ-023 新需求A TR-Design 六件套+契约 v1.0（第23场景·gate",
-          "status": "todo",
-          "updated_at": "2026-10-11T20:15:21Z"
-        },
-        {
-          "key": "IPD-473",
-          "title": "[uijudge] REQ-022 节拍器 双端视觉评审（第22场景 UI维度·gated on D",
-          "status": "todo",
-          "updated_at": "2026-10-11T20:15:13Z"
-        },
-        {
-          "key": "IPD-449",
-          "title": "[Dev] REQ-020 抽奖转盘 四维负差归因+编码skill优化+同需求复测（第20场景·优化",
-          "status": "todo",
-          "updated_at": "2026-10-11T20:14:24Z"
+          "status": "done",
+          "updated_at": "2026-10-11T20:18:47Z"
         }
       ]
     }
