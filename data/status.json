@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T16:00:27Z",
+  "generated_at": "2026-10-11T16:04:45Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -17,9 +17,10 @@
           "role": "GPT Writer（执笔者）",
           "model": "gpt-6-luna",
           "agent_id": "58ed4647-32dd-4ca1-8ddc-194b975d6024",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "SUR-317",
+          "issue_title": "[任务][day-17] 第4章残留修复：P1-2「mobile」删除 + appendix-b [24] TRAVEL",
+          "since": "2026-10-11T16:04:22Z"
         },
         {
           "name": "kimi-adversary",
@@ -37,36 +38,35 @@
           "role": "DeepSeek Task Planner（任务规划+总结）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "04a4e04e-59d5-4f3a-8a16-acf99b80a493",
-          "state": "working",
-          "issue": "SUR-321",
-          "issue_title": "[巡检] 2026-10-12 leader Issue 状态巡检与催办",
-          "since": "2026-10-11T16:00:20Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         }
       ],
       "issue_counts": {
-        "todo": 4,
+        "todo": 3,
         "in_progress": 0,
         "in_review": 0,
-        "done": 95
+        "done": 96
       },
       "latest_issues": [
         {
           "key": "SUR-321",
           "title": "[巡检] 2026-10-12 leader Issue 状态巡检与催办",
+          "status": "done",
+          "updated_at": "2026-10-11T16:04:27Z"
+        },
+        {
+          "key": "SUR-317",
+          "title": "[任务][day-17] 第4章残留修复：P1-2「mobile」删除 + appendix-b [",
           "status": "todo",
-          "updated_at": "2026-10-11T16:00:17Z"
+          "updated_at": "2026-10-11T16:04:20Z"
         },
         {
           "key": "SUR-320",
           "title": "[空闲检测] 2026-10-11 leader 两小时正点检查与加派",
           "status": "done",
           "updated_at": "2026-10-11T14:04:28Z"
-        },
-        {
-          "key": "SUR-317",
-          "title": "[任务][day-17] 第4章残留修复：P1-2「mobile」删除 + appendix-b [",
-          "status": "todo",
-          "updated_at": "2026-10-11T12:18:31Z"
         },
         {
           "key": "SUR-316",
@@ -211,10 +211,9 @@
           "role": "DeepSeek Planner（小组 leader/PM，",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "950ff614-521d-4e32-a02d-423d41a7b2b3",
-          "state": "working",
-          "issue": "DWM-297",
-          "issue_title": "[巡检] 2026-10-12 leader Issue 状态巡检与催办",
-          "since": "2026-10-11T16:00:24Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "dw-lead",
@@ -268,17 +267,17 @@
         }
       ],
       "issue_counts": {
-        "todo": 1,
+        "todo": 0,
         "in_progress": 0,
         "in_review": 0,
-        "done": 77
+        "done": 78
       },
       "latest_issues": [
         {
           "key": "DWM-297",
           "title": "[巡检] 2026-10-12 leader Issue 状态巡检与催办",
-          "status": "todo",
-          "updated_at": "2026-10-11T16:00:22Z"
+          "status": "done",
+          "updated_at": "2026-10-11T16:04:33Z"
         },
         {
           "key": "DWM-296",
@@ -406,41 +405,41 @@
         }
       ],
       "issue_counts": {
-        "todo": 9,
-        "in_progress": 3,
-        "in_review": 5,
-        "done": 80
+        "todo": 8,
+        "in_progress": 4,
+        "in_review": 0,
+        "done": 85
       },
       "latest_issues": [
         {
-          "key": "IPD-478",
-          "title": "[巡检] 2026-10-12 leader Issue 状态巡检与催办",
-          "status": "todo",
-          "updated_at": "2026-10-11T16:00:24Z"
-        },
-        {
-          "key": "IPD-477",
-          "title": "[空闲检测] 2026-10-11 leader 两小时正点检查与加派",
+          "key": "IPD-435",
+          "title": "[Dev] REQ-019 二维码生成器 双端生成+构建+运行+四维度量（第19场景·实验·gate",
           "status": "done",
-          "updated_at": "2026-10-11T14:02:58Z"
+          "updated_at": "2026-10-11T16:05:07Z"
         },
         {
-          "key": "IPD-471",
-          "title": "[Dev] REQ-022 节拍器 双端生成+构建+运行+四维度量（第22场景·实验·gated o",
-          "status": "in_progress",
-          "updated_at": "2026-10-11T13:09:16Z"
+          "key": "IPD-461",
+          "title": "[Tester] REQ-021 心情打卡/情绪追踪 TR-Accept 差分+双端对比报告（第21",
+          "status": "done",
+          "updated_at": "2026-10-11T16:05:06Z"
         },
         {
-          "key": "IPD-436",
-          "title": "[Tester] REQ-019 二维码生成器 TR-Accept 差分+双端对比报告（第19场景收",
-          "status": "todo",
-          "updated_at": "2026-10-11T12:43:31Z"
+          "key": "IPD-468",
+          "title": "[PM] REQ-022 节拍器 预研+PRD+TR-Req+契约冻结（第22场景·audio类首个",
+          "status": "done",
+          "updated_at": "2026-10-11T16:05:05Z"
         },
         {
-          "key": "IPD-463",
-          "title": "[Dev] REQ-021 心情打卡/情绪追踪 四维归因+skill优化+复测（第21场景·gate",
-          "status": "in_progress",
-          "updated_at": "2026-10-11T12:42:08Z"
+          "key": "IPD-469",
+          "title": "[SA] REQ-022 节拍器 TR-Design 六件套+契约 v1.0（第22场景·audio",
+          "status": "done",
+          "updated_at": "2026-10-11T16:05:02Z"
+        },
+        {
+          "key": "IPD-470",
+          "title": "[SE] REQ-022 节拍器 追踪矩阵 v1.0（第22场景·audio·gated on SA",
+          "status": "done",
+          "updated_at": "2026-10-11T16:05:00Z"
         }
       ]
     }
