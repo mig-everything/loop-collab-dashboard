@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T04:00:51Z",
+  "generated_at": "2026-10-11T04:05:07Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -100,9 +100,10 @@
           "role": "GPT Scenarist",
           "model": "zai:glm-5.3",
           "agent_id": "6e6f1e24-3bc5-455a-85d2-cb3fb6c9a672",
-          "state": "meeting",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "BEN-135",
+          "issue_title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 100（ref BEN",
+          "since": "2026-10-11T04:05:04Z"
         },
         {
           "name": "glm-runner",
@@ -110,9 +111,10 @@
           "role": "GLM Runner & Analyst",
           "model": "",
           "agent_id": "bdaefa9b-7045-4264-95e4-1db664e353d0",
-          "state": "meeting",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "BEN-280",
+          "issue_title": "[任务·第2轮] 鸿蒙 test 变体扩容：口径⑤ 剩余 7 变体 + SC 收口 + 口径⑥ 全链路复跑（ref BE",
+          "since": "2026-10-11T04:04:49Z"
         },
         {
           "name": "deepseek-planner",
@@ -131,9 +133,10 @@
           "role": "MiniMax 多模态视觉差分评审",
           "model": "minimax-cn:MiniMax-M3",
           "agent_id": "843ac45d-b5db-4f35-b07b-2e5754ec5a5f",
-          "state": "meeting",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "BEN-281",
+          "issue_title": "[任务·第2轮] BEN-248 新三数视觉四分类复核 + 新覆盖变体锚定（ref BEN-248/BEN-280）",
+          "since": "2026-10-11T04:04:56Z"
         },
         {
           "name": "项目观察员（GPT-6）",
@@ -147,12 +150,30 @@
         }
       ],
       "issue_counts": {
-        "todo": 4,
-        "in_progress": 2,
+        "todo": 5,
+        "in_progress": 3,
         "in_review": 0,
-        "done": 94
+        "done": 92
       },
       "latest_issues": [
+        {
+          "key": "BEN-280",
+          "title": "[任务·第2轮] 鸿蒙 test 变体扩容：口径⑤ 剩余 7 变体 + SC 收口 + 口径⑥ 全链",
+          "status": "in_progress",
+          "updated_at": "2026-10-11T04:05:15Z"
+        },
+        {
+          "key": "BEN-135",
+          "title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 1",
+          "status": "in_progress",
+          "updated_at": "2026-10-11T04:05:00Z"
+        },
+        {
+          "key": "BEN-281",
+          "title": "[任务·第2轮] BEN-248 新三数视觉四分类复核 + 新覆盖变体锚定（ref BEN-248/",
+          "status": "todo",
+          "updated_at": "2026-10-11T04:04:51Z"
+        },
         {
           "key": "BEN-279",
           "title": "[午会纪要] 2026-10-11",
@@ -164,24 +185,6 @@
           "title": "[空闲检测] 2026-10-11 leader 两小时正点检查与加派",
           "status": "done",
           "updated_at": "2026-10-11T02:04:30Z"
-        },
-        {
-          "key": "BEN-277",
-          "title": "[观察员日报] 2026-10-11 通过率与 Agent 时间轴",
-          "status": "todo",
-          "updated_at": "2026-10-11T01:32:33Z"
-        },
-        {
-          "key": "BEN-135",
-          "title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 1",
-          "status": "in_progress",
-          "updated_at": "2026-10-11T00:14:34Z"
-        },
-        {
-          "key": "BEN-276",
-          "title": "[巡检] 2026-10-11 leader Issue 状态巡检与催办",
-          "status": "done",
-          "updated_at": "2026-10-11T00:04:14Z"
         }
       ],
       "progress_note": "环比持平"
@@ -320,8 +323,8 @@
       "workspace": "ws-ipd-eazo-loop",
       "machine": "贾博 Mac Mini",
       "machine_online": true,
-      "meeting_active": false,
-      "meeting_title": "",
+      "meeting_active": true,
+      "meeting_title": "[午会纪要] 2026-10-11",
       "progress": 96,
       "agents": [
         {
@@ -330,7 +333,7 @@
           "role": "IPD-PM 产品经理",
           "model": "",
           "agent_id": "1764c131-5c09-48cb-aa48-3177d5256dbb",
-          "state": "idle",
+          "state": "meeting",
           "issue": "",
           "issue_title": ""
         },
@@ -340,7 +343,7 @@
           "role": "IPD-SA 解决方案架构师",
           "model": "zai:glm-5.3",
           "agent_id": "3e4373ef-a262-4b28-ab2a-818861fc9624",
-          "state": "idle",
+          "state": "meeting",
           "issue": "",
           "issue_title": ""
         },
@@ -350,7 +353,7 @@
           "role": "IPD-SE 系统工程师",
           "model": "zai:glm-5.3",
           "agent_id": "b874ba6b-80e6-45c6-a8c6-aedc6f2b326b",
-          "state": "idle",
+          "state": "meeting",
           "issue": "",
           "issue_title": ""
         },
@@ -360,7 +363,7 @@
           "role": "IPD-Dev 开发工程师",
           "model": "zai:glm-5.3",
           "agent_id": "44fcec25-d8b3-4af6-b206-1774a64677ce",
-          "state": "idle",
+          "state": "meeting",
           "issue": "",
           "issue_title": ""
         },
@@ -370,7 +373,7 @@
           "role": "IPD-Tester 测试工程师",
           "model": "zai:glm-5.3",
           "agent_id": "86df9f14-a2cd-46d9-ad15-dbe8606ebd73",
-          "state": "idle",
+          "state": "meeting",
           "issue": "",
           "issue_title": ""
         },
@@ -380,7 +383,7 @@
           "role": "IPD-RM 发布经理",
           "model": "zai:glm-5.3",
           "agent_id": "78156461-9644-478e-9c80-53cd18e25e33",
-          "state": "idle",
+          "state": "meeting",
           "issue": "",
           "issue_title": ""
         },
@@ -401,47 +404,47 @@
           "role": "MiniMax 多模态 UI 视觉评审",
           "model": "minimax-cn:MiniMax-M3",
           "agent_id": "97f55294-90e0-4556-93af-a1cf44889574",
-          "state": "idle",
+          "state": "meeting",
           "issue": "",
           "issue_title": ""
         }
       ],
       "issue_counts": {
-        "todo": 5,
-        "in_progress": 3,
-        "in_review": 3,
-        "done": 86
+        "todo": 4,
+        "in_progress": 4,
+        "in_review": 0,
+        "done": 89
       },
       "latest_issues": [
         {
+          "key": "IPD-446",
+          "title": "[Dev] REQ-020 抽奖转盘 双端生成+构建+运行+四维度量（第20场景·实验·gated ",
+          "status": "done",
+          "updated_at": "2026-10-11T04:05:14Z"
+        },
+        {
+          "key": "IPD-434",
+          "title": "[SE] REQ-019 二维码生成器 追踪矩阵 v1.0（第19场景·gated on SA 契约",
+          "status": "done",
+          "updated_at": "2026-10-11T04:05:14Z"
+        },
+        {
+          "key": "IPD-433",
+          "title": "[SA] REQ-019 二维码生成器 TR-Design 六件套+契约 v1.0（第19场景·to",
+          "status": "done",
+          "updated_at": "2026-10-11T04:05:11Z"
+        },
+        {
           "key": "IPD-456",
           "title": "[午会纪要] 2026-10-11",
-          "status": "todo",
-          "updated_at": "2026-10-11T04:00:23Z"
+          "status": "in_progress",
+          "updated_at": "2026-10-11T04:05:09Z"
         },
         {
           "key": "IPD-455",
           "title": "[空闲检测] 2026-10-11 leader 两小时正点检查与加派",
           "status": "done",
           "updated_at": "2026-10-11T02:02:52Z"
-        },
-        {
-          "key": "IPD-435",
-          "title": "[Dev] REQ-019 二维码生成器 双端生成+构建+运行+四维度量（第19场景·实验·gate",
-          "status": "in_progress",
-          "updated_at": "2026-10-11T00:43:05Z"
-        },
-        {
-          "key": "IPD-434",
-          "title": "[SE] REQ-019 二维码生成器 追踪矩阵 v1.0（第19场景·gated on SA 契约",
-          "status": "in_review",
-          "updated_at": "2026-10-11T00:21:26Z"
-        },
-        {
-          "key": "IPD-447",
-          "title": "[Tester] REQ-020 抽奖转盘 TR-Accept 差分+双端对比报告（第20场景收口·",
-          "status": "in_progress",
-          "updated_at": "2026-10-11T00:14:52Z"
         }
       ]
     }
