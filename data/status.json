@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T06:12:50Z",
+  "generated_at": "2026-10-11T06:17:19Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -27,10 +27,9 @@
           "role": "Kimi Adversarial Reviewer（对抗评审",
           "model": "",
           "agent_id": "6e530cc6-6b9d-4398-936d-df9c13468125",
-          "state": "working",
-          "issue": "SUR-310",
-          "issue_title": "[评审][day-17] 对抗评审：正文重写第3批（第4章关键使能技术 RQ3 机制综合，口径7/11/12）",
-          "since": "2026-10-11T06:02:51Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "deepseek-planner",
@@ -45,16 +44,16 @@
       ],
       "issue_counts": {
         "todo": 0,
-        "in_progress": 1,
-        "in_review": 0,
+        "in_progress": 0,
+        "in_review": 1,
         "done": 98
       },
       "latest_issues": [
         {
           "key": "SUR-310",
           "title": "[评审][day-17] 对抗评审：正文重写第3批（第4章关键使能技术 RQ3 机制综合，口径7/1",
-          "status": "in_progress",
-          "updated_at": "2026-10-11T06:03:15Z"
+          "status": "in_review",
+          "updated_at": "2026-10-11T06:14:57Z"
         },
         {
           "key": "SUR-311",
