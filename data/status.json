@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T06:03:11Z",
+  "generated_at": "2026-10-11T06:07:26Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -212,10 +212,9 @@
           "role": "DeepSeek Planner（小组 leader/PM，",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "950ff614-521d-4e32-a02d-423d41a7b2b3",
-          "state": "working",
-          "issue": "DWM-292",
-          "issue_title": "[空闲检测] 2026-10-11 leader 两小时正点检查与加派",
-          "since": "2026-10-11T06:00:23Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "dw-lead",
@@ -269,17 +268,17 @@
         }
       ],
       "issue_counts": {
-        "todo": 1,
+        "todo": 0,
         "in_progress": 0,
         "in_review": 0,
-        "done": 75
+        "done": 77
       },
       "latest_issues": [
         {
           "key": "DWM-292",
           "title": "[空闲检测] 2026-10-11 leader 两小时正点检查与加派",
-          "status": "todo",
-          "updated_at": "2026-10-11T06:00:13Z"
+          "status": "done",
+          "updated_at": "2026-10-11T06:04:31Z"
         },
         {
           "key": "DWM-291",
@@ -307,10 +306,10 @@
         }
       ],
       "order": {
-        "key": "DWM-251",
-        "title": "[DW迁移任务单] OpenCamera 迁移 · 暂停（负责人要求·额度用尽）",
-        "status": "blocked",
-        "updated_at": "2026-10-10T20:10:57Z"
+        "key": "DWM-214",
+        "title": "[DW迁移任务单] CoolMall 迁移 · 已完成",
+        "status": "done",
+        "updated_at": "2026-10-07T15:28:53Z"
       },
       "progress_note": "10 个应用：完成 7、进行中 0、暂停 1、未开始 2"
     },
