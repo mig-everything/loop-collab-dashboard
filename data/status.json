@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T20:39:43Z",
+  "generated_at": "2026-10-11T20:50:41Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -358,9 +358,9 @@
           "model": "zai:glm-5.3",
           "agent_id": "44fcec25-d8b3-4af6-b206-1774a64677ce",
           "state": "working",
-          "issue": "IPD-483",
-          "issue_title": "[Dev] REQ-023 新需求A 双端生成+构建+运行+四维度量（第23场景·实验·gated on SE）",
-          "since": "2026-10-11T20:34:03Z"
+          "issue": "IPD-479",
+          "issue_title": "[早会纪要] 2026-10-12",
+          "since": "2026-10-11T20:08:06Z"
         },
         {
           "name": "hermes-tester",
