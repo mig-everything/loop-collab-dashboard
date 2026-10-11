@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T13:33:22Z",
+  "generated_at": "2026-10-11T14:02:47Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -37,18 +37,25 @@
           "role": "DeepSeek Task Planner（任务规划+总结）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "04a4e04e-59d5-4f3a-8a16-acf99b80a493",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "SUR-320",
+          "issue_title": "[空闲检测] 2026-10-11 leader 两小时正点检查与加派",
+          "since": "2026-10-11T14:00:18Z"
         }
       ],
       "issue_counts": {
-        "todo": 3,
+        "todo": 4,
         "in_progress": 0,
         "in_review": 0,
-        "done": 96
+        "done": 95
       },
       "latest_issues": [
+        {
+          "key": "SUR-320",
+          "title": "[空闲检测] 2026-10-11 leader 两小时正点检查与加派",
+          "status": "todo",
+          "updated_at": "2026-10-11T14:00:16Z"
+        },
         {
           "key": "SUR-317",
           "title": "[任务][day-17] 第4章残留修复：P1-2「mobile」删除 + appendix-b [",
@@ -72,12 +79,6 @@
           "title": "[评审][day-17] SUR-317 修复复核：P1-2「mobile」残留 + TRAVEL ",
           "status": "backlog",
           "updated_at": "2026-10-11T12:10:31Z"
-        },
-        {
-          "key": "SUR-315",
-          "title": "[评审][day-17] SUR-313 打回修复复核：SUR-310 2P1+3P2 闭环验证（口",
-          "status": "done",
-          "updated_at": "2026-10-11T12:09:37Z"
         }
       ],
       "progress_note": "day-4 晨 37% → 午 42% → 晚 44% → 夜 47%",
@@ -210,9 +211,10 @@
           "role": "DeepSeek Planner（小组 leader/PM，",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "950ff614-521d-4e32-a02d-423d41a7b2b3",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "DWM-296",
+          "issue_title": "[空闲检测] 2026-10-11 leader 两小时正点检查与加派",
+          "since": "2026-10-11T14:00:18Z"
         },
         {
           "name": "dw-lead",
@@ -266,12 +268,18 @@
         }
       ],
       "issue_counts": {
-        "todo": 0,
+        "todo": 1,
         "in_progress": 0,
         "in_review": 0,
-        "done": 77
+        "done": 76
       },
       "latest_issues": [
+        {
+          "key": "DWM-296",
+          "title": "[空闲检测] 2026-10-11 leader 两小时正点检查与加派",
+          "status": "todo",
+          "updated_at": "2026-10-11T14:00:14Z"
+        },
         {
           "key": "DWM-295",
           "title": "[晚会日报] 2026-10-11",
@@ -295,12 +303,6 @@
           "title": "[空闲检测] 2026-10-11 leader 两小时正点检查与加派",
           "status": "done",
           "updated_at": "2026-10-11T06:04:31Z"
-        },
-        {
-          "key": "DWM-291",
-          "title": "[午会纪要] 2026-10-11",
-          "status": "done",
-          "updated_at": "2026-10-11T04:17:40Z"
         }
       ],
       "order": {
@@ -410,6 +412,12 @@
       },
       "latest_issues": [
         {
+          "key": "IPD-477",
+          "title": "[空闲检测] 2026-10-11 leader 两小时正点检查与加派",
+          "status": "done",
+          "updated_at": "2026-10-11T14:02:58Z"
+        },
+        {
           "key": "IPD-471",
           "title": "[Dev] REQ-022 节拍器 双端生成+构建+运行+四维度量（第22场景·实验·gated o",
           "status": "in_progress",
@@ -432,12 +440,6 @@
           "title": "[SE] REQ-022 节拍器 追踪矩阵 v1.0（第22场景·audio·gated on SA",
           "status": "in_review",
           "updated_at": "2026-10-11T12:33:29Z"
-        },
-        {
-          "key": "IPD-437",
-          "title": "[uijudge] REQ-019 二维码生成器 双端视觉评审（第19场景 UI维度·gated o",
-          "status": "in_progress",
-          "updated_at": "2026-10-11T12:27:23Z"
         }
       ]
     }
