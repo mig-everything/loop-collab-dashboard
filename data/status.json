@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T12:13:28Z",
+  "generated_at": "2026-10-11T12:17:48Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -38,10 +38,9 @@
           "role": "DeepSeek Task Planner（任务规划+总结）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "04a4e04e-59d5-4f3a-8a16-acf99b80a493",
-          "state": "working",
-          "issue": "SUR-316",
-          "issue_title": "[晚会日报] 2026-10-11",
-          "since": "2026-10-11T12:00:22Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         }
       ],
       "issue_counts": {
@@ -331,10 +330,9 @@
           "role": "IPD-PM 产品经理",
           "model": "",
           "agent_id": "1764c131-5c09-48cb-aa48-3177d5256dbb",
-          "state": "working",
-          "issue": "IPD-468",
-          "issue_title": "[PM] REQ-022 节拍器 预研+PRD+TR-Req+契约冻结（第22场景·audio类首个落地·第3轮新需求C",
-          "since": "2026-10-11T12:07:48Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "hermes-sa",
@@ -342,9 +340,10 @@
           "role": "IPD-SA 解决方案架构师",
           "model": "zai:glm-5.3",
           "agent_id": "3e4373ef-a262-4b28-ab2a-818861fc9624",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-469",
+          "issue_title": "[SA] REQ-022 节拍器 TR-Design 六件套+契约 v1.0（第22场景·audio·gated on ",
+          "since": "2026-10-11T12:16:28Z"
         },
         {
           "name": "hermes-se",
@@ -409,12 +408,24 @@
         }
       ],
       "issue_counts": {
-        "todo": 13,
+        "todo": 12,
         "in_progress": 2,
-        "in_review": 1,
+        "in_review": 2,
         "done": 81
       },
       "latest_issues": [
+        {
+          "key": "IPD-469",
+          "title": "[SA] REQ-022 节拍器 TR-Design 六件套+契约 v1.0（第22场景·audio",
+          "status": "todo",
+          "updated_at": "2026-10-11T12:16:26Z"
+        },
+        {
+          "key": "IPD-468",
+          "title": "[PM] REQ-022 节拍器 预研+PRD+TR-Req+契约冻结（第22场景·audio类首个",
+          "status": "in_review",
+          "updated_at": "2026-10-11T12:16:22Z"
+        },
         {
           "key": "IPD-463",
           "title": "[Dev] REQ-021 心情打卡/情绪追踪 四维归因+skill优化+复测（第21场景·gate",
@@ -432,18 +443,6 @@
           "title": "[晚会纪要] 2026-10-11（day-17 第3轮派单）",
           "status": "done",
           "updated_at": "2026-10-11T12:10:58Z"
-        },
-        {
-          "key": "IPD-476",
-          "title": "[Dev] Opt-035 截图取证质量门禁：Dev 交付前自检（黑帧/重复帧/命名）+ 复用截图w",
-          "status": "backlog",
-          "updated_at": "2026-10-11T12:09:29Z"
-        },
-        {
-          "key": "IPD-435",
-          "title": "[Dev] REQ-019 二维码生成器 双端生成+构建+运行+四维度量（第19场景·实验·gate",
-          "status": "in_progress",
-          "updated_at": "2026-10-11T12:08:52Z"
         }
       ]
     }
