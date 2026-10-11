@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T12:42:54Z",
+  "generated_at": "2026-10-11T13:08:14Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -359,9 +359,8 @@
           "model": "zai:glm-5.3",
           "agent_id": "44fcec25-d8b3-4af6-b206-1774a64677ce",
           "state": "working",
-          "issue": "IPD-471",
-          "issue_title": "[Dev] REQ-022 节拍器 双端生成+构建+运行+四维度量（第22场景·实验·gated on SE IPD-4",
-          "since": "2026-10-11T12:33:05Z"
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "hermes-tester",
@@ -412,6 +411,12 @@
       },
       "latest_issues": [
         {
+          "key": "IPD-471",
+          "title": "[Dev] REQ-022 节拍器 双端生成+构建+运行+四维度量（第22场景·实验·gated o",
+          "status": "in_progress",
+          "updated_at": "2026-10-11T13:09:16Z"
+        },
+        {
           "key": "IPD-436",
           "title": "[Tester] REQ-019 二维码生成器 TR-Accept 差分+双端对比报告（第19场景收",
           "status": "todo",
@@ -422,12 +427,6 @@
           "title": "[Dev] REQ-021 心情打卡/情绪追踪 四维归因+skill优化+复测（第21场景·gate",
           "status": "in_progress",
           "updated_at": "2026-10-11T12:42:08Z"
-        },
-        {
-          "key": "IPD-471",
-          "title": "[Dev] REQ-022 节拍器 双端生成+构建+运行+四维度量（第22场景·实验·gated o",
-          "status": "in_progress",
-          "updated_at": "2026-10-11T12:35:28Z"
         },
         {
           "key": "IPD-470",
