@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T04:22:44Z",
+  "generated_at": "2026-10-11T04:27:10Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -380,10 +380,9 @@
           "role": "IPD-RM 发布经理",
           "model": "zai:glm-5.3",
           "agent_id": "78156461-9644-478e-9c80-53cd18e25e33",
-          "state": "working",
-          "issue": "IPD-456",
-          "issue_title": "[午会纪要] 2026-10-11",
-          "since": "2026-10-11T04:08:47Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "deepseek-planner",
@@ -414,6 +413,12 @@
       },
       "latest_issues": [
         {
+          "key": "IPD-456",
+          "title": "[午会纪要] 2026-10-11",
+          "status": "done",
+          "updated_at": "2026-10-11T04:23:50Z"
+        },
+        {
           "key": "IPD-458",
           "title": "[SA] REQ-021 心情打卡/情绪追踪 TR-Design 六件套+契约 v1.0（第21场景",
           "status": "in_progress",
@@ -424,12 +429,6 @@
           "title": "[PM] REQ-021 心情打卡/情绪追踪 预研+PRD+TR-Req+契约冻结（第21场景·no",
           "status": "in_review",
           "updated_at": "2026-10-11T04:22:06Z"
-        },
-        {
-          "key": "IPD-456",
-          "title": "[午会纪要] 2026-10-11",
-          "status": "done",
-          "updated_at": "2026-10-11T04:12:57Z"
         },
         {
           "key": "IPD-463",
