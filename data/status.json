@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T16:21:22Z",
+  "generated_at": "2026-10-11T16:25:28Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -404,23 +404,29 @@
         }
       ],
       "issue_counts": {
-        "todo": 7,
+        "todo": 6,
         "in_progress": 1,
-        "in_review": 3,
+        "in_review": 4,
         "done": 86
       },
       "latest_issues": [
+        {
+          "key": "IPD-437",
+          "title": "[uijudge] REQ-019 二维码生成器 双端视觉评审（第19场景 UI维度·gated o",
+          "status": "in_review",
+          "updated_at": "2026-10-11T16:24:07Z"
+        },
+        {
+          "key": "IPD-436",
+          "title": "[Tester] REQ-019 二维码生成器 TR-Accept 差分+双端对比报告（第19场景收",
+          "status": "in_review",
+          "updated_at": "2026-10-11T16:23:57Z"
+        },
         {
           "key": "IPD-472",
           "title": "[Tester] REQ-022 节拍器 TR-Accept 差分+双端对比报告（第22场景收口·g",
           "status": "in_progress",
           "updated_at": "2026-10-11T16:21:24Z"
-        },
-        {
-          "key": "IPD-436",
-          "title": "[Tester] REQ-019 二维码生成器 TR-Accept 差分+双端对比报告（第19场景收",
-          "status": "todo",
-          "updated_at": "2026-10-11T16:18:38Z"
         },
         {
           "key": "IPD-463",
@@ -433,12 +439,6 @@
           "title": "[Dev] REQ-022 节拍器 双端生成+构建+运行+四维度量（第22场景·实验·gated o",
           "status": "in_review",
           "updated_at": "2026-10-11T16:11:54Z"
-        },
-        {
-          "key": "IPD-437",
-          "title": "[uijudge] REQ-019 二维码生成器 双端视觉评审（第19场景 UI维度·gated o",
-          "status": "in_review",
-          "updated_at": "2026-10-11T16:10:01Z"
         }
       ]
     }
