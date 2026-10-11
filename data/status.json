@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T12:26:07Z",
+  "generated_at": "2026-10-11T12:30:20Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -401,30 +401,29 @@
           "role": "MiniMax 多模态 UI 视觉评审",
           "model": "minimax-cn:MiniMax-M3",
           "agent_id": "97f55294-90e0-4556-93af-a1cf44889574",
-          "state": "working",
-          "issue": "IPD-437",
-          "issue_title": "[uijudge] REQ-019 二维码生成器 双端视觉评审（第19场景 UI维度·gated on Dev/Test",
-          "since": "2026-10-11T12:20:33Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         }
       ],
       "issue_counts": {
-        "todo": 10,
-        "in_progress": 2,
+        "todo": 9,
+        "in_progress": 3,
         "in_review": 4,
         "done": 81
       },
       "latest_issues": [
         {
+          "key": "IPD-470",
+          "title": "[SE] REQ-022 节拍器 追踪矩阵 v1.0（第22场景·audio·gated on SA",
+          "status": "in_progress",
+          "updated_at": "2026-10-11T12:27:35Z"
+        },
+        {
           "key": "IPD-437",
           "title": "[uijudge] REQ-019 二维码生成器 双端视觉评审（第19场景 UI维度·gated o",
           "status": "in_progress",
-          "updated_at": "2026-10-11T12:25:51Z"
-        },
-        {
-          "key": "IPD-470",
-          "title": "[SE] REQ-022 节拍器 追踪矩阵 v1.0（第22场景·audio·gated on SA",
-          "status": "todo",
-          "updated_at": "2026-10-11T12:25:49Z"
+          "updated_at": "2026-10-11T12:27:23Z"
         },
         {
           "key": "IPD-469",
