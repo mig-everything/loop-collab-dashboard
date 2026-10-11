@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T08:16:18Z",
+  "generated_at": "2026-10-11T08:20:45Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -358,10 +358,9 @@
           "role": "IPD-Dev 开发工程师",
           "model": "zai:glm-5.3",
           "agent_id": "44fcec25-d8b3-4af6-b206-1774a64677ce",
-          "state": "working",
-          "issue": "IPD-435",
-          "issue_title": "[Dev] REQ-019 二维码生成器 双端生成+构建+运行+四维度量（第19场景·实验·gated on SE）",
-          "since": "2026-10-11T08:05:08Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "hermes-tester",
@@ -414,6 +413,12 @@
       },
       "latest_issues": [
         {
+          "key": "IPD-435",
+          "title": "[Dev] REQ-019 二维码生成器 双端生成+构建+运行+四维度量（第19场景·实验·gate",
+          "status": "in_progress",
+          "updated_at": "2026-10-11T08:19:04Z"
+        },
+        {
           "key": "IPD-461",
           "title": "[Tester] REQ-021 心情打卡/情绪追踪 TR-Accept 差分+双端对比报告（第21",
           "status": "in_progress",
@@ -436,12 +441,6 @@
           "title": "[Tester] REQ-020 抽奖转盘 TR-Accept 差分+双端对比报告（第20场景收口·",
           "status": "in_review",
           "updated_at": "2026-10-11T08:11:08Z"
-        },
-        {
-          "key": "IPD-448",
-          "title": "[uijudge] REQ-020 抽奖转盘 双端视觉评审（第20场景 UI维度·gated on ",
-          "status": "in_review",
-          "updated_at": "2026-10-11T08:06:17Z"
         }
       ]
     }
