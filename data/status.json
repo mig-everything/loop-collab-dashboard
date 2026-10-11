@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T08:25:10Z",
+  "generated_at": "2026-10-11T08:29:23Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -367,10 +367,9 @@
           "role": "IPD-Tester 测试工程师",
           "model": "zai:glm-5.3",
           "agent_id": "86df9f14-a2cd-46d9-ad15-dbe8606ebd73",
-          "state": "working",
-          "issue": "IPD-461",
-          "issue_title": "[Tester] REQ-021 心情打卡/情绪追踪 TR-Accept 差分+双端对比报告（第21场景收口·gated",
-          "since": "2026-10-11T08:14:00Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "hermes-rm",
@@ -411,6 +410,12 @@
       },
       "latest_issues": [
         {
+          "key": "IPD-461",
+          "title": "[Tester] REQ-021 心情打卡/情绪追踪 TR-Accept 差分+双端对比报告（第21",
+          "status": "in_progress",
+          "updated_at": "2026-10-11T08:27:16Z"
+        },
+        {
           "key": "IPD-462",
           "title": "[uijudge] REQ-021 心情打卡/情绪追踪 双端视觉评审（第21场景 UI维度·gate",
           "status": "in_review",
@@ -421,12 +426,6 @@
           "title": "[Dev] REQ-019 二维码生成器 双端生成+构建+运行+四维度量（第19场景·实验·gate",
           "status": "in_progress",
           "updated_at": "2026-10-11T08:19:04Z"
-        },
-        {
-          "key": "IPD-461",
-          "title": "[Tester] REQ-021 心情打卡/情绪追踪 TR-Accept 差分+双端对比报告（第21",
-          "status": "in_progress",
-          "updated_at": "2026-10-11T08:14:51Z"
         },
         {
           "key": "IPD-460",
