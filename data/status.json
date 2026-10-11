@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T14:11:26Z",
+  "generated_at": "2026-10-11T16:00:27Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -37,18 +37,25 @@
           "role": "DeepSeek Task Planner（任务规划+总结）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "04a4e04e-59d5-4f3a-8a16-acf99b80a493",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "SUR-321",
+          "issue_title": "[巡检] 2026-10-12 leader Issue 状态巡检与催办",
+          "since": "2026-10-11T16:00:20Z"
         }
       ],
       "issue_counts": {
-        "todo": 3,
+        "todo": 4,
         "in_progress": 0,
         "in_review": 0,
-        "done": 96
+        "done": 95
       },
       "latest_issues": [
+        {
+          "key": "SUR-321",
+          "title": "[巡检] 2026-10-12 leader Issue 状态巡检与催办",
+          "status": "todo",
+          "updated_at": "2026-10-11T16:00:17Z"
+        },
         {
           "key": "SUR-320",
           "title": "[空闲检测] 2026-10-11 leader 两小时正点检查与加派",
@@ -72,12 +79,6 @@
           "title": "[流程优化] Opt-039：研究契约显式化（口径11/12 具体化，次日验证）",
           "status": "backlog",
           "updated_at": "2026-10-11T12:10:34Z"
-        },
-        {
-          "key": "SUR-318",
-          "title": "[评审][day-17] SUR-317 修复复核：P1-2「mobile」残留 + TRAVEL ",
-          "status": "backlog",
-          "updated_at": "2026-10-11T12:10:31Z"
         }
       ],
       "progress_note": "day-4 晨 37% → 午 42% → 晚 44% → 夜 47%",
@@ -210,9 +211,10 @@
           "role": "DeepSeek Planner（小组 leader/PM，",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "950ff614-521d-4e32-a02d-423d41a7b2b3",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "DWM-297",
+          "issue_title": "[巡检] 2026-10-12 leader Issue 状态巡检与催办",
+          "since": "2026-10-11T16:00:24Z"
         },
         {
           "name": "dw-lead",
@@ -266,12 +268,18 @@
         }
       ],
       "issue_counts": {
-        "todo": 0,
+        "todo": 1,
         "in_progress": 0,
         "in_review": 0,
         "done": 77
       },
       "latest_issues": [
+        {
+          "key": "DWM-297",
+          "title": "[巡检] 2026-10-12 leader Issue 状态巡检与催办",
+          "status": "todo",
+          "updated_at": "2026-10-11T16:00:22Z"
+        },
         {
           "key": "DWM-296",
           "title": "[空闲检测] 2026-10-11 leader 两小时正点检查与加派",
@@ -295,12 +303,6 @@
           "title": "[巡检] 2026-10-11 leader Issue 状态巡检与催办",
           "status": "done",
           "updated_at": "2026-10-11T08:08:11Z"
-        },
-        {
-          "key": "DWM-292",
-          "title": "[空闲检测] 2026-10-11 leader 两小时正点检查与加派",
-          "status": "done",
-          "updated_at": "2026-10-11T06:04:31Z"
         }
       ],
       "order": {
@@ -387,9 +389,10 @@
           "role": "DeepSeek Planner（小组 leader/PM ",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-478",
+          "issue_title": "[巡检] 2026-10-12 leader Issue 状态巡检与催办",
+          "since": "2026-10-11T16:00:25Z"
         },
         {
           "name": "minimax-uijudge",
@@ -403,12 +406,18 @@
         }
       ],
       "issue_counts": {
-        "todo": 8,
+        "todo": 9,
         "in_progress": 3,
         "in_review": 5,
-        "done": 81
+        "done": 80
       },
       "latest_issues": [
+        {
+          "key": "IPD-478",
+          "title": "[巡检] 2026-10-12 leader Issue 状态巡检与催办",
+          "status": "todo",
+          "updated_at": "2026-10-11T16:00:24Z"
+        },
         {
           "key": "IPD-477",
           "title": "[空闲检测] 2026-10-11 leader 两小时正点检查与加派",
@@ -432,12 +441,6 @@
           "title": "[Dev] REQ-021 心情打卡/情绪追踪 四维归因+skill优化+复测（第21场景·gate",
           "status": "in_progress",
           "updated_at": "2026-10-11T12:42:08Z"
-        },
-        {
-          "key": "IPD-470",
-          "title": "[SE] REQ-022 节拍器 追踪矩阵 v1.0（第22场景·audio·gated on SA",
-          "status": "in_review",
-          "updated_at": "2026-10-11T12:33:29Z"
         }
       ]
     }
