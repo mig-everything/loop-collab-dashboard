@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T04:35:39Z",
+  "generated_at": "2026-10-11T04:44:53Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -348,10 +348,9 @@
           "role": "IPD-SE 系统工程师",
           "model": "zai:glm-5.3",
           "agent_id": "b874ba6b-80e6-45c6-a8c6-aedc6f2b326b",
-          "state": "working",
-          "issue": "IPD-459",
-          "issue_title": "[SE] REQ-021 心情打卡/情绪追踪 追踪矩阵 v1.0（第21场景·note·gated on SA 契约）",
-          "since": "2026-10-11T04:33:24Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "hermes-dev",
@@ -359,9 +358,10 @@
           "role": "IPD-Dev 开发工程师",
           "model": "zai:glm-5.3",
           "agent_id": "44fcec25-d8b3-4af6-b206-1774a64677ce",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-460",
+          "issue_title": "[Dev] REQ-021 心情打卡/情绪追踪 双端生成+构建+运行+四维度量（第21场景·实验·gated on SE",
+          "since": "2026-10-11T04:42:14Z"
         },
         {
           "name": "hermes-tester",
@@ -405,17 +405,23 @@
         }
       ],
       "issue_counts": {
-        "todo": 8,
+        "todo": 7,
         "in_progress": 4,
-        "in_review": 2,
+        "in_review": 3,
         "done": 83
       },
       "latest_issues": [
         {
+          "key": "IPD-460",
+          "title": "[Dev] REQ-021 心情打卡/情绪追踪 双端生成+构建+运行+四维度量（第21场景·实验·g",
+          "status": "in_progress",
+          "updated_at": "2026-10-11T04:42:51Z"
+        },
+        {
           "key": "IPD-459",
           "title": "[SE] REQ-021 心情打卡/情绪追踪 追踪矩阵 v1.0（第21场景·note·gated ",
-          "status": "in_progress",
-          "updated_at": "2026-10-11T04:33:50Z"
+          "status": "in_review",
+          "updated_at": "2026-10-11T04:42:12Z"
         },
         {
           "key": "IPD-458",
@@ -434,12 +440,6 @@
           "title": "[PM] REQ-021 心情打卡/情绪追踪 预研+PRD+TR-Req+契约冻结（第21场景·no",
           "status": "in_review",
           "updated_at": "2026-10-11T04:22:06Z"
-        },
-        {
-          "key": "IPD-463",
-          "title": "[Dev] REQ-021 心情打卡/情绪追踪 四维归因+skill优化+复测（第21场景·gate",
-          "status": "backlog",
-          "updated_at": "2026-10-11T04:07:33Z"
         }
       ]
     }
