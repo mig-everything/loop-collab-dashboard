@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T22:03:07Z",
+  "generated_at": "2026-10-11T22:06:51Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -37,24 +37,23 @@
           "role": "DeepSeek Task Planner（任务规划+总结）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "04a4e04e-59d5-4f3a-8a16-acf99b80a493",
-          "state": "working",
-          "issue": "SUR-326",
-          "issue_title": "[空闲检测] 2026-10-12 leader 两小时正点检查与加派",
-          "since": "2026-10-11T22:00:16Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         }
       ],
       "issue_counts": {
-        "todo": 3,
+        "todo": 2,
         "in_progress": 0,
         "in_review": 2,
-        "done": 94
+        "done": 95
       },
       "latest_issues": [
         {
           "key": "SUR-326",
           "title": "[空闲检测] 2026-10-12 leader 两小时正点检查与加派",
-          "status": "todo",
-          "updated_at": "2026-10-11T22:00:15Z"
+          "status": "done",
+          "updated_at": "2026-10-11T22:04:36Z"
         },
         {
           "key": "SUR-324",
@@ -211,10 +210,9 @@
           "role": "DeepSeek Planner（小组 leader/PM，",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "950ff614-521d-4e32-a02d-423d41a7b2b3",
-          "state": "working",
-          "issue": "DWM-299",
-          "issue_title": "[空闲检测] 2026-10-12 leader 两小时正点检查与加派",
-          "since": "2026-10-11T22:00:14Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "dw-lead",
@@ -268,17 +266,17 @@
         }
       ],
       "issue_counts": {
-        "todo": 1,
+        "todo": 0,
         "in_progress": 0,
         "in_review": 0,
-        "done": 77
+        "done": 78
       },
       "latest_issues": [
         {
           "key": "DWM-299",
           "title": "[空闲检测] 2026-10-12 leader 两小时正点检查与加派",
-          "status": "todo",
-          "updated_at": "2026-10-11T22:00:13Z"
+          "status": "done",
+          "updated_at": "2026-10-11T22:03:52Z"
         },
         {
           "key": "DWM-298",
