@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T02:05:46Z",
+  "generated_at": "2026-10-11T02:09:35Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -27,9 +27,10 @@
           "role": "Kimi Adversarial Reviewer（对抗评审",
           "model": "",
           "agent_id": "6e530cc6-6b9d-4398-936d-df9c13468125",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "SUR-307",
+          "issue_title": "[评审][day-17] SUR-303 修复复核：SUR-304 打回 P1×2+P2×3 闭环验证（口径7/11/1",
+          "since": "2026-10-11T02:08:30Z"
         },
         {
           "name": "deepseek-planner",
@@ -37,24 +38,29 @@
           "role": "DeepSeek Task Planner（任务规划+总结）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "04a4e04e-59d5-4f3a-8a16-acf99b80a493",
-          "state": "working",
-          "issue": "SUR-306",
-          "issue_title": "[空闲检测] 2026-10-11 leader 两小时正点检查与加派",
-          "since": "2026-10-11T02:00:18Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         }
       ],
       "issue_counts": {
-        "todo": 1,
-        "in_progress": 0,
+        "todo": 0,
+        "in_progress": 1,
         "in_review": 1,
         "done": 97
       },
       "latest_issues": [
         {
+          "key": "SUR-307",
+          "title": "[评审][day-17] SUR-303 修复复核：SUR-304 打回 P1×2+P2×3 闭环验",
+          "status": "in_progress",
+          "updated_at": "2026-10-11T02:08:55Z"
+        },
+        {
           "key": "SUR-306",
           "title": "[空闲检测] 2026-10-11 leader 两小时正点检查与加派",
-          "status": "todo",
-          "updated_at": "2026-10-11T02:00:17Z"
+          "status": "done",
+          "updated_at": "2026-10-11T02:08:48Z"
         },
         {
           "key": "SUR-303",
@@ -73,12 +79,6 @@
           "title": "[评审][day-17] 对抗评审：正文重写第2批（第3章五阶段可证伪性+RQ2局部→整体证据链+跨",
           "status": "done",
           "updated_at": "2026-10-11T00:05:09Z"
-        },
-        {
-          "key": "SUR-301",
-          "title": "[评审][day-17] 对抗评审：正文重写第1批（范围一致性+RQ充分性+五阶段依据可证伪性，口径",
-          "status": "done",
-          "updated_at": "2026-10-11T00:05:08Z"
         }
       ],
       "progress_note": "day-4 晨 37% → 午 42% → 晚 44% → 夜 47%",
@@ -211,7 +211,7 @@
           "role": "DeepSeek Planner（小组 leader/PM，",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "950ff614-521d-4e32-a02d-423d41a7b2b3",
-          "state": "working",
+          "state": "idle",
           "issue": "",
           "issue_title": ""
         },
