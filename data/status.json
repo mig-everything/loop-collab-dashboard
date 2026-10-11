@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T16:25:28Z",
+  "generated_at": "2026-10-11T16:37:21Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -367,10 +367,9 @@
           "role": "IPD-Tester 测试工程师",
           "model": "zai:glm-5.3",
           "agent_id": "86df9f14-a2cd-46d9-ad15-dbe8606ebd73",
-          "state": "working",
-          "issue": "IPD-472",
-          "issue_title": "[Tester] REQ-022 节拍器 TR-Accept 差分+双端对比报告（第22场景收口·gated on De",
-          "since": "2026-10-11T16:11:50Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "hermes-rm",
