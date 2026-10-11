@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T04:05:07Z",
+  "generated_at": "2026-10-11T04:09:56Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -17,9 +17,10 @@
           "role": "GPT Writer（执笔者）",
           "model": "gpt-6-luna",
           "agent_id": "58ed4647-32dd-4ca1-8ddc-194b975d6024",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "SUR-309",
+          "issue_title": "[任务][day-17] 正文重写第3批：第4章关键使能技术（RQ3 机制综合）+附录B扩展（口径4/6）",
+          "since": "2026-10-11T04:05:54Z"
         },
         {
           "name": "kimi-adversary",
@@ -37,48 +38,47 @@
           "role": "DeepSeek Task Planner（任务规划+总结）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "04a4e04e-59d5-4f3a-8a16-acf99b80a493",
-          "state": "working",
-          "issue": "SUR-308",
-          "issue_title": "[午会纪要] 2026-10-11",
-          "since": "2026-10-11T04:00:16Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         }
       ],
       "issue_counts": {
-        "todo": 1,
+        "todo": 2,
         "in_progress": 0,
-        "in_review": 2,
-        "done": 96
+        "in_review": 0,
+        "done": 97
       },
       "latest_issues": [
         {
           "key": "SUR-308",
           "title": "[午会纪要] 2026-10-11",
-          "status": "todo",
-          "updated_at": "2026-10-11T04:00:15Z"
-        },
-        {
-          "key": "SUR-307",
-          "title": "[评审][day-17] SUR-303 修复复核：SUR-304 打回 P1×2+P2×3 闭环验",
-          "status": "in_review",
-          "updated_at": "2026-10-11T02:12:56Z"
-        },
-        {
-          "key": "SUR-306",
-          "title": "[空闲检测] 2026-10-11 leader 两小时正点检查与加派",
           "status": "done",
-          "updated_at": "2026-10-11T02:08:48Z"
+          "updated_at": "2026-10-11T04:06:48Z"
+        },
+        {
+          "key": "SUR-310",
+          "title": "[评审][day-17] 对抗评审：正文重写第3批（第4章关键使能技术 RQ3 机制综合，口径7/1",
+          "status": "backlog",
+          "updated_at": "2026-10-11T04:05:59Z"
+        },
+        {
+          "key": "SUR-309",
+          "title": "[任务][day-17] 正文重写第3批：第4章关键使能技术（RQ3 机制综合）+附录B扩展（口径4",
+          "status": "todo",
+          "updated_at": "2026-10-11T04:05:53Z"
         },
         {
           "key": "SUR-303",
           "title": "[任务][day-17] 正文重写第2批：第3章 pipeline（五阶段主线+RQ2局部→集成衔接",
-          "status": "in_review",
-          "updated_at": "2026-10-11T00:14:02Z"
+          "status": "done",
+          "updated_at": "2026-10-11T04:05:47Z"
         },
         {
-          "key": "SUR-305",
-          "title": "[巡检] 2026-10-11 leader Issue 状态巡检与催办",
+          "key": "SUR-307",
+          "title": "[评审][day-17] SUR-303 修复复核：SUR-304 打回 P1×2+P2×3 闭环验",
           "status": "done",
-          "updated_at": "2026-10-11T00:05:49Z"
+          "updated_at": "2026-10-11T04:05:46Z"
         }
       ],
       "progress_note": "day-4 晨 37% → 午 42% → 晚 44% → 夜 47%",
@@ -90,8 +90,8 @@
       "workspace": "ws-benchmark-loop",
       "machine": "张涛 Mac Studio",
       "machine_online": true,
-      "meeting_active": true,
-      "meeting_title": "[午会纪要] 2026-10-11",
+      "meeting_active": false,
+      "meeting_title": "",
       "progress": 90,
       "agents": [
         {
@@ -122,10 +122,9 @@
           "role": "DeepSeek Planner（小组 leader/PM）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "547cd361-ef50-4965-9477-bc659d8a1708",
-          "state": "working",
-          "issue": "BEN-279",
-          "issue_title": "[午会纪要] 2026-10-11",
-          "since": "2026-10-11T04:00:17Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "minimax-visual-diff",
@@ -144,18 +143,24 @@
           "role": "只读洞察项目目标与执行证据，用简单语言汇报进展、偏差和阻塞，",
           "model": "gpt-6-astra",
           "agent_id": "33b902ee-a4ca-46ae-9284-c8285311c687",
-          "state": "meeting",
+          "state": "idle",
           "issue": "",
           "issue_title": ""
         }
       ],
       "issue_counts": {
         "todo": 5,
-        "in_progress": 3,
+        "in_progress": 2,
         "in_review": 0,
-        "done": 92
+        "done": 93
       },
       "latest_issues": [
+        {
+          "key": "BEN-279",
+          "title": "[午会纪要] 2026-10-11",
+          "status": "done",
+          "updated_at": "2026-10-11T04:05:51Z"
+        },
         {
           "key": "BEN-280",
           "title": "[任务·第2轮] 鸿蒙 test 变体扩容：口径⑤ 剩余 7 变体 + SC 收口 + 口径⑥ 全链",
@@ -173,12 +178,6 @@
           "title": "[任务·第2轮] BEN-248 新三数视觉四分类复核 + 新覆盖变体锚定（ref BEN-248/",
           "status": "todo",
           "updated_at": "2026-10-11T04:04:51Z"
-        },
-        {
-          "key": "BEN-279",
-          "title": "[午会纪要] 2026-10-11",
-          "status": "in_progress",
-          "updated_at": "2026-10-11T04:00:48Z"
         },
         {
           "key": "BEN-278",
@@ -323,8 +322,8 @@
       "workspace": "ws-ipd-eazo-loop",
       "machine": "贾博 Mac Mini",
       "machine_online": true,
-      "meeting_active": true,
-      "meeting_title": "[午会纪要] 2026-10-11",
+      "meeting_active": false,
+      "meeting_title": "",
       "progress": 96,
       "agents": [
         {
@@ -333,9 +332,10 @@
           "role": "IPD-PM 产品经理",
           "model": "",
           "agent_id": "1764c131-5c09-48cb-aa48-3177d5256dbb",
-          "state": "meeting",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-457",
+          "issue_title": "[PM] REQ-021 心情打卡/情绪追踪 预研+PRD+TR-Req+契约冻结（第21场景·note·第2轮新需求B",
+          "since": "2026-10-11T04:06:16Z"
         },
         {
           "name": "hermes-sa",
@@ -343,9 +343,10 @@
           "role": "IPD-SA 解决方案架构师",
           "model": "zai:glm-5.3",
           "agent_id": "3e4373ef-a262-4b28-ab2a-818861fc9624",
-          "state": "meeting",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-456",
+          "issue_title": "[午会纪要] 2026-10-11",
+          "since": "2026-10-11T04:08:47Z"
         },
         {
           "name": "hermes-se",
@@ -353,9 +354,10 @@
           "role": "IPD-SE 系统工程师",
           "model": "zai:glm-5.3",
           "agent_id": "b874ba6b-80e6-45c6-a8c6-aedc6f2b326b",
-          "state": "meeting",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-456",
+          "issue_title": "[午会纪要] 2026-10-11",
+          "since": "2026-10-11T04:08:47Z"
         },
         {
           "name": "hermes-dev",
@@ -363,7 +365,7 @@
           "role": "IPD-Dev 开发工程师",
           "model": "zai:glm-5.3",
           "agent_id": "44fcec25-d8b3-4af6-b206-1774a64677ce",
-          "state": "meeting",
+          "state": "idle",
           "issue": "",
           "issue_title": ""
         },
@@ -373,7 +375,7 @@
           "role": "IPD-Tester 测试工程师",
           "model": "zai:glm-5.3",
           "agent_id": "86df9f14-a2cd-46d9-ad15-dbe8606ebd73",
-          "state": "meeting",
+          "state": "idle",
           "issue": "",
           "issue_title": ""
         },
@@ -383,9 +385,10 @@
           "role": "IPD-RM 发布经理",
           "model": "zai:glm-5.3",
           "agent_id": "78156461-9644-478e-9c80-53cd18e25e33",
-          "state": "meeting",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-456",
+          "issue_title": "[午会纪要] 2026-10-11",
+          "since": "2026-10-11T04:08:47Z"
         },
         {
           "name": "deepseek-planner",
@@ -393,10 +396,9 @@
           "role": "DeepSeek Planner（小组 leader/PM ",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
-          "state": "working",
-          "issue": "IPD-456",
-          "issue_title": "[午会纪要] 2026-10-11",
-          "since": "2026-10-11T04:00:24Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "minimax-uijudge",
@@ -404,47 +406,47 @@
           "role": "MiniMax 多模态 UI 视觉评审",
           "model": "minimax-cn:MiniMax-M3",
           "agent_id": "97f55294-90e0-4556-93af-a1cf44889574",
-          "state": "meeting",
+          "state": "idle",
           "issue": "",
           "issue_title": ""
         }
       ],
       "issue_counts": {
-        "todo": 4,
-        "in_progress": 4,
+        "todo": 11,
+        "in_progress": 3,
         "in_review": 0,
-        "done": 89
+        "done": 83
       },
       "latest_issues": [
         {
-          "key": "IPD-446",
-          "title": "[Dev] REQ-020 抽奖转盘 双端生成+构建+运行+四维度量（第20场景·实验·gated ",
-          "status": "done",
-          "updated_at": "2026-10-11T04:05:14Z"
-        },
-        {
-          "key": "IPD-434",
-          "title": "[SE] REQ-019 二维码生成器 追踪矩阵 v1.0（第19场景·gated on SA 契约",
-          "status": "done",
-          "updated_at": "2026-10-11T04:05:14Z"
-        },
-        {
-          "key": "IPD-433",
-          "title": "[SA] REQ-019 二维码生成器 TR-Design 六件套+契约 v1.0（第19场景·to",
-          "status": "done",
-          "updated_at": "2026-10-11T04:05:11Z"
-        },
-        {
           "key": "IPD-456",
           "title": "[午会纪要] 2026-10-11",
-          "status": "in_progress",
-          "updated_at": "2026-10-11T04:05:09Z"
+          "status": "done",
+          "updated_at": "2026-10-11T04:09:03Z"
         },
         {
-          "key": "IPD-455",
-          "title": "[空闲检测] 2026-10-11 leader 两小时正点检查与加派",
-          "status": "done",
-          "updated_at": "2026-10-11T02:02:52Z"
+          "key": "IPD-463",
+          "title": "[Dev] REQ-021 心情打卡/情绪追踪 四维归因+skill优化+复测（第21场景·gate",
+          "status": "backlog",
+          "updated_at": "2026-10-11T04:07:33Z"
+        },
+        {
+          "key": "IPD-462",
+          "title": "[uijudge] REQ-021 心情打卡/情绪追踪 双端视觉评审（第21场景 UI维度·gate",
+          "status": "backlog",
+          "updated_at": "2026-10-11T04:07:31Z"
+        },
+        {
+          "key": "IPD-461",
+          "title": "[Tester] REQ-021 心情打卡/情绪追踪 TR-Accept 差分+双端对比报告（第21",
+          "status": "backlog",
+          "updated_at": "2026-10-11T04:07:30Z"
+        },
+        {
+          "key": "IPD-460",
+          "title": "[Dev] REQ-021 心情打卡/情绪追踪 双端生成+构建+运行+四维度量（第21场景·实验·g",
+          "status": "backlog",
+          "updated_at": "2026-10-11T04:07:29Z"
         }
       ]
     }
