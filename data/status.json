@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T00:18:16Z",
+  "generated_at": "2026-10-11T00:22:02Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -347,10 +347,9 @@
           "role": "IPD-SE 系统工程师",
           "model": "zai:glm-5.3",
           "agent_id": "b874ba6b-80e6-45c6-a8c6-aedc6f2b326b",
-          "state": "working",
-          "issue": "IPD-434",
-          "issue_title": "[SE] REQ-019 二维码生成器 追踪矩阵 v1.0（第19场景·gated on SA 契约）",
-          "since": "2026-10-11T00:09:25Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "hermes-dev",
@@ -358,9 +357,10 @@
           "role": "IPD-Dev 开发工程师",
           "model": "zai:glm-5.3",
           "agent_id": "44fcec25-d8b3-4af6-b206-1774a64677ce",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-435",
+          "issue_title": "[Dev] REQ-019 二维码生成器 双端生成+构建+运行+四维度量（第19场景·实验·gated on SE）",
+          "since": "2026-10-11T00:21:05Z"
         },
         {
           "name": "hermes-tester",
@@ -404,12 +404,24 @@
         }
       ],
       "issue_counts": {
-        "todo": 5,
+        "todo": 4,
         "in_progress": 3,
-        "in_review": 2,
+        "in_review": 3,
         "done": 87
       },
       "latest_issues": [
+        {
+          "key": "IPD-435",
+          "title": "[Dev] REQ-019 二维码生成器 双端生成+构建+运行+四维度量（第19场景·实验·gate",
+          "status": "in_progress",
+          "updated_at": "2026-10-11T00:21:33Z"
+        },
+        {
+          "key": "IPD-434",
+          "title": "[SE] REQ-019 二维码生成器 追踪矩阵 v1.0（第19场景·gated on SA 契约",
+          "status": "in_review",
+          "updated_at": "2026-10-11T00:21:26Z"
+        },
         {
           "key": "IPD-447",
           "title": "[Tester] REQ-020 抽奖转盘 TR-Accept 差分+双端对比报告（第20场景收口·",
@@ -423,22 +435,10 @@
           "updated_at": "2026-10-11T00:12:05Z"
         },
         {
-          "key": "IPD-434",
-          "title": "[SE] REQ-019 二维码生成器 追踪矩阵 v1.0（第19场景·gated on SA 契约",
-          "status": "in_progress",
-          "updated_at": "2026-10-11T00:10:06Z"
-        },
-        {
           "key": "IPD-433",
           "title": "[SA] REQ-019 二维码生成器 TR-Design 六件套+契约 v1.0（第19场景·to",
           "status": "in_review",
           "updated_at": "2026-10-11T00:09:44Z"
-        },
-        {
-          "key": "IPD-446",
-          "title": "[Dev] REQ-020 抽奖转盘 双端生成+构建+运行+四维度量（第20场景·实验·gated ",
-          "status": "in_review",
-          "updated_at": "2026-10-11T00:05:24Z"
         }
       ]
     }
