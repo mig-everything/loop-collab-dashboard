@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T04:37:16Z",
+  "generated_at": "2026-10-12T04:41:13Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -407,11 +407,17 @@
       ],
       "issue_counts": {
         "todo": 10,
-        "in_progress": 2,
-        "in_review": 3,
+        "in_progress": 1,
+        "in_review": 4,
         "done": 84
       },
       "latest_issues": [
+        {
+          "key": "IPD-474",
+          "title": "[Dev] REQ-022 节拍器 四维负差归因+编码skill优化+同需求复测（第22场景·优化闭",
+          "status": "in_review",
+          "updated_at": "2026-10-12T04:41:48Z"
+        },
         {
           "key": "IPD-493",
           "title": "[SA] REQ-024 新需求B 货币换算器 TR-Design 六件套+契约 v1.0（第24场",
@@ -435,12 +441,6 @@
           "title": "[uijudge] REQ-023 新需求A 双端视觉评审（第23场景 UI维度·gated on ",
           "status": "in_review",
           "updated_at": "2026-10-12T04:23:46Z"
-        },
-        {
-          "key": "IPD-484",
-          "title": "[Tester] REQ-023 新需求A TR-Accept 差分+双端对比报告（第23场景收口·",
-          "status": "in_review",
-          "updated_at": "2026-10-12T04:13:18Z"
         }
       ]
     }
