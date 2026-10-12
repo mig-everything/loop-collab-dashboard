@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T04:41:13Z",
+  "generated_at": "2026-10-12T04:45:13Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -27,10 +27,9 @@
           "role": "Kimi Adversarial Reviewer（对抗评审",
           "model": "",
           "agent_id": "6e530cc6-6b9d-4398-936d-df9c13468125",
-          "state": "working",
-          "issue": "SUR-331",
-          "issue_title": "[评审][day-18] 对抗评审：第6-8章后端结构对齐（口径1/4/6/7/12）",
-          "since": "2026-10-12T04:33:38Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "deepseek-planner",
@@ -45,11 +44,17 @@
       ],
       "issue_counts": {
         "todo": 3,
-        "in_progress": 1,
+        "in_progress": 0,
         "in_review": 0,
         "done": 95
       },
       "latest_issues": [
+        {
+          "key": "SUR-331",
+          "title": "[评审][day-18] 对抗评审：第6-8章后端结构对齐（口径1/4/6/7/12）",
+          "status": "blocked",
+          "updated_at": "2026-10-12T04:41:49Z"
+        },
         {
           "key": "SUR-330",
           "title": "[任务][day-18] 第6-8章后端结构对齐：移动专题决策 + 综合发现/开放问题 + 结论",
@@ -61,12 +66,6 @@
           "title": "[午会纪要] 2026-10-12",
           "status": "done",
           "updated_at": "2026-10-12T04:36:17Z"
-        },
-        {
-          "key": "SUR-331",
-          "title": "[评审][day-18] 对抗评审：第6-8章后端结构对齐（口径1/4/6/7/12）",
-          "status": "in_progress",
-          "updated_at": "2026-10-12T04:33:53Z"
         },
         {
           "key": "SUR-328",
@@ -359,10 +358,9 @@
           "role": "IPD-Dev 开发工程师",
           "model": "zai:glm-5.3",
           "agent_id": "44fcec25-d8b3-4af6-b206-1774a64677ce",
-          "state": "working",
-          "issue": "IPD-474",
-          "issue_title": "[Dev] REQ-022 节拍器 四维负差归因+编码skill优化+同需求复测（第22场景·优化闭环·gated on",
-          "since": "2026-10-12T04:09:12Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "hermes-tester",
