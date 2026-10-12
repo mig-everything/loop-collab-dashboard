@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T13:52:10Z",
+  "generated_at": "2026-10-12T14:00:58Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -37,18 +37,25 @@
           "role": "DeepSeek Task Planner（任务规划+总结）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "04a4e04e-59d5-4f3a-8a16-acf99b80a493",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "SUR-336",
+          "issue_title": "[空闲检测] 2026-10-12 leader 两小时正点检查与加派",
+          "since": "2026-10-12T14:00:21Z"
         }
       ],
       "issue_counts": {
-        "todo": 3,
+        "todo": 4,
         "in_progress": 0,
         "in_review": 0,
-        "done": 95
+        "done": 94
       },
       "latest_issues": [
+        {
+          "key": "SUR-336",
+          "title": "[空闲检测] 2026-10-12 leader 两小时正点检查与加派",
+          "status": "todo",
+          "updated_at": "2026-10-12T14:00:17Z"
+        },
         {
           "key": "SUR-335",
           "title": "[晚会日报] 2026-10-12",
@@ -72,12 +79,6 @@
           "title": "[空闲检测] 2026-10-12 leader 两小时正点检查与加派",
           "status": "done",
           "updated_at": "2026-10-12T10:18:06Z"
-        },
-        {
-          "key": "SUR-332",
-          "title": "[空闲检测] 2026-10-12 leader 两小时正点检查与加派",
-          "status": "done",
-          "updated_at": "2026-10-12T07:21:54Z"
         }
       ],
       "progress_note": "day-4 晨 37% → 午 42% → 晚 44% → 夜 47%",
@@ -210,9 +211,10 @@
           "role": "DeepSeek Planner（小组 leader/PM，",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "950ff614-521d-4e32-a02d-423d41a7b2b3",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "DWM-307",
+          "issue_title": "[空闲检测] 2026-10-12 leader 两小时正点检查与加派",
+          "since": "2026-10-12T14:00:18Z"
         },
         {
           "name": "dw-lead",
@@ -266,12 +268,18 @@
         }
       ],
       "issue_counts": {
-        "todo": 0,
+        "todo": 1,
         "in_progress": 0,
         "in_review": 0,
         "done": 81
       },
       "latest_issues": [
+        {
+          "key": "DWM-307",
+          "title": "[空闲检测] 2026-10-12 leader 两小时正点检查与加派",
+          "status": "todo",
+          "updated_at": "2026-10-12T14:00:15Z"
+        },
         {
           "key": "DWM-306",
           "title": "[晚会日报] 2026-10-12",
@@ -295,12 +303,6 @@
           "title": "[空闲检测] 2026-10-12 leader 两小时正点检查与加派",
           "status": "done",
           "updated_at": "2026-10-12T07:22:45Z"
-        },
-        {
-          "key": "DWM-302",
-          "title": "[午会纪要] 2026-10-12",
-          "status": "done",
-          "updated_at": "2026-10-12T04:33:55Z"
         }
       ],
       "order": {
@@ -387,9 +389,10 @@
           "role": "DeepSeek Planner（小组 leader/PM ",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-512",
+          "issue_title": "[空闲检测] 2026-10-12 leader 两小时正点检查与加派",
+          "since": "2026-10-12T14:00:28Z"
         },
         {
           "name": "minimax-uijudge",
@@ -403,12 +406,18 @@
         }
       ],
       "issue_counts": {
-        "todo": 14,
+        "todo": 15,
         "in_progress": 1,
         "in_review": 3,
-        "done": 82
+        "done": 81
       },
       "latest_issues": [
+        {
+          "key": "IPD-512",
+          "title": "[空闲检测] 2026-10-12 leader 两小时正点检查与加派",
+          "status": "todo",
+          "updated_at": "2026-10-12T14:00:26Z"
+        },
         {
           "key": "IPD-510",
           "title": "[Tester] REQ-024 货币换算器 TR-Accept 差分+双端对比报告（第24场景收口",
@@ -432,12 +441,6 @@
           "title": "[Dev] REQ-024 新需求B 货币换算器 双端生成+构建+运行+四维度量（第24场景·实验·",
           "status": "in_review",
           "updated_at": "2026-10-12T12:18:48Z"
-        },
-        {
-          "key": "IPD-511",
-          "title": "[uijudge] REQ-024 货币换算器 双端视觉评审（第24场景 UI维度·gated on",
-          "status": "backlog",
-          "updated_at": "2026-10-12T12:18:29Z"
         }
       ],
       "progress_note": "草稿 · 夜间第3轮未并入 · 次日 04:00 定稿"
