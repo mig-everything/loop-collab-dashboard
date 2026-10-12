@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T12:23:18Z",
+  "generated_at": "2026-10-12T12:28:00Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -329,10 +329,9 @@
           "role": "IPD-PM 产品经理",
           "model": "",
           "agent_id": "1764c131-5c09-48cb-aa48-3177d5256dbb",
-          "state": "working",
-          "issue": "IPD-503",
-          "issue_title": "[PM] REQ-025 新需求C 跑步配速 预研+PRD+TR-Req+契约冻结（第25场景·health·口径15 ",
-          "since": "2026-10-12T12:10:19Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "hermes-sa",
@@ -360,10 +359,9 @@
           "role": "IPD-Dev 开发工程师",
           "model": "zai:glm-5.3",
           "agent_id": "44fcec25-d8b3-4af6-b206-1774a64677ce",
-          "state": "working",
-          "issue": "IPD-486",
-          "issue_title": "[Dev] REQ-023 新需求A 四维负差归因+编码skill优化+同需求复测（第23场景·优化闭环·gated o",
-          "since": "2026-10-12T12:08:13Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "hermes-tester",
@@ -409,16 +407,22 @@
       ],
       "issue_counts": {
         "todo": 14,
-        "in_progress": 3,
-        "in_review": 1,
+        "in_progress": 1,
+        "in_review": 3,
         "done": 82
       },
       "latest_issues": [
         {
+          "key": "IPD-486",
+          "title": "[Dev] REQ-023 新需求A 四维负差归因+编码skill优化+同需求复测（第23场景·优化",
+          "status": "in_review",
+          "updated_at": "2026-10-12T12:28:02Z"
+        },
+        {
           "key": "IPD-503",
           "title": "[PM] REQ-025 新需求C 跑步配速 预研+PRD+TR-Req+契约冻结（第25场景·he",
-          "status": "in_progress",
-          "updated_at": "2026-10-12T12:20:27Z"
+          "status": "in_review",
+          "updated_at": "2026-10-12T12:27:20Z"
         },
         {
           "key": "IPD-510",
@@ -437,12 +441,6 @@
           "title": "[uijudge] REQ-024 货币换算器 双端视觉评审（第24场景 UI维度·gated on",
           "status": "backlog",
           "updated_at": "2026-10-12T12:18:29Z"
-        },
-        {
-          "key": "IPD-502",
-          "title": "[晚会日报] 2026-10-12",
-          "status": "done",
-          "updated_at": "2026-10-12T12:12:34Z"
         }
       ],
       "progress_note": "草稿 · 夜间第3轮未并入 · 次日 04:00 定稿"
