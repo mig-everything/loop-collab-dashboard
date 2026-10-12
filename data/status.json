@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T00:17:15Z",
+  "generated_at": "2026-10-12T00:24:39Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -357,10 +357,9 @@
           "role": "IPD-Dev 开发工程师",
           "model": "zai:glm-5.3",
           "agent_id": "44fcec25-d8b3-4af6-b206-1774a64677ce",
-          "state": "working",
-          "issue": "IPD-474",
-          "issue_title": "[Dev] REQ-022 节拍器 四维负差归因+编码skill优化+同需求复测（第22场景·优化闭环·gated on",
-          "since": "2026-10-12T00:08:57Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "hermes-tester",
@@ -412,6 +411,12 @@
       },
       "latest_issues": [
         {
+          "key": "IPD-474",
+          "title": "[Dev] REQ-022 节拍器 四维负差归因+编码skill优化+同需求复测（第22场景·优化闭",
+          "status": "in_progress",
+          "updated_at": "2026-10-12T00:22:34Z"
+        },
+        {
           "key": "IPD-484",
           "title": "[Tester] REQ-023 新需求A TR-Accept 差分+双端对比报告（第23场景收口·",
           "status": "todo",
@@ -428,12 +433,6 @@
           "title": "[uijudge] REQ-022 节拍器 双端视觉评审（第22场景 UI维度·gated on D",
           "status": "done",
           "updated_at": "2026-10-12T00:14:31Z"
-        },
-        {
-          "key": "IPD-474",
-          "title": "[Dev] REQ-022 节拍器 四维负差归因+编码skill优化+同需求复测（第22场景·优化闭",
-          "status": "in_progress",
-          "updated_at": "2026-10-12T00:14:23Z"
         },
         {
           "key": "IPD-489",
