@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T14:30:54Z",
+  "generated_at": "2026-10-12T14:51:23Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -44,12 +44,18 @@
         }
       ],
       "issue_counts": {
-        "todo": 3,
+        "todo": 2,
         "in_progress": 0,
-        "in_review": 0,
+        "in_review": 1,
         "done": 95
       },
       "latest_issues": [
+        {
+          "key": "SUR-330",
+          "title": "[任务][day-18] 第6-8章后端结构对齐：移动专题决策 + 综合发现/开放问题 + 结论",
+          "status": "in_review",
+          "updated_at": "2026-10-12T14:51:21Z"
+        },
         {
           "key": "SUR-336",
           "title": "[空闲检测] 2026-10-12 leader 两小时正点检查与加派",
@@ -66,12 +72,6 @@
           "key": "SUR-333",
           "title": "[巡检] 2026-10-12 leader Issue 状态巡检与催办",
           "status": "done",
-          "updated_at": "2026-10-12T10:32:01Z"
-        },
-        {
-          "key": "SUR-330",
-          "title": "[任务][day-18] 第6-8章后端结构对齐：移动专题决策 + 综合发现/开放问题 + 结论",
-          "status": "todo",
           "updated_at": "2026-10-12T10:32:01Z"
         },
         {
