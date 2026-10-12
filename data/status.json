@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T20:10:10Z",
+  "generated_at": "2026-10-12T20:13:53Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -28,10 +28,9 @@
           "role": "Kimi Adversarial Reviewer（对抗评审",
           "model": "",
           "agent_id": "6e530cc6-6b9d-4398-936d-df9c13468125",
-          "state": "working",
-          "issue": "SUR-339",
-          "issue_title": "[评审][day-19] 复评 SUR-330 修复 ec5da5a + 口径12 范围一致性/RQ充分性专项评审",
-          "since": "2026-10-12T20:05:55Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "deepseek-planner",
@@ -46,11 +45,17 @@
       ],
       "issue_counts": {
         "todo": 2,
-        "in_progress": 1,
-        "in_review": 1,
+        "in_progress": 0,
+        "in_review": 2,
         "done": 95
       },
       "latest_issues": [
+        {
+          "key": "SUR-339",
+          "title": "[评审][day-19] 复评 SUR-330 修复 ec5da5a + 口径12 范围一致性/RQ",
+          "status": "in_review",
+          "updated_at": "2026-10-12T20:11:06Z"
+        },
         {
           "key": "SUR-338",
           "title": "[晨会纪要] 2026-10-13",
@@ -74,12 +79,6 @@
           "title": "[评审][day-19] 成对评审 SUR-340 收尾（投稿清单新口径 + 篇幅 + 口径3清理）",
           "status": "backlog",
           "updated_at": "2026-10-12T20:07:34Z"
-        },
-        {
-          "key": "SUR-339",
-          "title": "[评审][day-19] 复评 SUR-330 修复 ec5da5a + 口径12 范围一致性/RQ",
-          "status": "in_progress",
-          "updated_at": "2026-10-12T20:06:27Z"
         }
       ],
       "progress_note": "day-4 晨 37% → 午 42% → 晚 44% → 夜 47%",
@@ -330,10 +329,9 @@
           "role": "IPD-PM 产品经理",
           "model": "",
           "agent_id": "1764c131-5c09-48cb-aa48-3177d5256dbb",
-          "state": "working",
-          "issue": "IPD-515",
-          "issue_title": "[PM] REQ-026 新需求A 2048数字游戏 预研+PRD+TR-Req+契约冻结（第26场景·game·口径1",
-          "since": "2026-10-12T20:06:46Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "hermes-sa",
@@ -410,16 +408,16 @@
       ],
       "issue_counts": {
         "todo": 16,
-        "in_progress": 1,
-        "in_review": 0,
+        "in_progress": 0,
+        "in_review": 1,
         "done": 81
       },
       "latest_issues": [
         {
           "key": "IPD-515",
           "title": "[PM] REQ-026 新需求A 2048数字游戏 预研+PRD+TR-Req+契约冻结（第26场",
-          "status": "in_progress",
-          "updated_at": "2026-10-12T20:10:22Z"
+          "status": "in_review",
+          "updated_at": "2026-10-12T20:14:10Z"
         },
         {
           "key": "IPD-514",
