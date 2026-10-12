@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T00:06:07Z",
+  "generated_at": "2026-10-12T00:09:51Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -358,9 +358,9 @@
           "model": "zai:glm-5.3",
           "agent_id": "44fcec25-d8b3-4af6-b206-1774a64677ce",
           "state": "working",
-          "issue": "IPD-483",
-          "issue_title": "[Dev] REQ-023 新需求A 双端生成+构建+运行+四维度量（第23场景·实验·gated on SE）",
-          "since": "2026-10-12T00:05:36Z"
+          "issue": "IPD-474",
+          "issue_title": "[Dev] REQ-022 节拍器 四维负差归因+编码skill优化+同需求复测（第22场景·优化闭环·gated on",
+          "since": "2026-10-12T00:08:57Z"
         },
         {
           "name": "hermes-tester",
@@ -388,9 +388,10 @@
           "role": "DeepSeek Planner（小组 leader/PM ",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-473",
+          "issue_title": "[uijudge] REQ-022 节拍器 双端视觉评审（第22场景 UI维度·gated on Dev IPD-471",
+          "since": "2026-10-12T00:09:24Z"
         },
         {
           "name": "minimax-uijudge",
@@ -398,24 +399,29 @@
           "role": "MiniMax 多模态 UI 视觉评审",
           "model": "minimax-cn:MiniMax-M3",
           "agent_id": "97f55294-90e0-4556-93af-a1cf44889574",
-          "state": "working",
-          "issue": "IPD-473",
-          "issue_title": "[uijudge] REQ-022 节拍器 双端视觉评审（第22场景 UI维度·gated on Dev IPD-471",
-          "since": "2026-10-12T00:05:36Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         }
       ],
       "issue_counts": {
-        "todo": 8,
+        "todo": 7,
         "in_progress": 2,
-        "in_review": 0,
+        "in_review": 1,
         "done": 89
       },
       "latest_issues": [
         {
+          "key": "IPD-474",
+          "title": "[Dev] REQ-022 节拍器 四维负差归因+编码skill优化+同需求复测（第22场景·优化闭",
+          "status": "in_progress",
+          "updated_at": "2026-10-12T00:09:27Z"
+        },
+        {
           "key": "IPD-473",
           "title": "[uijudge] REQ-022 节拍器 双端视觉评审（第22场景 UI维度·gated on D",
-          "status": "in_progress",
-          "updated_at": "2026-10-12T00:05:58Z"
+          "status": "in_review",
+          "updated_at": "2026-10-12T00:09:24Z"
         },
         {
           "key": "IPD-489",
@@ -434,12 +440,6 @@
           "title": "[Dev] REQ-020 抽奖转盘 四维负差归因+编码skill优化+同需求复测（第20场景·优化",
           "status": "done",
           "updated_at": "2026-10-12T00:05:19Z"
-        },
-        {
-          "key": "IPD-482",
-          "title": "[SE] REQ-023 新需求A 追踪矩阵 v1.0（第23场景·gated on SA）",
-          "status": "done",
-          "updated_at": "2026-10-12T00:05:18Z"
         }
       ]
     }
