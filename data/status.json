@@ -1,136 +1,23 @@
 {
-  "generated_at": "2026-10-12T10:14:28Z",
+  "generated_at": "2026-10-12T10:27:11Z",
   "tasks": [
     {
       "id": "task1-survey",
       "title": "任务1 · 应用迁移综述",
       "workspace": "ws-survey-loop",
       "machine": "JordanZTdeMacBook-Pro",
-      "machine_online": true,
+      "machine_online": false,
       "meeting_active": false,
       "meeting_title": "",
       "progress": 47,
-      "agents": [
-        {
-          "name": "hermes-pm",
-          "emoji": "🚀",
-          "role": "IPD-PM 产品经理",
-          "model": "",
-          "agent_id": "1764c131-5c09-48cb-aa48-3177d5256dbb",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
-        },
-        {
-          "name": "hermes-sa",
-          "emoji": "🔥",
-          "role": "IPD-SA 解决方案架构师",
-          "model": "zai:glm-5.3",
-          "agent_id": "3e4373ef-a262-4b28-ab2a-818861fc9624",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
-        },
-        {
-          "name": "hermes-se",
-          "emoji": "⚡",
-          "role": "IPD-SE 系统工程师",
-          "model": "zai:glm-5.3",
-          "agent_id": "b874ba6b-80e6-45c6-a8c6-aedc6f2b326b",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
-        },
-        {
-          "name": "hermes-dev",
-          "emoji": "🐨",
-          "role": "IPD-Dev 开发工程师",
-          "model": "zai:glm-5.3",
-          "agent_id": "44fcec25-d8b3-4af6-b206-1774a64677ce",
-          "state": "working",
-          "issue": "IPD-486",
-          "issue_title": "[Dev] REQ-023 新需求A 四维负差归因+编码skill优化+同需求复测（第23场景·优化闭环·gated o",
-          "since": "2026-10-12T08:06:41Z"
-        },
-        {
-          "name": "hermes-tester",
-          "emoji": "🔥",
-          "role": "IPD-Tester 测试工程师",
-          "model": "zai:glm-5.3",
-          "agent_id": "86df9f14-a2cd-46d9-ad15-dbe8606ebd73",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
-        },
-        {
-          "name": "hermes-rm",
-          "emoji": "⚡",
-          "role": "IPD-RM 发布经理",
-          "model": "zai:glm-5.3",
-          "agent_id": "78156461-9644-478e-9c80-53cd18e25e33",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
-        },
-        {
-          "name": "deepseek-planner",
-          "emoji": "🦋",
-          "role": "DeepSeek Planner（小组 leader/PM ",
-          "model": "deepseek:deepseek-v4-pro",
-          "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
-        },
-        {
-          "name": "minimax-uijudge",
-          "emoji": "🐧",
-          "role": "MiniMax 多模态 UI 视觉评审",
-          "model": "minimax-cn:MiniMax-M3",
-          "agent_id": "97f55294-90e0-4556-93af-a1cf44889574",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
-        }
-      ],
+      "agents": [],
       "issue_counts": {
-        "todo": 8,
-        "in_progress": 1,
-        "in_review": 1,
-        "done": 90
+        "todo": 0,
+        "in_progress": 0,
+        "in_review": 0,
+        "done": 0
       },
-      "latest_issues": [
-        {
-          "key": "IPD-501",
-          "title": "[空闲检测] 2026-10-12 leader 两小时正点检查与加派",
-          "status": "done",
-          "updated_at": "2026-10-12T10:02:45Z"
-        },
-        {
-          "key": "IPD-495",
-          "title": "[Dev] REQ-024 新需求B 货币换算器 双端生成+构建+运行+四维度量（第24场景·实验·",
-          "status": "todo",
-          "updated_at": "2026-10-12T09:11:36Z"
-        },
-        {
-          "key": "IPD-494",
-          "title": "[SE] REQ-024 新需求B 货币换算器 追踪矩阵 v1.0（第24场景·finance·ga",
-          "status": "in_review",
-          "updated_at": "2026-10-12T08:30:54Z"
-        },
-        {
-          "key": "IPD-486",
-          "title": "[Dev] REQ-023 新需求A 四维负差归因+编码skill优化+同需求复测（第23场景·优化",
-          "status": "in_progress",
-          "updated_at": "2026-10-12T08:14:28Z"
-        },
-        {
-          "key": "IPD-500",
-          "title": "[巡检] 2026-10-12 leader Issue 状态巡检与催办",
-          "status": "done",
-          "updated_at": "2026-10-12T08:09:35Z"
-        }
-      ],
+      "latest_issues": [],
       "progress_note": "day-4 晨 37% → 午 42% → 晚 44% → 夜 47%",
       "progress_from": "last"
     },
@@ -139,100 +26,30 @@
       "title": "任务2 · 评测集与双端用例",
       "workspace": "ws-benchmark-loop",
       "machine": "张涛 Mac Studio",
-      "machine_online": true,
+      "machine_online": false,
       "meeting_active": false,
       "meeting_title": "",
       "progress": 90,
-      "agents": [
-        {
-          "name": "hermes-pm",
-          "emoji": "🚀",
-          "role": "IPD-PM 产品经理",
-          "model": "",
-          "agent_id": "1764c131-5c09-48cb-aa48-3177d5256dbb",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
-        },
-        {
-          "name": "hermes-sa",
-          "emoji": "🔥",
-          "role": "IPD-SA 解决方案架构师",
-          "model": "zai:glm-5.3",
-          "agent_id": "3e4373ef-a262-4b28-ab2a-818861fc9624",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
-        },
-        {
-          "name": "hermes-se",
-          "emoji": "⚡",
-          "role": "IPD-SE 系统工程师",
-          "model": "zai:glm-5.3",
-          "agent_id": "b874ba6b-80e6-45c6-a8c6-aedc6f2b326b",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
-        },
-        {
-          "name": "hermes-dev",
-          "emoji": "🐨",
-          "role": "IPD-Dev 开发工程师",
-          "model": "zai:glm-5.3",
-          "agent_id": "44fcec25-d8b3-4af6-b206-1774a64677ce",
-          "state": "working",
-          "issue": "IPD-486",
-          "issue_title": "[Dev] REQ-023 新需求A 四维负差归因+编码skill优化+同需求复测（第23场景·优化闭环·gated o",
-          "since": "2026-10-12T08:06:41Z"
-        },
-        {
-          "name": "hermes-tester",
-          "emoji": "🔥",
-          "role": "IPD-Tester 测试工程师",
-          "model": "zai:glm-5.3",
-          "agent_id": "86df9f14-a2cd-46d9-ad15-dbe8606ebd73",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
-        },
-        {
-          "name": "hermes-rm",
-          "emoji": "⚡",
-          "role": "IPD-RM 发布经理",
-          "model": "zai:glm-5.3",
-          "agent_id": "78156461-9644-478e-9c80-53cd18e25e33",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
-        },
-        {
-          "name": "deepseek-planner",
-          "emoji": "🦋",
-          "role": "DeepSeek Planner（小组 leader/PM ",
-          "model": "deepseek:deepseek-v4-pro",
-          "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
-        },
-        {
-          "name": "minimax-uijudge",
-          "emoji": "🐧",
-          "role": "MiniMax 多模态 UI 视觉评审",
-          "model": "minimax-cn:MiniMax-M3",
-          "agent_id": "97f55294-90e0-4556-93af-a1cf44889574",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
-        }
-      ],
+      "agents": [],
       "issue_counts": {
-        "todo": 8,
+        "todo": 0,
         "in_progress": 1,
-        "in_review": 1,
-        "done": 90
+        "in_review": 0,
+        "done": 99
       },
       "latest_issues": [
+        {
+          "key": "IPD-486",
+          "title": "[Dev] REQ-023 新需求A 四维负差归因+编码skill优化+同需求复测（第23场景·优化",
+          "status": "in_progress",
+          "updated_at": "2026-10-12T10:21:42Z"
+        },
+        {
+          "key": "IPD-479",
+          "title": "[早会纪要] 2026-10-12",
+          "status": "done",
+          "updated_at": "2026-10-12T10:21:42Z"
+        },
         {
           "key": "IPD-501",
           "title": "[空闲检测] 2026-10-12 leader 两小时正点检查与加派",
@@ -240,28 +57,16 @@
           "updated_at": "2026-10-12T10:02:45Z"
         },
         {
-          "key": "IPD-495",
-          "title": "[Dev] REQ-024 新需求B 货币换算器 双端生成+构建+运行+四维度量（第24场景·实验·",
-          "status": "todo",
-          "updated_at": "2026-10-12T09:11:36Z"
-        },
-        {
-          "key": "IPD-494",
-          "title": "[SE] REQ-024 新需求B 货币换算器 追踪矩阵 v1.0（第24场景·finance·ga",
-          "status": "in_review",
-          "updated_at": "2026-10-12T08:30:54Z"
-        },
-        {
-          "key": "IPD-486",
-          "title": "[Dev] REQ-023 新需求A 四维负差归因+编码skill优化+同需求复测（第23场景·优化",
-          "status": "in_progress",
-          "updated_at": "2026-10-12T08:14:28Z"
-        },
-        {
           "key": "IPD-500",
           "title": "[巡检] 2026-10-12 leader Issue 状态巡检与催办",
           "status": "done",
           "updated_at": "2026-10-12T08:09:35Z"
+        },
+        {
+          "key": "IPD-474",
+          "title": "[Dev] REQ-022 节拍器 四维负差归因+编码skill优化+同需求复测（第22场景·优化闭",
+          "status": "done",
+          "updated_at": "2026-10-12T08:06:32Z"
         }
       ],
       "progress_note": "环比持平"
@@ -439,10 +244,9 @@
           "role": "IPD-Dev 开发工程师",
           "model": "zai:glm-5.3",
           "agent_id": "44fcec25-d8b3-4af6-b206-1774a64677ce",
-          "state": "working",
-          "issue": "IPD-486",
-          "issue_title": "[Dev] REQ-023 新需求A 四维负差归因+编码skill优化+同需求复测（第23场景·优化闭环·gated o",
-          "since": "2026-10-12T08:06:41Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "hermes-tester",
@@ -493,6 +297,18 @@
       },
       "latest_issues": [
         {
+          "key": "IPD-486",
+          "title": "[Dev] REQ-023 新需求A 四维负差归因+编码skill优化+同需求复测（第23场景·优化",
+          "status": "in_progress",
+          "updated_at": "2026-10-12T10:21:42Z"
+        },
+        {
+          "key": "IPD-479",
+          "title": "[早会纪要] 2026-10-12",
+          "status": "done",
+          "updated_at": "2026-10-12T10:21:42Z"
+        },
+        {
           "key": "IPD-501",
           "title": "[空闲检测] 2026-10-12 leader 两小时正点检查与加派",
           "status": "done",
@@ -509,18 +325,6 @@
           "title": "[SE] REQ-024 新需求B 货币换算器 追踪矩阵 v1.0（第24场景·finance·ga",
           "status": "in_review",
           "updated_at": "2026-10-12T08:30:54Z"
-        },
-        {
-          "key": "IPD-486",
-          "title": "[Dev] REQ-023 新需求A 四维负差归因+编码skill优化+同需求复测（第23场景·优化",
-          "status": "in_progress",
-          "updated_at": "2026-10-12T08:14:28Z"
-        },
-        {
-          "key": "IPD-500",
-          "title": "[巡检] 2026-10-12 leader Issue 状态巡检与催办",
-          "status": "done",
-          "updated_at": "2026-10-12T08:09:35Z"
         }
       ]
     }
