@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T05:59:33Z",
+  "generated_at": "2026-10-12T07:18:36Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -37,18 +37,24 @@
           "role": "DeepSeek Task Planner（任务规划+总结）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "04a4e04e-59d5-4f3a-8a16-acf99b80a493",
-          "state": "idle",
+          "state": "working",
           "issue": "",
           "issue_title": ""
         }
       ],
       "issue_counts": {
-        "todo": 3,
+        "todo": 4,
         "in_progress": 0,
         "in_review": 0,
-        "done": 95
+        "done": 94
       },
       "latest_issues": [
+        {
+          "key": "SUR-332",
+          "title": "[空闲检测] 2026-10-12 leader 两小时正点检查与加派",
+          "status": "todo",
+          "updated_at": "2026-10-12T06:00:18Z"
+        },
         {
           "key": "SUR-331",
           "title": "[评审][day-18] 对抗评审：第6-8章后端结构对齐（口径1/4/6/7/12）",
@@ -72,12 +78,6 @@
           "title": "[空闲检测] 2026-10-12 leader 两小时正点检查与加派",
           "status": "done",
           "updated_at": "2026-10-12T02:06:27Z"
-        },
-        {
-          "key": "SUR-327",
-          "title": "[巡检] 2026-10-12 leader Issue 状态巡检与催办",
-          "status": "done",
-          "updated_at": "2026-10-12T00:03:54Z"
         }
       ],
       "progress_note": "day-4 晨 37% → 午 42% → 晚 44% → 夜 47%",
@@ -92,96 +92,14 @@
       "meeting_active": false,
       "meeting_title": "",
       "progress": 90,
-      "agents": [
-        {
-          "name": "gpt-scenarist",
-          "emoji": "🦊",
-          "role": "GPT Scenarist",
-          "model": "zai:glm-5.3",
-          "agent_id": "6e6f1e24-3bc5-455a-85d2-cb3fb6c9a672",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
-        },
-        {
-          "name": "glm-runner",
-          "emoji": "👾",
-          "role": "GLM Runner & Analyst",
-          "model": "",
-          "agent_id": "bdaefa9b-7045-4264-95e4-1db664e353d0",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
-        },
-        {
-          "name": "deepseek-planner",
-          "emoji": "🍀",
-          "role": "DeepSeek Planner（小组 leader/PM）",
-          "model": "deepseek:deepseek-v4-pro",
-          "agent_id": "547cd361-ef50-4965-9477-bc659d8a1708",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
-        },
-        {
-          "name": "minimax-visual-diff",
-          "emoji": "🐼",
-          "role": "MiniMax 多模态视觉差分评审",
-          "model": "minimax-cn:MiniMax-M3",
-          "agent_id": "843ac45d-b5db-4f35-b07b-2e5754ec5a5f",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
-        },
-        {
-          "name": "项目观察员（GPT-6）",
-          "emoji": "🔍",
-          "role": "只读洞察项目目标与执行证据，用简单语言汇报进展、偏差和阻塞，",
-          "model": "gpt-6-astra",
-          "agent_id": "33b902ee-a4ca-46ae-9284-c8285311c687",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
-        }
-      ],
+      "agents": [],
       "issue_counts": {
-        "todo": 4,
-        "in_progress": 2,
+        "todo": 0,
+        "in_progress": 0,
         "in_review": 0,
-        "done": 94
+        "done": 0
       },
-      "latest_issues": [
-        {
-          "key": "BEN-277",
-          "title": "[观察员日报] 2026-10-11 通过率与 Agent 时间轴",
-          "status": "todo",
-          "updated_at": "2026-10-12T02:30:31Z"
-        },
-        {
-          "key": "BEN-280",
-          "title": "[任务·第2轮] 鸿蒙 test 变体扩容：口径⑤ 剩余 7 变体 + SC 收口 + 口径⑥ 全链",
-          "status": "in_progress",
-          "updated_at": "2026-10-11T13:29:06Z"
-        },
-        {
-          "key": "BEN-135",
-          "title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 1",
-          "status": "in_progress",
-          "updated_at": "2026-10-11T12:25:05Z"
-        },
-        {
-          "key": "BEN-281",
-          "title": "[任务·第2轮] BEN-248 新三数视觉四分类复核 + 新覆盖变体锚定（ref BEN-248/",
-          "status": "done",
-          "updated_at": "2026-10-11T12:12:04Z"
-        },
-        {
-          "key": "BEN-285",
-          "title": "[晚会日报] 2026-10-11",
-          "status": "done",
-          "updated_at": "2026-10-11T12:07:08Z"
-        }
-      ],
+      "latest_issues": [],
       "progress_note": "环比持平"
     },
     {
@@ -193,122 +111,14 @@
       "meeting_active": false,
       "meeting_title": "",
       "progress": 52,
-      "agents": [
-        {
-          "name": "opus-analyzer",
-          "emoji": "🦁",
-          "role": "Opus Analyzer",
-          "model": "claude-opus-5-5",
-          "agent_id": "2f32549c-87c7-4202-8f54-3af79a30afa0",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
-        },
-        {
-          "name": "deepseek-planner",
-          "emoji": "⚡",
-          "role": "DeepSeek Planner（小组 leader/PM，",
-          "model": "deepseek:deepseek-v4-pro",
-          "agent_id": "950ff614-521d-4e32-a02d-423d41a7b2b3",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
-        },
-        {
-          "name": "dw-lead",
-          "emoji": "🐵",
-          "role": "DW 迁移执行小队队长",
-          "model": "claude-opus-5-5",
-          "agent_id": "c6ff7c69-0db4-4b35-ac81-dd00e5a53ba4",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
-        },
-        {
-          "name": "exec-runner",
-          "emoji": "🐙",
-          "role": "运行员",
-          "model": "claude-opus-5-5",
-          "agent_id": "1c3481f5-135b-4959-9daa-c510c076d494",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
-        },
-        {
-          "name": "exec-verifier",
-          "emoji": "🐝",
-          "role": "验证员",
-          "model": "claude-opus-5-5",
-          "agent_id": "69822c63-0dcc-4f3e-875d-7b300d437623",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
-        },
-        {
-          "name": "exec-fixer",
-          "emoji": "⭐",
-          "role": "修复员",
-          "model": "claude-opus-5-5",
-          "agent_id": "cd70e713-a339-4621-8699-2058d9cf7d6b",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
-        },
-        {
-          "name": "deveco",
-          "emoji": "👾",
-          "role": null,
-          "model": "",
-          "agent_id": "08a037a0-da6b-4ef0-b623-24732954c8fe",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
-        }
-      ],
+      "agents": [],
       "issue_counts": {
         "todo": 0,
         "in_progress": 0,
         "in_review": 0,
-        "done": 79
+        "done": 0
       },
-      "latest_issues": [
-        {
-          "key": "DWM-302",
-          "title": "[午会纪要] 2026-10-12",
-          "status": "done",
-          "updated_at": "2026-10-12T04:33:55Z"
-        },
-        {
-          "key": "DWM-301",
-          "title": "[空闲检测] 2026-10-12 leader 两小时正点检查与加派",
-          "status": "done",
-          "updated_at": "2026-10-12T02:03:52Z"
-        },
-        {
-          "key": "DWM-300",
-          "title": "[巡检] 2026-10-12 leader Issue 状态巡检与催办",
-          "status": "done",
-          "updated_at": "2026-10-12T00:03:47Z"
-        },
-        {
-          "key": "DWM-299",
-          "title": "[空闲检测] 2026-10-12 leader 两小时正点检查与加派",
-          "status": "done",
-          "updated_at": "2026-10-11T22:03:52Z"
-        },
-        {
-          "key": "DWM-298",
-          "title": "[早会纪要] 2026-10-12",
-          "status": "done",
-          "updated_at": "2026-10-11T20:11:51Z"
-        }
-      ],
-      "order": {
-        "key": "DWM-251",
-        "title": "[DW迁移任务单] OpenCamera 迁移 · 暂停（负责人要求·额度用尽）",
-        "status": "blocked",
-        "updated_at": "2026-10-10T20:10:57Z"
-      },
+      "latest_issues": [],
       "progress_note": "10 个应用：完成 7、进行中 0、暂停 1、未开始 2"
     },
     {
@@ -316,7 +126,7 @@
       "title": "任务4 · IPD Eazo 平台",
       "workspace": "ws-ipd-eazo-loop",
       "machine": "贾博 Mac Mini",
-      "machine_online": true,
+      "machine_online": false,
       "meeting_active": false,
       "meeting_title": "",
       "progress": 90,
