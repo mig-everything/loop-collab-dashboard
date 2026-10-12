@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T02:07:11Z",
+  "generated_at": "2026-10-12T02:19:49Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -139,9 +139,10 @@
           "role": "只读洞察项目目标与执行证据，用简单语言汇报进展、偏差和阻塞，",
           "model": "gpt-6-astra",
           "agent_id": "33b902ee-a4ca-46ae-9284-c8285311c687",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "BEN-277",
+          "issue_title": "[观察员日报] 2026-10-11 通过率与 Agent 时间轴",
+          "since": "2026-10-12T02:12:54Z"
         }
       ],
       "issue_counts": {
@@ -155,7 +156,7 @@
           "key": "BEN-277",
           "title": "[观察员日报] 2026-10-11 通过率与 Agent 时间轴",
           "status": "todo",
-          "updated_at": "2026-10-12T02:04:45Z"
+          "updated_at": "2026-10-12T02:16:29Z"
         },
         {
           "key": "BEN-280",
@@ -316,7 +317,7 @@
       "title": "任务4 · IPD Eazo 平台",
       "workspace": "ws-ipd-eazo-loop",
       "machine": "贾博 Mac Mini",
-      "machine_online": true,
+      "machine_online": false,
       "meeting_active": false,
       "meeting_title": "",
       "progress": 90,
@@ -327,7 +328,7 @@
           "role": "IPD-PM 产品经理",
           "model": "",
           "agent_id": "1764c131-5c09-48cb-aa48-3177d5256dbb",
-          "state": "idle",
+          "state": "offline",
           "issue": "",
           "issue_title": ""
         },
@@ -337,7 +338,7 @@
           "role": "IPD-SA 解决方案架构师",
           "model": "zai:glm-5.3",
           "agent_id": "3e4373ef-a262-4b28-ab2a-818861fc9624",
-          "state": "idle",
+          "state": "offline",
           "issue": "",
           "issue_title": ""
         },
@@ -347,7 +348,7 @@
           "role": "IPD-SE 系统工程师",
           "model": "zai:glm-5.3",
           "agent_id": "b874ba6b-80e6-45c6-a8c6-aedc6f2b326b",
-          "state": "idle",
+          "state": "offline",
           "issue": "",
           "issue_title": ""
         },
@@ -357,7 +358,7 @@
           "role": "IPD-Dev 开发工程师",
           "model": "zai:glm-5.3",
           "agent_id": "44fcec25-d8b3-4af6-b206-1774a64677ce",
-          "state": "idle",
+          "state": "offline",
           "issue": "",
           "issue_title": ""
         },
@@ -367,7 +368,7 @@
           "role": "IPD-Tester 测试工程师",
           "model": "zai:glm-5.3",
           "agent_id": "86df9f14-a2cd-46d9-ad15-dbe8606ebd73",
-          "state": "idle",
+          "state": "offline",
           "issue": "",
           "issue_title": ""
         },
@@ -377,7 +378,7 @@
           "role": "IPD-RM 发布经理",
           "model": "zai:glm-5.3",
           "agent_id": "78156461-9644-478e-9c80-53cd18e25e33",
-          "state": "idle",
+          "state": "offline",
           "issue": "",
           "issue_title": ""
         },
@@ -387,7 +388,7 @@
           "role": "DeepSeek Planner（小组 leader/PM ",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
-          "state": "idle",
+          "state": "offline",
           "issue": "",
           "issue_title": ""
         },
@@ -397,7 +398,7 @@
           "role": "MiniMax 多模态 UI 视觉评审",
           "model": "minimax-cn:MiniMax-M3",
           "agent_id": "97f55294-90e0-4556-93af-a1cf44889574",
-          "state": "idle",
+          "state": "offline",
           "issue": "",
           "issue_title": ""
         }
