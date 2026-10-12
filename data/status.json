@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T20:24:54Z",
+  "generated_at": "2026-10-12T20:28:34Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -27,10 +27,9 @@
           "role": "Kimi Adversarial Reviewer（对抗评审",
           "model": "",
           "agent_id": "6e530cc6-6b9d-4398-936d-df9c13468125",
-          "state": "working",
-          "issue": "SUR-341",
-          "issue_title": "[评审][day-19] 成对评审 SUR-340 收尾（投稿清单新口径 + 篇幅 + 口径3清理）",
-          "since": "2026-10-12T20:21:35Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "deepseek-planner",
@@ -45,22 +44,22 @@
       ],
       "issue_counts": {
         "todo": 0,
-        "in_progress": 1,
-        "in_review": 3,
+        "in_progress": 0,
+        "in_review": 4,
         "done": 95
       },
       "latest_issues": [
+        {
+          "key": "SUR-341",
+          "title": "[评审][day-19] 成对评审 SUR-340 收尾（投稿清单新口径 + 篇幅 + 口径3清理）",
+          "status": "in_review",
+          "updated_at": "2026-10-12T20:27:05Z"
+        },
         {
           "key": "SUR-340",
           "title": "[任务][day-19] 收尾：投稿检查清单更新到新口径 + 篇幅核对 + 口径3 论述自然性清理",
           "status": "in_review",
           "updated_at": "2026-10-12T20:22:29Z"
-        },
-        {
-          "key": "SUR-341",
-          "title": "[评审][day-19] 成对评审 SUR-340 收尾（投稿清单新口径 + 篇幅 + 口径3清理）",
-          "status": "in_progress",
-          "updated_at": "2026-10-12T20:21:55Z"
         },
         {
           "key": "SUR-339",
@@ -405,12 +404,18 @@
         }
       ],
       "issue_counts": {
-        "todo": 16,
-        "in_progress": 0,
+        "todo": 15,
+        "in_progress": 1,
         "in_review": 1,
         "done": 81
       },
       "latest_issues": [
+        {
+          "key": "IPD-505",
+          "title": "[SE] REQ-025 新需求C 跑步配速 追踪矩阵 v1.0（第25场景·health·gate",
+          "status": "in_progress",
+          "updated_at": "2026-10-12T20:26:11Z"
+        },
         {
           "key": "IPD-498",
           "title": "[Dev] REQ-024 新需求B 货币换算器 四维负差归因+编码skill优化+同需求复测（第2",
@@ -434,12 +439,6 @@
           "title": "[Dev] REQ-026 新需求A 2048数字游戏 四维负差归因+编码skill优化+同需求复测",
           "status": "backlog",
           "updated_at": "2026-10-12T20:07:10Z"
-        },
-        {
-          "key": "IPD-520",
-          "title": "[uijudge] REQ-026 新需求A 2048数字游戏 双端视觉评审（第26场景 UI维度·",
-          "status": "backlog",
-          "updated_at": "2026-10-12T20:07:09Z"
         }
       ]
     }
