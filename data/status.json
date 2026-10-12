@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T14:59:50Z",
+  "generated_at": "2026-10-12T16:01:16Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -37,18 +37,25 @@
           "role": "DeepSeek Task Planner（任务规划+总结）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "04a4e04e-59d5-4f3a-8a16-acf99b80a493",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "SUR-337",
+          "issue_title": "[巡检] 2026-10-13 leader Issue 状态巡检与催办",
+          "since": "2026-10-12T16:00:23Z"
         }
       ],
       "issue_counts": {
-        "todo": 2,
+        "todo": 3,
         "in_progress": 0,
         "in_review": 2,
-        "done": 95
+        "done": 94
       },
       "latest_issues": [
+        {
+          "key": "SUR-337",
+          "title": "[巡检] 2026-10-13 leader Issue 状态巡检与催办",
+          "status": "todo",
+          "updated_at": "2026-10-12T16:00:18Z"
+        },
         {
           "key": "SUR-331",
           "title": "[评审][day-18] 对抗评审：第6-8章后端结构对齐（口径1/4/6/7/12）",
@@ -72,12 +79,6 @@
           "title": "[晚会日报] 2026-10-12",
           "status": "done",
           "updated_at": "2026-10-12T12:34:39Z"
-        },
-        {
-          "key": "SUR-333",
-          "title": "[巡检] 2026-10-12 leader Issue 状态巡检与催办",
-          "status": "done",
-          "updated_at": "2026-10-12T10:32:01Z"
         }
       ],
       "progress_note": "day-4 晨 37% → 午 42% → 晚 44% → 夜 47%",
@@ -210,9 +211,10 @@
           "role": "DeepSeek Planner（小组 leader/PM，",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "950ff614-521d-4e32-a02d-423d41a7b2b3",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "DWM-308",
+          "issue_title": "[巡检] 2026-10-13 leader Issue 状态巡检与催办",
+          "since": "2026-10-12T16:00:26Z"
         },
         {
           "name": "dw-lead",
@@ -266,12 +268,18 @@
         }
       ],
       "issue_counts": {
-        "todo": 0,
+        "todo": 1,
         "in_progress": 0,
         "in_review": 0,
         "done": 82
       },
       "latest_issues": [
+        {
+          "key": "DWM-308",
+          "title": "[巡检] 2026-10-13 leader Issue 状态巡检与催办",
+          "status": "todo",
+          "updated_at": "2026-10-12T16:00:23Z"
+        },
         {
           "key": "DWM-307",
           "title": "[空闲检测] 2026-10-12 leader 两小时正点检查与加派",
@@ -295,12 +303,6 @@
           "title": "[巡检] 2026-10-12 leader Issue 状态巡检与催办",
           "status": "done",
           "updated_at": "2026-10-12T10:13:40Z"
-        },
-        {
-          "key": "DWM-303",
-          "title": "[空闲检测] 2026-10-12 leader 两小时正点检查与加派",
-          "status": "done",
-          "updated_at": "2026-10-12T07:22:45Z"
         }
       ],
       "order": {
@@ -387,9 +389,10 @@
           "role": "DeepSeek Planner（小组 leader/PM ",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-513",
+          "issue_title": "[巡检] 2026-10-13 leader Issue 状态巡检与催办",
+          "since": "2026-10-12T16:00:27Z"
         },
         {
           "name": "minimax-uijudge",
@@ -404,11 +407,17 @@
       ],
       "issue_counts": {
         "todo": 14,
-        "in_progress": 1,
+        "in_progress": 2,
         "in_review": 3,
-        "done": 82
+        "done": 81
       },
       "latest_issues": [
+        {
+          "key": "IPD-513",
+          "title": "[巡检] 2026-10-13 leader Issue 状态巡检与催办",
+          "status": "in_progress",
+          "updated_at": "2026-10-12T16:00:57Z"
+        },
         {
           "key": "IPD-512",
           "title": "[空闲检测] 2026-10-12 leader 两小时正点检查与加派",
@@ -432,12 +441,6 @@
           "title": "[PM] REQ-025 新需求C 跑步配速 预研+PRD+TR-Req+契约冻结（第25场景·he",
           "status": "in_review",
           "updated_at": "2026-10-12T12:27:20Z"
-        },
-        {
-          "key": "IPD-495",
-          "title": "[Dev] REQ-024 新需求B 货币换算器 双端生成+构建+运行+四维度量（第24场景·实验·",
-          "status": "in_review",
-          "updated_at": "2026-10-12T12:18:48Z"
         }
       ],
       "progress_note": "草稿 · 夜间第3轮未并入 · 次日 04:00 定稿"
