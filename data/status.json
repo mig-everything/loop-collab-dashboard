@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T16:21:44Z",
+  "generated_at": "2026-10-12T16:29:23Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -405,22 +405,22 @@
       ],
       "issue_counts": {
         "todo": 10,
-        "in_progress": 1,
-        "in_review": 2,
+        "in_progress": 0,
+        "in_review": 3,
         "done": 85
       },
       "latest_issues": [
+        {
+          "key": "IPD-504",
+          "title": "[SA] REQ-025 新需求C 跑步配速 TR-Design 六件套+契约 v1.0（第25场景",
+          "status": "in_review",
+          "updated_at": "2026-10-12T16:30:03Z"
+        },
         {
           "key": "IPD-511",
           "title": "[uijudge] REQ-024 货币换算器 双端视觉评审（第24场景 UI维度·gated on",
           "status": "in_review",
           "updated_at": "2026-10-12T16:20:25Z"
-        },
-        {
-          "key": "IPD-504",
-          "title": "[SA] REQ-025 新需求C 跑步配速 TR-Design 六件套+契约 v1.0（第25场景",
-          "status": "in_progress",
-          "updated_at": "2026-10-12T16:18:44Z"
         },
         {
           "key": "IPD-510",
