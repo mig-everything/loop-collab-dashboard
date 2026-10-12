@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T14:09:54Z",
+  "generated_at": "2026-10-12T14:30:54Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -17,9 +17,10 @@
           "role": "GPT Writer（执笔者）",
           "model": "gpt-6-luna",
           "agent_id": "58ed4647-32dd-4ca1-8ddc-194b975d6024",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "SUR-330",
+          "issue_title": "[任务][day-18] 第6-8章后端结构对齐：移动专题决策 + 综合发现/开放问题 + 结论",
+          "since": "2026-10-12T14:30:12Z"
         },
         {
           "name": "kimi-adversary",
