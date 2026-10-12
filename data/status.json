@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T16:01:16Z",
+  "generated_at": "2026-10-12T16:05:21Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -44,8 +44,8 @@
         }
       ],
       "issue_counts": {
-        "todo": 3,
-        "in_progress": 0,
+        "todo": 2,
+        "in_progress": 1,
         "in_review": 2,
         "done": 94
       },
@@ -53,8 +53,8 @@
         {
           "key": "SUR-337",
           "title": "[巡检] 2026-10-13 leader Issue 状态巡检与催办",
-          "status": "todo",
-          "updated_at": "2026-10-12T16:00:18Z"
+          "status": "in_progress",
+          "updated_at": "2026-10-12T16:01:39Z"
         },
         {
           "key": "SUR-331",
@@ -211,10 +211,9 @@
           "role": "DeepSeek Planner（小组 leader/PM，",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "950ff614-521d-4e32-a02d-423d41a7b2b3",
-          "state": "working",
-          "issue": "DWM-308",
-          "issue_title": "[巡检] 2026-10-13 leader Issue 状态巡检与催办",
-          "since": "2026-10-12T16:00:26Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "dw-lead",
@@ -268,17 +267,17 @@
         }
       ],
       "issue_counts": {
-        "todo": 1,
+        "todo": 0,
         "in_progress": 0,
         "in_review": 0,
-        "done": 82
+        "done": 83
       },
       "latest_issues": [
         {
           "key": "DWM-308",
           "title": "[巡检] 2026-10-13 leader Issue 状态巡检与催办",
-          "status": "todo",
-          "updated_at": "2026-10-12T16:00:23Z"
+          "status": "done",
+          "updated_at": "2026-10-12T16:04:11Z"
         },
         {
           "key": "DWM-307",
@@ -339,9 +338,10 @@
           "role": "IPD-SA 解决方案架构师",
           "model": "zai:glm-5.3",
           "agent_id": "3e4373ef-a262-4b28-ab2a-818861fc9624",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-504",
+          "issue_title": "[SA] REQ-025 新需求C 跑步配速 TR-Design 六件套+契约 v1.0（第25场景·health·ga",
+          "since": "2026-10-12T16:04:59Z"
         },
         {
           "name": "hermes-se",
@@ -369,9 +369,10 @@
           "role": "IPD-Tester 测试工程师",
           "model": "zai:glm-5.3",
           "agent_id": "86df9f14-a2cd-46d9-ad15-dbe8606ebd73",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-510",
+          "issue_title": "[Tester] REQ-024 货币换算器 TR-Accept 差分+双端对比报告（第24场景收口·gated on ",
+          "since": "2026-10-12T16:05:25Z"
         },
         {
           "name": "hermes-rm",
@@ -389,10 +390,9 @@
           "role": "DeepSeek Planner（小组 leader/PM ",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
-          "state": "working",
-          "issue": "IPD-513",
-          "issue_title": "[巡检] 2026-10-13 leader Issue 状态巡检与催办",
-          "since": "2026-10-12T16:00:27Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "minimax-uijudge",
@@ -406,41 +406,41 @@
         }
       ],
       "issue_counts": {
-        "todo": 14,
-        "in_progress": 2,
-        "in_review": 3,
-        "done": 81
+        "todo": 12,
+        "in_progress": 1,
+        "in_review": 0,
+        "done": 85
       },
       "latest_issues": [
         {
           "key": "IPD-513",
           "title": "[巡检] 2026-10-13 leader Issue 状态巡检与催办",
-          "status": "in_progress",
-          "updated_at": "2026-10-12T16:00:57Z"
+          "status": "done",
+          "updated_at": "2026-10-12T16:05:47Z"
         },
         {
-          "key": "IPD-512",
-          "title": "[空闲检测] 2026-10-12 leader 两小时正点检查与加派",
-          "status": "done",
-          "updated_at": "2026-10-12T14:02:55Z"
+          "key": "IPD-497",
+          "title": "[uijudge] REQ-024 新需求B 货币换算器 双端视觉评审（第24场景 UI维度·gat",
+          "status": "cancelled",
+          "updated_at": "2026-10-12T16:05:26Z"
+        },
+        {
+          "key": "IPD-496",
+          "title": "[Tester] REQ-024 新需求B 货币换算器 TR-Accept 差分+双端对比报告（第2",
+          "status": "cancelled",
+          "updated_at": "2026-10-12T16:05:23Z"
         },
         {
           "key": "IPD-510",
           "title": "[Tester] REQ-024 货币换算器 TR-Accept 差分+双端对比报告（第24场景收口",
           "status": "in_progress",
-          "updated_at": "2026-10-12T12:30:05Z"
+          "updated_at": "2026-10-12T16:05:22Z"
         },
         {
-          "key": "IPD-486",
-          "title": "[Dev] REQ-023 新需求A 四维负差归因+编码skill优化+同需求复测（第23场景·优化",
-          "status": "in_review",
-          "updated_at": "2026-10-12T12:28:02Z"
-        },
-        {
-          "key": "IPD-503",
-          "title": "[PM] REQ-025 新需求C 跑步配速 预研+PRD+TR-Req+契约冻结（第25场景·he",
-          "status": "in_review",
-          "updated_at": "2026-10-12T12:27:20Z"
+          "key": "IPD-504",
+          "title": "[SA] REQ-025 新需求C 跑步配速 TR-Design 六件套+契约 v1.0（第25场景",
+          "status": "todo",
+          "updated_at": "2026-10-12T16:04:58Z"
         }
       ],
       "progress_note": "草稿 · 夜间第3轮未并入 · 次日 04:00 定稿"
