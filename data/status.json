@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T20:28:34Z",
+  "generated_at": "2026-10-12T20:32:13Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -347,10 +347,9 @@
           "role": "IPD-SE 系统工程师",
           "model": "zai:glm-5.3",
           "agent_id": "b874ba6b-80e6-45c6-a8c6-aedc6f2b326b",
-          "state": "working",
-          "issue": "IPD-505",
-          "issue_title": "[SE] REQ-025 新需求C 跑步配速 追踪矩阵 v1.0（第25场景·health·gated on SA）",
-          "since": "2026-10-12T20:06:21Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "hermes-dev",
@@ -414,7 +413,7 @@
           "key": "IPD-505",
           "title": "[SE] REQ-025 新需求C 跑步配速 追踪矩阵 v1.0（第25场景·health·gate",
           "status": "in_progress",
-          "updated_at": "2026-10-12T20:26:11Z"
+          "updated_at": "2026-10-12T20:30:53Z"
         },
         {
           "key": "IPD-498",
