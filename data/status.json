@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T00:02:22Z",
+  "generated_at": "2026-10-12T00:06:07Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -37,42 +37,41 @@
           "role": "DeepSeek Task Planner（任务规划+总结）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "04a4e04e-59d5-4f3a-8a16-acf99b80a493",
-          "state": "working",
-          "issue": "SUR-327",
-          "issue_title": "[巡检] 2026-10-12 leader Issue 状态巡检与催办",
-          "since": "2026-10-12T00:00:17Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         }
       ],
       "issue_counts": {
-        "todo": 3,
+        "todo": 2,
         "in_progress": 0,
-        "in_review": 2,
-        "done": 94
+        "in_review": 0,
+        "done": 97
       },
       "latest_issues": [
         {
           "key": "SUR-327",
           "title": "[巡检] 2026-10-12 leader Issue 状态巡检与催办",
-          "status": "todo",
-          "updated_at": "2026-10-12T00:00:16Z"
+          "status": "done",
+          "updated_at": "2026-10-12T00:03:54Z"
+        },
+        {
+          "key": "SUR-323",
+          "title": "[任务][day-18] 第5章评价综合（RQ4）+ 越界待办#1/#3 折叠",
+          "status": "done",
+          "updated_at": "2026-10-12T00:03:18Z"
+        },
+        {
+          "key": "SUR-324",
+          "title": "[评审][day-18] 对抗评审：第5章评价综合（RQ4）+ 越界待办#1/#3 闭环验证（口径4",
+          "status": "done",
+          "updated_at": "2026-10-12T00:03:17Z"
         },
         {
           "key": "SUR-326",
           "title": "[空闲检测] 2026-10-12 leader 两小时正点检查与加派",
           "status": "done",
           "updated_at": "2026-10-11T22:04:36Z"
-        },
-        {
-          "key": "SUR-324",
-          "title": "[评审][day-18] 对抗评审：第5章评价综合（RQ4）+ 越界待办#1/#3 闭环验证（口径4",
-          "status": "in_review",
-          "updated_at": "2026-10-11T20:24:53Z"
-        },
-        {
-          "key": "SUR-323",
-          "title": "[任务][day-18] 第5章评价综合（RQ4）+ 越界待办#1/#3 折叠",
-          "status": "in_review",
-          "updated_at": "2026-10-11T20:15:08Z"
         },
         {
           "key": "SUR-322",
@@ -211,10 +210,9 @@
           "role": "DeepSeek Planner（小组 leader/PM，",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "950ff614-521d-4e32-a02d-423d41a7b2b3",
-          "state": "working",
-          "issue": "DWM-300",
-          "issue_title": "[巡检] 2026-10-12 leader Issue 状态巡检与催办",
-          "since": "2026-10-12T00:00:10Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "dw-lead",
@@ -268,17 +266,17 @@
         }
       ],
       "issue_counts": {
-        "todo": 1,
+        "todo": 0,
         "in_progress": 0,
         "in_review": 0,
-        "done": 78
+        "done": 79
       },
       "latest_issues": [
         {
           "key": "DWM-300",
           "title": "[巡检] 2026-10-12 leader Issue 状态巡检与催办",
-          "status": "todo",
-          "updated_at": "2026-10-12T00:00:09Z"
+          "status": "done",
+          "updated_at": "2026-10-12T00:03:47Z"
         },
         {
           "key": "DWM-299",
@@ -359,9 +357,10 @@
           "role": "IPD-Dev 开发工程师",
           "model": "zai:glm-5.3",
           "agent_id": "44fcec25-d8b3-4af6-b206-1774a64677ce",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-483",
+          "issue_title": "[Dev] REQ-023 新需求A 双端生成+构建+运行+四维度量（第23场景·实验·gated on SE）",
+          "since": "2026-10-12T00:05:36Z"
         },
         {
           "name": "hermes-tester",
@@ -389,10 +388,9 @@
           "role": "DeepSeek Planner（小组 leader/PM ",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
-          "state": "working",
-          "issue": "IPD-489",
-          "issue_title": "[巡检] 2026-10-12 leader Issue 状态巡检与催办",
-          "since": "2026-10-12T00:00:20Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "minimax-uijudge",
@@ -400,47 +398,48 @@
           "role": "MiniMax 多模态 UI 视觉评审",
           "model": "minimax-cn:MiniMax-M3",
           "agent_id": "97f55294-90e0-4556-93af-a1cf44889574",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-473",
+          "issue_title": "[uijudge] REQ-022 节拍器 双端视觉评审（第22场景 UI维度·gated on Dev IPD-471",
+          "since": "2026-10-12T00:05:36Z"
         }
       ],
       "issue_counts": {
-        "todo": 10,
+        "todo": 8,
         "in_progress": 2,
-        "in_review": 2,
-        "done": 85
+        "in_review": 0,
+        "done": 89
       },
       "latest_issues": [
         {
+          "key": "IPD-473",
+          "title": "[uijudge] REQ-022 节拍器 双端视觉评审（第22场景 UI维度·gated on D",
+          "status": "in_progress",
+          "updated_at": "2026-10-12T00:05:58Z"
+        },
+        {
           "key": "IPD-489",
           "title": "[巡检] 2026-10-12 leader Issue 状态巡检与催办",
-          "status": "todo",
-          "updated_at": "2026-10-12T00:00:19Z"
-        },
-        {
-          "key": "IPD-488",
-          "title": "[空闲检测] 2026-10-12 leader 两小时正点检查与加派",
           "status": "done",
-          "updated_at": "2026-10-11T22:01:46Z"
-        },
-        {
-          "key": "IPD-479",
-          "title": "[早会纪要] 2026-10-12",
-          "status": "done",
-          "updated_at": "2026-10-11T20:51:50Z"
+          "updated_at": "2026-10-12T00:05:54Z"
         },
         {
           "key": "IPD-483",
           "title": "[Dev] REQ-023 新需求A 双端生成+构建+运行+四维度量（第23场景·实验·gated ",
           "status": "in_progress",
-          "updated_at": "2026-10-11T20:38:57Z"
+          "updated_at": "2026-10-12T00:05:35Z"
         },
         {
           "key": "IPD-449",
           "title": "[Dev] REQ-020 抽奖转盘 四维负差归因+编码skill优化+同需求复测（第20场景·优化",
-          "status": "in_progress",
-          "updated_at": "2026-10-11T20:37:47Z"
+          "status": "done",
+          "updated_at": "2026-10-12T00:05:19Z"
+        },
+        {
+          "key": "IPD-482",
+          "title": "[SE] REQ-023 新需求A 追踪矩阵 v1.0（第23场景·gated on SA）",
+          "status": "done",
+          "updated_at": "2026-10-12T00:05:18Z"
         }
       ]
     }
