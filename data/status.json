@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T20:17:35Z",
+  "generated_at": "2026-10-12T20:21:15Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -44,12 +44,18 @@
         }
       ],
       "issue_counts": {
-        "todo": 2,
+        "todo": 1,
         "in_progress": 0,
-        "in_review": 2,
+        "in_review": 3,
         "done": 95
       },
       "latest_issues": [
+        {
+          "key": "SUR-340",
+          "title": "[任务][day-19] 收尾：投稿检查清单更新到新口径 + 篇幅核对 + 口径3 论述自然性清理",
+          "status": "in_review",
+          "updated_at": "2026-10-12T20:20:22Z"
+        },
         {
           "key": "SUR-339",
           "title": "[评审][day-19] 复评 SUR-330 修复 ec5da5a + 口径12 范围一致性/RQ",
@@ -73,12 +79,6 @@
           "title": "[流程优化] Opt-040：模型容量类错误分级处置（次日验证）",
           "status": "done",
           "updated_at": "2026-10-12T20:08:32Z"
-        },
-        {
-          "key": "SUR-341",
-          "title": "[评审][day-19] 成对评审 SUR-340 收尾（投稿清单新口径 + 篇幅 + 口径3清理）",
-          "status": "backlog",
-          "updated_at": "2026-10-12T20:07:34Z"
         }
       ],
       "progress_note": "day-4 晨 37% → 午 42% → 晚 44% → 夜 47%",
