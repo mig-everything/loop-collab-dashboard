@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T16:33:21Z",
+  "generated_at": "2026-10-12T20:02:44Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -37,18 +37,25 @@
           "role": "DeepSeek Task Planner（任务规划+总结）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "04a4e04e-59d5-4f3a-8a16-acf99b80a493",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "SUR-338",
+          "issue_title": "[晨会纪要] 2026-10-13",
+          "since": "2026-10-12T20:00:13Z"
         }
       ],
       "issue_counts": {
-        "todo": 2,
+        "todo": 3,
         "in_progress": 0,
         "in_review": 1,
-        "done": 96
+        "done": 95
       },
       "latest_issues": [
+        {
+          "key": "SUR-338",
+          "title": "[晨会纪要] 2026-10-13",
+          "status": "todo",
+          "updated_at": "2026-10-12T20:00:12Z"
+        },
         {
           "key": "SUR-330",
           "title": "[任务][day-18] 第6-8章后端结构对齐：移动专题决策 + 综合发现/开放问题 + 结论",
@@ -72,12 +79,6 @@
           "title": "[空闲检测] 2026-10-12 leader 两小时正点检查与加派",
           "status": "done",
           "updated_at": "2026-10-12T14:05:40Z"
-        },
-        {
-          "key": "SUR-335",
-          "title": "[晚会日报] 2026-10-12",
-          "status": "done",
-          "updated_at": "2026-10-12T12:34:39Z"
         }
       ],
       "progress_note": "day-4 晨 37% → 午 42% → 晚 44% → 夜 47%",
@@ -210,9 +211,10 @@
           "role": "DeepSeek Planner（小组 leader/PM，",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "950ff614-521d-4e32-a02d-423d41a7b2b3",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "DWM-309",
+          "issue_title": "[早会纪要] 2026-10-13",
+          "since": "2026-10-12T20:00:15Z"
         },
         {
           "name": "dw-lead",
@@ -266,12 +268,18 @@
         }
       ],
       "issue_counts": {
-        "todo": 0,
+        "todo": 1,
         "in_progress": 0,
         "in_review": 0,
-        "done": 83
+        "done": 82
       },
       "latest_issues": [
+        {
+          "key": "DWM-309",
+          "title": "[早会纪要] 2026-10-13",
+          "status": "todo",
+          "updated_at": "2026-10-12T20:00:14Z"
+        },
         {
           "key": "DWM-308",
           "title": "[巡检] 2026-10-13 leader Issue 状态巡检与催办",
@@ -295,12 +303,6 @@
           "title": "[空闲检测] 2026-10-12 leader 两小时正点检查与加派",
           "status": "done",
           "updated_at": "2026-10-12T10:14:54Z"
-        },
-        {
-          "key": "DWM-304",
-          "title": "[巡检] 2026-10-12 leader Issue 状态巡检与催办",
-          "status": "done",
-          "updated_at": "2026-10-12T10:13:40Z"
         }
       ],
       "order": {
@@ -387,9 +389,10 @@
           "role": "DeepSeek Planner（小组 leader/PM ",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-514",
+          "issue_title": "[早会纪要] 2026-10-13",
+          "since": "2026-10-12T20:00:21Z"
         },
         {
           "name": "minimax-uijudge",
@@ -403,12 +406,18 @@
         }
       ],
       "issue_counts": {
-        "todo": 10,
+        "todo": 11,
         "in_progress": 0,
         "in_review": 3,
-        "done": 85
+        "done": 84
       },
       "latest_issues": [
+        {
+          "key": "IPD-514",
+          "title": "[早会纪要] 2026-10-13",
+          "status": "todo",
+          "updated_at": "2026-10-12T20:00:20Z"
+        },
         {
           "key": "IPD-504",
           "title": "[SA] REQ-025 新需求C 跑步配速 TR-Design 六件套+契约 v1.0（第25场景",
@@ -432,12 +441,6 @@
           "title": "[巡检] 2026-10-13 leader Issue 状态巡检与催办",
           "status": "done",
           "updated_at": "2026-10-12T16:05:47Z"
-        },
-        {
-          "key": "IPD-497",
-          "title": "[uijudge] REQ-024 新需求B 货币换算器 双端视觉评审（第24场景 UI维度·gat",
-          "status": "cancelled",
-          "updated_at": "2026-10-12T16:05:26Z"
         }
       ],
       "progress_note": "草稿 · 夜间第3轮未并入 · 次日 04:00 定稿"
