@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T22:01:09Z",
+  "generated_at": "2026-10-12T22:04:49Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -37,24 +37,23 @@
           "role": "DeepSeek Task Planner（任务规划+总结）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "04a4e04e-59d5-4f3a-8a16-acf99b80a493",
-          "state": "working",
-          "issue": "SUR-342",
-          "issue_title": "[空闲检测] 2026-10-13 leader 两小时正点检查与加派",
-          "since": "2026-10-12T22:00:16Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         }
       ],
       "issue_counts": {
-        "todo": 1,
+        "todo": 0,
         "in_progress": 0,
         "in_review": 4,
-        "done": 94
+        "done": 95
       },
       "latest_issues": [
         {
           "key": "SUR-342",
           "title": "[空闲检测] 2026-10-13 leader 两小时正点检查与加派",
-          "status": "todo",
-          "updated_at": "2026-10-12T22:00:16Z"
+          "status": "done",
+          "updated_at": "2026-10-12T22:04:03Z"
         },
         {
           "key": "SUR-341",
@@ -211,10 +210,9 @@
           "role": "DeepSeek Planner（小组 leader/PM，",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "950ff614-521d-4e32-a02d-423d41a7b2b3",
-          "state": "working",
-          "issue": "DWM-310",
-          "issue_title": "[空闲检测] 2026-10-13 leader 两小时正点检查与加派",
-          "since": "2026-10-12T22:00:15Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "dw-lead",
@@ -268,17 +266,17 @@
         }
       ],
       "issue_counts": {
-        "todo": 1,
+        "todo": 0,
         "in_progress": 0,
         "in_review": 0,
-        "done": 83
+        "done": 84
       },
       "latest_issues": [
         {
           "key": "DWM-310",
           "title": "[空闲检测] 2026-10-13 leader 两小时正点检查与加派",
-          "status": "todo",
-          "updated_at": "2026-10-12T22:00:13Z"
+          "status": "done",
+          "updated_at": "2026-10-12T22:02:35Z"
         },
         {
           "key": "DWM-309",
@@ -389,10 +387,9 @@
           "role": "DeepSeek Planner（小组 leader/PM ",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
-          "state": "working",
-          "issue": "IPD-522",
-          "issue_title": "[空闲检测] 2026-10-13 leader 两小时正点检查与加派",
-          "since": "2026-10-12T22:00:24Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "minimax-uijudge",
@@ -406,17 +403,17 @@
         }
       ],
       "issue_counts": {
-        "todo": 16,
+        "todo": 15,
         "in_progress": 1,
         "in_review": 1,
-        "done": 80
+        "done": 81
       },
       "latest_issues": [
         {
           "key": "IPD-522",
           "title": "[空闲检测] 2026-10-13 leader 两小时正点检查与加派",
-          "status": "todo",
-          "updated_at": "2026-10-12T22:00:23Z"
+          "status": "done",
+          "updated_at": "2026-10-12T22:03:08Z"
         },
         {
           "key": "IPD-505",
