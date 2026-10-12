@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T04:29:10Z",
+  "generated_at": "2026-10-12T04:33:19Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -211,10 +211,9 @@
           "role": "DeepSeek Planner（小组 leader/PM，",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "950ff614-521d-4e32-a02d-423d41a7b2b3",
-          "state": "working",
-          "issue": "DWM-302",
-          "issue_title": "[午会纪要] 2026-10-12",
-          "since": "2026-10-12T04:25:29Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "dw-lead",
@@ -222,9 +221,10 @@
           "role": "DW 迁移执行小队队长",
           "model": "claude-opus-5-5",
           "agent_id": "c6ff7c69-0db4-4b35-ac81-dd00e5a53ba4",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "DWM-302",
+          "issue_title": "[午会纪要] 2026-10-12",
+          "since": "2026-10-12T04:32:27Z"
         },
         {
           "name": "exec-runner",
@@ -268,17 +268,17 @@
         }
       ],
       "issue_counts": {
-        "todo": 1,
+        "todo": 0,
         "in_progress": 0,
         "in_review": 0,
-        "done": 78
+        "done": 79
       },
       "latest_issues": [
         {
           "key": "DWM-302",
           "title": "[午会纪要] 2026-10-12",
-          "status": "todo",
-          "updated_at": "2026-10-12T04:00:06Z"
+          "status": "done",
+          "updated_at": "2026-10-12T04:33:11Z"
         },
         {
           "key": "DWM-301",
@@ -329,10 +329,9 @@
           "role": "IPD-PM 产品经理",
           "model": "",
           "agent_id": "1764c131-5c09-48cb-aa48-3177d5256dbb",
-          "state": "working",
-          "issue": "IPD-492",
-          "issue_title": "[PM] REQ-024 新需求B 货币换算器 预研+PRD+TR-Req+契约冻结（第24场景·finance·口径1",
-          "since": "2026-10-12T04:07:38Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "hermes-sa",
@@ -340,9 +339,10 @@
           "role": "IPD-SA 解决方案架构师",
           "model": "zai:glm-5.3",
           "agent_id": "3e4373ef-a262-4b28-ab2a-818861fc9624",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-493",
+          "issue_title": "[SA] REQ-024 新需求B 货币换算器 TR-Design 六件套+契约 v1.0（第24场景·finance·",
+          "since": "2026-10-12T04:30:38Z"
         },
         {
           "name": "hermes-se",
@@ -407,12 +407,24 @@
         }
       ],
       "issue_counts": {
-        "todo": 12,
-        "in_progress": 1,
-        "in_review": 2,
+        "todo": 10,
+        "in_progress": 2,
+        "in_review": 3,
         "done": 84
       },
       "latest_issues": [
+        {
+          "key": "IPD-493",
+          "title": "[SA] REQ-024 新需求B 货币换算器 TR-Design 六件套+契约 v1.0（第24场",
+          "status": "in_progress",
+          "updated_at": "2026-10-12T04:31:39Z"
+        },
+        {
+          "key": "IPD-492",
+          "title": "[PM] REQ-024 新需求B 货币换算器 预研+PRD+TR-Req+契约冻结（第24场景·f",
+          "status": "in_review",
+          "updated_at": "2026-10-12T04:30:42Z"
+        },
         {
           "key": "IPD-491",
           "title": "[午会纪要] 2026-10-12",
@@ -430,18 +442,6 @@
           "title": "[Tester] REQ-023 新需求A TR-Accept 差分+双端对比报告（第23场景收口·",
           "status": "in_review",
           "updated_at": "2026-10-12T04:13:18Z"
-        },
-        {
-          "key": "IPD-474",
-          "title": "[Dev] REQ-022 节拍器 四维负差归因+编码skill优化+同需求复测（第22场景·优化闭",
-          "status": "in_progress",
-          "updated_at": "2026-10-12T04:09:12Z"
-        },
-        {
-          "key": "IPD-498",
-          "title": "[Dev] REQ-024 新需求B 货币换算器 四维负差归因+编码skill优化+同需求复测（第2",
-          "status": "backlog",
-          "updated_at": "2026-10-12T04:08:42Z"
         }
       ]
     }
