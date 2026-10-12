@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T16:17:39Z",
+  "generated_at": "2026-10-12T16:21:44Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -17,10 +17,9 @@
           "role": "GPT Writer（执笔者）",
           "model": "gpt-6-luna",
           "agent_id": "58ed4647-32dd-4ca1-8ddc-194b975d6024",
-          "state": "working",
-          "issue": "SUR-330",
-          "issue_title": "[任务][day-18] 第6-8章后端结构对齐：移动专题决策 + 综合发现/开放问题 + 结论",
-          "since": "2026-10-12T16:08:04Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "kimi-adversary",
@@ -45,16 +44,16 @@
       ],
       "issue_counts": {
         "todo": 2,
-        "in_progress": 1,
-        "in_review": 0,
+        "in_progress": 0,
+        "in_review": 1,
         "done": 96
       },
       "latest_issues": [
         {
           "key": "SUR-330",
           "title": "[任务][day-18] 第6-8章后端结构对齐：移动专题决策 + 综合发现/开放问题 + 结论",
-          "status": "in_progress",
-          "updated_at": "2026-10-12T16:17:42Z"
+          "status": "in_review",
+          "updated_at": "2026-10-12T16:18:02Z"
         },
         {
           "key": "SUR-337",
@@ -399,30 +398,35 @@
           "role": "MiniMax 多模态 UI 视觉评审",
           "model": "minimax-cn:MiniMax-M3",
           "agent_id": "97f55294-90e0-4556-93af-a1cf44889574",
-          "state": "working",
-          "issue": "IPD-511",
-          "issue_title": "[uijudge] REQ-024 货币换算器 双端视觉评审（第24场景 UI维度·gated on Dev IPD-4",
-          "since": "2026-10-12T16:12:51Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         }
       ],
       "issue_counts": {
-        "todo": 12,
-        "in_progress": 0,
-        "in_review": 1,
+        "todo": 10,
+        "in_progress": 1,
+        "in_review": 2,
         "done": 85
       },
       "latest_issues": [
+        {
+          "key": "IPD-511",
+          "title": "[uijudge] REQ-024 货币换算器 双端视觉评审（第24场景 UI维度·gated on",
+          "status": "in_review",
+          "updated_at": "2026-10-12T16:20:25Z"
+        },
+        {
+          "key": "IPD-504",
+          "title": "[SA] REQ-025 新需求C 跑步配速 TR-Design 六件套+契约 v1.0（第25场景",
+          "status": "in_progress",
+          "updated_at": "2026-10-12T16:18:44Z"
+        },
         {
           "key": "IPD-510",
           "title": "[Tester] REQ-024 货币换算器 TR-Accept 差分+双端对比报告（第24场景收口",
           "status": "in_review",
           "updated_at": "2026-10-12T16:12:59Z"
-        },
-        {
-          "key": "IPD-511",
-          "title": "[uijudge] REQ-024 货币换算器 双端视觉评审（第24场景 UI维度·gated on",
-          "status": "todo",
-          "updated_at": "2026-10-12T16:12:48Z"
         },
         {
           "key": "IPD-513",
@@ -435,12 +439,6 @@
           "title": "[uijudge] REQ-024 新需求B 货币换算器 双端视觉评审（第24场景 UI维度·gat",
           "status": "cancelled",
           "updated_at": "2026-10-12T16:05:26Z"
-        },
-        {
-          "key": "IPD-496",
-          "title": "[Tester] REQ-024 新需求B 货币换算器 TR-Accept 差分+双端对比报告（第2",
-          "status": "cancelled",
-          "updated_at": "2026-10-12T16:05:23Z"
         }
       ],
       "progress_note": "草稿 · 夜间第3轮未并入 · 次日 04:00 定稿"
