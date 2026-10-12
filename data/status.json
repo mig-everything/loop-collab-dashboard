@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T16:09:27Z",
+  "generated_at": "2026-10-12T16:13:36Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -369,10 +369,9 @@
           "role": "IPD-Tester 测试工程师",
           "model": "zai:glm-5.3",
           "agent_id": "86df9f14-a2cd-46d9-ad15-dbe8606ebd73",
-          "state": "working",
-          "issue": "IPD-510",
-          "issue_title": "[Tester] REQ-024 货币换算器 TR-Accept 差分+双端对比报告（第24场景收口·gated on ",
-          "since": "2026-10-12T16:05:25Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "hermes-rm",
@@ -400,18 +399,31 @@
           "role": "MiniMax 多模态 UI 视觉评审",
           "model": "minimax-cn:MiniMax-M3",
           "agent_id": "97f55294-90e0-4556-93af-a1cf44889574",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-511",
+          "issue_title": "[uijudge] REQ-024 货币换算器 双端视觉评审（第24场景 UI维度·gated on Dev IPD-4",
+          "since": "2026-10-12T16:12:51Z"
         }
       ],
       "issue_counts": {
         "todo": 12,
-        "in_progress": 1,
-        "in_review": 0,
+        "in_progress": 0,
+        "in_review": 1,
         "done": 85
       },
       "latest_issues": [
+        {
+          "key": "IPD-510",
+          "title": "[Tester] REQ-024 货币换算器 TR-Accept 差分+双端对比报告（第24场景收口",
+          "status": "in_review",
+          "updated_at": "2026-10-12T16:12:59Z"
+        },
+        {
+          "key": "IPD-511",
+          "title": "[uijudge] REQ-024 货币换算器 双端视觉评审（第24场景 UI维度·gated on",
+          "status": "todo",
+          "updated_at": "2026-10-12T16:12:48Z"
+        },
         {
           "key": "IPD-513",
           "title": "[巡检] 2026-10-13 leader Issue 状态巡检与催办",
@@ -429,18 +441,6 @@
           "title": "[Tester] REQ-024 新需求B 货币换算器 TR-Accept 差分+双端对比报告（第2",
           "status": "cancelled",
           "updated_at": "2026-10-12T16:05:23Z"
-        },
-        {
-          "key": "IPD-510",
-          "title": "[Tester] REQ-024 货币换算器 TR-Accept 差分+双端对比报告（第24场景收口",
-          "status": "in_progress",
-          "updated_at": "2026-10-12T16:05:22Z"
-        },
-        {
-          "key": "IPD-504",
-          "title": "[SA] REQ-025 新需求C 跑步配速 TR-Design 六件套+契约 v1.0（第25场景",
-          "status": "todo",
-          "updated_at": "2026-10-12T16:04:58Z"
         }
       ],
       "progress_note": "草稿 · 夜间第3轮未并入 · 次日 04:00 定稿"
