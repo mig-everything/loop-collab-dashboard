@@ -1,23 +1,85 @@
 {
-  "generated_at": "2026-10-12T10:27:11Z",
+  "generated_at": "2026-10-12T10:32:48Z",
   "tasks": [
     {
       "id": "task1-survey",
       "title": "任务1 · 应用迁移综述",
       "workspace": "ws-survey-loop",
       "machine": "JordanZTdeMacBook-Pro",
-      "machine_online": false,
+      "machine_online": true,
       "meeting_active": false,
       "meeting_title": "",
       "progress": 47,
-      "agents": [],
+      "agents": [
+        {
+          "name": "gpt-writer",
+          "emoji": "🧠",
+          "role": "GPT Writer（执笔者）",
+          "model": "gpt-6-luna",
+          "agent_id": "58ed4647-32dd-4ca1-8ddc-194b975d6024",
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
+        },
+        {
+          "name": "kimi-adversary",
+          "emoji": "🦋",
+          "role": "Kimi Adversarial Reviewer（对抗评审",
+          "model": "",
+          "agent_id": "6e530cc6-6b9d-4398-936d-df9c13468125",
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
+        },
+        {
+          "name": "deepseek-planner",
+          "emoji": "🐸",
+          "role": "DeepSeek Task Planner（任务规划+总结）",
+          "model": "deepseek:deepseek-v4-pro",
+          "agent_id": "04a4e04e-59d5-4f3a-8a16-acf99b80a493",
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
+        }
+      ],
       "issue_counts": {
-        "todo": 0,
+        "todo": 3,
         "in_progress": 0,
         "in_review": 0,
-        "done": 0
+        "done": 95
       },
-      "latest_issues": [],
+      "latest_issues": [
+        {
+          "key": "SUR-333",
+          "title": "[巡检] 2026-10-12 leader Issue 状态巡检与催办",
+          "status": "done",
+          "updated_at": "2026-10-12T10:32:01Z"
+        },
+        {
+          "key": "SUR-330",
+          "title": "[任务][day-18] 第6-8章后端结构对齐：移动专题决策 + 综合发现/开放问题 + 结论",
+          "status": "todo",
+          "updated_at": "2026-10-12T10:32:01Z"
+        },
+        {
+          "key": "SUR-334",
+          "title": "[空闲检测] 2026-10-12 leader 两小时正点检查与加派",
+          "status": "done",
+          "updated_at": "2026-10-12T10:18:06Z"
+        },
+        {
+          "key": "SUR-332",
+          "title": "[空闲检测] 2026-10-12 leader 两小时正点检查与加派",
+          "status": "done",
+          "updated_at": "2026-10-12T07:21:54Z"
+        },
+        {
+          "key": "SUR-331",
+          "title": "[评审][day-18] 对抗评审：第6-8章后端结构对齐（口径1/4/6/7/12）",
+          "status": "blocked",
+          "updated_at": "2026-10-12T04:41:49Z"
+        }
+      ],
       "progress_note": "day-4 晨 37% → 午 42% → 晚 44% → 夜 47%",
       "progress_from": "last"
     },
@@ -26,47 +88,98 @@
       "title": "任务2 · 评测集与双端用例",
       "workspace": "ws-benchmark-loop",
       "machine": "张涛 Mac Studio",
-      "machine_online": false,
+      "machine_online": true,
       "meeting_active": false,
       "meeting_title": "",
       "progress": 90,
-      "agents": [],
+      "agents": [
+        {
+          "name": "gpt-scenarist",
+          "emoji": "🦊",
+          "role": "GPT Scenarist",
+          "model": "zai:glm-5.3",
+          "agent_id": "6e6f1e24-3bc5-455a-85d2-cb3fb6c9a672",
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
+        },
+        {
+          "name": "glm-runner",
+          "emoji": "👾",
+          "role": "GLM Runner & Analyst",
+          "model": "",
+          "agent_id": "bdaefa9b-7045-4264-95e4-1db664e353d0",
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
+        },
+        {
+          "name": "deepseek-planner",
+          "emoji": "🍀",
+          "role": "DeepSeek Planner（小组 leader/PM）",
+          "model": "deepseek:deepseek-v4-pro",
+          "agent_id": "547cd361-ef50-4965-9477-bc659d8a1708",
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
+        },
+        {
+          "name": "minimax-visual-diff",
+          "emoji": "🐼",
+          "role": "MiniMax 多模态视觉差分评审",
+          "model": "minimax-cn:MiniMax-M3",
+          "agent_id": "843ac45d-b5db-4f35-b07b-2e5754ec5a5f",
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
+        },
+        {
+          "name": "项目观察员（GPT-6）",
+          "emoji": "🔍",
+          "role": "只读洞察项目目标与执行证据，用简单语言汇报进展、偏差和阻塞，",
+          "model": "gpt-6-astra",
+          "agent_id": "33b902ee-a4ca-46ae-9284-c8285311c687",
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
+        }
+      ],
       "issue_counts": {
-        "todo": 0,
-        "in_progress": 1,
+        "todo": 4,
+        "in_progress": 2,
         "in_review": 0,
-        "done": 99
+        "done": 94
       },
       "latest_issues": [
         {
-          "key": "IPD-486",
-          "title": "[Dev] REQ-023 新需求A 四维负差归因+编码skill优化+同需求复测（第23场景·优化",
+          "key": "BEN-277",
+          "title": "[观察员日报] 2026-10-11 通过率与 Agent 时间轴",
+          "status": "todo",
+          "updated_at": "2026-10-12T02:30:31Z"
+        },
+        {
+          "key": "BEN-280",
+          "title": "[任务·第2轮] 鸿蒙 test 变体扩容：口径⑤ 剩余 7 变体 + SC 收口 + 口径⑥ 全链",
           "status": "in_progress",
-          "updated_at": "2026-10-12T10:21:42Z"
+          "updated_at": "2026-10-11T13:29:06Z"
         },
         {
-          "key": "IPD-479",
-          "title": "[早会纪要] 2026-10-12",
-          "status": "done",
-          "updated_at": "2026-10-12T10:21:42Z"
+          "key": "BEN-135",
+          "title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 1",
+          "status": "in_progress",
+          "updated_at": "2026-10-11T12:25:05Z"
         },
         {
-          "key": "IPD-501",
-          "title": "[空闲检测] 2026-10-12 leader 两小时正点检查与加派",
+          "key": "BEN-281",
+          "title": "[任务·第2轮] BEN-248 新三数视觉四分类复核 + 新覆盖变体锚定（ref BEN-248/",
           "status": "done",
-          "updated_at": "2026-10-12T10:02:45Z"
+          "updated_at": "2026-10-11T12:12:04Z"
         },
         {
-          "key": "IPD-500",
-          "title": "[巡检] 2026-10-12 leader Issue 状态巡检与催办",
+          "key": "BEN-285",
+          "title": "[晚会日报] 2026-10-11",
           "status": "done",
-          "updated_at": "2026-10-12T08:09:35Z"
-        },
-        {
-          "key": "IPD-474",
-          "title": "[Dev] REQ-022 节拍器 四维负差归因+编码skill优化+同需求复测（第22场景·优化闭",
-          "status": "done",
-          "updated_at": "2026-10-12T08:06:32Z"
+          "updated_at": "2026-10-11T12:07:08Z"
         }
       ],
       "progress_note": "环比持平"
