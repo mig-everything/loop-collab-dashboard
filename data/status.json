@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T02:28:28Z",
+  "generated_at": "2026-10-12T02:32:11Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -156,7 +156,7 @@
           "key": "BEN-277",
           "title": "[观察员日报] 2026-10-11 通过率与 Agent 时间轴",
           "status": "todo",
-          "updated_at": "2026-10-12T02:16:29Z"
+          "updated_at": "2026-10-12T02:30:31Z"
         },
         {
           "key": "BEN-280",
