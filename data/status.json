@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T00:16:49Z",
+  "generated_at": "2026-10-13T00:27:41Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -357,10 +357,9 @@
           "role": "IPD-Dev 开发工程师",
           "model": "zai:glm-5.3",
           "agent_id": "44fcec25-d8b3-4af6-b206-1774a64677ce",
-          "state": "working",
-          "issue": "IPD-498",
-          "issue_title": "[Dev] REQ-024 新需求B 货币换算器 四维负差归因+编码skill优化+同需求复测（第24场景·优化闭环·g",
-          "since": "2026-10-13T00:04:51Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "hermes-tester",
@@ -411,6 +410,12 @@
       },
       "latest_issues": [
         {
+          "key": "IPD-498",
+          "title": "[Dev] REQ-024 新需求B 货币换算器 四维负差归因+编码skill优化+同需求复测（第2",
+          "status": "in_progress",
+          "updated_at": "2026-10-13T00:26:27Z"
+        },
+        {
           "key": "IPD-516",
           "title": "[SA] REQ-026 新需求A 2048数字游戏 TR-Design 六件套+契约 v1.0（第",
           "status": "in_review",
@@ -427,12 +432,6 @@
           "title": "[巡检] 2026-10-13 leader Issue 状态巡检与催办",
           "status": "done",
           "updated_at": "2026-10-13T00:05:24Z"
-        },
-        {
-          "key": "IPD-498",
-          "title": "[Dev] REQ-024 新需求B 货币换算器 四维负差归因+编码skill优化+同需求复测（第2",
-          "status": "in_progress",
-          "updated_at": "2026-10-13T00:05:02Z"
         },
         {
           "key": "IPD-515",
