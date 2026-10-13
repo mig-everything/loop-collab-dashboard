@@ -320,6 +320,17 @@ function bjTime(t, withSec){
   if (withSec) s += ':' + pad(b.getUTCSeconds());
   return s;
 }
+// 智能时间（2026-10-14 负责人要求）：今天只显示时间 HH:MM；今天之前显示日期+时间
+// （同年 MM-DD HH:MM，跨年 YYYY-MM-DD HH:MM），按北京时间的"今天"判定。
+function bjTimeSmart(t){
+  var d = new Date(t);
+  if (isNaN(d.getTime())) return '--';
+  var bjNow = new Date(Date.now() + 8 * 3600 * 1000);
+  var today = bjNow.getUTCFullYear() + '-' + pad(bjNow.getUTCMonth() + 1) + '-' + pad(bjNow.getUTCDate());
+  var full = bjTime(t);
+  if (full.slice(0, 10) === today) return full.slice(11);
+  return full.slice(0, 4) === today.slice(0, 4) ? full.slice(5) : full;
+}
 function hueOf(name){
   var h = 0;
   for (var i = 0; i < name.length; i++) h = (h * 31 + name.charCodeAt(i)) % 360;
@@ -446,7 +457,7 @@ function renderIssues(R, task){
     var inner = '<i class="dot ' + st + '" title="' + STATUS_LABEL[st] + '"></i>' +
             '<span class="ik">' + esc(i.key) + '</span>' +
             '<span class="it" title="' + esc(i.title) + '">' + esc(trunc(i.title, 34)) + '</span>' +
-            '<span class="tm">' + bjTime(i.updated_at).slice(11) + '</span>';
+            '<span class="tm">' + bjTimeSmart(i.updated_at) + '</span>';
     html += '<li>' + (url ?
             '<a class="irow" href="' + url + '" target="_blank" rel="noopener" title="打开 MultiCA Issue">' + inner + '</a>' :
             '<span class="irow">' + inner + '</span>') + '</li>';

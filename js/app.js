@@ -16,6 +16,16 @@
     var s = b.getUTCFullYear() + "-" + pad(b.getUTCMonth() + 1) + "-" + pad(b.getUTCDate()) + " " + pad(b.getUTCHours()) + ":" + pad(b.getUTCMinutes());
     return sec ? s + ":" + pad(b.getUTCSeconds()) : s;
   }
+  /* 智能时间（2026-10-14 负责人要求）：今天只显示时间 HH:MM；今天之前显示日期+时间
+     （同年 MM-DD HH:MM，跨年 YYYY-MM-DD HH:MM），按北京时间的"今天"判定。 */
+  function bjTimeSmart(t) {
+    var d = new Date(t); if (isNaN(d.getTime())) return "--";
+    var bjNow = new Date(Date.now() + 8 * 3600 * 1000);
+    var today = bjNow.getUTCFullYear() + "-" + pad(bjNow.getUTCMonth() + 1) + "-" + pad(bjNow.getUTCDate());
+    var full = bjTime(t);
+    if (full.slice(0, 10) === today) return full.slice(11);
+    return full.slice(0, 4) === today.slice(0, 4) ? full.slice(5) : full;
+  }
   // 与原看板一致的 MultiCA 链接规则
   function mcUrl(ws, path) { return "https://multica.ai/" + encodeURIComponent(ws || "") + path; }
   function taskUrl(t) { return mcUrl(t.workspace, "/issues"); }
@@ -50,7 +60,7 @@
     var iss = (t.latest_issues || []).slice(0, 3).map(function (it) {
       var st = STATUS_LABEL[it.status] ? it.status : "todo";
       return '<li><i class="sdot ' + st + '" title="' + STATUS_LABEL[st] + '"></i>' + link(issueUrl(t, it.key), esc(it.key), "k") +
-        '<span class="tt" title="' + esc(it.title) + '">' + link(issueUrl(t, it.key), esc(it.title)) + '</span><span class="tm">' + bjTime(it.updated_at).slice(11) + "</span></li>";
+        '<span class="tt" title="' + esc(it.title) + '">' + link(issueUrl(t, it.key), esc(it.title)) + '</span><span class="tm">' + bjTimeSmart(it.updated_at) + "</span></li>";
     }).join("");
     return '<section class="team' + (t.meeting_active ? " meeting" : "") + '" data-i="' + i + '">' +
       '<header class="th"><i class="lamp' + (t.machine_online ? "" : " off") + '" title="' + esc(t.machine || "") + (t.machine_online ? " 在线" : " 离线") + '"></i>' +
@@ -73,7 +83,7 @@
     rows.sort(function (a, b) { return b.ts - a.ts; });
     $("feed").innerHTML = "<h5>四队最新动态<small>（按更新时间，数据每 3 分钟采集）</small></h5><ul>" + rows.map(function (r) {
       var st = STATUS_LABEL[r.it.status] ? r.it.status : "todo", tag = (r.t.title || r.t.id).split("·")[0].trim();
-      return '<li><span class="tm">' + bjTime(r.it.updated_at).slice(5) + '</span><span class="tg t' + PO.teamNo(r.t) + '">' + esc(tag) + '</span><i class="sdot ' + st + '" title="' + STATUS_LABEL[st] + '"></i>' +
+      return '<li><span class="tm">' + bjTimeSmart(r.it.updated_at) + '</span><span class="tg t' + PO.teamNo(r.t) + '">' + esc(tag) + '</span><i class="sdot ' + st + '" title="' + STATUS_LABEL[st] + '"></i>' +
         link(issueUrl(r.t, r.it.key), esc(r.it.key), "k") + '<span class="tt" title="' + esc(r.it.title) + '">' + link(issueUrl(r.t, r.it.key), esc(r.it.title)) + "</span></li>";
     }).join("") + "</ul>";
   }
@@ -95,7 +105,7 @@
       "<h4>成员</h4>" + (t.agents || []).map(function (a) { return memberRow(t, a); }).join("") +
       "<h4>最新动态</h4><ul class=\"ilist\">" + (t.latest_issues || []).map(function (it) {
         var st = STATUS_LABEL[it.status] ? it.status : "todo";
-        return '<li><i class="sdot ' + st + '"></i>' + link(issueUrl(t, it.key), esc(it.key), "k") + '<span class="tt">' + link(issueUrl(t, it.key), esc(it.title)) + '</span><span class="tm">' + bjTime(it.updated_at).slice(11) + "</span></li>";
+        return '<li><i class="sdot ' + st + '"></i>' + link(issueUrl(t, it.key), esc(it.key), "k") + '<span class="tt">' + link(issueUrl(t, it.key), esc(it.title)) + '</span><span class="tm">' + bjTimeSmart(it.updated_at) + "</span></li>";
       }).join("") + "</ul>");
   }
   function onAgent(t, a) {
