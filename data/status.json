@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T00:05:52Z",
+  "generated_at": "2026-10-13T00:09:34Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -348,10 +348,9 @@
           "role": "IPD-SE 系统工程师",
           "model": "zai:glm-5.3",
           "agent_id": "b874ba6b-80e6-45c6-a8c6-aedc6f2b326b",
-          "state": "working",
-          "issue": "IPD-505",
-          "issue_title": "[SE] REQ-025 新需求C 跑步配速 追踪矩阵 v1.0（第25场景·health·gated on SA）",
-          "since": "2026-10-13T00:04:50Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "hermes-dev",
@@ -407,11 +406,17 @@
       ],
       "issue_counts": {
         "todo": 13,
-        "in_progress": 3,
-        "in_review": 0,
+        "in_progress": 2,
+        "in_review": 1,
         "done": 82
       },
       "latest_issues": [
+        {
+          "key": "IPD-505",
+          "title": "[SE] REQ-025 新需求C 跑步配速 追踪矩阵 v1.0（第25场景·health·gate",
+          "status": "in_review",
+          "updated_at": "2026-10-13T00:06:41Z"
+        },
         {
           "key": "IPD-516",
           "title": "[SA] REQ-026 新需求A 2048数字游戏 TR-Design 六件套+契约 v1.0（第",
@@ -435,12 +440,6 @@
           "title": "[PM] REQ-026 新需求A 2048数字游戏 预研+PRD+TR-Req+契约冻结（第26场",
           "status": "done",
           "updated_at": "2026-10-13T00:04:51Z"
-        },
-        {
-          "key": "IPD-505",
-          "title": "[SE] REQ-025 新需求C 跑步配速 追踪矩阵 v1.0（第25场景·health·gate",
-          "status": "in_progress",
-          "updated_at": "2026-10-13T00:04:49Z"
         }
       ]
     }
