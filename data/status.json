@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T08:05:38Z",
+  "generated_at": "2026-10-13T08:09:41Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -347,9 +347,10 @@
           "role": "IPD-SA 解决方案架构师",
           "model": "zai:glm-5.3",
           "agent_id": "3e4373ef-a262-4b28-ab2a-818861fc9624",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-531",
+          "issue_title": "[SA] REQ-027 新需求B 颜色转换器 TR-Design 六件套+契约 v1.0（第27场景·tool·gat",
+          "since": "2026-10-13T08:07:20Z"
         },
         {
           "name": "hermes-se",
@@ -400,7 +401,7 @@
           "state": "working",
           "issue": "IPD-530",
           "issue_title": "[巡检] 2026-10-13 leader Issue 状态巡检与催办",
-          "since": "2026-10-13T08:00:24Z"
+          "since": "2026-10-13T08:08:20Z"
         },
         {
           "name": "minimax-uijudge",
@@ -414,41 +415,41 @@
         }
       ],
       "issue_counts": {
-        "todo": 13,
+        "todo": 11,
         "in_progress": 4,
-        "in_review": 2,
-        "done": 79
+        "in_review": 0,
+        "done": 83
       },
       "latest_issues": [
         {
           "key": "IPD-530",
           "title": "[巡检] 2026-10-13 leader Issue 状态巡检与催办",
-          "status": "todo",
-          "updated_at": "2026-10-13T08:00:22Z"
+          "status": "done",
+          "updated_at": "2026-10-13T08:08:09Z"
         },
         {
-          "key": "IPD-529",
-          "title": "[空闲检测] 2026-10-13 leader 两小时正点检查与加派",
+          "key": "IPD-531",
+          "title": "[SA] REQ-027 新需求B 颜色转换器 TR-Design 六件套+契约 v1.0（第27场",
+          "status": "in_progress",
+          "updated_at": "2026-10-13T08:08:06Z"
+        },
+        {
+          "key": "IPD-527",
+          "title": "[午会纪要] 2026-10-13",
           "status": "done",
-          "updated_at": "2026-10-13T06:02:41Z"
+          "updated_at": "2026-10-13T08:07:39Z"
+        },
+        {
+          "key": "IPD-498",
+          "title": "[Dev] REQ-024 新需求B 货币换算器 四维负差归因+编码skill优化+同需求复测（第2",
+          "status": "in_progress",
+          "updated_at": "2026-10-13T08:07:36Z"
         },
         {
           "key": "IPD-517",
           "title": "[SE] REQ-026 新需求A 2048数字游戏 追踪矩阵 v1.0（第26场景·game·ga",
           "status": "in_progress",
-          "updated_at": "2026-10-13T04:53:58Z"
-        },
-        {
-          "key": "IPD-528",
-          "title": "[PM] REQ-027 新需求B 颜色转换器 预研+PRD+TR-Req+契约冻结（第27场景·t",
-          "status": "in_review",
-          "updated_at": "2026-10-13T04:46:58Z"
-        },
-        {
-          "key": "IPD-506",
-          "title": "[Dev] REQ-025 新需求C 跑步配速 双端生成+构建+运行+四维度量（第25场景·实验·g",
-          "status": "in_progress",
-          "updated_at": "2026-10-13T04:40:30Z"
+          "updated_at": "2026-10-13T08:07:25Z"
         }
       ]
     }
