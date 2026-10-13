@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T04:55:38Z",
+  "generated_at": "2026-10-13T05:48:45Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -357,10 +357,9 @@
           "role": "IPD-Dev 开发工程师",
           "model": "zai:glm-5.3",
           "agent_id": "44fcec25-d8b3-4af6-b206-1774a64677ce",
-          "state": "working",
-          "issue": "IPD-506",
-          "issue_title": "[Dev] REQ-025 新需求C 跑步配速 双端生成+构建+运行+四维度量（第25场景·实验·gated on SE",
-          "since": "2026-10-13T04:35:12Z"
+          "state": "meeting",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "hermes-tester",
