@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T20:05:28Z",
+  "generated_at": "2026-10-13T20:09:06Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -424,7 +424,7 @@
           "key": "IPD-534",
           "title": "[SE] REQ-027 新需求B 颜色转换器 追踪矩阵 v1.0（第27场景·tool转换工具·g",
           "status": "todo",
-          "updated_at": "2026-10-13T20:03:46Z"
+          "updated_at": "2026-10-13T20:09:02Z"
         },
         {
           "key": "IPD-538",
