@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T06:57:42Z",
+  "generated_at": "2026-10-13T07:13:28Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -149,15 +149,14 @@
           "role": "为非 iOS 专业用户搭建、维护和排查 iOS 开发环境，并",
           "model": "claude-opus-5",
           "agent_id": "b2d39c9f-c2ea-4b8c-8265-0e2aa43e79ff",
-          "state": "working",
-          "issue": "BEN-286",
-          "issue_title": "搭建 iOS 应用开发环境并提供 Demo App 验证安装效果",
-          "since": "2026-10-13T06:49:33Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         }
       ],
       "issue_counts": {
         "todo": 4,
-        "in_progress": 3,
+        "in_progress": 2,
         "in_review": 0,
         "done": 93
       },
@@ -165,8 +164,8 @@
         {
           "key": "BEN-286",
           "title": "搭建 iOS 应用开发环境并提供 Demo App 验证安装效果",
-          "status": "in_progress",
-          "updated_at": "2026-10-13T06:55:16Z"
+          "status": "blocked",
+          "updated_at": "2026-10-13T07:11:35Z"
         },
         {
           "key": "BEN-277",
