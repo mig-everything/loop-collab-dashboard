@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T20:20:04Z",
+  "generated_at": "2026-10-13T22:00:24Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -397,9 +397,10 @@
           "role": "DeepSeek Planner（小组 leader/PM ",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-540",
+          "issue_title": "[空闲检测] 2026-10-14 leader 两小时正点检查与加派",
+          "since": "2026-10-13T22:00:36Z"
         },
         {
           "name": "minimax-uijudge",
@@ -413,12 +414,18 @@
         }
       ],
       "issue_counts": {
-        "todo": 11,
+        "todo": 12,
         "in_progress": 0,
         "in_review": 1,
-        "done": 83
+        "done": 82
       },
       "latest_issues": [
+        {
+          "key": "IPD-540",
+          "title": "[空闲检测] 2026-10-14 leader 两小时正点检查与加派",
+          "status": "todo",
+          "updated_at": "2026-10-13T22:00:35Z"
+        },
         {
           "key": "IPD-539",
           "title": "[PM] REQ-029 新需求A 灵感速记本 预研+PRD+TR-Req+契约冻结（第29场景·n",
@@ -442,12 +449,6 @@
           "title": "[Dev] REQ-025 新需求C 跑步配速 双端生成+构建+运行+四维度量（第25场景·实验·g",
           "status": "blocked",
           "updated_at": "2026-10-13T20:12:14Z"
-        },
-        {
-          "key": "IPD-534",
-          "title": "[SE] REQ-027 新需求B 颜色转换器 追踪矩阵 v1.0（第27场景·tool转换工具·g",
-          "status": "todo",
-          "updated_at": "2026-10-13T20:09:02Z"
         }
       ]
     }
