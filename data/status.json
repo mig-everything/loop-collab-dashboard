@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T07:33:11Z",
+  "generated_at": "2026-10-13T08:01:39Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -398,9 +398,10 @@
           "role": "DeepSeek Planner（小组 leader/PM ",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-530",
+          "issue_title": "[巡检] 2026-10-13 leader Issue 状态巡检与催办",
+          "since": "2026-10-13T08:00:24Z"
         },
         {
           "name": "minimax-uijudge",
@@ -414,12 +415,18 @@
         }
       ],
       "issue_counts": {
-        "todo": 12,
+        "todo": 13,
         "in_progress": 4,
         "in_review": 2,
-        "done": 80
+        "done": 79
       },
       "latest_issues": [
+        {
+          "key": "IPD-530",
+          "title": "[巡检] 2026-10-13 leader Issue 状态巡检与催办",
+          "status": "todo",
+          "updated_at": "2026-10-13T08:00:22Z"
+        },
         {
           "key": "IPD-529",
           "title": "[空闲检测] 2026-10-13 leader 两小时正点检查与加派",
@@ -443,12 +450,6 @@
           "title": "[Dev] REQ-025 新需求C 跑步配速 双端生成+构建+运行+四维度量（第25场景·实验·g",
           "status": "in_progress",
           "updated_at": "2026-10-13T04:40:30Z"
-        },
-        {
-          "key": "IPD-527",
-          "title": "[午会纪要] 2026-10-13",
-          "status": "in_progress",
-          "updated_at": "2026-10-13T04:35:59Z"
         }
       ]
     }
