@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T20:12:45Z",
+  "generated_at": "2026-10-13T20:16:26Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -398,10 +398,9 @@
           "role": "DeepSeek Planner（小组 leader/PM ",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
-          "state": "working",
-          "issue": "IPD-538",
-          "issue_title": "[早会纪要] 2026-10-14",
-          "since": "2026-10-13T20:00:27Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "minimax-uijudge",
@@ -415,23 +414,23 @@
         }
       ],
       "issue_counts": {
-        "todo": 13,
+        "todo": 12,
         "in_progress": 0,
         "in_review": 0,
-        "done": 82
+        "done": 83
       },
       "latest_issues": [
+        {
+          "key": "IPD-538",
+          "title": "[早会纪要] 2026-10-14",
+          "status": "done",
+          "updated_at": "2026-10-13T20:16:12Z"
+        },
         {
           "key": "IPD-539",
           "title": "[PM] REQ-029 新需求A 灵感速记本 预研+PRD+TR-Req+契约冻结（第29场景·n",
           "status": "todo",
           "updated_at": "2026-10-13T20:12:25Z"
-        },
-        {
-          "key": "IPD-538",
-          "title": "[早会纪要] 2026-10-14",
-          "status": "todo",
-          "updated_at": "2026-10-13T20:12:21Z"
         },
         {
           "key": "IPD-517",
