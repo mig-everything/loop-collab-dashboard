@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T06:09:46Z",
+  "generated_at": "2026-10-13T06:41:31Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -142,15 +142,32 @@
           "state": "idle",
           "issue": "",
           "issue_title": ""
+        },
+        {
+          "name": "iOS 环境助手",
+          "emoji": "🍎",
+          "role": "为非 iOS 专业用户搭建、维护和排查 iOS 开发环境，并",
+          "model": "gpt-6-astra",
+          "agent_id": "b2d39c9f-c2ea-4b8c-8265-0e2aa43e79ff",
+          "state": "working",
+          "issue": "BEN-286",
+          "issue_title": "搭建 iOS 应用开发环境并提供 Demo App 验证安装效果",
+          "since": "2026-10-13T06:41:35Z"
         }
       ],
       "issue_counts": {
-        "todo": 4,
+        "todo": 5,
         "in_progress": 2,
         "in_review": 0,
-        "done": 94
+        "done": 93
       },
       "latest_issues": [
+        {
+          "key": "BEN-286",
+          "title": "搭建 iOS 应用开发环境并提供 Demo App 验证安装效果",
+          "status": "todo",
+          "updated_at": "2026-10-13T06:41:33Z"
+        },
         {
           "key": "BEN-277",
           "title": "[观察员日报] 2026-10-11 通过率与 Agent 时间轴",
@@ -174,12 +191,6 @@
           "title": "[任务·第2轮] BEN-248 新三数视觉四分类复核 + 新覆盖变体锚定（ref BEN-248/",
           "status": "done",
           "updated_at": "2026-10-11T12:12:04Z"
-        },
-        {
-          "key": "BEN-285",
-          "title": "[晚会日报] 2026-10-11",
-          "status": "done",
-          "updated_at": "2026-10-11T12:07:08Z"
         }
       ],
       "progress_note": "环比持平"
