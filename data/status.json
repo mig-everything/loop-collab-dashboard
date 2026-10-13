@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T13:41:08Z",
+  "generated_at": "2026-10-13T13:47:25Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -33,9 +33,109 @@
       "agents": [],
       "issue_counts": {
         "todo": 0,
-        "in_progress": 3,
+        "in_progress": 0,
         "in_review": 0,
-        "done": 30
+        "done": 0
+      },
+      "latest_issues": [],
+      "progress_note": "环比持平"
+    },
+    {
+      "id": "task3-dw-migration",
+      "title": "任务3 · DW 代码迁移",
+      "workspace": "ws-dw-migration-loop",
+      "machine": "奕棣 MacBook",
+      "machine_online": false,
+      "meeting_active": false,
+      "meeting_title": "",
+      "progress": 52,
+      "agents": [
+        {
+          "name": "hermes-pm",
+          "emoji": "🚀",
+          "role": "IPD-PM 产品经理",
+          "model": "",
+          "agent_id": "1764c131-5c09-48cb-aa48-3177d5256dbb",
+          "state": "offline",
+          "issue": "",
+          "issue_title": ""
+        },
+        {
+          "name": "hermes-sa",
+          "emoji": "🔥",
+          "role": "IPD-SA 解决方案架构师",
+          "model": "",
+          "agent_id": "3e4373ef-a262-4b28-ab2a-818861fc9624",
+          "state": "offline",
+          "issue": "",
+          "issue_title": ""
+        },
+        {
+          "name": "hermes-se",
+          "emoji": "⚡",
+          "role": "IPD-SE 系统工程师",
+          "model": "",
+          "agent_id": "b874ba6b-80e6-45c6-a8c6-aedc6f2b326b",
+          "state": "offline",
+          "issue": "",
+          "issue_title": ""
+        },
+        {
+          "name": "hermes-dev",
+          "emoji": "🐨",
+          "role": "IPD-Dev 开发工程师",
+          "model": "",
+          "agent_id": "44fcec25-d8b3-4af6-b206-1774a64677ce",
+          "state": "offline",
+          "issue": "",
+          "issue_title": ""
+        },
+        {
+          "name": "hermes-tester",
+          "emoji": "🔥",
+          "role": "IPD-Tester 测试工程师",
+          "model": "",
+          "agent_id": "86df9f14-a2cd-46d9-ad15-dbe8606ebd73",
+          "state": "offline",
+          "issue": "",
+          "issue_title": ""
+        },
+        {
+          "name": "hermes-rm",
+          "emoji": "⚡",
+          "role": "IPD-RM 发布经理",
+          "model": "",
+          "agent_id": "78156461-9644-478e-9c80-53cd18e25e33",
+          "state": "offline",
+          "issue": "",
+          "issue_title": ""
+        },
+        {
+          "name": "deepseek-planner",
+          "emoji": "🦋",
+          "role": "DeepSeek Planner（小组 leader/PM ",
+          "model": "deepseek:deepseek-v4-pro",
+          "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
+          "state": "offline",
+          "issue": "",
+          "issue_title": ""
+        },
+        {
+          "name": "minimax-uijudge",
+          "emoji": "🐧",
+          "role": "MiniMax 多模态 UI 视觉评审",
+          "model": "minimax-cn:MiniMax-M3",
+          "agent_id": "97f55294-90e0-4556-93af-a1cf44889574",
+          "state": "offline",
+          "issue": "",
+          "issue_title": ""
+        }
+      ],
+      "issue_counts": {
+        "todo": 12,
+        "in_progress": 3,
+        "in_review": 1,
+        "done": 82
       },
       "latest_issues": [
         {
@@ -63,139 +163,12 @@
           "updated_at": "2026-10-13T12:27:27Z"
         },
         {
-          "key": "IPD-531",
-          "title": "[SA] REQ-027 新需求B 颜色转换器 TR-Design 六件套+契约 v1.0（第27场",
-          "status": "done",
-          "updated_at": "2026-10-13T12:14:47Z"
+          "key": "IPD-535",
+          "title": "[PM] REQ-028 新需求C 世界时钟 预研+PRD+TR-Req+契约冻结（第28场景·to",
+          "status": "in_review",
+          "updated_at": "2026-10-13T12:24:56Z"
         }
       ],
-      "progress_note": "环比持平"
-    },
-    {
-      "id": "task3-dw-migration",
-      "title": "任务3 · DW 代码迁移",
-      "workspace": "ws-dw-migration-loop",
-      "machine": "奕棣 MacBook",
-      "machine_online": true,
-      "meeting_active": false,
-      "meeting_title": "",
-      "progress": 52,
-      "agents": [
-        {
-          "name": "opus-analyzer",
-          "emoji": "🦁",
-          "role": "Opus Analyzer",
-          "model": "claude-opus-5-5",
-          "agent_id": "2f32549c-87c7-4202-8f54-3af79a30afa0",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
-        },
-        {
-          "name": "deepseek-planner",
-          "emoji": "⚡",
-          "role": "DeepSeek Planner（小组 leader/PM，",
-          "model": "deepseek:deepseek-v4-pro",
-          "agent_id": "950ff614-521d-4e32-a02d-423d41a7b2b3",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
-        },
-        {
-          "name": "dw-lead",
-          "emoji": "🐵",
-          "role": "DW 迁移执行小队队长",
-          "model": "claude-opus-5-5",
-          "agent_id": "c6ff7c69-0db4-4b35-ac81-dd00e5a53ba4",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
-        },
-        {
-          "name": "exec-runner",
-          "emoji": "🐙",
-          "role": "运行员",
-          "model": "claude-opus-5-5",
-          "agent_id": "1c3481f5-135b-4959-9daa-c510c076d494",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
-        },
-        {
-          "name": "exec-verifier",
-          "emoji": "🐝",
-          "role": "验证员",
-          "model": "claude-opus-5-5",
-          "agent_id": "69822c63-0dcc-4f3e-875d-7b300d437623",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
-        },
-        {
-          "name": "exec-fixer",
-          "emoji": "⭐",
-          "role": "修复员",
-          "model": "claude-opus-5-5",
-          "agent_id": "cd70e713-a339-4621-8699-2058d9cf7d6b",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
-        },
-        {
-          "name": "deveco",
-          "emoji": "👾",
-          "role": null,
-          "model": "",
-          "agent_id": "08a037a0-da6b-4ef0-b623-24732954c8fe",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
-        }
-      ],
-      "issue_counts": {
-        "todo": 0,
-        "in_progress": 0,
-        "in_review": 0,
-        "done": 85
-      },
-      "latest_issues": [
-        {
-          "key": "DWM-312",
-          "title": "[空闲检测] 2026-10-13 leader 两小时正点检查与加派",
-          "status": "done",
-          "updated_at": "2026-10-13T04:03:04Z"
-        },
-        {
-          "key": "DWM-311",
-          "title": "[巡检] 2026-10-13 leader Issue 状态巡检与催办",
-          "status": "done",
-          "updated_at": "2026-10-13T00:02:33Z"
-        },
-        {
-          "key": "DWM-310",
-          "title": "[空闲检测] 2026-10-13 leader 两小时正点检查与加派",
-          "status": "done",
-          "updated_at": "2026-10-12T22:02:35Z"
-        },
-        {
-          "key": "DWM-309",
-          "title": "[早会纪要] 2026-10-13",
-          "status": "done",
-          "updated_at": "2026-10-12T20:16:10Z"
-        },
-        {
-          "key": "DWM-308",
-          "title": "[巡检] 2026-10-13 leader Issue 状态巡检与催办",
-          "status": "done",
-          "updated_at": "2026-10-12T16:04:11Z"
-        }
-      ],
-      "order": {
-        "key": "DWM-251",
-        "title": "[DW迁移任务单] OpenCamera 迁移 · 暂停（负责人要求·额度用尽）",
-        "status": "blocked",
-        "updated_at": "2026-10-10T20:10:57Z"
-      },
       "progress_note": "10 个应用：完成 7、进行中 0、暂停 1、未开始 2"
     },
     {
