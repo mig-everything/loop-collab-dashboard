@@ -1,0 +1,65 @@
+[
+ {
+  "id": "shot_imp_2026_10_05_req011_flashcards_00",
+  "run_id": "run_imp_2026_10_05_req011_flashcards_a",
+  "side": "android_baseline",
+  "path": "shots/shot_imp_2026_10_05_req011_flashcards_00.png",
+  "captured_at": "2026-10-05T11:00:00+08:00",
+  "degraded": false,
+  "image_url": "shots/shot_imp_2026_10_05_req011_flashcards_00.png"
+ },
+ {
+  "id": "shot_imp_2026_10_05_req011_flashcards_01",
+  "run_id": "run_imp_2026_10_05_req011_flashcards_a",
+  "side": "android_baseline",
+  "path": "shots/shot_imp_2026_10_05_req011_flashcards_01.png",
+  "captured_at": "2026-10-05T11:00:00+08:00",
+  "degraded": false,
+  "image_url": "shots/shot_imp_2026_10_05_req011_flashcards_01.png"
+ },
+ {
+  "id": "shot_imp_2026_10_05_req011_flashcards_02",
+  "run_id": "run_imp_2026_10_05_req011_flashcards_a",
+  "side": "android_baseline",
+  "path": "shots/shot_imp_2026_10_05_req011_flashcards_02.png",
+  "captured_at": "2026-10-05T11:00:00+08:00",
+  "degraded": false,
+  "image_url": "shots/shot_imp_2026_10_05_req011_flashcards_02.png"
+ },
+ {
+  "id": "shot_imp_2026_10_05_req011_flashcards_03",
+  "run_id": "run_imp_2026_10_05_req011_flashcards_a",
+  "side": "android_baseline",
+  "path": "shots/shot_imp_2026_10_05_req011_flashcards_03.png",
+  "captured_at": "2026-10-05T11:00:00+08:00",
+  "degraded": false,
+  "image_url": "shots/shot_imp_2026_10_05_req011_flashcards_03.png"
+ },
+ {
+  "id": "shot_imp_2026_10_05_req011_flashcards_04",
+  "run_id": "run_imp_2026_10_05_req011_flashcards_a",
+  "side": "android_baseline",
+  "path": "shots/shot_imp_2026_10_05_req011_flashcards_04.png",
+  "captured_at": "2026-10-05T11:00:00+08:00",
+  "degraded": false,
+  "image_url": "shots/shot_imp_2026_10_05_req011_flashcards_04.png"
+ },
+ {
+  "id": "shot_imp_2026_10_05_req011_flashcards_05",
+  "run_id": "run_imp_2026_10_05_req011_flashcards_a",
+  "side": "android_baseline",
+  "path": "shots/shot_imp_2026_10_05_req011_flashcards_05.png",
+  "captured_at": "2026-10-05T11:00:00+08:00",
+  "degraded": false,
+  "image_url": "shots/shot_imp_2026_10_05_req011_flashcards_05.png"
+ },
+ {
+  "id": "shot_imp_2026_10_05_req011_flashcards_06",
+  "run_id": "run_imp_2026_10_05_req011_flashcards_a",
+  "side": "android_baseline",
+  "path": "shots/shot_imp_2026_10_05_req011_flashcards_06.png",
+  "captured_at": "2026-10-05T11:00:00+08:00",
+  "degraded": false,
+  "image_url": "shots/shot_imp_2026_10_05_req011_flashcards_06.png"
+ }
+]

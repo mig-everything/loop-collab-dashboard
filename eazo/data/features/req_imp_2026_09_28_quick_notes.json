@@ -1,0 +1,191 @@
+{
+ "requirement_id": "req_imp_2026_09_28_quick_notes",
+ "features": [
+  {
+   "name": "all Tags returns dedup sorted",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "双端同集（归一命名一致）· 鸿蒙用例 31 · 安卓用例 15"
+  },
+  {
+   "name": "create empty title returns error",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "双端同集（归一命名一致）· 鸿蒙用例 31 · 安卓用例 15"
+  },
+  {
+   "name": "create normalizes tags trim dedup sort",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "双端同集（归一命名一致）· 鸿蒙用例 31 · 安卓用例 15"
+  },
+  {
+   "name": "create summary too long returns error",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "双端同集（归一命名一致）· 鸿蒙用例 31 · 安卓用例 15"
+  },
+  {
+   "name": "create too long title returns error",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "双端同集（归一命名一致）· 鸿蒙用例 31 · 安卓用例 15"
+  },
+  {
+   "name": "create valid uses trim and defaults",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "双端同集（归一命名一致）· 鸿蒙用例 31 · 安卓用例 15"
+  },
+  {
+   "name": "filter by tag keeps only matching",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "双端同集（归一命名一致）· 鸿蒙用例 31 · 安卓用例 15"
+  },
+  {
+   "name": "get By Id returns note or null",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "双端同集（归一命名一致）· 鸿蒙用例 31 · 安卓用例 15"
+  },
+  {
+   "name": "list tag group sorts by primary tag then time desc",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "双端同集（归一命名一致）· 鸿蒙用例 31 · 安卓用例 15"
+  },
+  {
+   "name": "list time asc sorts oldest first",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "双端同集（归一命名一致）· 鸿蒙用例 31 · 安卓用例 15"
+  },
+  {
+   "name": "list time desc sorts newest first",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "双端同集（归一命名一致）· 鸿蒙用例 31 · 安卓用例 15"
+  },
+  {
+   "name": "remove existing returns true missing false",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "双端同集（归一命名一致）· 鸿蒙用例 31 · 安卓用例 15"
+  },
+  {
+   "name": "update edits fields and refreshes updated At",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "双端同集（归一命名一致）· 鸿蒙用例 31 · 安卓用例 15"
+  },
+  {
+   "name": "update invalid title returns null",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "双端同集（归一命名一致）· 鸿蒙用例 31 · 安卓用例 15"
+  },
+  {
+   "name": "update missing id returns null",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "双端同集（归一命名一致）· 鸿蒙用例 31 · 安卓用例 15"
+  },
+  {
+   "name": "boolean true is true",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "build default limit is 3",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "build returns first N recent with summary",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "consume resets flag",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "force New true ignores stale id",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "force New true with null params",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "force New true with undefined params",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "mark then consume returns true",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "missing param is false",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "number 1 is false",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "router edit with id",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "router new with empty id",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "router new with missing id key",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "router new with null params",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "string 1 is false",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "string true is false",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  }
+ ]
+}

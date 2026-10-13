@@ -1,0 +1,234 @@
+{
+ "id": "rpt_1791474696644_1ded55f4",
+ "requirement_id": "req_1791473431535_eb9ec171",
+ "run_id_harmony": "run_1791473431536_c69d7fe2",
+ "run_id_android": "run_1791473431536_f88a2c75",
+ "commit_sha_harmony": "7490b8dc605e77c808f319c3b662cac75d51d9e2",
+ "commit_sha_android": "19968f429ec5715d298f0b95593ecce2375d3536",
+ "engine_version": "claude_code:p1.5.0:eazo-skills-2026.09.30:eazo-tpl-2026.10.06:glm-5.3[1m]",
+ "toolchain_version": "harmony:api24+hvigor6.1.0|android:jdk21+gradle8.9+agp8.5.2+kotlin1.9.10+compileSdk34",
+ "metrics_schema_version": "1.0.0",
+ "rubric_version": "eazo-rubric-1.0.0",
+ "dimensions": {
+  "func_coverage": {
+   "key": "func_coverage",
+   "harmony_pct": 50.0,
+   "android_pct": 50.0,
+   "diff": 0.0,
+   "func_points": [
+    {
+     "name": "鸿蒙独有用例（30 项）",
+     "harmony": "✓",
+     "android": "✗",
+     "note": "安卓缺失 · applySettingsIdleOnly、breakCompletionBackToFocus、compareSessionsEndedThenIdLex…"
+    },
+    {
+     "name": "安卓独有用例（29 项）",
+     "harmony": "✗",
+     "android": "✓",
+     "note": "鸿蒙缺失 · P-A1 默认 25 分钟专注 5 分钟短休息 FOCUS IDLE 整轮、P-A2 initial 对越界时长做 clamp、P-B1 start 置 RUNNING 且 deadline 等于 now 加剩余秒乘 1000…"
+    },
+    {
+     "name": "命名风格差异说明",
+     "harmony": "◐",
+     "android": "◐",
+     "note": "双端各自 30/29 个用例，同名仅 0 项；命名风格不同（如 snake_case ↔ 英文短语），按名对账不能证明功能缺失，建议补双端运行取证（hypium/junit 日志）后复核"
+    }
+   ],
+   "degraded": false
+  },
+  "page": {
+   "key": "page",
+   "count_harmony": 3,
+   "count_android": 1,
+   "count_diff": 2,
+   "nodes_harmony": 3,
+   "nodes_android": 1,
+   "edges_harmony": 2,
+   "edges_android": 0,
+   "ui_score_harmony": 78.0,
+   "ui_score_android": 84.25,
+   "ui_score_diff": -6.25,
+   "ui_samples": 3,
+   "rubric_version": "eazo-rubric-1.0.0",
+   "degraded": false
+  },
+  "duration": {
+   "key": "duration",
+   "harmony_ms": 1222306,
+   "android_ms": 850512,
+   "diff_ms": 371794,
+   "normalized": true,
+   "wall_clock_ms": 0,
+   "degraded": false
+  },
+  "token": {
+   "key": "token",
+   "harmony_tokens": 178383,
+   "android_tokens": 125155,
+   "diff_tokens": 53228,
+   "normalized": true,
+   "degraded": false
+  },
+  "features": [
+   {
+    "name": "鸿蒙独有用例（30 项）",
+    "harmony": "✓",
+    "android": "✗",
+    "note": "安卓缺失 · applySettingsIdleOnly、breakCompletionBackToFocus、compareSessionsEndedThenIdLex…"
+   },
+   {
+    "name": "安卓独有用例（29 项）",
+    "harmony": "✗",
+    "android": "✓",
+    "note": "鸿蒙缺失 · P-A1 默认 25 分钟专注 5 分钟短休息 FOCUS IDLE 整轮、P-A2 initial 对越界时长做 clamp、P-B1 start 置 RUNNING 且 deadline 等于 now 加剩余秒乘 1000…"
+   },
+   {
+    "name": "命名风格差异说明",
+    "harmony": "◐",
+    "android": "◐",
+    "note": "双端各自 30/29 个用例，同名仅 0 项；命名风格不同（如 snake_case ↔ 英文短语），按名对账不能证明功能缺失，建议补双端运行取证（hypium/junit 日志）后复核"
+   }
+  ],
+  "uijudge_detail": {
+   "model": "MiniMax-M3",
+   "rubric_version": "eazo-rubric-1.0.0",
+   "samples": 3,
+   "harmony": {
+    "run_id": "run_1791473431536_c69d7fe2",
+    "shots": 2,
+    "score5": 4.12,
+    "score100": 78.0,
+    "raw_samples": [
+     4.05,
+     4.45,
+     3.85
+    ],
+    "dim_scores": {
+     "visual_consistency": 4.0,
+     "layout_reasonableness": 4.0,
+     "readability": 3.5,
+     "interaction_feedback": 3.5,
+     "task_clarity": 4.5
+    }
+   },
+   "android_baseline": {
+    "run_id": "run_1791473431536_f88a2c75",
+    "shots": 2,
+    "score5": 4.37,
+    "score100": 84.25,
+    "raw_samples": [
+     4.4,
+     4.4,
+     4.3
+    ],
+    "dim_scores": {
+     "visual_consistency": 4.5,
+     "layout_reasonableness": 4.5,
+     "readability": 4.0,
+     "interaction_feedback": 4.0,
+     "task_clarity": 4.5
+    }
+   },
+   "diff": -6.25,
+   "judged_at": "2026-10-08T23:51:36+08:00",
+   "weights": {
+    "visual_consistency": 0.25,
+    "layout_reasonableness": 0.25,
+    "readability": 0.2,
+    "interaction_feedback": 0.2,
+    "task_clarity": 0.1
+   }
+  }
+ },
+ "verdict": {
+  "overall": "degraded_fail",
+  "per_dim": {
+   "func_coverage": "pass",
+   "page": "degraded",
+   "duration": "fail",
+   "token": "fail",
+   "ui": "near_tie"
+  },
+  "failed_dims": [
+   "duration",
+   "token"
+  ],
+  "degraded_dims": [
+   "page"
+  ],
+  "threshold_snapshot": {
+   "func_diff_max": 0.0,
+   "ui_diff_min": 12.5,
+   "duration_diff_max": 0,
+   "token_diff_max": 0
+  },
+  "formula": "func(diff<=0) AND page(ui_diff>=12.5) AND duration(diff<0) AND token(diff<0)"
+ },
+ "composite": {
+  "formula_text": "综合分 = 功能 40% + 页面 20% + UI 20% + 效率 20%。功能=功能覆盖率(%)；页面=页面计数比(该端页数÷两端最大页数×100)；UI=uijudge 美观度得分(0~100)；效率=时长与 Token 两子项平均，每项=100×min(两端值)÷该端值(快者/省者得分高，相等都 100)。缺失或降级的维度剔除后，剩余维权重按比例归一化。",
+  "harmony": {
+   "score": 69.6,
+   "contributions": {
+    "func": {
+     "label": "功能",
+     "value": 50.0,
+     "weight": 0.4,
+     "weighted": 20.0
+    },
+    "page": {
+     "label": "页面",
+     "value": 100.0,
+     "weight": 0.2,
+     "weighted": 20.0
+    },
+    "ui": {
+     "label": "UI",
+     "value": 78.0,
+     "weight": 0.2,
+     "weighted": 15.6
+    },
+    "efficiency": {
+     "label": "效率",
+     "value": 69.87,
+     "weight": 0.2,
+     "weighted": 13.97
+    }
+   },
+   "excluded": []
+  },
+  "android": {
+   "score": 63.5,
+   "contributions": {
+    "func": {
+     "label": "功能",
+     "value": 50.0,
+     "weight": 0.4,
+     "weighted": 20.0
+    },
+    "page": {
+     "label": "页面",
+     "value": 33.33,
+     "weight": 0.2,
+     "weighted": 6.67
+    },
+    "ui": {
+     "label": "UI",
+     "value": 84.25,
+     "weight": 0.2,
+     "weighted": 16.85
+    },
+    "efficiency": {
+     "label": "效率",
+     "value": 100.0,
+     "weight": 0.2,
+     "weighted": 20.0
+    }
+   },
+   "excluded": []
+  }
+ },
+ "is_incremental": false,
+ "timestamp": "2026-10-08T23:51:36.644+08:00",
+ "created_at": "2026-10-08T23:51:36.644+08:00"
+}

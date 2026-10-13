@@ -1,0 +1,363 @@
+{
+ "id": "rpt_1791796083184_c85f1d85",
+ "requirement_id": "req_1791795449512_d2ba9433",
+ "run_id_harmony": "run_1791795449514_480aae7d",
+ "run_id_android": "run_1791795449514_fc9e508f",
+ "commit_sha_harmony": "e2294539463958707df9ce79b4140711858a4138",
+ "commit_sha_android": "19ff73d28ec0d5adf059304c0bcb3415cfd9399b",
+ "engine_version": "claude_code:p1.10.2:eazo-skills-2026.09.30:eazo-tpl-2026.10.06:glm-5.3[1m]",
+ "toolchain_version": "harmony:api24+hvigor6.1.0|android:jdk21+gradle8.9+agp8.5.2+kotlin1.9.10+compileSdk34",
+ "metrics_schema_version": "1.0.0",
+ "rubric_version": "eazo-rubric-1.0.0",
+ "dimensions": {
+  "func_coverage": {
+   "key": "func_coverage",
+   "harmony_pct": 100.0,
+   "android_pct": 100.0,
+   "diff": 0.0,
+   "func_points": [
+    {
+     "name": "金额输入非负到分",
+     "harmony": "✓",
+     "android": "✓",
+     "note": "契约 C01 · slug amount_input_range 双端命中（测试源码精确匹配）· 无运行取证，按测试源码 slug 匹配"
+    },
+    {
+     "name": "币种选择器 6 币种",
+     "harmony": "✓",
+     "android": "✓",
+     "note": "契约 C02 · slug currency_selector_six 双端命中（测试源码精确匹配）· 无运行取证，按测试源码 slug 匹配"
+    },
+    {
+     "name": "固定汇率表常量数据面",
+     "harmony": "✓",
+     "android": "✓",
+     "note": "契约 C03 · slug rate_table_constant 双端命中（测试源码精确匹配）· 无运行取证，按测试源码 slug 匹配"
+    },
+    {
+     "name": "换算确定性",
+     "harmony": "✓",
+     "android": "✓",
+     "note": "契约 C04 · slug convert_deterministic 双端命中（测试源码精确匹配）· 无运行取证，按测试源码 slug 匹配"
+    },
+    {
+     "name": "四舍五入 half-up 到分",
+     "harmony": "✓",
+     "android": "✓",
+     "note": "契约 C05 · slug round_half_up_boundary 双端命中（测试源码精确匹配）· 无运行取证，按测试源码 slug 匹配"
+    },
+    {
+     "name": "同币种换算恒等",
+     "harmony": "✓",
+     "android": "✓",
+     "note": "契约 C06 · slug same_currency_identity 双端命中（测试源码精确匹配）· 无运行取证，按测试源码 slug 匹配"
+    },
+    {
+     "name": "双向换算",
+     "harmony": "✓",
+     "android": "✓",
+     "note": "契约 C07 · slug bidirectional_convert 双端命中（测试源码精确匹配）· 无运行取证，按测试源码 slug 匹配"
+    },
+    {
+     "name": "汇率表常量序列化哈希",
+     "harmony": "✓",
+     "android": "✓",
+     "note": "契约 C08 · slug rate_serialization_hash 双端命中（测试源码精确匹配）· 无运行取证，按测试源码 slug 匹配"
+    },
+    {
+     "name": "无联网实时汇率",
+     "harmony": "✓",
+     "android": "✓",
+     "note": "契约 C09 · slug no_network_rate 双端命中（测试源码精确匹配）· 无运行取证，按测试源码 slug 匹配"
+    },
+    {
+     "name": "快速反转兑换方向",
+     "harmony": "✓",
+     "android": "✓",
+     "note": "契约 C10 · slug swap_direction 双端命中（测试源码精确匹配）· 无运行取证，按测试源码 slug 匹配"
+    },
+    {
+     "name": "币种/金额实时更新",
+     "harmony": "✓",
+     "android": "✓",
+     "note": "契约 C11 · slug realtime_update 双端命中（测试源码精确匹配）· 无运行取证，按测试源码 slug 匹配"
+    },
+    {
+     "name": "换算结果卡片显示",
+     "harmony": "✓",
+     "android": "✓",
+     "note": "契约 C12 · slug result_card_display 双端命中（测试源码精确匹配）· 无运行取证，按测试源码 slug 匹配"
+    },
+    {
+     "name": "换算零浮点纯函数",
+     "harmony": "✓",
+     "android": "✓",
+     "note": "契约 C13 · slug convert_no_float 双端命中（测试源码精确匹配）· 无运行取证，按测试源码 slug 匹配"
+    },
+    {
+     "name": "多端自适应",
+     "harmony": "✓",
+     "android": "✓",
+     "note": "契约 C14 · slug multiscreen_adaptive 双端命中（测试源码精确匹配）· 无运行取证，按测试源码 slug 匹配"
+    }
+   ],
+   "degraded": false
+  },
+  "page": {
+   "key": "page",
+   "count_harmony": 1,
+   "count_android": 1,
+   "count_diff": 0,
+   "nodes_harmony": 1,
+   "nodes_android": 1,
+   "edges_harmony": 0,
+   "edges_android": 0,
+   "ui_score_harmony": 83.0,
+   "ui_score_android": 77.5,
+   "ui_score_diff": 5.5,
+   "ui_samples": 3,
+   "rubric_version": "eazo-rubric-1.0.0",
+   "degraded": false
+  },
+  "duration": {
+   "key": "duration",
+   "harmony_ms": 222971,
+   "android_ms": 590453,
+   "diff_ms": -367482,
+   "normalized": true,
+   "wall_clock_ms": 0,
+   "degraded": false
+  },
+  "token": {
+   "key": "token",
+   "harmony_tokens": 37591,
+   "android_tokens": 80731,
+   "diff_tokens": -43140,
+   "normalized": true,
+   "degraded": false
+  },
+  "features": [
+   {
+    "name": "金额输入非负到分",
+    "harmony": "✓",
+    "android": "✓",
+    "note": "契约 C01 · slug amount_input_range 双端命中（测试源码精确匹配）· 无运行取证，按测试源码 slug 匹配"
+   },
+   {
+    "name": "币种选择器 6 币种",
+    "harmony": "✓",
+    "android": "✓",
+    "note": "契约 C02 · slug currency_selector_six 双端命中（测试源码精确匹配）· 无运行取证，按测试源码 slug 匹配"
+   },
+   {
+    "name": "固定汇率表常量数据面",
+    "harmony": "✓",
+    "android": "✓",
+    "note": "契约 C03 · slug rate_table_constant 双端命中（测试源码精确匹配）· 无运行取证，按测试源码 slug 匹配"
+   },
+   {
+    "name": "换算确定性",
+    "harmony": "✓",
+    "android": "✓",
+    "note": "契约 C04 · slug convert_deterministic 双端命中（测试源码精确匹配）· 无运行取证，按测试源码 slug 匹配"
+   },
+   {
+    "name": "四舍五入 half-up 到分",
+    "harmony": "✓",
+    "android": "✓",
+    "note": "契约 C05 · slug round_half_up_boundary 双端命中（测试源码精确匹配）· 无运行取证，按测试源码 slug 匹配"
+   },
+   {
+    "name": "同币种换算恒等",
+    "harmony": "✓",
+    "android": "✓",
+    "note": "契约 C06 · slug same_currency_identity 双端命中（测试源码精确匹配）· 无运行取证，按测试源码 slug 匹配"
+   },
+   {
+    "name": "双向换算",
+    "harmony": "✓",
+    "android": "✓",
+    "note": "契约 C07 · slug bidirectional_convert 双端命中（测试源码精确匹配）· 无运行取证，按测试源码 slug 匹配"
+   },
+   {
+    "name": "汇率表常量序列化哈希",
+    "harmony": "✓",
+    "android": "✓",
+    "note": "契约 C08 · slug rate_serialization_hash 双端命中（测试源码精确匹配）· 无运行取证，按测试源码 slug 匹配"
+   },
+   {
+    "name": "无联网实时汇率",
+    "harmony": "✓",
+    "android": "✓",
+    "note": "契约 C09 · slug no_network_rate 双端命中（测试源码精确匹配）· 无运行取证，按测试源码 slug 匹配"
+   },
+   {
+    "name": "快速反转兑换方向",
+    "harmony": "✓",
+    "android": "✓",
+    "note": "契约 C10 · slug swap_direction 双端命中（测试源码精确匹配）· 无运行取证，按测试源码 slug 匹配"
+   },
+   {
+    "name": "币种/金额实时更新",
+    "harmony": "✓",
+    "android": "✓",
+    "note": "契约 C11 · slug realtime_update 双端命中（测试源码精确匹配）· 无运行取证，按测试源码 slug 匹配"
+   },
+   {
+    "name": "换算结果卡片显示",
+    "harmony": "✓",
+    "android": "✓",
+    "note": "契约 C12 · slug result_card_display 双端命中（测试源码精确匹配）· 无运行取证，按测试源码 slug 匹配"
+   },
+   {
+    "name": "换算零浮点纯函数",
+    "harmony": "✓",
+    "android": "✓",
+    "note": "契约 C13 · slug convert_no_float 双端命中（测试源码精确匹配）· 无运行取证，按测试源码 slug 匹配"
+   },
+   {
+    "name": "多端自适应",
+    "harmony": "✓",
+    "android": "✓",
+    "note": "契约 C14 · slug multiscreen_adaptive 双端命中（测试源码精确匹配）· 无运行取证，按测试源码 slug 匹配"
+   }
+  ],
+  "uijudge_detail": {
+   "model": "MiniMax-M3",
+   "rubric_version": "eazo-rubric-1.0.0",
+   "samples": 3,
+   "harmony": {
+    "run_id": "run_1791795449514_480aae7d",
+    "shots": 2,
+    "score5": 4.32,
+    "score100": 83.0,
+    "raw_samples": [
+     4.4,
+     4.17,
+     4.4
+    ],
+    "dim_scores": {
+     "visual_consistency": 4.5,
+     "layout_reasonableness": 4.5,
+     "readability": 4.5,
+     "interaction_feedback": 4.0,
+     "task_clarity": 4.5
+    }
+   },
+   "android_baseline": {
+    "run_id": "run_1791795449514_fc9e508f",
+    "shots": 2,
+    "score5": 4.1,
+    "score100": 77.5,
+    "raw_samples": [
+     3.9,
+     3.95,
+     4.45
+    ],
+    "dim_scores": {
+     "visual_consistency": 4.5,
+     "layout_reasonableness": 4.5,
+     "readability": 4.5,
+     "interaction_feedback": 4.0,
+     "task_clarity": 5.0
+    }
+   },
+   "diff": 5.5,
+   "judged_at": "2026-10-12T17:08:03+08:00",
+   "weights": {
+    "visual_consistency": 0.25,
+    "layout_reasonableness": 0.25,
+    "readability": 0.2,
+    "interaction_feedback": 0.2,
+    "task_clarity": 0.1
+   }
+  }
+ },
+ "verdict": {
+  "overall": "degraded_pass",
+  "per_dim": {
+   "func_coverage": "pass",
+   "page": "degraded",
+   "duration": "pass",
+   "token": "pass",
+   "ui": "near_tie"
+  },
+  "failed_dims": [],
+  "degraded_dims": [
+   "page"
+  ],
+  "threshold_snapshot": {
+   "func_diff_max": 0.0,
+   "ui_diff_min": 12.5,
+   "duration_diff_max": 0,
+   "token_diff_max": 0
+  },
+  "formula": "func(diff<=0) AND page(ui_diff>=12.5) AND duration(diff<0) AND token(diff<0)"
+ },
+ "composite": {
+  "formula_text": "综合分 = 功能 40% + 页面 20% + UI 20% + 效率 20%。功能=功能覆盖率(%)；页面=页面计数比(该端页数÷两端最大页数×100)；UI=uijudge 美观度得分(0~100)；效率=时长与 Token 两子项平均，每项=100×min(两端值)÷该端值(快者/省者得分高，相等都 100)。缺失或降级的维度剔除后，剩余维权重按比例归一化。",
+  "harmony": {
+   "score": 96.6,
+   "contributions": {
+    "func": {
+     "label": "功能",
+     "value": 100.0,
+     "weight": 0.4,
+     "weighted": 40.0
+    },
+    "page": {
+     "label": "页面",
+     "value": 100.0,
+     "weight": 0.2,
+     "weighted": 20.0
+    },
+    "ui": {
+     "label": "UI",
+     "value": 83.0,
+     "weight": 0.2,
+     "weighted": 16.6
+    },
+    "efficiency": {
+     "label": "效率",
+     "value": 100.0,
+     "weight": 0.2,
+     "weighted": 20.0
+    }
+   },
+   "excluded": []
+  },
+  "android": {
+   "score": 83.9,
+   "contributions": {
+    "func": {
+     "label": "功能",
+     "value": 100.0,
+     "weight": 0.4,
+     "weighted": 40.0
+    },
+    "page": {
+     "label": "页面",
+     "value": 100.0,
+     "weight": 0.2,
+     "weighted": 20.0
+    },
+    "ui": {
+     "label": "UI",
+     "value": 77.5,
+     "weight": 0.2,
+     "weighted": 15.5
+    },
+    "efficiency": {
+     "label": "效率",
+     "value": 42.16,
+     "weight": 0.2,
+     "weighted": 8.43
+    }
+   },
+   "excluded": []
+  }
+ },
+ "is_incremental": false,
+ "timestamp": "2026-10-12T17:08:03.184+08:00",
+ "created_at": "2026-10-12T17:08:03.184+08:00"
+}

@@ -1,0 +1,9 @@
+{
+ "status": "ok",
+ "engine_version": "claude_code:p1.10.3:eazo-skills-2026.09.30:eazo-tpl-2026.10.06:glm-5.3[1m]",
+ "toolchain_version": "harmony:api24+hvigor6.1.0|android:jdk21+gradle8.9+agp8.5.2+kotlin1.9.10+compileSdk34",
+ "contract_version": "1.0.0",
+ "write_open": false,
+ "static": true,
+ "exported_at": "2026-10-13T03:58:01+00:00"
+}

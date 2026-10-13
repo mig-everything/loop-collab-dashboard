@@ -1,0 +1,191 @@
+{
+ "requirement_id": "req_1791479328034_71cb82d9",
+ "features": [
+  {
+   "name": "clamp Int integer domain",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "format Mmss ceil semantics",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "make Record Id r prefix 16pad lexicographic",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "next Phase cycle",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "parse Records sorted and invalid dropped",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "progress Ratio clamped",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "read Open Create boolean strict",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "read Open Create target semantics",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "record From Raw validation",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "sort started At desc then id asc",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "stats only today focus integer sum",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "today Key local zero padded",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "专注完成产出记录并切到 BREAK 休息完成不产出记录",
+   "harmony": "✗",
+   "android": "✓",
+   "note": "安卓独有 · 鸿蒙缺失"
+  },
+  {
+   "name": "中文时长分段口径",
+   "harmony": "✗",
+   "android": "✓",
+   "note": "安卓独有 · 鸿蒙缺失"
+  },
+  {
+   "name": "今日统计按 date 精确匹配计数与求和",
+   "harmony": "✗",
+   "android": "✓",
+   "note": "安卓独有 · 鸿蒙缺失"
+  },
+  {
+   "name": "保存设置仅 IDLE 重载 进行中会话不可变",
+   "harmony": "✗",
+   "android": "✓",
+   "note": "安卓独有 · 鸿蒙缺失"
+  },
+  {
+   "name": "倒计时 MM 冒号 SS 分钟位可超 99",
+   "harmony": "✗",
+   "android": "✓",
+   "note": "安卓独有 · 鸿蒙缺失"
+  },
+  {
+   "name": "初始快照 FOCUS IDLE 打满专注时长",
+   "harmony": "✗",
+   "android": "✓",
+   "note": "安卓独有 · 鸿蒙缺失"
+  },
+  {
+   "name": "墙钟同步仅在 RUNNING 接受且 clamp 到 0到total",
+   "harmony": "✗",
+   "android": "✓",
+   "note": "安卓独有 · 鸿蒙缺失"
+  },
+  {
+   "name": "开始与继续进入 RUNNING 且 RUNNING 幂等",
+   "harmony": "✗",
+   "android": "✓",
+   "note": "安卓独有 · 鸿蒙缺失"
+  },
+  {
+   "name": "手动切换阶段仅 IDLE 且目标不同时生效",
+   "harmony": "✗",
+   "android": "✓",
+   "note": "安卓独有 · 鸿蒙缺失"
+  },
+  {
+   "name": "排序 start Ts 降序为主键 id 字典序升序兜底",
+   "harmony": "✗",
+   "android": "✓",
+   "note": "安卓独有 · 鸿蒙缺失"
+  },
+  {
+   "name": "暂停仅 RUNNING 生效 非 RUNNING 为 no op",
+   "harmony": "✗",
+   "android": "✓",
+   "note": "安卓独有 · 鸿蒙缺失"
+  },
+  {
+   "name": "编解码往返一致且字段序锁死",
+   "harmony": "✗",
+   "android": "✓",
+   "note": "安卓独有 · 鸿蒙缺失"
+  },
+  {
+   "name": "解码对脏行防御跳过 空串得空表",
+   "harmony": "✗",
+   "android": "✓",
+   "note": "安卓独有 · 鸿蒙缺失"
+  },
+  {
+   "name": "设置 clamp 到双端锁死边界",
+   "harmony": "✗",
+   "android": "✓",
+   "note": "安卓独有 · 鸿蒙缺失"
+  },
+  {
+   "name": "重置回 IDLE 保留阶段并按最新设置打满",
+   "harmony": "✗",
+   "android": "✓",
+   "note": "安卓独有 · 鸿蒙缺失"
+  },
+  {
+   "name": "阶段时长等于分钟乘 60",
+   "harmony": "✗",
+   "android": "✓",
+   "note": "安卓独有 · 鸿蒙缺失"
+  },
+  {
+   "name": "骨架就位",
+   "harmony": "✗",
+   "android": "✓",
+   "note": "安卓独有 · 鸿蒙缺失"
+  },
+  {
+   "name": "默认设置 25 分专注 5 分休息",
+   "harmony": "✗",
+   "android": "✓",
+   "note": "安卓独有 · 鸿蒙缺失"
+  },
+  {
+   "name": "命名风格差异说明",
+   "harmony": "◐",
+   "android": "◐",
+   "note": "双端各自 12/18 个用例，同名仅 0 项；命名风格不同（如 snake_case ↔ 英文短语），按名对账不能证明功能缺失，建议补双端运行取证（hypium/junit 日志）后复核"
+  }
+ ]
+}

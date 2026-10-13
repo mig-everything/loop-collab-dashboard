@@ -1,0 +1,287 @@
+{
+ "requirement_id": "req_1791368353749_2a75e12b",
+ "features": [
+  {
+   "name": "A1 is Valid Iso Date",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "A2 days From Today zero and neighbors",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "A3 days From Today cross month and year",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "A4 days From Today leap february",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "A5 weekday and format Iso",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "B1 status Of and label",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "B2 days Text",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "B3 title validation",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "C1 sort pinned first then date asc",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "C2 sort id lexicographic fallback",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "C3 sort pinned group also date asc",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "D1 nearest future min days",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "D2 nearest today beats future and tie by id",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "D3 nearest only past takes min abs",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "D4 nearest empty null",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "E1 codec roundtrip",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "E2 codec rejects bad doc and fields",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "E3 codec rejects bad calendar date and forms roundtrip",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "F1 repo singleton",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "F2 add validation",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "F3 pin toggle reorders",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "F4 remove and refresh keeps memory state",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "G1 read Open Create null want",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "G2 read Open Create add and focus",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "G3 read Open Create strict boolean true",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "G4 read Open Create rejects non boolean true",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "H1 build Views derived fields",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "H2 card Data with nearest",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "H3 card Data empty state",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "A1 日期校验 合法与非法",
+   "harmony": "✗",
+   "android": "✓",
+   "note": "安卓独有 · 鸿蒙缺失"
+  },
+  {
+   "name": "A2 闰年规则",
+   "harmony": "✗",
+   "android": "✓",
+   "note": "安卓独有 · 鸿蒙缺失"
+  },
+  {
+   "name": "A3 儒略日锚点",
+   "harmony": "✗",
+   "android": "✓",
+   "note": "安卓独有 · 鸿蒙缺失"
+  },
+  {
+   "name": "A4 距今天数 未来过去今天",
+   "harmony": "✗",
+   "android": "✓",
+   "note": "安卓独有 · 鸿蒙缺失"
+  },
+  {
+   "name": "B1 实体字段契约与校验闸口",
+   "harmony": "✗",
+   "android": "✓",
+   "note": "安卓独有 · 鸿蒙缺失"
+  },
+  {
+   "name": "B2 列表排序 置顶优先",
+   "harmony": "✗",
+   "android": "✓",
+   "note": "安卓独有 · 鸿蒙缺失"
+  },
+  {
+   "name": "B3 列表排序 距今天数绝对值升序",
+   "harmony": "✗",
+   "android": "✓",
+   "note": "安卓独有 · 鸿蒙缺失"
+  },
+  {
+   "name": "B4 列表排序 同距按日期升序",
+   "harmony": "✗",
+   "android": "✓",
+   "note": "安卓独有 · 鸿蒙缺失"
+  },
+  {
+   "name": "B5 列表排序 id字典序兜底",
+   "harmony": "✗",
+   "android": "✓",
+   "note": "安卓独有 · 鸿蒙缺失"
+  },
+  {
+   "name": "C1 最近一个 忽略置顶",
+   "harmony": "✗",
+   "android": "✓",
+   "note": "安卓独有 · 鸿蒙缺失"
+  },
+  {
+   "name": "C2 最近一个 空态与单条",
+   "harmony": "✗",
+   "android": "✓",
+   "note": "安卓独有 · 鸿蒙缺失"
+  },
+  {
+   "name": "D1 增删改查与置顶切换",
+   "harmony": "✗",
+   "android": "✓",
+   "note": "安卓独有 · 鸿蒙缺失"
+  },
+  {
+   "name": "D2 持久化编解码往返与容错",
+   "harmony": "✗",
+   "android": "✓",
+   "note": "安卓独有 · 鸿蒙缺失"
+  },
+  {
+   "name": "E1 read Open Create 严格布尔与深链参数",
+   "harmony": "✗",
+   "android": "✓",
+   "note": "安卓独有 · 鸿蒙缺失"
+  },
+  {
+   "name": "E2 端到端 列表与最近口径联动",
+   "harmony": "✗",
+   "android": "✓",
+   "note": "安卓独有 · 鸿蒙缺失"
+  },
+  {
+   "name": "F 展示文案口径",
+   "harmony": "✗",
+   "android": "✓",
+   "note": "安卓独有 · 鸿蒙缺失"
+  },
+  {
+   "name": "骨架就位",
+   "harmony": "✗",
+   "android": "✓",
+   "note": "安卓独有 · 鸿蒙缺失"
+  },
+  {
+   "name": "命名风格差异说明",
+   "harmony": "◐",
+   "android": "◐",
+   "note": "双端各自 29/17 个用例，同名仅 0 项；命名风格不同（如 snake_case ↔ 英文短语），按名对账不能证明功能缺失，建议补双端运行取证（hypium/junit 日志）后复核"
+  }
+ ]
+}

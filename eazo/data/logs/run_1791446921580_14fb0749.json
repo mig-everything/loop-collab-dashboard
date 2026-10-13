@@ -1,0 +1,50 @@
+{
+ "run_id": "run_1791446921580_14fb0749",
+ "requirement_id": "req_1791446921578_cfb285ba",
+ "logs": [
+  {
+   "id": "log_1791446921581_29abe04f",
+   "run_id": "run_1791446921580_14fb0749",
+   "ts": "2026-10-08T16:08:41.581+08:00",
+   "level": "INFO",
+   "message": "run queued (harmony)",
+   "event": "state_transition"
+  },
+  {
+   "id": "log_1791446921582_2b3764a9",
+   "run_id": "run_1791446921580_14fb0749",
+   "ts": "2026-10-08T16:08:41.582+08:00",
+   "level": "INFO",
+   "message": "generation started (harmony)",
+   "event": "state_transition"
+  },
+  {
+   "id": "log_1791446921591_33efb95b",
+   "run_id": "run_1791446921580_14fb0749",
+   "ts": "2026-10-08T16:08:41.591+08:00",
+   "level": "INFO",
+   "message": "skeleton template applied: 35 files written, 0 skipped (existing)",
+   "event": "state_transition"
+  },
+  {
+   "id": "log_1791447117329_25d98742",
+   "run_id": "run_1791446921580_14fb0749",
+   "ts": "2026-10-08T16:11:57.329+08:00",
+   "level": "ERROR",
+   "message": "generation failed: EZO-ENG-002",
+   "event": "state_transition"
+  }
+ ],
+ "log_files": [
+  {
+   "side": "harmony",
+   "path": "experiments/req_1791446921578_cfb285ba/logs/harmony.log",
+   "exists": true
+  },
+  {
+   "side": "android_baseline",
+   "path": "experiments/req_1791446921578_cfb285ba/logs/android_baseline.log",
+   "exists": true
+  }
+ ]
+}

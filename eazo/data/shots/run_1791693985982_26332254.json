@@ -1,0 +1,20 @@
+[
+ {
+  "id": "shot_1791695120507_9fc95652",
+  "run_id": "run_1791693985982_26332254",
+  "side": "android_baseline",
+  "path": "shots/shot_1791695120507_9fc95652.png",
+  "captured_at": "2026-10-11T13:05:20.507+08:00",
+  "degraded": false,
+  "image_url": "shots/shot_1791695120507_9fc95652.png"
+ },
+ {
+  "id": "shot_1791695120507_fd82e234",
+  "run_id": "run_1791693985982_26332254",
+  "side": "android_baseline",
+  "path": "shots/shot_1791695120507_fd82e234.png",
+  "captured_at": "2026-10-11T13:05:20.507+08:00",
+  "degraded": false,
+  "image_url": "shots/shot_1791695120507_fd82e234.png"
+ }
+]

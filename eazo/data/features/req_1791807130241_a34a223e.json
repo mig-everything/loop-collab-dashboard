@@ -1,0 +1,89 @@
+{
+ "requirement_id": "req_1791807130241_a34a223e",
+ "features": [
+  {
+   "name": "长度调节 4~32 整数",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "契约 C01 · slug length_adjust_range 双端命中（测试源码精确匹配）· 无运行取证，按测试源码 slug 匹配"
+  },
+  {
+   "name": "字符集四开关选择",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "契约 C02 · slug charset_toggle_select 双端命中（测试源码精确匹配）· 无运行取证，按测试源码 slug 匹配"
+  },
+  {
+   "name": "排除易混淆字符",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "契约 C03 · slug exclude_ambiguous_toggle 双端命中（测试源码精确匹配）· 无运行取证，按测试源码 slug 匹配"
+  },
+  {
+   "name": "字符集拼接确定性",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "契约 C04 · slug charset_build_deterministic 双端命中（测试源码精确匹配）· 无运行取证，按测试源码 slug 匹配"
+  },
+  {
+   "name": "字符集大小确定性",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "契约 C05 · slug pool_size_deterministic 双端命中（测试源码精确匹配）· 无运行取证，按测试源码 slug 匹配"
+  },
+  {
+   "name": "熵位数确定性",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "契约 C06 · slug entropy_bits_deterministic 双端命中（测试源码精确匹配）· 无运行取证，按测试源码 slug 匹配"
+  },
+  {
+   "name": "强度分级判定",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "契约 C07 · slug strength_label_classify 双端命中（测试源码精确匹配）· 无运行取证，按测试源码 slug 匹配"
+  },
+  {
+   "name": "密码生成确定性",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "契约 C08 · slug generate_password_deterministic 双端命中（测试源码精确匹配）· 无运行取证，按测试源码 slug 匹配"
+  },
+  {
+   "name": "生成字符均在字符集内",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "契约 C09 · slug generate_password_in_charset 双端命中（测试源码精确匹配）· 无运行取证，按测试源码 slug 匹配"
+  },
+  {
+   "name": "不同 seed 生成不同密码",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "契约 C10 · slug generate_password_differs_by_seed 双端命中（测试源码精确匹配）· 无运行取证，按测试源码 slug 匹配"
+  },
+  {
+   "name": "字符集常量序列化哈希",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "契约 C11 · slug charset_constant_serialization_hash 双端命中（测试源码精确匹配）· 无运行取证，按测试源码 slug 匹配"
+  },
+  {
+   "name": "无非确定性随机源",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "契约 C12 · slug no_math_random 双端命中（测试源码精确匹配）· 无运行取证，按测试源码 slug 匹配"
+  },
+  {
+   "name": "一键复制密码",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "契约 C13 · slug copy_to_clipboard 双端命中（测试源码精确匹配）· 无运行取证，按测试源码 slug 匹配"
+  },
+  {
+   "name": "多端自适应",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "契约 C14 · slug multiscreen_adaptive 双端命中（测试源码精确匹配）· 无运行取证，按测试源码 slug 匹配"
+  }
+ ]
+}

@@ -1,0 +1,89 @@
+{
+ "requirement_id": "req_1791693985981_b9d8cdfa",
+ "features": [
+  {
+   "name": "选择心情标签保存",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "契约 C01 · slug mood_pick_save 双端命中（测试源码精确匹配）· Hypium 14/14"
+  },
+  {
+   "name": "心情标签常量 5 项",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "契约 C02 · slug mood_tags_5_items 双端命中（测试源码精确匹配）· Hypium 14/14"
+  },
+  {
+   "name": "可选一句话记录",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "契约 C03 · slug mood_note_optional 双端命中（测试源码精确匹配）· Hypium 14/14"
+  },
+  {
+   "name": "记录键确定性",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "契约 C04 · slug deterministic_record_key 双端命中（测试源码精确匹配）· Hypium 14/14"
+  },
+  {
+   "name": "日期 epoch-day 整数域",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "契约 C05 · slug date_epoch_day 双端命中（测试源码精确匹配）· Hypium 14/14"
+  },
+  {
+   "name": "心情分布计数",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "契约 C06 · slug distribution_count 双端命中（测试源码精确匹配）· Hypium 14/14"
+  },
+  {
+   "name": "心情分布千分比",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "契约 C07 · slug distribution_permille 双端命中（测试源码精确匹配）· Hypium 14/14"
+  },
+  {
+   "name": "标签常量序列化哈希",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "契约 C08 · slug mood_tags_serialization_hash 双端命中（测试源码精确匹配）· Hypium 14/14"
+  },
+  {
+   "name": "月历色块热力图",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "契约 C09 · slug calendar_heatmap_color 双端命中（测试源码精确匹配）· Hypium 14/14"
+  },
+  {
+   "name": "月历视图",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "契约 C10 · slug month_calendar_render 双端命中（测试源码精确匹配）· Hypium 14/14"
+  },
+  {
+   "name": "标签常量不可变",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "契约 C11 · slug mood_tags_immutable 双端命中（测试源码精确匹配）· Hypium 14/14"
+  },
+  {
+   "name": "无真随机源/无时间源",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "契约 C12 · slug no_random_source 双端命中（测试源码精确匹配）· Hypium 14/14"
+  },
+  {
+   "name": "本地存储持久化",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "契约 C13 · slug local_storage_persist 双端命中（测试源码精确匹配）· Hypium 14/14"
+  },
+  {
+   "name": "多端自适应",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "契约 C14 · slug multiscreen_adaptive 双端命中（测试源码精确匹配）· Hypium 14/14"
+  }
+ ]
+}

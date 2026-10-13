@@ -1,0 +1,264 @@
+{
+ "id": "rpt_1791302930859_c82ba27e",
+ "requirement_id": "req_1791288949536_f54f59ce",
+ "run_id_harmony": "run_1791292915521_ff3cc9c8",
+ "run_id_android": "run_1791292915521_fe9eb9ca",
+ "commit_sha_harmony": "0e58da815adccefd921a3c3b28eaa5813e7f629e",
+ "commit_sha_android": "e23f676b9cd54408196a7f7e97af0c717578efc9",
+ "engine_version": "claude_code:p1.3.0:eazo-skills-2026.09.30:eazo-tpl-2026.10.06:claude-sonnet-5-5",
+ "toolchain_version": "harmony:api24+hvigor6.1.0|android:jdk21+gradle8.9+agp8.5.2+kotlin1.9.10+compileSdk34",
+ "metrics_schema_version": "1.0.0",
+ "rubric_version": "eazo-rubric-1.0.0",
+ "dimensions": {
+  "func_coverage": {
+   "key": "func_coverage",
+   "harmony_pct": 100.0,
+   "android_pct": 100.0,
+   "diff": 0.0,
+   "func_points": [
+    {
+     "name": "参数与常量契约",
+     "harmony": "✓",
+     "android": "✓",
+     "note": "对等 · 8 条断言 · Hypium 18/18 · 安卓用例 22"
+    },
+    {
+     "name": "data hash",
+     "harmony": "✓",
+     "android": "✓",
+     "note": "对等 · 8 条断言 · Hypium 18/18 · 安卓用例 22"
+    },
+    {
+     "name": "timeline",
+     "harmony": "✓",
+     "android": "✓",
+     "note": "对等 · 18 条断言 · Hypium 18/18 · 安卓用例 22"
+    },
+    {
+     "name": "streak",
+     "harmony": "✓",
+     "android": "✓",
+     "note": "对等 · 13 条断言 · Hypium 18/18 · 安卓用例 22"
+    },
+    {
+     "name": "format",
+     "harmony": "✓",
+     "android": "✓",
+     "note": "对等 · 6 条断言 · Hypium 18/18 · 安卓用例 22"
+    },
+    {
+     "name": "journey",
+     "harmony": "✓",
+     "android": "✓",
+     "note": "对等 · 15 条断言 · Hypium 18/18 · 安卓用例 22"
+    },
+    {
+     "name": "markdone",
+     "harmony": "✓",
+     "android": "✓",
+     "note": "对等 · 3 条断言 · Hypium 18/18 · 安卓用例 22"
+    },
+    {
+     "name": "判别力探针",
+     "harmony": "✓",
+     "android": "✓",
+     "note": "对等 · 16 条断言 · Hypium 18/18 · 安卓用例 22"
+    },
+    {
+     "name": "自然语言场景",
+     "harmony": "✓",
+     "android": "✓",
+     "note": "对等 · 2 条断言 · Hypium 18/18 · 安卓用例 22"
+    },
+    {
+     "name": "界面取证",
+     "harmony": "✓",
+     "android": "✓",
+     "note": "对等 · 6 条断言 · Hypium 18/18 · 安卓用例 22"
+    }
+   ],
+   "degraded": false
+  },
+  "page": {
+   "key": "page",
+   "count_harmony": 1,
+   "count_android": 1,
+   "count_diff": 0,
+   "nodes_harmony": 1,
+   "nodes_android": 1,
+   "edges_harmony": 0,
+   "edges_android": 0,
+   "ui_score_harmony": 0.0,
+   "ui_score_android": 0.0,
+   "ui_score_diff": 0.0,
+   "ui_samples": 3,
+   "rubric_version": "eazo-rubric-1.0.0",
+   "degraded": true
+  },
+  "duration": {
+   "key": "duration",
+   "harmony_ms": 100456,
+   "android_ms": 146330,
+   "diff_ms": -45874,
+   "normalized": true,
+   "wall_clock_ms": 0,
+   "degraded": false
+  },
+  "token": {
+   "key": "token",
+   "harmony_tokens": 30384,
+   "android_tokens": 62249,
+   "diff_tokens": -31865,
+   "normalized": true,
+   "degraded": false
+  },
+  "features": [
+   {
+    "name": "参数与常量契约",
+    "harmony": "✓",
+    "android": "✓",
+    "note": "对等 · 8 条断言 · Hypium 18/18 · 安卓用例 22"
+   },
+   {
+    "name": "data hash",
+    "harmony": "✓",
+    "android": "✓",
+    "note": "对等 · 8 条断言 · Hypium 18/18 · 安卓用例 22"
+   },
+   {
+    "name": "timeline",
+    "harmony": "✓",
+    "android": "✓",
+    "note": "对等 · 18 条断言 · Hypium 18/18 · 安卓用例 22"
+   },
+   {
+    "name": "streak",
+    "harmony": "✓",
+    "android": "✓",
+    "note": "对等 · 13 条断言 · Hypium 18/18 · 安卓用例 22"
+   },
+   {
+    "name": "format",
+    "harmony": "✓",
+    "android": "✓",
+    "note": "对等 · 6 条断言 · Hypium 18/18 · 安卓用例 22"
+   },
+   {
+    "name": "journey",
+    "harmony": "✓",
+    "android": "✓",
+    "note": "对等 · 15 条断言 · Hypium 18/18 · 安卓用例 22"
+   },
+   {
+    "name": "markdone",
+    "harmony": "✓",
+    "android": "✓",
+    "note": "对等 · 3 条断言 · Hypium 18/18 · 安卓用例 22"
+   },
+   {
+    "name": "判别力探针",
+    "harmony": "✓",
+    "android": "✓",
+    "note": "对等 · 16 条断言 · Hypium 18/18 · 安卓用例 22"
+   },
+   {
+    "name": "自然语言场景",
+    "harmony": "✓",
+    "android": "✓",
+    "note": "对等 · 2 条断言 · Hypium 18/18 · 安卓用例 22"
+   },
+   {
+    "name": "界面取证",
+    "harmony": "✓",
+    "android": "✓",
+    "note": "对等 · 6 条断言 · Hypium 18/18 · 安卓用例 22"
+   }
+  ]
+ },
+ "verdict": {
+  "overall": "degraded_pass",
+  "per_dim": {
+   "func_coverage": "pass",
+   "page": "degraded",
+   "duration": "pass",
+   "token": "pass"
+  },
+  "failed_dims": [],
+  "degraded_dims": [
+   "page"
+  ],
+  "threshold_snapshot": {
+   "func_diff_max": 0.0,
+   "ui_diff_min": 12.5,
+   "duration_diff_max": 0,
+   "token_diff_max": 0
+  },
+  "formula": "func(diff<=0) AND page(ui_diff>=12.5) AND duration(diff<0) AND token(diff<0)"
+ },
+ "composite": {
+  "formula_text": "综合分 = 功能 40% + 页面 20% + UI 20% + 效率 20%。功能=功能覆盖率(%)；页面=页面计数比(该端页数÷两端最大页数×100)；UI=uijudge 美观度得分(0~100)；效率=时长与 Token 两子项平均，每项=100×min(两端值)÷该端值(快者/省者得分高，相等都 100)。缺失或降级的维度剔除后，剩余维权重按比例归一化。",
+  "harmony": {
+   "score": 100.0,
+   "contributions": {
+    "func": {
+     "label": "功能",
+     "value": 100.0,
+     "weight": 0.5,
+     "weighted": 50.0
+    },
+    "page": {
+     "label": "页面",
+     "value": 100.0,
+     "weight": 0.25,
+     "weighted": 25.0
+    },
+    "efficiency": {
+     "label": "效率",
+     "value": 100.0,
+     "weight": 0.25,
+     "weighted": 25.0
+    }
+   },
+   "excluded": [
+    {
+     "dim": "ui",
+     "label": "UI",
+     "reason": "UI 美观度未评审（无 uijudge 得分）"
+    }
+   ]
+  },
+  "android": {
+   "score": 89.7,
+   "contributions": {
+    "func": {
+     "label": "功能",
+     "value": 100.0,
+     "weight": 0.5,
+     "weighted": 50.0
+    },
+    "page": {
+     "label": "页面",
+     "value": 100.0,
+     "weight": 0.25,
+     "weighted": 25.0
+    },
+    "efficiency": {
+     "label": "效率",
+     "value": 58.73,
+     "weight": 0.25,
+     "weighted": 14.68
+    }
+   },
+   "excluded": [
+    {
+     "dim": "ui",
+     "label": "UI",
+     "reason": "UI 美观度未评审（无 uijudge 得分）"
+    }
+   ]
+  }
+ },
+ "is_incremental": false,
+ "timestamp": "2026-10-07T00:08:50.859+08:00",
+ "created_at": "2026-10-07T00:08:50.859+08:00"
+}

@@ -1,0 +1,48 @@
+{
+ "id": "req_1791721293092_12908eba",
+ "nl_text": "做一个「心情打卡/情绪追踪」App：每天选择一个心情标签（开心/平静/难过/生气/疲惫 5 个固定标签）+ 可选一句话记录，自动按日期存档；按月查看心情日历（每日心情色块热力图）；统计心情分布（各心情出现次数与占比）；日期显式注入的确定性纯函数（同日期+同标签→同记录）；本地存储；界面精致美观；可选多端自适应。",
+ "category_id": "note",
+ "origin": "manual",
+ "complexity_bucket": "S",
+ "status": "succeeded",
+ "parent_id": null,
+ "created_at": "2026-10-11T20:21:33.092+08:00",
+ "runs": [
+  {
+   "id": "run_1791721293094_4b26cc8e",
+   "requirement_id": "req_1791721293092_12908eba",
+   "run_side": "harmony",
+   "status": "success",
+   "attempt": 1,
+   "mode": "full",
+   "started_at": "2026-10-11T20:21:33.094+08:00",
+   "finished_at": "2026-10-11T20:38:47.434+08:00",
+   "duration_ms": 1034313,
+   "token_usage": 162248,
+   "commit_sha": "384bc54c64d4fafa9fc41abb97126e8dd7bbccdd",
+   "artifacts_dir": "experiments/req_1791721293092_12908eba/harmony",
+   "engine_version": "claude_code:p1.9.0:eazo-skills-2026.09.30:eazo-tpl-2026.10.06:glm-5.3[1m]",
+   "toolchain_version": "harmony:api24+hvigor6.1.0|android:jdk21+gradle8.9+agp8.5.2+kotlin1.9.10+compileSdk34",
+   "degraded_dims": [],
+   "error_code": null
+  },
+  {
+   "id": "run_1791721293094_b31dcf99",
+   "requirement_id": "req_1791721293092_12908eba",
+   "run_side": "android_baseline",
+   "status": "success",
+   "attempt": 1,
+   "mode": "full",
+   "started_at": "2026-10-11T20:21:33.094+08:00",
+   "finished_at": "2026-10-11T20:33:20.682+08:00",
+   "duration_ms": 707539,
+   "token_usage": 127939,
+   "commit_sha": "2c0b6f9d997157b706c61b0c79d289ef045775c3",
+   "artifacts_dir": "experiments/req_1791721293092_12908eba/android-baseline",
+   "engine_version": "claude_code:p1.9.0:eazo-skills-2026.09.30:eazo-tpl-2026.10.06:glm-5.3[1m]",
+   "toolchain_version": "harmony:api24+hvigor6.1.0|android:jdk21+gradle8.9+agp8.5.2+kotlin1.9.10+compileSdk34",
+   "degraded_dims": [],
+   "error_code": null
+  }
+ ]
+}

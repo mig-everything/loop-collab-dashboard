@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Eazo 平台 · 实验详情</title>
+<link rel="stylesheet" href="style.css">
+<style>
+  /* 综合评价分数卡（2026-10-08）：双端各一，高分者皇冠+绿色描边 */
+  .cmp-score-wrap { display: flex; align-items: stretch; gap: 14px; margin-bottom: 14px; }
+  .cmp-score-card { flex: 1; border: 2px solid var(--line); border-radius: 10px;
+    padding: 14px 16px; background: #fafbfd; position: relative; }
+  .cmp-score-card.winner { border-color: var(--ok); background: #f2fbf5;
+    box-shadow: 0 1px 6px rgba(23,163,74,.12); }
+  .cmp-score-side { font-size: 13px; font-weight: 700; color: #33405c; display: flex; align-items: center; gap: 6px; }
+  .cmp-score-num { font-size: 34px; font-weight: 800; line-height: 1.15; margin-top: 4px; }
+  .cmp-score-card.winner .cmp-score-num { color: var(--ok); }
+  .cmp-score-sub { font-size: 12px; color: var(--muted); }
+  .cmp-score-crown { font-size: 16px; }
+  .cmp-help { display: inline-flex; align-items: center; justify-content: center;
+    width: 16px; height: 16px; border-radius: 50%; border: 1px solid var(--muted);
+    color: var(--muted); font-size: 11px; cursor: help; user-select: none; }
+</style>
+</head>
+<body>
+<header class="topbar">
+  <div class="logo">Eazo<span class="sub">一句话生成鸿蒙 & 安卓双端 APP</span></div>
+  <nav>
+    <a href="index.html" data-page="home">新建生成</a>
+    <a href="history.html" data-page="history">历史记录</a>
+  </nav>
+  <div class="health" id="health-indicator"><span class="dot"></span>检查中…</div>
+</header>
+
+<main class="wrap">
+  <h1 class="page-title" id="req-title">实验详情</h1>
+  <p class="page-desc" id="req-desc">加载中…</p>
+
+  <div class="msg" id="detail-msg"></div>
+
+  <section class="card">
+    <h3>双端生成结果</h3>
+    <div id="composite"></div>
+    <div id="runs"></div>
+  </section>
+
+  <section class="card" id="skills-card">
+    <h3>双端生成 Skill 对比 <span style="font-weight:400;color:var(--muted);font-size:12.5px;">生成时各端挂载的 skill（含链接与版本）与引擎配置</span></h3>
+    <div id="skills"></div>
+  </section>
+
+  <section class="card">
+    <h3>四维对比报告 <span id="report-meta" style="font-weight:400;color:var(--muted);font-size:12.5px;"></span></h3>
+    <div id="report"></div>
+  </section>
+
+  <section class="card" id="uijudge-card">
+    <h3>UI 美观度对比（uijudge 自动评审） <span id="uijudge-meta" style="font-weight:400;color:var(--muted);font-size:12.5px;"></span></h3>
+    <div id="uijudge"></div>
+  </section>
+
+  <section class="card" id="features-card" style="display:none;">
+    <h3>功能清单对比 <span style="font-weight:400;color:var(--muted);font-size:12.5px;">逐项核对双端功能实现情况</span></h3>
+    <div id="features"></div>
+  </section>
+
+  <section class="card">
+    <h3>双端运行截图 <span style="font-weight:400;color:var(--muted);font-size:12.5px;">每行一对：左鸿蒙 · 右安卓基线</span></h3>
+    <div id="shots"></div>
+  </section>
+
+  <section class="card">
+    <h3>源码包下载</h3>
+    <div id="downloads"></div>
+  </section>
+
+  <section class="card">
+    <h3>增量开发 <span style="font-weight:400;color:var(--muted);font-size:12.5px;">对已生成的 APP 追加一句话迭代（双端同步）</span></h3>
+    <div id="inc-form">
+      <label class="field">增量需求（自然语言）
+        <textarea id="inc-nl" rows="3" placeholder="例如：加一个深色模式切换按钮，状态本地保存；或：首页增加按分类筛选的下拉框"></textarea>
+      </label>
+      <div class="inc-actions">
+        <button class="btn" id="btn-inc">提交增量迭代</button>
+      </div>
+      <div class="msg" id="inc-msg"></div>
+    </div>
+    <h3 style="margin-top:18px;">增量历史</h3>
+    <div id="inc-history"></div>
+  </section>
+</main>
+
+<footer class="footer">Eazo Platform · IPD-217 网页 UI</footer>
+<script>window.EAZO_STATIC_MODE=true;</script>
+<script src="app.js"></script>
+<script>
+"use strict";
+(function () {
+  initTopbar("detail");
+  const params = new URLSearchParams(location.search);
+  const reqId = params.get("id");
+  const msgEl = document.getElementById("detail-msg");
+  const incMsgEl = document.getElementById("inc-msg");
+  // IPD-525 写门禁（静态模式等同于 write_open=false）：false 时隐藏增量表单与
+  // uijudge 评审按钮；health 失败按开放处理（保持离线开发体验）
+  let writeOpen = true;
+
+  if (!reqId) { msg(msgEl, "缺少 ?id= 参数"); return; }
+
+  const VERDICT_LABEL = {
+    harmony_win: "鸿蒙胜", android_win: "安卓胜",
+    near_tie: "基本持平", tie: "持平", pending: "未采集",
+  };
+  const DIM_LABEL = {
+    func_coverage: "功能覆盖", ui: "UI 得分",
+    duration: "生成耗时", token: "Token 消耗", page: "页面数",
+  };
+  const UI_DIM_LABEL = {
+    visual_consistency: "视觉一致性", layout_reasonableness: "布局合理性",
+    readability: "可读性", interaction_feedback: "交互反馈", task_clarity: "任务清晰度",
+  };
+
+  async function loadAll() {
+    let req;
+    try { req = await API.requirement(reqId); }
+    catch (e) { msg(msgEl, `需求加载失败：${e.code} ${e.message}`); return; }
+
+    try {
+      const h = await API.health();
+      writeOpen = h.write_open !== false;
+    } catch (_) { /* 默认 write_open=true */ }
+    if (!writeOpen) {
+      const incForm = document.getElementById("inc-form");
+      if (incForm) incForm.style.display = "none";
+    }
+
+    document.getElementById("req-title").textContent = "实验详情 · " + (req.nl_text || "");
+    document.getElementById("req-desc").innerHTML =
+      `需求 <code class="sha">${esc(req.id)}</code> · 类别 <b>${esc(req.category_id || "—")}</b> · 状态 ${badge(req.status)} · 创建于 ${fmtTime(req.created_at)}`;
+
+    renderRuns(req.runs || []);
+    renderSkills();
+    renderReport();
+    renderShots(req.runs || []);
+    renderDownloads(req.runs || []);
+    loadIncrementals();
+  }
+
+  function renderRuns(runs) {
+    const el = document.getElementById("runs");
+    if (!runs.length) { el.innerHTML = `<div class="empty">尚无生成记录 —— 回<a href="index.html">首页</a>触发</div>`; return; }
+    el.innerHTML = runs.map(r => `
+      <div class="run-box side-${esc(r.run_side)}">
+        <div class="row">
+          ${sideChip(r.run_side)}
+          ${badge(r.status)}
+          <span>模式 ${esc(r.mode || "full")}</span>
+          <span>耗时 <b>${fmtDur(r.duration_ms)}</b></span>
+          <span>Token <b>${fmtTokens(r.token_usage)}</b></span>
+          ${r.commit_sha ? shortSha(r.commit_sha) : ""}
+          ${r.error_code ? `<span class="badge failed">${esc(r.error_code)}</span>` : ""}
+        </div>
+        <div class="row" style="margin-top:6px;">
+          <span class="id" style="font-family:ui-monospace,Menlo,monospace;font-size:12px;color:var(--muted)">${esc(r.id)}</span>
+        </div>
+      </div>`).join("");
+  }
+
+  function skillChip(s) {
+    const ver = s.version ? `<code class="sha">${esc(s.version)}</code>` : "";
+    const impl = s.implemented ? "" : ` <span class="badge neutral">占位待实现</span>`;
+    // url 为 fallback 占位（挂载 README）时加 title 说明，避免误以为可跳转到 skill 正文
+    const fallbackNote = s.implemented ? "" : ` title="该 skill 尚未在 ai-native-ipd 仓实现，链接指向挂载 README 占位页"`;
+    return `<div class="skill-item">
+      <a href="${esc(s.url)}" target="_blank" rel="noopener"${fallbackNote}>${esc(s.name)}</a> ${ver}${impl}
+      <div class="skill-desc">${esc(s.description || "")}</div>
+    </div>`;
+  }
+
+  async function renderSkills() {
+    const card = document.getElementById("skills-card");
+    const el = document.getElementById("skills");
+    try {
+      const data = await API.skills(reqId);
+      const sides = data.sides || [];
+      const h = sides.find(s => s.side === "harmony") || {};
+      const a = sides.find(s => s.side === "android_baseline") || {};
+      if (!h.run_id && !a.run_id) { card.style.display = "none"; return; }
+      const engRow = (label, hv, av) => `<tr>
+        <td class="cmp-label">${esc(label)}</td>
+        <td class="cmp-h">${hv ? `<code class="sha">${esc(hv)}</code>` : "—"}</td>
+        <td class="cmp-a">${av ? `<code class="sha">${esc(av)}</code>` : "—"}</td>
+      </tr>`;
+      el.innerHTML = `
+        <table class="cmp-table skill-table">
+          <thead>
+            <tr>
+              <th style="width:22%">对比项</th>
+              <th class="th-h" style="width:39%">鸿蒙 HarmonyOS</th>
+              <th class="th-a" style="width:39%">安卓 Android</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="cmp-label">编码 Skill</td>
+              <td class="cmp-h">${(h.skills || []).map(skillChip).join("") || "—"}</td>
+              <td class="cmp-a">${(a.skills || []).map(skillChip).join("") || "—"}</td>
+            </tr>
+            ${engRow("Prompt 版本", h.engine && h.engine.prompt_version, a.engine && a.engine.prompt_version)}
+            ${engRow("模板版本", h.engine && h.engine.template_version, a.engine && a.engine.template_version)}
+            ${engRow("模型", h.engine && h.engine.model_id, a.engine && a.engine.model_id)}
+          </tbody>
+        </table>`;
+    } catch (_) {
+      card.style.display = "none";
+    }
+  }
+
+  // 综合评价分数卡：服务端算好（report.composite），前端只展示；高分端皇冠+绿色描边
+  function scoreTooltip(sideLabel, sideData, formulaText) {
+    const lines = [formulaText || "", "", `本次代入（${sideLabel}）：`];
+    const contrib = (sideData && sideData.contributions) || {};
+    for (const k of Object.keys(contrib)) {
+      const c = contrib[k];
+      lines.push(`${c.label} ${c.value} × ${(c.weight * 100).toFixed(1)}% = ${c.weighted}`);
+    }
+    const ex = (sideData && sideData.excluded) || [];
+    if (ex.length) {
+      lines.push("", "被剔除的维度（缺失/降级，权重已归一化）：");
+      for (const e of ex) lines.push(`${e.label}：${e.reason}`);
+    }
+    return lines.join("\n");
+  }
+
+  function renderComposite(comp) {
+    const el = document.getElementById("composite");
+    if (!comp || (!comp.harmony && !comp.android)) { el.innerHTML = ""; return; }
+    const h = comp.harmony || {}, a = comp.android || {};
+    if (h.score == null && a.score == null) { el.innerHTML = ""; return; }
+    const hWin = h.score != null && (a.score == null || h.score > a.score);
+    const aWin = a.score != null && (h.score == null || a.score > h.score);
+    const card = (label, data, win) => `
+      <div class="cmp-score-card${win ? " winner" : ""}">
+        <div class="cmp-score-side">${win ? '<span class="cmp-score-crown">👑</span>' : ""}${esc(label)}
+          <span class="cmp-help" title="${esc(scoreTooltip(label, data, comp.formula_text))}">?</span>
+        </div>
+        <div class="cmp-score-num">${data.score != null ? esc(data.score) : "—"}</div>
+        <div class="cmp-score-sub">综合评价（0~100）${win ? " · 本局更优" : ""}</div>
+      </div>`;
+    el.innerHTML = `<div class="cmp-score-wrap">
+      ${card("鸿蒙 HarmonyOS", h, hWin)}
+      ${card("安卓 Android", a, aWin)}
+    </div>`;
+  }
+
+  function dimVerdictBadge(key, perDim) {    const v = (perDim || {})[key];
+    if (!v) return `<span class="badge neutral">—</span>`;
+    return badge(v).replace(/>([^<]*)</, ">" + esc(VERDICT_LABEL[v] || v) + "<");
+  }
+
+  function cmpRow(label, hVal, aVal, diffText, diffGood, verdictKey, perDim, degraded) {
+    const dcls = diffGood == null ? "" : diffGood ? "good" : "bad";
+    return `<tr>
+      <td class="cmp-label">${esc(label)}${degraded ? ' <span class="badge neutral">降级</span>' : ""}</td>
+      <td class="cmp-h">${hVal}</td>
+      <td class="cmp-a">${aVal}</td>
+      <td class="d ${dcls}">${esc(diffText || "—")}</td>
+      <td>${dimVerdictBadge(verdictKey, perDim)}</td>
+    </tr>`;
+  }
+
+  function signed(n, suffix) {
+    if (n == null) return null;
+    return (n > 0 ? "+" : "") + n + (suffix || "");
+  }
+
+  async function renderReport() {
+    const el = document.getElementById("report");
+    const meta = document.getElementById("report-meta");
+    el.innerHTML = `<div class="empty"><span class="spin"></span>加载报告…</div>`;
+    try {
+      const rep = await API.report(reqId);
+      renderComposite(rep.composite || null);
+      meta.textContent = `${rep.id} · ${fmtTime(rep.created_at)}${rep.is_incremental ? " · 增量" : ""}`;
+      const d = rep.dimensions || {};
+      const f = d.func_coverage || {}, p = d.page || {},
+            du = d.duration || {}, t = d.token || {};
+      const perDim = (rep.verdict && rep.verdict.per_dim) || {};
+      // 诚实口径文案：null = 未采集（手工交付/历史实验无引擎度量），不显示笼统 pending
+      const durCell = (v) => v == null
+        ? `<span style="color:var(--muted);font-size:12px">未采集<br>（无引擎度量/构建日志无时长）</span>`
+        : esc(fmtDur(v));
+      const tokCell = (v) => v == null
+        ? `<span style="color:var(--muted);font-size:12px">未采集<br>（手工交付无引擎度量）</span>`
+        : esc(fmtTokens(v));
+      el.innerHTML = `
+        <div class="verdict-banner">
+          <span class="vb-label">综合判定</span>
+          ${badge(rep.verdict && rep.verdict.overall)}
+          <span class="vb-formula">${esc(rep.verdict && rep.verdict.formula || "")}</span>
+        </div>
+        <table class="cmp-table">
+          <thead>
+            <tr>
+              <th style="width:22%">指标</th>
+              <th class="th-h" style="width:22%">鸿蒙 HarmonyOS</th>
+              <th class="th-a" style="width:22%">安卓 Android</th>
+              <th style="width:16%">差值（鸿蒙−安卓）</th>
+              <th style="width:18%">逐维判定</th>
+            </tr>
+          </thead>
+          <tbody>
+            ${cmpRow("功能覆盖率", (f.harmony_pct ?? "—") + (f.harmony_pct != null ? "%" : ""),
+              (f.android_pct ?? "—") + (f.android_pct != null ? "%" : ""),
+              signed(f.diff, "%"), f.diff == null ? null : f.diff >= 0, "func_coverage", perDim, f.degraded)}
+            ${cmpRow("页面数", p.count_harmony ?? "—", p.count_android ?? "—",
+              signed(p.count_diff), p.count_diff == null ? null : p.count_diff >= 0, "page", perDim, p.degraded)}
+            ${cmpRow("UI 得分", p.ui_score_harmony ?? "—", p.ui_score_android ?? "—",
+              signed(p.ui_score_diff), p.ui_score_diff == null ? null : p.ui_score_diff >= 0, "ui", perDim, p.degraded)}
+            ${cmpRow("生成耗时", durCell(du.harmony_ms), durCell(du.android_ms),
+              du.diff_ms != null ? signed(+(du.diff_ms / 1000).toFixed(1), "s") : null,
+              du.diff_ms == null ? null : du.diff_ms <= 0, "duration", perDim, du.degraded)}
+            ${cmpRow("Token 消耗", tokCell(t.harmony_tokens), tokCell(t.android_tokens),
+              signed(t.diff_tokens), t.diff_tokens == null ? null : t.diff_tokens <= 0, "token", perDim, t.degraded)}
+          </tbody>
+        </table>`;
+      renderFeatures(d.features || []);
+      renderUiJudge(d.uijudge_detail || null, d.page || {});
+    } catch (e) {
+      el.innerHTML = "";
+      renderComposite(null);
+      renderUiJudge(null, null);
+      document.getElementById("features-card").style.display = "none";
+      if (e.code === "EZO-CMP-001") {
+        el.innerHTML = `<div class="empty">暂无对比报告：${esc(e.message)}<br>
+          <span style="font-size:12.5px">双端均成功（含 commit）后自动可算；增量迭代完成后亦会产出新报告。</span></div>`;
+        // 功能清单独立于报告（IPD-251）：导入实验无真实 commit 时仍可展示功能核验视图
+        try {
+          const fm = await API.json(`/api/requirements/${reqId}/features`);
+          renderFeatures(fm.features || []);
+        } catch (_) { /* 功能证据缺失则隐藏卡片 */ }
+      } else {
+        msg(msgEl, `报告加载失败：${e.code || ""} ${e.message}`);
+      }
+    }
+  }
+
+  async function renderUiJudge(detail, page) {
+    const el = document.getElementById("uijudge");
+    const meta = document.getElementById("uijudge-meta");
+    const btn = writeOpen ? `<button class="btn ghost small" id="btn-uijudge" style="margin-left:10px">运行 uijudge 评审</button>` : "";
+    if (!detail) {
+      const has = page && page.ui_score_harmony != null;
+      el.innerHTML = (has
+        ? `<div class="verdict-banner"><span class="vb-label">UI 得分</span>
+           <span class="side-chip harmony">鸿蒙 ${esc(page.ui_score_harmony)}</span>
+           <span style="color:var(--muted)">vs</span>
+           <span class="side-chip android_baseline">安卓 ${esc(page.ui_score_android)}</span>
+           <span class="badge neutral">人工/历史评审</span></div>`
+        : `<div class="empty">尚无 uijudge 自动评审结果——点击右侧按钮对双端运行截图做 MiniMax 视觉评审 ${btn}</div>`);
+      bindUiJudgeBtn();
+      return;
+    }
+    const h = detail.harmony || {}, a = detail.android_baseline || {};
+    const diff = detail.diff;
+    const diffCls = diff == null ? "" : diff >= 12.5 ? "good" : diff <= -12.5 ? "bad" : "";
+    meta.textContent = `${detail.model} · rubric ${detail.rubric_version} · samples=${detail.samples} · ${fmtTime(detail.judged_at)}`;
+    const dimRows = detail.weights ? Object.keys(detail.weights).map(k => {
+      const hs = (h.dim_scores || {})[k], as = (a.dim_scores || {})[k];
+      return `<tr><td class="cmp-label">${esc(UI_DIM_LABEL[k] || k)} <span style="color:var(--muted);font-weight:400;font-size:11px">权重 ${detail.weights[k]}</span></td>
+        <td class="cmp-h">${hs ?? "—"}</td><td class="cmp-a">${as ?? "—"}</td></tr>`;
+    }).join("") : "";
+    el.innerHTML = `
+      <div class="verdict-banner">
+        <span class="vb-label">uijudge 百分制</span>
+        <span class="side-chip harmony" style="font-size:16px">鸿蒙 ${h.score100 ?? "—"}</span>
+        <span style="color:var(--muted);font-weight:700">vs</span>
+        <span class="side-chip android_baseline" style="font-size:16px">安卓 ${a.score100 ?? "—"}</span>
+        <span class="d ${diffCls}" style="font-weight:700">差 ${diff != null ? (diff > 0 ? "+" : "") + diff : "—"}</span>
+        <span class="badge ${diff >= 12.5 ? "success" : diff <= -12.5 ? "failed" : "neutral"}">${diff >= 12.5 ? "鸿蒙胜" : diff <= -12.5 ? "安卓胜" : "基本持平"}</span>
+        ${btn}
+      </div>
+      <table class="cmp-table" style="margin-top:10px">
+        <thead><tr><th style="width:34%">评审维度</th><th class="th-h" style="width:33%">鸿蒙（1~5）</th><th class="th-a" style="width:33%">安卓（1~5）</th></tr></thead>
+        <tbody>${dimRows}
+          <tr class="feat-sum"><td class="cmp-label">加权综合（1~5）</td>
+            <td class="cmp-h"><b>${h.score5 ?? "—"}</b></td><td class="cmp-a"><b>${a.score5 ?? "—"}</b></td></tr>
+        </tbody>
+      </table>
+      <p style="color:var(--muted);font-size:12px;margin:8px 0 0">样本：鸿蒙 [${(h.raw_samples || []).join(", ")}] · 安卓 [${(a.raw_samples || []).join(", ")}]；截图各 ${h.shots ?? "—"}/${a.shots ?? "—"} 张</p>`;
+    bindUiJudgeBtn();
+  }
+
+  function bindUiJudgeBtn() {
+    const b = document.getElementById("btn-uijudge");
+    if (!b) return;
+    b.onclick = async () => {
+      b.disabled = true; b.textContent = "评审中（约 1 分钟）…";
+      try {
+        await fetch(`/api/requirements/${encodeURIComponent(reqId)}/uijudge`, { method: "POST" })
+          .then(async r => { const j = await r.json(); if (!r.ok) throw j.error || { message: "HTTP " + r.status }; return j; });
+        renderReport();  // 重新拉报告（含 uijudge_detail）刷新本卡与四维表
+      } catch (e) {
+        meta.textContent = `评审失败：${e.code || ""} ${e.message || ""}`;
+        b.disabled = false; b.textContent = "运行 uijudge 评审";
+      }
+    };
+  }
+
+  function featIcon(v) {
+    if (v === true || v === "✓" || v === "yes" || v === "pass") return `<span class="f-ic f-ok">✓ 已实现</span>`;
+    if (v === "◐" || v === "partial") return `<span class="f-ic f-part">◐ 部分实现</span>`;
+    if (v === false || v === "✗" || v === "no" || v === "fail") return `<span class="f-ic f-no">✗ 未实现</span>`;
+    return `<span class="f-ic">—</span>`;
+  }
+
+  function renderFeatures(features) {
+    const card = document.getElementById("features-card");
+    const el = document.getElementById("features");
+    if (!features.length) { card.style.display = "none"; return; }
+    card.style.display = "";
+    const ok = (v) => (v === true || v === "✓" || v === "yes" || v === "pass") ? 1 : (v === "◐" || v === "partial") ? 0.5 : 0;
+    const hSum = features.reduce((s, x) => s + ok(x.harmony), 0);
+    const aSum = features.reduce((s, x) => s + ok(x.android), 0);
+    el.innerHTML = `
+      <table class="cmp-table feat-table">
+        <thead>
+          <tr>
+            <th style="width:40%">功能项</th>
+            <th class="th-h" style="width:17%">鸿蒙 HarmonyOS</th>
+            <th class="th-a" style="width:17%">安卓 Android</th>
+            <th style="width:26%">说明</th>
+          </tr>
+        </thead>
+        <tbody>
+          ${features.map(x => `<tr>
+            <td class="cmp-label">${esc(x.name)}</td>
+            <td class="cmp-h">${featIcon(x.harmony)}</td>
+            <td class="cmp-a">${featIcon(x.android)}</td>
+            <td style="color:var(--muted);font-size:12.5px">${esc(x.note || "")}</td>
+          </tr>`).join("")}
+          <tr class="feat-sum">
+            <td class="cmp-label">合计（实现度）</td>
+            <td class="cmp-h"><b>${hSum} / ${features.length}</b></td>
+            <td class="cmp-a"><b>${aSum} / ${features.length}</b></td>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>`;
+  }
+
+  // 截图采集状态文案（2026-10-08）：run.degraded_dims 的 capture_skipped_<side>:<reason> → 中文说明
+  const CAPTURE_REASON = {
+    "no_device": "无运行中的鸿蒙设备/模拟器（hdc list targets 空）",
+    "no_signed_hap": "hap 未签名无法安装（自动签名证书属人类资产，已开流程补缺）",
+    "harmony capture worker 未落地": "鸿蒙截图 worker 未落地（流程跟进中）",
+  };
+  function captureNotes(runs) {
+    const notes = [];
+    for (const r of runs) {
+      for (const dmark of (r.degraded_dims || [])) {
+        if (!String(dmark).startsWith("capture_skipped_")) continue;
+        const reasonKey = String(dmark).split(":").slice(1).join(":");
+        const sideName = dmark.includes("harmony") ? "鸿蒙" : "安卓";
+        notes.push(`${sideName}端截图未采集：${CAPTURE_REASON[reasonKey] || reasonKey}`);
+      }
+    }
+    return notes;
+  }
+
+  async function renderShots(runs) {
+    const el = document.getElementById("shots");
+    const finished = runs.filter(r => r.status === "success" || r.status === "failed");
+    if (!finished.length) { el.innerHTML = `<div class="empty">生成完成后展示双端截图</div>`; return; }
+    el.innerHTML = `<div class="empty"><span class="spin"></span>加载截图…</div>`;
+    const notes = captureNotes(finished);
+    const notesHtml = notes.length
+      ? `<div style="color:var(--muted);font-size:12.5px;margin-bottom:8px">${notes.map(esc).join("<br>")}</div>` : "";
+    const bySide = { harmony: [], android_baseline: [] };
+    for (const r of finished) {
+      try {
+        const shots = await API.screenshots(r.id);
+        for (const s of shots) {
+          const side = bySide[s.side] ? s.side : (r.run_side === "harmony" ? "harmony" : "android_baseline");
+          bySide[side].push(s);
+        }
+      } catch (_) { /* EZO-ART-002：该 run 无截图，跳过 */ }
+    }
+    const hs = bySide.harmony, as = bySide.android_baseline;
+    if (!hs.length && !as.length) {
+      el.innerHTML = notesHtml + `<div class="empty">双端暂无入库截图${notes.length ? "" : "（模拟器取证由生成流程/人工补录）"}</div>`; return;
+    }
+    const shotCard = (s) => s ? `
+      <div class="shot">
+        <div class="shot-side">${sideChip(s.side)}</div>
+        <img src="${esc(s.image_url)}" alt="${esc(SIDE_LABEL[s.side] || s.side)} 截图" loading="lazy">
+        <div class="cap"><span>${esc(fmtTime(s.captured_at))}${s.degraded ? " · 补录" : ""}</span></div>
+      </div>` : `<div class="shot shot-empty"><div class="empty">本端暂无截图</div></div>`;
+    const rows = [];
+    const n = Math.max(hs.length, as.length);
+    for (let i = 0; i < n; i++) {
+      rows.push(`<div class="shot-pair">
+        ${shotCard(hs[i] || null)}
+        <div class="shot-vs">VS</div>
+        ${shotCard(as[i] || null)}
+      </div>`);
+    }
+    el.innerHTML = notesHtml + rows.join("");
+  }
+
+  async function renderDownloads(runs) {
+    const el = document.getElementById("downloads");
+    let ok = runs.filter(r => r.status === "success" && r.artifacts_dir);
+    if (STATIC_MODE) {
+      // 静态模式只渲染已实际导出的 zip（导出脚本写 data/zips_index.json 清单）
+      const idx = await API.zipsIndex();
+      const ids = new Set((idx && idx.runs) || []);
+      ok = ok.filter(r => ids.has(r.id));
+      if (!ok.length) { el.innerHTML = `<div class="empty">本静态站未导出源码包</div>`; return; }
+    }
+    if (!ok.length) { el.innerHTML = `<div class="empty">生成成功后可下载双端源码包（zip）</div>`; return; }
+    el.innerHTML = ok.map(r => `
+      <div class="run-box side-${esc(r.run_side)}"><div class="row">
+        ${sideChip(r.run_side)}
+        <a href="${esc(API.downloadUrl(r.id))}">下载源码包（zip）</a>
+        <span style="color:var(--muted);font-size:12.5px">按需打包 · ${esc(r.artifacts_dir)}</span>
+      </div></div>`).join("");
+  }
+
+  async function loadIncrementals() {
+    const el = document.getElementById("inc-history");
+    try {
+      const data = await API.incrementals(reqId);
+      const incs = data.incrementals || [];
+      el.innerHTML = incs.length ? incs.map(i => `
+        <div class="run-box">
+          <div class="row">${badge(i.status)}<span>${esc(i.nl_text)}</span></div>
+          <div class="row" style="margin-top:4px;font-size:12.5px;color:var(--muted)">
+            ${fmtTime(i.created_at)} · 新 commit h=${esc((i.new_commit_sha_harmony || "—").slice(0, 10))}
+            a=${esc((i.new_commit_sha_android || "—").slice(0, 10))}
+            ${i.new_report_id ? ' · <a href="#" onclick="location.reload();return false;">新报告</a>' : ""}
+          </div>
+        </div>`).join("") : `<div class="empty">暂无增量迭代记录</div>`;
+    } catch (_) {
+      el.innerHTML = `<div class="empty">增量历史不可用</div>`;
+    }
+  }
+
+  document.getElementById("btn-inc").addEventListener("click", async () => {
+    clearMsg(incMsgEl);
+    const nl = document.getElementById("inc-nl").value;
+    if (!nl || !nl.trim()) { msg(incMsgEl, "请输入增量需求"); return; }
+    const btn = document.getElementById("btn-inc");
+    btn.disabled = true; btn.textContent = "提交中…";
+    try {
+      await API.incremental(reqId, nl);
+      msg(incMsgEl, "增量迭代已受理（后台双端同步执行中），稍后刷新本页查看新报告与增量历史。", "ok");
+      loadIncrementals();
+    } catch (e) {
+      msg(incMsgEl, `增量提交失败：${e.code || ""} ${e.message}` +
+          (e.code === "EZO-INC-001" ? "（需先有双端 success 基线 + 基线报告）" : ""));
+    }
+    btn.disabled = false; btn.textContent = "提交增量迭代";
+  });
+
+  loadAll();
+})();
+</script>
+</body>
+</html>

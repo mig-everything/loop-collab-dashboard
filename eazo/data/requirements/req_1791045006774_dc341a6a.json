@@ -1,0 +1,48 @@
+{
+ "id": "req_1791045006774_dc341a6a",
+ "nl_text": "做一个「每日一句」App：每天展示一句精选语录/电影台词（本地种子库按日期索引），支持「刷新换一句 / 收藏 / 分享」；卡片式排版精美；可选桌面元服务卡片展示「今日一句」。",
+ "category_id": "entertainment",
+ "origin": "random",
+ "complexity_bucket": "S",
+ "status": "succeeded",
+ "parent_id": null,
+ "created_at": "2026-10-04T00:30:06.774+08:00",
+ "runs": [
+  {
+   "id": "run_1791045009365_8397c6d8",
+   "requirement_id": "req_1791045006774_dc341a6a",
+   "run_side": "harmony",
+   "status": "success",
+   "attempt": 1,
+   "mode": "full",
+   "started_at": "2026-10-04T00:30:09.366+08:00",
+   "finished_at": "2026-10-04T00:42:01.768+08:00",
+   "duration_ms": 712389,
+   "token_usage": 122199,
+   "commit_sha": "d0a373a1c1bc24a595c8a4f62fa33ed4c3875448",
+   "artifacts_dir": "experiments/req_1791045006774_dc341a6a/harmony",
+   "engine_version": "claude_code:p1.2.0:eazo-skills-2026.09.30:eazo-tpl-2026.10.04:glm-5.3[1m]",
+   "toolchain_version": "harmony:api24+hvigor6.1.0|android:jdk21+gradle8.9+agp8.5.2+kotlin1.9.10+compileSdk34",
+   "degraded_dims": [],
+   "error_code": null
+  },
+  {
+   "id": "run_1791045009365_aeaa6950",
+   "requirement_id": "req_1791045006774_dc341a6a",
+   "run_side": "android_baseline",
+   "status": "success",
+   "attempt": 1,
+   "mode": "full",
+   "started_at": "2026-10-04T00:30:09.366+08:00",
+   "finished_at": "2026-10-04T00:41:27.183+08:00",
+   "duration_ms": 677800,
+   "token_usage": 115620,
+   "commit_sha": "a98db914e99e84498fe45e50cbc569bd23b4ac46",
+   "artifacts_dir": "experiments/req_1791045006774_dc341a6a/android-baseline",
+   "engine_version": "claude_code:p1.2.0:eazo-skills-2026.09.30:eazo-tpl-2026.10.04:glm-5.3[1m]",
+   "toolchain_version": "harmony:api24+hvigor6.1.0|android:jdk21+gradle8.9+agp8.5.2+kotlin1.9.10+compileSdk34",
+   "degraded_dims": [],
+   "error_code": null
+  }
+ ]
+}

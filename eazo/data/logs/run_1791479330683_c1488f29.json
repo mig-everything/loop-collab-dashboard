@@ -1,0 +1,74 @@
+{
+ "run_id": "run_1791479330683_c1488f29",
+ "requirement_id": "req_1791479328034_71cb82d9",
+ "logs": [
+  {
+   "id": "log_1791479330683_54ab4a62",
+   "run_id": "run_1791479330683_c1488f29",
+   "ts": "2026-10-09T01:08:50.683+08:00",
+   "level": "INFO",
+   "message": "run queued (harmony)",
+   "event": "state_transition"
+  },
+  {
+   "id": "log_1791479330684_be29a9ba",
+   "run_id": "run_1791479330683_c1488f29",
+   "ts": "2026-10-09T01:08:50.684+08:00",
+   "level": "INFO",
+   "message": "generation started (harmony)",
+   "event": "state_transition"
+  },
+  {
+   "id": "log_1791479330691_4ba41c45",
+   "run_id": "run_1791479330683_c1488f29",
+   "ts": "2026-10-09T01:08:50.691+08:00",
+   "level": "INFO",
+   "message": "skeleton template applied: 35 files written, 0 skipped (existing)",
+   "event": "state_transition"
+  },
+  {
+   "id": "log_1791480054633_75159f0a",
+   "run_id": "run_1791479330683_c1488f29",
+   "ts": "2026-10-09T01:20:54.633+08:00",
+   "level": "INFO",
+   "message": "commit gate passed (harmony) sha=800fb932b952c7a506acb9dce9745717309f72af files=47 pushed=True",
+   "event": "state_transition"
+  },
+  {
+   "id": "log_1791480088576_3cafc874",
+   "run_id": "run_1791479330683_c1488f29",
+   "ts": "2026-10-09T01:21:28.576+08:00",
+   "level": "INFO",
+   "message": "screenshot capture: 2 shots registered (harmony)",
+   "event": "state_transition"
+  },
+  {
+   "id": "log_1791480088646_0d15b347",
+   "run_id": "run_1791479330683_c1488f29",
+   "ts": "2026-10-09T01:21:28.646+08:00",
+   "level": "INFO",
+   "message": "comparison report auto-generated: rpt_1791480088646_c1f37c70",
+   "event": "state_transition"
+  },
+  {
+   "id": "log_1791480088647_5ddbbd8d",
+   "run_id": "run_1791479330683_c1488f29",
+   "ts": "2026-10-09T01:21:28.647+08:00",
+   "level": "INFO",
+   "message": "uijudge skipped: uijudge 未配置：缺 MINIMAX_API_KEY 环境变量",
+   "event": "degrade"
+  }
+ ],
+ "log_files": [
+  {
+   "side": "harmony",
+   "path": "experiments/req_1791479328034_71cb82d9/logs/harmony.log",
+   "exists": true
+  },
+  {
+   "side": "android_baseline",
+   "path": "experiments/req_1791479328034_71cb82d9/logs/android_baseline.log",
+   "exists": true
+  }
+ ]
+}

@@ -1,0 +1,755 @@
+{
+ "requirement_id": "req_imp_2026_09_30_unit_converter",
+ "features": [
+  {
+   "name": "leading decimal accepted",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "双端同集（归一命名一致）· 鸿蒙用例 69 · 安卓用例 64"
+  },
+  {
+   "name": "negative length allowed",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "双端同集（归一命名一致）· 鸿蒙用例 69 · 安卓用例 64"
+  },
+  {
+   "name": "result inf is overflow",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "双端同集（归一命名一致）· 鸿蒙用例 69 · 安卓用例 64"
+  },
+  {
+   "name": "speed roundtrip identity",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "双端同集（归一命名一致）· 鸿蒙用例 69 · 安卓用例 64"
+  },
+  {
+   "name": "speed to weight mismatch",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "双端同集（归一命名一致）· 鸿蒙用例 69 · 安卓用例 64"
+  },
+  {
+   "name": "subnormal is ok no underflow",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "双端同集（归一命名一致）· 鸿蒙用例 69 · 安卓用例 64"
+  },
+  {
+   "name": "temperature roundtrip identity",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "双端同集（归一命名一致）· 鸿蒙用例 69 · 安卓用例 64"
+  },
+  {
+   "name": "threshold 1e15 is ok",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "双端同集（归一命名一致）· 鸿蒙用例 69 · 安卓用例 64"
+  },
+  {
+   "name": "threshold 1e15 plus 1 is overflow",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "双端同集（归一命名一致）· 鸿蒙用例 69 · 安卓用例 64"
+  },
+  {
+   "name": "dimension mismatch",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "empty is invalid",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "f to k via celsius",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "hundred c is not 180 f",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "hundred c to f",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "hundred c to k",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "hundred kmh to mph",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "k to f via celsius",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "length decimal 0 0254",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "length exact 2 54",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "length integer 1000",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "length integer 10000",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "length large expands exponential",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "length six sig 13 7795",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "length zero",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "multi decimal is invalid",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "negative five c to f",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "negative forty c to f",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "non numeric is invalid",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "one cm to in",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "one foot to cm",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "one g to mg",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "one hundred m to cm",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "one in to cm",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "one in to m",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "one kg to lb",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "one km to m",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "one kmh to mps",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "one knot to kmh",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "one lb to kg",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "one m to cm",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "one mile to km",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "one million m to km",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "one mph to mps",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "one mps to fps",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "one mps to kmh",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "one oz to g",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "one ton to kg",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "one yard to m",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "seventyfive kg to lb",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "sixty mph to kmh",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "temp 176 7 carry",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "temp 212 0",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "temp 273 2",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "temp 32 0 keep zero",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "temp negative round half away",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "temp zero",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "thirtyfive cm to in",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "thirtytwo f to c",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "threefifty f to c",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "twohundred lb to kg",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "twohundredtwelve f to c",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "unknown unit",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "weight six sig 90 7185",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "weight six sig carry 165 347",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "whitespace is invalid",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "zero c is not zero f",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "zero c to f",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "zero c to k",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "zero k to c",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "empty Input Returns Invalid",
+   "harmony": "✗",
+   "android": "✓",
+   "note": "安卓独有 · 鸿蒙缺失"
+  },
+  {
+   "name": "fahrenheit To Kelvin Via Celsius",
+   "harmony": "✗",
+   "android": "✓",
+   "note": "安卓独有 · 鸿蒙缺失"
+  },
+  {
+   "name": "hundred Celsius Equals212 F",
+   "harmony": "✗",
+   "android": "✓",
+   "note": "安卓独有 · 鸿蒙缺失"
+  },
+  {
+   "name": "hundred Celsius Equals3732 K",
+   "harmony": "✗",
+   "android": "✓",
+   "note": "安卓独有 · 鸿蒙缺失"
+  },
+  {
+   "name": "hundred Celsius Is Not180 Fahrenheit",
+   "harmony": "✗",
+   "android": "✓",
+   "note": "安卓独有 · 鸿蒙缺失"
+  },
+  {
+   "name": "hundred Kmh Equals Mph",
+   "harmony": "✗",
+   "android": "✓",
+   "note": "安卓独有 · 鸿蒙缺失"
+  },
+  {
+   "name": "kelvin To Fahrenheit Via Celsius",
+   "harmony": "✗",
+   "android": "✓",
+   "note": "安卓独有 · 鸿蒙缺失"
+  },
+  {
+   "name": "length To Weight Mismatch",
+   "harmony": "✗",
+   "android": "✓",
+   "note": "安卓独有 · 鸿蒙缺失"
+  },
+  {
+   "name": "multiple Decimal Points Returns Invalid",
+   "harmony": "✗",
+   "android": "✓",
+   "note": "安卓独有 · 鸿蒙缺失"
+  },
+  {
+   "name": "negative Forty CEquals Negative Forty F",
+   "harmony": "✗",
+   "android": "✓",
+   "note": "安卓独有 · 鸿蒙缺失"
+  },
+  {
+   "name": "negative Temperature Meaningful",
+   "harmony": "✗",
+   "android": "✓",
+   "note": "安卓独有 · 鸿蒙缺失"
+  },
+  {
+   "name": "non Numeric Returns Invalid",
+   "harmony": "✗",
+   "android": "✓",
+   "note": "安卓独有 · 鸿蒙缺失"
+  },
+  {
+   "name": "one Cm Equals Inch",
+   "harmony": "✗",
+   "android": "✓",
+   "note": "安卓独有 · 鸿蒙缺失"
+  },
+  {
+   "name": "one Foot Equals Cm",
+   "harmony": "✗",
+   "android": "✓",
+   "note": "安卓独有 · 鸿蒙缺失"
+  },
+  {
+   "name": "one Gram Equals Mg",
+   "harmony": "✗",
+   "android": "✓",
+   "note": "安卓独有 · 鸿蒙缺失"
+  },
+  {
+   "name": "one Inch Equals254 Cm",
+   "harmony": "✗",
+   "android": "✓",
+   "note": "安卓独有 · 鸿蒙缺失"
+  },
+  {
+   "name": "one Kg Equals Lb",
+   "harmony": "✗",
+   "android": "✓",
+   "note": "安卓独有 · 鸿蒙缺失"
+  },
+  {
+   "name": "one Km Equals Meter",
+   "harmony": "✗",
+   "android": "✓",
+   "note": "安卓独有 · 鸿蒙缺失"
+  },
+  {
+   "name": "one Kmh Equals Mps",
+   "harmony": "✗",
+   "android": "✓",
+   "note": "安卓独有 · 鸿蒙缺失"
+  },
+  {
+   "name": "one Knot Equals Kmh",
+   "harmony": "✗",
+   "android": "✓",
+   "note": "安卓独有 · 鸿蒙缺失"
+  },
+  {
+   "name": "one Lb Equals Kg",
+   "harmony": "✗",
+   "android": "✓",
+   "note": "安卓独有 · 鸿蒙缺失"
+  },
+  {
+   "name": "one Meter Equals Cm",
+   "harmony": "✗",
+   "android": "✓",
+   "note": "安卓独有 · 鸿蒙缺失"
+  },
+  {
+   "name": "one Mile Equals Km",
+   "harmony": "✗",
+   "android": "✓",
+   "note": "安卓独有 · 鸿蒙缺失"
+  },
+  {
+   "name": "one Mph Equals Mps",
+   "harmony": "✗",
+   "android": "✓",
+   "note": "安卓独有 · 鸿蒙缺失"
+  },
+  {
+   "name": "one Mps Equals Fps",
+   "harmony": "✗",
+   "android": "✓",
+   "note": "安卓独有 · 鸿蒙缺失"
+  },
+  {
+   "name": "one Mps Equals Kmh",
+   "harmony": "✗",
+   "android": "✓",
+   "note": "安卓独有 · 鸿蒙缺失"
+  },
+  {
+   "name": "one Oz Equals Gram",
+   "harmony": "✗",
+   "android": "✓",
+   "note": "安卓独有 · 鸿蒙缺失"
+  },
+  {
+   "name": "one Ton Equals Kg",
+   "harmony": "✗",
+   "android": "✓",
+   "note": "安卓独有 · 鸿蒙缺失"
+  },
+  {
+   "name": "one Yard Equals Meter",
+   "harmony": "✗",
+   "android": "✓",
+   "note": "安卓独有 · 鸿蒙缺失"
+  },
+  {
+   "name": "out Of Range Input Returns Overflow",
+   "harmony": "✗",
+   "android": "✓",
+   "note": "安卓独有 · 鸿蒙缺失"
+  },
+  {
+   "name": "raw Length Anchor",
+   "harmony": "✗",
+   "android": "✓",
+   "note": "安卓独有 · 鸿蒙缺失"
+  },
+  {
+   "name": "raw Speed Fps To Mps",
+   "harmony": "✗",
+   "android": "✓",
+   "note": "安卓独有 · 鸿蒙缺失"
+  },
+  {
+   "name": "raw Speed Mph To Mps",
+   "harmony": "✗",
+   "android": "✓",
+   "note": "安卓独有 · 鸿蒙缺失"
+  },
+  {
+   "name": "raw Temperature100 Cto F",
+   "harmony": "✗",
+   "android": "✓",
+   "note": "安卓独有 · 鸿蒙缺失"
+  },
+  {
+   "name": "raw Temperature350 Fto C",
+   "harmony": "✗",
+   "android": "✓",
+   "note": "安卓独有 · 鸿蒙缺失"
+  },
+  {
+   "name": "raw Temperature Zero Cto F",
+   "harmony": "✗",
+   "android": "✓",
+   "note": "安卓独有 · 鸿蒙缺失"
+  },
+  {
+   "name": "raw Temperature Zero Cto K",
+   "harmony": "✗",
+   "android": "✓",
+   "note": "安卓独有 · 鸿蒙缺失"
+  },
+  {
+   "name": "raw Weight Anchor",
+   "harmony": "✗",
+   "android": "✓",
+   "note": "安卓独有 · 鸿蒙缺失"
+  },
+  {
+   "name": "scientific Notation Accepted",
+   "harmony": "✗",
+   "android": "✓",
+   "note": "安卓独有 · 鸿蒙缺失"
+  },
+  {
+   "name": "seventy Five Kg Equals Lb",
+   "harmony": "✗",
+   "android": "✓",
+   "note": "安卓独有 · 鸿蒙缺失"
+  },
+  {
+   "name": "sixty Mph Equals Kmh",
+   "harmony": "✗",
+   "android": "✓",
+   "note": "安卓独有 · 鸿蒙缺失"
+  },
+  {
+   "name": "strip Trailing Zeros",
+   "harmony": "✗",
+   "android": "✓",
+   "note": "安卓独有 · 鸿蒙缺失"
+  },
+  {
+   "name": "temperature To Weight Mismatch",
+   "harmony": "✗",
+   "android": "✓",
+   "note": "安卓独有 · 鸿蒙缺失"
+  },
+  {
+   "name": "thirty Five Cm Equals Inch",
+   "harmony": "✗",
+   "android": "✓",
+   "note": "安卓独有 · 鸿蒙缺失"
+  },
+  {
+   "name": "thirty Two FEquals Zero C",
+   "harmony": "✗",
+   "android": "✓",
+   "note": "安卓独有 · 鸿蒙缺失"
+  },
+  {
+   "name": "three Fifty FEquals Celsius",
+   "harmony": "✗",
+   "android": "✓",
+   "note": "安卓独有 · 鸿蒙缺失"
+  },
+  {
+   "name": "two Hundred Lb Equals Kg",
+   "harmony": "✗",
+   "android": "✓",
+   "note": "安卓独有 · 鸿蒙缺失"
+  },
+  {
+   "name": "two Hundred Seventy Three KEquals Zero C",
+   "harmony": "✗",
+   "android": "✓",
+   "note": "安卓独有 · 鸿蒙缺失"
+  },
+  {
+   "name": "two Hundred Twelve FEquals100 C",
+   "harmony": "✗",
+   "android": "✓",
+   "note": "安卓独有 · 鸿蒙缺失"
+  },
+  {
+   "name": "unknown Unit Key Returns Unknown Unit",
+   "harmony": "✗",
+   "android": "✓",
+   "note": "安卓独有 · 鸿蒙缺失"
+  },
+  {
+   "name": "whitespace Input Returns Invalid",
+   "harmony": "✗",
+   "android": "✓",
+   "note": "安卓独有 · 鸿蒙缺失"
+  },
+  {
+   "name": "zero Celsius Equals2732 K",
+   "harmony": "✗",
+   "android": "✓",
+   "note": "安卓独有 · 鸿蒙缺失"
+  },
+  {
+   "name": "zero Celsius Equals32 F",
+   "harmony": "✗",
+   "android": "✓",
+   "note": "安卓独有 · 鸿蒙缺失"
+  },
+  {
+   "name": "zero Celsius Is Not Zero Fahrenheit",
+   "harmony": "✗",
+   "android": "✓",
+   "note": "安卓独有 · 鸿蒙缺失"
+  },
+  {
+   "name": "zero Kelvin To Celsius",
+   "harmony": "✗",
+   "android": "✓",
+   "note": "安卓独有 · 鸿蒙缺失"
+  },
+  {
+   "name": "命名风格差异说明",
+   "harmony": "◐",
+   "android": "◐",
+   "note": "双端各自 69/64 个用例，同名仅 9 项；命名风格不同（如 snake_case ↔ 英文短语），按名对账不能证明功能缺失，建议补双端运行取证（hypium/junit 日志）后复核"
+  }
+ ]
+}

@@ -1,0 +1,48 @@
+{
+ "id": "req_1791368353749_2a75e12b",
+ "nl_text": "做一个「倒数日纪念日提醒」App：添加重要纪念日/倒数日（标题+日期），列表展示距今天数（已过/剩余天数），支持置顶与删除；卡片式排版美观；可选桌面卡片（元服务）显示最近一个倒数日。",
+ "category_id": "life",
+ "origin": "manual",
+ "complexity_bucket": "S",
+ "status": "succeeded",
+ "parent_id": null,
+ "created_at": "2026-10-07T18:19:13.749+08:00",
+ "runs": [
+  {
+   "id": "run_1791368353752_a3c9b0d8",
+   "requirement_id": "req_1791368353749_2a75e12b",
+   "run_side": "harmony",
+   "status": "success",
+   "attempt": 1,
+   "mode": "full",
+   "started_at": "2026-10-07T18:19:13.752+08:00",
+   "finished_at": "2026-10-07T18:51:59.734+08:00",
+   "duration_ms": 1966009,
+   "token_usage": 209758,
+   "commit_sha": "d9cb8df158cdaf73fd4e895e04eb0312e6fa3da0",
+   "artifacts_dir": "experiments/req_1791368353749_2a75e12b/harmony",
+   "engine_version": "claude_code:p1.4.0:eazo-skills-2026.09.30:eazo-tpl-2026.10.06:glm-5.3[1m]",
+   "toolchain_version": "harmony:api24+hvigor6.1.0|android:jdk21+gradle8.9+agp8.5.2+kotlin1.9.10+compileSdk34",
+   "degraded_dims": [],
+   "error_code": null
+  },
+  {
+   "id": "run_1791368353752_e29bc686",
+   "requirement_id": "req_1791368353749_2a75e12b",
+   "run_side": "android_baseline",
+   "status": "success",
+   "attempt": 1,
+   "mode": "full",
+   "started_at": "2026-10-07T18:19:13.752+08:00",
+   "finished_at": "2026-10-07T18:31:59.161+08:00",
+   "duration_ms": 765390,
+   "token_usage": 123450,
+   "commit_sha": "86963edac9cd00eae7b727930f34697fdc3aeb30",
+   "artifacts_dir": "experiments/req_1791368353749_2a75e12b/android-baseline",
+   "engine_version": "claude_code:p1.4.0:eazo-skills-2026.09.30:eazo-tpl-2026.10.06:glm-5.3[1m]",
+   "toolchain_version": "harmony:api24+hvigor6.1.0|android:jdk21+gradle8.9+agp8.5.2+kotlin1.9.10+compileSdk34",
+   "degraded_dims": [],
+   "error_code": null
+  }
+ ]
+}

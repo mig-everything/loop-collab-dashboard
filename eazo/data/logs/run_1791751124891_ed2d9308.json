@@ -1,0 +1,50 @@
+{
+ "run_id": "run_1791751124891_ed2d9308",
+ "requirement_id": "req_1791751124889_2926831e",
+ "logs": [
+  {
+   "id": "log_1791751124891_e8e0c2d6",
+   "run_id": "run_1791751124891_ed2d9308",
+   "ts": "2026-10-12T04:38:44.891+08:00",
+   "level": "INFO",
+   "message": "run queued (android_baseline)",
+   "event": "state_transition"
+  },
+  {
+   "id": "log_1791751158072_18ffd0bd",
+   "run_id": "run_1791751124891_ed2d9308",
+   "ts": "2026-10-12T04:39:18.073+08:00",
+   "level": "INFO",
+   "message": "generation started (android_baseline)",
+   "event": "state_transition"
+  },
+  {
+   "id": "log_1791751158077_a6583bda",
+   "run_id": "run_1791751124891_ed2d9308",
+   "ts": "2026-10-12T04:39:18.077+08:00",
+   "level": "INFO",
+   "message": "android skeleton template applied: 17 files written, 0 skipped (existing)",
+   "event": "state_transition"
+  },
+  {
+   "id": "log_1791751793170_a49520d5",
+   "run_id": "run_1791751124891_ed2d9308",
+   "ts": "2026-10-12T04:49:53.170+08:00",
+   "level": "ERROR",
+   "message": "commit gate failed: EZO-GIT-005 (push 失败: To github.com:mig-everything/eazo-platform.git\n ! [rejected]          HEAD -> main (non-fast-forward)\nerror: failed to push some refs to 'github.com:mig-everything/eazo-platform.git'\nhint: Updates were rejected because the tip of your current branch is behind\nhint: its remote counterpart. If you wan)",
+   "event": "state_transition"
+  }
+ ],
+ "log_files": [
+  {
+   "side": "harmony",
+   "path": "experiments/req_1791751124889_2926831e/logs/harmony.log",
+   "exists": true
+  },
+  {
+   "side": "android_baseline",
+   "path": "experiments/req_1791751124889_2926831e/logs/android_baseline.log",
+   "exists": true
+  }
+ ]
+}

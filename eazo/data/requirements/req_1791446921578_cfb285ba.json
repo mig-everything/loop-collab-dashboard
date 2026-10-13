@@ -1,0 +1,48 @@
+{
+ "id": "req_1791446921578_cfb285ba",
+ "nl_text": "做一个「房贷计算器」App：输入贷款总额/年利率/贷款年限，按等额本息/等额本金两种还款方式计算月供、总利息、总还款与逐月还款计划表（期数/月供/本金/利息/剩余本金，确定性纯函数），支持利率/年限实时调整与两种方式切换对比；界面精致美观（本息构成环形图 + 还款计划表列表）；可选桌面卡片（元服务）与多端自适应。",
+ "category_id": "finance",
+ "origin": "manual",
+ "complexity_bucket": "S",
+ "status": "failed",
+ "parent_id": null,
+ "created_at": "2026-10-08T16:08:41.578+08:00",
+ "runs": [
+  {
+   "id": "run_1791446921580_14fb0749",
+   "requirement_id": "req_1791446921578_cfb285ba",
+   "run_side": "harmony",
+   "status": "failed",
+   "attempt": 1,
+   "mode": "full",
+   "started_at": "2026-10-08T16:08:41.582+08:00",
+   "finished_at": "2026-10-08T16:11:57.329+08:00",
+   "duration_ms": 195714,
+   "token_usage": 0,
+   "commit_sha": null,
+   "artifacts_dir": null,
+   "engine_version": "claude_code:p1.5.0:eazo-skills-2026.09.30:eazo-tpl-2026.10.06:glm-5.3[1m]",
+   "toolchain_version": "harmony:api24+hvigor6.1.0|android:jdk21+gradle8.9+agp8.5.2+kotlin1.9.10+compileSdk34",
+   "degraded_dims": [],
+   "error_code": "EZO-ENG-002"
+  },
+  {
+   "id": "run_1791446921580_7b2b665c",
+   "requirement_id": "req_1791446921578_cfb285ba",
+   "run_side": "android_baseline",
+   "status": "failed",
+   "attempt": 1,
+   "mode": "full",
+   "started_at": "2026-10-08T16:08:41.582+08:00",
+   "finished_at": "2026-10-08T16:11:47.788+08:00",
+   "duration_ms": 186144,
+   "token_usage": 0,
+   "commit_sha": null,
+   "artifacts_dir": null,
+   "engine_version": "claude_code:p1.5.0:eazo-skills-2026.09.30:eazo-tpl-2026.10.06:glm-5.3[1m]",
+   "toolchain_version": "harmony:api24+hvigor6.1.0|android:jdk21+gradle8.9+agp8.5.2+kotlin1.9.10+compileSdk34",
+   "degraded_dims": [],
+   "error_code": "EZO-ENG-002"
+  }
+ ]
+}

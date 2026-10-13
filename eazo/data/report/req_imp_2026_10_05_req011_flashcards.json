@@ -1,0 +1,219 @@
+{
+ "id": "rpt_imp_2026_10_05_req011_flashcards",
+ "requirement_id": "req_imp_2026_10_05_req011_flashcards",
+ "run_id_harmony": "run_imp_2026_10_05_req011_flashcards_h",
+ "run_id_android": "run_imp_2026_10_05_req011_flashcards_a",
+ "commit_sha_harmony": "imported",
+ "commit_sha_android": "imported",
+ "engine_version": "claude_code:p1.2.0:eazo-skills-2026.09.30:eazo-tpl-2026.10.04:glm-5.3[1m]",
+ "toolchain_version": "harmony:api24+hvigor6.1.0|android:jdk21+gradle8.9+agp8.5.2+kotlin1.9.10+compileSdk34",
+ "metrics_schema_version": "1.0.0",
+ "rubric_version": "eazo-rubric-1.0.0",
+ "dimensions": {
+  "func_coverage": {
+   "harmony_pct": 100.0,
+   "android_pct": 100.0,
+   "diff": 0.0,
+   "degraded": false
+  },
+  "page": {
+   "count_harmony": 3,
+   "count_android": 3,
+   "count_diff": 0,
+   "ui_score_harmony": 85.0,
+   "ui_score_android": 85.0,
+   "ui_score_diff": 0.0,
+   "degraded": false
+  },
+  "duration": {
+   "harmony_ms": null,
+   "android_ms": null,
+   "diff_ms": null,
+   "degraded": true
+  },
+  "token": {
+   "harmony_tokens": null,
+   "android_tokens": null,
+   "diff_tokens": null,
+   "degraded": true
+  },
+  "uijudge_detail": {
+   "model": "MiniMax-M3",
+   "rubric_version": "eazo-rubric-1.0.0",
+   "samples": 1,
+   "harmony": {
+    "run_id": "run_imp_2026_10_05_req011_flashcards_h",
+    "shots": 4,
+    "score5": 4.4,
+    "score100": 85.0,
+    "raw_samples": [
+     4.4
+    ],
+    "dim_scores": {
+     "visual_consistency": 4.5,
+     "layout_reasonableness": 4.5,
+     "readability": 4.5,
+     "interaction_feedback": 4.0,
+     "task_clarity": 4.5
+    }
+   },
+   "android_baseline": {
+    "run_id": "run_imp_2026_10_05_req011_flashcards_a",
+    "shots": 4,
+    "score5": 4.4,
+    "score100": 85.0,
+    "raw_samples": [
+     4.4
+    ],
+    "dim_scores": {
+     "visual_consistency": 4.5,
+     "layout_reasonableness": 4.5,
+     "readability": 4.5,
+     "interaction_feedback": 4.0,
+     "task_clarity": 4.5
+    }
+   },
+   "diff": 0.0,
+   "judged_at": "2026-10-09T00:17:32+08:00",
+   "weights": {
+    "visual_consistency": 0.25,
+    "layout_reasonableness": 0.25,
+    "readability": 0.2,
+    "interaction_feedback": 0.2,
+    "task_clarity": 0.1
+   }
+  },
+  "features": [
+   {
+    "name": "参数与常量契约",
+    "harmony": "✓",
+    "android": "✓",
+    "note": "对等 · 8 条断言 · Hypium 27/27 · JUnit 18/18"
+   },
+   {
+    "name": "vocab hash",
+    "harmony": "✓",
+    "android": "✓",
+    "note": "对等 · 6 条断言 · Hypium 27/27 · JUnit 18/18"
+   },
+   {
+    "name": "sm2 anchor",
+    "harmony": "✓",
+    "android": "✓",
+    "note": "对等 · 12 条断言 · Hypium 27/27 · JUnit 18/18"
+   },
+   {
+    "name": "stats queue",
+    "harmony": "✓",
+    "android": "✓",
+    "note": "对等 · 7 条断言 · Hypium 27/27 · JUnit 18/18"
+   },
+   {
+    "name": "journey",
+    "harmony": "✓",
+    "android": "✓",
+    "note": "对等 · 12 条断言 · Hypium 27/27 · JUnit 18/18"
+   },
+   {
+    "name": "flip favorite",
+    "harmony": "✓",
+    "android": "✓",
+    "note": "对等 · 3 条断言 · Hypium 27/27 · JUnit 18/18"
+   },
+   {
+    "name": "判别力探针",
+    "harmony": "✓",
+    "android": "✓",
+    "note": "对等 · 6 条断言 · Hypium 27/27 · JUnit 18/18"
+   },
+   {
+    "name": "自然语言场景",
+    "harmony": "✓",
+    "android": "✓",
+    "note": "对等 · 2 条断言 · Hypium 27/27 · JUnit 18/18"
+   },
+   {
+    "name": "界面取证",
+    "harmony": "✓",
+    "android": "✓",
+    "note": "对等 · 6 条断言 · Hypium 27/27 · JUnit 18/18"
+   }
+  ]
+ },
+ "verdict": {
+  "overall": "imported_backfill",
+  "formula": "手工交付实验 TR-Accept 真实度量回填（证据：docs/verification/req011/TR-Accept-双端对比报告.md（Hypium27/27×JUnit29/29）；时长=构建日志机械口径（标降级，无日志/无时长行如实缺），Token 未采集（手工交付无引擎度量）如实 pending，不伪填）",
+  "per_dim": {
+   "func_coverage": "pass",
+   "ui": "near_tie",
+   "duration": "pending",
+   "token": "pending"
+  }
+ },
+ "composite": {
+  "formula_text": "综合分 = 功能 40% + 页面 20% + UI 20% + 效率 20%。功能=功能覆盖率(%)；页面=页面计数比(该端页数÷两端最大页数×100)；UI=uijudge 美观度得分(0~100)；效率=时长与 Token 两子项平均，每项=100×min(两端值)÷该端值(快者/省者得分高，相等都 100)。缺失或降级的维度剔除后，剩余维权重按比例归一化。",
+  "harmony": {
+   "score": 96.2,
+   "contributions": {
+    "func": {
+     "label": "功能",
+     "value": 100.0,
+     "weight": 0.5,
+     "weighted": 50.0
+    },
+    "page": {
+     "label": "页面",
+     "value": 100.0,
+     "weight": 0.25,
+     "weighted": 25.0
+    },
+    "ui": {
+     "label": "UI",
+     "value": 85.0,
+     "weight": 0.25,
+     "weighted": 21.25
+    }
+   },
+   "excluded": [
+    {
+     "dim": "efficiency",
+     "label": "效率",
+     "reason": "时长/Token 缺失或降级（如手工交付无引擎度量，如实剔除）"
+    }
+   ]
+  },
+  "android": {
+   "score": 96.2,
+   "contributions": {
+    "func": {
+     "label": "功能",
+     "value": 100.0,
+     "weight": 0.5,
+     "weighted": 50.0
+    },
+    "page": {
+     "label": "页面",
+     "value": 100.0,
+     "weight": 0.25,
+     "weighted": 25.0
+    },
+    "ui": {
+     "label": "UI",
+     "value": 85.0,
+     "weight": 0.25,
+     "weighted": 21.25
+    }
+   },
+   "excluded": [
+    {
+     "dim": "efficiency",
+     "label": "效率",
+     "reason": "时长/Token 缺失或降级（如手工交付无引擎度量，如实剔除）"
+    }
+   ]
+  }
+ },
+ "is_incremental": false,
+ "timestamp": "2026-10-09T04:13:13+08:00",
+ "created_at": "2026-10-09T04:13:13+08:00"
+}

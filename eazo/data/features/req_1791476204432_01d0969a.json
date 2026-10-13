@@ -1,0 +1,65 @@
+{
+ "requirement_id": "req_1791476204432_01d0969a",
+ "features": [
+  {
+   "name": "conversion",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "对等 · 13 条断言 · 鸿蒙用例 19 · 安卓用例 14"
+  },
+  {
+   "name": "affine",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "对等 · 7 条断言 · 鸿蒙用例 19 · 安卓用例 14"
+  },
+  {
+   "name": "rounding",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "对等 · 5 条断言 · 鸿蒙用例 19 · 安卓用例 14"
+  },
+  {
+   "name": "overflow",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "对等 · 4 条断言 · 鸿蒙用例 19 · 安卓用例 14"
+  },
+  {
+   "name": "validation",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "对等 · 5 条断言 · 鸿蒙用例 19 · 安卓用例 14"
+  },
+  {
+   "name": "switch",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "对等 · 3 条断言 · 鸿蒙用例 19 · 安卓用例 14"
+  },
+  {
+   "name": "copy",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "对等 · 1 条断言 · 鸿蒙用例 19 · 安卓用例 14"
+  },
+  {
+   "name": "swap",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "对等 · 1 条断言 · 鸿蒙用例 19 · 安卓用例 14"
+  },
+  {
+   "name": "ui",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "对等 · 6 条断言 · 鸿蒙用例 19 · 安卓用例 14"
+  },
+  {
+   "name": "known discrepancies",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "对等 · 4 条断言 · 鸿蒙用例 19 · 安卓用例 14"
+  }
+ ]
+}

@@ -1,0 +1,20 @@
+{
+ "error": {
+  "code": "EZO-CMP-001",
+  "message": "对比前置缺失：无双端 success run 对（或缺真实 commit_sha；导入实验需补录真实报告）",
+  "detail": {
+   "requirement_id": "req_1791015255622_dod3h",
+   "harmony": {
+    "id": "run_1791015255622_f97dd74e",
+    "status": "failed",
+    "commit": null
+   },
+   "android": {
+    "id": "run_1791015255622_3d8e1941",
+    "status": "success",
+    "commit": "98e8bdb0447ab11c8ac0aa446c4b552d5025290e"
+   }
+  },
+  "retryable": false
+ }
+}

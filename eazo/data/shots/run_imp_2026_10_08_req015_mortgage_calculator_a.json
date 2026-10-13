@@ -1,0 +1,83 @@
+[
+ {
+  "id": "shot_imp_2026_10_08_req015_mortgage_calculator_00",
+  "run_id": "run_imp_2026_10_08_req015_mortgage_calculator_a",
+  "side": "android_baseline",
+  "path": "shots/shot_imp_2026_10_08_req015_mortgage_calculator_00.png",
+  "captured_at": "2026-10-08T11:00:00+08:00",
+  "degraded": false,
+  "image_url": "shots/shot_imp_2026_10_08_req015_mortgage_calculator_00.png"
+ },
+ {
+  "id": "shot_imp_2026_10_08_req015_mortgage_calculator_01",
+  "run_id": "run_imp_2026_10_08_req015_mortgage_calculator_a",
+  "side": "android_baseline",
+  "path": "shots/shot_imp_2026_10_08_req015_mortgage_calculator_01.png",
+  "captured_at": "2026-10-08T11:00:00+08:00",
+  "degraded": false,
+  "image_url": "shots/shot_imp_2026_10_08_req015_mortgage_calculator_01.png"
+ },
+ {
+  "id": "shot_imp_2026_10_08_req015_mortgage_calculator_02",
+  "run_id": "run_imp_2026_10_08_req015_mortgage_calculator_a",
+  "side": "android_baseline",
+  "path": "shots/shot_imp_2026_10_08_req015_mortgage_calculator_02.png",
+  "captured_at": "2026-10-08T11:00:00+08:00",
+  "degraded": false,
+  "image_url": "shots/shot_imp_2026_10_08_req015_mortgage_calculator_02.png"
+ },
+ {
+  "id": "shot_imp_2026_10_08_req015_mortgage_calculator_03",
+  "run_id": "run_imp_2026_10_08_req015_mortgage_calculator_a",
+  "side": "android_baseline",
+  "path": "shots/shot_imp_2026_10_08_req015_mortgage_calculator_03.png",
+  "captured_at": "2026-10-08T11:00:00+08:00",
+  "degraded": false,
+  "image_url": "shots/shot_imp_2026_10_08_req015_mortgage_calculator_03.png"
+ },
+ {
+  "id": "shot_imp_2026_10_08_req015_mortgage_calculator_04",
+  "run_id": "run_imp_2026_10_08_req015_mortgage_calculator_a",
+  "side": "android_baseline",
+  "path": "shots/shot_imp_2026_10_08_req015_mortgage_calculator_04.png",
+  "captured_at": "2026-10-08T11:00:00+08:00",
+  "degraded": false,
+  "image_url": "shots/shot_imp_2026_10_08_req015_mortgage_calculator_04.png"
+ },
+ {
+  "id": "shot_imp_2026_10_08_req015_mortgage_calculator_05",
+  "run_id": "run_imp_2026_10_08_req015_mortgage_calculator_a",
+  "side": "android_baseline",
+  "path": "shots/shot_imp_2026_10_08_req015_mortgage_calculator_05.png",
+  "captured_at": "2026-10-08T11:00:00+08:00",
+  "degraded": false,
+  "image_url": "shots/shot_imp_2026_10_08_req015_mortgage_calculator_05.png"
+ },
+ {
+  "id": "shot_imp_2026_10_08_req015_mortgage_calculator_06",
+  "run_id": "run_imp_2026_10_08_req015_mortgage_calculator_a",
+  "side": "android_baseline",
+  "path": "shots/shot_imp_2026_10_08_req015_mortgage_calculator_06.png",
+  "captured_at": "2026-10-08T11:00:00+08:00",
+  "degraded": false,
+  "image_url": "shots/shot_imp_2026_10_08_req015_mortgage_calculator_06.png"
+ },
+ {
+  "id": "shot_1791463815082_a6f5f0e8",
+  "run_id": "run_imp_2026_10_08_req015_mortgage_calculator_a",
+  "side": "android_baseline",
+  "path": "shots/shot_1791463815082_a6f5f0e8.png",
+  "captured_at": "2026-10-08T20:50:15.082+08:00",
+  "degraded": false,
+  "image_url": "shots/shot_1791463815082_a6f5f0e8.png"
+ },
+ {
+  "id": "shot_1791463815082_faaa1987",
+  "run_id": "run_imp_2026_10_08_req015_mortgage_calculator_a",
+  "side": "android_baseline",
+  "path": "shots/shot_1791463815082_faaa1987.png",
+  "captured_at": "2026-10-08T20:50:15.082+08:00",
+  "degraded": false,
+  "image_url": "shots/shot_1791463815082_faaa1987.png"
+ }
+]

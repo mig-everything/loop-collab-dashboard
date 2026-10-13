@@ -1,0 +1,42 @@
+{
+ "run_id": "run_1791014611572_75453285",
+ "requirement_id": "req_1791014611571_dod3ipd207",
+ "logs": [
+  {
+   "id": "log_1791014611572_627baed4",
+   "run_id": "run_1791014611572_75453285",
+   "ts": "2026-10-03T16:03:31.572+08:00",
+   "level": "INFO",
+   "message": "run queued (harmony)",
+   "event": "state_transition"
+  },
+  {
+   "id": "log_1791014611572_6a8bdbc1",
+   "run_id": "run_1791014611572_75453285",
+   "ts": "2026-10-03T16:03:31.572+08:00",
+   "level": "INFO",
+   "message": "generation started (harmony)",
+   "event": "state_transition"
+  },
+  {
+   "id": "log_1791015211523_41711926",
+   "run_id": "run_1791014611572_75453285",
+   "ts": "2026-10-03T16:13:31.523+08:00",
+   "level": "ERROR",
+   "message": "generation failed: EZO-ENG-002",
+   "event": "state_transition"
+  }
+ ],
+ "log_files": [
+  {
+   "side": "harmony",
+   "path": "experiments/req_1791014611571_dod3ipd207/logs/harmony.log",
+   "exists": true
+  },
+  {
+   "side": "android_baseline",
+   "path": "experiments/req_1791014611571_dod3ipd207/logs/android_baseline.log",
+   "exists": true
+  }
+ ]
+}

@@ -1,0 +1,89 @@
+{
+ "requirement_id": "req_1791850491194_8cea90a5",
+ "features": [
+  {
+   "name": "金额输入非负到分",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "契约 C01 · slug amount_input_range 双端命中（测试源码精确匹配）· 无运行取证，按测试源码 slug 匹配"
+  },
+  {
+   "name": "币种选择器 6 币种",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "契约 C02 · slug currency_selector_six 双端命中（测试源码精确匹配）· 无运行取证，按测试源码 slug 匹配"
+  },
+  {
+   "name": "固定汇率表常量数据面",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "契约 C03 · slug rate_table_constant 双端命中（测试源码精确匹配）· 无运行取证，按测试源码 slug 匹配"
+  },
+  {
+   "name": "换算确定性",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "契约 C04 · slug convert_deterministic 双端命中（测试源码精确匹配）· 无运行取证，按测试源码 slug 匹配"
+  },
+  {
+   "name": "四舍五入 half-up 到分",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "契约 C05 · slug round_half_up_boundary 双端命中（测试源码精确匹配）· 无运行取证，按测试源码 slug 匹配"
+  },
+  {
+   "name": "同币种换算恒等",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "契约 C06 · slug same_currency_identity 双端命中（测试源码精确匹配）· 无运行取证，按测试源码 slug 匹配"
+  },
+  {
+   "name": "双向换算",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "契约 C07 · slug bidirectional_convert 双端命中（测试源码精确匹配）· 无运行取证，按测试源码 slug 匹配"
+  },
+  {
+   "name": "汇率表常量序列化哈希",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "契约 C08 · slug rate_serialization_hash 双端命中（测试源码精确匹配）· 无运行取证，按测试源码 slug 匹配"
+  },
+  {
+   "name": "无联网实时汇率",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "契约 C09 · slug no_network_rate 双端命中（测试源码精确匹配）· 无运行取证，按测试源码 slug 匹配"
+  },
+  {
+   "name": "快速反转兑换方向",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "契约 C10 · slug swap_direction 双端命中（测试源码精确匹配）· 无运行取证，按测试源码 slug 匹配"
+  },
+  {
+   "name": "币种/金额实时更新",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "契约 C11 · slug realtime_update 双端命中（测试源码精确匹配）· 无运行取证，按测试源码 slug 匹配"
+  },
+  {
+   "name": "换算结果卡片显示",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "契约 C12 · slug result_card_display 双端命中（测试源码精确匹配）· 无运行取证，按测试源码 slug 匹配"
+  },
+  {
+   "name": "换算零浮点纯函数",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "契约 C13 · slug convert_no_float 双端命中（测试源码精确匹配）· 无运行取证，按测试源码 slug 匹配"
+  },
+  {
+   "name": "多端自适应",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "契约 C14 · slug multiscreen_adaptive 双端命中（测试源码精确匹配）· 无运行取证，按测试源码 slug 匹配"
+  }
+ ]
+}

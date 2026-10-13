@@ -1,0 +1,53 @@
+{
+ "requirement_id": "req_imp_2026_10_02_minesweeper",
+ "features": [
+  {
+   "name": "prng",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "对等 · 4 条断言 · 鸿蒙用例 30 · 安卓用例 30"
+  },
+  {
+   "name": "mines",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "对等 · 9 条断言 · 鸿蒙用例 30 · 安卓用例 30"
+  },
+  {
+   "name": "board",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "对等 · 4 条断言 · 鸿蒙用例 30 · 安卓用例 30"
+  },
+  {
+   "name": "reveal",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "对等 · 10 条断言 · 鸿蒙用例 30 · 安卓用例 30"
+  },
+  {
+   "name": "flag",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "对等 · 4 条断言 · 鸿蒙用例 30 · 安卓用例 30"
+  },
+  {
+   "name": "gameflow",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "对等 · 8 条断言 · 鸿蒙用例 30 · 安卓用例 30"
+  },
+  {
+   "name": "自然语言场景",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "对等 · 2 条断言 · 鸿蒙用例 30 · 安卓用例 30"
+  },
+  {
+   "name": "界面取证",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "对等 · 6 条断言 · 鸿蒙用例 30 · 安卓用例 30"
+  }
+ ]
+}

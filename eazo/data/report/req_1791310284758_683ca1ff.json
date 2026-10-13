@@ -1,0 +1,795 @@
+{
+ "id": "rpt_1791863882186_f5ebc3aa",
+ "requirement_id": "req_1791310284758_683ca1ff",
+ "run_id_harmony": "run_1791310284760_f480b95f",
+ "run_id_android": "run_1791310284760_c013258b",
+ "commit_sha_harmony": "968ce6b34998d15b3ff5b3361c97207ea95e7f24",
+ "commit_sha_android": "426ce2b663c6c28bd9a074d1935037873b9f0cb4",
+ "engine_version": "claude_code:p1.3.0:eazo-skills-2026.09.30:eazo-tpl-2026.10.06:claude-sonnet-5-5",
+ "toolchain_version": "harmony:api24+hvigor6.1.0|android:jdk21+gradle8.9+agp8.5.2+kotlin1.9.10+compileSdk34",
+ "metrics_schema_version": "1.0.0",
+ "rubric_version": "eazo-rubric-1.0.0",
+ "dimensions": {
+  "func_coverage": {
+   "key": "func_coverage",
+   "harmony_pct": 71.3,
+   "android_pct": 28.7,
+   "diff": 42.6,
+   "func_points": [
+    {
+     "name": "case10 C1 contrast floor",
+     "harmony": "✓",
+     "android": "✗",
+     "note": "鸿蒙独有 · 安卓缺失"
+    },
+    {
+     "name": "case11 C2 contrast underflow",
+     "harmony": "✓",
+     "android": "✗",
+     "note": "鸿蒙独有 · 安卓缺失"
+    },
+    {
+     "name": "case12 C3 contrast overflow",
+     "harmony": "✓",
+     "android": "✗",
+     "note": "鸿蒙独有 · 安卓缺失"
+    },
+    {
+     "name": "case13 C4p contrast floor vs trunc",
+     "harmony": "✓",
+     "android": "✗",
+     "note": "鸿蒙独有 · 安卓缺失"
+    },
+    {
+     "name": "case14 S1 sepia white",
+     "harmony": "✓",
+     "android": "✗",
+     "note": "鸿蒙独有 · 安卓缺失"
+    },
+    {
+     "name": "case15 S2 sepia midgray",
+     "harmony": "✓",
+     "android": "✗",
+     "note": "鸿蒙独有 · 安卓缺失"
+    },
+    {
+     "name": "case16 W1 warm",
+     "harmony": "✓",
+     "android": "✗",
+     "note": "鸿蒙独有 · 安卓缺失"
+    },
+    {
+     "name": "case17 Co1 cool",
+     "harmony": "✓",
+     "android": "✗",
+     "note": "鸿蒙独有 · 安卓缺失"
+    },
+    {
+     "name": "case18 BL1 blend mid",
+     "harmony": "✓",
+     "android": "✗",
+     "note": "鸿蒙独有 · 安卓缺失"
+    },
+    {
+     "name": "case19 BL2 blend zero",
+     "harmony": "✓",
+     "android": "✗",
+     "note": "鸿蒙独有 · 安卓缺失"
+    },
+    {
+     "name": "case1 G1 grayscale pure red",
+     "harmony": "✓",
+     "android": "✗",
+     "note": "鸿蒙独有 · 安卓缺失"
+    },
+    {
+     "name": "case20 BL3 blend full",
+     "harmony": "✓",
+     "android": "✗",
+     "note": "鸿蒙独有 · 安卓缺失"
+    },
+    {
+     "name": "case21 BL4p blend floor vs round",
+     "harmony": "✓",
+     "android": "✗",
+     "note": "鸿蒙独有 · 安卓缺失"
+    },
+    {
+     "name": "case22 H1 canonical img sha256 lock",
+     "harmony": "✓",
+     "android": "✗",
+     "note": "鸿蒙独有 · 安卓缺失"
+    },
+    {
+     "name": "case23 H2 presets sha256 lock",
+     "harmony": "✓",
+     "android": "✗",
+     "note": "鸿蒙独有 · 安卓缺失"
+    },
+    {
+     "name": "case24 E1 grayscale full",
+     "harmony": "✓",
+     "android": "✗",
+     "note": "鸿蒙独有 · 安卓缺失"
+    },
+    {
+     "name": "case25 E2 sepia full",
+     "harmony": "✓",
+     "android": "✗",
+     "note": "鸿蒙独有 · 安卓缺失"
+    },
+    {
+     "name": "case26 E3 invert full",
+     "harmony": "✓",
+     "android": "✗",
+     "note": "鸿蒙独有 · 安卓缺失"
+    },
+    {
+     "name": "case27 E4 brightness full",
+     "harmony": "✓",
+     "android": "✗",
+     "note": "鸿蒙独有 · 安卓缺失"
+    },
+    {
+     "name": "case28 E5 contrast full",
+     "harmony": "✓",
+     "android": "✗",
+     "note": "鸿蒙独有 · 安卓缺失"
+    },
+    {
+     "name": "case29 E6 warm full",
+     "harmony": "✓",
+     "android": "✗",
+     "note": "鸿蒙独有 · 安卓缺失"
+    },
+    {
+     "name": "case2 G2 grayscale pure green",
+     "harmony": "✓",
+     "android": "✗",
+     "note": "鸿蒙独有 · 安卓缺失"
+    },
+    {
+     "name": "case30 E7 cool full",
+     "harmony": "✓",
+     "android": "✗",
+     "note": "鸿蒙独有 · 安卓缺失"
+    },
+    {
+     "name": "case31 E8 grayscale intensity50",
+     "harmony": "✓",
+     "android": "✗",
+     "note": "鸿蒙独有 · 安卓缺失"
+    },
+    {
+     "name": "case32 E9 warm param40 intensity30",
+     "harmony": "✓",
+     "android": "✗",
+     "note": "鸿蒙独有 · 安卓缺失"
+    },
+    {
+     "name": "case33 params direct",
+     "harmony": "✓",
+     "android": "✗",
+     "note": "鸿蒙独有 · 安卓缺失"
+    },
+    {
+     "name": "case34 discriminators floor not round trunc",
+     "harmony": "✓",
+     "android": "✗",
+     "note": "鸿蒙独有 · 安卓缺失"
+    },
+    {
+     "name": "case35 row major order",
+     "harmony": "✓",
+     "android": "✗",
+     "note": "鸿蒙独有 · 安卓缺失"
+    },
+    {
+     "name": "case36 preset index recommendation",
+     "harmony": "✓",
+     "android": "✗",
+     "note": "鸿蒙独有 · 安卓缺失"
+    },
+    {
+     "name": "case37 repo singleton and refresh memory only",
+     "harmony": "✓",
+     "android": "✗",
+     "note": "鸿蒙独有 · 安卓缺失"
+    },
+    {
+     "name": "case38 saved sort pk desc id lex ascending",
+     "harmony": "✓",
+     "android": "✗",
+     "note": "鸿蒙独有 · 安卓缺失"
+    },
+    {
+     "name": "case3 G3 grayscale pure blue",
+     "harmony": "✓",
+     "android": "✗",
+     "note": "鸿蒙独有 · 安卓缺失"
+    },
+    {
+     "name": "case4 G4 grayscale white",
+     "harmony": "✓",
+     "android": "✗",
+     "note": "鸿蒙独有 · 安卓缺失"
+    },
+    {
+     "name": "case5 I1 invert black",
+     "harmony": "✓",
+     "android": "✗",
+     "note": "鸿蒙独有 · 安卓缺失"
+    },
+    {
+     "name": "case6 I2 invert alpha passthrough",
+     "harmony": "✓",
+     "android": "✗",
+     "note": "鸿蒙独有 · 安卓缺失"
+    },
+    {
+     "name": "case7 B1 brightness plus50",
+     "harmony": "✓",
+     "android": "✗",
+     "note": "鸿蒙独有 · 安卓缺失"
+    },
+    {
+     "name": "case8 B2 brightness underflow",
+     "harmony": "✓",
+     "android": "✗",
+     "note": "鸿蒙独有 · 安卓缺失"
+    },
+    {
+     "name": "case9 B3 brightness overflow",
+     "harmony": "✓",
+     "android": "✗",
+     "note": "鸿蒙独有 · 安卓缺失"
+    },
+    {
+     "name": "alpha原样保留 透明像素输出透明",
+     "harmony": "✗",
+     "android": "✓",
+     "note": "安卓独有 · 鸿蒙缺失"
+    },
+    {
+     "name": "七款滤镜固定顺序与字面量",
+     "harmony": "✗",
+     "android": "✓",
+     "note": "安卓独有 · 鸿蒙缺失"
+    },
+    {
+     "name": "亮度 强度100加120并clamp上界",
+     "harmony": "✗",
+     "android": "✓",
+     "note": "安卓独有 · 鸿蒙缺失"
+    },
+    {
+     "name": "保存记录 主键时间降序 次键id字典序兜底",
+     "harmony": "✗",
+     "android": "✓",
+     "note": "安卓独有 · 鸿蒙缺失"
+    },
+    {
+     "name": "内置示例图 固定三张 尺寸像素确定且不透明",
+     "harmony": "✗",
+     "android": "✓",
+     "note": "安卓独有 · 鸿蒙缺失"
+    },
+    {
+     "name": "反色 强度100全通道取反",
+     "harmony": "✗",
+     "android": "✓",
+     "note": "安卓独有 · 鸿蒙缺失"
+    },
+    {
+     "name": "对比度 强度100双线性clamp上下界",
+     "harmony": "✗",
+     "android": "✓",
+     "note": "安卓独有 · 鸿蒙缺失"
+    },
+    {
+     "name": "强度0对所有滤镜恒等",
+     "harmony": "✗",
+     "android": "✓",
+     "note": "安卓独有 · 鸿蒙缺失"
+    },
+    {
+     "name": "强度越界钳制 引擎不改入参且两次调用结果一致",
+     "harmony": "✗",
+     "android": "✓",
+     "note": "安卓独有 · 鸿蒙缺失"
+    },
+    {
+     "name": "怀旧 强度100取sepia矩阵",
+     "harmony": "✗",
+     "android": "✓",
+     "note": "安卓独有 · 鸿蒙缺失"
+    },
+    {
+     "name": "怀旧 纯白纯黑不越界",
+     "harmony": "✗",
+     "android": "✓",
+     "note": "安卓独有 · 鸿蒙缺失"
+    },
+    {
+     "name": "暖色升红降蓝 冷色镜像",
+     "harmony": "✗",
+     "android": "✓",
+     "note": "安卓独有 · 鸿蒙缺失"
+    },
+    {
+     "name": "灰度 强度100取Rec601亮度",
+     "harmony": "✗",
+     "android": "✓",
+     "note": "安卓独有 · 鸿蒙缺失"
+    },
+    {
+     "name": "灰度 强度50线性混合取整确定",
+     "harmony": "✗",
+     "android": "✓",
+     "note": "安卓独有 · 鸿蒙缺失"
+    },
+    {
+     "name": "骨架就位",
+     "harmony": "✗",
+     "android": "✓",
+     "note": "安卓独有 · 鸿蒙缺失"
+    },
+    {
+     "name": "命名风格差异说明",
+     "harmony": "◐",
+     "android": "◐",
+     "note": "双端各自 38/15 个用例，同名仅 0 项；命名风格不同（如 snake_case ↔ 英文短语），按名对账不能证明功能缺失，建议补双端运行取证（hypium/junit 日志）后复核"
+    }
+   ],
+   "degraded": false
+  },
+  "page": {
+   "key": "page",
+   "count_harmony": 1,
+   "count_android": 1,
+   "count_diff": 0,
+   "nodes_harmony": 1,
+   "nodes_android": 1,
+   "edges_harmony": 0,
+   "edges_android": 0,
+   "ui_score_harmony": 0.0,
+   "ui_score_android": 0.0,
+   "ui_score_diff": 0.0,
+   "ui_samples": 3,
+   "rubric_version": "eazo-rubric-1.0.0",
+   "degraded": true
+  },
+  "duration": {
+   "key": "duration",
+   "harmony_ms": 731393,
+   "android_ms": 826249,
+   "diff_ms": -94856,
+   "normalized": true,
+   "wall_clock_ms": 0,
+   "degraded": false
+  },
+  "token": {
+   "key": "token",
+   "harmony_tokens": 123054,
+   "android_tokens": 100158,
+   "diff_tokens": 22896,
+   "normalized": true,
+   "degraded": false
+  },
+  "features": [
+   {
+    "name": "case10 C1 contrast floor",
+    "harmony": "✓",
+    "android": "✗",
+    "note": "鸿蒙独有 · 安卓缺失"
+   },
+   {
+    "name": "case11 C2 contrast underflow",
+    "harmony": "✓",
+    "android": "✗",
+    "note": "鸿蒙独有 · 安卓缺失"
+   },
+   {
+    "name": "case12 C3 contrast overflow",
+    "harmony": "✓",
+    "android": "✗",
+    "note": "鸿蒙独有 · 安卓缺失"
+   },
+   {
+    "name": "case13 C4p contrast floor vs trunc",
+    "harmony": "✓",
+    "android": "✗",
+    "note": "鸿蒙独有 · 安卓缺失"
+   },
+   {
+    "name": "case14 S1 sepia white",
+    "harmony": "✓",
+    "android": "✗",
+    "note": "鸿蒙独有 · 安卓缺失"
+   },
+   {
+    "name": "case15 S2 sepia midgray",
+    "harmony": "✓",
+    "android": "✗",
+    "note": "鸿蒙独有 · 安卓缺失"
+   },
+   {
+    "name": "case16 W1 warm",
+    "harmony": "✓",
+    "android": "✗",
+    "note": "鸿蒙独有 · 安卓缺失"
+   },
+   {
+    "name": "case17 Co1 cool",
+    "harmony": "✓",
+    "android": "✗",
+    "note": "鸿蒙独有 · 安卓缺失"
+   },
+   {
+    "name": "case18 BL1 blend mid",
+    "harmony": "✓",
+    "android": "✗",
+    "note": "鸿蒙独有 · 安卓缺失"
+   },
+   {
+    "name": "case19 BL2 blend zero",
+    "harmony": "✓",
+    "android": "✗",
+    "note": "鸿蒙独有 · 安卓缺失"
+   },
+   {
+    "name": "case1 G1 grayscale pure red",
+    "harmony": "✓",
+    "android": "✗",
+    "note": "鸿蒙独有 · 安卓缺失"
+   },
+   {
+    "name": "case20 BL3 blend full",
+    "harmony": "✓",
+    "android": "✗",
+    "note": "鸿蒙独有 · 安卓缺失"
+   },
+   {
+    "name": "case21 BL4p blend floor vs round",
+    "harmony": "✓",
+    "android": "✗",
+    "note": "鸿蒙独有 · 安卓缺失"
+   },
+   {
+    "name": "case22 H1 canonical img sha256 lock",
+    "harmony": "✓",
+    "android": "✗",
+    "note": "鸿蒙独有 · 安卓缺失"
+   },
+   {
+    "name": "case23 H2 presets sha256 lock",
+    "harmony": "✓",
+    "android": "✗",
+    "note": "鸿蒙独有 · 安卓缺失"
+   },
+   {
+    "name": "case24 E1 grayscale full",
+    "harmony": "✓",
+    "android": "✗",
+    "note": "鸿蒙独有 · 安卓缺失"
+   },
+   {
+    "name": "case25 E2 sepia full",
+    "harmony": "✓",
+    "android": "✗",
+    "note": "鸿蒙独有 · 安卓缺失"
+   },
+   {
+    "name": "case26 E3 invert full",
+    "harmony": "✓",
+    "android": "✗",
+    "note": "鸿蒙独有 · 安卓缺失"
+   },
+   {
+    "name": "case27 E4 brightness full",
+    "harmony": "✓",
+    "android": "✗",
+    "note": "鸿蒙独有 · 安卓缺失"
+   },
+   {
+    "name": "case28 E5 contrast full",
+    "harmony": "✓",
+    "android": "✗",
+    "note": "鸿蒙独有 · 安卓缺失"
+   },
+   {
+    "name": "case29 E6 warm full",
+    "harmony": "✓",
+    "android": "✗",
+    "note": "鸿蒙独有 · 安卓缺失"
+   },
+   {
+    "name": "case2 G2 grayscale pure green",
+    "harmony": "✓",
+    "android": "✗",
+    "note": "鸿蒙独有 · 安卓缺失"
+   },
+   {
+    "name": "case30 E7 cool full",
+    "harmony": "✓",
+    "android": "✗",
+    "note": "鸿蒙独有 · 安卓缺失"
+   },
+   {
+    "name": "case31 E8 grayscale intensity50",
+    "harmony": "✓",
+    "android": "✗",
+    "note": "鸿蒙独有 · 安卓缺失"
+   },
+   {
+    "name": "case32 E9 warm param40 intensity30",
+    "harmony": "✓",
+    "android": "✗",
+    "note": "鸿蒙独有 · 安卓缺失"
+   },
+   {
+    "name": "case33 params direct",
+    "harmony": "✓",
+    "android": "✗",
+    "note": "鸿蒙独有 · 安卓缺失"
+   },
+   {
+    "name": "case34 discriminators floor not round trunc",
+    "harmony": "✓",
+    "android": "✗",
+    "note": "鸿蒙独有 · 安卓缺失"
+   },
+   {
+    "name": "case35 row major order",
+    "harmony": "✓",
+    "android": "✗",
+    "note": "鸿蒙独有 · 安卓缺失"
+   },
+   {
+    "name": "case36 preset index recommendation",
+    "harmony": "✓",
+    "android": "✗",
+    "note": "鸿蒙独有 · 安卓缺失"
+   },
+   {
+    "name": "case37 repo singleton and refresh memory only",
+    "harmony": "✓",
+    "android": "✗",
+    "note": "鸿蒙独有 · 安卓缺失"
+   },
+   {
+    "name": "case38 saved sort pk desc id lex ascending",
+    "harmony": "✓",
+    "android": "✗",
+    "note": "鸿蒙独有 · 安卓缺失"
+   },
+   {
+    "name": "case3 G3 grayscale pure blue",
+    "harmony": "✓",
+    "android": "✗",
+    "note": "鸿蒙独有 · 安卓缺失"
+   },
+   {
+    "name": "case4 G4 grayscale white",
+    "harmony": "✓",
+    "android": "✗",
+    "note": "鸿蒙独有 · 安卓缺失"
+   },
+   {
+    "name": "case5 I1 invert black",
+    "harmony": "✓",
+    "android": "✗",
+    "note": "鸿蒙独有 · 安卓缺失"
+   },
+   {
+    "name": "case6 I2 invert alpha passthrough",
+    "harmony": "✓",
+    "android": "✗",
+    "note": "鸿蒙独有 · 安卓缺失"
+   },
+   {
+    "name": "case7 B1 brightness plus50",
+    "harmony": "✓",
+    "android": "✗",
+    "note": "鸿蒙独有 · 安卓缺失"
+   },
+   {
+    "name": "case8 B2 brightness underflow",
+    "harmony": "✓",
+    "android": "✗",
+    "note": "鸿蒙独有 · 安卓缺失"
+   },
+   {
+    "name": "case9 B3 brightness overflow",
+    "harmony": "✓",
+    "android": "✗",
+    "note": "鸿蒙独有 · 安卓缺失"
+   },
+   {
+    "name": "alpha原样保留 透明像素输出透明",
+    "harmony": "✗",
+    "android": "✓",
+    "note": "安卓独有 · 鸿蒙缺失"
+   },
+   {
+    "name": "七款滤镜固定顺序与字面量",
+    "harmony": "✗",
+    "android": "✓",
+    "note": "安卓独有 · 鸿蒙缺失"
+   },
+   {
+    "name": "亮度 强度100加120并clamp上界",
+    "harmony": "✗",
+    "android": "✓",
+    "note": "安卓独有 · 鸿蒙缺失"
+   },
+   {
+    "name": "保存记录 主键时间降序 次键id字典序兜底",
+    "harmony": "✗",
+    "android": "✓",
+    "note": "安卓独有 · 鸿蒙缺失"
+   },
+   {
+    "name": "内置示例图 固定三张 尺寸像素确定且不透明",
+    "harmony": "✗",
+    "android": "✓",
+    "note": "安卓独有 · 鸿蒙缺失"
+   },
+   {
+    "name": "反色 强度100全通道取反",
+    "harmony": "✗",
+    "android": "✓",
+    "note": "安卓独有 · 鸿蒙缺失"
+   },
+   {
+    "name": "对比度 强度100双线性clamp上下界",
+    "harmony": "✗",
+    "android": "✓",
+    "note": "安卓独有 · 鸿蒙缺失"
+   },
+   {
+    "name": "强度0对所有滤镜恒等",
+    "harmony": "✗",
+    "android": "✓",
+    "note": "安卓独有 · 鸿蒙缺失"
+   },
+   {
+    "name": "强度越界钳制 引擎不改入参且两次调用结果一致",
+    "harmony": "✗",
+    "android": "✓",
+    "note": "安卓独有 · 鸿蒙缺失"
+   },
+   {
+    "name": "怀旧 强度100取sepia矩阵",
+    "harmony": "✗",
+    "android": "✓",
+    "note": "安卓独有 · 鸿蒙缺失"
+   },
+   {
+    "name": "怀旧 纯白纯黑不越界",
+    "harmony": "✗",
+    "android": "✓",
+    "note": "安卓独有 · 鸿蒙缺失"
+   },
+   {
+    "name": "暖色升红降蓝 冷色镜像",
+    "harmony": "✗",
+    "android": "✓",
+    "note": "安卓独有 · 鸿蒙缺失"
+   },
+   {
+    "name": "灰度 强度100取Rec601亮度",
+    "harmony": "✗",
+    "android": "✓",
+    "note": "安卓独有 · 鸿蒙缺失"
+   },
+   {
+    "name": "灰度 强度50线性混合取整确定",
+    "harmony": "✗",
+    "android": "✓",
+    "note": "安卓独有 · 鸿蒙缺失"
+   },
+   {
+    "name": "骨架就位",
+    "harmony": "✗",
+    "android": "✓",
+    "note": "安卓独有 · 鸿蒙缺失"
+   },
+   {
+    "name": "命名风格差异说明",
+    "harmony": "◐",
+    "android": "◐",
+    "note": "双端各自 38/15 个用例，同名仅 0 项；命名风格不同（如 snake_case ↔ 英文短语），按名对账不能证明功能缺失，建议补双端运行取证（hypium/junit 日志）后复核"
+   }
+  ]
+ },
+ "verdict": {
+  "overall": "degraded_fail",
+  "per_dim": {
+   "func_coverage": "fail",
+   "page": "degraded",
+   "duration": "pass",
+   "token": "fail"
+  },
+  "failed_dims": [
+   "func_coverage",
+   "token"
+  ],
+  "degraded_dims": [
+   "page"
+  ],
+  "threshold_snapshot": {
+   "func_diff_max": 0.0,
+   "ui_diff_min": 12.5,
+   "duration_diff_max": 0,
+   "token_diff_max": 0
+  },
+  "formula": "func(diff<=0) AND page(ui_diff>=12.5) AND duration(diff<0) AND token(diff<0)"
+ },
+ "composite": {
+  "formula_text": "综合分 = 功能 40% + 页面 20% + UI 20% + 效率 20%。功能=功能覆盖率(%)；页面=页面计数比(该端页数÷两端最大页数×100)；UI=uijudge 美观度得分(0~100)；效率=时长与 Token 两子项平均，每项=100×min(两端值)÷该端值(快者/省者得分高，相等都 100)。缺失或降级的维度剔除后，剩余维权重按比例归一化。",
+  "harmony": {
+   "score": 83.3,
+   "contributions": {
+    "func": {
+     "label": "功能",
+     "value": 71.3,
+     "weight": 0.5,
+     "weighted": 35.65
+    },
+    "page": {
+     "label": "页面",
+     "value": 100.0,
+     "weight": 0.25,
+     "weighted": 25.0
+    },
+    "efficiency": {
+     "label": "效率",
+     "value": 90.7,
+     "weight": 0.25,
+     "weighted": 22.68
+    }
+   },
+   "excluded": [
+    {
+     "dim": "ui",
+     "label": "UI",
+     "reason": "UI 美观度未评审（无 uijudge 得分）"
+    }
+   ]
+  },
+  "android": {
+   "score": 62.9,
+   "contributions": {
+    "func": {
+     "label": "功能",
+     "value": 28.7,
+     "weight": 0.5,
+     "weighted": 14.35
+    },
+    "page": {
+     "label": "页面",
+     "value": 100.0,
+     "weight": 0.25,
+     "weighted": 25.0
+    },
+    "efficiency": {
+     "label": "效率",
+     "value": 94.26,
+     "weight": 0.25,
+     "weighted": 23.57
+    }
+   },
+   "excluded": [
+    {
+     "dim": "ui",
+     "label": "UI",
+     "reason": "UI 美观度未评审（无 uijudge 得分）"
+    }
+   ]
+  }
+ },
+ "is_incremental": false,
+ "timestamp": "2026-10-13T11:58:02.187+08:00",
+ "created_at": "2026-10-13T11:58:02.187+08:00"
+}

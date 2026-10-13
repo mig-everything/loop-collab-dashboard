@@ -1,0 +1,48 @@
+{
+ "id": "req_1791751124889_2926831e",
+ "nl_text": "做一个「密码生成器」App：可配置密码长度（4~32 整数）与字符集（大写字母/小写字母/数字/符号，可勾选组合，支持排除易混淆字符 0O1lI）；给定固定种子（默认 20261012，可编辑）按确定性 PRNG 生成密码（同 seed + 同规则 → 同密码，可复现对账）；显示密码强度（熵位数 + 弱/中/强/很强分级）；支持一键复制与重新生成；界面精致美观；可选多端自适应。",
+ "category_id": "tool",
+ "origin": "manual",
+ "complexity_bucket": "S",
+ "status": "failed",
+ "parent_id": null,
+ "created_at": "2026-10-12T04:38:44.889+08:00",
+ "runs": [
+  {
+   "id": "run_1791751124891_5d7c3818",
+   "requirement_id": "req_1791751124889_2926831e",
+   "run_side": "harmony",
+   "status": "failed",
+   "attempt": 1,
+   "mode": "full",
+   "started_at": "2026-10-12T04:38:44.891+08:00",
+   "finished_at": "2026-10-12T04:50:12.252+08:00",
+   "duration_ms": 654194,
+   "token_usage": 112645,
+   "commit_sha": null,
+   "artifacts_dir": null,
+   "engine_version": "claude_code:p1.9.0:eazo-skills-2026.09.30:eazo-tpl-2026.10.06:glm-5.3[1m]",
+   "toolchain_version": "harmony:api24+hvigor6.1.0|android:jdk21+gradle8.9+agp8.5.2+kotlin1.9.10+compileSdk34",
+   "degraded_dims": [],
+   "error_code": "EZO-GIT-005"
+  },
+  {
+   "id": "run_1791751124891_ed2d9308",
+   "requirement_id": "req_1791751124889_2926831e",
+   "run_side": "android_baseline",
+   "status": "failed",
+   "attempt": 1,
+   "mode": "full",
+   "started_at": "2026-10-12T04:38:44.891+08:00",
+   "finished_at": "2026-10-12T04:49:48.593+08:00",
+   "duration_ms": 630512,
+   "token_usage": 108246,
+   "commit_sha": null,
+   "artifacts_dir": null,
+   "engine_version": "claude_code:p1.9.0:eazo-skills-2026.09.30:eazo-tpl-2026.10.06:glm-5.3[1m]",
+   "toolchain_version": "harmony:api24+hvigor6.1.0|android:jdk21+gradle8.9+agp8.5.2+kotlin1.9.10+compileSdk34",
+   "degraded_dims": [],
+   "error_code": "EZO-GIT-005"
+  }
+ ]
+}

@@ -1,0 +1,183 @@
+{
+ "id": "rpt_1791370328762_fd2bb091",
+ "requirement_id": "req_1791368353749_2a75e12b",
+ "run_id_harmony": "run_1791368353752_a3c9b0d8",
+ "run_id_android": "run_1791368353752_e29bc686",
+ "commit_sha_harmony": "d9cb8df158cdaf73fd4e895e04eb0312e6fa3da0",
+ "commit_sha_android": "86963edac9cd00eae7b727930f34697fdc3aeb30",
+ "engine_version": "claude_code:p1.4.0:eazo-skills-2026.09.30:eazo-tpl-2026.10.06:glm-5.3[1m]",
+ "toolchain_version": "harmony:api24+hvigor6.1.0|android:jdk21+gradle8.9+agp8.5.2+kotlin1.9.10+compileSdk34",
+ "metrics_schema_version": "1.0.0",
+ "rubric_version": "eazo-rubric-1.0.0",
+ "dimensions": {
+  "func_coverage": {
+   "key": "func_coverage",
+   "harmony_pct": 50.0,
+   "android_pct": 50.0,
+   "diff": 0.0,
+   "func_points": [
+    {
+     "name": "鸿蒙独有用例（29 项）",
+     "harmony": "✓",
+     "android": "✗",
+     "note": "安卓缺失 · A1_isValidIsoDate、A2_daysFromToday_zero_and_neighbors、A3_daysFromToday_cross_month_and_year…"
+    },
+    {
+     "name": "安卓独有用例（17 项）",
+     "harmony": "✗",
+     "android": "✓",
+     "note": "鸿蒙缺失 · A1 日期校验 合法与非法、A2 闰年规则、A3 儒略日锚点…"
+    },
+    {
+     "name": "命名风格差异说明",
+     "harmony": "◐",
+     "android": "◐",
+     "note": "双端各自 29/17 个用例，同名仅 0 项；命名风格不同（如 snake_case ↔ 英文短语），按名对账不能证明功能缺失，建议补双端运行取证（hypium/junit 日志）后复核"
+    }
+   ],
+   "degraded": false
+  },
+  "page": {
+   "key": "page",
+   "count_harmony": 1,
+   "count_android": 1,
+   "count_diff": 0,
+   "nodes_harmony": 1,
+   "nodes_android": 1,
+   "edges_harmony": 0,
+   "edges_android": 0,
+   "ui_score_harmony": 0.0,
+   "ui_score_android": 0.0,
+   "ui_score_diff": 0.0,
+   "ui_samples": 3,
+   "rubric_version": "eazo-rubric-1.0.0",
+   "degraded": true
+  },
+  "duration": {
+   "key": "duration",
+   "harmony_ms": 1966009,
+   "android_ms": 765390,
+   "diff_ms": 1200619,
+   "normalized": true,
+   "wall_clock_ms": 0,
+   "degraded": false
+  },
+  "token": {
+   "key": "token",
+   "harmony_tokens": 209758,
+   "android_tokens": 123450,
+   "diff_tokens": 86308,
+   "normalized": true,
+   "degraded": false
+  },
+  "features": [
+   {
+    "name": "鸿蒙独有用例（29 项）",
+    "harmony": "✓",
+    "android": "✗",
+    "note": "安卓缺失 · A1_isValidIsoDate、A2_daysFromToday_zero_and_neighbors、A3_daysFromToday_cross_month_and_year…"
+   },
+   {
+    "name": "安卓独有用例（17 项）",
+    "harmony": "✗",
+    "android": "✓",
+    "note": "鸿蒙缺失 · A1 日期校验 合法与非法、A2 闰年规则、A3 儒略日锚点…"
+   },
+   {
+    "name": "命名风格差异说明",
+    "harmony": "◐",
+    "android": "◐",
+    "note": "双端各自 29/17 个用例，同名仅 0 项；命名风格不同（如 snake_case ↔ 英文短语），按名对账不能证明功能缺失，建议补双端运行取证（hypium/junit 日志）后复核"
+   }
+  ]
+ },
+ "verdict": {
+  "overall": "degraded_fail",
+  "per_dim": {
+   "func_coverage": "pass",
+   "page": "degraded",
+   "duration": "fail",
+   "token": "fail"
+  },
+  "failed_dims": [
+   "duration",
+   "token"
+  ],
+  "degraded_dims": [
+   "page"
+  ],
+  "threshold_snapshot": {
+   "func_diff_max": 0.0,
+   "ui_diff_min": 12.5,
+   "duration_diff_max": 0,
+   "token_diff_max": 0
+  },
+  "formula": "func(diff<=0) AND page(ui_diff>=12.5) AND duration(diff<0) AND token(diff<0)"
+ },
+ "composite": {
+  "formula_text": "综合分 = 功能 40% + 页面 20% + UI 20% + 效率 20%。功能=功能覆盖率(%)；页面=页面计数比(该端页数÷两端最大页数×100)；UI=uijudge 美观度得分(0~100)；效率=时长与 Token 两子项平均，每项=100×min(两端值)÷该端值(快者/省者得分高，相等都 100)。缺失或降级的维度剔除后，剩余维权重按比例归一化。",
+  "harmony": {
+   "score": 62.2,
+   "contributions": {
+    "func": {
+     "label": "功能",
+     "value": 50.0,
+     "weight": 0.5,
+     "weighted": 25.0
+    },
+    "page": {
+     "label": "页面",
+     "value": 100.0,
+     "weight": 0.25,
+     "weighted": 25.0
+    },
+    "efficiency": {
+     "label": "效率",
+     "value": 48.89,
+     "weight": 0.25,
+     "weighted": 12.22
+    }
+   },
+   "excluded": [
+    {
+     "dim": "ui",
+     "label": "UI",
+     "reason": "UI 美观度未评审（无 uijudge 得分）"
+    }
+   ]
+  },
+  "android": {
+   "score": 75.0,
+   "contributions": {
+    "func": {
+     "label": "功能",
+     "value": 50.0,
+     "weight": 0.5,
+     "weighted": 25.0
+    },
+    "page": {
+     "label": "页面",
+     "value": 100.0,
+     "weight": 0.25,
+     "weighted": 25.0
+    },
+    "efficiency": {
+     "label": "效率",
+     "value": 100.0,
+     "weight": 0.25,
+     "weighted": 25.0
+    }
+   },
+   "excluded": [
+    {
+     "dim": "ui",
+     "label": "UI",
+     "reason": "UI 美观度未评审（无 uijudge 得分）"
+    }
+   ]
+  }
+ },
+ "is_incremental": false,
+ "timestamp": "2026-10-07T18:52:08.762+08:00",
+ "created_at": "2026-10-07T18:52:08.762+08:00"
+}

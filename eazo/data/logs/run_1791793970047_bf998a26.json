@@ -1,0 +1,58 @@
+{
+ "run_id": "run_1791793970047_bf998a26",
+ "requirement_id": "req_1791793970045_0a340811",
+ "logs": [
+  {
+   "id": "log_1791793970047_241018cd",
+   "run_id": "run_1791793970047_bf998a26",
+   "ts": "2026-10-12T16:32:50.047+08:00",
+   "level": "INFO",
+   "message": "run queued (harmony)",
+   "event": "state_transition"
+  },
+  {
+   "id": "log_1791794017150_6fb0cec3",
+   "run_id": "run_1791793970047_bf998a26",
+   "ts": "2026-10-12T16:33:37.150+08:00",
+   "level": "INFO",
+   "message": "case contract frozen: 6 cases (channel=minimax，degraded 模板兜底)",
+   "event": "state_transition"
+  },
+  {
+   "id": "log_1791794017151_53286ed7",
+   "run_id": "run_1791793970047_bf998a26",
+   "ts": "2026-10-12T16:33:37.151+08:00",
+   "level": "INFO",
+   "message": "generation started (harmony)",
+   "event": "state_transition"
+  },
+  {
+   "id": "log_1791794017168_5f297ce8",
+   "run_id": "run_1791793970047_bf998a26",
+   "ts": "2026-10-12T16:33:37.168+08:00",
+   "level": "INFO",
+   "message": "skeleton template applied: 35 files written, 0 skipped (existing)",
+   "event": "state_transition"
+  },
+  {
+   "id": "log_1791794747733_886ccc08",
+   "run_id": "run_1791793970047_bf998a26",
+   "ts": "2026-10-12T16:45:47.733+08:00",
+   "level": "ERROR",
+   "message": "commit gate failed: EZO-GIT-005 (push 失败: To github.com:mig-everything/eazo-platform.git\n ! [rejected]        HEAD -> main (fetch first)\nerror: failed to push some refs to 'github.com:mig-everything/eazo-platform.git'\nhint: Updates were rejected because the remote contains work that you do not\nhint: have locally. This is usually caused by a)",
+   "event": "state_transition"
+  }
+ ],
+ "log_files": [
+  {
+   "side": "harmony",
+   "path": "experiments/req_1791793970045_0a340811/logs/harmony.log",
+   "exists": true
+  },
+  {
+   "side": "android_baseline",
+   "path": "experiments/req_1791793970045_0a340811/logs/android_baseline.log",
+   "exists": true
+  }
+ ]
+}

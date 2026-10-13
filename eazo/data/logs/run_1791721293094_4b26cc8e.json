@@ -1,0 +1,82 @@
+{
+ "run_id": "run_1791721293094_4b26cc8e",
+ "requirement_id": "req_1791721293092_12908eba",
+ "logs": [
+  {
+   "id": "log_1791721293094_095a3604",
+   "run_id": "run_1791721293094_4b26cc8e",
+   "ts": "2026-10-11T20:21:33.094+08:00",
+   "level": "INFO",
+   "message": "run queued (harmony)",
+   "event": "state_transition"
+  },
+  {
+   "id": "log_1791721293095_26c3d9c0",
+   "run_id": "run_1791721293094_4b26cc8e",
+   "ts": "2026-10-11T20:21:33.095+08:00",
+   "level": "INFO",
+   "message": "case contract reused: 14 cases (channel=hermes-pm)",
+   "event": "state_transition"
+  },
+  {
+   "id": "log_1791721293095_b5c8f3b5",
+   "run_id": "run_1791721293094_4b26cc8e",
+   "ts": "2026-10-11T20:21:33.095+08:00",
+   "level": "INFO",
+   "message": "generation started (harmony)",
+   "event": "state_transition"
+  },
+  {
+   "id": "log_1791721293105_e3bacd1e",
+   "run_id": "run_1791721293094_4b26cc8e",
+   "ts": "2026-10-11T20:21:33.105+08:00",
+   "level": "INFO",
+   "message": "skeleton template applied: 35 files written, 0 skipped (existing)",
+   "event": "state_transition"
+  },
+  {
+   "id": "log_1791722335838_c8e10704",
+   "run_id": "run_1791721293094_4b26cc8e",
+   "ts": "2026-10-11T20:38:55.838+08:00",
+   "level": "INFO",
+   "message": "commit gate passed (harmony) sha=384bc54c64d4fafa9fc41abb97126e8dd7bbccdd files=3 pushed=True",
+   "event": "state_transition"
+  },
+  {
+   "id": "log_1791722371646_e7434076",
+   "run_id": "run_1791721293094_4b26cc8e",
+   "ts": "2026-10-11T20:39:31.646+08:00",
+   "level": "INFO",
+   "message": "screenshot capture: 2 shots registered (harmony)",
+   "event": "state_transition"
+  },
+  {
+   "id": "log_1791722371715_bfa052d6",
+   "run_id": "run_1791721293094_4b26cc8e",
+   "ts": "2026-10-11T20:39:31.715+08:00",
+   "level": "INFO",
+   "message": "comparison report auto-generated: rpt_1791722371715_fa4e991a",
+   "event": "state_transition"
+  },
+  {
+   "id": "log_1791722433096_51bc0368",
+   "run_id": "run_1791721293094_4b26cc8e",
+   "ts": "2026-10-11T20:40:33.096+08:00",
+   "level": "INFO",
+   "message": "uijudge auto-judged: harmony=72.5 vs android=75.75 (report rpt_1791722371715_fa4e991a)",
+   "event": "state_transition"
+  }
+ ],
+ "log_files": [
+  {
+   "side": "harmony",
+   "path": "experiments/req_1791721293092_12908eba/logs/harmony.log",
+   "exists": true
+  },
+  {
+   "side": "android_baseline",
+   "path": "experiments/req_1791721293092_12908eba/logs/android_baseline.log",
+   "exists": true
+  }
+ ]
+}

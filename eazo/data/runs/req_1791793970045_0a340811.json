@@ -1,0 +1,38 @@
+[
+ {
+  "id": "run_1791793970047_951bc303",
+  "requirement_id": "req_1791793970045_0a340811",
+  "run_side": "android_baseline",
+  "status": "failed",
+  "attempt": 1,
+  "mode": "full",
+  "started_at": "2026-10-12T16:32:50.047+08:00",
+  "finished_at": "2026-10-12T16:47:30.512+08:00",
+  "duration_ms": 833268,
+  "token_usage": 152242,
+  "commit_sha": null,
+  "artifacts_dir": null,
+  "engine_version": "claude_code:p1.10.2:eazo-skills-2026.09.30:eazo-tpl-2026.10.06:glm-5.3[1m]",
+  "toolchain_version": "harmony:api24+hvigor6.1.0|android:jdk21+gradle8.9+agp8.5.2+kotlin1.9.10+compileSdk34",
+  "degraded_dims": [],
+  "error_code": "EZO-GIT-005"
+ },
+ {
+  "id": "run_1791793970047_bf998a26",
+  "requirement_id": "req_1791793970045_0a340811",
+  "run_side": "harmony",
+  "status": "failed",
+  "attempt": 1,
+  "mode": "full",
+  "started_at": "2026-10-12T16:32:50.047+08:00",
+  "finished_at": "2026-10-12T16:45:40.545+08:00",
+  "duration_ms": 723328,
+  "token_usage": 100691,
+  "commit_sha": null,
+  "artifacts_dir": null,
+  "engine_version": "claude_code:p1.10.2:eazo-skills-2026.09.30:eazo-tpl-2026.10.06:glm-5.3[1m]",
+  "toolchain_version": "harmony:api24+hvigor6.1.0|android:jdk21+gradle8.9+agp8.5.2+kotlin1.9.10+compileSdk34",
+  "degraded_dims": [],
+  "error_code": "EZO-GIT-005"
+ }
+]

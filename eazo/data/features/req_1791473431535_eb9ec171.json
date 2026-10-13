@@ -1,0 +1,365 @@
+{
+ "requirement_id": "req_1791473431535_eb9ec171",
+ "features": [
+  {
+   "name": "apply Settings Idle Only",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "break Completion Back To Focus",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "compare Sessions Ended Then Id Lex",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "compute Remaining Ceil Semantics",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "false Boolean Rejected",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "focus Completion Records Session And Switch To Break",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "format Clock Pads",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "form Ids Dedupe Persist Remove",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "get Repo Singleton Same Instance",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "initial State Focus Idle",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "non Running Tick Is No Op",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "no Params Gives Defaults",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "normalize Settings Clamps And Floors",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "number One Rejected",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "open Stats Recognized",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "pause Freezes By Ceil",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "record Sort By Id And Cap And Seq",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "reset Always Back To Focus Idle Full",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "resume From Paused Keeps Round Start",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "session Id Round Trip",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "settings Normalize And Persist Round Trip",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "settings Take Effect On Next Round Transition",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "start Sets End Wall And Round Start",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "string True Rejected",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "tick Before End No Completion",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "to Date Key Local Calendar Day",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "today Stats Filter And Sum",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "undefined Want Gives Defaults",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "unknown Or Non String Action Ignored",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "valid Start Focus With Strict True",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "P A1 默认 25 分钟专注 5 分钟短休息 FOCUS IDLE 整轮",
+   "harmony": "✗",
+   "android": "✓",
+   "note": "安卓独有 · 鸿蒙缺失"
+  },
+  {
+   "name": "P A2 initial 对越界时长做 clamp",
+   "harmony": "✗",
+   "android": "✓",
+   "note": "安卓独有 · 鸿蒙缺失"
+  },
+  {
+   "name": "P B1 start 置 RUNNING 且 deadline 等于 now 加剩余秒乘 1000",
+   "harmony": "✗",
+   "android": "✓",
+   "note": "安卓独有 · 鸿蒙缺失"
+  },
+  {
+   "name": "P B2 剩余秒满秒起显 ceil 口径",
+   "harmony": "✗",
+   "android": "✓",
+   "note": "安卓独有 · 鸿蒙缺失"
+  },
+  {
+   "name": "P B3 pause 按当前时刻冻结剩余秒并清 deadline",
+   "harmony": "✗",
+   "android": "✓",
+   "note": "安卓独有 · 鸿蒙缺失"
+  },
+  {
+   "name": "P B4 暂停后继续按冻结剩余秒重设 deadline",
+   "harmony": "✗",
+   "android": "✓",
+   "note": "安卓独有 · 鸿蒙缺失"
+  },
+  {
+   "name": "P B5 reset 回当前阶段整轮 IDLE 不切阶段",
+   "harmony": "✗",
+   "android": "✓",
+   "note": "安卓独有 · 鸿蒙缺失"
+  },
+  {
+   "name": "P B6 非法态操作为无操作幂等",
+   "harmony": "✗",
+   "android": "✓",
+   "note": "安卓独有 · 鸿蒙缺失"
+  },
+  {
+   "name": "P C1 专注轮到点结算 切 BREAK 整轮 IDLE 回传完成信息",
+   "harmony": "✗",
+   "android": "✓",
+   "note": "安卓独有 · 鸿蒙缺失"
+  },
+  {
+   "name": "P C2 休息轮到点结算 切回 FOCUS 不产生专注记录语义",
+   "harmony": "✗",
+   "android": "✓",
+   "note": "安卓独有 · 鸿蒙缺失"
+  },
+  {
+   "name": "P C3 未到点与未运行 sync 均不结算",
+   "harmony": "✗",
+   "android": "✓",
+   "note": "安卓独有 · 鸿蒙缺失"
+  },
+  {
+   "name": "P C4 运行中改设置 入库口径按本轮 round Sec 不按新 focus Sec",
+   "harmony": "✗",
+   "android": "✓",
+   "note": "安卓独有 · 鸿蒙缺失"
+  },
+  {
+   "name": "P D1 clamp 边界 专注 60 到 10800 秒 休息 60 到 3600 秒",
+   "harmony": "✗",
+   "android": "✓",
+   "note": "安卓独有 · 鸿蒙缺失"
+  },
+  {
+   "name": "P D2 未开跑整轮改设置 即时替换整轮时长",
+   "harmony": "✗",
+   "android": "✓",
+   "note": "安卓独有 · 鸿蒙缺失"
+  },
+  {
+   "name": "P D3 部分消耗的暂停轮改设置 只影响下一轮",
+   "harmony": "✗",
+   "android": "✓",
+   "note": "安卓独有 · 鸿蒙缺失"
+  },
+  {
+   "name": "P E1 倒计时文本 MM SS",
+   "harmony": "✗",
+   "android": "✓",
+   "note": "安卓独有 · 鸿蒙缺失"
+  },
+  {
+   "name": "P E2 累计专注中文时长整分钟向下取整",
+   "harmony": "✗",
+   "android": "✓",
+   "note": "安卓独有 · 鸿蒙缺失"
+  },
+  {
+   "name": "P E3 环形进度等于剩余秒除以本轮秒 随时间耗尽",
+   "harmony": "✗",
+   "android": "✓",
+   "note": "安卓独有 · 鸿蒙缺失"
+  },
+  {
+   "name": "P F1 UTC 日期键手工格式化",
+   "harmony": "✗",
+   "android": "✓",
+   "note": "安卓独有 · 鸿蒙缺失"
+  },
+  {
+   "name": "P F2 上海时区跨日边界",
+   "harmony": "✗",
+   "android": "✓",
+   "note": "安卓独有 · 鸿蒙缺失"
+  },
+  {
+   "name": "P G1 记录 id 确定性生成且列表按 completed At Ms 主键 id 字典序兜底排序",
+   "harmony": "✗",
+   "android": "✓",
+   "note": "安卓独有 · 鸿蒙缺失"
+  },
+  {
+   "name": "P G2 stats 按 date Key 过滤求轮数与秒数",
+   "harmony": "✗",
+   "android": "✓",
+   "note": "安卓独有 · 鸿蒙缺失"
+  },
+  {
+   "name": "P G3 today Stats 走注入时钟与时区",
+   "harmony": "✗",
+   "android": "✓",
+   "note": "安卓独有 · 鸿蒙缺失"
+  },
+  {
+   "name": "P G4 持久化 roundtrip 设置 记录 快照经同一 store 重建",
+   "harmony": "✗",
+   "android": "✓",
+   "note": "安卓独有 · 鸿蒙缺失"
+  },
+  {
+   "name": "P G5 坏行跳过 空存储回默认 且重建后序号续号不撞 id",
+   "harmony": "✗",
+   "android": "✓",
+   "note": "安卓独有 · 鸿蒙缺失"
+  },
+  {
+   "name": "P G6 update Settings 落盘即 clamp 后值",
+   "harmony": "✗",
+   "android": "✓",
+   "note": "安卓独有 · 鸿蒙缺失"
+  },
+  {
+   "name": "P H1 一整轮 专注完成入库 休息完成不入库 统计只计专注",
+   "harmony": "✗",
+   "android": "✓",
+   "note": "安卓独有 · 鸿蒙缺失"
+  },
+  {
+   "name": "P H2 后台跨完成的重建恢复 RUNNING 过期由下拍结算一次",
+   "harmony": "✗",
+   "android": "✓",
+   "note": "安卓独有 · 鸿蒙缺失"
+  },
+  {
+   "name": "骨架就位",
+   "harmony": "✗",
+   "android": "✓",
+   "note": "安卓独有 · 鸿蒙缺失"
+  },
+  {
+   "name": "命名风格差异说明",
+   "harmony": "◐",
+   "android": "◐",
+   "note": "双端各自 30/29 个用例，同名仅 0 项；命名风格不同（如 snake_case ↔ 英文短语），按名对账不能证明功能缺失，建议补双端运行取证（hypium/junit 日志）后复核"
+  }
+ ]
+}

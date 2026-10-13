@@ -1,0 +1,20 @@
+[
+ {
+  "id": "shot_1791850979684_ac5cf389",
+  "run_id": "run_1791850491195_64269f32",
+  "side": "harmony",
+  "path": "shots/shot_1791850979684_ac5cf389.jpeg",
+  "captured_at": "2026-10-13T08:22:59.684+08:00",
+  "degraded": false,
+  "image_url": "shots/shot_1791850979684_ac5cf389.jpeg"
+ },
+ {
+  "id": "shot_1791850979685_08a6ff34",
+  "run_id": "run_1791850491195_64269f32",
+  "side": "harmony",
+  "path": "shots/shot_1791850979685_08a6ff34.jpeg",
+  "captured_at": "2026-10-13T08:22:59.685+08:00",
+  "degraded": false,
+  "image_url": "shots/shot_1791850979685_08a6ff34.jpeg"
+ }
+]

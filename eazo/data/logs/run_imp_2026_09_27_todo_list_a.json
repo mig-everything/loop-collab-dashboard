@@ -1,0 +1,17 @@
+{
+ "run_id": "run_imp_2026_09_27_todo_list_a",
+ "requirement_id": "req_imp_2026_09_27_todo_list",
+ "logs": [],
+ "log_files": [
+  {
+   "side": "harmony",
+   "path": "experiments/req_imp_2026_09_27_todo_list/logs/harmony.log",
+   "exists": false
+  },
+  {
+   "side": "android_baseline",
+   "path": "experiments/req_imp_2026_09_27_todo_list/logs/android_baseline.log",
+   "exists": false
+  }
+ ]
+}

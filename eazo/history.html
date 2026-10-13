@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Eazo 平台 · 历史记录</title>
+<link rel="stylesheet" href="style.css">
+<style>
+  /* 需求缩略图（2026-10-08）：行高协调小图，无图浅灰占位 */
+  .nl-flex { display: flex; align-items: center; gap: 10px; }
+  .req-thumb { width: 64px; height: 48px; object-fit: cover; border-radius: 6px;
+    border: 1px solid var(--line); flex: none; background: #f0f2f6; }
+  .req-thumb-none { width: 64px; height: 48px; border-radius: 6px; flex: none;
+    background: #f0f2f6; border: 1px dashed var(--line); color: var(--muted);
+    display: inline-flex; align-items: center; justify-content: center; font-size: 11px; }
+</style>
+</head>
+<body>
+<header class="topbar">
+  <div class="logo">Eazo<span class="sub">一句话生成鸿蒙 & 安卓双端 APP</span></div>
+  <nav>
+    <a href="index.html" data-page="home">新建生成</a>
+    <a href="history.html" data-page="history">历史记录</a>
+  </nav>
+  <div class="health" id="health-indicator"><span class="dot"></span>检查中…</div>
+</header>
+
+<main class="wrap">
+  <h1 class="page-title">历史记录</h1>
+  <p class="page-desc">每一次生成的需求、状态、双端结果与综合评价得分（功能40%+页面20%+UI20%+效率20%，缺维剔除归一化）。点击需求查看详情。</p>
+
+  <section class="card">
+    <div class="filters">
+      <input type="text" id="q" placeholder="搜索需求文本…">
+      <select id="side">
+        <option value="">全部端</option>
+        <option value="harmony">仅鸿蒙</option>
+        <option value="android_baseline">仅安卓基线</option>
+      </select>
+      <select id="category">
+        <option value="">全部类别</option>
+        <option value="tool">工具</option><option value="note">笔记</option>
+        <option value="game">游戏</option><option value="life">生活</option>
+        <option value="efficiency">效率</option><option value="entertainment">娱乐</option>
+        <option value="study">学习</option><option value="health">健康</option>
+        <option value="photo">图像</option><option value="audio">音频</option><option value="finance">金融</option>
+      </select>
+      <button class="btn ghost small" id="btn-filter">筛选</button>
+      <button class="btn ghost small" id="btn-refresh">刷新</button>
+    </div>
+    <div class="msg" id="hist-msg"></div>
+    <div style="overflow-x:auto;">
+      <table>
+        <thead>
+          <tr>
+            <th>需求</th><th>类别</th><th>状态</th>
+            <th>鸿蒙结果</th><th>安卓结果</th>
+            <th>综合评价（H vs A）</th><th>开始时间</th>
+          </tr>
+        </thead>
+        <tbody id="rows"><tr><td colspan="7" class="empty">加载中…</td></tr></tbody>
+      </table>
+    </div>
+    <div id="pager" style="margin-top:12px; display:flex; gap:10px; align-items:center;"></div>
+  </section>
+</main>
+
+<footer class="footer">Eazo Platform · IPD-217 网页 UI</footer>
+<script>window.EAZO_STATIC_MODE=true;</script>
+<script src="app.js"></script>
+<script>
+"use strict";
+(function () {
+  initTopbar("history");
+  const rowsEl = document.getElementById("rows");
+  const msgEl = document.getElementById("hist-msg");
+  const pagerEl = document.getElementById("pager");
+  const PAGE_SIZE = 20;
+  let offset = 0;
+
+  function compositeCell(rep) {
+    const comp = rep && rep.composite;
+    if (!comp) return `<span style="color:var(--muted)">—</span>`;
+    const h = (comp.harmony || {}).score, a = (comp.android || {}).score;
+    if (h == null && a == null) return `<span style="color:var(--muted)">—</span>`;
+    const hWin = h != null && (a == null || h > a);
+    const aWin = a != null && (h == null || a > h);
+    const fmt = (score, win) => win
+      ? `<b style="color:var(--ok)">${esc(score)}</b>` : `<b>${esc(score ?? "—")}</b>`;
+    return `<div style="font-size:13px; line-height:1.8">
+      鸿蒙 ${h == null ? "—" : fmt(h, hWin)}<br>
+      安卓 ${a == null ? "—" : fmt(a, aWin)}
+    </div>`;
+  }
+
+  function runCell(run) {
+    if (!run) return `<span style="color:var(--muted)">—</span>`;
+    return `<div>${badge(run.status)}</div>`;
+  }
+
+  async function load() {
+    clearMsg(msgEl);
+    rowsEl.innerHTML = `<tr><td colspan="7" class="empty"><span class="spin"></span>加载中…</td></tr>`;
+    const params = { limit: PAGE_SIZE, offset };
+    const q = document.getElementById("q").value.trim();
+    const side = document.getElementById("side").value;
+    const cat = document.getElementById("category").value;
+    if (q) params.q = q;
+    if (side) params.side = side;
+    if (cat) params.category = cat;
+    try {
+      let data;
+      if (STATIC_MODE) {
+        // 静态模式：data/history.json 为全量导出，q/side/category 过滤与分页在客户端做
+        const full = await API.history({});
+        const filtered = (full.runs || []).filter(r =>
+          (!q || (r.nl_text || "").includes(q)) &&
+          (!side || r.run_side === side) &&
+          (!cat || r.category_id === cat));
+        data = {
+          runs: filtered.slice(offset, offset + PAGE_SIZE),
+          reports: full.reports, thumbs: full.thumbs,
+          total: { runs: filtered.length },
+        };
+      } else {
+        data = await API.history(params);
+      }
+      const runs = data.runs || [];
+      // 按 requirement 聚合双端
+      const byReq = new Map();
+      for (const r of runs) {
+        if (r.run_side !== "harmony" && r.run_side !== "android_baseline") continue;
+        if (!byReq.has(r.requirement_id)) {
+          byReq.set(r.requirement_id, {
+            requirement_id: r.requirement_id, nl_text: r.nl_text,
+            category_id: r.category_id, harmony: null, android: null,
+          });
+        }
+        const cell = byReq.get(r.requirement_id);
+        if (r.run_side === "harmony") cell.harmony = r;
+        else cell.android = r;
+      }
+      // 报告按 requirement 关联（取每需求最新一份）
+      const reportByReq = new Map();
+      for (const rep of (data.reports || [])) {
+        reportByReq.set(rep.requirement_id, rep);  // reports 升序，后来者覆盖=最新
+      }
+      const thumbs = data.thumbs || {};
+
+      const items = [...byReq.values()];
+      if (!items.length) {
+        rowsEl.innerHTML = `<tr><td colspan="7" class="empty">暂无记录 —— 去<a href="index.html">新建生成</a></td></tr>`;
+      } else {
+        rowsEl.innerHTML = items.map(it => {
+          const rep = reportByReq.get(it.requirement_id);
+          const thumb = thumbs[it.requirement_id];
+          const thumbHtml = thumb
+            ? `<img class="req-thumb" src="${esc(thumb.image_url)}" alt="运行截图缩略图" loading="lazy">`
+            : `<span class="req-thumb-none">无图</span>`;
+          const anyRun = it.harmony || it.android;
+          const reqStatus = anyRun && (anyRun.status === "queued" || anyRun.status === "running")
+            ? "generating" : (it.harmony && it.android &&
+              it.harmony.status === "success" && it.android.status === "success")
+              ? "succeeded" : "failed";
+          return `<tr>
+            <td class="nl"><div class="nl-flex">${thumbHtml}<div><a href="detail.html?id=${encodeURIComponent(it.requirement_id)}">${esc(it.nl_text || "(无文本)")}</a>
+              <span class="id">${esc(it.requirement_id)}</span></div></div></td>
+            <td>${esc(it.category_id || "—")}</td>
+            <td>${badge(reqStatus)}</td>
+            <td>${runCell(it.harmony)}</td>
+            <td>${runCell(it.android)}</td>
+            <td>${compositeCell(rep)}</td>
+            <td style="white-space:nowrap">${anyRun ? fmtTime(anyRun.started_at) : "—"}</td>
+          </tr>`;
+        }).join("");
+      }
+      const total = (data.total && data.total.runs) || 0;
+      pagerEl.innerHTML = `
+        <button class="btn ghost small" id="pg-prev" ${offset === 0 ? "disabled" : ""}>上一页</button>
+        <span style="color:var(--muted);font-size:13px">runs ${total} 条 · 第 ${Math.floor(offset / PAGE_SIZE) + 1} 页</span>
+        <button class="btn ghost small" id="pg-next" ${offset + PAGE_SIZE >= total ? "disabled" : ""}>下一页</button>`;
+      document.getElementById("pg-prev").onclick = () => { offset = Math.max(0, offset - PAGE_SIZE); load(); };
+      document.getElementById("pg-next").onclick = () => { offset += PAGE_SIZE; load(); };
+    } catch (e) {
+      rowsEl.innerHTML = "";
+      msg(msgEl, `加载失败：${e.code || ""} ${e.message}`);
+    }
+  }
+
+  document.getElementById("btn-filter").addEventListener("click", () => { offset = 0; load(); });
+  document.getElementById("btn-refresh").addEventListener("click", () => load());
+  document.getElementById("q").addEventListener("keydown", ev => {
+    if (ev.key === "Enter") { offset = 0; load(); }
+  });
+  load();
+})();
+</script>
+</body>
+</html>

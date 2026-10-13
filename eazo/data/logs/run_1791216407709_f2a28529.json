@@ -1,0 +1,42 @@
+{
+ "run_id": "run_1791216407709_f2a28529",
+ "requirement_id": "req_1791203237741_e32bd6d7",
+ "logs": [
+  {
+   "id": "log_1791216407710_aeb04c67",
+   "run_id": "run_1791216407709_f2a28529",
+   "ts": "2026-10-06T00:06:47.710+08:00",
+   "level": "INFO",
+   "message": "run queued (android_baseline)",
+   "event": "state_transition"
+  },
+  {
+   "id": "log_1791216407721_ed0f7191",
+   "run_id": "run_1791216407709_f2a28529",
+   "ts": "2026-10-06T00:06:47.721+08:00",
+   "level": "INFO",
+   "message": "generation started (android_baseline)",
+   "event": "state_transition"
+  },
+  {
+   "id": "log_1791216660320_78467915",
+   "run_id": "run_1791216407709_f2a28529",
+   "ts": "2026-10-06T00:11:00.320+08:00",
+   "level": "ERROR",
+   "message": "commit gate failed: EZO-GIT-005 (push 失败: To github.com:mig-everything/eazo-platform.git\n ! [rejected]        HEAD -> main (fetch first)\nerror: failed to push some refs to 'github.com:mig-everything/eazo-platform.git'\nhint: Updates were rejected because the remote contains work that you do not\nhint: have locally. This is usually caused by a)",
+   "event": "state_transition"
+  }
+ ],
+ "log_files": [
+  {
+   "side": "harmony",
+   "path": "experiments/req_1791203237741_e32bd6d7/logs/harmony.log",
+   "exists": true
+  },
+  {
+   "side": "android_baseline",
+   "path": "experiments/req_1791203237741_e32bd6d7/logs/android_baseline.log",
+   "exists": true
+  }
+ ]
+}

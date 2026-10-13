@@ -1,0 +1,173 @@
+{
+ "requirement_id": "req_1791318349096_b070b29c",
+ "features": [
+  {
+   "name": "buffer not mutated",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "delegator ready",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "enum order contract",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "grayscale deterministic",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "intensity clamped and rounded",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "intensity zero identity",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "invert full",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "sample image deterministic",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "want pure function strict",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "warm cool symmetry",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "alpha保留与全透明像素跳过",
+   "harmony": "✗",
+   "android": "✓",
+   "note": "安卓独有 · 鸿蒙缺失"
+  },
+  {
+   "name": "id反查全量命中且未知id兜底DEFAULT",
+   "harmony": "✗",
+   "android": "✓",
+   "note": "安卓独有 · 鸿蒙缺失"
+  },
+  {
+   "name": "七款滤镜枚举契约——id与中文标签与顺序跨端口径",
+   "harmony": "✗",
+   "android": "✓",
+   "note": "安卓独有 · 鸿蒙缺失"
+  },
+  {
+   "name": "亮度s100目标偏移加76",
+   "harmony": "✗",
+   "android": "✓",
+   "note": "安卓独有 · 鸿蒙缺失"
+  },
+  {
+   "name": "保存记录往返与确定性排序",
+   "harmony": "✗",
+   "android": "✓",
+   "note": "安卓独有 · 鸿蒙缺失"
+  },
+  {
+   "name": "反色s100逐通道取反",
+   "harmony": "✗",
+   "android": "✓",
+   "note": "安卓独有 · 鸿蒙缺失"
+  },
+  {
+   "name": "对比度中灰不动且已知值",
+   "harmony": "✗",
+   "android": "✓",
+   "note": "安卓独有 · 鸿蒙缺失"
+  },
+  {
+   "name": "引擎同输入必同输出",
+   "harmony": "✗",
+   "android": "✓",
+   "note": "安卓独有 · 鸿蒙缺失"
+  },
+  {
+   "name": "强度0为恒等且不共享底层数组",
+   "harmony": "✗",
+   "android": "✓",
+   "note": "安卓独有 · 鸿蒙缺失"
+  },
+  {
+   "name": "强度归一化与默认参数",
+   "harmony": "✗",
+   "android": "✓",
+   "note": "安卓独有 · 鸿蒙缺失"
+  },
+  {
+   "name": "怀旧sepia经典矩阵",
+   "harmony": "✗",
+   "android": "✓",
+   "note": "安卓独有 · 鸿蒙缺失"
+  },
+  {
+   "name": "暖色冷色方向相反且饱和端钳制",
+   "harmony": "✗",
+   "android": "✓",
+   "note": "安卓独有 · 鸿蒙缺失"
+  },
+  {
+   "name": "滤镜确实改变示例图",
+   "harmony": "✗",
+   "android": "✓",
+   "note": "安卓独有 · 鸿蒙缺失"
+  },
+  {
+   "name": "灰度BT601整型加权与混合舍入",
+   "harmony": "✗",
+   "android": "✓",
+   "note": "安卓独有 · 鸿蒙缺失"
+  },
+  {
+   "name": "示例图确定性生成与关键像素锚点",
+   "harmony": "✗",
+   "android": "✓",
+   "note": "安卓独有 · 鸿蒙缺失"
+  },
+  {
+   "name": "越界强度收敛到边界",
+   "harmony": "✗",
+   "android": "✓",
+   "note": "安卓独有 · 鸿蒙缺失"
+  },
+  {
+   "name": "骨架就位",
+   "harmony": "✗",
+   "android": "✓",
+   "note": "安卓独有 · 鸿蒙缺失"
+  },
+  {
+   "name": "命名风格差异说明",
+   "harmony": "◐",
+   "android": "◐",
+   "note": "双端各自 10/17 个用例，同名仅 0 项；命名风格不同（如 snake_case ↔ 英文短语），按名对账不能证明功能缺失，建议补双端运行取证（hypium/junit 日志）后复核"
+  }
+ ]
+}

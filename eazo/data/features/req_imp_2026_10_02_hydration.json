@@ -1,0 +1,155 @@
+{
+ "requirement_id": "req_imp_2026_10_02_hydration",
+ "features": [
+  {
+   "name": "#1 empty",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "双端同集（归一命名一致）· 鸿蒙用例 25 · 安卓用例 22"
+  },
+  {
+   "name": "#2 anchor cups2勘误4 3 false",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "双端同集（归一命名一致）· 鸿蒙用例 25 · 安卓用例 22"
+  },
+  {
+   "name": "#3 exact 8x1cup",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "双端同集（归一命名一致）· 鸿蒙用例 25 · 安卓用例 22"
+  },
+  {
+   "name": "#4 overflow 9x1cup",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "双端同集（归一命名一致）· 鸿蒙用例 25 · 安卓用例 22"
+  },
+  {
+   "name": "#5 single 3cups",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "双端同集（归一命名一致）· 鸿蒙用例 25 · 安卓用例 22"
+  },
+  {
+   "name": "#6a yesterday 235959",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "双端同集（归一命名一致）· 鸿蒙用例 25 · 安卓用例 22"
+  },
+  {
+   "name": "#6b today 000000",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "双端同集（归一命名一致）· 鸿蒙用例 25 · 安卓用例 22"
+  },
+  {
+   "name": "#7 single 8cups C1 core",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "双端同集（归一命名一致）· 鸿蒙用例 25 · 安卓用例 22"
+  },
+  {
+   "name": "#8 single 7cups",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "双端同集（归一命名一致）· 鸿蒙用例 25 · 安卓用例 22"
+  },
+  {
+   "name": "#9 mixed 2 2 2 3",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "双端同集（归一命名一致）· 鸿蒙用例 25 · 安卓用例 22"
+  },
+  {
+   "name": "boundary invalid cups ignored",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "双端同集（归一命名一致）· 鸿蒙用例 25 · 安卓用例 22"
+  },
+  {
+   "name": "boundary invalid records skipped on load",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "双端同集（归一命名一致）· 鸿蒙用例 25 · 安卓用例 22"
+  },
+  {
+   "name": "constants locked",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "双端同集（归一命名一致）· 鸿蒙用例 25 · 安卓用例 22"
+  },
+  {
+   "name": "d2 goal Reached compares today Cups",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "双端同集（归一命名一致）· 鸿蒙用例 25 · 安卓用例 22"
+  },
+  {
+   "name": "d3 local Date prefix",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "双端同集（归一命名一致）· 鸿蒙用例 25 · 安卓用例 22"
+  },
+  {
+   "name": "d4 sort Desc stable",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "双端同集（归一命名一致）· 鸿蒙用例 25 · 安卓用例 22"
+  },
+  {
+   "name": "d6 idempotent rapid taps",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "双端同集（归一命名一致）· 鸿蒙用例 25 · 安卓用例 22"
+  },
+  {
+   "name": "display progress Percent bounds",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "双端同集（归一命名一致）· 鸿蒙用例 25 · 安卓用例 22"
+  },
+  {
+   "name": "fuzzy aggregate never throws",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "双端同集（归一命名一致）· 鸿蒙用例 25 · 安卓用例 22"
+  },
+  {
+   "name": "o2 next Id pure",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "双端同集（归一命名一致）· 鸿蒙用例 25 · 安卓用例 22"
+  },
+  {
+   "name": "s2 record limit trims oldest",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "双端同集（归一命名一致）· 鸿蒙用例 25 · 安卓用例 22"
+  },
+  {
+   "name": "us4 card Data snapshot",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "双端同集（归一命名一致）· 鸿蒙用例 25 · 安卓用例 22"
+  },
+  {
+   "name": "inject empty",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "inject nl1",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "inject nl2",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  }
+ ]
+}

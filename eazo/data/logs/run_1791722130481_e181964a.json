@@ -1,0 +1,58 @@
+{
+ "run_id": "run_1791722130481_e181964a",
+ "requirement_id": "req_1791722130480_fb2f90f6",
+ "logs": [
+  {
+   "id": "log_1791722130481_926b7492",
+   "run_id": "run_1791722130481_e181964a",
+   "ts": "2026-10-11T20:35:30.481+08:00",
+   "level": "INFO",
+   "message": "run queued (android_baseline)",
+   "event": "state_transition"
+  },
+  {
+   "id": "log_1791722130521_20eb90f7",
+   "run_id": "run_1791722130481_e181964a",
+   "ts": "2026-10-11T20:35:30.521+08:00",
+   "level": "INFO",
+   "message": "generation started (android_baseline)",
+   "event": "state_transition"
+  },
+  {
+   "id": "log_1791722130525_9cb2dc62",
+   "run_id": "run_1791722130481_e181964a",
+   "ts": "2026-10-11T20:35:30.525+08:00",
+   "level": "INFO",
+   "message": "android skeleton template applied: 17 files written, 0 skipped (existing)",
+   "event": "state_transition"
+  },
+  {
+   "id": "log_1791722667532_f3db01f2",
+   "run_id": "run_1791722130481_e181964a",
+   "ts": "2026-10-11T20:44:27.532+08:00",
+   "level": "INFO",
+   "message": "commit gate passed (android_baseline) sha=2fa46ff64f167e84954694b606a7dd350b1f690b files=26 pushed=True",
+   "event": "state_transition"
+  },
+  {
+   "id": "log_1791723561719_42478ea4",
+   "run_id": "run_1791722130481_e181964a",
+   "ts": "2026-10-11T20:59:21.719+08:00",
+   "level": "INFO",
+   "message": "screenshot capture: 2 shots registered (android)",
+   "event": "state_transition"
+  }
+ ],
+ "log_files": [
+  {
+   "side": "harmony",
+   "path": "experiments/req_1791722130480_fb2f90f6/logs/harmony.log",
+   "exists": true
+  },
+  {
+   "side": "android_baseline",
+   "path": "experiments/req_1791722130480_fb2f90f6/logs/android_baseline.log",
+   "exists": true
+  }
+ ]
+}

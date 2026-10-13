@@ -1,0 +1,58 @@
+{
+ "run_id": "run_1791751053574_057e0df0",
+ "requirement_id": "req_1791751053572_8418ce56",
+ "logs": [
+  {
+   "id": "log_1791751053574_71b269f7",
+   "run_id": "run_1791751053574_057e0df0",
+   "ts": "2026-10-12T04:37:33.574+08:00",
+   "level": "INFO",
+   "message": "run queued (harmony)",
+   "event": "state_transition"
+  },
+  {
+   "id": "log_1791751053574_f364de7b",
+   "run_id": "run_1791751053574_057e0df0",
+   "ts": "2026-10-12T04:37:33.574+08:00",
+   "level": "INFO",
+   "message": "case contract reused: 14 cases (channel=hermes-pm)",
+   "event": "state_transition"
+  },
+  {
+   "id": "log_1791751053575_93f275cd",
+   "run_id": "run_1791751053574_057e0df0",
+   "ts": "2026-10-12T04:37:33.575+08:00",
+   "level": "INFO",
+   "message": "generation started (harmony)",
+   "event": "state_transition"
+  },
+  {
+   "id": "log_1791751053581_f0ba8f62",
+   "run_id": "run_1791751053574_057e0df0",
+   "ts": "2026-10-12T04:37:33.581+08:00",
+   "level": "INFO",
+   "message": "skeleton template applied: 35 files written, 0 skipped (existing)",
+   "event": "state_transition"
+  },
+  {
+   "id": "log_1791751909877_122cf779",
+   "run_id": "run_1791751053574_057e0df0",
+   "ts": "2026-10-12T04:51:49.877+08:00",
+   "level": "ERROR",
+   "message": "commit gate failed: EZO-GIT-005 (push 失败: To github.com:mig-everything/eazo-platform.git\n ! [rejected]          HEAD -> main (non-fast-forward)\nerror: failed to push some refs to 'github.com:mig-everything/eazo-platform.git'\nhint: Updates were rejected because the tip of your current branch is behind\nhint: its remote counterpart. If you wan)",
+   "event": "state_transition"
+  }
+ ],
+ "log_files": [
+  {
+   "side": "harmony",
+   "path": "experiments/req_1791751053572_8418ce56/logs/harmony.log",
+   "exists": true
+  },
+  {
+   "side": "android_baseline",
+   "path": "experiments/req_1791751053572_8418ce56/logs/android_baseline.log",
+   "exists": true
+  }
+ ]
+}

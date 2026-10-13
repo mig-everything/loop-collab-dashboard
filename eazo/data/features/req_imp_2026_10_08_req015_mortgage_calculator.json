@@ -1,0 +1,71 @@
+{
+ "requirement_id": "req_imp_2026_10_08_req015_mortgage_calculator",
+ "features": [
+  {
+   "name": "c01 structure 22",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "双端同集（归一命名一致）· Hypium 11/11 · JUnit 11/11"
+  },
+  {
+   "name": "h01 table Hashes D1 to D4 8",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "双端同集（归一命名一致）· Hypium 11/11 · JUnit 11/11"
+  },
+  {
+   "name": "p01 params Direct 13",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "双端同集（归一命名一致）· Hypium 11/11 · JUnit 11/11"
+  },
+  {
+   "name": "s01 input Derivatives 5",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "双端同集（归一命名一致）· Hypium 11/11 · JUnit 11/11"
+  },
+  {
+   "name": "s02 case A ET scalars 27",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "双端同集（归一命名一致）· Hypium 11/11 · JUnit 11/11"
+  },
+  {
+   "name": "s03 case A EP scalars 27",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "双端同集（归一命名一致）· Hypium 11/11 · JUnit 11/11"
+  },
+  {
+   "name": "s04 case B ET scalars 49",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "双端同集（归一命名一致）· Hypium 11/11 · JUnit 11/11"
+  },
+  {
+   "name": "s05 case B EP scalars 49",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "双端同集（归一命名一致）· Hypium 11/11 · JUnit 11/11"
+  },
+  {
+   "name": "s06 case A compare diff",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "双端同集（归一命名一致）· Hypium 11/11 · JUnit 11/11"
+  },
+  {
+   "name": "v01 validation fallback 4",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "双端同集（归一命名一致）· Hypium 11/11 · JUnit 11/11"
+  },
+  {
+   "name": "w01 card Data pure Derivation",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "双端同集（归一命名一致）· Hypium 11/11 · JUnit 11/11"
+  }
+ ]
+}

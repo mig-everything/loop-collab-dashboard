@@ -1,0 +1,183 @@
+{
+ "id": "rpt_1791342589116_c57fea00",
+ "requirement_id": "req_1791341065533_e1a330b6",
+ "run_id_harmony": "run_1791341065534_e6ef225f",
+ "run_id_android": "run_1791341065534_d1e2c924",
+ "commit_sha_harmony": "03f67db722e2e915a725836fc25c16316cdba0ce",
+ "commit_sha_android": "844247e74782fabd021b2d1d7e79455949dca79b",
+ "engine_version": "claude_code:p1.4.0:eazo-skills-2026.09.30:eazo-tpl-2026.10.06:claude-sonnet-5-5",
+ "toolchain_version": "harmony:api24+hvigor6.1.0|android:jdk21+gradle8.9+agp8.5.2+kotlin1.9.10+compileSdk34",
+ "metrics_schema_version": "1.0.0",
+ "rubric_version": "eazo-rubric-1.0.0",
+ "dimensions": {
+  "func_coverage": {
+   "key": "func_coverage",
+   "harmony_pct": 50.0,
+   "android_pct": 50.0,
+   "diff": 0.0,
+   "func_points": [
+    {
+     "name": "鸿蒙独有用例（15 项）",
+     "harmony": "✓",
+     "android": "✗",
+     "note": "安卓缺失 · assertBrownSamples、assertCardData、assertChunk2Hashes…"
+    },
+    {
+     "name": "安卓独有用例（40 项）",
+     "harmony": "✗",
+     "android": "✓",
+     "note": "鸿蒙缺失 · g1_01 同种子序列确定、g1_02 不同种子序列不同、g1_03 值域 0 到 1 左闭右开…"
+    },
+    {
+     "name": "命名风格差异说明",
+     "harmony": "◐",
+     "android": "◐",
+     "note": "双端各自 15/40 个用例，同名仅 0 项；命名风格不同（如 snake_case ↔ 英文短语），按名对账不能证明功能缺失，建议补双端运行取证（hypium/junit 日志）后复核"
+    }
+   ],
+   "degraded": false
+  },
+  "page": {
+   "key": "page",
+   "count_harmony": 1,
+   "count_android": 1,
+   "count_diff": 0,
+   "nodes_harmony": 1,
+   "nodes_android": 1,
+   "edges_harmony": 0,
+   "edges_android": 0,
+   "ui_score_harmony": 0.0,
+   "ui_score_android": 0.0,
+   "ui_score_diff": 0.0,
+   "ui_samples": 3,
+   "rubric_version": "eazo-rubric-1.0.0",
+   "degraded": true
+  },
+  "duration": {
+   "key": "duration",
+   "harmony_ms": 1514553,
+   "android_ms": 910940,
+   "diff_ms": 603613,
+   "normalized": true,
+   "wall_clock_ms": 0,
+   "degraded": false
+  },
+  "token": {
+   "key": "token",
+   "harmony_tokens": 162893,
+   "android_tokens": 122661,
+   "diff_tokens": 40232,
+   "normalized": true,
+   "degraded": false
+  },
+  "features": [
+   {
+    "name": "鸿蒙独有用例（15 项）",
+    "harmony": "✓",
+    "android": "✗",
+    "note": "安卓缺失 · assertBrownSamples、assertCardData、assertChunk2Hashes…"
+   },
+   {
+    "name": "安卓独有用例（40 项）",
+    "harmony": "✗",
+    "android": "✓",
+    "note": "鸿蒙缺失 · g1_01 同种子序列确定、g1_02 不同种子序列不同、g1_03 值域 0 到 1 左闭右开…"
+   },
+   {
+    "name": "命名风格差异说明",
+    "harmony": "◐",
+    "android": "◐",
+    "note": "双端各自 15/40 个用例，同名仅 0 项；命名风格不同（如 snake_case ↔ 英文短语），按名对账不能证明功能缺失，建议补双端运行取证（hypium/junit 日志）后复核"
+   }
+  ]
+ },
+ "verdict": {
+  "overall": "degraded_fail",
+  "per_dim": {
+   "func_coverage": "pass",
+   "page": "degraded",
+   "duration": "fail",
+   "token": "fail"
+  },
+  "failed_dims": [
+   "duration",
+   "token"
+  ],
+  "degraded_dims": [
+   "page"
+  ],
+  "threshold_snapshot": {
+   "func_diff_max": 0.0,
+   "ui_diff_min": 12.5,
+   "duration_diff_max": 0,
+   "token_diff_max": 0
+  },
+  "formula": "func(diff<=0) AND page(ui_diff>=12.5) AND duration(diff<0) AND token(diff<0)"
+ },
+ "composite": {
+  "formula_text": "综合分 = 功能 40% + 页面 20% + UI 20% + 效率 20%。功能=功能覆盖率(%)；页面=页面计数比(该端页数÷两端最大页数×100)；UI=uijudge 美观度得分(0~100)；效率=时长与 Token 两子项平均，每项=100×min(两端值)÷该端值(快者/省者得分高，相等都 100)。缺失或降级的维度剔除后，剩余维权重按比例归一化。",
+  "harmony": {
+   "score": 66.9,
+   "contributions": {
+    "func": {
+     "label": "功能",
+     "value": 50.0,
+     "weight": 0.5,
+     "weighted": 25.0
+    },
+    "page": {
+     "label": "页面",
+     "value": 100.0,
+     "weight": 0.25,
+     "weighted": 25.0
+    },
+    "efficiency": {
+     "label": "效率",
+     "value": 67.72,
+     "weight": 0.25,
+     "weighted": 16.93
+    }
+   },
+   "excluded": [
+    {
+     "dim": "ui",
+     "label": "UI",
+     "reason": "UI 美观度未评审（无 uijudge 得分）"
+    }
+   ]
+  },
+  "android": {
+   "score": 75.0,
+   "contributions": {
+    "func": {
+     "label": "功能",
+     "value": 50.0,
+     "weight": 0.5,
+     "weighted": 25.0
+    },
+    "page": {
+     "label": "页面",
+     "value": 100.0,
+     "weight": 0.25,
+     "weighted": 25.0
+    },
+    "efficiency": {
+     "label": "效率",
+     "value": 100.0,
+     "weight": 0.25,
+     "weighted": 25.0
+    }
+   },
+   "excluded": [
+    {
+     "dim": "ui",
+     "label": "UI",
+     "reason": "UI 美观度未评审（无 uijudge 得分）"
+    }
+   ]
+  }
+ },
+ "is_incremental": false,
+ "timestamp": "2026-10-07T11:09:49.116+08:00",
+ "created_at": "2026-10-07T11:09:49.116+08:00"
+}

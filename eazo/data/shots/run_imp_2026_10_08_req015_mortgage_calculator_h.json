@@ -1,0 +1,65 @@
+[
+ {
+  "id": "shot_imp_2026_10_08_req015_mortgage_calculator_07",
+  "run_id": "run_imp_2026_10_08_req015_mortgage_calculator_h",
+  "side": "harmony",
+  "path": "shots/shot_imp_2026_10_08_req015_mortgage_calculator_07.jpeg",
+  "captured_at": "2026-10-08T11:00:00+08:00",
+  "degraded": false,
+  "image_url": "shots/shot_imp_2026_10_08_req015_mortgage_calculator_07.jpeg"
+ },
+ {
+  "id": "shot_imp_2026_10_08_req015_mortgage_calculator_08",
+  "run_id": "run_imp_2026_10_08_req015_mortgage_calculator_h",
+  "side": "harmony",
+  "path": "shots/shot_imp_2026_10_08_req015_mortgage_calculator_08.jpeg",
+  "captured_at": "2026-10-08T11:00:00+08:00",
+  "degraded": false,
+  "image_url": "shots/shot_imp_2026_10_08_req015_mortgage_calculator_08.jpeg"
+ },
+ {
+  "id": "shot_imp_2026_10_08_req015_mortgage_calculator_09",
+  "run_id": "run_imp_2026_10_08_req015_mortgage_calculator_h",
+  "side": "harmony",
+  "path": "shots/shot_imp_2026_10_08_req015_mortgage_calculator_09.jpeg",
+  "captured_at": "2026-10-08T11:00:00+08:00",
+  "degraded": false,
+  "image_url": "shots/shot_imp_2026_10_08_req015_mortgage_calculator_09.jpeg"
+ },
+ {
+  "id": "shot_imp_2026_10_08_req015_mortgage_calculator_10",
+  "run_id": "run_imp_2026_10_08_req015_mortgage_calculator_h",
+  "side": "harmony",
+  "path": "shots/shot_imp_2026_10_08_req015_mortgage_calculator_10.jpeg",
+  "captured_at": "2026-10-08T11:00:00+08:00",
+  "degraded": false,
+  "image_url": "shots/shot_imp_2026_10_08_req015_mortgage_calculator_10.jpeg"
+ },
+ {
+  "id": "shot_1791463842156_6c8679a8",
+  "run_id": "run_imp_2026_10_08_req015_mortgage_calculator_h",
+  "side": "harmony",
+  "path": "shots/shot_1791463842156_6c8679a8.jpeg",
+  "captured_at": "2026-10-08T20:50:42.157+08:00",
+  "degraded": false,
+  "image_url": "shots/shot_1791463842156_6c8679a8.jpeg"
+ },
+ {
+  "id": "shot_1791463842157_74197b1a",
+  "run_id": "run_imp_2026_10_08_req015_mortgage_calculator_h",
+  "side": "harmony",
+  "path": "shots/shot_1791463842157_74197b1a.jpeg",
+  "captured_at": "2026-10-08T20:50:42.157+08:00",
+  "degraded": false,
+  "image_url": "shots/shot_1791463842157_74197b1a.jpeg"
+ },
+ {
+  "id": "shot_1791520153688_e4d10539",
+  "run_id": "run_imp_2026_10_08_req015_mortgage_calculator_h",
+  "side": "harmony",
+  "path": "shots/shot_1791520153688_e4d10539.jpeg",
+  "captured_at": "2026-10-09T04:29:13+00:00",
+  "degraded": false,
+  "image_url": "shots/shot_1791520153688_e4d10539.jpeg"
+ }
+]

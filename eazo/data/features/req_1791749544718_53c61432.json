@@ -1,0 +1,89 @@
+{
+ "requirement_id": "req_1791749544718_53c61432",
+ "features": [
+  {
+   "name": "基础抽奖主流程验证",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "契约 C01 · slug basic_lottery_main_flow 双端命中（测试源码精确匹配）· 无运行取证，按测试源码 slug 匹配"
+  },
+  {
+   "name": "转盘均分8格奖品展示正确",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "契约 C02 · slug wheel_displays_eight_prizes 双端命中（测试源码精确匹配）· 无运行取证，按测试源码 slug 匹配"
+  },
+  {
+   "name": "同seed同次序结果可复现",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "契约 C03 · slug same_seed_same_n_same_result 双端命中（测试源码精确匹配）· 无运行取证，按测试源码 slug 匹配"
+  },
+  {
+   "name": "不同seed结果序列不同",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "契约 C04 · slug different_seed_different_result 双端命中（测试源码精确匹配）· 无运行取证，按测试源码 slug 匹配"
+  },
+  {
+   "name": "奖品权重递减分布正确",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "契约 C05 · slug weight_distribution_decreasing 双端命中（测试源码精确匹配）· 无运行取证，按测试源码 slug 匹配"
+  },
+  {
+   "name": "全部8格奖品均可被抽到",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "契约 C06 · slug all_prizes_reachable_in_draws 双端命中（测试源码精确匹配）· 无运行取证，按测试源码 slug 匹配"
+  },
+  {
+   "name": "抽奖历史按时间顺序记录",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "契约 C07 · slug history_records_in_chronological_order 双端命中（测试源码精确匹配）· 无运行取证，按测试源码 slug 匹配"
+  },
+  {
+   "name": "转盘停止位置与结果一致",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "契约 C08 · slug wheel_stop_position_matches_result 双端命中（测试源码精确匹配）· 无运行取证，按测试源码 slug 匹配"
+  },
+  {
+   "name": "连续多次抽奖功能正常",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "契约 C09 · slug consecutive_draws_function_normally 双端命中（测试源码精确匹配）· 无运行取证，按测试源码 slug 匹配"
+  },
+  {
+   "name": "抽奖历史持久化保存",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "契约 C10 · slug history_persists_across_sessions 双端命中（测试源码精确匹配）· 无运行取证，按测试源码 slug 匹配"
+  },
+  {
+   "name": "历史条目字段完整",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "契约 C11 · slug history_entry_has_complete_fields 双端命中（测试源码精确匹配）· 无运行取证，按测试源码 slug 匹配"
+  },
+  {
+   "name": "多端屏幕自适应布局",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "契约 C12 · slug responsive_layout_across_devices 双端命中（测试源码精确匹配）· 无运行取证，按测试源码 slug 匹配"
+  },
+  {
+   "name": "动画期间重复点击无效",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "契约 C13 · slug draw_button_disabled_during_animation 双端命中（测试源码精确匹配）· 无运行取证，按测试源码 slug 匹配"
+  },
+  {
+   "name": "关闭结果弹窗历史已记录",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "契约 C14 · slug history_recorded_after_popup_dismissed 双端命中（测试源码精确匹配）· 无运行取证，按测试源码 slug 匹配"
+  }
+ ]
+}

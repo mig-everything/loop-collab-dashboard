@@ -1,0 +1,50 @@
+{
+ "run_id": "run_1791751053574_17779bc2",
+ "requirement_id": "req_1791751053572_8418ce56",
+ "logs": [
+  {
+   "id": "log_1791751053574_6ef191e0",
+   "run_id": "run_1791751053574_17779bc2",
+   "ts": "2026-10-12T04:37:33.574+08:00",
+   "level": "INFO",
+   "message": "run queued (android_baseline)",
+   "event": "state_transition"
+  },
+  {
+   "id": "log_1791751053604_10d5cb6f",
+   "run_id": "run_1791751053574_17779bc2",
+   "ts": "2026-10-12T04:37:33.604+08:00",
+   "level": "INFO",
+   "message": "generation started (android_baseline)",
+   "event": "state_transition"
+  },
+  {
+   "id": "log_1791751053607_5cd5c062",
+   "run_id": "run_1791751053574_17779bc2",
+   "ts": "2026-10-12T04:37:33.607+08:00",
+   "level": "INFO",
+   "message": "android skeleton template applied: 17 files written, 0 skipped (existing)",
+   "event": "state_transition"
+  },
+  {
+   "id": "log_1791751427577_553b969e",
+   "run_id": "run_1791751053574_17779bc2",
+   "ts": "2026-10-12T04:43:47.577+08:00",
+   "level": "ERROR",
+   "message": "commit gate failed: EZO-GIT-005 (push 失败: To github.com:mig-everything/eazo-platform.git\n ! [rejected]        HEAD -> main (fetch first)\nerror: failed to push some refs to 'github.com:mig-everything/eazo-platform.git'\nhint: Updates were rejected because the remote contains work that you do not\nhint: have locally. This is usually caused by a)",
+   "event": "state_transition"
+  }
+ ],
+ "log_files": [
+  {
+   "side": "harmony",
+   "path": "experiments/req_1791751053572_8418ce56/logs/harmony.log",
+   "exists": true
+  },
+  {
+   "side": "android_baseline",
+   "path": "experiments/req_1791751053572_8418ce56/logs/android_baseline.log",
+   "exists": true
+  }
+ ]
+}

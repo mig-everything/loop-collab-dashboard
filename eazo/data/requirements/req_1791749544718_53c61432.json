@@ -1,0 +1,48 @@
+{
+ "id": "req_1791749544718_53c61432",
+ "nl_text": "做一个「抽奖转盘」App：圆形转盘均分 8 格，每格一个奖品（一等奖华为手环 / 二等奖蓝牙耳机 / 三等奖 50 元优惠券 / … / 谢谢参与，权重递减）；点击抽奖按钮，转盘旋转动画后停在某个奖品上并弹出中奖结果；奖品列表与抽奖结果由固定 seed 的确定性纯函数决定（同 seed 同第 N 次抽奖 → 同奖品，可复现对账）；记录每次抽奖结果（历史）；界面精致美观；可选多端自适应。",
+ "category_id": "entertainment",
+ "origin": "manual",
+ "complexity_bucket": "S",
+ "status": "succeeded",
+ "parent_id": null,
+ "created_at": "2026-10-12T04:12:24.718+08:00",
+ "runs": [
+  {
+   "id": "run_1791749544719_0ce4ad14",
+   "requirement_id": "req_1791749544718_53c61432",
+   "run_side": "harmony",
+   "status": "success",
+   "attempt": 1,
+   "mode": "full",
+   "started_at": "2026-10-12T04:12:24.720+08:00",
+   "finished_at": "2026-10-12T04:28:00.126+08:00",
+   "duration_ms": 924190,
+   "token_usage": 164645,
+   "commit_sha": "f09737449a1402da82a1f3e89a74f6bb6c372eb3",
+   "artifacts_dir": "experiments/req_1791749544718_53c61432/harmony",
+   "engine_version": "claude_code:p1.9.0:eazo-skills-2026.09.30:eazo-tpl-2026.10.06:glm-5.3[1m]",
+   "toolchain_version": "harmony:api24+hvigor6.1.0|android:jdk21+gradle8.9+agp8.5.2+kotlin1.9.10+compileSdk34",
+   "degraded_dims": [],
+   "error_code": null
+  },
+  {
+   "id": "run_1791749544719_94400c39",
+   "requirement_id": "req_1791749544718_53c61432",
+   "run_side": "android_baseline",
+   "status": "success",
+   "attempt": 1,
+   "mode": "full",
+   "started_at": "2026-10-12T04:12:24.720+08:00",
+   "finished_at": "2026-10-12T04:26:07.674+08:00",
+   "duration_ms": 811709,
+   "token_usage": 153934,
+   "commit_sha": "30a415e4db67558c8e25bba0cf972df4776dc1aa",
+   "artifacts_dir": "experiments/req_1791749544718_53c61432/android-baseline",
+   "engine_version": "claude_code:p1.9.0:eazo-skills-2026.09.30:eazo-tpl-2026.10.06:glm-5.3[1m]",
+   "toolchain_version": "harmony:api24+hvigor6.1.0|android:jdk21+gradle8.9+agp8.5.2+kotlin1.9.10+compileSdk34",
+   "degraded_dims": [],
+   "error_code": null
+  }
+ ]
+}

@@ -1,0 +1,11 @@
+{
+ "error": {
+  "code": "EZO-ART-002",
+  "message": "该 run 无截图（含降级未补录）",
+  "detail": {
+   "entity": "GenerationRun",
+   "id": "run_1791368353752_a3c9b0d8"
+  },
+  "retryable": false
+ }
+}

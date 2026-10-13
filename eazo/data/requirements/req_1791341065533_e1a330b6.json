@@ -1,0 +1,48 @@
+{
+ "id": "req_1791341065533_e1a330b6",
+ "nl_text": "做一个「白噪音助眠器」App：内置白噪音/粉噪音/棕噪音三类噪声合成器（确定性算法，seed 固定）+ 正弦音调发生器（预设频率 A4/C5，音量可调），支持噪声类型切换、音量调节、睡眠定时（到时自动停止）、音波实时可视化；界面精致美观；可选桌面卡片（元服务）与多端自适应。",
+ "category_id": "entertainment",
+ "origin": "manual",
+ "complexity_bucket": "S",
+ "status": "succeeded",
+ "parent_id": null,
+ "created_at": "2026-10-07T10:44:25.533+08:00",
+ "runs": [
+  {
+   "id": "run_1791341065534_d1e2c924",
+   "requirement_id": "req_1791341065533_e1a330b6",
+   "run_side": "android_baseline",
+   "status": "success",
+   "attempt": 1,
+   "mode": "full",
+   "started_at": "2026-10-07T10:44:25.535+08:00",
+   "finished_at": "2026-10-07T10:59:36.619+08:00",
+   "duration_ms": 910940,
+   "token_usage": 122661,
+   "commit_sha": "844247e74782fabd021b2d1d7e79455949dca79b",
+   "artifacts_dir": "experiments/req_1791341065533_e1a330b6/android-baseline",
+   "engine_version": "claude_code:p1.4.0:eazo-skills-2026.09.30:eazo-tpl-2026.10.06:claude-sonnet-5-5",
+   "toolchain_version": "harmony:api24+hvigor6.1.0|android:jdk21+gradle8.9+agp8.5.2+kotlin1.9.10+compileSdk34",
+   "degraded_dims": [],
+   "error_code": null
+  },
+  {
+   "id": "run_1791341065534_e6ef225f",
+   "requirement_id": "req_1791341065533_e1a330b6",
+   "run_side": "harmony",
+   "status": "success",
+   "attempt": 1,
+   "mode": "full",
+   "started_at": "2026-10-07T10:44:25.535+08:00",
+   "finished_at": "2026-10-07T11:09:40.220+08:00",
+   "duration_ms": 1514553,
+   "token_usage": 162893,
+   "commit_sha": "03f67db722e2e915a725836fc25c16316cdba0ce",
+   "artifacts_dir": "experiments/req_1791341065533_e1a330b6/harmony",
+   "engine_version": "claude_code:p1.4.0:eazo-skills-2026.09.30:eazo-tpl-2026.10.06:claude-sonnet-5-5",
+   "toolchain_version": "harmony:api24+hvigor6.1.0|android:jdk21+gradle8.9+agp8.5.2+kotlin1.9.10+compileSdk34",
+   "degraded_dims": [],
+   "error_code": null
+  }
+ ]
+}

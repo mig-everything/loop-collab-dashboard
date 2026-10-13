@@ -1,0 +1,89 @@
+{
+ "requirement_id": "req_1791779141772_a038a10a",
+ "features": [
+  {
+   "name": "BPM 调节 40~240 整数",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "契约 C01 · slug bpm_adjust_range 双端命中（测试源码精确匹配）· 无运行取证，按测试源码 slug 匹配"
+  },
+  {
+   "name": "拍号选择三选一",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "契约 C02 · slug time_signature_select 双端命中（测试源码精确匹配）· 无运行取证，按测试源码 slug 匹配"
+  },
+  {
+   "name": "开始/停止节拍",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "契约 C03 · slug start_stop_toggle 双端命中（测试源码精确匹配）· 无运行取证，按测试源码 slug 匹配"
+  },
+  {
+   "name": "节拍间隔确定性",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "契约 C04 · slug interval_ms_deterministic 双端命中（测试源码精确匹配）· 无运行取证，按测试源码 slug 匹配"
+  },
+  {
+   "name": "节拍间隔 half-up 判别",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "契约 C05 · slug interval_ms_round_half_up 双端命中（测试源码精确匹配）· 无运行取证，按测试源码 slug 匹配"
+  },
+  {
+   "name": "每小节第 1 拍重音",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "契约 C06 · slug accent_first_beat 双端命中（测试源码精确匹配）· 无运行取证，按测试源码 slug 匹配"
+  },
+  {
+   "name": "节拍计数",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "契约 C07 · slug beat_count_progression 双端命中（测试源码精确匹配）· 无运行取证，按测试源码 slug 匹配"
+  },
+  {
+   "name": "当前拍高亮可视化",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "契约 C08 · slug current_beat_highlight 双端命中（测试源码精确匹配）· 无运行取证，按测试源码 slug 匹配"
+  },
+  {
+   "name": "显示 BPM/拍号/计数",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "契约 C09 · slug display_bpm_signature_count 双端命中（测试源码精确匹配）· 无运行取证，按测试源码 slug 匹配"
+  },
+  {
+   "name": "拍号常量序列化哈希",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "契约 C10 · slug time_signature_serialization_hash 双端命中（测试源码精确匹配）· 无运行取证，按测试源码 slug 匹配"
+  },
+  {
+   "name": "节拍循环推进",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "契约 C11 · slug beat_loop_continuous 双端命中（测试源码精确匹配）· 无运行取证，按测试源码 slug 匹配"
+  },
+  {
+   "name": "无随机源/无时间源",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "契约 C12 · slug no_random_source 双端命中（测试源码精确匹配）· 无运行取证，按测试源码 slug 匹配"
+  },
+  {
+   "name": "本地状态持久化",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "契约 C13 · slug local_state_persist 双端命中（测试源码精确匹配）· 无运行取证，按测试源码 slug 匹配"
+  },
+  {
+   "name": "多端自适应",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "契约 C14 · slug multiscreen_adaptive 双端命中（测试源码精确匹配）· 无运行取证，按测试源码 slug 匹配"
+  }
+ ]
+}

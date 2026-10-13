@@ -1,0 +1,95 @@
+{
+ "requirement_id": "req_1791679356530_0140e3a4",
+ "features": [
+  {
+   "name": "输入文本生成二维码",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "契约 C01 · slug generate_text_qr 双端命中（测试源码精确匹配）· Hypium 15/15"
+  },
+  {
+   "name": "输入链接生成二维码",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "契约 C02 · slug generate_url_qr 双端命中（测试源码精确匹配）· Hypium 15/15"
+  },
+  {
+   "name": "空输入拒绝",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "契约 C03 · slug reject_empty_input 双端命中（测试源码精确匹配）· Hypium 15/15"
+  },
+  {
+   "name": "纯空白输入拒绝",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "契约 C04 · slug reject_whitespace_input 双端命中（测试源码精确匹配）· Hypium 15/15"
+  },
+  {
+   "name": "尺寸小档映射",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "契约 C05 · slug size_small 双端命中（测试源码精确匹配）· Hypium 15/15"
+  },
+  {
+   "name": "尺寸中档映射",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "契约 C06 · slug size_medium 双端命中（测试源码精确匹配）· Hypium 15/15"
+  },
+  {
+   "name": "尺寸大档映射",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "契约 C07 · slug size_large 双端命中（测试源码精确匹配）· Hypium 15/15"
+  },
+  {
+   "name": "纠错级别 L 映射",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "契约 C08 · slug ec_level_l 双端命中（测试源码精确匹配）· Hypium 15/15"
+  },
+  {
+   "name": "纠错级别 M 映射",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "契约 C09 · slug ec_level_m 双端命中（测试源码精确匹配）· Hypium 15/15"
+  },
+  {
+   "name": "纠错级别 Q 映射",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "契约 C10 · slug ec_level_q 双端命中（测试源码精确匹配）· Hypium 15/15"
+  },
+  {
+   "name": "纠错级别 H 映射",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "契约 C11 · slug ec_level_h 双端命中（测试源码精确匹配）· Hypium 15/15"
+  },
+  {
+   "name": "同输入同输出确定性",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "契约 C12 · slug deterministic_same_input 双端命中（测试源码精确匹配）· Hypium 15/15"
+  },
+  {
+   "name": "长文本自动升版本",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "契约 C13 · slug long_text_version_up 双端命中（测试源码精确匹配）· Hypium 15/15"
+  },
+  {
+   "name": "特殊字符 UTF-8 编码",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "契约 C14 · slug special_chars_utf8 双端命中（测试源码精确匹配）· Hypium 15/15"
+  },
+  {
+   "name": "超 512 字符截取",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "契约 C15 · slug max_length_truncate 双端命中（测试源码精确匹配）· Hypium 15/15"
+  }
+ ]
+}

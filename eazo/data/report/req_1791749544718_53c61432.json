@@ -1,0 +1,366 @@
+{
+ "id": "rpt_1791750509785_49b5f5d5",
+ "requirement_id": "req_1791749544718_53c61432",
+ "run_id_harmony": "run_1791749544719_0ce4ad14",
+ "run_id_android": "run_1791749544719_94400c39",
+ "commit_sha_harmony": "f09737449a1402da82a1f3e89a74f6bb6c372eb3",
+ "commit_sha_android": "30a415e4db67558c8e25bba0cf972df4776dc1aa",
+ "engine_version": "claude_code:p1.9.0:eazo-skills-2026.09.30:eazo-tpl-2026.10.06:glm-5.3[1m]",
+ "toolchain_version": "harmony:api24+hvigor6.1.0|android:jdk21+gradle8.9+agp8.5.2+kotlin1.9.10+compileSdk34",
+ "metrics_schema_version": "1.0.0",
+ "rubric_version": "eazo-rubric-1.0.0",
+ "dimensions": {
+  "func_coverage": {
+   "key": "func_coverage",
+   "harmony_pct": 100.0,
+   "android_pct": 100.0,
+   "diff": 0.0,
+   "func_points": [
+    {
+     "name": "基础抽奖主流程验证",
+     "harmony": "✓",
+     "android": "✓",
+     "note": "契约 C01 · slug basic_lottery_main_flow 双端命中（测试源码精确匹配）· 无运行取证，按测试源码 slug 匹配"
+    },
+    {
+     "name": "转盘均分8格奖品展示正确",
+     "harmony": "✓",
+     "android": "✓",
+     "note": "契约 C02 · slug wheel_displays_eight_prizes 双端命中（测试源码精确匹配）· 无运行取证，按测试源码 slug 匹配"
+    },
+    {
+     "name": "同seed同次序结果可复现",
+     "harmony": "✓",
+     "android": "✓",
+     "note": "契约 C03 · slug same_seed_same_n_same_result 双端命中（测试源码精确匹配）· 无运行取证，按测试源码 slug 匹配"
+    },
+    {
+     "name": "不同seed结果序列不同",
+     "harmony": "✓",
+     "android": "✓",
+     "note": "契约 C04 · slug different_seed_different_result 双端命中（测试源码精确匹配）· 无运行取证，按测试源码 slug 匹配"
+    },
+    {
+     "name": "奖品权重递减分布正确",
+     "harmony": "✓",
+     "android": "✓",
+     "note": "契约 C05 · slug weight_distribution_decreasing 双端命中（测试源码精确匹配）· 无运行取证，按测试源码 slug 匹配"
+    },
+    {
+     "name": "全部8格奖品均可被抽到",
+     "harmony": "✓",
+     "android": "✓",
+     "note": "契约 C06 · slug all_prizes_reachable_in_draws 双端命中（测试源码精确匹配）· 无运行取证，按测试源码 slug 匹配"
+    },
+    {
+     "name": "抽奖历史按时间顺序记录",
+     "harmony": "✓",
+     "android": "✓",
+     "note": "契约 C07 · slug history_records_in_chronological_order 双端命中（测试源码精确匹配）· 无运行取证，按测试源码 slug 匹配"
+    },
+    {
+     "name": "转盘停止位置与结果一致",
+     "harmony": "✓",
+     "android": "✓",
+     "note": "契约 C08 · slug wheel_stop_position_matches_result 双端命中（测试源码精确匹配）· 无运行取证，按测试源码 slug 匹配"
+    },
+    {
+     "name": "连续多次抽奖功能正常",
+     "harmony": "✓",
+     "android": "✓",
+     "note": "契约 C09 · slug consecutive_draws_function_normally 双端命中（测试源码精确匹配）· 无运行取证，按测试源码 slug 匹配"
+    },
+    {
+     "name": "抽奖历史持久化保存",
+     "harmony": "✓",
+     "android": "✓",
+     "note": "契约 C10 · slug history_persists_across_sessions 双端命中（测试源码精确匹配）· 无运行取证，按测试源码 slug 匹配"
+    },
+    {
+     "name": "历史条目字段完整",
+     "harmony": "✓",
+     "android": "✓",
+     "note": "契约 C11 · slug history_entry_has_complete_fields 双端命中（测试源码精确匹配）· 无运行取证，按测试源码 slug 匹配"
+    },
+    {
+     "name": "多端屏幕自适应布局",
+     "harmony": "✓",
+     "android": "✓",
+     "note": "契约 C12 · slug responsive_layout_across_devices 双端命中（测试源码精确匹配）· 无运行取证，按测试源码 slug 匹配"
+    },
+    {
+     "name": "动画期间重复点击无效",
+     "harmony": "✓",
+     "android": "✓",
+     "note": "契约 C13 · slug draw_button_disabled_during_animation 双端命中（测试源码精确匹配）· 无运行取证，按测试源码 slug 匹配"
+    },
+    {
+     "name": "关闭结果弹窗历史已记录",
+     "harmony": "✓",
+     "android": "✓",
+     "note": "契约 C14 · slug history_recorded_after_popup_dismissed 双端命中（测试源码精确匹配）· 无运行取证，按测试源码 slug 匹配"
+    }
+   ],
+   "degraded": false
+  },
+  "page": {
+   "key": "page",
+   "count_harmony": 2,
+   "count_android": 1,
+   "count_diff": 1,
+   "nodes_harmony": 2,
+   "nodes_android": 1,
+   "edges_harmony": 1,
+   "edges_android": 0,
+   "ui_score_harmony": 66.5,
+   "ui_score_android": 63.25,
+   "ui_score_diff": 3.25,
+   "ui_samples": 3,
+   "rubric_version": "eazo-rubric-1.0.0",
+   "degraded": false
+  },
+  "duration": {
+   "key": "duration",
+   "harmony_ms": 924190,
+   "android_ms": 811709,
+   "diff_ms": 112481,
+   "normalized": true,
+   "wall_clock_ms": 0,
+   "degraded": false
+  },
+  "token": {
+   "key": "token",
+   "harmony_tokens": 164645,
+   "android_tokens": 153934,
+   "diff_tokens": 10711,
+   "normalized": true,
+   "degraded": false
+  },
+  "features": [
+   {
+    "name": "基础抽奖主流程验证",
+    "harmony": "✓",
+    "android": "✓",
+    "note": "契约 C01 · slug basic_lottery_main_flow 双端命中（测试源码精确匹配）· 无运行取证，按测试源码 slug 匹配"
+   },
+   {
+    "name": "转盘均分8格奖品展示正确",
+    "harmony": "✓",
+    "android": "✓",
+    "note": "契约 C02 · slug wheel_displays_eight_prizes 双端命中（测试源码精确匹配）· 无运行取证，按测试源码 slug 匹配"
+   },
+   {
+    "name": "同seed同次序结果可复现",
+    "harmony": "✓",
+    "android": "✓",
+    "note": "契约 C03 · slug same_seed_same_n_same_result 双端命中（测试源码精确匹配）· 无运行取证，按测试源码 slug 匹配"
+   },
+   {
+    "name": "不同seed结果序列不同",
+    "harmony": "✓",
+    "android": "✓",
+    "note": "契约 C04 · slug different_seed_different_result 双端命中（测试源码精确匹配）· 无运行取证，按测试源码 slug 匹配"
+   },
+   {
+    "name": "奖品权重递减分布正确",
+    "harmony": "✓",
+    "android": "✓",
+    "note": "契约 C05 · slug weight_distribution_decreasing 双端命中（测试源码精确匹配）· 无运行取证，按测试源码 slug 匹配"
+   },
+   {
+    "name": "全部8格奖品均可被抽到",
+    "harmony": "✓",
+    "android": "✓",
+    "note": "契约 C06 · slug all_prizes_reachable_in_draws 双端命中（测试源码精确匹配）· 无运行取证，按测试源码 slug 匹配"
+   },
+   {
+    "name": "抽奖历史按时间顺序记录",
+    "harmony": "✓",
+    "android": "✓",
+    "note": "契约 C07 · slug history_records_in_chronological_order 双端命中（测试源码精确匹配）· 无运行取证，按测试源码 slug 匹配"
+   },
+   {
+    "name": "转盘停止位置与结果一致",
+    "harmony": "✓",
+    "android": "✓",
+    "note": "契约 C08 · slug wheel_stop_position_matches_result 双端命中（测试源码精确匹配）· 无运行取证，按测试源码 slug 匹配"
+   },
+   {
+    "name": "连续多次抽奖功能正常",
+    "harmony": "✓",
+    "android": "✓",
+    "note": "契约 C09 · slug consecutive_draws_function_normally 双端命中（测试源码精确匹配）· 无运行取证，按测试源码 slug 匹配"
+   },
+   {
+    "name": "抽奖历史持久化保存",
+    "harmony": "✓",
+    "android": "✓",
+    "note": "契约 C10 · slug history_persists_across_sessions 双端命中（测试源码精确匹配）· 无运行取证，按测试源码 slug 匹配"
+   },
+   {
+    "name": "历史条目字段完整",
+    "harmony": "✓",
+    "android": "✓",
+    "note": "契约 C11 · slug history_entry_has_complete_fields 双端命中（测试源码精确匹配）· 无运行取证，按测试源码 slug 匹配"
+   },
+   {
+    "name": "多端屏幕自适应布局",
+    "harmony": "✓",
+    "android": "✓",
+    "note": "契约 C12 · slug responsive_layout_across_devices 双端命中（测试源码精确匹配）· 无运行取证，按测试源码 slug 匹配"
+   },
+   {
+    "name": "动画期间重复点击无效",
+    "harmony": "✓",
+    "android": "✓",
+    "note": "契约 C13 · slug draw_button_disabled_during_animation 双端命中（测试源码精确匹配）· 无运行取证，按测试源码 slug 匹配"
+   },
+   {
+    "name": "关闭结果弹窗历史已记录",
+    "harmony": "✓",
+    "android": "✓",
+    "note": "契约 C14 · slug history_recorded_after_popup_dismissed 双端命中（测试源码精确匹配）· 无运行取证，按测试源码 slug 匹配"
+   }
+  ],
+  "uijudge_detail": {
+   "model": "MiniMax-M3",
+   "rubric_version": "eazo-rubric-1.0.0",
+   "samples": 3,
+   "harmony": {
+    "run_id": "run_1791749544719_0ce4ad14",
+    "shots": 2,
+    "score5": 3.66,
+    "score100": 66.5,
+    "raw_samples": [
+     3.63,
+     3.73,
+     3.63
+    ],
+    "dim_scores": {
+     "visual_consistency": 3.5,
+     "layout_reasonableness": 4.0,
+     "readability": 3.0,
+     "interaction_feedback": 3.5,
+     "task_clarity": 4.5
+    }
+   },
+   "android_baseline": {
+    "run_id": "run_1791749544719_94400c39",
+    "shots": 2,
+    "score5": 3.53,
+    "score100": 63.25,
+    "raw_samples": [
+     3.48,
+     3.95,
+     3.15
+    ],
+    "dim_scores": {
+     "visual_consistency": 3.0,
+     "layout_reasonableness": 3.0,
+     "readability": 2.5,
+     "interaction_feedback": 3.5,
+     "task_clarity": 4.5
+    }
+   },
+   "diff": 3.25,
+   "judged_at": "2026-10-12T04:28:29+08:00",
+   "weights": {
+    "visual_consistency": 0.25,
+    "layout_reasonableness": 0.25,
+    "readability": 0.2,
+    "interaction_feedback": 0.2,
+    "task_clarity": 0.1
+   }
+  }
+ },
+ "verdict": {
+  "overall": "degraded_fail",
+  "per_dim": {
+   "func_coverage": "pass",
+   "page": "degraded",
+   "duration": "fail",
+   "token": "fail",
+   "ui": "near_tie"
+  },
+  "failed_dims": [
+   "duration",
+   "token"
+  ],
+  "degraded_dims": [
+   "page"
+  ],
+  "threshold_snapshot": {
+   "func_diff_max": 0.0,
+   "ui_diff_min": 12.5,
+   "duration_diff_max": 0,
+   "token_diff_max": 0
+  },
+  "formula": "func(diff<=0) AND page(ui_diff>=12.5) AND duration(diff<0) AND token(diff<0)"
+ },
+ "composite": {
+  "formula_text": "综合分 = 功能 40% + 页面 20% + UI 20% + 效率 20%。功能=功能覆盖率(%)；页面=页面计数比(该端页数÷两端最大页数×100)；UI=uijudge 美观度得分(0~100)；效率=时长与 Token 两子项平均，每项=100×min(两端值)÷该端值(快者/省者得分高，相等都 100)。缺失或降级的维度剔除后，剩余维权重按比例归一化。",
+  "harmony": {
+   "score": 91.4,
+   "contributions": {
+    "func": {
+     "label": "功能",
+     "value": 100.0,
+     "weight": 0.4,
+     "weighted": 40.0
+    },
+    "page": {
+     "label": "页面",
+     "value": 100.0,
+     "weight": 0.2,
+     "weighted": 20.0
+    },
+    "ui": {
+     "label": "UI",
+     "value": 66.5,
+     "weight": 0.2,
+     "weighted": 13.3
+    },
+    "efficiency": {
+     "label": "效率",
+     "value": 90.66,
+     "weight": 0.2,
+     "weighted": 18.13
+    }
+   },
+   "excluded": []
+  },
+  "android": {
+   "score": 82.7,
+   "contributions": {
+    "func": {
+     "label": "功能",
+     "value": 100.0,
+     "weight": 0.4,
+     "weighted": 40.0
+    },
+    "page": {
+     "label": "页面",
+     "value": 50.0,
+     "weight": 0.2,
+     "weighted": 10.0
+    },
+    "ui": {
+     "label": "UI",
+     "value": 63.25,
+     "weight": 0.2,
+     "weighted": 12.65
+    },
+    "efficiency": {
+     "label": "效率",
+     "value": 100.0,
+     "weight": 0.2,
+     "weighted": 20.0
+    }
+   },
+   "excluded": []
+  }
+ },
+ "is_incremental": false,
+ "timestamp": "2026-10-12T04:28:29.785+08:00",
+ "created_at": "2026-10-12T04:28:29.785+08:00"
+}

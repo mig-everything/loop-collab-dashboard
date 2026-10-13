@@ -1,0 +1,51 @@
+{
+ "requirement_id": "req_imp_2026_09_28_quick_notes",
+ "sides": [
+  {
+   "side": "harmony",
+   "side_label": "鸿蒙 HarmonyOS",
+   "run_id": "run_imp_2026_09_28_quick_notes_h",
+   "skills": [
+    {
+     "name": "arkts-coding",
+     "description": "鸿蒙 ArkTS/ArkUI 工程生成规范（含 ohosTest 测试骨架铁律）",
+     "implemented": true,
+     "url": "https://github.com/mig-everything/ai-native-ipd-eazo/tree/main/skills/arkts-coding",
+     "version": "eazo-skills-2026.09.30"
+    }
+   ],
+   "engine": {
+    "provider": "claude_code",
+    "prompt_version": "p1.1.0",
+    "skill_pack_version": "eazo-skills-2026.09.30",
+    "template_version": "eazo-tpl-2026.09.30",
+    "model_id": "glm-5.3[1m]"
+   },
+   "engine_version": "claude_code:p1.1.0:eazo-skills-2026.09.30:eazo-tpl-2026.09.30:glm-5.3[1m]",
+   "toolchain_version": "harmony:api24+hvigor6.1.0|android:jdk21+gradle8.9+agp8.5.2+kotlin1.9.10+compileSdk34"
+  },
+  {
+   "side": "android_baseline",
+   "side_label": "安卓 Android",
+   "run_id": "run_imp_2026_09_28_quick_notes_a",
+   "skills": [
+    {
+     "name": "android-cli-coding",
+     "description": "Android CLI 基线工程生成规范（Kotlin + JUnit）",
+     "implemented": false,
+     "url": "https://github.com/mig-everything/ai-native-ipd/blob/main/skills/README.md",
+     "version": "eazo-skills-2026.09.30"
+    }
+   ],
+   "engine": {
+    "provider": "claude_code",
+    "prompt_version": "p1.1.0",
+    "skill_pack_version": "eazo-skills-2026.09.30",
+    "template_version": "eazo-tpl-2026.09.30",
+    "model_id": "glm-5.3[1m]"
+   },
+   "engine_version": "claude_code:p1.1.0:eazo-skills-2026.09.30:eazo-tpl-2026.09.30:glm-5.3[1m]",
+   "toolchain_version": "harmony:api24+hvigor6.1.0|android:jdk21+gradle8.9+agp8.5.2+kotlin1.9.10+compileSdk34"
+  }
+ ]
+}

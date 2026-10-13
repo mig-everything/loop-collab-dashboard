@@ -1,0 +1,48 @@
+{
+ "id": "req_1791807130241_a34a223e",
+ "nl_text": "做一个「密码生成器」App：可配置密码长度（4~32 整数）与字符集（大写字母/小写字母/数字/符号，可勾选组合，支持排除易混淆字符 0O1lI）；给定固定种子（默认 20261012，可编辑）按确定性 PRNG 生成密码（同 seed + 同规则 → 同密码，可复现对账）；显示密码强度（熵位数 + 弱/中/强/很强分级）；支持一键复制与重新生成；界面精致美观；可选多端自适应。",
+ "category_id": "tool",
+ "origin": "manual",
+ "complexity_bucket": "S",
+ "status": "succeeded",
+ "parent_id": null,
+ "created_at": "2026-10-12T20:12:10.241+08:00",
+ "runs": [
+  {
+   "id": "run_1791807130243_1d318cd3",
+   "requirement_id": "req_1791807130241_a34a223e",
+   "run_side": "harmony",
+   "status": "success",
+   "attempt": 1,
+   "mode": "full",
+   "started_at": "2026-10-12T20:12:10.243+08:00",
+   "finished_at": "2026-10-12T20:21:06.800+08:00",
+   "duration_ms": 536521,
+   "token_usage": 90537,
+   "commit_sha": "67aaec13c9c049c5c0500b055303c89de4aa3780",
+   "artifacts_dir": "experiments/req_1791807130241_a34a223e/harmony",
+   "engine_version": "claude_code:p1.10.2:eazo-skills-2026.09.30:eazo-tpl-2026.10.06:glm-5.3[1m]",
+   "toolchain_version": "harmony:api24+hvigor6.1.0|android:jdk21+gradle8.9+agp8.5.2+kotlin1.9.10+compileSdk34",
+   "degraded_dims": [],
+   "error_code": null
+  },
+  {
+   "id": "run_1791807130243_98bb9ecb",
+   "requirement_id": "req_1791807130241_a34a223e",
+   "run_side": "android_baseline",
+   "status": "success",
+   "attempt": 1,
+   "mode": "full",
+   "started_at": "2026-10-12T20:12:10.243+08:00",
+   "finished_at": "2026-10-12T20:18:56.458+08:00",
+   "duration_ms": 406156,
+   "token_usage": 73192,
+   "commit_sha": "7f79e2e76c4020ca6abc1410c3af284a9ef72541",
+   "artifacts_dir": "experiments/req_1791807130241_a34a223e/android-baseline",
+   "engine_version": "claude_code:p1.10.2:eazo-skills-2026.09.30:eazo-tpl-2026.10.06:glm-5.3[1m]",
+   "toolchain_version": "harmony:api24+hvigor6.1.0|android:jdk21+gradle8.9+agp8.5.2+kotlin1.9.10+compileSdk34",
+   "degraded_dims": [],
+   "error_code": null
+  }
+ ]
+}

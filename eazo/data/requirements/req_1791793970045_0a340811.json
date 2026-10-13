@@ -1,0 +1,48 @@
+{
+ "id": "req_1791793970045_0a340811",
+ "nl_text": "做一个「货币换算器」App：内置固定汇率表（USD/EUR/JPY/CNY/GBP/HKD 六种常用币种，常量数据面确定性锁定），支持源币种→目标币种双向金额换算（金额 × 汇率，四舍五入到分，确定性纯函数），币种选择器切换实时更新结果，支持快速反转兑换方向；界面精致美观（币种下拉选择 + 金额输入框 + 换算结果卡片 + 方向切换按钮）；可选多端自适应。",
+ "category_id": "finance",
+ "origin": "manual",
+ "complexity_bucket": "S",
+ "status": "failed",
+ "parent_id": null,
+ "created_at": "2026-10-12T16:32:50.045+08:00",
+ "runs": [
+  {
+   "id": "run_1791793970047_951bc303",
+   "requirement_id": "req_1791793970045_0a340811",
+   "run_side": "android_baseline",
+   "status": "failed",
+   "attempt": 1,
+   "mode": "full",
+   "started_at": "2026-10-12T16:32:50.047+08:00",
+   "finished_at": "2026-10-12T16:47:30.512+08:00",
+   "duration_ms": 833268,
+   "token_usage": 152242,
+   "commit_sha": null,
+   "artifacts_dir": null,
+   "engine_version": "claude_code:p1.10.2:eazo-skills-2026.09.30:eazo-tpl-2026.10.06:glm-5.3[1m]",
+   "toolchain_version": "harmony:api24+hvigor6.1.0|android:jdk21+gradle8.9+agp8.5.2+kotlin1.9.10+compileSdk34",
+   "degraded_dims": [],
+   "error_code": "EZO-GIT-005"
+  },
+  {
+   "id": "run_1791793970047_bf998a26",
+   "requirement_id": "req_1791793970045_0a340811",
+   "run_side": "harmony",
+   "status": "failed",
+   "attempt": 1,
+   "mode": "full",
+   "started_at": "2026-10-12T16:32:50.047+08:00",
+   "finished_at": "2026-10-12T16:45:40.545+08:00",
+   "duration_ms": 723328,
+   "token_usage": 100691,
+   "commit_sha": null,
+   "artifacts_dir": null,
+   "engine_version": "claude_code:p1.10.2:eazo-skills-2026.09.30:eazo-tpl-2026.10.06:glm-5.3[1m]",
+   "toolchain_version": "harmony:api24+hvigor6.1.0|android:jdk21+gradle8.9+agp8.5.2+kotlin1.9.10+compileSdk34",
+   "degraded_dims": [],
+   "error_code": "EZO-GIT-005"
+  }
+ ]
+}

@@ -1,0 +1,56 @@
+[
+ {
+  "id": "shot_imp_2026_10_06_req013_photo_filter_lab_05",
+  "run_id": "run_imp_2026_10_06_req013_photo_filter_lab_h",
+  "side": "harmony",
+  "path": "shots/shot_imp_2026_10_06_req013_photo_filter_lab_05.jpeg",
+  "captured_at": "2026-10-06T11:00:00+08:00",
+  "degraded": false,
+  "image_url": "shots/shot_imp_2026_10_06_req013_photo_filter_lab_05.jpeg"
+ },
+ {
+  "id": "shot_imp_2026_10_06_req013_photo_filter_lab_06",
+  "run_id": "run_imp_2026_10_06_req013_photo_filter_lab_h",
+  "side": "harmony",
+  "path": "shots/shot_imp_2026_10_06_req013_photo_filter_lab_06.jpeg",
+  "captured_at": "2026-10-06T11:00:00+08:00",
+  "degraded": false,
+  "image_url": "shots/shot_imp_2026_10_06_req013_photo_filter_lab_06.jpeg"
+ },
+ {
+  "id": "shot_imp_2026_10_06_req013_photo_filter_lab_07",
+  "run_id": "run_imp_2026_10_06_req013_photo_filter_lab_h",
+  "side": "harmony",
+  "path": "shots/shot_imp_2026_10_06_req013_photo_filter_lab_07.jpeg",
+  "captured_at": "2026-10-06T11:00:00+08:00",
+  "degraded": false,
+  "image_url": "shots/shot_imp_2026_10_06_req013_photo_filter_lab_07.jpeg"
+ },
+ {
+  "id": "shot_imp_2026_10_06_req013_photo_filter_lab_08",
+  "run_id": "run_imp_2026_10_06_req013_photo_filter_lab_h",
+  "side": "harmony",
+  "path": "shots/shot_imp_2026_10_06_req013_photo_filter_lab_08.jpeg",
+  "captured_at": "2026-10-06T11:00:00+08:00",
+  "degraded": false,
+  "image_url": "shots/shot_imp_2026_10_06_req013_photo_filter_lab_08.jpeg"
+ },
+ {
+  "id": "shot_imp_2026_10_06_req013_photo_filter_lab_09",
+  "run_id": "run_imp_2026_10_06_req013_photo_filter_lab_h",
+  "side": "harmony",
+  "path": "shots/shot_imp_2026_10_06_req013_photo_filter_lab_09.jpeg",
+  "captured_at": "2026-10-06T11:00:00+08:00",
+  "degraded": false,
+  "image_url": "shots/shot_imp_2026_10_06_req013_photo_filter_lab_09.jpeg"
+ },
+ {
+  "id": "shot_imp_2026_10_06_req013_photo_filter_lab_10",
+  "run_id": "run_imp_2026_10_06_req013_photo_filter_lab_h",
+  "side": "harmony",
+  "path": "shots/shot_imp_2026_10_06_req013_photo_filter_lab_10.jpeg",
+  "captured_at": "2026-10-06T11:00:00+08:00",
+  "degraded": false,
+  "image_url": "shots/shot_imp_2026_10_06_req013_photo_filter_lab_10.jpeg"
+ }
+]

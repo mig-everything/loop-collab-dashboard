@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Eazo 平台 · 一句话生成双端 APP</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="logo">Eazo<span class="sub">一句话生成鸿蒙 & 安卓双端 APP</span></div>
+  <nav>
+    <a href="index.html" data-page="home">新建生成</a>
+    <a href="history.html" data-page="history">历史记录</a>
+  </nav>
+  <div class="health" id="health-indicator"><span class="dot"></span>检查中…</div>
+</header>
+
+<main class="wrap">
+  <p style="color:var(--muted);font-size:13px;margin:0 0 12px">公开只读展示站 · 由 Eazo 平台每日 Loop 自动更新</p>
+  <h1 class="page-title">新建生成</h1>
+  <p class="page-desc">输入一句自然语言需求，平台将并行生成鸿蒙（ArkTS/ArkUI）与安卓（Kotlin）双端工程，自动构建门禁并产出对比报告。</p>
+
+  <section class="card" id="input-card">
+    <h3>需求输入</h3>
+    <label class="field">一句话需求（自然语言）
+      <textarea id="nl" placeholder="例如：做一个每日一句 App，每天展示一句精选语录，支持收藏和分享"></textarea>
+    </label>
+    <label class="field">类别<span class="hint">不选则自动归类</span>
+      <select id="category"></select>
+    </label>
+    <div style="display:flex; gap:12px; align-items:center;">
+      <button class="btn" id="btn-generate">开始生成</button>
+      <span style="color:var(--muted); font-size:13px;" id="gen-note">生成耗时约 10~25 分钟/端，可先去「历史记录」看进度。</span>
+    </div>
+    <div class="msg" id="gen-msg"></div>
+  </section>
+
+  <section class="card" id="readonly-card" style="display:none;">
+    <h3>只读展示</h3>
+    <p style="margin:0; color:var(--muted);">新建生成仅限平台内部（每日三轮会议自动创建）。访客请浏览
+      <a href="history.html">历史记录</a>，查看历次双端生成结果、对比报告与运行截图。</p>
+  </section>
+
+  <section class="card" id="status-card" style="display:none;">
+    <h3>生成状态 <span id="status-req" style="font-weight:400; color:var(--muted); font-size:12.5px;"></span></h3>
+    <div id="status-runs"></div>
+    <div style="margin-top:10px;">
+      <a id="status-detail-link" href="#" style="display:none;">→ 查看详情页（报告 / 截图 / 源码下载）</a>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">Eazo Platform · IPD-217 网页 UI · 双端对照：更快更好更好看</footer>
+<script>window.EAZO_STATIC_MODE=true;</script>
+<script src="app.js"></script>
+<script>
+"use strict";
+(function () {
+  initTopbar("home");
+  const sel = document.getElementById("category");
+  CATEGORIES.forEach(([v, label]) => {
+    const o = document.createElement("option");
+    o.value = v; o.textContent = label; sel.appendChild(o);
+  });
+
+  const nlEl = document.getElementById("nl");
+  const msgEl = document.getElementById("gen-msg");
+  const btn = document.getElementById("btn-generate");
+  const statusCard = document.getElementById("status-card");
+  const statusRuns = document.getElementById("status-runs");
+  const statusReq = document.getElementById("status-req");
+  const detailLink = document.getElementById("status-detail-link");
+  let pollTimer = null;
+
+  // IPD-525：写门禁两态显隐——health.write_open===false 时隐藏输入卡/状态卡，
+  // 换提示卡；health 请求失败按开放处理（保持离线开发体验）
+  (async () => {
+    let open = true;
+    try {
+      const h = await API.health();
+      open = h.write_open !== false;
+    } catch (_) { /* 默认 write_open=true */ }
+    if (open) return;
+    document.getElementById("input-card").style.display = "none";
+    statusCard.style.display = "none";
+    document.getElementById("readonly-card").style.display = "block";
+  })();
+
+  function renderRuns(runs) {
+    statusRuns.innerHTML = runs.map(r => `
+      <div class="run-box">
+        <div class="row">
+          ${sideChip(r.run_side)}
+          ${badge(r.status)}
+          <span>耗时 <b>${fmtDur(r.duration_ms)}</b></span>
+          <span>Token <b>${fmtTokens(r.token_usage)}</b></span>
+          ${r.commit_sha ? shortSha(r.commit_sha) : ""}
+          ${r.error_code ? `<span class="badge failed">${esc(r.error_code)}</span>` : ""}
+        </div>
+      </div>`).join("");
+  }
+
+  async function poll(reqId) {
+    try {
+      const runs = await API.runs(reqId);
+      renderRuns(runs);
+      const active = runs.some(r => r.status === "queued" || r.status === "running");
+      detailLink.href = "detail.html?id=" + encodeURIComponent(reqId);
+      detailLink.style.display = "inline";
+      if (active) {
+        pollTimer = setTimeout(() => poll(reqId), 5000);
+      } else {
+        clearMsg(msgEl);
+        const ok = runs.every(r => r.status === "success");
+        msg(msgEl, ok ? "双端生成完成 ✓ 详情页可看报告与截图。" :
+             "生成已结束（有失败端），详情页可看错误码与日志。", ok ? "ok" : "error");
+      }
+    } catch (e) {
+      pollTimer = setTimeout(() => poll(reqId), 8000);
+    }
+  }
+
+  btn.addEventListener("click", async () => {
+    clearMsg(msgEl);
+    const nl = nlEl.value;
+    if (!nl || !nl.trim()) { msg(msgEl, "请输入一句话需求"); return; }
+    btn.disabled = true; btn.textContent = "提交中…";
+    try {
+      const req = await API.createRequirement(nl, sel.value || null);
+      const gen = await API.generate(req.id);
+      statusCard.style.display = "block";
+      statusReq.textContent = "需求 " + req.id + " · " + (gen.already_running ? "已有进行中的生成（幂等复用）" : "已触发双端生成");
+      renderRuns(gen.runs || []);
+      msg(msgEl, "已触发双端生成（后台执行中），下方实时刷新状态。", "ok");
+      poll(req.id);
+    } catch (e) {
+      msg(msgEl, `提交失败：${e.code || ""} ${e.message}` + (e.detail ? " · " + JSON.stringify(e.detail) : ""));
+      btn.disabled = false; btn.textContent = "开始生成";
+      return;
+    }
+    btn.disabled = false; btn.textContent = "再生成一个";
+  });
+})();
+</script>
+</body>
+</html>

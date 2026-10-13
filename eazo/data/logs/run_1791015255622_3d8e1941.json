@@ -1,0 +1,42 @@
+{
+ "run_id": "run_1791015255622_3d8e1941",
+ "requirement_id": "req_1791015255622_dod3h",
+ "logs": [
+  {
+   "id": "log_1791015255623_9eda9039",
+   "run_id": "run_1791015255622_3d8e1941",
+   "ts": "2026-10-03T16:14:15.623+08:00",
+   "level": "INFO",
+   "message": "run queued (android_baseline)",
+   "event": "state_transition"
+  },
+  {
+   "id": "log_1791015255627_1193a7a6",
+   "run_id": "run_1791015255622_3d8e1941",
+   "ts": "2026-10-03T16:14:15.627+08:00",
+   "level": "INFO",
+   "message": "generation started (android_baseline)",
+   "event": "state_transition"
+  },
+  {
+   "id": "log_1791015862719_2b288c09",
+   "run_id": "run_1791015255622_3d8e1941",
+   "ts": "2026-10-03T16:24:22.719+08:00",
+   "level": "INFO",
+   "message": "commit gate passed (android_baseline) sha=98e8bdb0447ab11c8ac0aa446c4b552d5025290e files=23 pushed=True",
+   "event": "state_transition"
+  }
+ ],
+ "log_files": [
+  {
+   "side": "harmony",
+   "path": "experiments/req_1791015255622_dod3h/logs/harmony.log",
+   "exists": true
+  },
+  {
+   "side": "android_baseline",
+   "path": "experiments/req_1791015255622_dod3h/logs/android_baseline.log",
+   "exists": true
+  }
+ ]
+}

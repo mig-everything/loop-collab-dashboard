@@ -1,0 +1,48 @@
+{
+ "id": "req_1791473431535_eb9ec171",
+ "nl_text": "做一个「番茄钟」专注计时 App：默认 25 分钟专注 / 5 分钟短休息，圆形进度环倒计时显示剩余时间，提供 开始/暂停/重置 三个主按钮；支持自定义专注时长与休息时长；记录今日已完成专注轮数与累计专注时长；界面精致美观（深色主题 + 柔和渐变进度环 + 大字号倒计时）；可选桌面卡片（元服务）与多端自适应。",
+ "category_id": "efficiency",
+ "origin": "manual",
+ "complexity_bucket": "S",
+ "status": "succeeded",
+ "parent_id": null,
+ "created_at": "2026-10-08T23:30:31.535+08:00",
+ "runs": [
+  {
+   "id": "run_1791473431536_c69d7fe2",
+   "requirement_id": "req_1791473431535_eb9ec171",
+   "run_side": "harmony",
+   "status": "success",
+   "attempt": 1,
+   "mode": "full",
+   "started_at": "2026-10-08T23:30:31.536+08:00",
+   "finished_at": "2026-10-08T23:50:53.885+08:00",
+   "duration_ms": 1222306,
+   "token_usage": 178383,
+   "commit_sha": "7490b8dc605e77c808f319c3b662cac75d51d9e2",
+   "artifacts_dir": "experiments/req_1791473431535_eb9ec171/harmony",
+   "engine_version": "claude_code:p1.5.0:eazo-skills-2026.09.30:eazo-tpl-2026.10.06:glm-5.3[1m]",
+   "toolchain_version": "harmony:api24+hvigor6.1.0|android:jdk21+gradle8.9+agp8.5.2+kotlin1.9.10+compileSdk34",
+   "degraded_dims": [],
+   "error_code": null
+  },
+  {
+   "id": "run_1791473431536_f88a2c75",
+   "requirement_id": "req_1791473431535_eb9ec171",
+   "run_side": "android_baseline",
+   "status": "success",
+   "attempt": 1,
+   "mode": "full",
+   "started_at": "2026-10-08T23:30:31.536+08:00",
+   "finished_at": "2026-10-08T23:44:42.092+08:00",
+   "duration_ms": 850512,
+   "token_usage": 125155,
+   "commit_sha": "19968f429ec5715d298f0b95593ecce2375d3536",
+   "artifacts_dir": "experiments/req_1791473431535_eb9ec171/android-baseline",
+   "engine_version": "claude_code:p1.5.0:eazo-skills-2026.09.30:eazo-tpl-2026.10.06:glm-5.3[1m]",
+   "toolchain_version": "harmony:api24+hvigor6.1.0|android:jdk21+gradle8.9+agp8.5.2+kotlin1.9.10+compileSdk34",
+   "degraded_dims": [],
+   "error_code": null
+  }
+ ]
+}

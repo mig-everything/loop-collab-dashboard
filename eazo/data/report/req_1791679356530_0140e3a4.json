@@ -1,0 +1,375 @@
+{
+ "id": "rpt_1791680758394_549242f6",
+ "requirement_id": "req_1791679356530_0140e3a4",
+ "run_id_harmony": "run_1791679356532_dbc9cf4d",
+ "run_id_android": "run_1791679356532_61765f58",
+ "commit_sha_harmony": "0a3c1a2c2e59503297cec0b5b3f6fa0d5f326e77",
+ "commit_sha_android": "4b034227f8770af7508f943812a980f9e849949e",
+ "engine_version": "claude_code:p1.8.0:eazo-skills-2026.09.30:eazo-tpl-2026.10.06:glm-5.3[1m]",
+ "toolchain_version": "harmony:api24+hvigor6.1.0|android:jdk21+gradle8.9+agp8.5.2+kotlin1.9.10+compileSdk34",
+ "metrics_schema_version": "1.0.0",
+ "rubric_version": "eazo-rubric-1.0.0",
+ "dimensions": {
+  "func_coverage": {
+   "key": "func_coverage",
+   "harmony_pct": 100.0,
+   "android_pct": 100.0,
+   "diff": 0.0,
+   "func_points": [
+    {
+     "name": "输入文本生成二维码",
+     "harmony": "✓",
+     "android": "✓",
+     "note": "契约 C01 · slug generate_text_qr 双端命中（测试源码精确匹配）· 无运行取证，按测试源码 slug 匹配"
+    },
+    {
+     "name": "输入链接生成二维码",
+     "harmony": "✓",
+     "android": "✓",
+     "note": "契约 C02 · slug generate_url_qr 双端命中（测试源码精确匹配）· 无运行取证，按测试源码 slug 匹配"
+    },
+    {
+     "name": "空输入拒绝",
+     "harmony": "✓",
+     "android": "✓",
+     "note": "契约 C03 · slug reject_empty_input 双端命中（测试源码精确匹配）· 无运行取证，按测试源码 slug 匹配"
+    },
+    {
+     "name": "纯空白输入拒绝",
+     "harmony": "✓",
+     "android": "✓",
+     "note": "契约 C04 · slug reject_whitespace_input 双端命中（测试源码精确匹配）· 无运行取证，按测试源码 slug 匹配"
+    },
+    {
+     "name": "尺寸小档映射",
+     "harmony": "✓",
+     "android": "✓",
+     "note": "契约 C05 · slug size_small 双端命中（测试源码精确匹配）· 无运行取证，按测试源码 slug 匹配"
+    },
+    {
+     "name": "尺寸中档映射",
+     "harmony": "✓",
+     "android": "✓",
+     "note": "契约 C06 · slug size_medium 双端命中（测试源码精确匹配）· 无运行取证，按测试源码 slug 匹配"
+    },
+    {
+     "name": "尺寸大档映射",
+     "harmony": "✓",
+     "android": "✓",
+     "note": "契约 C07 · slug size_large 双端命中（测试源码精确匹配）· 无运行取证，按测试源码 slug 匹配"
+    },
+    {
+     "name": "纠错级别 L 映射",
+     "harmony": "✓",
+     "android": "✓",
+     "note": "契约 C08 · slug ec_level_l 双端命中（测试源码精确匹配）· 无运行取证，按测试源码 slug 匹配"
+    },
+    {
+     "name": "纠错级别 M 映射",
+     "harmony": "✓",
+     "android": "✓",
+     "note": "契约 C09 · slug ec_level_m 双端命中（测试源码精确匹配）· 无运行取证，按测试源码 slug 匹配"
+    },
+    {
+     "name": "纠错级别 Q 映射",
+     "harmony": "✓",
+     "android": "✓",
+     "note": "契约 C10 · slug ec_level_q 双端命中（测试源码精确匹配）· 无运行取证，按测试源码 slug 匹配"
+    },
+    {
+     "name": "纠错级别 H 映射",
+     "harmony": "✓",
+     "android": "✓",
+     "note": "契约 C11 · slug ec_level_h 双端命中（测试源码精确匹配）· 无运行取证，按测试源码 slug 匹配"
+    },
+    {
+     "name": "同输入同输出确定性",
+     "harmony": "✓",
+     "android": "✓",
+     "note": "契约 C12 · slug deterministic_same_input 双端命中（测试源码精确匹配）· 无运行取证，按测试源码 slug 匹配"
+    },
+    {
+     "name": "长文本自动升版本",
+     "harmony": "✓",
+     "android": "✓",
+     "note": "契约 C13 · slug long_text_version_up 双端命中（测试源码精确匹配）· 无运行取证，按测试源码 slug 匹配"
+    },
+    {
+     "name": "特殊字符 UTF-8 编码",
+     "harmony": "✓",
+     "android": "✓",
+     "note": "契约 C14 · slug special_chars_utf8 双端命中（测试源码精确匹配）· 无运行取证，按测试源码 slug 匹配"
+    },
+    {
+     "name": "超 512 字符截取",
+     "harmony": "✓",
+     "android": "✓",
+     "note": "契约 C15 · slug max_length_truncate 双端命中（测试源码精确匹配）· 无运行取证，按测试源码 slug 匹配"
+    }
+   ],
+   "degraded": false
+  },
+  "page": {
+   "key": "page",
+   "count_harmony": 1,
+   "count_android": 1,
+   "count_diff": 0,
+   "nodes_harmony": 1,
+   "nodes_android": 1,
+   "edges_harmony": 0,
+   "edges_android": 0,
+   "ui_score_harmony": 79.0,
+   "ui_score_android": 83.5,
+   "ui_score_diff": -4.5,
+   "ui_samples": 3,
+   "rubric_version": "eazo-rubric-1.0.0",
+   "degraded": false
+  },
+  "duration": {
+   "key": "duration",
+   "harmony_ms": 1059134,
+   "android_ms": 1373300,
+   "diff_ms": -314166,
+   "normalized": true,
+   "wall_clock_ms": 0,
+   "degraded": false
+  },
+  "token": {
+   "key": "token",
+   "harmony_tokens": 223376,
+   "android_tokens": 340532,
+   "diff_tokens": -117156,
+   "normalized": true,
+   "degraded": false
+  },
+  "features": [
+   {
+    "name": "输入文本生成二维码",
+    "harmony": "✓",
+    "android": "✓",
+    "note": "契约 C01 · slug generate_text_qr 双端命中（测试源码精确匹配）· 无运行取证，按测试源码 slug 匹配"
+   },
+   {
+    "name": "输入链接生成二维码",
+    "harmony": "✓",
+    "android": "✓",
+    "note": "契约 C02 · slug generate_url_qr 双端命中（测试源码精确匹配）· 无运行取证，按测试源码 slug 匹配"
+   },
+   {
+    "name": "空输入拒绝",
+    "harmony": "✓",
+    "android": "✓",
+    "note": "契约 C03 · slug reject_empty_input 双端命中（测试源码精确匹配）· 无运行取证，按测试源码 slug 匹配"
+   },
+   {
+    "name": "纯空白输入拒绝",
+    "harmony": "✓",
+    "android": "✓",
+    "note": "契约 C04 · slug reject_whitespace_input 双端命中（测试源码精确匹配）· 无运行取证，按测试源码 slug 匹配"
+   },
+   {
+    "name": "尺寸小档映射",
+    "harmony": "✓",
+    "android": "✓",
+    "note": "契约 C05 · slug size_small 双端命中（测试源码精确匹配）· 无运行取证，按测试源码 slug 匹配"
+   },
+   {
+    "name": "尺寸中档映射",
+    "harmony": "✓",
+    "android": "✓",
+    "note": "契约 C06 · slug size_medium 双端命中（测试源码精确匹配）· 无运行取证，按测试源码 slug 匹配"
+   },
+   {
+    "name": "尺寸大档映射",
+    "harmony": "✓",
+    "android": "✓",
+    "note": "契约 C07 · slug size_large 双端命中（测试源码精确匹配）· 无运行取证，按测试源码 slug 匹配"
+   },
+   {
+    "name": "纠错级别 L 映射",
+    "harmony": "✓",
+    "android": "✓",
+    "note": "契约 C08 · slug ec_level_l 双端命中（测试源码精确匹配）· 无运行取证，按测试源码 slug 匹配"
+   },
+   {
+    "name": "纠错级别 M 映射",
+    "harmony": "✓",
+    "android": "✓",
+    "note": "契约 C09 · slug ec_level_m 双端命中（测试源码精确匹配）· 无运行取证，按测试源码 slug 匹配"
+   },
+   {
+    "name": "纠错级别 Q 映射",
+    "harmony": "✓",
+    "android": "✓",
+    "note": "契约 C10 · slug ec_level_q 双端命中（测试源码精确匹配）· 无运行取证，按测试源码 slug 匹配"
+   },
+   {
+    "name": "纠错级别 H 映射",
+    "harmony": "✓",
+    "android": "✓",
+    "note": "契约 C11 · slug ec_level_h 双端命中（测试源码精确匹配）· 无运行取证，按测试源码 slug 匹配"
+   },
+   {
+    "name": "同输入同输出确定性",
+    "harmony": "✓",
+    "android": "✓",
+    "note": "契约 C12 · slug deterministic_same_input 双端命中（测试源码精确匹配）· 无运行取证，按测试源码 slug 匹配"
+   },
+   {
+    "name": "长文本自动升版本",
+    "harmony": "✓",
+    "android": "✓",
+    "note": "契约 C13 · slug long_text_version_up 双端命中（测试源码精确匹配）· 无运行取证，按测试源码 slug 匹配"
+   },
+   {
+    "name": "特殊字符 UTF-8 编码",
+    "harmony": "✓",
+    "android": "✓",
+    "note": "契约 C14 · slug special_chars_utf8 双端命中（测试源码精确匹配）· 无运行取证，按测试源码 slug 匹配"
+   },
+   {
+    "name": "超 512 字符截取",
+    "harmony": "✓",
+    "android": "✓",
+    "note": "契约 C15 · slug max_length_truncate 双端命中（测试源码精确匹配）· 无运行取证，按测试源码 slug 匹配"
+   }
+  ],
+  "uijudge_detail": {
+   "model": "MiniMax-M3",
+   "rubric_version": "eazo-rubric-1.0.0",
+   "samples": 3,
+   "harmony": {
+    "run_id": "run_1791679356532_dbc9cf4d",
+    "shots": 2,
+    "score5": 4.16,
+    "score100": 79.0,
+    "raw_samples": [
+     3.92,
+     4.28,
+     4.28
+    ],
+    "dim_scores": {
+     "visual_consistency": 4.5,
+     "layout_reasonableness": 4.0,
+     "readability": 4.5,
+     "interaction_feedback": 4.0,
+     "task_clarity": 4.5
+    }
+   },
+   "android_baseline": {
+    "run_id": "run_1791679356532_61765f58",
+    "shots": 2,
+    "score5": 4.34,
+    "score100": 83.5,
+    "raw_samples": [
+     4.4,
+     4.33,
+     4.3
+    ],
+    "dim_scores": {
+     "visual_consistency": 4.5,
+     "layout_reasonableness": 4.5,
+     "readability": 4.0,
+     "interaction_feedback": 4.0,
+     "task_clarity": 4.5
+    }
+   },
+   "diff": -4.5,
+   "judged_at": "2026-10-11T09:05:58+08:00",
+   "weights": {
+    "visual_consistency": 0.25,
+    "layout_reasonableness": 0.25,
+    "readability": 0.2,
+    "interaction_feedback": 0.2,
+    "task_clarity": 0.1
+   }
+  }
+ },
+ "verdict": {
+  "overall": "degraded_pass",
+  "per_dim": {
+   "func_coverage": "pass",
+   "page": "degraded",
+   "duration": "pass",
+   "token": "pass",
+   "ui": "near_tie"
+  },
+  "failed_dims": [],
+  "degraded_dims": [
+   "page"
+  ],
+  "threshold_snapshot": {
+   "func_diff_max": 0.0,
+   "ui_diff_min": 12.5,
+   "duration_diff_max": 0,
+   "token_diff_max": 0
+  },
+  "formula": "func(diff<=0) AND page(ui_diff>=12.5) AND duration(diff<0) AND token(diff<0)"
+ },
+ "composite": {
+  "formula_text": "综合分 = 功能 40% + 页面 20% + UI 20% + 效率 20%。功能=功能覆盖率(%)；页面=页面计数比(该端页数÷两端最大页数×100)；UI=uijudge 美观度得分(0~100)；效率=时长与 Token 两子项平均，每项=100×min(两端值)÷该端值(快者/省者得分高，相等都 100)。缺失或降级的维度剔除后，剩余维权重按比例归一化。",
+  "harmony": {
+   "score": 95.8,
+   "contributions": {
+    "func": {
+     "label": "功能",
+     "value": 100.0,
+     "weight": 0.4,
+     "weighted": 40.0
+    },
+    "page": {
+     "label": "页面",
+     "value": 100.0,
+     "weight": 0.2,
+     "weighted": 20.0
+    },
+    "ui": {
+     "label": "UI",
+     "value": 79.0,
+     "weight": 0.2,
+     "weighted": 15.8
+    },
+    "efficiency": {
+     "label": "效率",
+     "value": 100.0,
+     "weight": 0.2,
+     "weighted": 20.0
+    }
+   },
+   "excluded": []
+  },
+  "android": {
+   "score": 91.0,
+   "contributions": {
+    "func": {
+     "label": "功能",
+     "value": 100.0,
+     "weight": 0.4,
+     "weighted": 40.0
+    },
+    "page": {
+     "label": "页面",
+     "value": 100.0,
+     "weight": 0.2,
+     "weighted": 20.0
+    },
+    "ui": {
+     "label": "UI",
+     "value": 83.5,
+     "weight": 0.2,
+     "weighted": 16.7
+    },
+    "efficiency": {
+     "label": "效率",
+     "value": 71.36,
+     "weight": 0.2,
+     "weighted": 14.27
+    }
+   },
+   "excluded": []
+  }
+ },
+ "is_incremental": false,
+ "timestamp": "2026-10-11T09:05:58.394+08:00",
+ "created_at": "2026-10-11T09:05:58.394+08:00"
+}

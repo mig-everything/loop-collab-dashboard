@@ -1,0 +1,38 @@
+[
+ {
+  "id": "run_1791310284760_c013258b",
+  "requirement_id": "req_1791310284758_683ca1ff",
+  "run_side": "android_baseline",
+  "status": "success",
+  "attempt": 1,
+  "mode": "full",
+  "started_at": "2026-10-07T02:11:24.761+08:00",
+  "finished_at": "2026-10-07T02:25:11.045+08:00",
+  "duration_ms": 826249,
+  "token_usage": 100158,
+  "commit_sha": "426ce2b663c6c28bd9a074d1935037873b9f0cb4",
+  "artifacts_dir": "experiments/req_1791310284758_683ca1ff/android-baseline",
+  "engine_version": "claude_code:p1.3.0:eazo-skills-2026.09.30:eazo-tpl-2026.10.06:claude-sonnet-5-5",
+  "toolchain_version": "harmony:api24+hvigor6.1.0|android:jdk21+gradle8.9+agp8.5.2+kotlin1.9.10+compileSdk34",
+  "degraded_dims": [],
+  "error_code": null
+ },
+ {
+  "id": "run_1791310284760_f480b95f",
+  "requirement_id": "req_1791310284758_683ca1ff",
+  "run_side": "harmony",
+  "status": "success",
+  "attempt": 1,
+  "mode": "full",
+  "started_at": "2026-10-07T02:11:24.761+08:00",
+  "finished_at": "2026-10-07T02:23:36.179+08:00",
+  "duration_ms": 731393,
+  "token_usage": 123054,
+  "commit_sha": "968ce6b34998d15b3ff5b3361c97207ea95e7f24",
+  "artifacts_dir": "experiments/req_1791310284758_683ca1ff/harmony",
+  "engine_version": "claude_code:p1.3.0:eazo-skills-2026.09.30:eazo-tpl-2026.10.06:claude-sonnet-5-5",
+  "toolchain_version": "harmony:api24+hvigor6.1.0|android:jdk21+gradle8.9+agp8.5.2+kotlin1.9.10+compileSdk34",
+  "degraded_dims": [],
+  "error_code": null
+ }
+]

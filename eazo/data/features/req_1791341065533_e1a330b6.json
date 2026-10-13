@@ -1,0 +1,107 @@
+{
+ "requirement_id": "req_1791341065533_e1a330b6",
+ "features": [
+  {
+   "name": "assert Brown Samples",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "双端同集（归一命名一致）· Hypium 15/15 · JUnit 15/15"
+  },
+  {
+   "name": "assert Card Data",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "双端同集（归一命名一致）· Hypium 15/15 · JUnit 15/15"
+  },
+  {
+   "name": "assert Chunk2 Hashes",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "双端同集（归一命名一致）· Hypium 15/15 · JUnit 15/15"
+  },
+  {
+   "name": "assert Data Faces",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "双端同集（归一命名一致）· Hypium 15/15 · JUnit 15/15"
+  },
+  {
+   "name": "assert Params Direct",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "双端同集（归一命名一致）· Hypium 15/15 · JUnit 15/15"
+  },
+  {
+   "name": "assert Pink Samples",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "双端同集（归一命名一致）· Hypium 15/15 · JUnit 15/15"
+  },
+  {
+   "name": "assert Prng States",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "双端同集（归一命名一致）· Hypium 15/15 · JUnit 15/15"
+  },
+  {
+   "name": "assert Session Continuity",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "双端同集（归一命名一致）· Hypium 15/15 · JUnit 15/15"
+  },
+  {
+   "name": "assert Sine Structure",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "双端同集（归一命名一致）· Hypium 15/15 · JUnit 15/15"
+  },
+  {
+   "name": "assert Stream Hashes",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "双端同集（归一命名一致）· Hypium 15/15 · JUnit 15/15"
+  },
+  {
+   "name": "assert Tone A4 Samples",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "双端同集（归一命名一致）· Hypium 15/15 · JUnit 15/15"
+  },
+  {
+   "name": "assert Tone C5 Samples",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "双端同集（归一命名一致）· Hypium 15/15 · JUnit 15/15"
+  },
+  {
+   "name": "assert White Samples",
+   "harmony": "✓",
+   "android": "✓",
+   "note": "双端同集（归一命名一致）· Hypium 15/15 · JUnit 15/15"
+  },
+  {
+   "name": "assert Read Open Create",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "assert Sha256 Self Vector",
+   "harmony": "✓",
+   "android": "✗",
+   "note": "鸿蒙独有 · 安卓缺失"
+  },
+  {
+   "name": "assert Engine Kind And Params",
+   "harmony": "✗",
+   "android": "✓",
+   "note": "安卓独有 · 鸿蒙缺失"
+  },
+  {
+   "name": "assert Switch Resets Session",
+   "harmony": "✗",
+   "android": "✓",
+   "note": "安卓独有 · 鸿蒙缺失"
+  }
+ ]
+}

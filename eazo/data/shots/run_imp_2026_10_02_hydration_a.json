@@ -1,0 +1,38 @@
+[
+ {
+  "id": "shot_imp_2026_10_02_hydration_00",
+  "run_id": "run_imp_2026_10_02_hydration_a",
+  "side": "android_baseline",
+  "path": "shots/shot_imp_2026_10_02_hydration_00.png",
+  "captured_at": "2026-10-02T11:00:00+08:00",
+  "degraded": false,
+  "image_url": "shots/shot_imp_2026_10_02_hydration_00.png"
+ },
+ {
+  "id": "shot_imp_2026_10_02_hydration_01",
+  "run_id": "run_imp_2026_10_02_hydration_a",
+  "side": "android_baseline",
+  "path": "shots/shot_imp_2026_10_02_hydration_01.png",
+  "captured_at": "2026-10-02T11:00:00+08:00",
+  "degraded": false,
+  "image_url": "shots/shot_imp_2026_10_02_hydration_01.png"
+ },
+ {
+  "id": "shot_imp_2026_10_02_hydration_02",
+  "run_id": "run_imp_2026_10_02_hydration_a",
+  "side": "android_baseline",
+  "path": "shots/shot_imp_2026_10_02_hydration_02.png",
+  "captured_at": "2026-10-02T11:00:00+08:00",
+  "degraded": false,
+  "image_url": "shots/shot_imp_2026_10_02_hydration_02.png"
+ },
+ {
+  "id": "shot_imp_2026_10_02_hydration_03",
+  "run_id": "run_imp_2026_10_02_hydration_a",
+  "side": "android_baseline",
+  "path": "shots/shot_imp_2026_10_02_hydration_03.png",
+  "captured_at": "2026-10-02T11:00:00+08:00",
+  "degraded": false,
+  "image_url": "shots/shot_imp_2026_10_02_hydration_03.png"
+ }
+]
