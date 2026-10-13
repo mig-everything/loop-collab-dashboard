@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T06:49:37Z",
+  "generated_at": "2026-10-13T06:57:42Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -156,8 +156,8 @@
         }
       ],
       "issue_counts": {
-        "todo": 5,
-        "in_progress": 2,
+        "todo": 4,
+        "in_progress": 3,
         "in_review": 0,
         "done": 93
       },
@@ -165,8 +165,8 @@
         {
           "key": "BEN-286",
           "title": "搭建 iOS 应用开发环境并提供 Demo App 验证安装效果",
-          "status": "todo",
-          "updated_at": "2026-10-13T06:43:36Z"
+          "status": "in_progress",
+          "updated_at": "2026-10-13T06:55:16Z"
         },
         {
           "key": "BEN-277",
