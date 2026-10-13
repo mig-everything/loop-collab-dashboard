@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T22:00:24Z",
+  "generated_at": "2026-10-13T22:04:07Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -397,10 +397,9 @@
           "role": "DeepSeek Planner（小组 leader/PM ",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
-          "state": "working",
-          "issue": "IPD-540",
-          "issue_title": "[空闲检测] 2026-10-14 leader 两小时正点检查与加派",
-          "since": "2026-10-13T22:00:36Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "minimax-uijudge",
@@ -414,17 +413,17 @@
         }
       ],
       "issue_counts": {
-        "todo": 12,
+        "todo": 11,
         "in_progress": 0,
         "in_review": 1,
-        "done": 82
+        "done": 83
       },
       "latest_issues": [
         {
           "key": "IPD-540",
           "title": "[空闲检测] 2026-10-14 leader 两小时正点检查与加派",
-          "status": "todo",
-          "updated_at": "2026-10-13T22:00:35Z"
+          "status": "done",
+          "updated_at": "2026-10-13T22:02:27Z"
         },
         {
           "key": "IPD-539",
