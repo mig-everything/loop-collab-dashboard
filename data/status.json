@@ -1,85 +1,23 @@
 {
-  "generated_at": "2026-10-13T00:27:41Z",
+  "generated_at": "2026-10-13T03:54:07Z",
   "tasks": [
     {
       "id": "task1-survey",
       "title": "任务1 · 应用迁移综述",
       "workspace": "ws-survey-loop",
       "machine": "JordanZTdeMacBook-Pro",
-      "machine_online": true,
+      "machine_online": false,
       "meeting_active": false,
       "meeting_title": "",
       "progress": 47,
-      "agents": [
-        {
-          "name": "gpt-writer",
-          "emoji": "🧠",
-          "role": "GPT Writer（执笔者）",
-          "model": "gpt-6-luna",
-          "agent_id": "58ed4647-32dd-4ca1-8ddc-194b975d6024",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
-        },
-        {
-          "name": "kimi-adversary",
-          "emoji": "🦋",
-          "role": "Kimi Adversarial Reviewer（对抗评审",
-          "model": "",
-          "agent_id": "6e530cc6-6b9d-4398-936d-df9c13468125",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
-        },
-        {
-          "name": "deepseek-planner",
-          "emoji": "🐸",
-          "role": "DeepSeek Task Planner（任务规划+总结）",
-          "model": "deepseek:deepseek-v4-pro",
-          "agent_id": "04a4e04e-59d5-4f3a-8a16-acf99b80a493",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
-        }
-      ],
+      "agents": [],
       "issue_counts": {
         "todo": 0,
         "in_progress": 0,
         "in_review": 0,
-        "done": 99
+        "done": 0
       },
-      "latest_issues": [
-        {
-          "key": "SUR-343",
-          "title": "[巡检] 2026-10-13 leader Issue 状态巡检与催办",
-          "status": "done",
-          "updated_at": "2026-10-13T00:03:18Z"
-        },
-        {
-          "key": "SUR-330",
-          "title": "[任务][day-18] 第6-8章后端结构对齐：移动专题决策 + 综合发现/开放问题 + 结论",
-          "status": "done",
-          "updated_at": "2026-10-13T00:02:51Z"
-        },
-        {
-          "key": "SUR-339",
-          "title": "[评审][day-19] 复评 SUR-330 修复 ec5da5a + 口径12 范围一致性/RQ",
-          "status": "done",
-          "updated_at": "2026-10-13T00:02:50Z"
-        },
-        {
-          "key": "SUR-340",
-          "title": "[任务][day-19] 收尾：投稿检查清单更新到新口径 + 篇幅核对 + 口径3 论述自然性清理",
-          "status": "done",
-          "updated_at": "2026-10-13T00:02:49Z"
-        },
-        {
-          "key": "SUR-341",
-          "title": "[评审][day-19] 成对评审 SUR-340 收尾（投稿清单新口径 + 篇幅 + 口径3清理）",
-          "status": "done",
-          "updated_at": "2026-10-13T00:02:48Z"
-        }
-      ],
+      "latest_issues": [],
       "progress_note": "day-4 晨 37% → 午 42% → 晚 44% → 夜 47%",
       "progress_from": "last"
     },
@@ -88,100 +26,18 @@
       "title": "任务2 · 评测集与双端用例",
       "workspace": "ws-benchmark-loop",
       "machine": "张涛 Mac Studio",
-      "machine_online": true,
+      "machine_online": false,
       "meeting_active": false,
       "meeting_title": "",
       "progress": 90,
-      "agents": [
-        {
-          "name": "gpt-scenarist",
-          "emoji": "🦊",
-          "role": "GPT Scenarist",
-          "model": "zai:glm-5.3",
-          "agent_id": "6e6f1e24-3bc5-455a-85d2-cb3fb6c9a672",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
-        },
-        {
-          "name": "glm-runner",
-          "emoji": "👾",
-          "role": "GLM Runner & Analyst",
-          "model": "",
-          "agent_id": "bdaefa9b-7045-4264-95e4-1db664e353d0",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
-        },
-        {
-          "name": "deepseek-planner",
-          "emoji": "🍀",
-          "role": "DeepSeek Planner（小组 leader/PM）",
-          "model": "deepseek:deepseek-v4-pro",
-          "agent_id": "547cd361-ef50-4965-9477-bc659d8a1708",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
-        },
-        {
-          "name": "minimax-visual-diff",
-          "emoji": "🐼",
-          "role": "MiniMax 多模态视觉差分评审",
-          "model": "minimax-cn:MiniMax-M3",
-          "agent_id": "843ac45d-b5db-4f35-b07b-2e5754ec5a5f",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
-        },
-        {
-          "name": "项目观察员（GPT-6）",
-          "emoji": "🔍",
-          "role": "只读洞察项目目标与执行证据，用简单语言汇报进展、偏差和阻塞，",
-          "model": "gpt-6-astra",
-          "agent_id": "33b902ee-a4ca-46ae-9284-c8285311c687",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
-        }
-      ],
+      "agents": [],
       "issue_counts": {
-        "todo": 4,
-        "in_progress": 2,
+        "todo": 0,
+        "in_progress": 0,
         "in_review": 0,
-        "done": 94
+        "done": 0
       },
-      "latest_issues": [
-        {
-          "key": "BEN-277",
-          "title": "[观察员日报] 2026-10-11 通过率与 Agent 时间轴",
-          "status": "todo",
-          "updated_at": "2026-10-12T02:30:31Z"
-        },
-        {
-          "key": "BEN-280",
-          "title": "[任务·第2轮] 鸿蒙 test 变体扩容：口径⑤ 剩余 7 变体 + SC 收口 + 口径⑥ 全链",
-          "status": "in_progress",
-          "updated_at": "2026-10-11T13:29:06Z"
-        },
-        {
-          "key": "BEN-135",
-          "title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 1",
-          "status": "in_progress",
-          "updated_at": "2026-10-11T12:25:05Z"
-        },
-        {
-          "key": "BEN-281",
-          "title": "[任务·第2轮] BEN-248 新三数视觉四分类复核 + 新覆盖变体锚定（ref BEN-248/",
-          "status": "done",
-          "updated_at": "2026-10-11T12:12:04Z"
-        },
-        {
-          "key": "BEN-285",
-          "title": "[晚会日报] 2026-10-11",
-          "status": "done",
-          "updated_at": "2026-10-11T12:07:08Z"
-        }
-      ],
+      "latest_issues": [],
       "progress_note": "环比持平"
     },
     {
@@ -189,126 +45,25 @@
       "title": "任务3 · DW 代码迁移",
       "workspace": "ws-dw-migration-loop",
       "machine": "奕棣 MacBook",
-      "machine_online": true,
+      "machine_online": false,
       "meeting_active": false,
       "meeting_title": "",
       "progress": 52,
-      "agents": [
-        {
-          "name": "opus-analyzer",
-          "emoji": "🦁",
-          "role": "Opus Analyzer",
-          "model": "claude-opus-5-5",
-          "agent_id": "2f32549c-87c7-4202-8f54-3af79a30afa0",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
-        },
-        {
-          "name": "deepseek-planner",
-          "emoji": "⚡",
-          "role": "DeepSeek Planner（小组 leader/PM，",
-          "model": "deepseek:deepseek-v4-pro",
-          "agent_id": "950ff614-521d-4e32-a02d-423d41a7b2b3",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
-        },
-        {
-          "name": "dw-lead",
-          "emoji": "🐵",
-          "role": "DW 迁移执行小队队长",
-          "model": "claude-opus-5-5",
-          "agent_id": "c6ff7c69-0db4-4b35-ac81-dd00e5a53ba4",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
-        },
-        {
-          "name": "exec-runner",
-          "emoji": "🐙",
-          "role": "运行员",
-          "model": "claude-opus-5-5",
-          "agent_id": "1c3481f5-135b-4959-9daa-c510c076d494",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
-        },
-        {
-          "name": "exec-verifier",
-          "emoji": "🐝",
-          "role": "验证员",
-          "model": "claude-opus-5-5",
-          "agent_id": "69822c63-0dcc-4f3e-875d-7b300d437623",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
-        },
-        {
-          "name": "exec-fixer",
-          "emoji": "⭐",
-          "role": "修复员",
-          "model": "claude-opus-5-5",
-          "agent_id": "cd70e713-a339-4621-8699-2058d9cf7d6b",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
-        },
-        {
-          "name": "deveco",
-          "emoji": "👾",
-          "role": null,
-          "model": "",
-          "agent_id": "08a037a0-da6b-4ef0-b623-24732954c8fe",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
-        }
-      ],
+      "agents": [],
       "issue_counts": {
         "todo": 0,
-        "in_progress": 0,
+        "in_progress": 1,
         "in_review": 0,
-        "done": 84
+        "done": 0
       },
       "latest_issues": [
         {
-          "key": "DWM-311",
-          "title": "[巡检] 2026-10-13 leader Issue 状态巡检与催办",
-          "status": "done",
-          "updated_at": "2026-10-13T00:02:33Z"
-        },
-        {
-          "key": "DWM-310",
-          "title": "[空闲检测] 2026-10-13 leader 两小时正点检查与加派",
-          "status": "done",
-          "updated_at": "2026-10-12T22:02:35Z"
-        },
-        {
-          "key": "DWM-309",
-          "title": "[早会纪要] 2026-10-13",
-          "status": "done",
-          "updated_at": "2026-10-12T20:16:10Z"
-        },
-        {
-          "key": "DWM-308",
-          "title": "[巡检] 2026-10-13 leader Issue 状态巡检与催办",
-          "status": "done",
-          "updated_at": "2026-10-12T16:04:11Z"
-        },
-        {
-          "key": "DWM-307",
-          "title": "[空闲检测] 2026-10-12 leader 两小时正点检查与加派",
-          "status": "done",
-          "updated_at": "2026-10-12T14:03:58Z"
+          "key": "IPD-498",
+          "title": "[Dev] REQ-024 新需求B 货币换算器 四维负差归因+编码skill优化+同需求复测（第2",
+          "status": "in_progress",
+          "updated_at": "2026-10-13T00:26:27Z"
         }
       ],
-      "order": {
-        "key": "DWM-251",
-        "title": "[DW迁移任务单] OpenCamera 迁移 · 暂停（负责人要求·额度用尽）",
-        "status": "blocked",
-        "updated_at": "2026-10-10T20:10:57Z"
-      },
       "progress_note": "10 个应用：完成 7、进行中 0、暂停 1、未开始 2"
     },
     {
@@ -377,7 +132,7 @@
           "role": "IPD-RM 发布经理",
           "model": "zai:glm-5.3",
           "agent_id": "78156461-9644-478e-9c80-53cd18e25e33",
-          "state": "idle",
+          "state": "working",
           "issue": "",
           "issue_title": ""
         },
@@ -403,43 +158,12 @@
         }
       ],
       "issue_counts": {
-        "todo": 13,
-        "in_progress": 1,
-        "in_review": 2,
-        "done": 82
+        "todo": 0,
+        "in_progress": 0,
+        "in_review": 0,
+        "done": 0
       },
-      "latest_issues": [
-        {
-          "key": "IPD-498",
-          "title": "[Dev] REQ-024 新需求B 货币换算器 四维负差归因+编码skill优化+同需求复测（第2",
-          "status": "in_progress",
-          "updated_at": "2026-10-13T00:26:27Z"
-        },
-        {
-          "key": "IPD-516",
-          "title": "[SA] REQ-026 新需求A 2048数字游戏 TR-Design 六件套+契约 v1.0（第",
-          "status": "in_review",
-          "updated_at": "2026-10-13T00:17:03Z"
-        },
-        {
-          "key": "IPD-505",
-          "title": "[SE] REQ-025 新需求C 跑步配速 追踪矩阵 v1.0（第25场景·health·gate",
-          "status": "in_review",
-          "updated_at": "2026-10-13T00:06:41Z"
-        },
-        {
-          "key": "IPD-523",
-          "title": "[巡检] 2026-10-13 leader Issue 状态巡检与催办",
-          "status": "done",
-          "updated_at": "2026-10-13T00:05:24Z"
-        },
-        {
-          "key": "IPD-515",
-          "title": "[PM] REQ-026 新需求A 2048数字游戏 预研+PRD+TR-Req+契约冻结（第26场",
-          "status": "done",
-          "updated_at": "2026-10-13T00:04:51Z"
-        }
-      ]
+      "latest_issues": []
     }
   ]
 }
