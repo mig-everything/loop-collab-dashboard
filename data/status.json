@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T20:01:49Z",
+  "generated_at": "2026-10-13T20:05:28Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -414,12 +414,18 @@
         }
       ],
       "issue_counts": {
-        "todo": 11,
+        "todo": 12,
         "in_progress": 0,
         "in_review": 0,
         "done": 83
       },
       "latest_issues": [
+        {
+          "key": "IPD-534",
+          "title": "[SE] REQ-027 新需求B 颜色转换器 追踪矩阵 v1.0（第27场景·tool转换工具·g",
+          "status": "todo",
+          "updated_at": "2026-10-13T20:03:46Z"
+        },
         {
           "key": "IPD-538",
           "title": "[早会纪要] 2026-10-14",
@@ -431,12 +437,6 @@
           "title": "[巡检] 2026-10-14 leader Issue 状态巡检与催办",
           "status": "done",
           "updated_at": "2026-10-13T16:07:03Z"
-        },
-        {
-          "key": "IPD-534",
-          "title": "[SE] REQ-027 新需求B 颜色转换器 追踪矩阵 v1.0（第27场景·tool转换工具·g",
-          "status": "blocked",
-          "updated_at": "2026-10-13T16:06:54Z"
         },
         {
           "key": "IPD-498",
