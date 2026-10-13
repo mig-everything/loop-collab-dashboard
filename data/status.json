@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T12:31:51Z",
+  "generated_at": "2026-10-13T12:36:29Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -397,7 +397,7 @@
           "role": "DeepSeek Planner（小组 leader/PM ",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
-          "state": "working",
+          "state": "idle",
           "issue": "",
           "issue_title": ""
         },
@@ -423,7 +423,7 @@
           "key": "IPD-533",
           "title": "[晚会纪要] 2026-10-13（day-19 第3轮派单）",
           "status": "done",
-          "updated_at": "2026-10-13T12:32:19Z"
+          "updated_at": "2026-10-13T12:35:34Z"
         },
         {
           "key": "IPD-498",
