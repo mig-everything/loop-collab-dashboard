@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T03:53:03Z",
+  "generated_at": "2026-10-14T04:00:36Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -407,9 +407,10 @@
           "role": "DeepSeek Planner（小组 leader/PM ",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-543",
+          "issue_title": "[午会纪要] 2026-10-14",
+          "since": "2026-10-14T04:00:32Z"
         },
         {
           "name": "minimax-uijudge",
@@ -423,12 +424,18 @@
         }
       ],
       "issue_counts": {
-        "todo": 10,
+        "todo": 11,
         "in_progress": 0,
         "in_review": 0,
-        "done": 84
+        "done": 83
       },
       "latest_issues": [
+        {
+          "key": "IPD-543",
+          "title": "[午会纪要] 2026-10-14",
+          "status": "todo",
+          "updated_at": "2026-10-14T04:00:31Z"
+        },
         {
           "key": "IPD-542",
           "title": "[空闲检测] 2026-10-14 leader 两小时正点检查与加派",
@@ -452,12 +459,6 @@
           "title": "[PM] REQ-029 新需求A 灵感速记本 预研+PRD+TR-Req+契约冻结（第29场景·n",
           "status": "done",
           "updated_at": "2026-10-14T00:03:25Z"
-        },
-        {
-          "key": "IPD-540",
-          "title": "[空闲检测] 2026-10-14 leader 两小时正点检查与加派",
-          "status": "done",
-          "updated_at": "2026-10-13T22:02:27Z"
         }
       ]
     }
