@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T22:04:07Z",
+  "generated_at": "2026-10-14T00:02:52Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -397,9 +397,10 @@
           "role": "DeepSeek Planner（小组 leader/PM ",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-541",
+          "issue_title": "[巡检] 2026-10-14 leader Issue 状态巡检与催办",
+          "since": "2026-10-14T00:00:30Z"
         },
         {
           "name": "minimax-uijudge",
@@ -413,12 +414,18 @@
         }
       ],
       "issue_counts": {
-        "todo": 11,
+        "todo": 12,
         "in_progress": 0,
         "in_review": 1,
-        "done": 83
+        "done": 82
       },
       "latest_issues": [
+        {
+          "key": "IPD-541",
+          "title": "[巡检] 2026-10-14 leader Issue 状态巡检与催办",
+          "status": "todo",
+          "updated_at": "2026-10-14T00:00:29Z"
+        },
         {
           "key": "IPD-540",
           "title": "[空闲检测] 2026-10-14 leader 两小时正点检查与加派",
@@ -442,12 +449,6 @@
           "title": "[SE] REQ-026 新需求A 2048数字游戏 追踪矩阵 v1.0（第26场景·game·ga",
           "status": "blocked",
           "updated_at": "2026-10-13T20:12:21Z"
-        },
-        {
-          "key": "IPD-506",
-          "title": "[Dev] REQ-025 新需求C 跑步配速 双端生成+构建+运行+四维度量（第25场景·实验·g",
-          "status": "blocked",
-          "updated_at": "2026-10-13T20:12:14Z"
         }
       ]
     }
