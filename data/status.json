@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T12:43:43Z",
+  "generated_at": "2026-10-14T13:17:36Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -109,12 +109,9 @@
           "role": "GLM Runner & Analyst",
           "model": "",
           "agent_id": "bdaefa9b-7045-4264-95e4-1db664e353d0",
-          "state": "working",
-          "issue": "BEN-293",
-          "issue_title": "[任务·iOS线3] 补齐 iOS runtime 通道（动作/键盘/持久化/fixture）解锁 68 条未 read",
-          "since": "2026-10-14T11:58:24Z",
-          "parent_issue": "BEN-290",
-          "parent_title": "基于 cofi-20261010 功能清单生成 iOS 测试用例（复用安卓/鸿蒙 high-level 流程）并评分"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "deepseek-planner",
