@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T13:17:36Z",
+  "generated_at": "2026-10-14T14:00:21Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -407,9 +407,10 @@
           "role": "DeepSeek Planner（小组 leader/PM ",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-553",
+          "issue_title": "[空闲检测] 2026-10-14 leader 两小时正点检查与加派",
+          "since": "2026-10-14T14:00:39Z"
         },
         {
           "name": "minimax-uijudge",
@@ -423,12 +424,18 @@
         }
       ],
       "issue_counts": {
-        "todo": 11,
+        "todo": 12,
         "in_progress": 1,
         "in_review": 2,
-        "done": 81
+        "done": 80
       },
       "latest_issues": [
+        {
+          "key": "IPD-553",
+          "title": "[空闲检测] 2026-10-14 leader 两小时正点检查与加派",
+          "status": "todo",
+          "updated_at": "2026-10-14T14:00:38Z"
+        },
         {
           "key": "IPD-551",
           "title": "[SA] REQ-030 AA制账单均摊 TR-Design 六件套+契约 v1.0（第30场景·f",
@@ -452,12 +459,6 @@
           "title": "[Dev] 模板化/脚本化生成 pilot（口径16 候选①+②+④·分类模板库+骨架复用·back",
           "status": "backlog",
           "updated_at": "2026-10-14T12:09:10Z"
-        },
-        {
-          "key": "IPD-548",
-          "title": "[空闲检测] 2026-10-14 leader 两小时正点检查与加派",
-          "status": "done",
-          "updated_at": "2026-10-14T10:03:34Z"
         }
       ]
     }
