@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T12:10:21Z",
+  "generated_at": "2026-10-14T12:18:47Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -350,10 +350,9 @@
           "role": "IPD-PM 产品经理",
           "model": "",
           "agent_id": "1764c131-5c09-48cb-aa48-3177d5256dbb",
-          "state": "working",
-          "issue": "IPD-550",
-          "issue_title": "[PM] REQ-031 新需求C 每日一词单词打卡 预研+PRD+TR-Req+契约冻结（第31场景·study学习·",
-          "since": "2026-10-14T12:08:43Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "hermes-sa",
@@ -361,10 +360,9 @@
           "role": "IPD-SA 解决方案架构师",
           "model": "",
           "agent_id": "3e4373ef-a262-4b28-ab2a-818861fc9624",
-          "state": "working",
-          "issue": "IPD-551",
-          "issue_title": "[SA] REQ-030 AA制账单均摊 TR-Design 六件套+契约 v1.0（第30场景·finance·gat",
-          "since": "2026-10-14T12:09:06Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "hermes-se",
@@ -428,12 +426,24 @@
         }
       ],
       "issue_counts": {
-        "todo": 13,
+        "todo": 11,
         "in_progress": 1,
-        "in_review": 0,
+        "in_review": 2,
         "done": 81
       },
       "latest_issues": [
+        {
+          "key": "IPD-551",
+          "title": "[SA] REQ-030 AA制账单均摊 TR-Design 六件套+契约 v1.0（第30场景·f",
+          "status": "in_review",
+          "updated_at": "2026-10-14T12:18:49Z"
+        },
+        {
+          "key": "IPD-550",
+          "title": "[PM] REQ-031 新需求C 每日一词单词打卡 预研+PRD+TR-Req+契约冻结（第31场",
+          "status": "in_review",
+          "updated_at": "2026-10-14T12:17:26Z"
+        },
         {
           "key": "IPD-549",
           "title": "[晚会日报] 2026-10-14",
@@ -445,18 +455,6 @@
           "title": "[Dev] 模板化/脚本化生成 pilot（口径16 候选①+②+④·分类模板库+骨架复用·back",
           "status": "backlog",
           "updated_at": "2026-10-14T12:09:10Z"
-        },
-        {
-          "key": "IPD-551",
-          "title": "[SA] REQ-030 AA制账单均摊 TR-Design 六件套+契约 v1.0（第30场景·f",
-          "status": "todo",
-          "updated_at": "2026-10-14T12:09:04Z"
-        },
-        {
-          "key": "IPD-550",
-          "title": "[PM] REQ-031 新需求C 每日一词单词打卡 预研+PRD+TR-Req+契约冻结（第31场",
-          "status": "todo",
-          "updated_at": "2026-10-14T12:08:42Z"
         },
         {
           "key": "IPD-548",
