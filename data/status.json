@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T11:57:47Z",
+  "generated_at": "2026-10-14T12:01:54Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -99,9 +99,12 @@
           "role": "GPT Scenarist",
           "model": "zai:glm-5.3",
           "agent_id": "6e6f1e24-3bc5-455a-85d2-cb3fb6c9a672",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "BEN-295",
+          "issue_title": "[任务·iOS线5] 修复 cofi-20261010 iOS 21 条执行失败（断言过严 8 + 定位器失效 13，r",
+          "since": "2026-10-14T11:58:36Z",
+          "parent_issue": "BEN-290",
+          "parent_title": "基于 cofi-20261010 功能清单生成 iOS 测试用例（复用安卓/鸿蒙 high-level 流程）并评分"
         },
         {
           "name": "glm-runner",
@@ -109,9 +112,12 @@
           "role": "GLM Runner & Analyst",
           "model": "",
           "agent_id": "bdaefa9b-7045-4264-95e4-1db664e353d0",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "BEN-294",
+          "issue_title": "[任务·iOS线4] iOS instrumentation oracle 等价通道（assert_checked 状态",
+          "since": "2026-10-14T11:58:26Z",
+          "parent_issue": "BEN-290",
+          "parent_title": "基于 cofi-20261010 功能清单生成 iOS 测试用例（复用安卓/鸿蒙 high-level 流程）并评分"
         },
         {
           "name": "deepseek-planner",
@@ -119,10 +125,9 @@
           "role": "DeepSeek Planner（小组 leader/PM）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "547cd361-ef50-4965-9477-bc659d8a1708",
-          "state": "working",
-          "issue": "BEN-290",
-          "issue_title": "基于 cofi-20261010 功能清单生成 iOS 测试用例（复用安卓/鸿蒙 high-level 流程）并评分",
-          "since": "2026-10-14T11:56:26Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "minimax-visual-diff",
@@ -169,14 +174,14 @@
         "todo": 4,
         "in_progress": 3,
         "in_review": 2,
-        "done": 86
+        "done": 85
       },
       "latest_issues": [
         {
           "key": "BEN-290",
           "title": "基于 cofi-20261010 功能清单生成 iOS 测试用例（复用安卓/鸿蒙 high-leve",
           "status": "in_progress",
-          "updated_at": "2026-10-14T11:56:23Z"
+          "updated_at": "2026-10-14T11:58:46Z"
         },
         {
           "key": "BEN-288",
@@ -408,9 +413,10 @@
           "role": "DeepSeek Planner（小组 leader/PM ",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-549",
+          "issue_title": "[晚会日报] 2026-10-14",
+          "since": "2026-10-14T12:00:46Z"
         },
         {
           "name": "minimax-uijudge",
@@ -424,12 +430,18 @@
         }
       ],
       "issue_counts": {
-        "todo": 10,
+        "todo": 11,
         "in_progress": 1,
         "in_review": 0,
-        "done": 84
+        "done": 83
       },
       "latest_issues": [
+        {
+          "key": "IPD-549",
+          "title": "[晚会日报] 2026-10-14",
+          "status": "todo",
+          "updated_at": "2026-10-14T12:00:43Z"
+        },
         {
           "key": "IPD-548",
           "title": "[空闲检测] 2026-10-14 leader 两小时正点检查与加派",
@@ -453,12 +465,6 @@
           "title": "[Dev] REQ-024 新需求B 货币换算器 四维负差归因+编码skill优化+同需求复测（第2",
           "status": "blocked",
           "updated_at": "2026-10-14T08:14:15Z"
-        },
-        {
-          "key": "IPD-506",
-          "title": "[Dev] REQ-025 新需求C 跑步配速 双端生成+构建+运行+四维度量（第25场景·实验·g",
-          "status": "blocked",
-          "updated_at": "2026-10-14T08:14:14Z"
         }
       ]
     }
