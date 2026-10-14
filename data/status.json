@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T21:06:07Z",
+  "generated_at": "2026-10-14T21:09:49Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -357,10 +357,9 @@
           "role": "IPD-SA 解决方案架构师",
           "model": "",
           "agent_id": "3e4373ef-a262-4b28-ab2a-818861fc9624",
-          "state": "working",
-          "issue": "IPD-557",
-          "issue_title": "[SA] REQ-031 每日一词单词打卡 TR-Design 六件套+契约 v1.0（第31场景·study连续打卡·",
-          "since": "2026-10-14T20:58:20Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "hermes-se",
@@ -426,22 +425,22 @@
       ],
       "issue_counts": {
         "todo": 11,
-        "in_progress": 1,
+        "in_progress": 0,
         "in_review": 0,
-        "done": 82
+        "done": 83
       },
       "latest_issues": [
+        {
+          "key": "IPD-557",
+          "title": "[SA] REQ-031 每日一词单词打卡 TR-Design 六件套+契约 v1.0（第31场景·",
+          "status": "done",
+          "updated_at": "2026-10-14T21:06:41Z"
+        },
         {
           "key": "IPD-556",
           "title": "[PM] REQ-032 新需求A 健身动作教学 预研+PRD+TR-Req+契约冻结（第32场景·",
           "status": "done",
           "updated_at": "2026-10-14T21:04:47Z"
-        },
-        {
-          "key": "IPD-557",
-          "title": "[SA] REQ-031 每日一词单词打卡 TR-Design 六件套+契约 v1.0（第31场景·",
-          "status": "in_progress",
-          "updated_at": "2026-10-14T20:58:37Z"
         },
         {
           "key": "IPD-555",
