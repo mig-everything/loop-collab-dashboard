@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T06:31:30Z",
+  "generated_at": "2026-10-14T06:40:23Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -99,9 +99,12 @@
           "role": "GPT Scenarist",
           "model": "zai:glm-5.3",
           "agent_id": "6e6f1e24-3bc5-455a-85d2-cb3fb6c9a672",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "BEN-291",
+          "issue_title": "[任务·iOS线1] 生成 cofi-20261010 iOS 测试用例 + iOS bindings（复用安卓/鸿蒙 ",
+          "since": "2026-10-14T06:37:08Z",
+          "parent_issue": "BEN-290",
+          "parent_title": "基于 cofi-20261010 功能清单生成 iOS 测试用例（复用安卓/鸿蒙 high-level 流程）并评分"
         },
         {
           "name": "glm-runner",
@@ -119,10 +122,9 @@
           "role": "DeepSeek Planner（小组 leader/PM）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "547cd361-ef50-4965-9477-bc659d8a1708",
-          "state": "working",
-          "issue": "BEN-290",
-          "issue_title": "基于 cofi-20261010 功能清单生成 iOS 测试用例（复用安卓/鸿蒙 high-level 流程）并评分",
-          "since": "2026-10-14T06:28:53Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "minimax-visual-diff",
@@ -166,17 +168,17 @@
         }
       ],
       "issue_counts": {
-        "todo": 5,
-        "in_progress": 2,
+        "todo": 4,
+        "in_progress": 3,
         "in_review": 2,
-        "done": 90
+        "done": 88
       },
       "latest_issues": [
         {
           "key": "BEN-290",
           "title": "基于 cofi-20261010 功能清单生成 iOS 测试用例（复用安卓/鸿蒙 high-leve",
-          "status": "todo",
-          "updated_at": "2026-10-14T06:28:51Z"
+          "status": "in_progress",
+          "updated_at": "2026-10-14T06:37:25Z"
         },
         {
           "key": "BEN-288",
