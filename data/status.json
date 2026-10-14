@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T16:03:22Z",
+  "generated_at": "2026-10-14T16:07:28Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -407,10 +407,9 @@
           "role": "DeepSeek Planner（小组 leader/PM ",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
-          "state": "working",
-          "issue": "IPD-554",
-          "issue_title": "[巡检] 2026-10-15 leader Issue 状态巡检与催办",
-          "since": "2026-10-14T16:00:36Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "minimax-uijudge",
@@ -424,41 +423,41 @@
         }
       ],
       "issue_counts": {
-        "todo": 12,
-        "in_progress": 1,
-        "in_review": 2,
-        "done": 80
+        "todo": 11,
+        "in_progress": 0,
+        "in_review": 0,
+        "done": 83
       },
       "latest_issues": [
         {
           "key": "IPD-554",
           "title": "[巡检] 2026-10-15 leader Issue 状态巡检与催办",
-          "status": "todo",
-          "updated_at": "2026-10-14T16:00:35Z"
+          "status": "done",
+          "updated_at": "2026-10-14T16:07:31Z"
+        },
+        {
+          "key": "IPD-534",
+          "title": "[SE] REQ-027 新需求B 颜色转换器 追踪矩阵 v1.0（第27场景·tool转换工具·g",
+          "status": "blocked",
+          "updated_at": "2026-10-14T16:07:11Z"
+        },
+        {
+          "key": "IPD-550",
+          "title": "[PM] REQ-031 新需求C 每日一词单词打卡 预研+PRD+TR-Req+契约冻结（第31场",
+          "status": "done",
+          "updated_at": "2026-10-14T16:06:57Z"
+        },
+        {
+          "key": "IPD-551",
+          "title": "[SA] REQ-030 AA制账单均摊 TR-Design 六件套+契约 v1.0（第30场景·f",
+          "status": "done",
+          "updated_at": "2026-10-14T16:06:55Z"
         },
         {
           "key": "IPD-553",
           "title": "[空闲检测] 2026-10-14 leader 两小时正点检查与加派",
           "status": "done",
           "updated_at": "2026-10-14T14:02:55Z"
-        },
-        {
-          "key": "IPD-551",
-          "title": "[SA] REQ-030 AA制账单均摊 TR-Design 六件套+契约 v1.0（第30场景·f",
-          "status": "in_review",
-          "updated_at": "2026-10-14T12:18:49Z"
-        },
-        {
-          "key": "IPD-550",
-          "title": "[PM] REQ-031 新需求C 每日一词单词打卡 预研+PRD+TR-Req+契约冻结（第31场",
-          "status": "in_review",
-          "updated_at": "2026-10-14T12:17:26Z"
-        },
-        {
-          "key": "IPD-549",
-          "title": "[晚会日报] 2026-10-14",
-          "status": "done",
-          "updated_at": "2026-10-14T12:10:33Z"
         }
       ]
     }
