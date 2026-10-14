@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T03:49:16Z",
+  "generated_at": "2026-10-14T03:53:03Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -119,10 +119,9 @@
           "role": "DeepSeek Planner（小组 leader/PM）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "547cd361-ef50-4965-9477-bc659d8a1708",
-          "state": "working",
-          "issue": "BEN-288",
-          "issue_title": "监督 iOS 工程师（harness）将 dwm-cofi-android 迁移至 iOS 并交付",
-          "since": "2026-10-14T03:48:25Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "minimax-visual-diff",
@@ -167,16 +166,16 @@
       ],
       "issue_counts": {
         "todo": 4,
-        "in_progress": 3,
-        "in_review": 1,
+        "in_progress": 2,
+        "in_review": 2,
         "done": 91
       },
       "latest_issues": [
         {
           "key": "BEN-288",
           "title": "监督 iOS 工程师（harness）将 dwm-cofi-android 迁移至 iOS 并交付",
-          "status": "in_progress",
-          "updated_at": "2026-10-14T03:39:08Z"
+          "status": "in_review",
+          "updated_at": "2026-10-14T03:50:34Z"
         },
         {
           "key": "BEN-286",
