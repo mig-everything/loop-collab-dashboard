@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T03:03:43Z",
+  "generated_at": "2026-10-14T03:41:42Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -178,13 +178,13 @@
           "key": "BEN-288",
           "title": "监督 iOS 工程师（harness）将 dwm-cofi-android 迁移至 iOS 并交付",
           "status": "in_progress",
-          "updated_at": "2026-10-14T02:59:52Z"
+          "updated_at": "2026-10-14T03:39:08Z"
         },
         {
           "key": "BEN-286",
           "title": "搭建 iOS 应用开发环境并提供 Demo App 验证安装效果",
           "status": "in_review",
-          "updated_at": "2026-10-14T02:39:26Z"
+          "updated_at": "2026-10-14T03:38:41Z"
         },
         {
           "key": "BEN-277",
