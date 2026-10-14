@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T03:41:42Z",
+  "generated_at": "2026-10-14T03:49:16Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -119,9 +119,10 @@
           "role": "DeepSeek Planner（小组 leader/PM）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "547cd361-ef50-4965-9477-bc659d8a1708",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "BEN-288",
+          "issue_title": "监督 iOS 工程师（harness）将 dwm-cofi-android 迁移至 iOS 并交付",
+          "since": "2026-10-14T03:48:25Z"
         },
         {
           "name": "minimax-visual-diff",
@@ -159,12 +160,9 @@
           "role": "负责将引用迁移到ios平台",
           "model": "claude-sonnet-5",
           "agent_id": "e34f37c0-d202-4927-90f2-3010b34b13e2",
-          "state": "working",
-          "issue": "BEN-289",
-          "issue_title": "将 dwm-cofi-android 迁移至 iOS 并交付可构建 iOS app",
-          "since": "2026-10-14T02:59:27Z",
-          "parent_issue": "BEN-288",
-          "parent_title": "监督 iOS 工程师（harness）将 dwm-cofi-android 迁移至 iOS 并交付"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         }
       ],
       "issue_counts": {
