@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T04:24:08Z",
+  "generated_at": "2026-10-14T06:01:30Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -407,9 +407,10 @@
           "role": "DeepSeek Planner（小组 leader/PM ",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-546",
+          "issue_title": "[空闲检测] 2026-10-14 leader 两小时正点检查与加派",
+          "since": "2026-10-14T06:00:38Z"
         },
         {
           "name": "minimax-uijudge",
@@ -423,12 +424,18 @@
         }
       ],
       "issue_counts": {
-        "todo": 10,
+        "todo": 11,
         "in_progress": 0,
         "in_review": 2,
-        "done": 82
+        "done": 81
       },
       "latest_issues": [
+        {
+          "key": "IPD-546",
+          "title": "[空闲检测] 2026-10-14 leader 两小时正点检查与加派",
+          "status": "todo",
+          "updated_at": "2026-10-14T06:00:37Z"
+        },
         {
           "key": "IPD-545",
           "title": "[SA] REQ-029 速记搜索本 TR-Design 六件套+契约 v1.0（第29场景·not",
@@ -452,12 +459,6 @@
           "title": "[空闲检测] 2026-10-14 leader 两小时正点检查与加派",
           "status": "done",
           "updated_at": "2026-10-14T02:03:55Z"
-        },
-        {
-          "key": "IPD-541",
-          "title": "[巡检] 2026-10-14 leader Issue 状态巡检与催办",
-          "status": "done",
-          "updated_at": "2026-10-14T00:03:35Z"
         }
       ]
     }
