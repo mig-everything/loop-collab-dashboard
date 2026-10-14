@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T12:01:54Z",
+  "generated_at": "2026-10-14T12:10:21Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -99,12 +99,9 @@
           "role": "GPT Scenarist",
           "model": "zai:glm-5.3",
           "agent_id": "6e6f1e24-3bc5-455a-85d2-cb3fb6c9a672",
-          "state": "working",
-          "issue": "BEN-295",
-          "issue_title": "[任务·iOS线5] 修复 cofi-20261010 iOS 21 条执行失败（断言过严 8 + 定位器失效 13，r",
-          "since": "2026-10-14T11:58:36Z",
-          "parent_issue": "BEN-290",
-          "parent_title": "基于 cofi-20261010 功能清单生成 iOS 测试用例（复用安卓/鸿蒙 high-level 流程）并评分"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "glm-runner",
@@ -353,9 +350,10 @@
           "role": "IPD-PM 产品经理",
           "model": "",
           "agent_id": "1764c131-5c09-48cb-aa48-3177d5256dbb",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-550",
+          "issue_title": "[PM] REQ-031 新需求C 每日一词单词打卡 预研+PRD+TR-Req+契约冻结（第31场景·study学习·",
+          "since": "2026-10-14T12:08:43Z"
         },
         {
           "name": "hermes-sa",
@@ -363,9 +361,10 @@
           "role": "IPD-SA 解决方案架构师",
           "model": "",
           "agent_id": "3e4373ef-a262-4b28-ab2a-818861fc9624",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-551",
+          "issue_title": "[SA] REQ-030 AA制账单均摊 TR-Design 六件套+契约 v1.0（第30场景·finance·gat",
+          "since": "2026-10-14T12:09:06Z"
         },
         {
           "name": "hermes-se",
@@ -413,10 +412,9 @@
           "role": "DeepSeek Planner（小组 leader/PM ",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
-          "state": "working",
-          "issue": "IPD-549",
-          "issue_title": "[晚会日报] 2026-10-14",
-          "since": "2026-10-14T12:00:46Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "minimax-uijudge",
@@ -430,41 +428,41 @@
         }
       ],
       "issue_counts": {
-        "todo": 11,
+        "todo": 13,
         "in_progress": 1,
         "in_review": 0,
-        "done": 83
+        "done": 81
       },
       "latest_issues": [
         {
           "key": "IPD-549",
           "title": "[晚会日报] 2026-10-14",
+          "status": "done",
+          "updated_at": "2026-10-14T12:10:33Z"
+        },
+        {
+          "key": "IPD-552",
+          "title": "[Dev] 模板化/脚本化生成 pilot（口径16 候选①+②+④·分类模板库+骨架复用·back",
+          "status": "backlog",
+          "updated_at": "2026-10-14T12:09:10Z"
+        },
+        {
+          "key": "IPD-551",
+          "title": "[SA] REQ-030 AA制账单均摊 TR-Design 六件套+契约 v1.0（第30场景·f",
           "status": "todo",
-          "updated_at": "2026-10-14T12:00:43Z"
+          "updated_at": "2026-10-14T12:09:04Z"
+        },
+        {
+          "key": "IPD-550",
+          "title": "[PM] REQ-031 新需求C 每日一词单词打卡 预研+PRD+TR-Req+契约冻结（第31场",
+          "status": "todo",
+          "updated_at": "2026-10-14T12:08:42Z"
         },
         {
           "key": "IPD-548",
           "title": "[空闲检测] 2026-10-14 leader 两小时正点检查与加派",
           "status": "done",
           "updated_at": "2026-10-14T10:03:34Z"
-        },
-        {
-          "key": "IPD-547",
-          "title": "[巡检] 2026-10-14 leader Issue 状态巡检与催办",
-          "status": "done",
-          "updated_at": "2026-10-14T08:17:01Z"
-        },
-        {
-          "key": "IPD-534",
-          "title": "[SE] REQ-027 新需求B 颜色转换器 追踪矩阵 v1.0（第27场景·tool转换工具·g",
-          "status": "in_progress",
-          "updated_at": "2026-10-14T08:14:38Z"
-        },
-        {
-          "key": "IPD-498",
-          "title": "[Dev] REQ-024 新需求B 货币换算器 四维负差归因+编码skill优化+同需求复测（第2",
-          "status": "blocked",
-          "updated_at": "2026-10-14T08:14:15Z"
         }
       ]
     }
