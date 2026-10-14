@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T22:01:08Z",
+  "generated_at": "2026-10-14T22:04:53Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -408,9 +408,9 @@
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
           "state": "working",
-          "issue": "IPD-558",
-          "issue_title": "[空闲检测] 2026-10-15 leader 两小时正点检查与加派",
-          "since": "2026-10-14T22:00:36Z"
+          "issue": "IPD-555",
+          "issue_title": "[早会纪要] 2026-10-15",
+          "since": "2026-10-14T20:00:33Z"
         },
         {
           "name": "minimax-uijudge",
@@ -424,17 +424,17 @@
         }
       ],
       "issue_counts": {
-        "todo": 12,
+        "todo": 11,
         "in_progress": 0,
         "in_review": 0,
-        "done": 82
+        "done": 83
       },
       "latest_issues": [
         {
           "key": "IPD-558",
           "title": "[空闲检测] 2026-10-15 leader 两小时正点检查与加派",
-          "status": "todo",
-          "updated_at": "2026-10-14T22:00:36Z"
+          "status": "done",
+          "updated_at": "2026-10-14T22:04:04Z"
         },
         {
           "key": "IPD-557",
