@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T14:56:32Z",
+  "generated_at": "2026-10-14T16:03:22Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -407,9 +407,10 @@
           "role": "DeepSeek Planner（小组 leader/PM ",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-554",
+          "issue_title": "[巡检] 2026-10-15 leader Issue 状态巡检与催办",
+          "since": "2026-10-14T16:00:36Z"
         },
         {
           "name": "minimax-uijudge",
@@ -423,12 +424,18 @@
         }
       ],
       "issue_counts": {
-        "todo": 11,
+        "todo": 12,
         "in_progress": 1,
         "in_review": 2,
-        "done": 81
+        "done": 80
       },
       "latest_issues": [
+        {
+          "key": "IPD-554",
+          "title": "[巡检] 2026-10-15 leader Issue 状态巡检与催办",
+          "status": "todo",
+          "updated_at": "2026-10-14T16:00:35Z"
+        },
         {
           "key": "IPD-553",
           "title": "[空闲检测] 2026-10-14 leader 两小时正点检查与加派",
@@ -452,12 +459,6 @@
           "title": "[晚会日报] 2026-10-14",
           "status": "done",
           "updated_at": "2026-10-14T12:10:33Z"
-        },
-        {
-          "key": "IPD-552",
-          "title": "[Dev] 模板化/脚本化生成 pilot（口径16 候选①+②+④·分类模板库+骨架复用·back",
-          "status": "backlog",
-          "updated_at": "2026-10-14T12:09:10Z"
         }
       ]
     }
