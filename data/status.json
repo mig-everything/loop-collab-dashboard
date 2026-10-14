@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T06:09:34Z",
+  "generated_at": "2026-10-14T06:31:30Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -119,9 +119,10 @@
           "role": "DeepSeek Planner（小组 leader/PM）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "547cd361-ef50-4965-9477-bc659d8a1708",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "BEN-290",
+          "issue_title": "基于 cofi-20261010 功能清单生成 iOS 测试用例（复用安卓/鸿蒙 high-level 流程）并评分",
+          "since": "2026-10-14T06:28:53Z"
         },
         {
           "name": "minimax-visual-diff",
@@ -165,12 +166,18 @@
         }
       ],
       "issue_counts": {
-        "todo": 4,
+        "todo": 5,
         "in_progress": 2,
         "in_review": 2,
-        "done": 91
+        "done": 90
       },
       "latest_issues": [
+        {
+          "key": "BEN-290",
+          "title": "基于 cofi-20261010 功能清单生成 iOS 测试用例（复用安卓/鸿蒙 high-leve",
+          "status": "todo",
+          "updated_at": "2026-10-14T06:28:51Z"
+        },
         {
           "key": "BEN-288",
           "title": "监督 iOS 工程师（harness）将 dwm-cofi-android 迁移至 iOS 并交付",
@@ -194,12 +201,6 @@
           "title": "[任务·第2轮] 鸿蒙 test 变体扩容：口径⑤ 剩余 7 变体 + SC 收口 + 口径⑥ 全链",
           "status": "in_progress",
           "updated_at": "2026-10-11T13:29:06Z"
-        },
-        {
-          "key": "BEN-135",
-          "title": "[任务·线1 cofi] ③a/③b 打满：336 场景 backfill + 断言/定位校准到 1",
-          "status": "in_progress",
-          "updated_at": "2026-10-11T12:25:05Z"
         }
       ],
       "progress_note": "环比持平"
