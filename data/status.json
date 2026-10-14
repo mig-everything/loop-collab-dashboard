@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T20:03:15Z",
+  "generated_at": "2026-10-14T20:29:16Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -337,8 +337,8 @@
       "workspace": "ws-ipd-eazo-loop",
       "machine": "贾博 Mac Mini",
       "machine_online": false,
-      "meeting_active": false,
-      "meeting_title": "",
+      "meeting_active": true,
+      "meeting_title": "[早会纪要] 2026-10-15",
       "progress": 90,
       "agents": [
         {
@@ -423,17 +423,29 @@
         }
       ],
       "issue_counts": {
-        "todo": 12,
-        "in_progress": 0,
+        "todo": 13,
+        "in_progress": 1,
         "in_review": 0,
-        "done": 82
+        "done": 80
       },
       "latest_issues": [
         {
+          "key": "IPD-557",
+          "title": "[SA] REQ-031 每日一词单词打卡 TR-Design 六件套+契约 v1.0（第31场景·",
+          "status": "todo",
+          "updated_at": "2026-10-14T20:27:38Z"
+        },
+        {
+          "key": "IPD-556",
+          "title": "[PM] REQ-032 新需求A 健身动作教学 预研+PRD+TR-Req+契约冻结（第32场景·",
+          "status": "todo",
+          "updated_at": "2026-10-14T20:26:47Z"
+        },
+        {
           "key": "IPD-555",
           "title": "[早会纪要] 2026-10-15",
-          "status": "todo",
-          "updated_at": "2026-10-14T20:00:33Z"
+          "status": "in_progress",
+          "updated_at": "2026-10-14T20:26:13Z"
         },
         {
           "key": "IPD-554",
@@ -446,18 +458,6 @@
           "title": "[SE] REQ-027 新需求B 颜色转换器 追踪矩阵 v1.0（第27场景·tool转换工具·g",
           "status": "blocked",
           "updated_at": "2026-10-14T16:07:11Z"
-        },
-        {
-          "key": "IPD-550",
-          "title": "[PM] REQ-031 新需求C 每日一词单词打卡 预研+PRD+TR-Req+契约冻结（第31场",
-          "status": "done",
-          "updated_at": "2026-10-14T16:06:57Z"
-        },
-        {
-          "key": "IPD-551",
-          "title": "[SA] REQ-030 AA制账单均摊 TR-Design 六件套+契约 v1.0（第30场景·f",
-          "status": "done",
-          "updated_at": "2026-10-14T16:06:55Z"
         }
       ]
     }
