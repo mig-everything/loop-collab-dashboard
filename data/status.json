@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T02:52:17Z",
+  "generated_at": "2026-10-14T02:59:47Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -160,23 +160,26 @@
           "role": "负责将引用迁移到ios平台",
           "model": "claude-sonnet-5",
           "agent_id": "e34f37c0-d202-4927-90f2-3010b34b13e2",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "BEN-289",
+          "issue_title": "将 dwm-cofi-android 迁移至 iOS 并交付可构建 iOS app",
+          "since": "2026-10-14T02:59:27Z",
+          "parent_issue": "BEN-288",
+          "parent_title": "监督 iOS 工程师（harness）将 dwm-cofi-android 迁移至 iOS 并交付"
         }
       ],
       "issue_counts": {
-        "todo": 5,
-        "in_progress": 2,
+        "todo": 4,
+        "in_progress": 3,
         "in_review": 1,
-        "done": 92
+        "done": 91
       },
       "latest_issues": [
         {
           "key": "BEN-288",
           "title": "监督 iOS 工程师（harness）将 dwm-cofi-android 迁移至 iOS 并交付",
-          "status": "todo",
-          "updated_at": "2026-10-14T02:50:38Z"
+          "status": "in_progress",
+          "updated_at": "2026-10-14T02:59:52Z"
         },
         {
           "key": "BEN-286",
