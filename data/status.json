@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T21:09:49Z",
+  "generated_at": "2026-10-14T22:01:08Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -408,9 +408,9 @@
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
           "state": "working",
-          "issue": "IPD-555",
-          "issue_title": "[早会纪要] 2026-10-15",
-          "since": "2026-10-14T20:00:33Z"
+          "issue": "IPD-558",
+          "issue_title": "[空闲检测] 2026-10-15 leader 两小时正点检查与加派",
+          "since": "2026-10-14T22:00:36Z"
         },
         {
           "name": "minimax-uijudge",
@@ -424,12 +424,18 @@
         }
       ],
       "issue_counts": {
-        "todo": 11,
+        "todo": 12,
         "in_progress": 0,
         "in_review": 0,
-        "done": 83
+        "done": 82
       },
       "latest_issues": [
+        {
+          "key": "IPD-558",
+          "title": "[空闲检测] 2026-10-15 leader 两小时正点检查与加派",
+          "status": "todo",
+          "updated_at": "2026-10-14T22:00:36Z"
+        },
         {
           "key": "IPD-557",
           "title": "[SA] REQ-031 每日一词单词打卡 TR-Design 六件套+契约 v1.0（第31场景·",
@@ -453,12 +459,6 @@
           "title": "[巡检] 2026-10-15 leader Issue 状态巡检与催办",
           "status": "done",
           "updated_at": "2026-10-14T16:07:31Z"
-        },
-        {
-          "key": "IPD-534",
-          "title": "[SE] REQ-027 新需求B 颜色转换器 追踪矩阵 v1.0（第27场景·tool转换工具·g",
-          "status": "blocked",
-          "updated_at": "2026-10-14T16:07:11Z"
         }
       ]
     }
