@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T04:20:11Z",
+  "generated_at": "2026-10-14T04:24:08Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -357,10 +357,9 @@
           "role": "IPD-SA 解决方案架构师",
           "model": "",
           "agent_id": "3e4373ef-a262-4b28-ab2a-818861fc9624",
-          "state": "working",
-          "issue": "IPD-545",
-          "issue_title": "[SA] REQ-029 速记搜索本 TR-Design 六件套+契约 v1.0（第29场景·note全文搜索·gate",
-          "since": "2026-10-14T04:08:33Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "hermes-se",
@@ -424,12 +423,18 @@
         }
       ],
       "issue_counts": {
-        "todo": 11,
+        "todo": 10,
         "in_progress": 0,
-        "in_review": 1,
+        "in_review": 2,
         "done": 82
       },
       "latest_issues": [
+        {
+          "key": "IPD-545",
+          "title": "[SA] REQ-029 速记搜索本 TR-Design 六件套+契约 v1.0（第29场景·not",
+          "status": "in_review",
+          "updated_at": "2026-10-14T04:21:55Z"
+        },
         {
           "key": "IPD-544",
           "title": "[PM] REQ-030 新需求B AA制账单均摊 预研+PRD+TR-Req+契约冻结（第30场景",
@@ -441,12 +446,6 @@
           "title": "[午会纪要] 2026-10-14",
           "status": "done",
           "updated_at": "2026-10-14T04:11:36Z"
-        },
-        {
-          "key": "IPD-545",
-          "title": "[SA] REQ-029 速记搜索本 TR-Design 六件套+契约 v1.0（第29场景·not",
-          "status": "todo",
-          "updated_at": "2026-10-14T04:08:32Z"
         },
         {
           "key": "IPD-542",
