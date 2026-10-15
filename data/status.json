@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T00:01:45Z",
+  "generated_at": "2026-10-15T00:05:26Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -408,9 +408,9 @@
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
           "state": "working",
-          "issue": "IPD-559",
-          "issue_title": "[巡检] 2026-10-15 leader Issue 状态巡检与催办",
-          "since": "2026-10-15T00:00:33Z"
+          "issue": "IPD-555",
+          "issue_title": "[早会纪要] 2026-10-15",
+          "since": "2026-10-14T20:00:33Z"
         },
         {
           "name": "minimax-uijudge",
@@ -424,17 +424,17 @@
         }
       ],
       "issue_counts": {
-        "todo": 12,
+        "todo": 11,
         "in_progress": 0,
         "in_review": 0,
-        "done": 82
+        "done": 83
       },
       "latest_issues": [
         {
           "key": "IPD-559",
           "title": "[巡检] 2026-10-15 leader Issue 状态巡检与催办",
-          "status": "todo",
-          "updated_at": "2026-10-15T00:00:32Z"
+          "status": "done",
+          "updated_at": "2026-10-15T00:05:01Z"
         },
         {
           "key": "IPD-558",
