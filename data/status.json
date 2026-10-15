@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T22:04:53Z",
+  "generated_at": "2026-10-15T00:01:45Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -408,9 +408,9 @@
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
           "state": "working",
-          "issue": "IPD-555",
-          "issue_title": "[早会纪要] 2026-10-15",
-          "since": "2026-10-14T20:00:33Z"
+          "issue": "IPD-559",
+          "issue_title": "[巡检] 2026-10-15 leader Issue 状态巡检与催办",
+          "since": "2026-10-15T00:00:33Z"
         },
         {
           "name": "minimax-uijudge",
@@ -424,12 +424,18 @@
         }
       ],
       "issue_counts": {
-        "todo": 11,
+        "todo": 12,
         "in_progress": 0,
         "in_review": 0,
-        "done": 83
+        "done": 82
       },
       "latest_issues": [
+        {
+          "key": "IPD-559",
+          "title": "[巡检] 2026-10-15 leader Issue 状态巡检与催办",
+          "status": "todo",
+          "updated_at": "2026-10-15T00:00:32Z"
+        },
         {
           "key": "IPD-558",
           "title": "[空闲检测] 2026-10-15 leader 两小时正点检查与加派",
@@ -453,12 +459,6 @@
           "title": "[早会纪要] 2026-10-15",
           "status": "done",
           "updated_at": "2026-10-14T20:29:55Z"
-        },
-        {
-          "key": "IPD-554",
-          "title": "[巡检] 2026-10-15 leader Issue 状态巡检与催办",
-          "status": "done",
-          "updated_at": "2026-10-14T16:07:31Z"
         }
       ]
     }
