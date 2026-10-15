@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T21:00:15Z",
+  "generated_at": "2026-10-15T21:04:18Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -357,10 +357,9 @@
           "role": "IPD-SA 解决方案架构师",
           "model": "",
           "agent_id": "3e4373ef-a262-4b28-ab2a-818861fc9624",
-          "state": "working",
-          "issue": "IPD-574",
-          "issue_title": "[SA] REQ-034 记忆翻牌配对 TR-Design 六件套+契约（第34场景·game记忆配对·承接 PM b4",
-          "since": "2026-10-15T20:51:13Z"
+          "state": "idle",
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "hermes-se",
@@ -424,12 +423,18 @@
         }
       ],
       "issue_counts": {
-        "todo": 12,
+        "todo": 11,
         "in_progress": 0,
         "in_review": 0,
-        "done": 82
+        "done": 83
       },
       "latest_issues": [
+        {
+          "key": "IPD-574",
+          "title": "[SA] REQ-034 记忆翻牌配对 TR-Design 六件套+契约（第34场景·game记忆配",
+          "status": "done",
+          "updated_at": "2026-10-15T21:02:32Z"
+        },
         {
           "key": "IPD-573",
           "title": "[PM] REQ-035 新需求A 个税计算器 预研+PRD+TR-Req+契约冻结（第35场景·f",
@@ -441,12 +446,6 @@
           "title": "[早会纪要] 2026-10-16",
           "status": "done",
           "updated_at": "2026-10-15T20:51:58Z"
-        },
-        {
-          "key": "IPD-574",
-          "title": "[SA] REQ-034 记忆翻牌配对 TR-Design 六件套+契约（第34场景·game记忆配",
-          "status": "todo",
-          "updated_at": "2026-10-15T20:51:12Z"
         },
         {
           "key": "IPD-571",
