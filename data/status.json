@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T00:05:26Z",
+  "generated_at": "2026-10-15T02:25:39Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -119,9 +119,10 @@
           "role": "DeepSeek Planner（小组 leader/PM）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "547cd361-ef50-4965-9477-bc659d8a1708",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "BEN-290",
+          "issue_title": "基于 cofi-20261010 功能清单生成 iOS 测试用例（复用安卓/鸿蒙 high-level 流程）并评分",
+          "since": "2026-10-15T01:42:05Z"
         },
         {
           "name": "minimax-visual-diff",
@@ -175,7 +176,7 @@
           "key": "BEN-290",
           "title": "基于 cofi-20261010 功能清单生成 iOS 测试用例（复用安卓/鸿蒙 high-leve",
           "status": "in_progress",
-          "updated_at": "2026-10-14T11:58:46Z"
+          "updated_at": "2026-10-15T01:42:02Z"
         },
         {
           "key": "BEN-288",
@@ -340,89 +341,7 @@
       "meeting_active": false,
       "meeting_title": "",
       "progress": 90,
-      "agents": [
-        {
-          "name": "hermes-pm",
-          "emoji": "🚀",
-          "role": "IPD-PM 产品经理",
-          "model": "",
-          "agent_id": "1764c131-5c09-48cb-aa48-3177d5256dbb",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
-        },
-        {
-          "name": "hermes-sa",
-          "emoji": "🔥",
-          "role": "IPD-SA 解决方案架构师",
-          "model": "",
-          "agent_id": "3e4373ef-a262-4b28-ab2a-818861fc9624",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
-        },
-        {
-          "name": "hermes-se",
-          "emoji": "⚡",
-          "role": "IPD-SE 系统工程师",
-          "model": "",
-          "agent_id": "b874ba6b-80e6-45c6-a8c6-aedc6f2b326b",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
-        },
-        {
-          "name": "hermes-dev",
-          "emoji": "🐨",
-          "role": "IPD-Dev 开发工程师",
-          "model": "",
-          "agent_id": "44fcec25-d8b3-4af6-b206-1774a64677ce",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
-        },
-        {
-          "name": "hermes-tester",
-          "emoji": "🔥",
-          "role": "IPD-Tester 测试工程师",
-          "model": "",
-          "agent_id": "86df9f14-a2cd-46d9-ad15-dbe8606ebd73",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
-        },
-        {
-          "name": "hermes-rm",
-          "emoji": "⚡",
-          "role": "IPD-RM 发布经理",
-          "model": "",
-          "agent_id": "78156461-9644-478e-9c80-53cd18e25e33",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
-        },
-        {
-          "name": "deepseek-planner",
-          "emoji": "🦋",
-          "role": "DeepSeek Planner（小组 leader/PM ",
-          "model": "deepseek:deepseek-v4-pro",
-          "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
-          "state": "working",
-          "issue": "IPD-555",
-          "issue_title": "[早会纪要] 2026-10-15",
-          "since": "2026-10-14T20:00:33Z"
-        },
-        {
-          "name": "minimax-uijudge",
-          "emoji": "🐧",
-          "role": "MiniMax 多模态 UI 视觉评审",
-          "model": "minimax-cn:MiniMax-M3",
-          "agent_id": "97f55294-90e0-4556-93af-a1cf44889574",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
-        }
-      ],
+      "agents": [],
       "issue_counts": {
         "todo": 11,
         "in_progress": 0,
@@ -430,6 +349,12 @@
         "done": 83
       },
       "latest_issues": [
+        {
+          "key": "IPD-560",
+          "title": "[空闲检测] 2026-10-15 leader 两小时正点检查与加派",
+          "status": "done",
+          "updated_at": "2026-10-15T02:03:32Z"
+        },
         {
           "key": "IPD-559",
           "title": "[巡检] 2026-10-15 leader Issue 状态巡检与催办",
@@ -453,12 +378,6 @@
           "title": "[PM] REQ-032 新需求A 健身动作教学 预研+PRD+TR-Req+契约冻结（第32场景·",
           "status": "done",
           "updated_at": "2026-10-14T21:04:47Z"
-        },
-        {
-          "key": "IPD-555",
-          "title": "[早会纪要] 2026-10-15",
-          "status": "done",
-          "updated_at": "2026-10-14T20:29:55Z"
         }
       ]
     }
