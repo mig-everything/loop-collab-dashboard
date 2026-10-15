@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T20:47:59Z",
+  "generated_at": "2026-10-15T20:52:03Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -209,7 +209,7 @@
       "title": "任务3 · DW 代码迁移",
       "workspace": "ws-dw-migration-loop",
       "machine": "奕棣 MacBook",
-      "machine_online": false,
+      "machine_online": true,
       "meeting_active": false,
       "meeting_title": "",
       "progress": 52,
@@ -220,7 +220,7 @@
           "role": "Opus Analyzer",
           "model": "claude-opus-5-5",
           "agent_id": "2f32549c-87c7-4202-8f54-3af79a30afa0",
-          "state": "offline",
+          "state": "idle",
           "issue": "",
           "issue_title": ""
         },
@@ -230,7 +230,7 @@
           "role": "DeepSeek Planner（小组 leader/PM，",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "950ff614-521d-4e32-a02d-423d41a7b2b3",
-          "state": "offline",
+          "state": "idle",
           "issue": "",
           "issue_title": ""
         },
@@ -240,7 +240,7 @@
           "role": "DW 迁移执行小队队长",
           "model": "claude-opus-5-5",
           "agent_id": "c6ff7c69-0db4-4b35-ac81-dd00e5a53ba4",
-          "state": "offline",
+          "state": "idle",
           "issue": "",
           "issue_title": ""
         },
@@ -250,7 +250,7 @@
           "role": "运行员",
           "model": "claude-opus-5-5",
           "agent_id": "1c3481f5-135b-4959-9daa-c510c076d494",
-          "state": "offline",
+          "state": "idle",
           "issue": "",
           "issue_title": ""
         },
@@ -260,7 +260,7 @@
           "role": "验证员",
           "model": "claude-opus-5-5",
           "agent_id": "69822c63-0dcc-4f3e-875d-7b300d437623",
-          "state": "offline",
+          "state": "idle",
           "issue": "",
           "issue_title": ""
         },
@@ -270,7 +270,7 @@
           "role": "修复员",
           "model": "claude-opus-5-5",
           "agent_id": "cd70e713-a339-4621-8699-2058d9cf7d6b",
-          "state": "offline",
+          "state": "idle",
           "issue": "",
           "issue_title": ""
         },
@@ -280,7 +280,7 @@
           "role": null,
           "model": "",
           "agent_id": "08a037a0-da6b-4ef0-b623-24732954c8fe",
-          "state": "offline",
+          "state": "idle",
           "issue": "",
           "issue_title": ""
         }
@@ -347,9 +347,10 @@
           "role": "IPD-PM 产品经理",
           "model": "",
           "agent_id": "1764c131-5c09-48cb-aa48-3177d5256dbb",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-573",
+          "issue_title": "[PM] REQ-035 新需求A 个税计算器 预研+PRD+TR-Req+契约冻结（第35场景·finance 税务计",
+          "since": "2026-10-15T20:51:08Z"
         },
         {
           "name": "hermes-sa",
@@ -357,9 +358,10 @@
           "role": "IPD-SA 解决方案架构师",
           "model": "",
           "agent_id": "3e4373ef-a262-4b28-ab2a-818861fc9624",
-          "state": "idle",
-          "issue": "",
-          "issue_title": ""
+          "state": "working",
+          "issue": "IPD-574",
+          "issue_title": "[SA] REQ-034 记忆翻牌配对 TR-Design 六件套+契约（第34场景·game记忆配对·承接 PM b4",
+          "since": "2026-10-15T20:51:13Z"
         },
         {
           "name": "hermes-se",
@@ -408,9 +410,8 @@
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
           "state": "working",
-          "issue": "IPD-572",
-          "issue_title": "[早会纪要] 2026-10-16",
-          "since": "2026-10-15T20:46:33Z"
+          "issue": "",
+          "issue_title": ""
         },
         {
           "name": "minimax-uijudge",
@@ -424,17 +425,29 @@
         }
       ],
       "issue_counts": {
-        "todo": 12,
+        "todo": 13,
         "in_progress": 0,
         "in_review": 0,
-        "done": 82
+        "done": 81
       },
       "latest_issues": [
         {
           "key": "IPD-572",
           "title": "[早会纪要] 2026-10-16",
+          "status": "done",
+          "updated_at": "2026-10-15T20:51:58Z"
+        },
+        {
+          "key": "IPD-574",
+          "title": "[SA] REQ-034 记忆翻牌配对 TR-Design 六件套+契约（第34场景·game记忆配",
           "status": "todo",
-          "updated_at": "2026-10-15T20:00:33Z"
+          "updated_at": "2026-10-15T20:51:12Z"
+        },
+        {
+          "key": "IPD-573",
+          "title": "[PM] REQ-035 新需求A 个税计算器 预研+PRD+TR-Req+契约冻结（第35场景·f",
+          "status": "todo",
+          "updated_at": "2026-10-15T20:51:08Z"
         },
         {
           "key": "IPD-571",
@@ -447,18 +460,6 @@
           "title": "[空闲检测] 2026-10-15 leader 两小时正点检查与加派",
           "status": "done",
           "updated_at": "2026-10-15T14:05:32Z"
-        },
-        {
-          "key": "IPD-569",
-          "title": "[PM] REQ-034 新需求C 记忆翻牌配对 预研+PRD+TR-Req+契约冻结（第34场景·",
-          "status": "done",
-          "updated_at": "2026-10-15T12:15:32Z"
-        },
-        {
-          "key": "IPD-568",
-          "title": "[晚会纪要] 2026-10-15",
-          "status": "done",
-          "updated_at": "2026-10-15T12:08:30Z"
         }
       ]
     }
