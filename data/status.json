@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T11:22:06Z",
+  "generated_at": "2026-10-16T13:14:22Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -119,9 +119,10 @@
           "role": "DeepSeek Planner（小组 leader/PM）",
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "547cd361-ef50-4965-9477-bc659d8a1708",
-          "state": "idle",
+          "state": "working",
           "issue": "",
-          "issue_title": ""
+          "issue_title": "",
+          "since": "2026-10-16T13:14:39Z"
         },
         {
           "name": "minimax-visual-diff",
