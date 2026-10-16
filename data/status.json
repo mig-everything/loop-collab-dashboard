@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T00:59:32Z",
+  "generated_at": "2026-10-16T02:00:24Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -408,8 +408,9 @@
           "model": "deepseek:deepseek-v4-pro",
           "agent_id": "ddab456e-a9d8-41be-ac96-5d1da10acda5",
           "state": "working",
-          "issue": "",
-          "issue_title": ""
+          "issue": "IPD-577",
+          "issue_title": "[空闲检测] 2026-10-16 leader 两小时正点检查与加派",
+          "since": "2026-10-16T02:00:49Z"
         },
         {
           "name": "minimax-uijudge",
@@ -423,12 +424,18 @@
         }
       ],
       "issue_counts": {
-        "todo": 9,
+        "todo": 10,
         "in_progress": 0,
         "in_review": 0,
-        "done": 85
+        "done": 84
       },
       "latest_issues": [
+        {
+          "key": "IPD-577",
+          "title": "[空闲检测] 2026-10-16 leader 两小时正点检查与加派",
+          "status": "todo",
+          "updated_at": "2026-10-16T02:00:42Z"
+        },
         {
           "key": "IPD-576",
           "title": "[巡检] 2026-10-16 leader Issue 状态巡检与催办",
@@ -452,12 +459,6 @@
           "title": "[PM] REQ-035 新需求A 个税计算器 预研+PRD+TR-Req+契约冻结（第35场景·f",
           "status": "done",
           "updated_at": "2026-10-15T20:57:47Z"
-        },
-        {
-          "key": "IPD-572",
-          "title": "[早会纪要] 2026-10-16",
-          "status": "done",
-          "updated_at": "2026-10-15T20:51:58Z"
         }
       ]
     }
