@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T05:58:18Z",
+  "generated_at": "2026-10-21T06:09:18Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -46,7 +46,7 @@
         "todo": 0,
         "in_progress": 0,
         "in_review": 0,
-        "done": 100
+        "done": 99
       },
       "latest_issues": [
         {
