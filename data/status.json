@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T16:09:45Z",
+  "generated_at": "2026-10-24T22:07:37Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -430,6 +430,12 @@
       },
       "latest_issues": [
         {
+          "key": "IPD-555",
+          "title": "[早会纪要] 2026-10-15",
+          "status": "done",
+          "updated_at": "2026-10-24T22:05:57Z"
+        },
+        {
           "key": "IPD-577",
           "title": "[空闲检测] 2026-10-16 leader 两小时正点检查与加派",
           "status": "done",
@@ -452,12 +458,6 @@
           "title": "[SA] REQ-034 记忆翻牌配对 TR-Design 六件套+契约（第34场景·game记忆配",
           "status": "done",
           "updated_at": "2026-10-15T21:02:32Z"
-        },
-        {
-          "key": "IPD-573",
-          "title": "[PM] REQ-035 新需求A 个税计算器 预研+PRD+TR-Req+契约冻结（第35场景·f",
-          "status": "done",
-          "updated_at": "2026-10-15T20:57:47Z"
         }
       ]
     }
