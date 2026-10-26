@@ -148,7 +148,7 @@
       detailTimer=setTimeout(loadAll,12000);
     }
     renderSkills();
-    renderReport();
+    renderReport(req);
     renderShots(req.runs || []);
     renderDownloads(req.runs || []);
     loadIncrementals();
@@ -282,9 +282,15 @@
     return (n > 0 ? "+" : "") + n + (suffix || "");
   }
 
-  async function renderReport() {
+  async function renderReport(req) {
     const el = document.getElementById("report");
     const meta = document.getElementById("report-meta");
+    if (["queued", "running"].includes(req.job?.status)) {
+      meta.textContent = "";
+      renderComposite(null);
+      el.innerHTML = '<div class="empty"><span class="spin"></span>双端任务完成后生成对比报告。</div>';
+      return;
+    }
     el.innerHTML = `<div class="empty"><span class="spin"></span>加载报告…</div>`;
     try {
       const rep = await API.report(reqId);
