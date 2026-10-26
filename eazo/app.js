@@ -113,7 +113,35 @@ const STATUS_LABEL = {
   iterating: "增量迭代中", queued: "排队中", running: "运行中", success: "成功",
   timeout: "超时", pass: "通过", fail: "未过", degraded_pass: "降级通过",
   degraded_fail: "降级未过",
+  partial: "部分完成",
 };
+
+const ICON_PATHS = {
+  grid: '<rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/>',
+  layers: '<path d="m12 3 10 5-10 5L2 8zM2 12l10 5 10-5M2 16l10 5 10-5"/>',
+  history: '<path d="M3 11a9 9 0 1 1 2.5 7M3 4v7h7M12 7v5l3 2"/>',
+  plus: '<path d="M12 5v14M5 12h14"/>',
+  arrow: '<path d="M5 12h14m-5-5 5 5-5 5"/>',
+  arrowUp: '<path d="M6 18 18 6M6 6h12v12"/>',
+  refresh: '<path d="M20 8a8 8 0 0 0-14-3L3 8m0-5v5h5m-4 8a8 8 0 0 0 14 3l3-3m0 5v-5h-5"/>',
+  search: '<circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/>',
+  check: '<circle cx="12" cy="12" r="9"/><path d="m8 12 3 3 5-6"/>',
+  close: '<circle cx="12" cy="12" r="9"/><path d="m9 9 6 6m0-6-6 6"/>',
+  clock: '<circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/>',
+  chart: '<path d="M4 3v17h17M8 15V9m5 6V5m5 10v-4"/>',
+  shield: '<path d="m12 3 8 3v6c0 5-8 9-8 9S4 17 4 12V6z"/><path d="m8 12 3 3 5-6"/>',
+  code: '<path d="m8 6-6 6 6 6m8-12 6 6-6 6m-3-16-2 20"/>',
+  chevronLeft: '<path d="m14 6-6 6 6 6"/>',
+  chevronRight: '<path d="m10 6 6 6-6 6"/>',
+  lock: '<rect x="5" y="10" width="14" height="11" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3m-4 5v2"/>',
+};
+function icon(name) { return `<svg class="icon" viewBox="0 0 24 24" aria-hidden="true">${ICON_PATHS[name] || ICON_PATHS.grid}</svg>`; }
+function projectName(text) {
+  const s = String(text || "未命名应用");
+  const quoted = s.match(/[「“《]([^」”》]{1,32})[」”》]/);
+  if (quoted) return quoted[1];
+  return s.replace(/^(请|帮我|做|制作|开发|生成|创建|设计|一个|一款|实现|需要|我要|帮忙|\s)+/, "").split(/App|APP|应用|[：:，,。;；\n]/)[0].trim().slice(0, 24) || "应用实验";
+}
 
 function esc(s) {
   return String(s == null ? "" : s)
@@ -153,13 +181,29 @@ function msg(el, text, kind) {
 function clearMsg(el) { el.className = "msg"; el.textContent = ""; }
 
 async function initTopbar(active) {
+  document.body.classList.add(active + "-page");
+  const names = { home: "平台概览", history: "生成历史", detail: "实验详情", analytics: "访问统计" };
+  const header = document.querySelector(".topbar");
+  if (header) header.innerHTML = `
+    <a class="brand-link" href="history.html" aria-label="Eazo Studio 首页"><span class="brand-mark">e</span><span class="brand-name">eazo<span>CREATION STUDIO</span></span></a>
+    <div class="nav-label">WORKSPACE</div>
+    <nav aria-label="主导航">
+      <a href="index.html" data-page="home">${icon("grid")}<span>平台概览</span></a>
+      <a href="history.html" data-page="history">${icon("layers")}<span>生成历史</span></a>
+      <a href="history.html#evaluation-notes" class="nav-evaluation">${icon("shield")}<span>评估标准</span></a>
+    </nav>
+    <div class="nav-note"><strong>一个创意，两种可能。</strong>从自然语言到原生应用，<br>探索鸿蒙与安卓的创作边界。</div>
+    <div class="sidebar-bottom"><div class="engine-panel"><div><span class="dot ok"></span>双端生成工作空间</div><p>HarmonyOS &nbsp; / &nbsp; Android</p></div><div class="sidebar-copyright">EAZO PLATFORM · 2026</div></div>`;
+  if (!document.querySelector(".workspace-bar")) header.insertAdjacentHTML("afterend", `<div class="workspace-bar"><div class="breadcrumb">工作空间<span class="sep">/</span><strong>${esc(names[active] || "Eazo Studio")}</strong></div><div class="workspace-actions"><div class="health" id="health-indicator"><span class="dot ok"></span>公开展示</div><span class="workspace-tag">${icon("code")} NATIVE APP GENERATION</span><span class="avatar" aria-label="访客">E</span></div></div>`);
+  const footer = document.querySelector(".footer");
+  if (footer) footer.innerHTML = `<div><span class="footer-brand">eazo.</span> 从创意到原生应用</div><div class="footer-links"><span>HarmonyOS × Android</span><a href="history.html#evaluation-notes">评估说明</a><span>© 2026 Eazo Studio</span></div>`;
   document.querySelectorAll(".topbar nav a").forEach(a => {
-    if (a.dataset.page === active) a.classList.add("active");
+    if (a.dataset.page === active || (active === "detail" && a.dataset.page === "history")) { a.classList.add("active"); a.setAttribute("aria-current", "page"); }
   });
   const healthEl = document.getElementById("health-indicator");
   if (healthEl) {
     if (STATIC_MODE) {
-      healthEl.innerHTML = `<span class="dot ok"></span>静态展示站 · 只读`;
+      healthEl.innerHTML = `<span class="dot ok"></span>公开展示空间`;
     } else {
       try {
         const h = await API.health();
