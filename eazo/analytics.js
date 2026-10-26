@@ -22,7 +22,7 @@
       const max=Math.max(1,...data.daily.map(d=>d.visits));
       const today=new Date(new Date().toLocaleString("en-US",{timeZone:"Asia/Shanghai"}));
       const lookup=new Map(data.daily.map(d=>[d.day,d.visits]));const bars=[];
-      for(let i=Math.min(data.days,30)-1;i>=0;i--){const d=new Date(today);d.setDate(d.getDate()-i);const day=[d.getFullYear(),String(d.getMonth()+1).padStart(2,"0"),String(d.getDate()).padStart(2,"0")].join("-");const n=lookup.get(day)||0;bars.push({day,n});}
+      for(let i=data.days-1;i>=0;i--){const d=new Date(today);d.setDate(d.getDate()-i);const day=[d.getFullYear(),String(d.getMonth()+1).padStart(2,"0"),String(d.getDate()).padStart(2,"0")].join("-");const n=lookup.get(day)||0;bars.push({day,n});}
       $("visit-chart").innerHTML=bars.map(d=>`<span class="bar" style="height:${d.n?Math.max(6,Math.round(d.n/max*100)):2}%" title="${d.day} · ${d.n} 次访问"></span>`).join("");
       $("chart-dates").innerHTML=`<span>${bars[0].day}</span><span>${bars.at(-1).day}</span>`;
       $("engine-info").innerHTML=`<p><span class="dot${data.engine.online?" ok":""}"></span>${data.engine.online?"执行器在线 · 可接收生成任务":"执行器离线 · 任务将保存在队列中"}</p><p>${esc(data.engine.message)}</p>${data.engine.last_seen?'<p>最近连接：'+stamp(data.engine.last_seen)+'</p>':""}`;

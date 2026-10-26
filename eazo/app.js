@@ -168,7 +168,8 @@ function fmtTokens(n) {
 }
 function fmtTime(iso) {
   if (!iso) return "—";
-  return String(iso).replace("T", " ").slice(0, 19);
+  const date = new Date(iso);
+  return Number.isNaN(date.valueOf()) ? "—" : date.toLocaleString("sv-SE", {timeZone:"Asia/Shanghai",hour12:false});
 }
 function shortSha(sha) {
   if (!sha) return "—";

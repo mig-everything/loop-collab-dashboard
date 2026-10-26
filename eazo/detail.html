@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Eazo 平台 · 实验详情</title>
 <link rel="stylesheet" href="style.css">
-<link rel="stylesheet" href="studio.css?v=20261026">
+<link rel="stylesheet" href="studio.css?v=20261026.3">
 
 </head>
 <body>
@@ -83,9 +83,9 @@
 
 <footer class="footer">Eazo Platform · IPD-217 网页 UI</footer>
 <script>window.EAZO_STATIC_MODE=true;</script>
-<script src="config.js?v=20261026"></script>
-<script src="app.js?v=20261026"></script>
-<script src="auth.js?v=20261026"></script>
+<script src="config.js?v=20261026.3"></script>
+<script src="app.js?v=20261026.3"></script>
+<script src="auth.js?v=20261026.3"></script>
 <script>
 "use strict";
 (function () {
@@ -128,7 +128,7 @@
 
     document.getElementById("req-title").textContent = projectName(req.nl_text);
     document.getElementById("req-desc").innerHTML =
-      `需求 <code class="sha">${esc(req.id)}</code> · 类别 <b>${esc(req.category_id || "—")}</b> · 状态 ${badge(req.status)} · 创建于 ${fmtTime(req.created_at)}`;
+      `需求 <code class="sha">${esc(req.id)}</code> · 类别 <b>${esc(req.category_id || "—")}</b> · 状态 ${badge(req.status)} · 创建于 ${fmtTime(req.created_at)} CST`;
 
     document.getElementById("full-requirement").textContent = req.nl_text || "";
     if(req.job?.error)msg(msgEl,req.job.error);
