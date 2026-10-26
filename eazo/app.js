@@ -200,6 +200,7 @@ async function initTopbar(active) {
   document.querySelectorAll(".topbar nav a").forEach(a => {
     if (a.dataset.page === active || (active === "detail" && a.dataset.page === "history")) { a.classList.add("active"); a.setAttribute("aria-current", "page"); }
   });
+  if (window.EazoAuth) EazoAuth.render();
   const healthEl = document.getElementById("health-indicator");
   if (healthEl) {
     if (STATIC_MODE) {

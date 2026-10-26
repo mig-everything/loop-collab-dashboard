@@ -21,7 +21,7 @@
 <main class="wrap">
   <div class="home-intro"><p class="eyebrow">FROM A SINGLE IDEA TO NATIVE APPS</p><h1 class="page-title">让一个想法，<br>在<em>两个平台</em>上生长。</h1><p class="page-desc">用自然语言描述你的创意，让 Eazo 并行构建鸿蒙与安卓原生应用。<br>从工程生成到质量评估，完整呈现每一步。</p></div>
   <div class="home-layout"><div>
-  <section class="card" id="input-card">
+  <section class="card" id="input-card" style="display:none">
     <h3>需求输入</h3>
     <label class="field">一句话需求（自然语言）
       <textarea id="nl" placeholder="例如：做一个每日一句 App，每天展示一句精选语录，支持收藏和分享"></textarea>
@@ -39,7 +39,7 @@
   <section class="card" id="readonly-card" style="display:none;">
     <div class="readonly-icon" aria-hidden="true">↗</div><h2 class="readonly-card-heading">探索已经发生的创意</h2>
     <p class="readonly-copy">这里汇集了 Eazo 的双端生成实验。查看真实应用截图、对比报告与源码产物，发现一句话需求的更多可能。</p>
-    <div class="readonly-actions"><a class="btn" href="history.html">浏览应用作品集 &nbsp; →</a><span class="section-note">公开展示空间 · 登录后可创建</span></div>
+    <div class="readonly-actions"><a class="btn" href="history.html">浏览应用作品集 &nbsp; →</a><button class="btn ghost" data-login type="button">管理员登录</button></div>
   </section>
 
   <section class="card" id="status-card" style="display:none;">
@@ -54,7 +54,9 @@
 
 <footer class="footer">Eazo Platform · IPD-217 网页 UI · 双端对照：更快更好更好看</footer>
 <script>window.EAZO_STATIC_MODE=true;</script>
+<script src="config.js?v=20261026"></script>
 <script src="app.js?v=20261026"></script>
+<script src="auth.js?v=20261026"></script>
 <script>
 "use strict";
 (function () {
@@ -74,21 +76,18 @@
   const detailLink = document.getElementById("status-detail-link");
   let pollTimer = null;
 
-  // IPD-525：写门禁两态显隐——health.write_open===false 时隐藏输入卡/状态卡，
-  // 换提示卡；health 请求失败按开放处理（保持离线开发体验）
-  (async () => {
-    let open = true;
-    try {
-      const h = await API.health();
-      open = h.write_open !== false;
-    } catch (_) { /* 默认 write_open=true */ }
-    if (open) return;
-    document.getElementById("input-card").style.display = "none";
-    statusCard.style.display = "none";
-    document.getElementById("readonly-card").style.display = "block";
-  })();
+  async function updateAccess() {
+    await EazoAuth.ready;
+    const open=EazoAuth.isLoggedIn();
+    document.getElementById("input-card").style.display=open?"block":"none";
+    document.getElementById("readonly-card").style.display=open?"none":"block";
+    if(!open){statusCard.style.display="none";clearTimeout(pollTimer);}
+  }
+  window.addEventListener("eazo:authchange", updateAccess);
+  updateAccess();
 
   function renderRuns(runs) {
+    if(!runs.length){statusRuns.innerHTML='<p class="engine-status"><span class="spin"></span>任务已进入队列，正在等待执行器开始双端生成。</p>';return;}
     statusRuns.innerHTML = runs.map(r => `
       <div class="run-box">
         <div class="row">
@@ -106,7 +105,8 @@
     try {
       const runs = await API.runs(reqId);
       renderRuns(runs);
-      const active = runs.some(r => r.status === "queued" || r.status === "running");
+      if(!runs.length){const state=await API.requirement(reqId);if(state.job?.status==="failed"||state.job?.status==="interrupted"){msg(msgEl,state.job.error||"执行失败，请查看详情");return;}}
+      const active = !runs.length || runs.some(r => r.status === "queued" || r.status === "running");
       detailLink.href = "detail.html?id=" + encodeURIComponent(reqId);
       detailLink.style.display = "inline";
       if (active) {
@@ -133,7 +133,7 @@
       statusCard.style.display = "block";
       statusReq.textContent = "需求 " + req.id + " · " + (gen.already_running ? "已有进行中的生成（幂等复用）" : "已触发双端生成");
       renderRuns(gen.runs || []);
-      msg(msgEl, "已触发双端生成（后台执行中），下方实时刷新状态。", "ok");
+      msg(msgEl, gen.engine && !gen.engine.online ? "任务已保存到队列。执行器当前离线，连接后将继续生成。" : "任务已受理，执行器将并行生成双端应用，下方显示实际运行状态。", "ok");
       poll(req.id);
     } catch (e) {
       msg(msgEl, `提交失败：${e.code || ""} ${e.message}` + (e.detail ? " · " + JSON.stringify(e.detail) : ""));

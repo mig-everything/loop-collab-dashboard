@@ -71,11 +71,13 @@
     $("pager").innerHTML = `<span class="pager-info">显示 ${start}–${end} 项，共 ${filtered.length} 个应用</span><div class="page-controls"><button data-page="${page - 1}" ${page === 1 ? "disabled" : ""} aria-label="上一页">${icon("chevronLeft")}</button>${Array.from({length: pages}, (_, i) => `<button data-page="${i+1}" class="${page === i+1 ? "current" : ""}" ${page === i+1 ? 'aria-current="page"' : ""}>${i+1}</button>`).join("")}<button data-page="${page + 1}" ${page === pages ? "disabled" : ""} aria-label="下一页">${icon("chevronRight")}</button></div>`;
     $("pager").querySelectorAll("button").forEach(btn => btn.onclick = () => { page = Number(btn.dataset.page); render(); });
   }
+  window.addEventListener("eazo:authchange", () => {page=1;load();});
   async function load() {
     clearMsg($("hist-msg"));
     $("btn-refresh").disabled = true;
     $("btn-refresh").innerHTML = '<span class="spin"></span>同步中';
     try {
+      await EazoAuth.ready;
       raw = await API.history(STATIC_MODE ? {} : {limit:100000});
       projects = groupRuns(raw.runs || []);
       reports = new Map();

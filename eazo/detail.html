@@ -66,7 +66,8 @@
 
   <section class="card">
     <h3>增量开发 <span style="font-weight:400;color:var(--muted);font-size:12.5px;">对已生成的 APP 追加一句话迭代（双端同步）</span></h3>
-    <div id="inc-form">
+    <div id="inc-login-gate" class="login-gate"><p>登录管理员账户，为这个应用追加新的创意。</p><button type="button" class="btn" data-login>登录后增量开发</button></div>
+    <div id="inc-form" style="display:none">
       <label class="field">增量需求（自然语言）
         <textarea id="inc-nl" rows="3" placeholder="例如：加一个深色模式切换按钮，状态本地保存；或：首页增加按分类筛选的下拉框"></textarea>
       </label>
@@ -82,7 +83,9 @@
 
 <footer class="footer">Eazo Platform · IPD-217 网页 UI</footer>
 <script>window.EAZO_STATIC_MODE=true;</script>
+<script src="config.js?v=20261026"></script>
 <script src="app.js?v=20261026"></script>
+<script src="auth.js?v=20261026"></script>
 <script>
 "use strict";
 (function () {
@@ -93,7 +96,7 @@
   const incMsgEl = document.getElementById("inc-msg");
   // IPD-525 写门禁（静态模式等同于 write_open=false）：false 时隐藏增量表单与
   // uijudge 评审按钮；health 失败按开放处理（保持离线开发体验）
-  let writeOpen = true;
+  let writeOpen = false;
 
   if (!reqId) { msg(msgEl, "缺少 ?id= 参数"); return; }
 
@@ -111,24 +114,24 @@
   };
 
   async function loadAll() {
+    await EazoAuth.ready;
     let req;
     try { req = await API.requirement(reqId); }
     catch (e) { msg(msgEl, `需求加载失败：${e.code} ${e.message}`); return; }
 
     try {
       const h = await API.health();
-      writeOpen = h.write_open !== false;
+      writeOpen = EazoAuth.isLoggedIn() && h.write_open !== false;
     } catch (_) { /* 默认 write_open=true */ }
-    if (!writeOpen) {
-      const incForm = document.getElementById("inc-form");
-      if (incForm) incForm.style.display = "none";
-    }
+    document.getElementById("inc-form").style.display=writeOpen?"block":"none";
+    document.getElementById("inc-login-gate").hidden=writeOpen;
 
     document.getElementById("req-title").textContent = projectName(req.nl_text);
     document.getElementById("req-desc").innerHTML =
       `需求 <code class="sha">${esc(req.id)}</code> · 类别 <b>${esc(req.category_id || "—")}</b> · 状态 ${badge(req.status)} · 创建于 ${fmtTime(req.created_at)}`;
 
     document.getElementById("full-requirement").textContent = req.nl_text || "";
+    if(req.job?.error)msg(msgEl,req.job.error);
     renderRuns(req.runs || []);
     renderSkills();
     renderReport();
@@ -339,7 +342,7 @@
   async function renderUiJudge(detail, page) {
     const el = document.getElementById("uijudge");
     const meta = document.getElementById("uijudge-meta");
-    const btn = writeOpen ? `<button class="btn ghost small" id="btn-uijudge" style="margin-left:10px">运行 uijudge 评审</button>` : "";
+    const btn = "";
     if (!detail) {
       const has = page && page.ui_score_harmony != null;
       el.innerHTML = (has
@@ -544,8 +547,8 @@
     const btn = document.getElementById("btn-inc");
     btn.disabled = true; btn.textContent = "提交中…";
     try {
-      await API.incremental(reqId, nl);
-      msg(incMsgEl, "增量迭代已受理（后台双端同步执行中），稍后刷新本页查看新报告与增量历史。", "ok");
+      const accepted=await API.incremental(reqId, nl);
+      msg(incMsgEl, accepted.engine && !accepted.engine.online ? "增量需求已保存。执行器当前离线，连接后将继续运行。" : "增量需求已受理，执行器将同步更新双端应用。", "ok");
       loadIncrementals();
     } catch (e) {
       msg(incMsgEl, `增量提交失败：${e.code || ""} ${e.message}` +
@@ -554,6 +557,7 @@
     btn.disabled = false; btn.textContent = "提交增量迭代";
   });
 
+  window.addEventListener("eazo:authchange",loadAll);
   loadAll();
 })();
 </script>
