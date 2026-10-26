@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Eazo 平台 · 实验详情</title>
 <link rel="stylesheet" href="style.css">
-<link rel="stylesheet" href="studio.css?v=20261026.3">
+<link rel="stylesheet" href="studio.css?v=20261026.4">
 
 </head>
 <body>
@@ -83,9 +83,9 @@
 
 <footer class="footer">Eazo Platform · IPD-217 网页 UI</footer>
 <script>window.EAZO_STATIC_MODE=true;</script>
-<script src="config.js?v=20261026.3"></script>
-<script src="app.js?v=20261026.3"></script>
-<script src="auth.js?v=20261026.3"></script>
+<script src="config.js?v=20261026.4"></script>
+<script src="app.js?v=20261026.4"></script>
+<script src="auth.js?v=20261026.4"></script>
 <script>
 "use strict";
 (function () {
@@ -97,6 +97,7 @@
   // IPD-525 写门禁（静态模式等同于 write_open=false）：false 时隐藏增量表单与
   // uijudge 评审按钮；health 失败按开放处理（保持离线开发体验）
   let writeOpen = false;
+  let detailTimer = null;
 
   if (!reqId) { msg(msgEl, "缺少 ?id= 参数"); return; }
 
@@ -115,6 +116,15 @@
 
   async function loadAll() {
     await EazoAuth.ready;
+    clearTimeout(detailTimer);
+    const privateLocked=reqId.startsWith("req_web_")&&!EazoAuth.isLoggedIn();
+    document.body.classList.toggle("private-detail",privateLocked);
+    let gate=document.getElementById("private-detail-gate");
+    if(!gate){gate=document.createElement("section");gate.id="private-detail-gate";gate.className="card";gate.innerHTML='<div class="auth-empty"><h2>登录后查看这个应用</h2><p>新生成的应用与开发记录仅对管理员开放。</p><button class="btn" data-login>管理员登录</button></div>';document.getElementById("req-desc").after(gate);}
+    gate.hidden=!privateLocked;
+    EazoAuth.render();
+    if(privateLocked){document.getElementById("req-title").textContent="你的应用工作空间";document.getElementById("req-desc").textContent="安全访问生成结果、源码与增量记录。";clearMsg(msgEl);return;}
+    clearMsg(msgEl);
     let req;
     try { req = await API.requirement(reqId); }
     catch (e) { msg(msgEl, `需求加载失败：${e.code} ${e.message}`); return; }
@@ -133,6 +143,10 @@
     document.getElementById("full-requirement").textContent = req.nl_text || "";
     if(req.job?.error)msg(msgEl,req.job.error);
     renderRuns(req.runs || []);
+    if(req.job&&["queued","running"].includes(req.job.status)){
+      if(!(req.runs||[]).length)document.getElementById("runs").innerHTML='<div class="empty"><span class="spin"></span>任务正在排队，执行器将开始双端生成。</div>';
+      detailTimer=setTimeout(loadAll,12000);
+    }
     renderSkills();
     renderReport();
     renderShots(req.runs || []);
@@ -325,7 +339,7 @@
       renderComposite(null);
       renderUiJudge(null, null);
       document.getElementById("features-card").style.display = "none";
-      if (e.code === "EZO-CMP-001") {
+      if (e.code === "EZO-CMP-001" || e.status === 422) {
         el.innerHTML = `<div class="empty">暂无对比报告：${esc(e.message)}<br>
           <span style="font-size:12.5px">双端均成功（含 commit）后自动可算；增量迭代完成后亦会产出新报告。</span></div>`;
         // 功能清单独立于报告（IPD-251）：导入实验无真实 commit 时仍可展示功能核验视图
@@ -549,6 +563,7 @@
     try {
       const accepted=await API.incremental(reqId, nl);
       msg(incMsgEl, accepted.engine && !accepted.engine.online ? "增量需求已保存。执行器当前离线，连接后将继续运行。" : "增量需求已受理，执行器将同步更新双端应用。", "ok");
+      detailTimer=setTimeout(loadAll,8000);
       loadIncrementals();
     } catch (e) {
       msg(incMsgEl, `增量提交失败：${e.code || ""} ${e.message}` +

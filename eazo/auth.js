@@ -28,7 +28,7 @@
     dialog.querySelector("form").onsubmit=async e=>{e.preventDefault();const form=e.target,btn=form.querySelector("button"),error=document.getElementById("login-error");clearMsg(error);btn.disabled=true;btn.textContent="正在验证…";try{const data=await post("/api/auth/login",{username:form.username.value,password:form.password.value});form.password.value="";setSession(data);dialog.close();if(afterLogin){const callback=afterLogin;afterLogin=null;callback();}}catch(e){msg(error,e.message);}finally{btn.disabled=false;btn.innerHTML="登录工作空间 "+icon("arrow");}};
     return dialog;
   }
-  function openLogin(callback){if(session){callback?.();return;}afterLogin=callback||null;loginDialog().showModal();}
+  function openLogin(callback){if(session){callback?.();return;}afterLogin=callback||null;const dialog=loginDialog();dialog.showModal();dialog.querySelector("input").focus();}
   async function logout(){try{await post("/api/auth/logout",{});}catch{}finally{for(const value of assets.values())URL.revokeObjectURL(value);assets.clear();downloads.clear();liveReqs.clear();liveRuns.clear();setSession(null);location.reload();}}
   function renderAuth() {
     const actions=document.querySelector(".workspace-actions");
