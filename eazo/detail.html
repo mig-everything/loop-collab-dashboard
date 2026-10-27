@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Eazo 平台 · 实验详情</title>
 <link rel="stylesheet" href="style.css">
-<link rel="stylesheet" href="studio.css?v=20261027.2">
+<link rel="stylesheet" href="studio.css?v=20261027.3">
 
 </head>
 <body>
@@ -84,8 +84,9 @@
 <footer class="footer">Eazo Platform · IPD-217 网页 UI</footer>
 <script>window.EAZO_STATIC_MODE=true;</script>
 <script src="config.js?v=20261026.4"></script>
-<script src="app.js?v=20261026.4"></script>
-<script src="auth.js?v=20261026.4"></script>
+<script src="app.js?v=20261027.3"></script>
+<script src="auth.js?v=20261027.3"></script>
+<script src="references.js?v=20261027.3"></script>
 <script>
 "use strict";
 (function () {
@@ -174,54 +175,22 @@
       </div>`).join("");
   }
 
-  function skillChip(s) {
-    const ver = s.version ? `<code class="sha">${esc(s.version)}</code>` : "";
-    const impl = s.implemented ? "" : ` <span class="badge neutral">占位待实现</span>`;
-    // url 为 fallback 占位（挂载 README）时加 title 说明，避免误以为可跳转到 skill 正文
-    const fallbackNote = s.implemented ? "" : ` title="该 skill 尚未在 ai-native-ipd 仓实现，链接指向挂载 README 占位页"`;
-    return `<div class="skill-item">
-      <a href="${esc(s.url)}" target="_blank" rel="noopener"${fallbackNote}>${esc(s.name)}</a> ${ver}${impl}
-      <div class="skill-desc">${esc(s.description || "")}</div>
-    </div>`;
-  }
-
   async function renderSkills() {
-    const card = document.getElementById("skills-card");
-    const el = document.getElementById("skills");
+    const card=document.getElementById("skills-card"),el=document.getElementById("skills");
     try {
-      const data = await API.skills(reqId);
-      const sides = data.sides || [];
-      const h = sides.find(s => s.side === "harmony") || {};
-      const a = sides.find(s => s.side === "android_baseline") || {};
-      if (!h.run_id && !a.run_id) { card.style.display = "none"; return; }
-      const engRow = (label, hv, av) => `<tr>
-        <td class="cmp-label">${esc(label)}</td>
-        <td class="cmp-h">${hv ? `<code class="sha">${esc(hv)}</code>` : "—"}</td>
-        <td class="cmp-a">${av ? `<code class="sha">${esc(av)}</code>` : "—"}</td>
-      </tr>`;
-      el.innerHTML = `
-        <table class="cmp-table skill-table">
-          <thead>
-            <tr>
-              <th style="width:22%">对比项</th>
-              <th class="th-h" style="width:39%">鸿蒙 HarmonyOS</th>
-              <th class="th-a" style="width:39%">安卓 Android</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td class="cmp-label">编码 Skill</td>
-              <td class="cmp-h">${(h.skills || []).map(skillChip).join("") || "—"}</td>
-              <td class="cmp-a">${(a.skills || []).map(skillChip).join("") || "—"}</td>
-            </tr>
-            ${engRow("Prompt 版本", h.engine && h.engine.prompt_version, a.engine && a.engine.prompt_version)}
-            ${engRow("模板版本", h.engine && h.engine.template_version, a.engine && a.engine.template_version)}
-            ${engRow("模型", h.engine && h.engine.model_id, a.engine && a.engine.model_id)}
-          </tbody>
-        </table>`;
-    } catch (_) {
-      card.style.display = "none";
-    }
+      const data=await API.skills(reqId),sides=data.sides||[];
+      const h=sides.find(s=>s.side==="harmony")||{},a=sides.find(s=>s.side==="android_baseline")||{};
+      if(!h.run_id&&!a.run_id){card.style.display="none";return;}
+      card.style.display="";
+      const valueButton=(kind,side,value,index=0)=>value?`<button class="reference-value" data-reference="${kind}" data-side="${esc(side)}" data-index="${index}"><code>${esc(value)}</code><span aria-hidden="true">↗</span></button>`:"—";
+      const row=(label,kind,hv,av)=>`<tr><td class="cmp-label"><button class="reference-label" data-reference="${kind}" data-side="harmony">${label} ${icon("arrowUp")}</button></td><td class="cmp-h">${hv}</td><td class="cmp-a">${av}</td></tr>`;
+      const skills=side=>(side.skills||[]).map((skill,i)=>`<div class="skill-item">${valueButton("skill",side.side,skill.name,i)}<div class="skill-desc">${esc(skill.description)}</div><small>${esc(skill.version||"未采集版本")}${skill.implemented?"":" · 占位待实现"}</small></div>`).join("")||"—";
+      el.innerHTML=`<table class="cmp-table skill-table"><thead><tr><th style="width:22%">对比项</th><th class="th-h" style="width:39%">鸿蒙 HarmonyOS</th><th class="th-a" style="width:39%">安卓 Android</th></tr></thead><tbody>
+        ${row("编码 Skill","skill",skills(h),skills(a))}
+        ${[["Prompt 版本","prompt","prompt_version"],["模板版本","template","template_version"],["模型","model","model_id"]].map(([label,kind,key])=>row(label,kind,valueButton(kind,"harmony",h.engine?.[key]),valueButton(kind,"android_baseline",a.engine?.[key]))).join("")}
+      </tbody></table><p class="reference-hint">点击名称或版本，查看对应内容与来源。</p>`;
+      el.querySelectorAll("[data-reference]").forEach(button=>button.onclick=()=>openReferenceDialog(button.dataset.reference,sides,button.dataset.side,Number(button.dataset.index)||0));
+    } catch (_) {card.style.display="none";}
   }
 
   // 综合评价分数卡：服务端算好（report.composite），前端只展示；高分端皇冠+绿色描边

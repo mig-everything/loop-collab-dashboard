@@ -134,6 +134,7 @@ const ICON_PATHS = {
   chevronLeft: '<path d="m14 6-6 6 6 6"/>',
   chevronRight: '<path d="m10 6 6 6-6 6"/>',
   lock: '<rect x="5" y="10" width="14" height="11" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3m-4 5v2"/>',
+  trash: '<path d="M3 6h18M9 6V3h6v3M5 6l1 15h12l1-15M10 10v7m4-7v7"/>',
 };
 function icon(name) { return `<svg class="icon" viewBox="0 0 24 24" aria-hidden="true">${ICON_PATHS[name] || ICON_PATHS.grid}</svg>`; }
 function projectName(text) {
@@ -183,7 +184,7 @@ function clearMsg(el) { el.className = "msg"; el.textContent = ""; }
 
 async function initTopbar(active) {
   document.body.classList.add(active + "-page");
-  const names = { home: "平台概览", history: "生成历史", detail: "实验详情", analytics: "访问统计" };
+  const names = { home: "平台概览", history: "生成历史", detail: "实验详情", analytics: "访问统计", evaluation: "评估标准" };
   const header = document.querySelector(".topbar");
   if (header) header.innerHTML = `
     <a class="brand-link" href="history.html" aria-label="Eazo Studio 首页"><span class="brand-mark">e</span><span class="brand-name">eazo<span>CREATION STUDIO</span></span></a>
@@ -191,13 +192,13 @@ async function initTopbar(active) {
     <nav aria-label="主导航">
       <a href="index.html" data-page="home">${icon("grid")}<span>平台概览</span></a>
       <a href="history.html" data-page="history">${icon("layers")}<span>生成历史</span></a>
-      <a href="history.html#evaluation-notes" class="nav-evaluation">${icon("shield")}<span>评估标准</span></a>
+      <a href="evaluation.html" data-page="evaluation" class="nav-evaluation">${icon("shield")}<span>评估标准</span></a>
     </nav>
     <div class="nav-note"><strong>一个创意，两种可能。</strong>从自然语言到原生应用，<br>探索鸿蒙与安卓的创作边界。</div>
     <div class="sidebar-bottom"><div class="engine-panel"><div><span class="dot ok"></span>双端生成工作空间</div><p>HarmonyOS &nbsp; / &nbsp; Android</p></div><div class="sidebar-copyright">EAZO PLATFORM · 2026</div></div>`;
   if (!document.querySelector(".workspace-bar")) header.insertAdjacentHTML("afterend", `<div class="workspace-bar"><div class="breadcrumb">工作空间<span class="sep">/</span><strong>${esc(names[active] || "Eazo Studio")}</strong></div><div class="workspace-actions"><div class="health" id="health-indicator"><span class="dot ok"></span>公开展示</div><span class="workspace-tag">${icon("code")} NATIVE APP GENERATION</span><span class="avatar" aria-label="访客">E</span></div></div>`);
   const footer = document.querySelector(".footer");
-  if (footer) footer.innerHTML = `<div><span class="footer-brand">eazo.</span> 从创意到原生应用</div><div class="footer-links"><span>HarmonyOS × Android</span><a href="history.html#evaluation-notes">评估说明</a><span>© 2026 Eazo Studio</span></div>`;
+  if (footer) footer.innerHTML = `<div><span class="footer-brand">eazo.</span> 从创意到原生应用</div><div class="footer-links"><span>HarmonyOS × Android</span><a href="evaluation.html">评估说明</a><span>© 2026 Eazo Studio</span></div>`;
   document.querySelectorAll(".topbar nav a").forEach(a => {
     if (a.dataset.page === active || (active === "detail" && a.dataset.page === "history")) { a.classList.add("active"); a.setAttribute("aria-current", "page"); }
   });
@@ -215,4 +216,29 @@ async function initTopbar(active) {
       }
     }
   }
+}
+
+function showDialog({title, eyebrow = "EAZO STUDIO", description = "", content = "", confirmLabel, onConfirm}) {
+  const dialog = document.createElement("dialog");
+  dialog.className = "content-dialog";
+  dialog.setAttribute("aria-labelledby", "content-dialog-title");
+  dialog.innerHTML = `<button class="dialog-close" type="button" aria-label="关闭弹窗">${icon("close")}</button><p class="eyebrow">${esc(eyebrow)}</p><h2 id="content-dialog-title">${esc(title)}</h2>${description ? `<p class="dialog-description">${esc(description)}</p>` : ""}<div class="dialog-content">${content}</div><div class="msg dialog-error" role="alert"></div><div class="dialog-actions"><button class="btn ghost" data-dismiss>${onConfirm ? "取消" : "关闭"}</button>${onConfirm ? `<button class="btn danger" data-confirm>${esc(confirmLabel || "确认")}</button>` : ""}</div>`;
+  document.body.append(dialog);
+  let busy = false;
+  dialog.querySelectorAll(".dialog-close,[data-dismiss]").forEach(b => b.onclick = () => dialog.close());
+  dialog.addEventListener("cancel", e => {if (busy) e.preventDefault();});
+  dialog.addEventListener("close", () => dialog.remove(), {once:true});
+  if (onConfirm) dialog.querySelector("[data-confirm]").onclick = async () => {
+    busy = true;
+    dialog.querySelectorAll("button").forEach(b => b.disabled = true);
+    const button = dialog.querySelector("[data-confirm]");
+    button.textContent = "正在处理…";
+    const error = dialog.querySelector(".dialog-error"); clearMsg(error);
+    try {await onConfirm();dialog.close();}
+    catch (e) {msg(error,e.message);}
+    finally {busy=false;dialog.querySelectorAll("button").forEach(b=>b.disabled=false);button.textContent=confirmLabel||"确认";}
+  };
+  dialog.showModal();
+  dialog.querySelector("[data-dismiss]").focus();
+  return dialog;
 }

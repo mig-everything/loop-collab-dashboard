@@ -3,7 +3,7 @@
   initTopbar("analytics");
   const $=id=>document.getElementById(id);
   $("gate-icon").innerHTML=icon("lock");
-  const kinds={page_view:"页面访问",generate:"新建生成",incremental:"增量开发",login:"登录成功",login_failed:"登录失败"};
+  const kinds={page_view:"页面访问",generate:"新建生成",incremental:"增量开发",delete:"删除记录",login:"登录成功",login_failed:"登录失败"};
   const outcomes={recorded:"已记录",queued:"排队中",running:"运行中",success:"成功",failed:"失败",rejected:"已拒绝",interrupted:"已中断"};
   let page=1,sequence=0;
   const stamp=n=>new Date(n).toLocaleString("zh-CN",{timeZone:"Asia/Shanghai",year:"numeric",month:"2-digit",day:"2-digit",hour:"2-digit",minute:"2-digit",second:"2-digit",hour12:false});

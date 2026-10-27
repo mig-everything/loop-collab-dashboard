@@ -5,12 +5,12 @@
   $("btn-refresh").innerHTML = icon("refresh") + "刷新数据";
   $("new-project").innerHTML = icon("plus") + "新建应用";
   $("search-icon").outerHTML = icon("search");
-  $("evaluation-intro").innerHTML = icon("shield") + '<div><strong>四维综合评估，让每一次比较都有依据</strong><p>评分满分 100 · 缺失维度剔除后归一化 · H 为鸿蒙，A 为安卓</p></div>';
+  $("evaluation-intro").innerHTML = icon("shield") + '<div><strong>四维综合评估，让每一次比较都有依据</strong><p>评分满分 100 · 缺失维度剔除后归一化 · <a href="evaluation.html">查看评分公式与评估标准 →</a></p></div>';
   CATEGORIES.filter(([id]) => id).forEach(([id, label]) => $("category").add(new Option(label, id)));
   const categories = Object.fromEntries(CATEGORIES);
   const PAGE_SIZE = 8;
   let page = 1, status = "all", projects = [], reports = new Map(), thumbnails = {}, raw = null;
-  let searchTimer;
+  let searchTimer, loadSequence = 0;
   const dateKey = run => run && (run.started_at || run.finished_at || "") || "";
   function groupRuns(runs) {
     const grouped = new Map();
@@ -64,21 +64,32 @@
       const timestamp = item.started ? new Date(item.started) : null;
       const date = timestamp && !Number.isNaN(timestamp.valueOf()) ? timestamp.toLocaleDateString("sv-SE", {timeZone:"Asia/Shanghai"}) : "—";
       const time = timestamp && !Number.isNaN(timestamp.valueOf()) ? timestamp.toLocaleTimeString("en-GB", {timeZone:"Asia/Shanghai",hour:"2-digit",minute:"2-digit"}) : "";
-      return `<tr><td><div class="project-cell">${image}<div class="project-copy"><a class="project-title" href="detail.html?id=${encodeURIComponent(item.id)}">${esc(name)}${icon("arrowUp")}</a><p class="project-description" title="${esc(item.text)}">${esc(item.text)}</p><span class="project-id">${esc(item.id)}</span></div></div></td><td><span class="category-label">${esc(categories[item.category] || item.category || "其他")}</span></td><td>${badge(item.status)}</td><td>${renderRun(item.harmony)}</td><td>${renderRun(item.android)}</td><td>${renderScore(reports.get(item.id))}</td><td class="date-cell">${date}<small>${time} · CST</small></td></tr>`;
+      return `<tr><td><div class="project-cell">${image}<div class="project-copy"><a class="project-title" href="detail.html?id=${encodeURIComponent(item.id)}">${esc(name)}${icon("arrowUp")}</a><p class="project-description" title="${esc(item.text)}">${esc(item.text)}</p><span class="project-id">${esc(item.id)}</span></div></div></td><td><span class="category-label">${esc(categories[item.category] || item.category || "其他")}</span></td><td>${badge(item.status)}</td><td>${renderRun(item.harmony)}</td><td>${renderRun(item.android)}</td><td>${renderScore(reports.get(item.id))}</td><td class="date-cell">${date}<small>${time} · CST</small>${EazoAuth.isLoggedIn()?`<button class="record-delete" data-delete="${esc(item.id)}" aria-label="删除 ${esc(name)}" title="删除生成记录">${icon("trash")}删除</button>`:""}</td></tr>`;
     }).join("") : '<tr><td colspan="7" class="empty"><strong>没有找到匹配的应用</strong>试试其他关键词，或重置筛选条件。</td></tr>';
     $("rows").querySelectorAll("img").forEach(img => img.addEventListener("error", () => { const fallback = document.createElement("span"); fallback.className = "project-fallback"; fallback.textContent = "E"; img.replaceWith(fallback); }, {once:true}));
+    $("rows").querySelectorAll("[data-delete]").forEach(button => button.onclick = () => {
+      const item = projects.find(p => p.id === button.dataset.delete);
+      if (!item || !EazoAuth.isLoggedIn()) return;
+      showDialog({title:"删除这条生成记录？",eyebrow:"MANAGE YOUR WORKSPACE",description:"删除后将从生成列表移除，已生成的源码与操作审计保留。进行中的任务完成后才能删除。",content:`<div class="delete-preview"><strong>${esc(projectName(item.text))}</strong><code>${esc(item.id)}</code></div>`,confirmLabel:"确认删除",onConfirm:async()=>{
+        await EazoAuth.request("/api/requirements/"+encodeURIComponent(item.id),{method:"DELETE"});
+        await load();
+      }});
+    });
     const start = filtered.length ? (page - 1) * PAGE_SIZE + 1 : 0, end = Math.min(page * PAGE_SIZE, filtered.length);
     $("pager").innerHTML = `<span class="pager-info">显示 ${start}–${end} 项，共 ${filtered.length} 个应用</span><div class="page-controls"><button data-page="${page - 1}" ${page === 1 ? "disabled" : ""} aria-label="上一页">${icon("chevronLeft")}</button>${Array.from({length: pages}, (_, i) => `<button data-page="${i+1}" class="${page === i+1 ? "current" : ""}" ${page === i+1 ? 'aria-current="page"' : ""}>${i+1}</button>`).join("")}<button data-page="${page + 1}" ${page === pages ? "disabled" : ""} aria-label="下一页">${icon("chevronRight")}</button></div>`;
     $("pager").querySelectorAll("button").forEach(btn => btn.onclick = () => { page = Number(btn.dataset.page); render(); });
   }
   window.addEventListener("eazo:authchange", () => {page=1;load();});
   async function load() {
+    const sequence = ++loadSequence;
     clearMsg($("hist-msg"));
     $("btn-refresh").disabled = true;
     $("btn-refresh").innerHTML = '<span class="spin"></span>同步中';
     try {
       await EazoAuth.ready;
-      raw = await API.history(STATIC_MODE ? {} : {limit:100000});
+      const loaded = await API.history(STATIC_MODE ? {} : {limit:100000});
+      if (sequence !== loadSequence) return;
+      raw = loaded;
       projects = groupRuns(raw.runs || []);
       reports = new Map();
       for (const report of raw.reports || []) {
@@ -88,8 +99,9 @@
       thumbnails = raw.thumbs || {};
       renderSummary(); render();
       try { const health = await API.health(); $("data-time").textContent = health.exported_at ? "数据更新于 " + new Date(health.exported_at).toLocaleString("zh-CN", {timeZone:"Asia/Shanghai", month:"2-digit", day:"2-digit", hour:"2-digit", minute:"2-digit",hour12:false}) + " CST" : "数据已同步"; } catch (_) { $("data-time").textContent = "数据已同步"; }
-    } catch (e) { msg($("hist-msg"), "暂时无法加载生成记录：" + e.message); $("rows").innerHTML = '<tr><td colspan="7" class="empty">请点击右上角刷新数据重试。</td></tr>'; }
-    finally { $("btn-refresh").disabled = false; $("btn-refresh").innerHTML = icon("refresh") + "刷新数据"; }
+      if(raw.management_warning)$("data-time").textContent="管理服务暂时不可用，删除记录可能尚未同步";
+    } catch (e) { if(sequence!==loadSequence)return;msg($("hist-msg"), "暂时无法加载生成记录：" + e.message); $("rows").innerHTML = '<tr><td colspan="7" class="empty">请点击右上角刷新数据重试。</td></tr>'; }
+    finally { if(sequence===loadSequence){$("btn-refresh").disabled = false; $("btn-refresh").innerHTML = icon("refresh") + "刷新数据";} }
   }
   $("filter-form").onsubmit = ev => {ev.preventDefault(); page=1; render();};
   $("q").addEventListener("input", () => {clearTimeout(searchTimer); searchTimer = setTimeout(() => {page=1; render();}, 180);});

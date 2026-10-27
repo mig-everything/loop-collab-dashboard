@@ -41,10 +41,13 @@
     const method=(opts?.method||"GET").toUpperCase(),path=String(url).split("?")[0];
     if(method!=="GET") {if(!session){openLogin();throw new Error("请先登录管理员账户");}const data=await request(url,opts);const rid=data.id||data.requirement_id;if(rid)liveReqs.add(rid);return data;}
     if(session&&path==="/api/health")return request(url);
-    if(session&&path==="/api/history") {
-      const [staticData,liveData]=await Promise.all([originalJson("/api/history"),request("/api/history")]);
+    if(path==="/api/history") {
+      const signedIn=!!session;
+      const [staticData,liveData]=await Promise.all([originalJson("/api/history"),base?request(signedIn?"/api/history":"/api/history/deletions").catch(e=>{if(signedIn)throw e;return {deleted:[],management_warning:true};}):Promise.resolve({deleted:[]})]);
+      const removed=new Set(liveData.deleted||[]);
+      if(!signedIn)return {...staticData,runs:staticData.runs.filter(r=>!removed.has(r.requirement_id)),reports:staticData.reports.filter(r=>!removed.has(r.requirement_id)),management_warning:liveData.management_warning};
       const ids=new Set(liveData.runs.map(r=>r.requirement_id));ids.forEach(r=>liveReqs.add(r));liveData.runs.forEach(r=>liveRuns.add(r.id));
-      return {...staticData,runs:[...liveData.runs,...staticData.runs.filter(r=>!ids.has(r.requirement_id))],reports:[...staticData.reports.filter(r=>!ids.has(r.requirement_id)),...liveData.reports],thumbs:staticData.thumbs};
+      return {...staticData,runs:[...liveData.runs,...staticData.runs.filter(r=>!ids.has(r.requirement_id)&&!removed.has(r.requirement_id))],reports:[...staticData.reports.filter(r=>!ids.has(r.requirement_id)&&!removed.has(r.requirement_id)),...liveData.reports],thumbs:staticData.thumbs};
     }
     const match=path.match(/^\/api\/requirements\/([^/]+)(?:\/(.*))?$/);
     if(session&&match) {
@@ -61,5 +64,5 @@
   document.addEventListener("click",async e=>{const a=e.target.closest('a[href^="#download="]');if(!a)return;e.preventDefault();try{const key=decodeURIComponent(a.getAttribute("href").slice(10)),url=await blob(key),link=document.createElement("a");link.href=url;link.download=key.replace(/^asset_/,"");link.click();}catch(error){a.textContent=error.message;}});
   window.EazoAuth={request,post,openLogin,isLoggedIn:()=>!!session,render:renderAuth,ready:null};
   EazoAuth.ready=(async()=>{if(session)try{await request("/api/auth/session");}catch(e){if(e.status===401)setSession(null);}renderAuth();})();
-  window.addEventListener("DOMContentLoaded",()=>{renderAuth();if(base){const path=location.pathname;const page=/\/(index|history|detail|analytics)\.html$/.test(path)?path:path.replace(/\/$/,"/index.html");const event={id:"view_"+crypto.randomUUID(),page};fetch(base+"/api/events",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify(event),keepalive:true}).catch(()=>{});}});
+  window.addEventListener("DOMContentLoaded",()=>{renderAuth();if(base){const path=location.pathname;const page=/\/(index|history|detail|analytics|evaluation)\.html$/.test(path)?path:path.replace(/\/$/,"/index.html");const event={id:"view_"+crypto.randomUUID(),page};fetch(base+"/api/events",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify(event),keepalive:true}).catch(()=>{});}});
 })();
