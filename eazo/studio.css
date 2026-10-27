@@ -36,6 +36,11 @@ body{font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC"
 @media(max-width:620px){.evaluation-page .topbar{flex-wrap:wrap;gap:12px}.evaluation-page .topbar nav{width:100%;justify-content:space-between}}
 
 /* HMBot Studio identity and readable navigation. */
+#full-requirement{font-weight:600}
+.pager-toolbar{display:flex;align-items:center;justify-content:flex-end;gap:20px;flex-wrap:wrap}
+.page-size{display:flex;align-items:center;gap:8px;font-size:11px;color:var(--muted);white-space:nowrap}
+.page-size select{width:auto;min-width:62px;margin:0;padding:6px 9px;border:1px solid #cbd9d0;border-radius:6px;background:#fff;color:var(--ink);font-size:12px}
+@media(max-width:620px){.pager-toolbar{width:100%;justify-content:space-between;gap:12px}.page-controls{flex-wrap:wrap}}
 .brand-mark{flex:none;font-size:23px;letter-spacing:-1px}
 .brand-name{font-size:25px;letter-spacing:-.8px;font-weight:650;white-space:nowrap}
 .brand-name span{font-size:9px;letter-spacing:3.4px;color:#b3cec4;font-weight:600}

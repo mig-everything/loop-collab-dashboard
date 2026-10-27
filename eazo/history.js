@@ -8,8 +8,8 @@
   $("evaluation-intro").innerHTML = icon("shield") + '<div><strong>四维综合评估，让每一次比较都有依据</strong><p>评分满分 100 · 缺失维度剔除后归一化 · <a href="evaluation.html">查看评分公式与评估标准 →</a></p></div>';
   CATEGORIES.filter(([id]) => id).forEach(([id, label]) => $("category").add(new Option(label, id)));
   const categories = Object.fromEntries(CATEGORIES);
-  const PAGE_SIZE = 8;
-  let page = 1, status = "all", projects = [], reports = new Map(), thumbnails = {}, raw = null;
+  const PAGE_SIZES = [10, 20, 50, 100];
+  let pageSize = 10, page = 1, status = "all", projects = [], reports = new Map(), thumbnails = {}, raw = null;
   let searchTimer, loadSequence = 0;
   const dateKey = run => run && (run.started_at || run.finished_at || "") || "";
   function groupRuns(runs) {
@@ -53,9 +53,9 @@
   function render() {
     const q = $("q").value.trim().toLocaleLowerCase(), cat = $("category").value, side = $("side").value;
     const filtered = projects.filter(p => (!q || (p.text + " " + p.id).toLocaleLowerCase().includes(q)) && (!cat || p.category === cat) && (!side || p[side === "harmony" ? "harmony" : "android"]) && (status === "all" || (status === "succeeded" ? p.status === "succeeded" : p.status !== "succeeded")));
-    const pages = Math.max(1, Math.ceil(filtered.length / PAGE_SIZE));
+    const pages = Math.max(1, Math.ceil(filtered.length / pageSize));
     page = Math.max(1, Math.min(page, pages));
-    const items = filtered.slice((page - 1) * PAGE_SIZE, page * PAGE_SIZE);
+    const items = filtered.slice((page - 1) * pageSize, page * pageSize);
     $("reset-filters").hidden = !(q || cat || side || status !== "all");
     $("rows").innerHTML = items.length ? items.map((item, idx) => {
       const name = projectName(item.text), thumb = thumbnails[item.id];
@@ -75,8 +75,9 @@
         await load();
       }});
     });
-    const start = filtered.length ? (page - 1) * PAGE_SIZE + 1 : 0, end = Math.min(page * PAGE_SIZE, filtered.length);
-    $("pager").innerHTML = `<span class="pager-info">显示 ${start}–${end} 项，共 ${filtered.length} 个应用</span><div class="page-controls"><button data-page="${page - 1}" ${page === 1 ? "disabled" : ""} aria-label="上一页">${icon("chevronLeft")}</button>${Array.from({length: pages}, (_, i) => `<button data-page="${i+1}" class="${page === i+1 ? "current" : ""}" ${page === i+1 ? 'aria-current="page"' : ""}>${i+1}</button>`).join("")}<button data-page="${page + 1}" ${page === pages ? "disabled" : ""} aria-label="下一页">${icon("chevronRight")}</button></div>`;
+    const start = filtered.length ? (page - 1) * pageSize + 1 : 0, end = Math.min(page * pageSize, filtered.length);
+    $("pager").innerHTML = `<span class="pager-info">显示 ${start}–${end} 项，共 ${filtered.length} 个应用</span><div class="pager-toolbar"><label class="page-size" for="page-size">每页显示<select id="page-size">${PAGE_SIZES.map(size => `<option value="${size}"${size === pageSize ? " selected" : ""}>${size}</option>`).join("")}</select>条</label><div class="page-controls"><button data-page="${page - 1}" ${page === 1 ? "disabled" : ""} aria-label="上一页">${icon("chevronLeft")}</button>${Array.from({length: pages}, (_, i) => `<button data-page="${i+1}" class="${page === i+1 ? "current" : ""}" ${page === i+1 ? 'aria-current="page"' : ""}>${i+1}</button>`).join("")}<button data-page="${page + 1}" ${page === pages ? "disabled" : ""} aria-label="下一页">${icon("chevronRight")}</button></div></div>`;
+    $("page-size").onchange = () => { const size = Number($("page-size").value); if (PAGE_SIZES.includes(size)) { pageSize = size; page = 1; render(); } };
     $("pager").querySelectorAll("button").forEach(btn => btn.onclick = () => { page = Number(btn.dataset.page); render(); });
   }
   window.addEventListener("eazo:authchange", () => {page=1;load();});
