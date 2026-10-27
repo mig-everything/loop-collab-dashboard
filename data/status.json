@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T03:57:51Z",
+  "generated_at": "2026-10-27T04:01:49Z",
   "tasks": [
     {
       "id": "task1-survey",
@@ -347,9 +347,10 @@
           "role": "IPD-PM 产品经理",
           "model": "",
           "agent_id": "1764c131-5c09-48cb-aa48-3177d5256dbb",
-          "state": "idle",
+          "state": "working",
           "issue": "",
-          "issue_title": ""
+          "issue_title": "",
+          "since": "2026-10-27T03:58:51Z"
         },
         {
           "name": "hermes-sa",
