@@ -1,4 +1,4 @@
-/* Eazo 平台网页 UI 共享脚本（IPD-217；原生 JS，无框架） */
+/* HMBot Studio 网页 UI 共享脚本（IPD-217；原生 JS，无框架） */
 "use strict";
 
 /* IPD-525 静态模式：导出脚本在 HTML 里注入 window.EAZO_STATIC_MODE=true，
@@ -134,6 +134,7 @@ const ICON_PATHS = {
   chevronLeft: '<path d="m14 6-6 6 6 6"/>',
   chevronRight: '<path d="m10 6 6 6-6 6"/>',
   lock: '<rect x="5" y="10" width="14" height="11" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3m-4 5v2"/>',
+  user: '<circle cx="12" cy="8" r="4"/><path d="M4 21v-2a8 8 0 0 1 16 0v2"/>',
   trash: '<path d="M3 6h18M9 6V3h6v3M5 6l1 15h12l1-15M10 10v7m4-7v7"/>',
 };
 function icon(name) { return `<svg class="icon" viewBox="0 0 24 24" aria-hidden="true">${ICON_PATHS[name] || ICON_PATHS.grid}</svg>`; }
@@ -187,7 +188,7 @@ async function initTopbar(active) {
   const names = { home: "平台概览", history: "生成历史", detail: "实验详情", analytics: "访问统计", evaluation: "评估标准" };
   const header = document.querySelector(".topbar");
   if (header) header.innerHTML = `
-    <a class="brand-link" href="history.html" aria-label="Eazo Studio 首页"><span class="brand-mark">e</span><span class="brand-name">eazo<span>CREATION STUDIO</span></span></a>
+    <a class="brand-link" href="history.html" aria-label="HMBot Studio 首页"><span class="brand-mark" aria-hidden="true">H</span><span class="brand-name">HMBot<span>STUDIO</span></span></a>
     <div class="nav-label">WORKSPACE</div>
     <nav aria-label="主导航">
       <a href="index.html" data-page="home">${icon("grid")}<span>平台概览</span></a>
@@ -195,10 +196,10 @@ async function initTopbar(active) {
       <a href="evaluation.html" data-page="evaluation" class="nav-evaluation">${icon("shield")}<span>评估标准</span></a>
     </nav>
     <div class="nav-note"><strong>一个创意，两种可能。</strong>从自然语言到原生应用，<br>探索鸿蒙与安卓的创作边界。</div>
-    <div class="sidebar-bottom"><div class="engine-panel"><div><span class="dot ok"></span>双端生成工作空间</div><p>HarmonyOS &nbsp; / &nbsp; Android</p></div><div class="sidebar-copyright">EAZO PLATFORM · 2026</div></div>`;
-  if (!document.querySelector(".workspace-bar")) header.insertAdjacentHTML("afterend", `<div class="workspace-bar"><div class="breadcrumb">工作空间<span class="sep">/</span><strong>${esc(names[active] || "Eazo Studio")}</strong></div><div class="workspace-actions"><div class="health" id="health-indicator"><span class="dot ok"></span>公开展示</div><span class="workspace-tag">${icon("code")} NATIVE APP GENERATION</span><span class="avatar" aria-label="访客">E</span></div></div>`);
+    <div class="sidebar-bottom"><div class="engine-panel"><div><span class="dot ok"></span>双端生成工作空间</div><p>HarmonyOS &nbsp; / &nbsp; Android</p></div><div class="sidebar-copyright">HMBOT STUDIO · 2026</div></div>`;
+  if (!document.querySelector(".workspace-bar")) header.insertAdjacentHTML("afterend", `<div class="workspace-bar"><div class="breadcrumb">工作空间<span class="sep">/</span><strong>${esc(names[active] || "HMBot Studio")}</strong></div><div class="workspace-actions"><div class="health" id="health-indicator"><span class="dot ok"></span>公开展示</div><span class="workspace-tag">${icon("code")} NATIVE APP GENERATION</span><span class="avatar" aria-label="访客">H</span></div></div>`);
   const footer = document.querySelector(".footer");
-  if (footer) footer.innerHTML = `<div><span class="footer-brand">eazo.</span> 从创意到原生应用</div><div class="footer-links"><span>HarmonyOS × Android</span><a href="evaluation.html">评估说明</a><span>© 2026 Eazo Studio</span></div>`;
+  if (footer) footer.innerHTML = `<div><span class="footer-brand">HMBot Studio</span> 从创意到原生应用</div><div class="footer-links"><span>HarmonyOS × Android</span><a href="evaluation.html">评估说明</a><span>© 2026 HMBot Studio</span></div>`;
   document.querySelectorAll(".topbar nav a").forEach(a => {
     if (a.dataset.page === active || (active === "detail" && a.dataset.page === "history")) { a.classList.add("active"); a.setAttribute("aria-current", "page"); }
   });
@@ -218,7 +219,7 @@ async function initTopbar(active) {
   }
 }
 
-function showDialog({title, eyebrow = "EAZO STUDIO", description = "", content = "", confirmLabel, onConfirm}) {
+function showDialog({title, eyebrow = "HMBOT STUDIO", description = "", content = "", confirmLabel, onConfirm}) {
   const dialog = document.createElement("dialog");
   dialog.className = "content-dialog";
   dialog.setAttribute("aria-labelledby", "content-dialog-title");

@@ -22,7 +22,16 @@
   function loginDialog() {
     let dialog=document.getElementById("login-dialog");if(dialog)return dialog;
     dialog=document.createElement("dialog");dialog.id="login-dialog";dialog.className="login-dialog";
-    dialog.innerHTML=`<button class="dialog-close" type="button" aria-label="关闭登录">${icon("close")}</button><div class="login-mark">e</div><p class="eyebrow">WELCOME TO YOUR WORKSPACE</p><h2>创意，准备就绪。</h2><p class="login-description">登录管理员账户，开启新建生成、增量开发与访问统计。</p><form id="login-form"><label class="field">用户名<input name="username" autocomplete="username" required placeholder="请输入用户名"></label><label class="field">密码<input name="password" type="password" autocomplete="current-password" required placeholder="请输入密码"></label><div class="msg" id="login-error" role="alert"></div><button class="btn login-submit" type="submit">登录工作空间 ${icon("arrow")}</button></form><p class="login-footnote">管理员专属 · 安全连接</p>`;
+    dialog.setAttribute("aria-labelledby","login-title");
+    dialog.innerHTML=`<button class="dialog-close" type="button" aria-label="关闭登录">${icon("close")}</button>
+      <div class="login-brand"><span class="login-mark" aria-hidden="true">H</span><div><strong>HMBot Studio</strong><span>管理员工作空间</span></div></div>
+      <p class="eyebrow">WELCOME TO YOUR WORKSPACE</p><h2 id="login-title">让创意，继续生长。</h2>
+      <p class="login-description">登录管理员账户，开启新建生成、增量开发与访问统计。</p>
+      <form id="login-form">
+        <label class="login-field" for="login-username"><span>用户名</span><span class="login-input-wrap">${icon("user")}<input class="login-input" id="login-username" name="username" type="text" autocomplete="username" autocapitalize="none" spellcheck="false" required placeholder="请输入管理员用户名"></span></label>
+        <label class="login-field" for="login-password"><span>密码</span><span class="login-input-wrap">${icon("lock")}<input class="login-input" id="login-password" name="password" type="password" autocomplete="current-password" required placeholder="请输入登录密码"></span></label>
+        <div class="msg" id="login-error" role="alert"></div><button class="btn login-submit" type="submit">登录工作空间 ${icon("arrow")}</button>
+      </form><p class="login-footnote">${icon("shield")} 管理员专属 · 安全连接</p>`;
     document.body.append(dialog);dialog.querySelector(".dialog-close").onclick=()=>dialog.close();
     dialog.addEventListener("click",e=>{if(e.target===dialog){const r=dialog.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)dialog.close();}});
     dialog.querySelector("form").onsubmit=async e=>{e.preventDefault();const form=e.target,btn=form.querySelector("button"),error=document.getElementById("login-error");clearMsg(error);btn.disabled=true;btn.textContent="正在验证…";try{const data=await post("/api/auth/login",{username:form.username.value,password:form.password.value});form.password.value="";setSession(data);dialog.close();if(afterLogin){const callback=afterLogin;afterLogin=null;callback();}}catch(e){msg(error,e.message);}finally{btn.disabled=false;btn.innerHTML="登录工作空间 "+icon("arrow");}};

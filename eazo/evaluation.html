@@ -2,10 +2,10 @@
 <html lang="zh-CN">
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="icon" type="image/svg+xml" href="favicon.svg">
-<title>评估标准 · Eazo Studio</title>
-<meta name="description" content="了解 Eazo 双端应用的功能、页面、UI、生成耗时与 Token 评分方法，查看证据口径并交互演算综合分。">
-<link rel="stylesheet" href="style.css"><link rel="stylesheet" href="studio.css?v=20261027.3">
+<link rel="icon" type="image/svg+xml" href="favicon.svg?v=20261027.4">
+<title>评估标准 · HMBot Studio</title>
+<meta name="description" content="了解 HMBot Studio 双端应用的功能、页面、UI、生成耗时与 Token 评分方法，查看证据口径并交互演算综合分。">
+<link rel="stylesheet" href="style.css"><link rel="stylesheet" href="studio.css?v=20261027.4">
 </head>
 <body>
 <header class="topbar"></header>
@@ -30,5 +30,5 @@
   <section class="card method-section" id="calculator"><div class="method-heading"><span class="method-index">05</span><div><p class="eyebrow">TRY THE MATH</p><h2>动手算一次，更容易理解</h2></div></div><p class="method-note">使用货币换算器的报告数据作为初始示例。修改数值，或把某项留空观察权重变化。演算只发生在当前页面，不会修改应用报告。</p><div class="method-table-scroll"><table class="method-table calculator-table"><thead><tr><th>输入指标</th><th>鸿蒙 HarmonyOS</th><th>安卓 Android</th></tr></thead><tbody id="calculator-inputs"></tbody></table></div><div class="calculator-toolbar"><label><input type="checkbox" id="exclude-ui"> 模拟 UI 未评审或降级</label><button class="filter-reset" id="reset-calculator">恢复示例数据</button></div><div class="calculator-results" id="calculator-results" aria-live="polite"></div><p class="method-caption">计算结果是方法演示。真实报告还会读取各维度的降级标记、采集版本和证据来源，应以报告保存的综合分为准。</p></section>
   <section class="card method-section" id="reading"><div class="method-heading"><span class="method-index">06</span><div><p class="eyebrow">READ THE SCORE WITH CONTEXT</p><h2>高分、胜负与“通过”，分别代表什么</h2></div></div><div class="method-columns"><article><h3>综合分是比较指标</h3><p>卡片中较高的分数表示有效维度的加权结果更高，不保证每一项都占优。当前示例里，鸿蒙 UI 得分更高，安卓因为时间和 Token 更省，综合分仍更高。</p><h3>UI 胜负使用独立差值</h3><p>自动视觉评审中，鸿蒙分 − 安卓分 ≥12.5 为“鸿蒙胜”，≤−12.5 为“安卓胜”，其余为“基本持平”。该阈值不会再次扣除或奖励综合分。</p></article><article><h3>报告达标是另一套规则</h3><p>历史报告的 pass／fail／degraded 标签由其保存的阈值快照与逐维判据生成，并不等于“综合分超过某条及格线”。降级项不作为失败项，但报告会保留降级标记。</p><p class="method-note">旧版默认判据保存为功能 diff≤0、UI 差≥12.5、时长差&lt;0、Token 差&lt;0。历史功能差值的符号与“覆盖越多越好”的直观方向可能不同，因此请同时核对原始两端数值、formula、threshold_snapshot 和逐条证据，不从 pass 标签反推实际功能优劣。</p></article></div><div class="method-reading-check"><strong>阅读顺序</strong><span>先看构建状态</span><i>→</i><span>核对功能与 UI 证据</span><i>→</i><span>查看缺失维度</span><i>→</i><span>再比较综合分与效率</span></div><details class="method-source"><summary>本页说明依据</summary><p>评分口径对应生成引擎中的 composite_score、comparator、feature_matrix、uijudge_adapter／uijudge_service、claude_code_runner 与 verdict 实现。公式与历史报告分开说明，既有报告不会因说明页更新而被重算。</p><p>实现快照：686ad9219f32 · 本页更新于 2026-10-27。具体任务仍以报告中的 metrics_schema_version、rubric_version、engine_version 与阈值快照为准。</p></details></section>
 </main><footer class="footer"></footer>
-<script>window.EAZO_STATIC_MODE=true;</script><script src="config.js?v=20261027.3"></script><script src="app.js?v=20261027.3"></script><script src="auth.js?v=20261027.3"></script><script src="evaluation.js?v=20261027.3"></script>
+<script>window.EAZO_STATIC_MODE=true;</script><script src="config.js?v=20261027.4"></script><script src="app.js?v=20261027.4"></script><script src="auth.js?v=20261027.4"></script><script src="evaluation.js?v=20261027.4"></script>
 </body></html>
