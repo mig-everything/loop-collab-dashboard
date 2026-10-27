@@ -15,3 +15,14 @@ body{font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC"
 [hidden]{display:none!important}
 .analytics-chart{gap:3px}.analytics-chart .bar{min-width:1px}
 .private-detail main>.card:not(#private-detail-gate),.private-detail .detail-context{display:none}
+
+/* Keep both platform scores side by side in the detail comparison. */
+.detail-page .cmp-score-wrap {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  align-items: stretch;
+}
+.detail-page .cmp-score-card { min-width: 0; }
+@media (max-width: 620px) {
+  .detail-page .cmp-score-side { min-height: 3.6em; line-height: 1.6; }
+}
