@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>HMBot Studio · 实验详情</title>
 <link rel="stylesheet" href="style.css">
-<link rel="stylesheet" href="studio.css?v=20261027.5">
+<link rel="stylesheet" href="studio.css?v=20261027.6">
 
 </head>
 <body>
@@ -27,6 +27,12 @@
   <details class="detail-context" open><summary>查看完整需求</summary><p id="full-requirement"></p></details>
 
   <div class="msg" id="detail-msg"></div>
+  <div class="version-toolbar" id="version-toolbar" hidden>
+    <label for="version-select">查看生成版本</label>
+    <select id="version-select"></select>
+    <span id="version-note"></span>
+  </div>
+  <div class="recovery-note" id="recovery-note" hidden></div>
 
   <section class="card">
     <h3>双端生成结果</h3>
@@ -99,6 +105,10 @@
   // uijudge 评审按钮；health 失败按开放处理（保持离线开发体验）
   let writeOpen = false;
   let detailTimer = null;
+  let loadSequence = 0;
+  let selectedVersion = params.get("version") || "";
+  let versionReports = new Map();
+  const versionQuery = () => selectedVersion ? `?version=${encodeURIComponent(selectedVersion)}` : "";
 
   if (!reqId) { msg(msgEl, "缺少 ?id= 参数"); return; }
 
@@ -116,7 +126,9 @@
   };
 
   async function loadAll() {
+    const sequence=++loadSequence;
     await EazoAuth.ready;
+    if(sequence!==loadSequence)return;
     clearTimeout(detailTimer);
     const privateLocked=reqId.startsWith("req_web_")&&!EazoAuth.isLoggedIn();
     document.body.classList.toggle("private-detail",privateLocked);
@@ -127,13 +139,15 @@
     if(privateLocked){document.getElementById("req-title").textContent="你的应用工作空间";document.getElementById("req-desc").textContent="安全访问生成结果、源码与增量记录。";clearMsg(msgEl);return;}
     clearMsg(msgEl);
     let req;
-    try { req = await API.requirement(reqId); }
-    catch (e) { msg(msgEl, `需求加载失败：${e.code} ${e.message}`); return; }
+    try { req = await API.json(`/api/requirements/${encodeURIComponent(reqId)}${versionQuery()}`); }
+    catch (e) { if(sequence===loadSequence)msg(msgEl, `需求加载失败：${e.code} ${e.message}`); return; }
+    if(sequence!==loadSequence)return;
 
     try {
       const h = await API.health();
       writeOpen = EazoAuth.isLoggedIn() && h.write_open !== false;
     } catch (_) { /* 默认 write_open=true */ }
+    if(sequence!==loadSequence)return;
     document.getElementById("inc-form").style.display=writeOpen?"block":"none";
     document.getElementById("inc-login-gate").hidden=writeOpen;
 
@@ -142,18 +156,38 @@
       `需求 <code class="sha">${esc(req.id)}</code> · 类别 <b>${esc(req.category_id || "—")}</b> · 状态 ${badge(req.status)} · 创建于 ${fmtTime(req.created_at)} CST`;
 
     document.getElementById("full-requirement").textContent = req.nl_text || "";
+    const toolbar=document.getElementById("version-toolbar"),select=document.getElementById("version-select");
+    const versions=req.versions || [];
+    versionReports=new Map(versions.filter(v=>v.report_id).map(v=>[v.report_id,v.id]));
+    toolbar.hidden=versions.length<2;
+    if(versions.length>=2){
+      select.innerHTML='<option value="">最新版本</option>'+versions.map(v=>`<option value="${esc(v.id)}">${esc(v.label)} · ${esc(projectName(v.nl_text))}</option>`).join("");
+      select.value=selectedVersion;
+      document.getElementById("version-note").textContent=selectedVersion?'提交新增量时将基于最新版本':'可切换查看新建和每次增量的结果';
+    }
+    const recovered=document.getElementById("recovery-note");
+    recovered.hidden=!req.recovery;
+    recovered.textContent=req.recovery?'已同步本机验证的生成及增量记录。原云端任务曾因回传超时失败，历史记录已保留。部分历史测试的功能评分使用通用用例，请结合实际截图与测试结果查看。':'';
     if(req.job?.error)msg(msgEl,req.job.error);
     renderRuns(req.runs || []);
     if(req.job&&["queued","running"].includes(req.job.status)){
       if(!(req.runs||[]).length)document.getElementById("runs").innerHTML='<div class="empty"><span class="spin"></span>任务正在排队，执行器将开始双端生成。</div>';
       detailTimer=setTimeout(loadAll,12000);
     }
-    renderSkills();
-    renderReport(req);
-    renderShots(req.runs || []);
-    renderDownloads(req.runs || []);
+    renderSkills(sequence);
+    renderReport(req,sequence);
+    renderShots(req.runs || [],sequence);
+    renderDownloads(req.runs || [],sequence);
     loadIncrementals();
   }
+
+  document.getElementById("version-select").addEventListener("change",e=>{
+    selectedVersion=e.target.value;
+    const url=new URL(location.href);
+    if(selectedVersion)url.searchParams.set("version",selectedVersion);else url.searchParams.delete("version");
+    history.replaceState(null,"",url);
+    loadAll();
+  });
 
   function renderRuns(runs) {
     const el = document.getElementById("runs");
@@ -163,7 +197,7 @@
         <div class="row">
           ${sideChip(r.run_side)}
           ${badge(r.status)}
-          <span>模式 ${esc(r.mode || "full")}</span>
+          <span>模式 ${esc(r.mode === "incremental" ? "增量" : r.mode === "full" || !r.mode ? "新建" : r.mode)}</span>
           <span>耗时 <b>${fmtDur(r.duration_ms)}</b></span>
           <span>Token <b>${fmtTokens(r.token_usage)}</b></span>
           ${r.commit_sha ? shortSha(r.commit_sha) : ""}
@@ -175,10 +209,11 @@
       </div>`).join("");
   }
 
-  async function renderSkills() {
+  async function renderSkills(sequence=loadSequence) {
     const card=document.getElementById("skills-card"),el=document.getElementById("skills");
     try {
-      const data=await API.skills(reqId),sides=data.sides||[];
+      const data=await API.json(`/api/requirements/${encodeURIComponent(reqId)}/skills${versionQuery()}`),sides=data.sides||[];
+      if(sequence!==loadSequence)return;
       const h=sides.find(s=>s.side==="harmony")||{},a=sides.find(s=>s.side==="android_baseline")||{};
       if(!h.run_id&&!a.run_id){card.style.display="none";return;}
       card.style.display="";
@@ -190,7 +225,7 @@
         ${[["Prompt 版本","prompt","prompt_version"],["模板版本","template","template_version"],["模型","model","model_id"]].map(([label,kind,key])=>row(label,kind,valueButton(kind,"harmony",h.engine?.[key]),valueButton(kind,"android_baseline",a.engine?.[key]))).join("")}
       </tbody></table><p class="reference-hint">点击名称或版本，查看对应内容与来源。</p>`;
       el.querySelectorAll("[data-reference]").forEach(button=>button.onclick=()=>openReferenceDialog(button.dataset.reference,sides,button.dataset.side,Number(button.dataset.index)||0));
-    } catch (_) {card.style.display="none";}
+    } catch (_) {if(sequence===loadSequence)card.style.display="none";}
   }
 
   // 综合评价分数卡：服务端算好（report.composite），前端只展示；高分端皇冠+绿色描边
@@ -251,10 +286,10 @@
     return (n > 0 ? "+" : "") + n + (suffix || "");
   }
 
-  async function renderReport(req) {
+  async function renderReport(req,sequence=loadSequence) {
     const el = document.getElementById("report");
     const meta = document.getElementById("report-meta");
-    if (["queued", "running"].includes(req.job?.status)) {
+    if (["queued", "running"].includes(req?.job?.status)) {
       meta.textContent = "";
       renderComposite(null);
       el.innerHTML = '<div class="empty"><span class="spin"></span>双端任务完成后生成对比报告。</div>';
@@ -262,7 +297,8 @@
     }
     el.innerHTML = `<div class="empty"><span class="spin"></span>加载报告…</div>`;
     try {
-      const rep = await API.report(reqId);
+      const rep = await API.json(`/api/requirements/${encodeURIComponent(reqId)}/report${versionQuery()}`);
+      if(sequence!==loadSequence)return;
       renderComposite(rep.composite || null);
       meta.textContent = `${rep.id} · ${fmtTime(rep.created_at)}${rep.is_incremental ? " · 增量" : ""}`;
       const d = rep.dimensions || {};
@@ -310,6 +346,7 @@
       renderFeatures(d.features || []);
       renderUiJudge(d.uijudge_detail || null, d.page || {});
     } catch (e) {
+      if(sequence!==loadSequence)return;
       el.innerHTML = "";
       renderComposite(null);
       renderUiJudge(null, null);
@@ -319,7 +356,8 @@
           <span style="font-size:12.5px">双端均成功（含 commit）后自动可算；增量迭代完成后亦会产出新报告。</span></div>`;
         // 功能清单独立于报告（IPD-251）：导入实验无真实 commit 时仍可展示功能核验视图
         try {
-          const fm = await API.json(`/api/requirements/${reqId}/features`);
+          const fm = await API.json(`/api/requirements/${encodeURIComponent(reqId)}/features${versionQuery()}`);
+          if(sequence!==loadSequence)return;
           renderFeatures(fm.features || []);
         } catch (_) { /* 功能证据缺失则隐藏卡片 */ }
       } else {
@@ -451,24 +489,26 @@
     return notes;
   }
 
-  async function renderShots(runs) {
+  async function renderShots(runs,sequence=loadSequence) {
     const el = document.getElementById("shots");
     const finished = runs.filter(r => r.status === "success" || r.status === "failed");
     if (!finished.length) { el.innerHTML = `<div class="empty">生成完成后展示双端截图</div>`; return; }
     el.innerHTML = `<div class="empty"><span class="spin"></span>加载截图…</div>`;
-    const notes = captureNotes(finished);
-    const notesHtml = notes.length
-      ? `<div style="color:var(--muted);font-size:12.5px;margin-bottom:8px">${notes.map(esc).join("<br>")}</div>` : "";
     const bySide = { harmony: [], android_baseline: [] };
     for (const r of finished) {
       try {
         const shots = await API.screenshots(r.id);
+        if(sequence!==loadSequence)return;
         for (const s of shots) {
           const side = bySide[s.side] ? s.side : (r.run_side === "harmony" ? "harmony" : "android_baseline");
           bySide[side].push(s);
         }
       } catch (_) { /* EZO-ART-002：该 run 无截图，跳过 */ }
     }
+    if(sequence!==loadSequence)return;
+    const notes = captureNotes(finished.filter(r=>!(bySide[r.run_side]||[]).length));
+    const notesHtml = notes.length
+      ? `<div style="color:var(--muted);font-size:12.5px;margin-bottom:8px">${notes.map(esc).join("<br>")}</div>` : "";
     const hs = bySide.harmony, as = bySide.android_baseline;
     if (!hs.length && !as.length) {
       el.innerHTML = notesHtml + `<div class="empty">双端暂无入库截图${notes.length ? "" : "（模拟器取证由生成流程/人工补录）"}</div>`; return;
@@ -491,12 +531,13 @@
     el.innerHTML = notesHtml + rows.join("");
   }
 
-  async function renderDownloads(runs) {
+  async function renderDownloads(runs,sequence=loadSequence) {
     const el = document.getElementById("downloads");
     let ok = runs.filter(r => r.status === "success" && r.artifacts_dir);
     if (STATIC_MODE) {
       // 静态模式只渲染已实际导出的 zip（导出脚本写 data/zips_index.json 清单）
       const idx = await API.zipsIndex();
+      if(sequence!==loadSequence)return;
       const ids = new Set((idx && idx.runs) || []);
       ok = ok.filter(r => ids.has(r.id));
       if (!ok.length) { el.innerHTML = `<div class="empty">本静态站未导出源码包</div>`; return; }
@@ -521,7 +562,7 @@
           <div class="row" style="margin-top:4px;font-size:12.5px;color:var(--muted)">
             ${fmtTime(i.created_at)} · 新 commit h=${esc((i.new_commit_sha_harmony || "—").slice(0, 10))}
             a=${esc((i.new_commit_sha_android || "—").slice(0, 10))}
-            ${i.new_report_id ? ' · <a href="#" onclick="location.reload();return false;">新报告</a>' : ""}
+          ${i.new_report_id && versionReports.has(i.new_report_id) ? ` · <a href="?id=${encodeURIComponent(reqId)}&amp;version=${encodeURIComponent(versionReports.get(i.new_report_id))}#report">查看本次报告</a>` : ""}
           </div>
         </div>`).join("") : `<div class="empty">暂无增量迭代记录</div>`;
     } catch (_) {
